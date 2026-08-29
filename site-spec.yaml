@@ -6,7 +6,7 @@ site:
   id: halloween-the-game
   mode: standalone
   locale: en
-  siteUrl: "https://halloween-the-game.vercel.app/"
+  siteUrl: "https://halloween-the-game-guide.vercel.app/"
   hubPath: /
   title: "Halloween: The Game Guide — Early Access, Editions & Launch Answers"
   shortName: "Halloween: The Game"
@@ -17,8 +17,8 @@ deployment:
   provider: vercel
   orgId: "team_yAOizMTSVuT0RJATgFdAlQuG"
   projectId: "prj_oJFgfGvJ1rgCJH4O6Wm8UyyTafoU"
-  projectName: "halloween-the-game"
-  productionUrl: "https://halloween-the-game.vercel.app/"
+  projectName: "halloween-the-game-guide"
+  productionUrl: "https://halloween-the-game-guide.vercel.app/"
   productionBranch: ""
 
 game:

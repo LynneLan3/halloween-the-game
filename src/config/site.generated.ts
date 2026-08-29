@@ -11,7 +11,7 @@ export const siteConfig: GameConfig = {
 	title: "Halloween: The Game Guide — Early Access, Editions & Launch Answers",
 	description: "Launch-window answers for Advance Access timing, Standard vs Deluxe editions, offline modes, Steam Deck status, Australia classification, and match-length questions.",
 	tagline: "Advance Access, editions, and launch-status answers for the Sep 2026 release window.",
-	siteUrl: "https://halloween-the-game.vercel.app/",
+	siteUrl: "https://halloween-the-game-guide.vercel.app/",
 	siteMode: "standalone",
 	hubPath: "/",
 	hubTitle: "Halloween: The Game Guide",
