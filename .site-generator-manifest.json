@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "templateVersion": "2.0.0",
+  "generatorVersion": "1.0.0",
+  "specHash": "3d90e1176521aa0508ca105019637b91df4846f2d9f767957624cb7707ba77be",
+  "siteId": "halloween-the-game",
+  "createdFromSpec": "site-spec.yaml",
+  "managedFiles": [
+    {
+      "path": "public/080dada7-bcf2-4798-ae88-78ea80b674e3.txt",
+      "sha256": "78dad10e6c7d5379821fa6e6bc40d70dcbfd35c25d2497d06373dfd4dfb2b9ab",
+      "kind": "other"
+    },
+    {
+      "path": "src/assets/covers/halloween-gameplay-1.jpg",
+      "sha256": "73c9fbc4a44f8f1cb0e1d62ad1bf27247963e67f5dd15376cb60832adc151859",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/covers/halloween-gameplay-2.jpg",
+      "sha256": "2ba971d1de7f59053cb0ef5152a0e4da0a1dc2f614ecdd7218d83ed44a896bb3",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/hero/halloween-hero.jpg",
+      "sha256": "81127fb47124260587083b8409db5a3553d14d60d278c4cd276409aecbf836a7",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/social/halloween-social.jpg",
+      "sha256": "81127fb47124260587083b8409db5a3553d14d60d278c4cd276409aecbf836a7",
+      "kind": "asset"
+    },
+    {
+      "path": "src/config/indexnow-key.json",
+      "sha256": "b2091309c3a09657f3a5584b24116cf264509b0f3bc22bf61dec7112c7acb551",
+      "kind": "config"
+    },
+    {
+      "path": "src/config/site.generated.ts",
+      "sha256": "27a276a0dd2b7ecaf4699c269091fe40a55bcb5c50dedbc1a36bd479668c4718",
+      "kind": "config"
+    },
+    {
+      "path": "src/content/docs/guides/bots-private-lobbies-offline.md",
+      "sha256": "6e6a62b60b4607bb7b5732fc6a15054ef670a1900d2e6db53df99b6d9919a6c9",
+      "kind": "page"
+    },
+    {
+      "path": "src/content/docs/guides/early-access-release-time.md",
+      "sha256": "6d1984930e099100981e60b5319e5082d4207c79c2cb1c38b60042f41d699669",
+      "kind": "page"
+    },
+    {
+      "path": "src/content/docs/guides/match-length-timer.md",
+      "sha256": "182a9d9f714d576a82b28c459663edb901025560d8a57127a4b6a2454ec75208",
+      "kind": "page"
+    },
+    {
+      "path": "src/content/docs/guides/standard-vs-deluxe-upgrade.md",
+      "sha256": "d323134a7b948c51f43708a7b60d377e41a2387f50154e1339c448b0dffb84e3",
+      "kind": "page"
+    },
+    {
+      "path": "src/content/docs/index.mdx",
+      "sha256": "8dc6fca813b8516ed9a705275154e905ec04081bb47d9f52ef26a689720a9ce1",
+      "kind": "hub"
+    },
+    {
+      "path": "src/content/docs/reference/australia-release-status.md",
+      "sha256": "d17ce161e97f41b7eaf5044ada6267384243d6743d8788d1600b4d3929dd5624",
+      "kind": "page"
+    },
+    {
+      "path": "src/content/docs/reference/steam-deck.md",
+      "sha256": "52964b134fd902f5cf84185520ce55926904da15ed084d3bc9aa56a74ccf3bff",
+      "kind": "page"
+    }
+  ],
+  "managedAssets": [
+    {
+      "id": "halloween-gameplay-1",
+      "target": "covers/halloween-gameplay-1.jpg",
+      "source": "site-input/assets/halloween-gameplay-1.jpg",
+      "sha256": "73c9fbc4a44f8f1cb0e1d62ad1bf27247963e67f5dd15376cb60832adc151859",
+      "usageStatus": "review-required",
+      "sourceType": "store"
+    },
+    {
+      "id": "halloween-gameplay-2",
+      "target": "covers/halloween-gameplay-2.jpg",
+      "source": "site-input/assets/halloween-gameplay-2.jpg",
+      "sha256": "2ba971d1de7f59053cb0ef5152a0e4da0a1dc2f614ecdd7218d83ed44a896bb3",
+      "usageStatus": "review-required",
+      "sourceType": "store"
+    },
+    {
+      "id": "halloween-hero",
+      "target": "hero/halloween-hero.jpg",
+      "source": "site-input/assets/halloween-hero.jpg",
+      "sha256": "81127fb47124260587083b8409db5a3553d14d60d278c4cd276409aecbf836a7",
+      "usageStatus": "review-required",
+      "sourceType": "store"
+    },
+    {
+      "id": "halloween-social",
+      "target": "social/halloween-social.jpg",
+      "source": "site-input/assets/halloween-social.jpg",
+      "sha256": "81127fb47124260587083b8409db5a3553d14d60d278c4cd276409aecbf836a7",
+      "usageStatus": "review-required",
+      "sourceType": "store"
+    }
+  ]
+}

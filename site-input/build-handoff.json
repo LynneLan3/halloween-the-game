@@ -1,0 +1,287 @@
+{
+  "TaskID": "halloween-site-build-20260829",
+  "OpportunityID": "opp-halloween-the-game-3219630",
+  "DecisionID": "decision-halloween-build-20260829",
+  "Game": "Halloween: The Game",
+  "GameID": "halloween-the-game",
+  "SteamAppID": "3219630",
+  "SiteID": "halloween-the-game",
+  "RepoPath": "/Users/lanling/Code/hot_words_websites/halloween-the-game",
+  "GithubRepo": "LynneLan3/halloween-the-game",
+  "ProjectSlug": "halloween-the-game",
+  "ActionType": "BUILD",
+  "TaskType": "SITE_BUILD",
+  "HandoffStatus": "SITE_CREATION_REQUIRED",
+  "BuildRationale": "Launch-window guide cluster for Sep 4 Advance Access and Sep 8 digital release search intents. Avoid broad wiki pages already crowded in SERP.",
+  "ResearchStatus": {
+    "status": "COMPLETE",
+    "completedJobs": [
+      "research-halloween-launch",
+      "research-halloween-editions",
+      "research-halloween-multiplayer",
+      "research-halloween-platforms",
+      "research-halloween-australia",
+      "research-halloween-match-length"
+    ],
+    "requiredJobs": [
+      "research-halloween-launch",
+      "research-halloween-editions",
+      "research-halloween-multiplayer",
+      "research-halloween-platforms",
+      "research-halloween-australia",
+      "research-halloween-match-length"
+    ],
+    "researchDate": "2026-08-29",
+    "sourcePacket": "builds/halloween-the-game/research-packet.md"
+  },
+  "WriterStatus": {
+    "status": "COMPLETE",
+    "completedPages": [
+      "/early-access-release-time/",
+      "/standard-vs-deluxe-upgrade/",
+      "/bots-private-lobbies-offline/",
+      "/steam-deck/",
+      "/australia-release-status/",
+      "/match-length-timer/"
+    ],
+    "requiredPages": [
+      "/early-access-release-time/",
+      "/standard-vs-deluxe-upgrade/",
+      "/bots-private-lobbies-offline/",
+      "/steam-deck/",
+      "/australia-release-status/",
+      "/match-length-timer/"
+    ],
+    "route": "APIMart",
+    "model": "gpt-5-mini",
+    "completedAt": "2026-08-29T06:36:05.728Z"
+  },
+  "MediaRightsStatus": {
+    "status": "REVIEW_REQUIRED",
+    "warnings": [
+      "Steam store screenshots packaged with sourceType=store; formal production reuse clearance not yet recorded."
+    ]
+  },
+  "UnresolvedPublishRisks": [
+    "Australia SKU-level sale status may change before launch.",
+    "Steam Deck compatibility unverified until post-launch testing.",
+    "Official multiplayer match timer not published."
+  ],
+  "InitialPagePlan": [
+    {
+      "priority": 0,
+      "slug": "/",
+      "type": "home",
+      "workingTitle": "Halloween: The Game Guide — Early Access, Editions & Launch Answers",
+      "intent": "Launch hub for Sep 4 Advance Access and Sep 8 release questions",
+      "publishGate": "REQUIRED"
+    },
+    {
+      "priority": 1,
+      "slug": "/early-access-release-time/",
+      "type": "guide",
+      "workingTitle": "Halloween: The Game Early Access — September 4 Release Time & Countdown",
+      "intent": "Advance Access Sep 4 9 AM PT, full release Sep 8, edition eligibility",
+      "publishGate": "FACTS_VERIFIED"
+    },
+    {
+      "priority": 2,
+      "slug": "/standard-vs-deluxe-upgrade/",
+      "type": "guide",
+      "workingTitle": "Halloween: The Game Standard vs Deluxe — Can You Upgrade Later?",
+      "intent": "Standard vs Deluxe pricing, upgrade path, Richard/Alexis, Phantom vs Inmate skins",
+      "publishGate": "FACTS_VERIFIED"
+    },
+    {
+      "priority": 3,
+      "slug": "/bots-private-lobbies-offline/",
+      "type": "guide",
+      "workingTitle": "Does Halloween: The Game Have Bots? Private Lobbies & Offline Mode Explained",
+      "intent": "Story mode, offline bots, private lobbies, AI fill status",
+      "publishGate": "PARTIAL_VERIFICATION"
+    },
+    {
+      "priority": 4,
+      "slug": "/steam-deck/",
+      "type": "reference",
+      "workingTitle": "Halloween: The Game Steam Deck — Compatibility, Easy Anti-Cheat & Launch Status",
+      "intent": "Steam Deck verification, EAC, Windows requirements, controller support",
+      "publishGate": "PARTIAL_VERIFICATION"
+    },
+    {
+      "priority": 5,
+      "slug": "/australia-release-status/",
+      "type": "reference",
+      "workingTitle": "Is Halloween: The Game Banned in Australia? Current Release Status",
+      "intent": "Australian RC decision, reason, SKU/storefront differences, legal sale status",
+      "publishGate": "FACTS_VERIFIED"
+    },
+    {
+      "priority": 6,
+      "slug": "/match-length-timer/",
+      "type": "guide",
+      "workingTitle": "How Long Are Halloween: The Game Matches? 12-Minute Timer Explained",
+      "intent": "12-minute footage concern vs confirmed rules",
+      "publishGate": "PARTIAL_VERIFICATION"
+    }
+  ],
+  "InitialResearchJobs": [
+    {
+      "id": "research-halloween-launch",
+      "topic": "Advance Access time, full release, edition eligibility",
+      "deliverable": "Early access page facts",
+      "sources": [
+        "https://halloweengame.com/news/preorder/",
+        "https://store.steampowered.com/app/3219630/Halloween_The_Game/",
+        "https://store.playstation.com/en-us/product/UP3095-PPSA29340_00-HALLOWEENDELUXED"
+      ]
+    },
+    {
+      "id": "research-halloween-editions",
+      "topic": "Standard vs Deluxe pricing, upgrade, exclusives",
+      "deliverable": "Editions page facts",
+      "sources": [
+        "https://halloweengame.com/news/preorder/",
+        "https://www.xbox.com/en-US/games/store/halloween-digital-deluxe-upgrade/9mt8jbqs8lnr"
+      ]
+    },
+    {
+      "id": "research-halloween-multiplayer",
+      "topic": "Story mode, offline bots, private lobbies",
+      "deliverable": "Multiplayer/offline page facts",
+      "sources": [
+        "https://store.steampowered.com/app/3219630/Halloween_The_Game/",
+        "https://www.ign.com/articles/halloween-revealed-by-friday-the-13th-the-game-developer-ign-interviews-illfonic-on-the-single-player-story-mode-working-with-john-carpenter-and-more"
+      ]
+    },
+    {
+      "id": "research-halloween-platforms",
+      "topic": "Steam Deck, EAC, PC requirements",
+      "deliverable": "Steam Deck status page",
+      "sources": [
+        "https://store.steampowered.com/app/3219630/Halloween_The_Game/",
+        "https://www.pcgamingwiki.com/wiki/Halloween:_The_Game"
+      ]
+    },
+    {
+      "id": "research-halloween-australia",
+      "topic": "Australian RC and storefront status",
+      "deliverable": "Australia status page with freshness",
+      "sources": [
+        "https://press-start.com.au/news/playstation/2026/08/14/halloween-the-game-classification-board-statement/"
+      ]
+    },
+    {
+      "id": "research-halloween-match-length",
+      "topic": "Match timer observations vs official rules",
+      "deliverable": "Match length page",
+      "sources": [
+        "https://store.steampowered.com/app/3219630/Halloween_The_Game/"
+      ]
+    }
+  ],
+  "InitialWriterJobs": [
+    {
+      "page": "/early-access-release-time/",
+      "route": "APIMart",
+      "afterResearch": [
+        "research-halloween-launch"
+      ]
+    },
+    {
+      "page": "/standard-vs-deluxe-upgrade/",
+      "route": "APIMart",
+      "afterResearch": [
+        "research-halloween-editions"
+      ]
+    },
+    {
+      "page": "/bots-private-lobbies-offline/",
+      "route": "APIMart",
+      "afterResearch": [
+        "research-halloween-multiplayer"
+      ]
+    },
+    {
+      "page": "/steam-deck/",
+      "route": "APIMart",
+      "afterResearch": [
+        "research-halloween-platforms"
+      ]
+    },
+    {
+      "page": "/australia-release-status/",
+      "route": "APIMart",
+      "afterResearch": [
+        "research-halloween-australia"
+      ]
+    },
+    {
+      "page": "/match-length-timer/",
+      "route": "APIMart",
+      "afterResearch": [
+        "research-halloween-match-length"
+      ]
+    }
+  ],
+  "PreBuildSnapshot": {
+    "steam": {
+      "appId": "3219630",
+      "releaseDateSteam": "2026-09-08",
+      "daysToRelease": 10,
+      "priceUsdStandard": "39.99",
+      "priceUsdDeluxe": "59.99"
+    },
+    "officialFacts": {
+      "developer": "IllFonic",
+      "publisher": "IllFonic Publishing",
+      "platforms": [
+        "PC",
+        "PlayStation 5",
+        "Xbox Series X|S"
+      ],
+      "earlyAccess": true,
+      "advanceAccessDate": "2026-09-04T09:00:00-07:00"
+    },
+    "analytics": {
+      "gameSlug": "halloween-the-game",
+      "launchDate": "2026-09-08",
+      "ga4": {
+        "enabled": false
+      },
+      "vercelAnalytics": {
+        "enabled": true
+      }
+    },
+    "visualAssets": [
+      {
+        "id": "halloween-hero",
+        "role": "hero",
+        "sourceUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219630/153ed105c4b409fe689783e4f9b6aad72c152646/header.jpg?t=1787962852",
+        "sourceType": "store",
+        "alt": "Halloween: The Game Steam header artwork"
+      },
+      {
+        "id": "halloween-gameplay-1",
+        "role": "gameplay",
+        "sourceUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219630/fef848f20a2a5e857ee275662acf979b89754af7/ss_fef848f20a2a5e857ee275662acf979b89754af7.1920x1080.jpg?t=1787962852",
+        "sourceType": "store",
+        "alt": "Michael Myers stalking in Halloween: The Game"
+      },
+      {
+        "id": "halloween-gameplay-2",
+        "role": "gameplay",
+        "sourceUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219630/b6788a76e909167f1e599e62f52ea0a9734aa133/ss_b6788a76e909167f1e599e62f52ea0a9734aa133.1920x1080.jpg?t=1787962852",
+        "sourceType": "store",
+        "alt": "Survivors in Haddonfield in Halloween: The Game"
+      },
+      {
+        "id": "halloween-social",
+        "role": "social",
+        "sourceUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219630/153ed105c4b409fe689783e4f9b6aad72c152646/header.jpg?t=1787962852",
+        "sourceType": "store",
+        "alt": "Halloween: The Game launch guide social image"
+      }
+    ]
+  }
+}

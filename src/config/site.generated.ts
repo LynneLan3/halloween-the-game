@@ -2,286 +2,232 @@
  * This file is generated from site-spec.yaml.
  * Do not edit directly.
  * Run npm run site:generate instead.
- *
- * Template baseline: Example Game demo config is checked in so template mode
- * builds without a site-spec.yaml. Generated sites overwrite this file.
  */
 import type { GameConfig } from './game-types';
-import { pageHref } from '../lib/paths';
-
-const siteMode = 'standalone' as const;
-const hubPath = '/';
-const href = (slug: string) => pageHref(hubPath, slug);
 
 export const siteConfig: GameConfig = {
-	name: 'Example Game',
-	shortName: 'Example Game',
-	title: 'Example Game Guide & Wiki',
-	description:
-		'A fictional demo wiki used to validate a shared Astro + Starlight starter for single-game guide sites.',
-	tagline: 'Guides, locations, and characters for a fictional demo game.',
-	siteUrl: 'https://example-game.example',
-	siteMode,
-	hubPath,
-	hubTitle: 'Example Game Guide & Wiki',
-	locale: 'en',
-	releaseStatus: 'released',
-	releaseDate: '2026-03-12',
-	developer: 'Northlamp Studio',
-	publisher: 'Paper Harbor Games',
-	platforms: ['PC', 'PlayStation 5', 'Xbox Series X|S'],
-	accentColor: '#0f9b8e',
-	accentForeground: '#041012',
-	heroImage: 'placeholder.svg',
-	heroAlt: 'Example Game demo artwork placeholder',
-	heroPosition: 'center',
+	name: "Halloween: The Game",
+	shortName: "Halloween: The Game",
+	title: "Halloween: The Game Guide — Early Access, Editions & Launch Answers",
+	description: "Launch-window answers for Advance Access timing, Standard vs Deluxe editions, offline modes, Steam Deck status, Australia classification, and match-length questions.",
+	tagline: "Advance Access, editions, and launch-status answers for the Sep 2026 release window.",
+	siteUrl: "https://halloween-the-game.vercel.app/",
+	siteMode: "standalone",
+	hubPath: "/",
+	hubTitle: "Halloween: The Game Guide",
+	locale: "en",
+	releaseStatus: "pre-release",
+	releaseDate: "2026-09-08",
+	developer: "IllFonic",
+	publisher: "IllFonic Publishing",
+	platforms: ["PC", "PlayStation 5", "Xbox Series X|S"],
+	accentColor: "#c41e1e",
+	accentForeground: "#111111",
+	heroImage: "hero/halloween-hero.jpg",
+	heroAlt: "Halloween: The Game Steam header artwork",
+	heroPosition: "center",
+	disclaimer: "Unofficial fan guide. Verify version-sensitive facts against cited sources before production.",
 	portal: {
-		primaryCta: { label: 'Start Here', href: href('overview') },
-		secondaryCta: { label: 'Browse Guides', href: '#browse-guides' },
+		heroBadge: "Sep 2026 launch guide",
+		primaryCta: {
+			label: "Early Access timing",
+			href: "/early-access-release-time/",
+		},
+		secondaryCta: {
+			label: "Browse launch guides",
+			href: "#browse-guides",
+		},
+		statusItems: [
+			{
+				label: "Advance Access",
+				value: "Sep 4, 2026 — 9 AM PT (Deluxe pre-order)",
+			},
+			{
+				label: "Digital release",
+				value: "Sep 8, 2026",
+			},
+			{
+				label: "Focus",
+				value: "Editions, offline modes, AU status",
+			},
+		],
 		popularQuestions: [
-			{ label: 'How do I get started?', context: 'System Reqs → Beginner Route → Core Loop', href: href('overview') },
-			{ label: 'Where should I explore first?', href: href('example-location') },
-			{ label: 'How does the main gameplay system work?', context: 'Scout → Loadout → Encounter', href: href('example-guide') },
-			{ label: 'Who are the main characters?', href: href('example-character') },
-			{ label: 'When does the game release?', href: href('release-info') },
+			{
+				label: "What time does Halloween: The Game early access start?",
+				href: "/early-access-release-time/",
+				context: "Deluxe pre-order Advance Access window and timezone.",
+			},
+			{
+				label: "Can I upgrade from Standard to Deluxe later?",
+				href: "/standard-vs-deluxe-upgrade/",
+				context: "Launch upgrade SKU vs Phantom pre-order exclusive.",
+			},
+			{
+				label: "Does Halloween: The Game have bots or private lobbies?",
+				href: "/bots-private-lobbies-offline/",
+				context: "Story mode, offline bots, and private lobby limits.",
+			},
+			{
+				label: "Does Halloween: The Game work on Steam Deck?",
+				href: "/steam-deck/",
+				context: "EAC, Windows requirements, and verification status.",
+			},
+			{
+				label: "Is Halloween: The Game banned in Australia?",
+				href: "/australia-release-status/",
+				context: "RC reason and current storefront status.",
+			},
+			{
+				label: "Are Halloween: The Game matches really only 12 minutes?",
+				href: "/match-length-timer/",
+				context: "Footage observations vs official timer rules.",
+			},
 		],
 		startHere: [
 			{
-				title: 'Beginner Overview',
-				description: 'What this wiki covers and where to go first.',
-				href: href('overview'),
-				label: 'Getting started',
-				badge: 'Start here',
+				title: "Halloween: The Game Early Access — September 4 Release Time & Countdown",
+				description: "Confirmed Advance Access start time for Digital Deluxe pre-orders (Sep 4, 2026, 9:00 AM PT), full release date, edition eligibility, pricing and key platform/region notes.",
+				href: "/early-access-release-time/",
+				image: "covers/halloween-gameplay-1.jpg",
+				label: "Early Access",
+				badge: "Highest priority",
 			},
 			{
-				title: 'Core Gameplay',
-				description: 'Sample systems page for combat and practical tips.',
-				href: href('example-guide'),
-				label: 'Systems',
-				image: 'placeholder.svg',
+				title: "Halloween: The Game — Standard vs Deluxe: Can You Upgrade Later?",
+				description: "Clear, evidence-backed breakdown of Standard vs Digital Deluxe editions, upgrade path at launch, and the Phantom vs Inmate Michael Myers skins (plus Richard & Alexis civilians).",
+				href: "/standard-vs-deluxe-upgrade/",
+				image: "covers/halloween-gameplay-2.jpg",
+				label: "Standard vs Deluxe",
 			},
 			{
-				title: 'Key Location',
-				description: 'A demo district used for world routing checks.',
-				href: href('example-location'),
-				label: 'World',
-				image: 'placeholder.svg',
+				title: "Does Halloween: The Game Have Bots? Private Lobbies & Offline Mode Explained",
+				description: "What you can and can't do offline in Halloween: The Game. Confirmed single‑player story, offline bots, and what we know about private lobbies, crossplay, Steam Deck, and Australia status at launch.",
+				href: "/bots-private-lobbies-offline/",
+				image: "covers/halloween-gameplay-1.jpg",
+				label: "Bots & Private Lobbies",
 			},
 			{
-				title: 'How to Make Money',
-				description: 'Fictional economy tips for the demo world.',
-				href: href('how-to-make-money'),
-				label: 'Progression',
-				badge: 'Popular',
+				title: "Halloween: The Game Steam Deck — Compatibility, Easy Anti-Cheat & Launch Status",
+				description: "What is and isn’t known about playing Halloween: The Game on Steam Deck: Easy Anti-Cheat presence, PC requirements, controller support and what to check at launch.",
+				href: "/steam-deck/",
+				image: "covers/halloween-gameplay-2.jpg",
+				label: "Steam Deck",
 			},
 		],
-		evidence: {
-			title: 'See the Game in Action',
-			description: 'Optional media strip for official or verified gameplay stills. Demo uses placeholders only.',
-			items: [
-				{
-					image: 'placeholder.svg',
-					alt: 'Example Game placeholder still — wide shot',
-					caption: 'Official / press still (placeholder)',
-				},
-				{
-					image: 'placeholder.svg',
-					alt: 'Example Game placeholder still — detail A',
-					caption: 'Gameplay detail (placeholder)',
-					href: href('example-guide'),
-				},
-				{
-					image: 'placeholder.svg',
-					alt: 'Example Game placeholder still — detail B',
-					caption: 'World beat (placeholder)',
-					href: href('example-location'),
-				},
-			],
-		},
 		showRecentlyUpdated: true,
 		maxRecent: 3,
 	},
-	/**
-	 * Template-baseline demo routes. A generated site carries the same shape,
-	 * produced from `site-spec.yaml` → `routes[]`. UI consumes only this runtime
-	 * config; `routes[].pages` is the single membership source.
-	 */
-	routes: [
-		{
-			id: 'getting-started',
-			eyebrow: 'New Player Route',
-			title: 'Getting Started',
-			description: 'Everything you need before your first serious run.',
-			href: '/routes/getting-started/',
-			visual: 'placeholder.svg',
-			pages: [
-				{
-					pageId: 'overview',
-					href: href('overview'),
-					title: 'Beginner Overview',
-					description: 'What this wiki covers and where to go first.',
-					eyebrow: 'Getting Started',
-					image: 'placeholder.svg',
-				},
-				{
-					pageId: 'example-guide',
-					href: href('example-guide'),
-					title: 'Example Guide',
-					description: 'A sample gameplay article covering combat and practical tips.',
-					eyebrow: 'Combat Primer',
-				},
-				{
-					pageId: 'example-location',
-					href: href('example-location'),
-					title: 'Key Location',
-					description: 'A demo district used for world routing checks.',
-					eyebrow: 'World',
-				},
-				{
-					pageId: 'how-to-make-money',
-					href: href('how-to-make-money'),
-					title: 'How to Make Money',
-					description: 'Fictional economy tips for the demo world.',
-					eyebrow: 'Progression',
-				},
-			],
-			fastAnswers: [
-				{
-					question: 'How do I get started?',
-					answer: 'Read the Beginner Overview first — it covers what this wiki contains.',
-					pageId: 'overview',
-					href: href('overview'),
-				},
-				{
-					question: 'What should I learn before exploring?',
-					answer: 'The core gameplay loop in the Example Guide.',
-					pageId: 'example-guide',
-					href: href('example-guide'),
-				},
-				{
-					question: 'Where should I go first?',
-					answer: 'Start with the Key Location for world routing.',
-					pageId: 'example-location',
-					href: href('example-location'),
-				},
-			],
-		},
-		{
-			id: 'core-gameplay',
-			eyebrow: 'Systems & Combat',
-			title: 'Core Gameplay',
-			description: 'Understand the systems that power every run.',
-			href: '/routes/core-gameplay/',
-			pages: [
-				{
-					pageId: 'example-guide',
-					href: href('example-guide'),
-					title: 'Example Guide',
-					description: 'A sample gameplay article covering combat and practical tips.',
-					eyebrow: 'Combat Primer',
-					image: 'placeholder.svg',
-				},
-				{
-					pageId: 'second-example-guide',
-					href: href('second-example-guide'),
-					title: 'Second Example Guide',
-					description: 'A deeper dive into the demo game\'s advanced systems.',
-					eyebrow: 'Advanced Systems',
-				},
-				{
-					pageId: 'how-to-make-money',
-					href: href('how-to-make-money'),
-					title: 'How to Make Money',
-					description: 'Fictional economy tips for the demo world.',
-					eyebrow: 'Progression',
-				},
-			],
-		},
-		{
-			id: 'world-exploration',
-			eyebrow: 'Places',
-			title: 'World & Exploration',
-			description: 'Find the districts and landmarks worth knowing.',
-			href: '/routes/world-exploration/',
-			visual: 'placeholder.svg',
-			pages: [
-				{
-					pageId: 'example-location',
-					href: href('example-location'),
-					title: 'Key Location',
-					description: 'A demo district used for world routing checks.',
-					eyebrow: 'World',
-				},
-				{
-					pageId: 'how-to-make-money',
-					href: href('how-to-make-money'),
-					title: 'How to Make Money',
-					description: 'Fictional economy tips for the demo world.',
-					eyebrow: 'Progression',
-				},
-			],
-		},
-		{
-			id: 'story-characters',
-			eyebrow: 'People & Plot',
-			title: 'Story & Characters',
-			description: 'Follow the people and threads of the demo world.',
-			href: '/routes/story-characters/',
-			pages: [
-				{
-					pageId: 'example-character',
-					href: href('example-character'),
-					title: 'Example Character',
-					description: 'A fictional character used to validate the story section.',
-					eyebrow: 'Characters',
-				},
-			],
-		},
-	],
 	categories: [
 		{
-			id: 'getting-started',
-			label: 'Getting Started',
-			description: 'Start here if you are new to the game.',
-			icon: 'rocket',
+			id: "guides",
+			label: "Launch Guides",
+			description: "Task-focused launch-window guides.",
+			icon: "rocket",
 			order: 1,
+			image: "covers/halloween-gameplay-1.jpg",
 		},
 		{
-			id: 'gameplay',
-			label: 'Gameplay',
-			description: 'Mechanics, systems, and practical guides.',
-			icon: 'puzzle',
+			id: "reference",
+			label: "Reference",
+			description: "Platform and regional status pages.",
+			icon: "information",
 			order: 2,
-			image: 'placeholder.svg',
-		},
-		{
-			id: 'world',
-			label: 'World',
-			description: 'Places, districts, and landmarks.',
-			icon: 'star',
-			order: 3,
-			image: 'placeholder.svg',
-		},
-		{
-			id: 'story',
-			label: 'Story & Characters',
-			description: 'People and plot threads.',
-			icon: 'open-book',
-			order: 4,
-		},
-		{
-			id: 'game-info',
-			label: 'Game Info',
-			description: 'Release details, platforms, and credits.',
-			icon: 'information',
-			order: 5,
-		},
-		{
-			id: 'school-life',
-			label: 'School Life',
-			description: 'Fictional school systems used to test URL decoupling.',
-			icon: 'laptop',
-			order: 6,
+			image: "covers/halloween-gameplay-2.jpg",
 		},
 	],
+	pages: [
+		{
+			id: "early-access-release-time",
+			slug: "early-access-release-time",
+			role: "core",
+			assetType: "article",
+			intents: ["early-access-release-time"],
+			relations: [
+			],
+			sources: [
+			],
+			evidence: [
+			],
+		},
+		{
+			id: "standard-vs-deluxe-upgrade",
+			slug: "standard-vs-deluxe-upgrade",
+			role: "core",
+			assetType: "article",
+			intents: ["standard-vs-deluxe-upgrade"],
+			relations: [
+			],
+			sources: [
+			],
+			evidence: [
+			],
+		},
+		{
+			id: "bots-private-lobbies-offline",
+			slug: "bots-private-lobbies-offline",
+			role: "core",
+			assetType: "article",
+			intents: ["bots-private-lobbies-offline"],
+			relations: [
+			],
+			sources: [
+			],
+			evidence: [
+			],
+		},
+		{
+			id: "steam-deck",
+			slug: "steam-deck",
+			role: "core",
+			assetType: "article",
+			intents: ["steam-deck"],
+			relations: [
+			],
+			sources: [
+			],
+			evidence: [
+			],
+		},
+		{
+			id: "australia-release-status",
+			slug: "australia-release-status",
+			role: "core",
+			assetType: "article",
+			intents: ["australia-release-status"],
+			relations: [
+			],
+			sources: [
+			],
+			evidence: [
+			],
+		},
+		{
+			id: "match-length-timer",
+			slug: "match-length-timer",
+			role: "core",
+			assetType: "article",
+			intents: ["match-length-timer"],
+			relations: [
+			],
+			sources: [
+			],
+			evidence: [
+			],
+		},
+	],
+	analytics: {
+		enabled: true,
+		siteId: "halloween-the-game",
+		gameSlug: "halloween-the-game",
+		templateVersion: "2.0.0",
+		launchDate: "2026-09-08",
+		ga4: { enabled: false },
+		vercelAnalytics: { enabled: true },
+	},
+	social: {
+		defaultImage: {
+			asset: "social/halloween-social.jpg",
+			alt: "Halloween: The Game Guide — Early Access, Editions & Launch Answers",
+		},
+	},
 };

@@ -1,0 +1,308 @@
+schemaVersion: 1
+templateVersion: "2.0.0"
+mode: generated-site
+
+site:
+  id: halloween-the-game
+  mode: standalone
+  locale: en
+  siteUrl: "https://halloween-the-game.vercel.app/"
+  hubPath: /
+  title: "Halloween: The Game Guide — Early Access, Editions & Launch Answers"
+  shortName: "Halloween: The Game"
+  description: "Launch-window answers for Advance Access timing, Standard vs Deluxe editions, offline modes, Steam Deck status, Australia classification, and match-length questions."
+  disclaimer: "Unofficial fan guide. Verify version-sensitive facts against cited sources before production."
+
+deployment:
+  provider: vercel
+  orgId: "team_yAOizMTSVuT0RJATgFdAlQuG"
+  projectId: ""
+  projectName: "halloween-the-game"
+  productionUrl: "https://halloween-the-game.vercel.app/"
+  productionBranch: ""
+
+game:
+  name: "Halloween: The Game"
+  hubTitle: "Halloween: The Game Guide"
+  tagline: "Advance Access, editions, and launch-status answers for the Sep 2026 release window."
+  releaseStatus: pre-release
+  releaseDate: 2026-09-08
+  developer: IllFonic
+  publisher: IllFonic Publishing
+  platforms:
+    - PC
+    - PlayStation 5
+    - Xbox Series X|S
+
+theme:
+  accentColor: "#c41e1e"
+  accentForeground: "#111111"
+  heroAssetId: halloween-hero
+  heroPosition: center
+
+assetBootstrap:
+  allowedHosts:
+    - shared.akamai.steamstatic.com
+
+categories:
+  - id: guides
+    label: Launch Guides
+    description: Task-focused launch-window guides.
+    icon: rocket
+    order: 1
+    imageAssetId: halloween-gameplay-1
+  - id: reference
+    label: Reference
+    description: Platform and regional status pages.
+    icon: information
+    order: 2
+    imageAssetId: halloween-gameplay-2
+
+pages:
+  - id: early-access-release-time
+    title: "Halloween: The Game Early Access — September 4 Release Time & Countdown"
+    description: "Confirmed Advance Access start time for Digital Deluxe pre-orders (Sep 4, 2026, 9:00 AM PT), full release date, edition eligibility, pricing and key platform/region notes."
+    category: guides
+    slug: early-access-release-time
+    source: site-input/pages/early-access-release-time.md
+    status: needs-verification
+    featured: true
+    sidebarOrder: 1
+    role: core
+    intents:
+      - early-access-release-time
+    quickAnswer: "Advance Access for Halloween: The Game begins Friday, September 4, 2026 at 9:00 AM PT and is confirmed for Digital Deluxe pre-orders. The full, public release is September 8, 2026. Standard pre-orders do not list gameplay Early Access."
+    eyebrow: "Advance Access"
+    facts:
+      - label: "Advance Access start"
+        value: "Friday, September 4, 2026 — 9:00 AM PT (official FAQ)"
+      - label: "Full release date"
+        value: "September 8, 2026 (official storefront listings)"
+      - label: "Advance Access eligibility"
+        value: "Confirmed for Digital Deluxe pre-orders only (official preorder page). Standard edition pre-orders do not list gameplay Early Access."
+      - label: "Standard price"
+        value: "USD $39.99 (official FAQ/store pages)"
+    coverAssetId: halloween-gameplay-1
+    changeSummary: "Initial APIMart writer pass from launch research packet."
+  - id: standard-vs-deluxe-upgrade
+    title: "Halloween: The Game — Standard vs Deluxe: Can You Upgrade Later?"
+    description: "Clear, evidence-backed breakdown of Standard vs Digital Deluxe editions, upgrade path at launch, and the Phantom vs Inmate Michael Myers skins (plus Richard & Alexis civilians)."
+    category: guides
+    slug: standard-vs-deluxe-upgrade
+    source: site-input/pages/standard-vs-deluxe-upgrade.md
+    status: needs-verification
+    featured: true
+    sidebarOrder: 2
+    role: core
+    intents:
+      - standard-vs-deluxe-upgrade
+    quickAnswer: "Yes — IllFonic confirms a Digital Deluxe Edition Upgrade at launch that grants the Inmate Michael Myers skin and the two civilians (Richard and Alexis). The Phantom Michael Myers pre-order skin is a separate pre-order exclusive and is not restored by the upgrade. Prices: Standard $39.99, Digital Deluxe $59.99 (USD)."
+    eyebrow: "Editions"
+    facts:
+      - label: "Standard price (USD)"
+        value: "$39.99 (Confirmed)"
+      - label: "Digital Deluxe price (USD)"
+        value: "$59.99 (Confirmed)"
+      - label: "Digital Deluxe contents"
+        value: "Base game; Exclusive Inmate Michael Myers skin; two exclusive civilians (Richard and Alexis); comic and other preorder extras (Confirmed)"
+      - label: "Phantom Michael Myers skin"
+        value: "Pre-order exclusive; officially listed as not available after the pre-order period (Confirmed)"
+    coverAssetId: halloween-gameplay-2
+    changeSummary: "Initial APIMart writer pass from launch research packet."
+  - id: bots-private-lobbies-offline
+    title: "Does Halloween: The Game Have Bots? Private Lobbies & Offline Mode Explained"
+    description: "What you can and can't do offline in Halloween: The Game. Confirmed single‑player story, offline bots, and what we know about private lobbies, crossplay, Steam Deck, and Australia status at launch."
+    category: guides
+    slug: bots-private-lobbies-offline
+    source: site-input/pages/bots-private-lobbies-offline.md
+    status: needs-verification
+    featured: true
+    sidebarOrder: 3
+    role: core
+    intents:
+      - bots-private-lobbies-offline
+    quickAnswer: "Yes — a single‑player story mode and offline play against bots are confirmed. Private lobbies are reported by third‑party outlets but official details (including whether online private lobbies get AI/bot fill) have not been announced. See the sections below for what is confirmed and what remains unverified."
+    eyebrow: "Multiplayer Modes"
+    facts:
+      - label: "Single‑player story mode"
+        value: "Confirmed by official Steam description and developer/press materials"
+      - label: "Offline bots"
+        value: "Confirmed — IllFonic/Gamescom materials describe playing against bots offline, separate from story mode"
+      - label: "Private lobbies"
+        value: "Reported by third‑party outlet (Playfront) with manual/random role assignment; treated as secondary until duplicated by an official source"
+      - label: "AI/bot backfill in private online lobbies"
+        value: "Not Announced — no official confirmation available"
+    coverAssetId: halloween-gameplay-1
+    changeSummary: "Initial APIMart writer pass from launch research packet."
+  - id: steam-deck
+    title: "Halloween: The Game Steam Deck — Compatibility, Easy Anti-Cheat & Launch Status"
+    description: "What is and isn’t known about playing Halloween: The Game on Steam Deck: Easy Anti-Cheat presence, PC requirements, controller support and what to check at launch."
+    category: reference
+    slug: steam-deck
+    source: site-input/pages/steam-deck.md
+    status: needs-verification
+    featured: true
+    sidebarOrder: 4
+    role: core
+    intents:
+      - steam-deck
+    quickAnswer: "Easy Anti-Cheat is listed for the PC build but Steam Deck compatibility has not been verified. The store lists full controller support and Windows 11 system requirements; do not assume Steam Deck works out of the box until hands‑on Proton/EAC testing or an official Valve/IllFonic statement."
+    eyebrow: "Steam Deck Status"
+    facts:
+      - label: "Release date"
+        value: "Digital release confirmed for September 8, 2026 (Advance Access starts Sep 4 for eligible preorders)"
+      - label: "Steam App ID"
+        value: "Steam App ID 3219630"
+      - label: "Platforms"
+        value: "PC (Steam, Epic), PS5, Xbox Series X|S"
+      - label: "Anti-cheat"
+        value: "Easy Anti-Cheat listed for the PC build (secondary source: PCGamingWiki)"
+    coverAssetId: halloween-gameplay-2
+    changeSummary: "Initial APIMart writer pass from launch research packet."
+  - id: australia-release-status
+    title: "Is Halloween: The Game Banned in Australia? Current Release Status"
+    description: "Summary of the Australian Classification Board decision, why the game was Refused Classification, what that means for digital/physical sales and how SKU differences (Standard vs Digital Deluxe) affect classification as of the last verification."
+    category: reference
+    slug: australia-release-status
+    source: site-input/pages/australia-release-status.md
+    status: needs-verification
+    featured: false
+    sidebarOrder: 5
+    role: core
+    intents:
+      - australia-release-status
+    quickAnswer: "As of Last Verified (2026-08-29): the Australian Classification Board has Refused Classification (RC) for the base retail listing of Halloween: The Game because it links illicit drug use to a gameplay advantage/reward. IllFonic said AU/NZ sales were blocked. A separate Digital Deluxe IARC listing appeared as R18+ in secondary reporting, but no official reclassification or re‑release of the base game has been confirmed."
+    eyebrow: "Australia Status"
+    facts:
+      - label: "Australian classification"
+        value: "Refused Classification (RC) for the base listing — reason given: illicit drug use linked to gameplay advantage/reward (Classification Board statement, Aug 2026)."
+      - label: "AU/NZ storefront status (publisher)"
+        value: "IllFonic statement: AU/NZ digital and physical sale was blocked following the RC decision."
+      - label: "Digital Deluxe listing"
+        value: "Secondary reporting shows a separate Digital Deluxe IARC listing with R18+; this is not an official reclassification of the base game."
+      - label: "Digital release date (global storefronts)"
+        value: "September 8, 2026 (Steam, Epic, PS5, Xbox Series X|S). Advance Access for some buyers begins Sep 4, 2026 (see preorder FAQ)."
+    trust:
+      status: provisional
+      lastVerified: 2026-08-29
+      appliesTo:
+        - Pre-release research snapshot
+    coverAssetId: halloween-gameplay-1
+    changeSummary: "Initial APIMart writer pass from launch research packet."
+  - id: match-length-timer
+    title: "How Long Are Halloween: The Game Matches? 12‑Minute Timer Explained"
+    description: "Short answer: there is no official published match timer as of Last Verified 2026-08-29. Pre-release footage often shows sessions around ~12 minutes, but that is observational — not confirmed rules. This page explains what is confirmed, what isn't, and what to check at launch."
+    category: guides
+    slug: match-length-timer
+    source: site-input/pages/match-length-timer.md
+    status: needs-verification
+    featured: false
+    sidebarOrder: 6
+    role: core
+    intents:
+      - match-length-timer
+    quickAnswer: "No official, published match timer yet. Preview footage frequently shows sessions around 12 minutes, but IllFonic has not confirmed a fixed match length — treat footage as observational until the developer publishes rules or patch notes."
+    eyebrow: "Match Length"
+    facts:
+      - label: "Official published match timer"
+        value: "Not announced (no fixed timer published as of 2026-08-29)"
+      - label: "Pre-release footage/session recordings"
+        value: "Many previews/streams show matches roughly ~12 minutes long (observational)"
+      - label: "Private lobbies / bot backfill"
+        value: "Private lobbies are reported in press/third‑party coverage; AI/backfill in online private lobbies is not confirmed"
+      - label: "Australia status (base game)"
+        value: "Refused Classification (RC) due to illicit drug use linked to gameplay advantage — Last Verified: 2026-08-29"
+    coverAssetId: halloween-gameplay-2
+    changeSummary: "Initial APIMart writer pass from launch research packet."
+
+homepage:
+  heroBadge: Sep 2026 launch guide
+  primaryCta:
+    label: Early Access timing
+    pageId: early-access-release-time
+  secondaryCta:
+    label: Browse launch guides
+    anchor: browse-guides
+  statusItems:
+    - label: Advance Access
+      value: "Sep 4, 2026 — 9 AM PT (Deluxe pre-order)"
+    - label: Digital release
+      value: "Sep 8, 2026"
+    - label: Focus
+      value: "Editions, offline modes, AU status"
+  popularQuestions:
+    - label: "What time does Halloween: The Game early access start?"
+      context: "Deluxe pre-order Advance Access window and timezone."
+      pageId: early-access-release-time
+    - label: "Can I upgrade from Standard to Deluxe later?"
+      context: "Launch upgrade SKU vs Phantom pre-order exclusive."
+      pageId: standard-vs-deluxe-upgrade
+    - label: "Does Halloween: The Game have bots or private lobbies?"
+      context: "Story mode, offline bots, and private lobby limits."
+      pageId: bots-private-lobbies-offline
+    - label: "Does Halloween: The Game work on Steam Deck?"
+      context: "EAC, Windows requirements, and verification status."
+      pageId: steam-deck
+    - label: "Is Halloween: The Game banned in Australia?"
+      context: "RC reason and current storefront status."
+      pageId: australia-release-status
+    - label: "Are Halloween: The Game matches really only 12 minutes?"
+      context: "Footage observations vs official timer rules."
+      pageId: match-length-timer
+  startHere:
+    - pageId: early-access-release-time
+      label: Early Access
+      badge: Highest priority
+    - pageId: standard-vs-deluxe-upgrade
+      label: Standard vs Deluxe
+    - pageId: bots-private-lobbies-offline
+      label: Bots & Private Lobbies
+    - pageId: steam-deck
+      label: Steam Deck
+
+assets:
+  - id: halloween-hero
+    source: site-input/assets/halloween-hero.jpg
+    target: hero/halloween-hero.jpg
+    alt: "Halloween: The Game Steam header artwork"
+    sourceUrl: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219630/153ed105c4b409fe689783e4f9b6aad72c152646/header.jpg?t=1787962852
+    sourceType: store
+    usageStatus: review-required
+  - id: halloween-gameplay-1
+    source: site-input/assets/halloween-gameplay-1.jpg
+    target: covers/halloween-gameplay-1.jpg
+    alt: "Michael Myers stalking in Halloween: The Game"
+    sourceUrl: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219630/fef848f20a2a5e857ee275662acf979b89754af7/ss_fef848f20a2a5e857ee275662acf979b89754af7.1920x1080.jpg?t=1787962852
+    sourceType: store
+    usageStatus: review-required
+  - id: halloween-gameplay-2
+    source: site-input/assets/halloween-gameplay-2.jpg
+    target: covers/halloween-gameplay-2.jpg
+    alt: "Survivors in Haddonfield in Halloween: The Game"
+    sourceUrl: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219630/b6788a76e909167f1e599e62f52ea0a9734aa133/ss_b6788a76e909167f1e599e62f52ea0a9734aa133.1920x1080.jpg?t=1787962852
+    sourceType: store
+    usageStatus: review-required
+  - id: halloween-social
+    source: site-input/assets/halloween-social.jpg
+    target: social/halloween-social.jpg
+    alt: "Halloween: The Game launch guide social image"
+    sourceUrl: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219630/153ed105c4b409fe689783e4f9b6aad72c152646/header.jpg?t=1787962852
+    sourceType: store
+    usageStatus: review-required
+
+social:
+  defaultImage:
+    asset: social/halloween-social.jpg
+    alt: "Halloween: The Game Guide — Early Access, Editions & Launch Answers"
+
+analytics:
+  enabled: true
+  siteId: halloween-the-game
+  gameSlug: halloween-the-game
+  templateVersion: "2.0.0"
+  launchDate: 2026-09-08
+  ga4:
+    enabled: false
+  vercelAnalytics:
+    enabled: true
+
