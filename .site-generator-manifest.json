@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "templateVersion": "2.0.0",
   "generatorVersion": "1.0.0",
-  "specHash": "3d90e1176521aa0508ca105019637b91df4846f2d9f767957624cb7707ba77be",
+  "specHash": "51141da50dabd2ee7096f613b07d79a5cb1255cb26812091170ad69ff095041b",
   "siteId": "halloween-the-game",
   "createdFromSpec": "site-spec.yaml",
   "managedFiles": [

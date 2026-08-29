@@ -16,7 +16,7 @@ site:
 deployment:
   provider: vercel
   orgId: "team_yAOizMTSVuT0RJATgFdAlQuG"
-  projectId: ""
+  projectId: "prj_oJFgfGvJ1rgCJH4O6Wm8UyyTafoU"
   projectName: "halloween-the-game"
   productionUrl: "https://halloween-the-game.vercel.app/"
   productionBranch: ""
