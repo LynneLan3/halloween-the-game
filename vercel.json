@@ -1,22 +1,24 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
   "redirects": [
     {
-      "source": "/:path*",
+      "source": "/(.*)",
       "has": [{ "type": "host", "value": "halloween-the-game-guide.vercel.app" }],
-      "destination": "https://www.halloweengameguide.wiki/:path*",
+      "destination": "https://www.halloweengameguide.wiki/$1",
       "permanent": true
     },
     {
-      "source": "/:path*",
+      "source": "/(.*)",
       "has": [{ "type": "host", "value": "halloween-the-game-mu.vercel.app" }],
-      "destination": "https://www.halloweengameguide.wiki/:path*",
+      "destination": "https://www.halloweengameguide.wiki/$1",
       "permanent": true
     },
     {
-      "source": "/:path*",
+      "source": "/(.*)",
       "has": [{ "type": "host", "value": "halloween-the-game-guide-lynnelan3s-projects.vercel.app" }],
-      "destination": "https://www.halloweengameguide.wiki/:path*",
+      "destination": "https://www.halloweengameguide.wiki/$1",
       "permanent": true
     }
   ]
