@@ -11,7 +11,7 @@ export const siteConfig: GameConfig = {
 	title: "Halloween: The Game Guide — Maps, Characters, Multiplayer & Launch Answers",
 	description: "Official-facts guides for Halloween: The Game maps, characters, Michael Myers abilities, multiplayer, single-player story, PC requirements, and Sep 2026 Advance Access timing.",
 	tagline: "Maps, characters, Michael Myers, multiplayer, story mode, and launch-window answers for the Sep 2026 release.",
-	siteUrl: "https://halloween-the-game-guide.vercel.app/",
+	siteUrl: "https://www.halloweengameguide.wiki/",
 	siteMode: "standalone",
 	hubPath: "/",
 	hubTitle: "Halloween: The Game Guide",

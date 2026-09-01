@@ -6,7 +6,7 @@ site:
   id: halloween-the-game
   mode: standalone
   locale: en
-  siteUrl: "https://halloween-the-game-guide.vercel.app/"
+  siteUrl: "https://www.halloweengameguide.wiki/"
   hubPath: /
   title: "Halloween: The Game Guide — Maps, Characters, Multiplayer & Launch Answers"
   shortName: "Halloween: The Game"
@@ -18,7 +18,7 @@ deployment:
   orgId: "team_yAOizMTSVuT0RJATgFdAlQuG"
   projectId: "prj_oJFgfGvJ1rgCJH4O6Wm8UyyTafoU"
   projectName: "halloween-the-game-guide"
-  productionUrl: "https://halloween-the-game-guide.vercel.app/"
+  productionUrl: "https://www.halloweengameguide.wiki/"
   productionBranch: ""
 
 game:
