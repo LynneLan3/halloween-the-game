@@ -12,13 +12,20 @@ sidebar:
 intents:
   - steam-deck
 quickAnswer: "Easy Anti-Cheat is listed for the PC build but Steam Deck compatibility has not been verified. The store lists full controller support and Windows 11 system requirements; do not assume Steam Deck works out of the box until hands‑on Proton/EAC testing or an official Valve/IllFonic statement."
+relations:
+  -
+    slug: pc
+    type: next-step
+  -
+    slug: pc/system-requirements
+    type: next-step
 cover: ../../../assets/covers/halloween-gameplay-2.jpg
 coverMedia:
   alt: "Survivors in Haddonfield in Halloween: The Game"
   kind: cover
   aspectRatio: 16:9
   sourceUrl: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219630/b6788a76e909167f1e599e62f52ea0a9734aa133/ss_b6788a76e909167f1e599e62f52ea0a9734aa133.1920x1080.jpg?t=1787962852"
-changeSummary: Initial APIMart writer pass from launch research packet.
+changeSummary: "CONTENT_EXPANSION — linked to PC pillar."
 eyebrow: Steam Deck Status
 facts:
   -
@@ -26,7 +33,7 @@ facts:
     value: "Digital release confirmed for September 8, 2026 (Advance Access starts Sep 4 for eligible preorders)"
   -
     label: Steam App ID
-    value: Steam App ID 3219630
+    value: App ID 3219630
   -
     label: Platforms
     value: "PC (Steam, Epic), PS5, Xbox Series X|S"

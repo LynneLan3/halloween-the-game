@@ -12,6 +12,13 @@ sidebar:
 intents:
   - standard-vs-deluxe-upgrade
 quickAnswer: "Yes — IllFonic confirms a Digital Deluxe Edition Upgrade at launch that grants the Inmate Michael Myers skin and the two civilians (Richard and Alexis). The Phantom Michael Myers pre-order skin is a separate pre-order exclusive and is not restored by the upgrade. Prices: Standard $39.99, Digital Deluxe $59.99 (USD)."
+relations:
+  -
+    slug: characters
+    type: next-step
+  -
+    slug: early-access-release-time
+    type: related
 cover: ../../../assets/covers/halloween-gameplay-2.jpg
 coverMedia:
   alt: "Survivors in Haddonfield in Halloween: The Game"

@@ -8,9 +8,9 @@ site:
   locale: en
   siteUrl: "https://halloween-the-game-guide.vercel.app/"
   hubPath: /
-  title: "Halloween: The Game Guide — Early Access, Editions & Launch Answers"
+  title: "Halloween: The Game Guide — Maps, Characters, Multiplayer & Launch Answers"
   shortName: "Halloween: The Game"
-  description: "Launch-window answers for Advance Access timing, Standard vs Deluxe editions, offline modes, Steam Deck status, Australia classification, and match-length questions."
+  description: "Official-facts guides for Halloween: The Game maps, characters, Michael Myers abilities, multiplayer, single-player story, PC requirements, and Sep 2026 Advance Access timing."
   disclaimer: "Unofficial fan guide. Verify version-sensitive facts against cited sources before production."
 
 deployment:
@@ -24,7 +24,7 @@ deployment:
 game:
   name: "Halloween: The Game"
   hubTitle: "Halloween: The Game Guide"
-  tagline: "Advance Access, editions, and launch-status answers for the Sep 2026 release window."
+  tagline: "Maps, characters, Michael Myers, multiplayer, story mode, and launch-window answers for the Sep 2026 release."
   releaseStatus: pre-release
   releaseDate: 2026-09-08
   developer: IllFonic
@@ -45,20 +45,452 @@ assetBootstrap:
     - shared.akamai.steamstatic.com
 
 categories:
+  - id: map-guides
+    label: Maps
+    description: Confirmed Haddonfield maps, landmarks, and launch-window map guides.
+    icon: puzzle
+    order: 1
+    imageAssetId: halloween-gameplay-2
+  - id: character-guides
+    label: Characters
+    description: Playable Civilian roster, Deluxe exclusives, and trait overview.
+    icon: information
+    order: 2
+    imageAssetId: halloween-gameplay-1
+  - id: killer-guides
+    label: Michael Myers
+    description: How the Killer plays — abilities, objectives, and combat rules.
+    icon: rocket
+    order: 3
+    imageAssetId: halloween-gameplay-1
+  - id: multiplayer-guides
+    label: Multiplayer
+    description: 1v4 format, crossplay, bots, and match questions.
+    icon: rocket
+    order: 4
+    imageAssetId: halloween-gameplay-2
+  - id: story-guides
+    label: Single Player
+    description: Story mode chapters, replay structure, and unlocks.
+    icon: puzzle
+    order: 5
+    imageAssetId: halloween-gameplay-1
+  - id: pc-guides
+    label: PC
+    description: System requirements, Steam Deck status, and PC launch checks.
+    icon: information
+    order: 6
+    imageAssetId: halloween-gameplay-2
   - id: guides
     label: Launch Guides
     description: Task-focused launch-window guides.
     icon: rocket
-    order: 1
+    order: 7
     imageAssetId: halloween-gameplay-1
   - id: reference
     label: Reference
     description: Platform and regional status pages.
     icon: information
-    order: 2
+    order: 8
     imageAssetId: halloween-gameplay-2
 
 pages:
+  - id: maps-hub
+    title: "Halloween: The Game Maps — All Confirmed Haddonfield Locations"
+    description: "Three officially revealed multiplayer maps: Haddonfield Heights, Haddonfield Town Center, and Orange Grove Estates. Landmarks, gameplay traits, and what still needs launch verification."
+    category: map-guides
+    slug: maps
+    source: site-input/pages/maps.md
+    status: needs-verification
+    featured: true
+    sidebarOrder: 1
+    role: core
+    intents:
+      - halloween-maps
+      - how-many-maps
+    quickAnswer: "IllFonic has officially revealed three multiplayer maps: Haddonfield Heights, Haddonfield Town Center, and Orange Grove Estates. Exact item spawns, escape routes, and map meta are launch verification pending."
+    eyebrow: "Maps"
+    facts:
+      - label: "Confirmed map count"
+        value: "3 maps officially revealed pre-launch"
+      - label: "First revealed map"
+        value: "Haddonfield Heights (residential neighborhood)"
+      - label: "Town map"
+        value: "Haddonfield Town Center (named businesses + cemetery as playspace)"
+      - label: "Suburban map"
+        value: "Orange Grove Estates (multi-story homes, park, Wallace/Doyle houses)"
+    coverAssetId: halloween-gameplay-2
+    relations:
+      - pageId: maps-haddonfield-heights
+        type: next-step
+      - pageId: multiplayer-how-it-works
+        type: next-step
+      - pageId: michael-myers-hub
+        type: related
+    changeSummary: "CONTENT_EXPANSION — Maps pillar hub."
+  - id: maps-haddonfield-heights
+    title: "Haddonfield Heights — Halloween: The Game Map Guide"
+    description: "Official landmarks, PAX-shown Civilian interactions, and launch-pending details for the first revealed Halloween: The Game map."
+    category: map-guides
+    slug: maps/haddonfield-heights
+    source: site-input/pages/maps/haddonfield-heights.md
+    status: needs-verification
+    featured: false
+    sidebarOrder: 2
+    role: core
+    intents:
+      - haddonfield-heights-map
+    quickAnswer: "Haddonfield Heights is a residential map with the Myers house, water tower, and Lampkin Lane. PAX demo footage showed trunk searches, barricading, and hiding. Exact spawns and escape routes are launch verification pending."
+    eyebrow: "Map Location"
+    facts:
+      - label: "Setting"
+        value: "Modest single-story homes, fenced yards, dim streets"
+      - label: "Landmarks"
+        value: "Abandoned Myers house, Haddonfield water tower, Lampkin Lane"
+      - label: "Demo gameplay"
+        value: "Trunk searches, barricading houses, hiding (PAX East 2026)"
+    coverAssetId: halloween-gameplay-1
+    relations:
+      - pageId: maps-hub
+        type: related
+      - pageId: maps-haddonfield-town-center
+        type: next-step
+    changeSummary: "CONTENT_EXPANSION — Haddonfield Heights map guide."
+  - id: maps-haddonfield-town-center
+    title: "Haddonfield Town Center — Halloween: The Game Map Guide"
+    description: "Named downtown businesses and Haddonfield Cemetery confirmed as playable space in Halloween: The Game's Town Center map."
+    category: map-guides
+    slug: maps/haddonfield-town-center
+    source: site-input/pages/maps/haddonfield-town-center.md
+    status: needs-verification
+    featured: false
+    sidebarOrder: 3
+    role: core
+    intents:
+      - haddonfield-town-center-map
+    quickAnswer: "Haddonfield Town Center includes Nichols Hardware, Patty's Pub, A-Side Music Store, Hill Garden Center, Post Office, Margie's Auto Repair, and Haddonfield Cemetery—all confirmed as actual playspace, not lore-only."
+    eyebrow: "Map Location"
+    facts:
+      - label: "Playstyle"
+        value: "Downtown commercial interiors + cemetery"
+      - label: "Confirmed businesses"
+        value: "Nichols Hardware, Patty's Pub, A-Side Music, Hill Garden Center, Post Office, Margie's Auto Repair"
+      - label: "Cemetery"
+        value: "Haddonfield Cemetery is part of the playspace"
+    coverAssetId: halloween-gameplay-2
+    relations:
+      - pageId: maps-hub
+        type: related
+      - pageId: maps-orange-grove-estates
+        type: next-step
+    changeSummary: "CONTENT_EXPANSION — Haddonfield Town Center map guide."
+  - id: maps-orange-grove-estates
+    title: "Orange Grove Estates — Halloween: The Game Map Guide"
+    description: "Upscale suburban map with multi-story homes, park space, Wallace and Doyle houses, and open sightlines in Halloween: The Game."
+    category: map-guides
+    slug: maps/orange-grove-estates
+    source: site-input/pages/maps/orange-grove-estates.md
+    status: needs-verification
+    featured: false
+    sidebarOrder: 4
+    role: core
+    intents:
+      - orange-grove-estates-map
+    quickAnswer: "Orange Grove Estates is a larger suburban map with multi-story houses, garages, balconies, a park with playground and basketball court, plus Wallace and Doyle houses. Item spawns and meta are launch verification pending."
+    eyebrow: "Map Location"
+    facts:
+      - label: "Homes"
+        value: "Multi-story with multiple entrances and windows"
+      - label: "Landmarks"
+        value: "Wallace house, Doyle house, neighborhood park"
+      - label: "Terrain"
+        value: "Fences, hedges, chokepoints, vehicles and bikes"
+    coverAssetId: halloween-gameplay-1
+    relations:
+      - pageId: maps-hub
+        type: related
+      - pageId: multiplayer-how-it-works
+        type: next-step
+    changeSummary: "CONTENT_EXPANSION — Orange Grove Estates map guide."
+  - id: characters-hub
+    title: "Halloween: The Game Characters — All Playable Civilians"
+    description: "Standard Edition's 10 Civilians (6 new + 4 legacy), Deluxe exclusives Richard and Alexis, and what IllFonic confirms about unique stats and traits."
+    category: character-guides
+    slug: characters
+    source: site-input/pages/characters.md
+    status: needs-verification
+    featured: true
+    sidebarOrder: 1
+    role: core
+    intents:
+      - halloween-characters
+      - playable-characters
+    quickAnswer: "Standard Edition includes 10 playable Civilians—Jennifer, Tanya, Rachel, Eric, Marcus, Thomas, plus legacy Bob, Lynda, Annie, and Laurie. Digital Deluxe adds Richard and Alexis. Each has unique stats and traits; full numeric tables are launch verification pending."
+    eyebrow: "Character Guide"
+    facts:
+      - label: "Standard roster"
+        value: "10 playable Civilians"
+      - label: "New characters"
+        value: "Jennifer, Tanya, Rachel, Eric, Marcus, Thomas"
+      - label: "Legacy characters"
+        value: "Bob Simms, Lynda van der Klok, Annie Brackett, Laurie Strode"
+      - label: "Deluxe exclusives"
+        value: "Richard and Alexis (Digital Deluxe)"
+    coverAssetId: halloween-gameplay-1
+    relations:
+      - pageId: michael-myers-hub
+        type: next-step
+      - pageId: multiplayer-how-it-works
+        type: next-step
+      - pageId: standard-vs-deluxe-upgrade
+        type: related
+    changeSummary: "CONTENT_EXPANSION — Characters pillar hub."
+  - id: michael-myers-hub
+    title: "Michael Myers in Halloween: The Game — Killer Guide"
+    description: "How Michael Myers works in multiplayer and story mode: objectives, combat rules, detention, and links to official ability descriptions."
+    category: killer-guides
+    slug: michael-myers
+    source: site-input/pages/michael-myers.md
+    status: needs-verification
+    featured: true
+    sidebarOrder: 1
+    role: core
+    intents:
+      - michael-myers-gameplay
+    quickAnswer: "One player controls Michael in 1v4 multiplayer. Michael kills residents and Special Targets, uses Killer Sense, Stalk, Shape Jump, and blackouts, and can be resisted or detained—but not simply killed. See the abilities page for official kit detail."
+    eyebrow: "Killer Guide"
+    facts:
+      - label: "Multiplayer role"
+        value: "1 Michael vs 4 Civilians"
+      - label: "Core kit"
+        value: "Killer Sense, Stalk, Shape Jump/Dash, blackouts"
+      - label: "Resistance outcome"
+        value: "Can be knocked down; detention returns Michael to Smith's Grove"
+    coverAssetId: halloween-gameplay-1
+    relations:
+      - pageId: michael-myers-abilities
+        type: next-step
+      - pageId: multiplayer-how-it-works
+        type: next-step
+      - pageId: characters-hub
+        type: related
+    changeSummary: "CONTENT_EXPANSION — Michael Myers pillar hub."
+  - id: michael-myers-abilities
+    title: "Michael Myers Abilities — Killer Sense, Stalk, Shape Jump & Blackouts"
+    description: "Official ability descriptions for Michael Myers in Halloween: The Game multiplayer, plus what remains launch verification pending."
+    category: killer-guides
+    slug: michael-myers/abilities
+    source: site-input/pages/michael-myers/abilities.md
+    status: needs-verification
+    featured: true
+    sidebarOrder: 2
+    role: core
+    intents:
+      - michael-myers-abilities
+    quickAnswer: "Confirmed abilities: Killer Sense (prey awareness), Stalk (tracking and executions), Shape Jump (shadow movement), Shape Dash (burst from Shape Jump), and blackouts that enable shadow play. Execution lists and numeric values are launch verification pending."
+    eyebrow: "Killer Abilities"
+    facts:
+      - label: "Killer Sense"
+        value: "First-person awareness to detect nearby prey"
+      - label: "Stalk"
+        value: "Builds on focus; unlocks stronger executions"
+      - label: "Shape Jump"
+        value: "Shadow movement; enter/exit in darkness or outside LOS"
+      - label: "Blackouts"
+        value: "Shut off lights and power for temporary darkness"
+    coverAssetId: halloween-gameplay-2
+    relations:
+      - pageId: michael-myers-hub
+        type: related
+      - pageId: multiplayer-how-it-works
+        type: next-step
+    changeSummary: "CONTENT_EXPANSION — Michael Myers abilities guide."
+  - id: multiplayer-hub
+    title: "Halloween: The Game Multiplayer — 1v4 Format & Objectives"
+    description: "Confirmed 1 Michael vs 4 Civilians multiplayer, Civilian and Michael objectives, deputy returns, and replayability notes from IllFonic."
+    category: multiplayer-guides
+    slug: multiplayer
+    source: site-input/pages/multiplayer.md
+    status: needs-verification
+    featured: true
+    sidebarOrder: 1
+    role: core
+    intents:
+      - halloween-multiplayer
+    quickAnswer: "Online multiplayer is 1 Michael Myers vs 4 Civilians (up to 5 players). Civilians save residents, contact police, and pursue varied escapes; Michael kills residents and Special Targets. Eliminated Civilians may return as Deputy or Dr. Loomis."
+    eyebrow: "Multiplayer"
+    facts:
+      - label: "Format"
+        value: "1 Michael vs 4 Civilians; up to 5 online players"
+      - label: "Civilian goals"
+        value: "Save residents, gather proof, contact police, escape or detain Michael"
+      - label: "Michael goals"
+        value: "Kill residents and time-limited Special Targets"
+      - label: "Second chance"
+        value: "Eliminated Civilians may return as Deputy or Dr. Loomis"
+    coverAssetId: halloween-gameplay-2
+    relations:
+      - pageId: multiplayer-how-it-works
+        type: next-step
+      - pageId: multiplayer-crossplay
+        type: next-step
+      - pageId: bots-private-lobbies-offline
+        type: related
+    changeSummary: "CONTENT_EXPANSION — Multiplayer pillar hub."
+  - id: multiplayer-how-it-works
+    title: "How Halloween: The Game Multiplayer Works"
+    description: "Step-by-step overview of the confirmed multiplayer loop, Civilian and Michael tasks, and launch-pending systems."
+    category: multiplayer-guides
+    slug: multiplayer/how-multiplayer-works
+    source: site-input/pages/multiplayer/how-multiplayer-works.md
+    status: needs-verification
+    featured: true
+    sidebarOrder: 2
+    role: core
+    intents:
+      - how-multiplayer-works
+    quickAnswer: "Matches pair 1 Michael with 4 Civilians on Haddonfield maps. Civilians pursue randomized escapes and police escalation while Michael uses stalking and blackouts. Item and escape locations vary between matches per IllFonic."
+    eyebrow: "Multiplayer Guide"
+    facts:
+      - label: "Players"
+        value: "Up to 5 online (1 Killer + 4 Civilians)"
+      - label: "Variety"
+        value: "Escape and item locations vary between matches"
+      - label: "Maps"
+        value: "Three revealed Haddonfield maps at launch window"
+    coverAssetId: halloween-gameplay-1
+    relations:
+      - pageId: multiplayer-crossplay
+        type: next-step
+      - pageId: match-length-timer
+        type: related
+      - pageId: maps-hub
+        type: related
+    changeSummary: "CONTENT_EXPANSION — Multiplayer how-it-works guide."
+  - id: multiplayer-crossplay
+    title: "Halloween: The Game Crossplay — What Is Officially Confirmed"
+    description: "Xbox storefront cross-platform indicators, confirmed platforms, and what not to claim about the full crossplay matrix pre-launch."
+    category: multiplayer-guides
+    slug: multiplayer/crossplay
+    source: site-input/pages/multiplayer/crossplay.md
+    status: needs-verification
+    featured: false
+    sidebarOrder: 3
+    role: core
+    intents:
+      - halloween-crossplay
+    quickAnswer: "Cross-platform multiplayer is officially indicated on Xbox store listings, and IllFonic confirms PC, PS5, and Xbox Series X|S. A complete PS5 ↔ Xbox ↔ Steam ↔ Epic pairing matrix is not published—treat full crossplay details as launch verification pending."
+    eyebrow: "Crossplay"
+    facts:
+      - label: "Xbox listing"
+        value: "Cross-platform multiplayer and co-op indicated"
+      - label: "Platforms"
+        value: "PC (Steam/Epic), PS5, Xbox Series X|S"
+      - label: "Full matrix"
+        value: "Not confirmed in primary sources pre-launch"
+    coverAssetId: halloween-gameplay-2
+    relations:
+      - pageId: pc-system-requirements
+        type: next-step
+      - pageId: early-access-release-time
+        type: related
+    changeSummary: "CONTENT_EXPANSION — Crossplay status guide."
+  - id: single-player-hub
+    title: "Halloween: The Game Single Player — Story Mode & Chapters"
+    description: "Six-chapter Michael Myers story reimagining the 1978 film, Dr. Loomis narration, sandbox objectives, and replay unlocks—without speculative walkthroughs."
+    category: story-guides
+    slug: single-player
+    source: site-input/pages/single-player.md
+    status: needs-verification
+    featured: true
+    sidebarOrder: 1
+    role: core
+    intents:
+      - halloween-single-player
+      - story-mode
+    quickAnswer: "Yes—Halloween: The Game has a single-player story played as Michael Myers across six chapters with Dr. Loomis narration, fixed core objectives, sandbox execution, and multiple difficulties. Chapter names and walkthrough steps are launch verification pending."
+    eyebrow: "Story Mode"
+    facts:
+      - label: "Perspective"
+        value: "Michael Myers (single-player)"
+      - label: "Chapters"
+        value: "Six chapters confirmed"
+      - label: "Narration"
+        value: "Dr. Samuel Loomis"
+      - label: "Replay extras"
+        value: "Challenges, collectibles, lore, executions, cosmetics"
+    coverAssetId: halloween-gameplay-1
+    relations:
+      - pageId: michael-myers-hub
+        type: next-step
+      - pageId: characters-hub
+        type: related
+      - pageId: bots-private-lobbies-offline
+        type: related
+    changeSummary: "CONTENT_EXPANSION — Single Player pillar hub."
+  - id: pc-hub
+    title: "Halloween: The Game on PC — Requirements, EAC & Launch Checks"
+    description: "PC storefronts, anti-cheat notices, Steam Deck status links, and what to verify after Advance Access."
+    category: pc-guides
+    slug: pc
+    source: site-input/pages/pc.md
+    status: needs-verification
+    featured: true
+    sidebarOrder: 1
+    role: core
+    intents:
+      - halloween-pc
+    quickAnswer: "PC releases on Steam (App ID 3219630) and Epic. Steam lists Windows 11, DX12, SSD/NVMe, and Easy Anti-Cheat with a kernel-level notice. Steam Deck and real-world FPS are launch verification pending."
+    eyebrow: "PC Guide"
+    facts:
+      - label: "Steam App ID"
+        value: "App ID 3219630"
+      - label: "Engine"
+        value: "Unreal Engine 5"
+      - label: "Anti-cheat"
+        value: "Easy Anti-Cheat (kernel notice on Steam)"
+      - label: "Storage"
+        value: "45 GB SSD/NVMe required"
+    coverAssetId: halloween-gameplay-2
+    relations:
+      - pageId: pc-system-requirements
+        type: next-step
+      - pageId: steam-deck
+        type: next-step
+      - pageId: multiplayer-crossplay
+        type: related
+    changeSummary: "CONTENT_EXPANSION — PC pillar hub."
+  - id: pc-system-requirements
+    title: "Halloween: The Game PC System Requirements"
+    description: "Current Steam minimum and recommended specs for Halloween: The Game, plus launch-pending performance claims."
+    category: pc-guides
+    slug: pc/system-requirements
+    source: site-input/pages/pc/system-requirements.md
+    status: needs-verification
+    featured: true
+    sidebarOrder: 2
+    role: core
+    intents:
+      - system-requirements
+      - pc-requirements
+    quickAnswer: "Minimum: Windows 11, 16 GB RAM, GTX 1660-class GPU, 1080p30 target, 45 GB SSD. Recommended: 32 GB RAM, RTX 3000 / RX 7000 class, 4K30 target. Real FPS and upscaling are launch verification pending."
+    eyebrow: "System Requirements"
+    facts:
+      - label: "Minimum GPU"
+        value: "GTX 1660+ / RX 590+ / Arc A770+"
+      - label: "Recommended GPU"
+        value: "RTX 3000 series / RX 7000 series"
+      - label: "RAM"
+        value: "16 GB min / 32 GB recommended"
+      - label: "Storage"
+        value: "45 GB on SSD/NVMe"
+    coverAssetId: halloween-gameplay-1
+    relations:
+      - pageId: pc-hub
+        type: related
+      - pageId: steam-deck
+        type: next-step
+    changeSummary: "CONTENT_EXPANSION — PC system requirements guide."
   - id: early-access-release-time
     title: "Halloween: The Game Early Access — September 4 Release Time & Countdown"
     description: "Confirmed Advance Access start time for Digital Deluxe pre-orders (Sep 4, 2026, 9:00 AM PT), full release date, edition eligibility, pricing and key platform/region notes."
@@ -83,7 +515,14 @@ pages:
       - label: "Standard price"
         value: "USD $39.99 (official FAQ/store pages)"
     coverAssetId: halloween-gameplay-1
-    changeSummary: "Initial APIMart writer pass from launch research packet."
+    relations:
+      - pageId: multiplayer-hub
+        type: next-step
+      - pageId: multiplayer-crossplay
+        type: next-step
+      - pageId: pc-system-requirements
+        type: next-step
+    changeSummary: "CONTENT_EXPANSION — added next-step links to multiplayer and PC guides."
   - id: standard-vs-deluxe-upgrade
     title: "Halloween: The Game — Standard vs Deluxe: Can You Upgrade Later?"
     description: "Clear, evidence-backed breakdown of Standard vs Digital Deluxe editions, upgrade path at launch, and the Phantom vs Inmate Michael Myers skins (plus Richard & Alexis civilians)."
@@ -108,6 +547,11 @@ pages:
       - label: "Phantom Michael Myers skin"
         value: "Pre-order exclusive; officially listed as not available after the pre-order period (Confirmed)"
     coverAssetId: halloween-gameplay-2
+    relations:
+      - pageId: characters-hub
+        type: next-step
+      - pageId: early-access-release-time
+        type: related
     changeSummary: "Initial APIMart writer pass from launch research packet."
   - id: bots-private-lobbies-offline
     title: "Does Halloween: The Game Have Bots? Private Lobbies & Offline Mode Explained"
@@ -133,7 +577,12 @@ pages:
       - label: "AI/bot backfill in private online lobbies"
         value: "Not Announced — no official confirmation available"
     coverAssetId: halloween-gameplay-1
-    changeSummary: "Initial APIMart writer pass from launch research packet."
+    relations:
+      - pageId: multiplayer-hub
+        type: next-step
+      - pageId: single-player-hub
+        type: related
+    changeSummary: "CONTENT_EXPANSION — linked to multiplayer and single-player pillars."
   - id: steam-deck
     title: "Halloween: The Game Steam Deck — Compatibility, Easy Anti-Cheat & Launch Status"
     description: "What is and isn’t known about playing Halloween: The Game on Steam Deck: Easy Anti-Cheat presence, PC requirements, controller support and what to check at launch."
@@ -152,13 +601,18 @@ pages:
       - label: "Release date"
         value: "Digital release confirmed for September 8, 2026 (Advance Access starts Sep 4 for eligible preorders)"
       - label: "Steam App ID"
-        value: "Steam App ID 3219630"
+        value: "App ID 3219630"
       - label: "Platforms"
         value: "PC (Steam, Epic), PS5, Xbox Series X|S"
       - label: "Anti-cheat"
         value: "Easy Anti-Cheat listed for the PC build (secondary source: PCGamingWiki)"
     coverAssetId: halloween-gameplay-2
-    changeSummary: "Initial APIMart writer pass from launch research packet."
+    relations:
+      - pageId: pc-hub
+        type: next-step
+      - pageId: pc-system-requirements
+        type: next-step
+    changeSummary: "CONTENT_EXPANSION — linked to PC pillar."
   - id: australia-release-status
     title: "Is Halloween: The Game Banned in Australia? Current Release Status"
     description: "Summary of the Australian Classification Board decision, why the game was Refused Classification, what that means for digital/physical sales and how SKU differences (Standard vs Digital Deluxe) affect classification as of the last verification."
@@ -213,7 +667,106 @@ pages:
       - label: "Australia status (base game)"
         value: "Refused Classification (RC) due to illicit drug use linked to gameplay advantage — Last Verified: 2026-08-29"
     coverAssetId: halloween-gameplay-2
-    changeSummary: "Initial APIMart writer pass from launch research packet."
+    relations:
+      - pageId: multiplayer-how-it-works
+        type: next-step
+    changeSummary: "CONTENT_EXPANSION — linked to multiplayer how-it-works guide."
+
+routes:
+  - id: maps
+    eyebrow: "Maps"
+    title: "Maps"
+    description: "Confirmed Haddonfield maps, landmarks, and what still needs launch verification."
+    visualAssetId: halloween-gameplay-2
+    fastAnswers:
+      - question: "How many maps are in Halloween: The Game?"
+        answer: Three maps are officially revealed—Haddonfield Heights, Town Center, and Orange Grove Estates.
+        pageId: maps-hub
+      - question: "What landmarks are on Haddonfield Heights?"
+        answer: The Myers house, water tower, and Lampkin Lane are confirmed landmarks.
+        pageId: maps-haddonfield-heights
+      - question: "Which map has the cemetery?"
+        answer: Haddonfield Town Center includes Haddonfield Cemetery as playable space.
+        pageId: maps-haddonfield-town-center
+    pages:
+      - maps-hub
+      - maps-haddonfield-heights
+      - maps-haddonfield-town-center
+      - maps-orange-grove-estates
+  - id: characters
+    eyebrow: "Characters"
+    title: "Characters"
+    description: "Playable Civilian roster, Deluxe exclusives, and trait overview."
+    visualAssetId: halloween-gameplay-1
+    fastAnswers:
+      - question: "Who can you play as?"
+        answer: Standard Edition includes 10 Civilians; Deluxe adds Richard and Alexis.
+        pageId: characters-hub
+      - question: "Are Laurie and Annie playable?"
+        answer: Yes—Laurie Strode and Annie Brackett are confirmed legacy Civilians.
+        pageId: characters-hub
+    pages:
+      - characters-hub
+  - id: michael-myers
+    eyebrow: "Killer"
+    title: "Michael Myers"
+    description: "How Michael works in-game—objectives, abilities, and combat rules."
+    visualAssetId: halloween-gameplay-1
+    fastAnswers:
+      - question: "What abilities does Michael Myers have?"
+        answer: Killer Sense, Stalk, Shape Jump, Shape Dash, and blackout/light manipulation are confirmed.
+        pageId: michael-myers-abilities
+      - question: "Can Michael be killed?"
+        answer: Michael can be resisted and detained but not simply killed by Civilians.
+        pageId: michael-myers-hub
+    pages:
+      - michael-myers-hub
+      - michael-myers-abilities
+  - id: multiplayer
+    eyebrow: "Multiplayer"
+    title: "Multiplayer"
+    description: "1v4 online format, crossplay notes, bots, and match questions."
+    visualAssetId: halloween-gameplay-2
+    fastAnswers:
+      - question: "How does Halloween multiplayer work?"
+        answer: 1 Michael vs 4 Civilians with varying escapes, items, and police escalation.
+        pageId: multiplayer-how-it-works
+      - question: "Does Halloween: The Game support crossplay?"
+        answer: Cross-platform multiplayer is indicated on Xbox; full pairing matrix is launch verification pending.
+        pageId: multiplayer-crossplay
+    pages:
+      - multiplayer-hub
+      - multiplayer-how-it-works
+      - multiplayer-crossplay
+      - bots-private-lobbies-offline
+      - match-length-timer
+  - id: single-player
+    eyebrow: "Story Mode"
+    title: "Single Player"
+    description: "Michael Myers story chapters, replay structure, and unlocks."
+    visualAssetId: halloween-gameplay-1
+    fastAnswers:
+      - question: "Does Halloween: The Game have single player?"
+        answer: Yes—a six-chapter story played as Michael with Dr. Loomis narration.
+        pageId: single-player-hub
+    pages:
+      - single-player-hub
+  - id: pc
+    eyebrow: "PC"
+    title: "PC"
+    description: "System requirements, anti-cheat, Steam Deck checks, and PC launch notes."
+    visualAssetId: halloween-gameplay-2
+    fastAnswers:
+      - question: "What are the PC system requirements?"
+        answer: Steam lists Windows 11, 16–32 GB RAM, DX12, and 45 GB SSD/NVMe storage.
+        pageId: pc-system-requirements
+      - question: "Does Halloween work on Steam Deck?"
+        answer: Not verified—see the Steam Deck status page for EAC and testing notes.
+        pageId: steam-deck
+    pages:
+      - pc-hub
+      - pc-system-requirements
+      - steam-deck
 
 homepage:
   heroBadge: Sep 2026 launch guide
@@ -221,34 +774,43 @@ homepage:
     label: Early Access timing
     pageId: early-access-release-time
   secondaryCta:
-    label: Browse launch guides
+    label: Browse all guides
     anchor: browse-guides
   statusItems:
     - label: Advance Access
       value: "Sep 4, 2026 — 9 AM PT (Deluxe pre-order)"
     - label: Digital release
       value: "Sep 8, 2026"
-    - label: Focus
-      value: "Editions, offline modes, AU status"
+    - label: Guide pillars
+      value: "Maps, Characters, Michael, Multiplayer, Story, PC"
   popularQuestions:
     - label: "What time does Halloween: The Game early access start?"
       context: "Deluxe pre-order Advance Access window and timezone."
       pageId: early-access-release-time
+    - label: "How many maps are in Halloween: The Game?"
+      context: "Three confirmed Haddonfield maps at pre-launch."
+      pageId: maps-hub
+    - label: "Who can you play as?"
+      context: "10 Standard Civilians plus Deluxe exclusives."
+      pageId: characters-hub
+    - label: "What abilities does Michael Myers have?"
+      context: "Killer Sense, Stalk, Shape Jump, and blackouts."
+      pageId: michael-myers-abilities
+    - label: "How does Halloween multiplayer work?"
+      context: "1v4 format, objectives, and replay variety."
+      pageId: multiplayer-how-it-works
+    - label: "Does Halloween: The Game have single player?"
+      context: "Six-chapter Michael Myers story mode."
+      pageId: single-player-hub
+    - label: "What are the PC system requirements?"
+      context: "Steam minimum and recommended specs."
+      pageId: pc-system-requirements
     - label: "Can I upgrade from Standard to Deluxe later?"
       context: "Launch upgrade SKU vs Phantom pre-order exclusive."
       pageId: standard-vs-deluxe-upgrade
-    - label: "Does Halloween: The Game have bots or private lobbies?"
-      context: "Story mode, offline bots, and private lobby limits."
-      pageId: bots-private-lobbies-offline
     - label: "Does Halloween: The Game work on Steam Deck?"
       context: "EAC, Windows requirements, and verification status."
       pageId: steam-deck
-    - label: "Is Halloween: The Game banned in Australia?"
-      context: "RC reason and current storefront status."
-      pageId: australia-release-status
-    - label: "Are Halloween: The Game matches really only 12 minutes?"
-      context: "Footage observations vs official timer rules."
-      pageId: match-length-timer
   startHere:
     - pageId: early-access-release-time
       label: Early Access
@@ -285,7 +847,7 @@ assets:
   - id: halloween-social
     source: site-input/assets/halloween-social.jpg
     target: social/halloween-social.jpg
-    alt: "Halloween: The Game launch guide social image"
+    alt: "Halloween: The Game guide social image"
     sourceUrl: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219630/153ed105c4b409fe689783e4f9b6aad72c152646/header.jpg?t=1787962852
     sourceType: store
     usageStatus: review-required
@@ -293,7 +855,7 @@ assets:
 social:
   defaultImage:
     asset: social/halloween-social.jpg
-    alt: "Halloween: The Game Guide — Early Access, Editions & Launch Answers"
+    alt: "Halloween: The Game Guide — Maps, Characters, Multiplayer & Launch Answers"
 
 analytics:
   enabled: true
@@ -305,4 +867,3 @@ analytics:
     enabled: false
   vercelAnalytics:
     enabled: true
-

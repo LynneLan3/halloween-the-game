@@ -23,6 +23,7 @@ import {
 	trustTitleForLocale,
 	type TrustPageKind,
 } from '../../src/lib/trust';
+import type { SiteSpecRoute } from './site-spec';
 import {
 	buildManifest,
 	isPathManaged,
@@ -605,6 +606,18 @@ function buildMonetizationConfig(spec: SiteSpec): GameMonetizationConfig | undef
 	};
 }
 
+/** When a route's first page slug matches the route id, link cards to that guide hub URL. */
+function resolveRouteHref(spec: SiteSpec, route: SiteSpecRoute): string {
+	const firstPage = spec.pages.find((entry) => entry.id === route.pages[0]);
+	if (firstPage) {
+		const normalizedSlug = firstPage.slug.replace(/^\/+|\/+$/g, '');
+		if (normalizedSlug === route.id) {
+			return publicHrefForPage(spec.site.hubPath, firstPage.slug);
+		}
+	}
+	return routeHref(spec.site.hubPath, route.id);
+}
+
 function buildGameConfig(spec: SiteSpec): GameConfig {
 	// Deployment identity stays in site-spec.yaml only. Never emit it into site.generated.ts.
 	const hero = assetById(spec, spec.theme.heroAssetId);
@@ -655,7 +668,7 @@ function buildGameConfig(spec: SiteSpec): GameConfig {
 			eyebrow: route.eyebrow,
 			title: route.title,
 			description: route.description,
-			href: routeHref(spec.site.hubPath, route.id),
+			href: resolveRouteHref(spec, route),
 			visual: route.visualAssetId ? assetById(spec, route.visualAssetId)?.target : undefined,
 			pages: route.pages.map((pageId) => {
 				const page = spec.pages.find((entry) => entry.id === pageId)!;
@@ -748,6 +761,12 @@ function buildHubMdx(spec: SiteSpec): string {
 	return `${renderFrontmatter(fields)}\n`;
 }
 
+function assetImportRef(outputRelPath: string, assetTarget: string): string {
+	const fromDir = path.dirname(outputRelPath);
+	const toAsset = path.join('src', 'assets', assetTarget);
+	return path.relative(fromDir, toAsset).replace(/\\/g, '/');
+}
+
 function buildPageMarkdown(spec: SiteSpec, pageId: string, rootDir: string, specDir: string): string {
 	const page = spec.pages.find((entry) => entry.id === pageId)!;
 	const sourceAbs = resolveInputPath(rootDir, specDir, page.source);
@@ -767,6 +786,7 @@ function buildPageMarkdown(spec: SiteSpec, pageId: string, rootDir: string, spec
 			type: relation.type,
 		};
 	});
+	const outputRelPath = pageOutputPath(spec, pageId);
 	const cover = assetById(spec, page.coverAssetId ?? undefined);
 	const cardImage = assetById(spec, page.cardImageAssetId ?? undefined);
 	const sidebar = {
@@ -796,7 +816,7 @@ function buildPageMarkdown(spec: SiteSpec, pageId: string, rootDir: string, spec
 	if (page.evidence.length > 0) fields.push(['evidence', page.evidence]);
 	if (page.socialImage) fields.push(['socialImage', page.socialImage]);
 	if (cover) {
-		fields.push(['cover', `../../../assets/${cover.target}`]);
+		fields.push(['cover', assetImportRef(outputRelPath, cover.target)]);
 		fields.push(['coverMedia', {
 			alt: cover.alt,
 			kind: cover.kind ?? 'cover',
@@ -806,7 +826,7 @@ function buildPageMarkdown(spec: SiteSpec, pageId: string, rootDir: string, spec
 			sourceUrl: cover.sourceUrl,
 		}]);
 	}
-	if (cardImage) fields.push(['cardImage', `../../../assets/${cardImage.target}`]);
+	if (cardImage) fields.push(['cardImage', assetImportRef(outputRelPath, cardImage.target)]);
 	if (page.changeSummary) fields.push(['changeSummary', page.changeSummary]);
 	if (page.eyebrow) fields.push(['eyebrow', page.eyebrow]);
 	if (page.facts && page.facts.length > 0) fields.push(['facts', page.facts]);

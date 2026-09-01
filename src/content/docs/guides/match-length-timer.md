@@ -12,13 +12,17 @@ sidebar:
 intents:
   - match-length-timer
 quickAnswer: "No official, published match timer yet. Preview footage frequently shows sessions around 12 minutes, but IllFonic has not confirmed a fixed match length — treat footage as observational until the developer publishes rules or patch notes."
+relations:
+  -
+    slug: multiplayer/how-multiplayer-works
+    type: next-step
 cover: ../../../assets/covers/halloween-gameplay-2.jpg
 coverMedia:
   alt: "Survivors in Haddonfield in Halloween: The Game"
   kind: cover
   aspectRatio: 16:9
   sourceUrl: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219630/b6788a76e909167f1e599e62f52ea0a9734aa133/ss_b6788a76e909167f1e599e62f52ea0a9734aa133.1920x1080.jpg?t=1787962852"
-changeSummary: Initial APIMart writer pass from launch research packet.
+changeSummary: "CONTENT_EXPANSION — linked to multiplayer how-it-works guide."
 eyebrow: Match Length
 facts:
   -

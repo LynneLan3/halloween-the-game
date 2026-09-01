@@ -12,13 +12,20 @@ sidebar:
 intents:
   - bots-private-lobbies-offline
 quickAnswer: "Yes — a single‑player story mode and offline play against bots are confirmed. Private lobbies are reported by third‑party outlets but official details (including whether online private lobbies get AI/bot fill) have not been announced. See the sections below for what is confirmed and what remains unverified."
+relations:
+  -
+    slug: multiplayer
+    type: next-step
+  -
+    slug: single-player
+    type: related
 cover: ../../../assets/covers/halloween-gameplay-1.jpg
 coverMedia:
   alt: "Michael Myers stalking in Halloween: The Game"
   kind: cover
   aspectRatio: 16:9
   sourceUrl: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219630/fef848f20a2a5e857ee275662acf979b89754af7/ss_fef848f20a2a5e857ee275662acf979b89754af7.1920x1080.jpg?t=1787962852"
-changeSummary: Initial APIMart writer pass from launch research packet.
+changeSummary: "CONTENT_EXPANSION — linked to multiplayer and single-player pillars."
 eyebrow: Multiplayer Modes
 facts:
   -

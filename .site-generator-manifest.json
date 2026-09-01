@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "templateVersion": "2.0.0",
   "generatorVersion": "1.0.0",
-  "specHash": "f44c68c428256abfe6510a4429a185d7439ec8998659f4a6618e45239961b93b",
+  "specHash": "1db3d822a4acddcd4e30ac0df1bdb1d6bfe8338226df831bef5f9f3b2c9fe236",
   "siteId": "halloween-the-game",
   "createdFromSpec": "site-spec.yaml",
   "managedFiles": [
@@ -38,33 +38,93 @@
     },
     {
       "path": "src/config/site.generated.ts",
-      "sha256": "5e3a69de1ab4ab075644230b7f601f84e89ccac5d7e160ca9096bb26e65c36df",
+      "sha256": "ad2789b2ab3aee76a984ae5d1adbe4c5535f8da4a8577e23f58242baa3da3ddb",
       "kind": "config"
     },
     {
+      "path": "src/content/docs/character-guides/characters.md",
+      "sha256": "3e353b0e0421cb7d71aed45a62d9177e1ce6d4f43d376274a9616b0200113868",
+      "kind": "page"
+    },
+    {
       "path": "src/content/docs/guides/bots-private-lobbies-offline.md",
-      "sha256": "6e6a62b60b4607bb7b5732fc6a15054ef670a1900d2e6db53df99b6d9919a6c9",
+      "sha256": "5ed8b1f77cb7d3f0378f55954e822155ffc47cbed4333119a206c157ed485355",
       "kind": "page"
     },
     {
       "path": "src/content/docs/guides/early-access-release-time.md",
-      "sha256": "6d1984930e099100981e60b5319e5082d4207c79c2cb1c38b60042f41d699669",
+      "sha256": "acdad28b1f74b0f90e73b608a97226babaa64a84fb1d24aa16b4555fed49ffde",
       "kind": "page"
     },
     {
       "path": "src/content/docs/guides/match-length-timer.md",
-      "sha256": "182a9d9f714d576a82b28c459663edb901025560d8a57127a4b6a2454ec75208",
+      "sha256": "1d8e96107050546c034264492a3f1979ac269ffa1b0e563c288c5e1e76a9d430",
       "kind": "page"
     },
     {
       "path": "src/content/docs/guides/standard-vs-deluxe-upgrade.md",
-      "sha256": "d323134a7b948c51f43708a7b60d377e41a2387f50154e1339c448b0dffb84e3",
+      "sha256": "a52fa9beee73b138e1cc3e3b511ca46f29be86e0bc0b88b374fc875d1c036c4c",
       "kind": "page"
     },
     {
       "path": "src/content/docs/index.mdx",
-      "sha256": "8dc6fca813b8516ed9a705275154e905ec04081bb47d9f52ef26a689720a9ce1",
+      "sha256": "eb0f1f7269d093861069f6a39c281cc80161a224c041ddcd6d986f5510ae8af9",
       "kind": "hub"
+    },
+    {
+      "path": "src/content/docs/killer-guides/michael-myers.md",
+      "sha256": "abf65f63cab15aa7f1c277890eb34cfd753c6c87adbfea51246359488f8f6ede",
+      "kind": "page"
+    },
+    {
+      "path": "src/content/docs/killer-guides/michael-myers/abilities.md",
+      "sha256": "f9509c0d6fce8e1bc28eff18caba4a94ec1f76b152de337aef529997c69ba8b9",
+      "kind": "page"
+    },
+    {
+      "path": "src/content/docs/map-guides/maps.md",
+      "sha256": "9f988f5e9146586f7c1901253f5e45a39b560ded1309ad7cbc3f4ab8ac990687",
+      "kind": "page"
+    },
+    {
+      "path": "src/content/docs/map-guides/maps/haddonfield-heights.md",
+      "sha256": "387842741b226352a2b9315d303c86a757b5efa1ad66df0879c99082df8e5098",
+      "kind": "page"
+    },
+    {
+      "path": "src/content/docs/map-guides/maps/haddonfield-town-center.md",
+      "sha256": "327e4b3a0892b7cd0c76c6503ef7aa720619772694448067236d1f9c0321251e",
+      "kind": "page"
+    },
+    {
+      "path": "src/content/docs/map-guides/maps/orange-grove-estates.md",
+      "sha256": "b9a1da9a1930a155cf181ee4fc809617be76fd88bb98c3a384532aaa48ad60d8",
+      "kind": "page"
+    },
+    {
+      "path": "src/content/docs/multiplayer-guides/multiplayer.md",
+      "sha256": "7c39de36bb94cd9be341cb706144840a9241ff3ba7cf51483ccc1aacf6cb056c",
+      "kind": "page"
+    },
+    {
+      "path": "src/content/docs/multiplayer-guides/multiplayer/crossplay.md",
+      "sha256": "9f92640bb1e55b36366b5196f6eec8ac51f6466fbc749adbfbf9d53698c6cd56",
+      "kind": "page"
+    },
+    {
+      "path": "src/content/docs/multiplayer-guides/multiplayer/how-multiplayer-works.md",
+      "sha256": "8ed28078b2b30106e41d54954ef2a944f1703b83e0ca3c43ac64966f73b241fc",
+      "kind": "page"
+    },
+    {
+      "path": "src/content/docs/pc-guides/pc.md",
+      "sha256": "3a130c40a5d4f2cd0adbad2fc501129df2e1dfa1f32e04730e2c5d10854b62fa",
+      "kind": "page"
+    },
+    {
+      "path": "src/content/docs/pc-guides/pc/system-requirements.md",
+      "sha256": "e63a3711468e99be0f732e1d25f626ec568933232ad4c48a97ad13787b42d08d",
+      "kind": "page"
     },
     {
       "path": "src/content/docs/reference/australia-release-status.md",
@@ -73,7 +133,12 @@
     },
     {
       "path": "src/content/docs/reference/steam-deck.md",
-      "sha256": "52964b134fd902f5cf84185520ce55926904da15ed084d3bc9aa56a74ccf3bff",
+      "sha256": "17eca4bb35645b4eaf63a8f6cf44bf5b90afe6be7a1774f4bd7b3ab7b942e854",
+      "kind": "page"
+    },
+    {
+      "path": "src/content/docs/story-guides/single-player.md",
+      "sha256": "30d40672babebc8a56f130e43ce22a0bbad8cb697c76ba8a9af6e258981b26dd",
       "kind": "page"
     }
   ],

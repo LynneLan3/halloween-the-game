@@ -12,13 +12,23 @@ sidebar:
 intents:
   - early-access-release-time
 quickAnswer: "Advance Access for Halloween: The Game begins Friday, September 4, 2026 at 9:00 AM PT and is confirmed for Digital Deluxe pre-orders. The full, public release is September 8, 2026. Standard pre-orders do not list gameplay Early Access."
+relations:
+  -
+    slug: multiplayer
+    type: next-step
+  -
+    slug: multiplayer/crossplay
+    type: next-step
+  -
+    slug: pc/system-requirements
+    type: next-step
 cover: ../../../assets/covers/halloween-gameplay-1.jpg
 coverMedia:
   alt: "Michael Myers stalking in Halloween: The Game"
   kind: cover
   aspectRatio: 16:9
   sourceUrl: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219630/fef848f20a2a5e857ee275662acf979b89754af7/ss_fef848f20a2a5e857ee275662acf979b89754af7.1920x1080.jpg?t=1787962852"
-changeSummary: Initial APIMart writer pass from launch research packet.
+changeSummary: "CONTENT_EXPANSION — added next-step links to multiplayer and PC guides."
 eyebrow: Advance Access
 facts:
   -
