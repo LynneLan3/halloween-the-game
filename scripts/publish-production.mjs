@@ -278,7 +278,8 @@ export function formatPublishResult(result) {
 		`BaselineDataDate: ${result.baselineDataDate}`,
 		`AttributionMode: ${result.attributionMode}`,
 		'',
-		...(result.status === 'PRODUCTION_LIVE_LEDGER_INCOMPLETE' ? ['PRODUCTION LIVE', 'LEDGER INCOMPLETE', ''] : []),
+		...(result.status === 'PRODUCTION_LIVE_LEDGER_INCOMPLETE' || result.status === 'WRITEBACK_PENDING' ? ['PRODUCTION LIVE', 'LEDGER INCOMPLETE', ''] : []),
+		...(result.status === 'RECEIPT_FAILED' ? ['PRODUCTION LIVE', 'RECEIPT FAILED', ''] : []),
 		`RESULT: ${result.status}`,
 	].join('\n');
 }
@@ -362,11 +363,13 @@ export async function runProductionPublish(options = {}) {
 			const ledger = options.writeLedger ? await options.writeLedger(normalizedPath, normalizedReceipt) : invokeLedger(normalizedPath);
 			result.ledger = ledger.ok ? 'PASS' : 'FAIL';
 			Object.assign(result, parseLedgerSummary(ledger.output));
-			result.status = ledger.ok && result.indexNow !== 'FAIL'
-				? 'PUBLISH_COMPLETE'
-				: ledger.ok
-					? 'PUBLISH_FAILED'
-					: 'PRODUCTION_LIVE_LEDGER_INCOMPLETE';
+			if (ledger.ok) {
+				result.status = result.indexNow !== 'FAIL' ? 'PUBLISH_COMPLETE' : 'PUBLISH_FAILED';
+			} else if (ledger.completionStatus === 'WRITEBACK_PENDING' || ledger.status === 'DEPLOYED_LEDGER_PENDING') {
+				result.status = 'WRITEBACK_PENDING';
+			} else {
+				result.status = 'RECEIPT_FAILED';
+			}
 			console.log(formatPublishResult(result));
 			return { ...result, normalizedReceipt, ledgerResult: ledger };
 		} finally {
