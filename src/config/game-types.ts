@@ -237,6 +237,10 @@ export interface GameAffiliateConfig {
 
 export interface GameAdsConfig {
 	enabled: boolean;
+	/** Third-party ad network script URL. Required when ads are enabled. */
+	scriptSrc?: string;
+	/** DOM id for the ad network container element (e.g. container-xxx). */
+	containerId?: string;
 }
 
 /** Runtime monetization switches. Omitted when the whole layer is off. */

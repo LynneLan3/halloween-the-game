@@ -486,6 +486,8 @@ export interface SiteSpecAffiliate {
 
 export interface SiteSpecAds {
 	enabled: boolean;
+	scriptSrc?: string;
+	containerId?: string;
 }
 
 export interface SiteSpecMonetization {
@@ -1557,11 +1559,15 @@ function parseMonetization(raw: unknown, location: string): SiteSpecMonetization
 				'Use monetization.ads.enabled.',
 			);
 		}
+		const scriptSrc = requireHttpUrl(raw.ads, 'scriptSrc', `${location}.ads`, { optional: true });
+		const containerId = requireString(raw.ads, 'containerId', `${location}.ads`, { optional: true });
 		ads = {
 			enabled: requireBoolean(raw.ads, 'enabled', `${location}.ads`, {
 				optional: true,
 				defaultValue: false,
 			})!,
+			scriptSrc: scriptSrc || undefined,
+			containerId: containerId || undefined,
 		};
 	}
 	return { enabled, affiliate, ads };

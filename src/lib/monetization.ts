@@ -25,6 +25,18 @@ export function isAdsEnabled(): boolean {
 	return isMonetizationEnabled() && game.monetization?.ads.enabled === true;
 }
 
+export function adScriptSrc(): string | undefined {
+	if (!isAdsEnabled()) return undefined;
+	const src = game.monetization?.ads.scriptSrc?.trim();
+	return src || undefined;
+}
+
+export function adContainerId(): string | undefined {
+	if (!isAdsEnabled()) return undefined;
+	const id = game.monetization?.ads.containerId?.trim();
+	return id || undefined;
+}
+
 /** When ads are off, AdSlot renders nothing (no empty box, no CLS). */
 export function adSlotDatasetFor(
 	adsEnabled: boolean,

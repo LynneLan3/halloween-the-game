@@ -902,6 +902,18 @@ export const siteConfig: GameConfig = {
 		ga4: { enabled: false },
 		vercelAnalytics: { enabled: true },
 	},
+	monetization: {
+		enabled: true,
+		affiliate: {
+			enabled: false,
+			disclosure: false,
+		},
+		ads: {
+			enabled: true,
+			scriptSrc: "https://pl31121382.profitableratecpmnetwork.com/48fe22f744a00606ab2616e732ff6e3a/invoke.js",
+			containerId: "container-48fe22f744a00606ab2616e732ff6e3a",
+		},
+	},
 	social: {
 		defaultImage: {
 			asset: "social/halloween-social.jpg",

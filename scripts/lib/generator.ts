@@ -464,6 +464,12 @@ function renderSiteGeneratedTs(config: GameConfig): string {
 		lines.push('\t\t},');
 		lines.push('\t\tads: {');
 		lines.push(`\t\t\tenabled: ${config.monetization.ads.enabled},`);
+		if (config.monetization.ads.scriptSrc) {
+			lines.push(`\t\t\tscriptSrc: ${tsString(config.monetization.ads.scriptSrc)},`);
+		}
+		if (config.monetization.ads.containerId) {
+			lines.push(`\t\t\tcontainerId: ${tsString(config.monetization.ads.containerId)},`);
+		}
 		lines.push('\t\t},');
 		lines.push('\t},');
 	}
@@ -602,6 +608,8 @@ function buildMonetizationConfig(spec: SiteSpec): GameMonetizationConfig | undef
 		},
 		ads: {
 			enabled: spec.monetization.ads.enabled,
+			scriptSrc: spec.monetization.ads.scriptSrc,
+			containerId: spec.monetization.ads.containerId,
 		},
 	};
 }

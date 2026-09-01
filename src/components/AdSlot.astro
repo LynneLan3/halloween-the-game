@@ -1,5 +1,5 @@
 ---
-import { adSlotDataset, type AdPlacement } from '../lib/monetization';
+import { adContainerId, adSlotDataset, type AdPlacement } from '../lib/monetization';
 
 interface Props {
 	placement: AdPlacement;
@@ -7,6 +7,20 @@ interface Props {
 
 const { placement } = Astro.props;
 const dataset = adSlotDataset(placement);
+const containerId = adContainerId();
 ---
 
-{dataset && <div data-ad-slot={dataset['data-ad-slot']} />}
+{
+	dataset && (
+		<div class="ad-slot" data-ad-slot={dataset['data-ad-slot']} aria-label="Advertisement">
+			{containerId ? (
+				<div id={containerId} class="ad-slot__container" />
+			) : (
+				<div class="ad-slot__container" />
+			)}
+			<span class="ad-slot__label" aria-hidden="true">
+				ad
+			</span>
+		</div>
+	)
+}

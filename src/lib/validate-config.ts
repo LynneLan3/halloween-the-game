@@ -327,6 +327,8 @@ export const gameConfigSchema = z.object({
 			}),
 			ads: z.object({
 				enabled: z.boolean(),
+				scriptSrc: z.string().url().optional(),
+				containerId: z.string().min(1).optional(),
 			}),
 		})
 		.optional(),
