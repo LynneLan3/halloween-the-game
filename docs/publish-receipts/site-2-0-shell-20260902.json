@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "hotword-publish-receipt-v1",
+  "common": {
+    "site": "Halloween: The Game",
+    "siteId": "halloween-the-game",
+    "game": "Halloween: The Game",
+    "batchId": "halloween-the-game|site-2-0-shell-migration|ced90fd",
+    "commitSha": "ced90fd69ef64693ac9e6581443b7468b4422cfe",
+    "lifecyclePhase": "pre-release",
+    "sourceRefs": [
+      "docs/website-2.0-migration.md",
+      "docs/v4-content-matrix.md",
+      "commit:ced90fd69ef64693ac9e6581443b7468b4422cfe"
+    ],
+    "attributionMode": "OBSERVATIONAL_ONLY"
+  },
+  "interventions": [
+    {
+      "interventionId": "halloween-the-game|site-2-0-shell|homepage",
+      "action": "UPDATE_PAGE",
+      "primaryUrl": "/",
+      "affectedUrls": [
+        "/",
+        "/guides/"
+      ],
+      "reason": "Website 2.0 shell on homepage and guides index: unified topbar, hero, category-grid, Site2 search.",
+      "triggerType": "site_expansion",
+      "triggerQueries": [],
+      "triggerSummary": "Player-facing shell migrated from v2.2 experience layer to Website 2.0 visual system.",
+      "sourceRefs": ["docs/website-2.0-migration.md"]
+    },
+    {
+      "interventionId": "halloween-the-game|site-2-0-shell|route-hubs",
+      "action": "UPDATE_PAGE",
+      "primaryUrl": "/routes/",
+      "affectedUrls": [
+        "/routes/",
+        "/routes/maps/",
+        "/routes/characters/",
+        "/routes/michael-myers/",
+        "/routes/multiplayer/",
+        "/routes/single-player/",
+        "/routes/pc/"
+      ],
+      "reason": "Route hub pages: full-screen dark stage, Fast Answers, beige guides grid, /routes/{id}/ navigation entry points.",
+      "triggerType": "site_expansion",
+      "triggerQueries": [],
+      "triggerSummary": "Route hub UX aligned with Website 2.0; nav links target /routes/ indexes while guide article URLs unchanged.",
+      "sourceRefs": ["docs/website-2.0-migration.md"]
+    },
+    {
+      "interventionId": "halloween-the-game|site-2-0-shell|performance",
+      "action": "UPDATE_PAGE",
+      "primaryUrl": "/maps/",
+      "affectedUrls": [
+        "/maps/",
+        "/characters/",
+        "/michael-myers/",
+        "/multiplayer/",
+        "/single-player/",
+        "/pc/",
+        "/early-access-release-time/",
+        "/steam-deck/",
+        "/standard-vs-deluxe-upgrade/"
+      ],
+      "reason": "Guide inner pages: Site 2.0 Starlight overrides, WebP hero preload, Vercel cache headers, pagefind sync.",
+      "triggerType": "site_expansion",
+      "triggerQueries": [],
+      "triggerSummary": "Performance and crawlability improvements bundled with shell migration.",
+      "sourceRefs": ["docs/website-2.0-migration.md", "vercel.json"]
+    }
+  ]
+}
