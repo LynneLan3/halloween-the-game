@@ -1,16 +1,22 @@
 ---
 title: "How Long Are Halloween: The Game Matches? 12‑Minute Timer Explained"
-description: "Short answer: there is no official published match timer as of Last Verified 2026-08-29. Pre-release footage often shows sessions around ~12 minutes, but that is observational — not confirmed rules. This page explains what is confirmed, what isn't, and what to check at launch."
+description: "Short answer: there is no official published match timer as of Last Verified 2026-09-02. Pre-release footage often shows sessions around ~12 minutes, but that is observational — not confirmed rules."
 category: guides
 slug: match-length-timer
 status: needs-verification
+trust:
+  status: provisional
+  lastVerified: 2026-09-02
+  appliesTo:
+    - Match timer rules
+    - Preview footage duration observations
 ---
 
 # How Long Are Halloween: The Game Matches? 12‑Minute Timer Explained
 
 Confirmed
 
-- No official, published match timer/rules: IllFonic and storefront pages have not published a fixed multiplayer match timer as of Last Verified: 2026-08-29. The Steam store page and official FAQ do not list a specific match length. **Confirmed.**
+- No official, published match timer/rules: IllFonic and storefront pages have not published a fixed multiplayer match timer as of Last Verified: 2026-09-02.
 
 - Preview footage shows ~12‑minute sessions: community previews and early streams that surfaced before launch often show matches that run around 12 minutes from setup to conclusion. These are observational artifacts of footage and build settings shown by creators, not official rulebooks. Treat them as demonstrations, not final mechanics. **Confirmed (observational).**
 
@@ -42,7 +48,7 @@ How to verify the official answer at or after launch
 
 Australia status (important note)
 
-- The base game was Refused Classification (RC) in Australia due to illicit drug use linked to gameplay advantage/reward. Last Verified: 2026-08-29. A separate IARC/Deluxe SKU listing was reported by secondary sources, but do not treat the game as “unbanned” without an official reclassification or IllFonic confirmation. See {{page:australia-release-status}} for more context. **Confirmed.**
+- The base game was Refused Classification (RC) in Australia due to illicit drug use linked to gameplay advantage/reward. Last Verified: 2026-09-02. A separate IARC/Deluxe SKU listing was reported by secondary sources, but do not treat the game as "unbanned" without an official reclassification or IllFonic confirmation. See {{page:australia-release-status}}.
 
 Quick checklist for launch day
 
@@ -58,6 +64,4 @@ Sources and where this guidance came from are below. If IllFonic publishes offic
 - [Halloween: The Game — Official Preorder / News](https://halloweengame.com/news/preorder/)
 - [Halloween: The Game on Steam (store page)](https://store.steampowered.com/app/3219630/Halloween_The_Game/)
 - [Playfront reporting on private lobbies and token/role systems](https://playfront.de/en/halloween-the-game-setzt-auf-rollenbasiertes-matchmaking-mit-token-system-fuer-killer/)
-- [PCGamingWiki entry (Easy Anti‑Cheat listing, platform notes)](https://www.pcgamingwiki.com/wiki/Halloween:_The_Game)
 - [Press Start — Australian Classification Board coverage](https://press-start.com.au/news/playstation/2026/08/14/halloween-the-game-classification-board-statement/)
-- [IGN interview / single‑player confirmation (background on modes)](https://www.ign.com/articles/halloween-revealed-by-friday-the-13th-the-game-developer-ign-interviews-illfonic-on-the-single-player-story-mode-working-with-john-carpenter-and-more)

@@ -23,8 +23,8 @@ export const siteConfig: GameConfig = {
 	platforms: ["PC", "PlayStation 5", "Xbox Series X|S"],
 	accentColor: "#c41e1e",
 	accentForeground: "#111111",
-	heroImage: "hero/halloween-hero.jpg",
-	heroAlt: "Halloween: The Game Steam header artwork",
+	heroImage: "hero/michael-mask-hero.jpg",
+	heroAlt: "Michael Myers mask close-up from Halloween: The Game",
 	heroPosition: "center",
 	disclaimer: "Unofficial fan guide. Verify version-sensitive facts against cited sources before production.",
 	portal: {
@@ -95,7 +95,7 @@ export const siteConfig: GameConfig = {
 			{
 				label: "Does Halloween: The Game work on Steam Deck?",
 				href: "/steam-deck/",
-				context: "EAC, Windows requirements, and verification status.",
+				context: "Windows requirements and verification status.",
 			},
 		],
 		startHere: [
@@ -103,7 +103,7 @@ export const siteConfig: GameConfig = {
 				title: "Halloween: The Game Early Access — September 4 Release Time & Countdown",
 				description: "Confirmed Advance Access start time for Digital Deluxe pre-orders (Sep 4, 2026, 9:00 AM PT), full release date, edition eligibility, pricing and key platform/region notes.",
 				href: "/early-access-release-time/",
-				image: "covers/halloween-gameplay-1.jpg",
+				image: "covers/gameplay/extended-first-look.jpg",
 				label: "Early Access",
 				badge: "Highest priority",
 			},
@@ -111,21 +111,21 @@ export const siteConfig: GameConfig = {
 				title: "Halloween: The Game — Standard vs Deluxe: Can You Upgrade Later?",
 				description: "Clear, evidence-backed breakdown of Standard vs Digital Deluxe editions, upgrade path at launch, and the Phantom vs Inmate Michael Myers skins (plus Richard & Alexis civilians).",
 				href: "/standard-vs-deluxe-upgrade/",
-				image: "covers/halloween-gameplay-2.jpg",
+				image: "covers/characters/jennifer-aarons.jpg",
 				label: "Standard vs Deluxe",
 			},
 			{
 				title: "Does Halloween: The Game Have Bots? Private Lobbies & Offline Mode Explained",
 				description: "What you can and can't do offline in Halloween: The Game. Confirmed single‑player story, offline bots, and what we know about private lobbies, crossplay, Steam Deck, and Australia status at launch.",
 				href: "/bots-private-lobbies-offline/",
-				image: "covers/halloween-gameplay-1.jpg",
+				image: "covers/michael/police-lurking.jpg",
 				label: "Bots & Private Lobbies",
 			},
 			{
-				title: "Halloween: The Game Steam Deck — Compatibility, Easy Anti-Cheat & Launch Status",
-				description: "What is and isn’t known about playing Halloween: The Game on Steam Deck: Easy Anti-Cheat presence, PC requirements, controller support and what to check at launch.",
+				title: "Halloween: The Game Steam Deck — Compatibility & Launch Status",
+				description: "What is and isn't known about playing Halloween: The Game on Steam Deck: PC requirements, controller support, and what to check at launch.",
 				href: "/steam-deck/",
-				image: "covers/halloween-gameplay-2.jpg",
+				image: "covers/gameplay/rachel-gameplay.png",
 				label: "Steam Deck",
 			},
 		],
@@ -626,7 +626,7 @@ export const siteConfig: GameConfig = {
 			title: "Maps",
 			description: "Confirmed Haddonfield maps, landmarks, and what still needs launch verification.",
 			href: "/maps/",
-			visual: "covers/halloween-gameplay-2.jpg",
+			visual: "covers/maps/town-center-main-street.jpg",
 			pages: [
 				{
 					pageId: "maps-hub",
@@ -634,7 +634,7 @@ export const siteConfig: GameConfig = {
 					title: "Halloween: The Game Maps — All Confirmed Haddonfield Locations",
 					description: "Three officially revealed multiplayer maps: Haddonfield Heights, Haddonfield Town Center, and Orange Grove Estates. Landmarks, gameplay traits, and what still needs launch verification.",
 					eyebrow: "Maps",
-					image: "covers/halloween-gameplay-2.jpg",
+					image: "covers/maps/haddonfield-heights-03.jpg",
 				},
 				{
 					pageId: "maps-haddonfield-heights",
@@ -642,7 +642,7 @@ export const siteConfig: GameConfig = {
 					title: "Haddonfield Heights — Halloween: The Game Map Guide",
 					description: "Official landmarks, PAX-shown Civilian interactions, and launch-pending details for the first revealed Halloween: The Game map.",
 					eyebrow: "Map Location",
-					image: "covers/halloween-gameplay-1.jpg",
+					image: "covers/maps/haddonfield-heights-02.jpg",
 				},
 				{
 					pageId: "maps-haddonfield-town-center",
@@ -650,7 +650,7 @@ export const siteConfig: GameConfig = {
 					title: "Haddonfield Town Center — Halloween: The Game Map Guide",
 					description: "Named downtown businesses and Haddonfield Cemetery confirmed as playable space in Halloween: The Game's Town Center map.",
 					eyebrow: "Map Location",
-					image: "covers/halloween-gameplay-2.jpg",
+					image: "covers/maps/town-center-cemetery.jpg",
 				},
 				{
 					pageId: "maps-orange-grove-estates",
@@ -658,7 +658,7 @@ export const siteConfig: GameConfig = {
 					title: "Orange Grove Estates — Halloween: The Game Map Guide",
 					description: "Upscale suburban map with multi-story homes, park space, Wallace and Doyle houses, and open sightlines in Halloween: The Game.",
 					eyebrow: "Map Location",
-					image: "covers/halloween-gameplay-1.jpg",
+					image: "covers/maps/orange-grove-playground.jpg",
 				},
 			],
 			fastAnswers: [
@@ -688,7 +688,7 @@ export const siteConfig: GameConfig = {
 			title: "Characters",
 			description: "Playable Civilian roster, Deluxe exclusives, and trait overview.",
 			href: "/characters/",
-			visual: "covers/halloween-gameplay-1.jpg",
+			visual: "covers/characters/heroes-of-haddonfield.jpg",
 			pages: [
 				{
 					pageId: "characters-hub",
@@ -696,7 +696,7 @@ export const siteConfig: GameConfig = {
 					title: "Halloween: The Game Characters — All Playable Civilians",
 					description: "Standard Edition's 10 Civilians (6 new + 4 legacy), Deluxe exclusives Richard and Alexis, and what IllFonic confirms about unique stats and traits.",
 					eyebrow: "Character Guide",
-					image: "covers/halloween-gameplay-1.jpg",
+					image: "covers/characters/heroes-of-haddonfield.jpg",
 				},
 			],
 			fastAnswers: [
@@ -720,7 +720,7 @@ export const siteConfig: GameConfig = {
 			title: "Michael Myers",
 			description: "How Michael works in-game—objectives, abilities, and combat rules.",
 			href: "/michael-myers/",
-			visual: "covers/halloween-gameplay-1.jpg",
+			visual: "hero/michael-mask-hero.jpg",
 			pages: [
 				{
 					pageId: "michael-myers-hub",
@@ -728,7 +728,7 @@ export const siteConfig: GameConfig = {
 					title: "Michael Myers in Halloween: The Game — Killer Guide",
 					description: "How Michael Myers works in multiplayer and story mode: objectives, combat rules, detention, and links to official ability descriptions.",
 					eyebrow: "Killer Guide",
-					image: "covers/halloween-gameplay-1.jpg",
+					image: "hero/michael-mask-hero.jpg",
 				},
 				{
 					pageId: "michael-myers-abilities",
@@ -736,7 +736,7 @@ export const siteConfig: GameConfig = {
 					title: "Michael Myers Abilities — Killer Sense, Stalk, Shape Jump & Blackouts",
 					description: "Official ability descriptions for Michael Myers in Halloween: The Game multiplayer, plus what remains launch verification pending.",
 					eyebrow: "Killer Abilities",
-					image: "covers/halloween-gameplay-2.jpg",
+					image: "covers/michael/smiths-grove.jpg",
 				},
 			],
 			fastAnswers: [
@@ -760,7 +760,7 @@ export const siteConfig: GameConfig = {
 			title: "Multiplayer",
 			description: "1v4 online format, crossplay notes, bots, and match questions.",
 			href: "/multiplayer/",
-			visual: "covers/halloween-gameplay-2.jpg",
+			visual: "covers/gameplay/rachel-gameplay.png",
 			pages: [
 				{
 					pageId: "multiplayer-hub",
@@ -768,7 +768,7 @@ export const siteConfig: GameConfig = {
 					title: "Halloween: The Game Multiplayer — 1v4 Format & Objectives",
 					description: "Confirmed 1 Michael vs 4 Civilians multiplayer, Civilian and Michael objectives, deputy returns, and replayability notes from IllFonic.",
 					eyebrow: "Multiplayer",
-					image: "covers/halloween-gameplay-2.jpg",
+					image: "covers/gameplay/rachel-gameplay.png",
 				},
 				{
 					pageId: "multiplayer-how-it-works",
@@ -776,7 +776,7 @@ export const siteConfig: GameConfig = {
 					title: "How Halloween: The Game Multiplayer Works",
 					description: "Step-by-step overview of the confirmed multiplayer loop, Civilian and Michael tasks, and launch-pending systems.",
 					eyebrow: "Multiplayer Guide",
-					image: "covers/halloween-gameplay-1.jpg",
+					image: "covers/gameplay/rachel-gameplay.png",
 				},
 				{
 					pageId: "multiplayer-crossplay",
@@ -784,7 +784,7 @@ export const siteConfig: GameConfig = {
 					title: "Halloween: The Game Crossplay — What Is Officially Confirmed",
 					description: "Xbox storefront cross-platform indicators, confirmed platforms, and what not to claim about the full crossplay matrix pre-launch.",
 					eyebrow: "Crossplay",
-					image: "covers/halloween-gameplay-2.jpg",
+					image: "covers/gameplay/extended-first-look.jpg",
 				},
 				{
 					pageId: "bots-private-lobbies-offline",
@@ -792,7 +792,7 @@ export const siteConfig: GameConfig = {
 					title: "Does Halloween: The Game Have Bots? Private Lobbies & Offline Mode Explained",
 					description: "What you can and can't do offline in Halloween: The Game. Confirmed single‑player story, offline bots, and what we know about private lobbies, crossplay, Steam Deck, and Australia status at launch.",
 					eyebrow: "Multiplayer Modes",
-					image: "covers/halloween-gameplay-1.jpg",
+					image: "covers/michael/police-lurking.jpg",
 				},
 				{
 					pageId: "match-length-timer",
@@ -800,7 +800,7 @@ export const siteConfig: GameConfig = {
 					title: "How Long Are Halloween: The Game Matches? 12‑Minute Timer Explained",
 					description: "Short answer: there is no official published match timer as of Last Verified 2026-08-29. Pre-release footage often shows sessions around ~12 minutes, but that is observational — not confirmed rules. This page explains what is confirmed, what isn't, and what to check at launch.",
 					eyebrow: "Match Length",
-					image: "covers/halloween-gameplay-2.jpg",
+					image: "covers/gameplay/rabbit-in-red-lounge.jpg",
 				},
 			],
 			fastAnswers: [
@@ -824,7 +824,7 @@ export const siteConfig: GameConfig = {
 			title: "Single Player",
 			description: "Michael Myers story chapters, replay structure, and unlocks.",
 			href: "/single-player/",
-			visual: "covers/halloween-gameplay-1.jpg",
+			visual: "covers/michael/singleplayer-haddonfield.jpg",
 			pages: [
 				{
 					pageId: "single-player-hub",
@@ -832,7 +832,7 @@ export const siteConfig: GameConfig = {
 					title: "Halloween: The Game Single Player — Story Mode & Chapters",
 					description: "Six-chapter Michael Myers story reimagining the 1978 film, Dr. Loomis narration, sandbox objectives, and replay unlocks—without speculative walkthroughs.",
 					eyebrow: "Story Mode",
-					image: "covers/halloween-gameplay-1.jpg",
+					image: "covers/michael/singleplayer-haddonfield.jpg",
 				},
 			],
 			fastAnswers: [
@@ -848,17 +848,17 @@ export const siteConfig: GameConfig = {
 			id: "pc",
 			eyebrow: "PC",
 			title: "PC",
-			description: "System requirements, anti-cheat, Steam Deck checks, and PC launch notes.",
+			description: "System requirements, Steam Deck checks, and PC launch notes.",
 			href: "/pc/",
-			visual: "covers/halloween-gameplay-2.jpg",
+			visual: "covers/maps/orange-grove-park.jpg",
 			pages: [
 				{
 					pageId: "pc-hub",
 					href: "/pc/",
-					title: "Halloween: The Game on PC — Requirements, EAC & Launch Checks",
-					description: "PC storefronts, anti-cheat notices, Steam Deck status links, and what to verify after Advance Access.",
+					title: "Halloween: The Game on PC — Requirements & Launch Checks",
+					description: "PC storefronts, system requirements, Steam Deck status links, and what to verify after Advance Access.",
 					eyebrow: "PC Guide",
-					image: "covers/halloween-gameplay-2.jpg",
+					image: "hero/halloween-keyart.jpg",
 				},
 				{
 					pageId: "pc-system-requirements",
@@ -866,15 +866,15 @@ export const siteConfig: GameConfig = {
 					title: "Halloween: The Game PC System Requirements",
 					description: "Current Steam minimum and recommended specs for Halloween: The Game, plus launch-pending performance claims.",
 					eyebrow: "System Requirements",
-					image: "covers/halloween-gameplay-1.jpg",
+					image: "covers/gameplay/extended-first-look.jpg",
 				},
 				{
 					pageId: "steam-deck",
 					href: "/steam-deck/",
-					title: "Halloween: The Game Steam Deck — Compatibility, Easy Anti-Cheat & Launch Status",
-					description: "What is and isn’t known about playing Halloween: The Game on Steam Deck: Easy Anti-Cheat presence, PC requirements, controller support and what to check at launch.",
+					title: "Halloween: The Game Steam Deck — Compatibility & Launch Status",
+					description: "What is and isn't known about playing Halloween: The Game on Steam Deck: PC requirements, controller support, and what to check at launch.",
 					eyebrow: "Steam Deck Status",
-					image: "covers/halloween-gameplay-2.jpg",
+					image: "covers/gameplay/rachel-gameplay.png",
 				},
 			],
 			fastAnswers: [
@@ -886,7 +886,7 @@ export const siteConfig: GameConfig = {
 				},
 				{
 					question: "Does Halloween work on Steam Deck?",
-					answer: "Not verified—see the Steam Deck status page for EAC and testing notes.",
+					answer: "Not verified—see the Steam Deck status page for compatibility checks.",
 					pageId: "steam-deck",
 					href: "/steam-deck/",
 				},

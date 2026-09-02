@@ -19,12 +19,12 @@ relations:
   -
     slug: maps/haddonfield-town-center
     type: next-step
-cover: ../../../../assets/covers/halloween-gameplay-1.jpg
+cover: ../../../../assets/covers/maps/haddonfield-heights-02.jpg
 coverMedia:
-  alt: "Michael Myers stalking in Halloween: The Game"
+  alt: Lampkin Lane area on Haddonfield Heights map
   kind: cover
   aspectRatio: 16:9
-  sourceUrl: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219630/fef848f20a2a5e857ee275662acf979b89754af7/ss_fef848f20a2a5e857ee275662acf979b89754af7.1920x1080.jpg?t=1787962852"
+  sourceLabel: Official
 changeSummary: "CONTENT_EXPANSION — Haddonfield Heights map guide."
 eyebrow: Map Location
 facts:

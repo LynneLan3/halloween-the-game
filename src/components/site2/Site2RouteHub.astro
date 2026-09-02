@@ -1,0 +1,140 @@
+---
+/**
+ * Website 2.0 Route Hub — unified dark stage (hero + fast answers) + cream guides block.
+ */
+import Site2Icon from './Site2Icon.astro';
+import { optimizeSite2Background } from '../../lib/site2-images';
+import { site2RouteHubHref } from '../../lib/site2-nav';
+import { ui } from '../../lib/ui';
+import type { GameRoute } from '../../config/game-types';
+
+interface Props {
+	route: GameRoute;
+	routes: readonly GameRoute[];
+}
+
+const { route, routes } = Astro.props;
+const t = ui();
+const routeIndex = routes.findIndex((r) => r.id === route.id);
+const number = String(routeIndex >= 0 ? routeIndex + 1 : 1).padStart(2, '0');
+const otherRoutes = routes.filter((r) => r.id !== route.id);
+const heroImageUrl = await optimizeSite2Background(route.visual, {
+	width: 1920,
+	height: 1080,
+	quality: 82,
+});
+const stageStyle = heroImageUrl
+	? ({
+			backgroundImage: `linear-gradient(90deg,#070b0f 0%,rgba(7,11,15,.92) 32%,rgba(7,11,15,.55) 58%,rgba(7,11,15,.25)),linear-gradient(0deg,rgba(8,13,17,.82) 0%,rgba(8,13,17,.4) 55%,#0d171f 100%), url("${heroImageUrl}")`,
+			backgroundSize: 'cover',
+			backgroundPosition: 'center',
+		} as Record<string, string>)
+	: undefined;
+
+const otherRouteTiles = await Promise.all(
+	otherRoutes.map(async (other) => ({
+		other,
+		visualUrl: await optimizeSite2Background(other.visual, { width: 480, height: 320, quality: 76 }),
+	})),
+);
+---
+
+<section class="site2-route-hub-stage" style={stageStyle}>
+	<div class="site2-route-hub-stage__scanlines" aria-hidden="true" />
+	<div class="site2-route-hub-stage__inner">
+		<div class="site2-route-hub-stage__intro">
+			<p class="section-label"><span />{route.eyebrow ?? 'Route'}</p>
+			<h1 class="site2-route-hub-stage__title">
+				<span class="site2-route-hub-stage__number">{number}</span>
+				{route.title}
+			</h1>
+			<p class="site2-route-hub-stage__dek">{route.description}</p>
+		</div>
+		{
+			route.fastAnswers && route.fastAnswers.length > 0 && (
+				<div class="site2-route-hub-stage__faq">
+					<p class="site2-route-hub-stage__faq-label">{t.fastAnswers}</p>
+					<div class="site2-route-hub-stage__faq-grid">
+						{
+							route.fastAnswers.map((item, index) => (
+								<a class="site2-route-hub-faq-card" href={item.href}>
+									<span class="site2-route-hub-faq-card__num">0{index + 1}</span>
+									<h3>{item.question}</h3>
+									<p>{item.answer}</p>
+									<Site2Icon name="arrow-down-right" size={15} />
+								</a>
+							))
+						}
+					</div>
+				</div>
+			)
+		}
+	</div>
+	<p class="site2-route-hub-stage__caption">
+		{route.title.toUpperCase()} <span>SCROLL TO EXPLORE</span>
+	</p>
+</section>
+
+<section class="section questions site2-route-hub-guides" aria-labelledby="site2-route-guides-heading">
+	<div class="site2-page-heading">
+		<div>
+			<p class="section-label"><span />{t.followTheRoute}</p>
+			<h2 class="site2-page-heading__title" id="site2-route-guides-heading">
+				Guides in<br /><em>this route.</em>
+			</h2>
+		</div>
+		<p class="heading-note">{t.followTheRouteStepLede}</p>
+	</div>
+	<div class="questions-grid site2-route-guide-grid">
+		{
+			route.pages.map((page, index) => (
+				<a class={`question-card q${(index % 6) + 1}`} href={page.href}>
+					<span>0{index + 1}</span>
+					{page.eyebrow && <small class="site2-step-eyebrow">{page.eyebrow}</small>}
+					<h3>{page.label ?? page.title}</h3>
+					<p>{page.description}</p>
+					<Site2Icon name="chevron-down" size={17} />
+				</a>
+			))
+		}
+	</div>
+</section>
+
+{
+	otherRoutes.length > 0 && (
+		<section class="section category-section site2-route-hub-others">
+			<div class="site2-page-heading">
+				<div>
+					<p class="section-label"><span />{t.otherRoutes}</p>
+					<h2 class="site2-page-heading__title">
+						Choose another<br /><em>route.</em>
+					</h2>
+				</div>
+			</div>
+			<div class="category-grid site2-routes-grid">
+				{
+					otherRouteTiles.map(({ other, visualUrl }) => (
+						<a class="category-tile" href={site2RouteHubHref(other.id)}>
+							<div style={visualUrl ? { backgroundImage: `url(${visualUrl})` } : undefined} />
+							<div class="category-overlay" />
+							<span>{other.eyebrow ?? 'Route'}</span>
+							<h3>{other.title}</h3>
+							<Site2Icon name="arrow-down-right" size={19} />
+						</a>
+					))
+				}
+			</div>
+		</section>
+	)
+}
+
+<style>
+	.site2-step-eyebrow {
+		display: block;
+		margin-top: 8px;
+		font-size: 9px;
+		text-transform: uppercase;
+		letter-spacing: 0.12em;
+		color: #b2542d;
+	}
+</style>

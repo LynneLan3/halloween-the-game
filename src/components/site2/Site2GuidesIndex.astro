@@ -1,0 +1,53 @@
+---
+/**
+ * Website 2.0 Guides Index — compact route grid (matches homepage category tiles).
+ */
+import Site2Icon from './Site2Icon.astro';
+import { optimizeSite2Background } from '../../lib/site2-images';
+import { ui } from '../../lib/ui';
+import { site2RouteHubHref } from '../../lib/site2-nav';
+import type { GameRoute } from '../../config/game-types';
+
+interface Props {
+	routes: readonly GameRoute[];
+}
+
+const { routes } = Astro.props;
+const t = ui();
+
+const routeTiles = await Promise.all(
+	routes.map(async (route, index) => ({
+		route,
+		index,
+		visualUrl: await optimizeSite2Background(route.visual, { width: 560, height: 360, quality: 78 }),
+	})),
+);
+---
+
+<section class="section category-section site2-guides-page">
+	<div class="section-heading site2-page-heading">
+		<div>
+			<p class="section-label"><span />{t.fieldGuide}</p>
+			<h2>
+				All<br /><em>guides.</em>
+			</h2>
+		</div>
+		<p class="heading-note">{t.chooseRouteLede}</p>
+	</div>
+	<div class="category-grid site2-guides-grid">
+		{
+			routeTiles.map(({ route, index, visualUrl }) => (
+				<a class="category-tile site2-guides-tile" href={site2RouteHubHref(route.id)}>
+					<div style={visualUrl ? { backgroundImage: `url(${visualUrl})` } : undefined} />
+					<div class="category-overlay" />
+					<span>
+						{route.eyebrow ?? 'Route'} · {String(index + 1).padStart(2, '0')}
+					</span>
+					<h3>{route.title}</h3>
+					<p class="site2-guides-tile__dek">{route.description}</p>
+					<Site2Icon name="arrow-down-right" size={19} />
+				</a>
+			))
+		}
+	</div>
+</section>

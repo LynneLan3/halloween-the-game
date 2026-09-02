@@ -11,18 +11,19 @@ sidebar:
   order: 5
 trust:
   status: provisional
-  lastVerified: "2026-08-29"
+  lastVerified: "2026-09-02"
   appliesTo:
     - Pre-release research snapshot
+    - Digital Deluxe IARC listing
 intents:
   - australia-release-status
 quickAnswer: "As of Last Verified (2026-08-29): the Australian Classification Board has Refused Classification (RC) for the base retail listing of Halloween: The Game because it links illicit drug use to a gameplay advantage/reward. IllFonic said AU/NZ sales were blocked. A separate Digital Deluxe IARC listing appeared as R18+ in secondary reporting, but no official reclassification or re‑release of the base game has been confirmed."
-cover: ../../../assets/covers/halloween-gameplay-1.jpg
+cover: ../../../assets/hero/halloween-keyart.jpg
 coverMedia:
-  alt: "Michael Myers stalking in Halloween: The Game"
+  alt: "Halloween: The Game key art"
   kind: cover
   aspectRatio: 16:9
-  sourceUrl: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219630/fef848f20a2a5e857ee275662acf979b89754af7/ss_fef848f20a2a5e857ee275662acf979b89754af7.1920x1080.jpg?t=1787962852"
+  sourceLabel: Official
 changeSummary: Initial APIMart writer pass from launch research packet.
 eyebrow: Australia Status
 facts:

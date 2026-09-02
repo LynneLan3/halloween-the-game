@@ -1,0 +1,42 @@
+---
+import { findRoutesForPage } from '../../lib/routes';
+import { site2RouteHubHref } from '../../lib/site2-nav';
+import { ui } from '../../lib/ui';
+import Site2Icon from './Site2Icon.astro';
+import type { GameRoute } from '../../config/game-types';
+
+interface Props {
+	pageId: string;
+	routes: readonly GameRoute[];
+	guidesHref: string;
+}
+
+const { pageId, routes, guidesHref } = Astro.props;
+const t = ui();
+const matched = findRoutesForPage(pageId, routes);
+---
+
+{
+	matched.length > 0 && (
+		<div class="site2-route-bar">
+			<div class="site2-route-bar__copy">
+				<p class="site2-route-bar__eyebrow">{t.youAreOn}</p>
+				<p class="site2-route-bar__title">{matched.map((r) => r.title).join(' · ')}</p>
+			</div>
+			<div class="site2-route-bar__actions">
+				{
+					matched.map((r) => (
+						<a class="site2-route-bar__link" href={site2RouteHubHref(r.id)}>
+							<Site2Icon name="arrow-right" size={14} />
+							{r.title}
+						</a>
+					))
+				}
+				<a class="site2-route-bar__link site2-route-bar__link--accent" href={guidesHref}>
+					{t.chooseAnotherRouteAction}
+					<Site2Icon name="arrow-down-right" size={14} />
+				</a>
+			</div>
+		</div>
+	)
+}

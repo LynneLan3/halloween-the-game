@@ -1,11 +1,10 @@
 ---
-/** Formal Routes Index (Player Task Map). */
-import GameShell from '../../components/experience/GameShell.astro';
-import RouteTaskMap from '../../components/experience/routes/RouteTaskMap.astro';
+/** Formal Routes Index — Website 2.0 shell (redirects to guides when routes exist). */
+import Site2GuidesIndex from '../../components/site2/Site2GuidesIndex.astro';
+import Site2Shell from '../../components/site2/Site2Shell.astro';
 import { game } from '../../config/game';
 import { ui } from '../../lib/ui';
 import { experienceNav } from '../../lib/experience-nav';
-import '../../styles/routes.css';
 
 const t = ui();
 const navState = await experienceNav();
@@ -13,9 +12,15 @@ const routes = game.routes ?? [];
 
 if (routes.length === 0) return Astro.redirect(navState.guidesHref);
 
-const { nav, footerLinks, homeHref, routesHref } = navState;
+const { homeHref, routesHref } = navState;
 ---
 
-<GameShell title={`${t.routesNav} — ${game.title}`} description={t.chooseWhatYoureTryingLede} canonical={new URL(routesHref, game.siteUrl).href} siteTitle={game.shortName} homeHref={homeHref} nav={nav} activePath={routesHref} footerLinks={footerLinks} footerText={game.title}>
-	<RouteTaskMap routes={routes} />
-</GameShell>
+<Site2Shell
+	title={`${t.routesNav} — ${game.title}`}
+	description={t.chooseWhatYoureTryingLede}
+	canonical={new URL(routesHref, game.siteUrl).href}
+	homeHref={homeHref}
+	activePath={routesHref}
+>
+	<Site2GuidesIndex routes={routes} />
+</Site2Shell>

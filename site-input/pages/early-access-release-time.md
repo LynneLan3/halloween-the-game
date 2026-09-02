@@ -8,41 +8,61 @@ status: needs-verification
 
 # Halloween: The Game Early Access — September 4 Release Time & Countdown
 
-**Confirmed**
+Use this page if you are planning around the **September 2026 launch window** and need the official Advance Access time, edition rules, and what is still unannounced.
 
-- Advance Access start time: official preorder FAQ lists Advance Access beginning Friday, September 4, 2026 at 9:00 AM PT. This is a confirmed launch-window time from the developer/publisher materials and storefront pre-order pages.
+## Confirmed
 
-- Who gets it: the official preorder page explicitly ties the gameplay "Early Access Starting on 9/4/2026" to the Digital Deluxe Edition pre-order. Standard edition pre-orders do not list gameplay Early Access. If you want to play at the Advance Access start time, the Digital Deluxe pre-order is the confirmed path in publisher materials.
+- **Advance Access start time:** The official preorder FAQ lists Advance Access beginning **Friday, September 4, 2026 at 9:00 AM PT**. This is the launch-window time from IllFonic/publisher materials and storefront pre-order pages. Ignore secondary outlets citing 10:00 AM PT.
 
-- Full release: storefront listings (Steam, PlayStation, Xbox) list the full public release on September 8, 2026.
+- **Who gets Advance Access:** The official preorder page ties gameplay "Early Access Starting on 9/4/2026" to the **Digital Deluxe Edition pre-order**. Standard edition pre-orders do **not** list gameplay Early Access. If you want to play at the Advance Access window, the Digital Deluxe pre-order is the confirmed path in publisher materials.
 
-- Pricing and Deluxe contents: official pages list Standard at USD $39.99 and Digital Deluxe at USD $59.99. The Digital Deluxe preorder SKU lists extras (Inmate Michael Myers skin, two exclusive civilians, comic/extras). The Phantom Michael Myers skin is confirmed as a pre-order exclusive and is not restored by the post-launch Deluxe upgrade.
+- **Full release:** Storefront listings (Steam, PlayStation, Xbox) list the full public digital release on **September 8, 2026**.
 
-- Deluxe upgrade: IllFonic's FAQ/store listings confirm a Digital Deluxe Edition Upgrade will be available at launch and will include the civilians and Inmate skin; the Phantom pre-order skin remains a distinct pre-order-only bonus.
+- **Pricing and Deluxe contents:** Official pages list Standard at **USD $39.99** and Digital Deluxe at **USD $59.99**. Digital Deluxe includes the Inmate Michael Myers skin, exclusive civilians Richard and Alexis, and other preorder extras. The **Phantom Michael Myers skin** is a pre-order exclusive and is **not** restored by the post-launch Deluxe upgrade.
 
-**Not Announced / Confirm only what’s on record**
+- **Deluxe upgrade at launch:** IllFonic's FAQ confirms a **Digital Deluxe Edition Upgrade** at launch that grants the civilians and Inmate skin. The Phantom pre-order skin remains separate.
 
-- Whether buying the Digital Deluxe edition after the pre-order window (but before Advance Access) or purchasing the Deluxe upgrade during the launch window will grant the same gameplay Advance Access on Sep 4 is Not Announced. The official preorder copy ties the Early Access language to the Digital Deluxe pre-order SKU; documentation does not clearly promise the same gameplay window to post-preorder purchases.
+## Not Announced
 
-- Exact storefront Deluxe upgrade prices and regional SKU availability vary by store and were not all published at the research cutoff.
+- **Post-launch Deluxe upgrade Advance Access:** Whether buying the Digital Deluxe edition after the pre-order window—or purchasing the **Deluxe upgrade SKU at launch**—grants the same **September 4 Advance Access** is **Not Announced**. Official copy ties Early Access to the **Digital Deluxe pre-order**; it does not promise the same gameplay window to post-preorder or upgrade buyers.
 
-**Important platform and regional notes (evidence-backed)**
+- **Exact Deluxe upgrade prices** and regional SKU availability vary by store and were not all published at the research cutoff.
 
-- Crossplay is confirmed by developer posts; PC, PS5 and Xbox Series X|S are the confirmed digital platforms.
+- **Preload timing** is not clearly confirmed in the FAQ.
 
-- Easy Anti-Cheat is reported on PCGamingWiki as the anti-cheat middleware used on PC (secondary reporting). Because EAC is involved, Steam Deck compatibility has not been verified by Valve or IllFonic and should be treated as Unknown until hands-on confirmation is available. See {{page:steam-deck}} for the compatibility note.
+## Convert 9:00 AM PT to your timezone
 
-- Offline and match options: single-player story mode and offline play against bots are described in official materials; private online lobbies are reported by third-party outlets but do not have official detail on bot/AI backfill — do not assume AI backfill in private online lobbies. See {{page:bots-private-lobbies-offline}} for deeper coverage.
+Official time: **Friday, September 4, 2026 — 9:00 AM Pacific Time**.
 
-**Australia (classification) — LAST VERIFIED: 2026-08-29**
+| Region | Local time (Sep 4, 2026) |
+| --- | --- |
+| US Pacific (PT) | 9:00 AM |
+| US Eastern (ET) | 12:00 PM (noon) |
+| US Central (CT) | 11:00 AM |
+| US Mountain (MT) | 10:00 AM |
+| UK (BST) | 5:00 PM |
+| Central Europe (CEST) | 6:00 PM |
+| Australia — Sydney (AEST) | Sep 5, 2:00 AM |
 
-- The Australian Classification Board issued a Refused Classification (RC) decision for the base game due to illicit drug use tied to gameplay advantage/reward; IllFonic stated that AU/NZ sales are blocked for affected SKUs. A secondary IARC listing for the Digital Deluxe SKU was reported separately, but there has been no official reclassification or publisher confirmation that the base-game RC block is "lifted." Do not treat Australia as "unbanned" without an official re-release announcement. See {{page:australia-release-status}}.
+Use an official world-clock converter on launch day in case of daylight-saving edge cases.
 
-**Match length / session length**
+## Important platform and regional notes
 
-- No official match timer or final session-length rule has been published as of the research cutoff. Concerns and footage suggesting ~12-minute sessions are community observations and not final confirmed rules. See {{page:match-length-timer}} for ongoing notes.
+- **Crossplay:** Cross-platform multiplayer is indicated on Xbox store listings. PC (Steam/Epic), PS5, and Xbox Series X\|S are confirmed platforms. See {{page:multiplayer-crossplay}} for the full pairing matrix (launch verification pending).
 
-If you preordered Digital Deluxe and want to play right at the Advance Access window: verify your purchase is registered on the storefront you used (Steam, Epic, PlayStation Store, Xbox) and keep an eye on the official home page for last-minute changes: {{hub}}.
+- **Offline and match options:** Single-player story mode and offline play against bots are described in official materials. Private online lobbies are reported by third-party outlets only—do not assume AI backfill. See {{page:bots-private-lobbies-offline}}.
+
+- **Steam Deck:** Compatibility is **not verified** pre-launch. Anti-cheat middleware has **not** been confirmed on the live Steam anti-cheat field—see {{page:steam-deck}}.
+
+## Australia (classification) — Last Verified: 2026-09-02
+
+The Australian Classification Board issued **Refused Classification (RC)** for the base game due to illicit drug use tied to gameplay advantage/reward. IllFonic stated AU/NZ sales are blocked for affected SKUs. A separate Digital Deluxe IARC listing was reported in secondary coverage, but there has been **no official reclassification**. Do not treat Australia as "unbanned." See {{page:australia-release-status}}.
+
+## Match length
+
+No official match timer has been published. Footage suggesting ~12-minute sessions is observational only. See {{page:match-length-timer}}.
+
+If you preordered Digital Deluxe, verify your purchase on your storefront (Steam, Epic, PlayStation, Xbox) and watch the official site for last-minute changes: {{hub}}.
 
 ## Sources
 
@@ -50,7 +70,5 @@ If you preordered Digital Deluxe and want to play right at the Advance Access wi
 - [Halloween: The Game on Steam (store page)](https://store.steampowered.com/app/3219630/Halloween_The_Game/)
 - [PlayStation Store — Halloween Digital Deluxe](https://store.playstation.com/en-us/product/UP3095-PPSA29340_00-HALLOWEENDELUXED)
 - [Xbox — Halloween Digital Deluxe Upgrade (store listing)](https://www.xbox.com/en-US/games/store/halloween-digital-deluxe-upgrade/9mt8jbqs8lnr)
-- [PCGamingWiki — Halloween: The Game (Easy Anti-Cheat listing)](https://www.pcgamingwiki.com/wiki/Halloween:_The_Game)
 - [Press Start Australia — Classification Board statement coverage](https://press-start.com.au/news/playstation/2026/08/14/halloween-the-game-classification-board-statement/)
 - [IGN interview/features (story mode confirmation)](https://www.ign.com/articles/halloween-revealed-by-friday-the-13th-the-game-developer-ign-interviews-illfonic-on-the-single-player-story-mode-working-with-john-carpenter-and-more)
-- [Playfront coverage — private lobbies / role/token reporting](https://playfront.de/en/halloween-the-game-setzt-auf-rollenbasiertes-matchmaking-mit-token-system-fuer-killer/)

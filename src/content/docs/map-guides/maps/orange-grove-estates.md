@@ -19,12 +19,12 @@ relations:
   -
     slug: multiplayer/how-multiplayer-works
     type: next-step
-cover: ../../../../assets/covers/halloween-gameplay-1.jpg
+cover: ../../../../assets/covers/maps/orange-grove-playground.jpg
 coverMedia:
-  alt: "Michael Myers stalking in Halloween: The Game"
+  alt: Playground in Orange Grove Estates
   kind: cover
   aspectRatio: 16:9
-  sourceUrl: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219630/fef848f20a2a5e857ee275662acf979b89754af7/ss_fef848f20a2a5e857ee275662acf979b89754af7.1920x1080.jpg?t=1787962852"
+  sourceLabel: Official
 changeSummary: "CONTENT_EXPANSION — Orange Grove Estates map guide."
 eyebrow: Map Location
 facts:

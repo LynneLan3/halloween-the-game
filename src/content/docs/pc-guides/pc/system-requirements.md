@@ -20,12 +20,12 @@ relations:
   -
     slug: steam-deck
     type: next-step
-cover: ../../../../assets/covers/halloween-gameplay-1.jpg
+cover: ../../../../assets/covers/gameplay/extended-first-look.jpg
 coverMedia:
-  alt: "Michael Myers stalking in Halloween: The Game"
+  alt: "Haddonfield street at night in Halloween: The Game"
   kind: cover
   aspectRatio: 16:9
-  sourceUrl: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219630/fef848f20a2a5e857ee275662acf979b89754af7/ss_fef848f20a2a5e857ee275662acf979b89754af7.1920x1080.jpg?t=1787962852"
+  sourceLabel: Official
 changeSummary: "CONTENT_EXPANSION — PC system requirements guide."
 eyebrow: System Requirements
 facts:
@@ -78,19 +78,20 @@ facts:
 | Network | Broadband internet connection |
 | Storage | 45 GB — **SSD / NVMe required** |
 
-## Engine, anti-cheat, and notices
+## Engine and controller support
 
 **Confirmed on Steam:**
 
 - Built on **Unreal Engine 5**
-- Uses **Easy Anti-Cheat**
-- Steam currently displays a **kernel-level anti-cheat** notice for the title
+- **Full controller support**
 
-Read the store page before installing on restricted environments or handheld PCs.
+## Anti-cheat — provisional
+
+Secondary sources cite **Easy Anti-Cheat** for the PC build. The live Steam store **anti-cheat field was not verified** in our pre-launch research snapshot. Check the Steam store page at launch before assuming anti-cheat middleware or kernel-level notices apply.
 
 ## Steam Deck and handheld status
 
-Requirements alone do not prove Steam Deck playability. EAC and Windows 11 targets mean you should treat Deck support as **unknown** until tested—/steam-deck/.
+Requirements alone do not prove Steam Deck playability. Windows 11 targets and any unverified anti-cheat middleware mean you should treat Deck support as **unknown** until tested — /steam-deck/.
 
 ## Launch verification pending
 
@@ -100,6 +101,7 @@ Do not publish as verified pre-launch:
 - Optimized settings presets or upscaling behavior
 - Input latency, shader stutter, or UE5 compilation times
 - Whether Epic Games Store builds differ from Steam
+- Anti-cheat presence until live Steam store confirms it
 
 Re-test after **September 4, 2026** Advance Access.
 

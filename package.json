@@ -7,9 +7,9 @@
     "npm": ">=9.6.5"
   },
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
+    "dev": "node scripts/sync-pagefind.mjs && astro dev",
+    "start": "node scripts/sync-pagefind.mjs && astro dev",
+    "build": "astro build && node scripts/sync-pagefind.mjs",
     "preview": "astro preview",
     "astro": "astro",
     "check": "astro check",

@@ -6,12 +6,14 @@
  */
 import Default from '@astrojs/starlight/components/Sidebar.astro';
 import { isExperienceGuide, isExperienceHomepage } from '../../lib/experience-guide';
+import { isSite2Shell } from '../../lib/site2';
 
 const isHome = isExperienceHomepage(Astro.locals.starlightRoute.entry);
 const isExperience = isExperienceGuide(
 	Astro.locals.starlightRoute.entry,
 	Astro.url.pathname,
 );
+const site2 = isSite2Shell() && (isHome || isExperience);
 ---
 
-{isHome || isExperience ? null : <Default><slot /></Default>}
+{isHome || isExperience || site2 ? null : <Default><slot /></Default>}

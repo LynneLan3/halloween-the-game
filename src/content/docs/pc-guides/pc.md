@@ -1,6 +1,6 @@
 ---
-title: "Halloween: The Game on PC — Requirements, EAC & Launch Checks"
-description: "PC storefronts, anti-cheat notices, Steam Deck status links, and what to verify after Advance Access."
+title: "Halloween: The Game on PC — Requirements & Launch Checks"
+description: "PC storefronts, system requirements, Steam Deck status links, and what to verify after Advance Access."
 category: pc-guides
 slug: pc
 status: needs-verification
@@ -11,7 +11,7 @@ sidebar:
   order: 1
 intents:
   - halloween-pc
-quickAnswer: "PC releases on Steam (App ID 3219630) and Epic. Steam lists Windows 11, DX12, SSD/NVMe, and Easy Anti-Cheat with a kernel-level notice. Steam Deck and real-world FPS are launch verification pending."
+quickAnswer: "PC releases on Steam (App ID 3219630) and Epic. Steam lists Windows 11, DX12, SSD/NVMe, and full controller support. Anti-cheat middleware and Steam Deck compatibility are launch verification pending."
 relations:
   -
     slug: pc/system-requirements
@@ -22,13 +22,13 @@ relations:
   -
     slug: multiplayer/crossplay
     type: related
-cover: ../../../assets/covers/halloween-gameplay-2.jpg
+cover: ../../../assets/hero/halloween-keyart.jpg
 coverMedia:
-  alt: "Survivors in Haddonfield in Halloween: The Game"
+  alt: "Halloween: The Game key art"
   kind: cover
   aspectRatio: 16:9
-  sourceUrl: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219630/b6788a76e909167f1e599e62f52ea0a9734aa133/ss_b6788a76e909167f1e599e62f52ea0a9734aa133.1920x1080.jpg?t=1787962852"
-changeSummary: "CONTENT_EXPANSION — PC pillar hub."
+  sourceLabel: Official
+changeSummary: "V4 pass — removed unverified EAC from facts; controller support confirmed."
 eyebrow: PC Guide
 facts:
   -
@@ -38,8 +38,8 @@ facts:
     label: Engine
     value: Unreal Engine 5
   -
-    label: Anti-cheat
-    value: "Easy Anti-Cheat (kernel notice on Steam)"
+    label: Controller support
+    value: "Full controller support on Steam (verified API field)"
   -
     label: Storage
     value: 45 GB SSD/NVMe required
@@ -50,7 +50,7 @@ facts:
   Run npm run site:generate instead.
   Source: site-input/pages/pc.md
 -->
-# Halloween: The Game on PC — Platforms, Anti-Cheat & Launch Checks
+# Halloween: The Game on PC — Platforms & Launch Checks
 
 **Confirmed:** Halloween: The Game releases on **PC via Steam and Epic Games Store**, alongside PS5 and Xbox Series X|S. This hub covers what PC players should verify before Advance Access and full release.
 
@@ -59,23 +59,30 @@ facts:
 - **Steam:** App ID **3219630**
 - **Epic Games Store:** listed alongside Steam in official platform messaging
 
-Digital release: **September 8, 2026**, with **Advance Access** for eligible Digital Deluxe pre-orders on **September 4, 2026**—see /early-access-release-time/.
+Digital release: **September 8, 2026**, with **Advance Access** for eligible Digital Deluxe pre-orders on **September 4, 2026** — see /early-access-release-time/.
 
 ## System requirements
 
 Steam lists formal minimum and recommended specs. Full breakdown: /pc/system-requirements/.
 
-Highlights:
+**Confirmed highlights:**
 
 - **Windows 11 64-bit**
 - **SSD / NVMe required** (45 GB storage)
 - **DirectX 12**
 - **Broadband internet** (online modes)
-- **Unreal Engine 5** build with **Easy Anti-Cheat**
+- **Unreal Engine 5**
+- **Full controller support** on Steam
+
+## Anti-cheat — provisional
+
+Secondary sources (e.g. PCGamingWiki) cite **Easy Anti-Cheat** middleware for the PC build. The live Steam store **anti-cheat field was not verified** in our pre-launch API snapshot. Do **not** treat anti-cheat as a confirmed fact until the live Steam store page shows it at launch.
+
+If anti-cheat is present, it may affect restricted environments and handheld PCs — see /steam-deck/.
 
 ## Steam Deck and handheld PC
 
-Steam Deck compatibility is **not verified** as of pre-launch research. Easy Anti-Cheat is listed for the PC build, which is a common Deck risk factor until tested.
+Steam Deck compatibility is **not verified** as of pre-launch research. No Valve Verified badge and no IllFonic statement.
 
 Follow the dedicated checklist: /steam-deck/.
 
@@ -95,7 +102,7 @@ Avoid pre-launch claims about:
 - Shader compile stutter or UE5 optimization state
 - DLSS / FSR / frame generation support
 - Best graphics settings per GPU tier
-- Kernel-level anti-cheat side effects beyond Steam's current notice
+- Anti-cheat middleware until live Steam store confirms it
 
 Update this hub after Advance Access gameplay on real hardware.
 

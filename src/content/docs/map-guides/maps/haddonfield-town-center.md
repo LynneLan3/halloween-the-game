@@ -19,12 +19,12 @@ relations:
   -
     slug: maps/orange-grove-estates
     type: next-step
-cover: ../../../../assets/covers/halloween-gameplay-2.jpg
+cover: ../../../../assets/covers/maps/town-center-cemetery.jpg
 coverMedia:
-  alt: "Survivors in Haddonfield in Halloween: The Game"
+  alt: Haddonfield Cemetery in Town Center map
   kind: cover
   aspectRatio: 16:9
-  sourceUrl: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219630/b6788a76e909167f1e599e62f52ea0a9734aa133/ss_b6788a76e909167f1e599e62f52ea0a9734aa133.1920x1080.jpg?t=1787962852"
+  sourceLabel: Official
 changeSummary: "CONTENT_EXPANSION — Haddonfield Town Center map guide."
 eyebrow: Map Location
 facts:

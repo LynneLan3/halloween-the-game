@@ -19,27 +19,24 @@ relations:
   -
     slug: early-access-release-time
     type: related
-cover: ../../../assets/covers/halloween-gameplay-2.jpg
+cover: ../../../assets/covers/characters/jennifer-aarons.jpg
 coverMedia:
-  alt: "Survivors in Haddonfield in Halloween: The Game"
+  alt: Jennifer Aarons character art
   kind: cover
   aspectRatio: 16:9
-  sourceUrl: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219630/b6788a76e909167f1e599e62f52ea0a9734aa133/ss_b6788a76e909167f1e599e62f52ea0a9734aa133.1920x1080.jpg?t=1787962852"
-changeSummary: Initial APIMart writer pass from launch research packet.
+  sourceLabel: Official
+changeSummary: "V4 pass — Deluxe upgrade Advance Access marked Not Announced."
 eyebrow: Editions
 facts:
   -
-    label: "Standard price (USD)"
-    value: "$39.99 (Confirmed)"
-  -
-    label: "Digital Deluxe price (USD)"
-    value: "$59.99 (Confirmed)"
+    label: "Edition pricing (USD)"
+    value: "Standard $39.99; Digital Deluxe $59.99 (Confirmed)"
   -
     label: Digital Deluxe contents
     value: "Base game; Exclusive Inmate Michael Myers skin; two exclusive civilians (Richard and Alexis); comic and other preorder extras (Confirmed)"
   -
-    label: Phantom Michael Myers skin
-    value: "Pre-order exclusive; officially listed as not available after the pre-order period (Confirmed)"
+    label: Phantom vs upgrade
+    value: "Phantom skin is pre-order exclusive; Deluxe upgrade at launch grants Inmate + civilians but not Phantom; upgrade Advance Access Not Announced"
 ---
 <!--
   This file is generated from site-spec.yaml.
@@ -49,43 +46,69 @@ facts:
 -->
 # Halloween: The Game — Standard vs Deluxe: Can You Upgrade Later?
 
-**Confirmed**
+This page compares **Standard vs Digital Deluxe**, explains the **launch upgrade SKU**, and separates confirmed facts from what IllFonic has **not** announced.
 
-- Editions and prices: The official storefronts and FAQ list the Standard edition at $39.99 (USD) and the Digital Deluxe at $59.99 (USD). The Digital Deluxe package officially includes the base game, the exclusive Inmate Michael Myers skin, two exclusive civilians (Richard and Alexis), a comic and other preorder extras (sources: official preorder/FAQ; Steam/Xbox storefronts).
+## Confirmed
 
-- Phantom vs Inmate skins: The Phantom Michael Myers skin is explicitly a digital pre-order exclusive and is described as not available after the pre-order period. The Inmate Michael Myers skin is part of the Digital Deluxe contents and will be available through the Deluxe upgrade at launch (the FAQ calls this out directly).
+- **Editions and prices:** Standard **$39.99 USD**; Digital Deluxe **$59.99 USD** (official FAQ and storefronts).
 
-- Upgrade path at launch: IllFonic's official FAQ confirms there will be a Digital Deluxe Edition Upgrade available at launch that grants the civilians and the Inmate Michael Myers skin. The FAQ also explicitly notes the Phantom pre-order skin is not restored by that upgrade.
+- **Digital Deluxe includes:** Base game, **Inmate Michael Myers skin**, exclusive civilians **Richard** and **Alexis**, comic and other preorder extras.
 
-- Advance Access timing: Early/Advance Access gameplay tied to the Digital Deluxe pre-order is listed as beginning Friday, September 4, 2026 at 9:00 AM PT. The Standard preorder listing does not include the same Early Access bullet.
+- **Phantom vs Inmate skins:** **Phantom** is a **digital pre-order exclusive** and is described as **not available after the pre-order period**. **Inmate** is part of Digital Deluxe and is available through the **Deluxe upgrade at launch**.
 
-- Single-player / offline bots: Official product copy lists a single-player story mode and offline play against bots as separate offerings from the multiplayer experience.
+- **Upgrade path at launch:** IllFonic's FAQ confirms a **Digital Deluxe Edition Upgrade** at launch that grants the civilians and Inmate skin. The FAQ explicitly notes the **Phantom pre-order skin is not restored** by that upgrade.
 
-**Not Announced**
+- **Advance Access timing:** Early/Advance Access tied to the **Digital Deluxe pre-order** begins **Friday, September 4, 2026 at 9:00 AM PT**. The Standard preorder listing does **not** include the same Early Access bullet.
 
-- Does upgrading to Digital Deluxe before Sep 4 grant advance/playtest access? Official materials confirm the Digital Deluxe pre-order includes Early Access on Sep 4, but they do not state whether a post‑purchase or upgrade to Deluxe (purchased after the preorder window or bought without pre-ordering) will unlock that same Early Access. This specific scenario is Not Announced and should be checked against the store/FAQ at purchase time.
+- **Single-player / offline bots:** Official product copy lists a single-player story mode and offline play against bots as separate from online multiplayer.
 
-- Exact upgrade price per storefront: IllFonic confirms a Deluxe upgrade SKU exists at launch (Xbox has an upgrade SKU listed), but the final, exact upgrade price on each storefront is Not Announced.
+## Edition comparison
 
-- Private-lobby AI/backfill behavior: Third‑party coverage has reported private lobbies with manual/random role assignment, but that reporting is secondary. Crucially, there is no official confirmation that private online lobbies include AI/bot backfill — do not assume backfill is present.
+| Feature | Standard ($39.99) | Digital Deluxe ($59.99) | Deluxe upgrade at launch |
+| --- | --- | --- | --- |
+| Base game | Yes | Yes | Adds Deluxe content to Standard owners |
+| 10 Standard Civilians | Yes | Yes | — |
+| Richard & Alexis (Deluxe civilians) | No | Yes | Yes |
+| Inmate Michael Myers skin | No | Yes | Yes |
+| Phantom Michael Myers skin | Pre-order only (separate) | Pre-order only (separate) | **No** — not included |
+| Advance Access (Sep 4) | No (not listed) | **Deluxe pre-order only** | **Not Announced** |
+| Full release (Sep 8) | Yes | Yes | Yes |
 
-**Unknown**
+## If you want X → choose Y
 
-- Steam Deck / Easy Anti‑Cheat compatibility: PCGamingWiki lists Easy Anti‑Cheat as the middleware used, but Valve/IllFonic have not published a Steam Deck Verified status or hands‑on verification. Steam Deck playability with EAC on SteamOS remains Unknown until hands‑on confirmation.
+- **Play on Sep 4 Advance Access:** Digital Deluxe **pre-order** before launch (confirmed path). Post-preorder Deluxe purchase or launch upgrade Advance Access is **Not Announced** — see /early-access-release-time/.
 
-- Final Australia storefront status per SKU: The Australian Classification Board refused classification for the base game over illicit drug mechanics tied to an advantage. IllFonic stated AU/NZ sales are blocked while secondary IARC entries suggest some SKU differences, but final per‑SKU sale availability at launch is Unknown and should be checked against local storefront announcements. Last Verified: 2026-08-29.
+- **Phantom Michael Myers skin:** Pre-order while the Phantom offer is active. The launch Deluxe upgrade does **not** include Phantom.
 
-- Official match timer / session length rules: There is no official published match timer at research time; early footage shows roughly 12-minute sessions in previews but those are not official rules.
+- **Richard, Alexis, and Inmate only:** Buy Digital Deluxe at launch or use the **Deluxe upgrade SKU** after owning Standard.
 
-Quick practical advice
+- **Standard is enough for core multiplayer:** All 10 Standard Civilians and full online 1v4 multiplayer are in the base game — /characters/.
 
-- If Early Access on Sep 4 matters to you: purchase the Digital Deluxe preorder before the preorder cutoff (official preorder wording ties Early Access to Deluxe preorders). Whether an upgrade purchased later will grant that Early Access is Not Announced.
+## Not Announced
 
-- If you want Phantom Michael Myers: you must pre-order while the Phantom skin is offered — it is explicitly a pre-order exclusive and will not be given by the post-launch Deluxe upgrade.
+- **Deluxe upgrade Advance Access:** Official materials confirm Advance Access for **Digital Deluxe pre-orders**. They do **not** state whether a post-purchase Deluxe upgrade (or Deluxe bought without pre-ordering) unlocks **September 4 Advance Access**. This is **Not Announced**.
 
-- If you only want the civilians/Inmate skin: the official Deluxe upgrade at launch will provide those pieces even if you buy the base game first.
+- **Exact upgrade price per storefront:** A Deluxe upgrade SKU exists (Xbox lists one), but final per-store pricing is **Not Announced**.
 
-For the official preorder page and storefront upgrade SKU see the publisher pages via the launch hub: / and the Deluxe upgrade SKU referenced here: /standard-vs-deluxe-upgrade/.
+- **Private-lobby AI/backfill:** Third-party coverage reported private lobbies; AI backfill in online private lobbies is **Not Announced**.
+
+## Unknown
+
+- **Steam Deck compatibility:** Not verified pre-launch. Anti-cheat middleware is cited in secondary sources but **not confirmed** on the live Steam anti-cheat field — /steam-deck/.
+
+- **Australia per-SKU availability:** Base game RC stands; Deluxe IARC listing is provisional — /australia-release-status/. Last Verified: 2026-09-02.
+
+- **Official match timer:** No published rule; ~12-minute footage is observational — /match-length-timer/.
+
+## Practical advice
+
+- If **Sep 4 Advance Access** matters: preorder **Digital Deluxe** before the preorder cutoff. Do not assume a launch-day upgrade grants the same window.
+
+- If you want **Phantom**: pre-order while offered — it will not come from the post-launch upgrade.
+
+- If you only want **civilians + Inmate**: the launch Deluxe upgrade works even if you buy Standard first.
+
+Official preorder and upgrade SKUs: / and storefront listings linked below.
 
 ## Sources
 
@@ -94,6 +117,4 @@ For the official preorder page and storefront upgrade SKU see the publisher page
 - [PlayStation Store — Halloween Digital Deluxe](https://store.playstation.com/en-us/product/UP3095-PPSA29340_00-HALLOWEENDELUXED)
 - [Xbox — Halloween Digital Deluxe Upgrade SKU](https://www.xbox.com/en-US/games/store/halloween-digital-deluxe-upgrade/9mt8jbqs8lnr)
 - [Press Start / Australian Classification coverage](https://press-start.com.au/news/playstation/2026/08/14/halloween-the-game-classification-board-statement/)
-- [PCGamingWiki — Halloween: The Game (EAC note)](https://www.pcgamingwiki.com/wiki/Halloween:_The_Game)
 - [IGN interview / single‑player confirmation](https://www.ign.com/articles/halloween-revealed-by-friday-the-13th-the-game-developer-ign-interviews-illfonic-on-the-single-player-story-mode-working-with-john-carpenter-and-more)
-- [Playfront report — private lobbies / matchmaking notes](https://playfront.de/en/halloween-the-game-setzt-auf-rollenbasiertes-matchmaking-mit-token-system-fuer-killer/)

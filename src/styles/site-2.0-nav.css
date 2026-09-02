@@ -1,0 +1,56 @@
+/* Website 2.0 — fixed topbar (consistent height & position site-wide) */
+
+:root {
+	--site2-topbar-height: 78px;
+}
+
+.topbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 50;
+	height: var(--site2-topbar-height);
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	padding: 0 clamp(24px, 5vw, 80px);
+	border-bottom: 1px solid rgba(231, 223, 202, 0.14);
+	background: rgba(8, 13, 17, 0.96);
+	backdrop-filter: blur(12px);
+	transition:
+		background 0.25s,
+		border-color 0.25s;
+}
+
+.topbar.is-stuck {
+	background: rgba(8, 13, 17, 0.98);
+	border-bottom-color: rgba(231, 223, 202, 0.18);
+}
+
+/* Homepage hero: translucent bar over the key art */
+.site2-shell-page.site2-home .topbar:not(.is-stuck) {
+	background: linear-gradient(180deg, rgba(5, 9, 13, 0.88) 0%, rgba(5, 9, 13, 0.42) 100%);
+	border-bottom-color: rgba(231, 223, 202, 0.1);
+	backdrop-filter: blur(8px);
+}
+
+/* Offset content below fixed topbar — every Site 2.0 page uses the same rule */
+.site2-shell-page,
+.site2-shell-standalone {
+	padding-top: var(--site2-topbar-height);
+}
+
+@media (max-width: 640px) {
+	:root {
+		--site2-topbar-height: 65px;
+	}
+
+	.topbar {
+		padding: 0 20px;
+	}
+
+	.main-nav {
+		top: var(--site2-topbar-height);
+	}
+}

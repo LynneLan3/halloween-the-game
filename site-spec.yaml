@@ -37,7 +37,7 @@ game:
 theme:
   accentColor: "#c41e1e"
   accentForeground: "#111111"
-  heroAssetId: halloween-hero
+  heroAssetId: michael-mask-hero
   heroPosition: center
 
 assetBootstrap:
@@ -119,7 +119,7 @@ pages:
         value: "Haddonfield Town Center (named businesses + cemetery as playspace)"
       - label: "Suburban map"
         value: "Orange Grove Estates (multi-story homes, park, Wallace/Doyle houses)"
-    coverAssetId: halloween-gameplay-2
+    coverAssetId: haddonfield-heights-03
     relations:
       - pageId: maps-haddonfield-heights
         type: next-step
@@ -149,7 +149,7 @@ pages:
         value: "Abandoned Myers house, Haddonfield water tower, Lampkin Lane"
       - label: "Demo gameplay"
         value: "Trunk searches, barricading houses, hiding (PAX East 2026)"
-    coverAssetId: halloween-gameplay-1
+    coverAssetId: haddonfield-heights-02
     relations:
       - pageId: maps-hub
         type: related
@@ -177,7 +177,7 @@ pages:
         value: "Nichols Hardware, Patty's Pub, A-Side Music, Hill Garden Center, Post Office, Margie's Auto Repair"
       - label: "Cemetery"
         value: "Haddonfield Cemetery is part of the playspace"
-    coverAssetId: halloween-gameplay-2
+    coverAssetId: town-center-cemetery
     relations:
       - pageId: maps-hub
         type: related
@@ -205,7 +205,7 @@ pages:
         value: "Wallace house, Doyle house, neighborhood park"
       - label: "Terrain"
         value: "Fences, hedges, chokepoints, vehicles and bikes"
-    coverAssetId: halloween-gameplay-1
+    coverAssetId: orange-grove-playground
     relations:
       - pageId: maps-hub
         type: related
@@ -236,7 +236,7 @@ pages:
         value: "Bob Simms, Lynda van der Klok, Annie Brackett, Laurie Strode"
       - label: "Deluxe exclusives"
         value: "Richard and Alexis (Digital Deluxe)"
-    coverAssetId: halloween-gameplay-1
+    coverAssetId: heroes-of-haddonfield
     relations:
       - pageId: michael-myers-hub
         type: next-step
@@ -266,7 +266,7 @@ pages:
         value: "Killer Sense, Stalk, Shape Jump/Dash, blackouts"
       - label: "Resistance outcome"
         value: "Can be knocked down; detention returns Michael to Smith's Grove"
-    coverAssetId: halloween-gameplay-1
+    coverAssetId: michael-mask-hero
     relations:
       - pageId: michael-myers-abilities
         type: next-step
@@ -298,7 +298,7 @@ pages:
         value: "Shadow movement; enter/exit in darkness or outside LOS"
       - label: "Blackouts"
         value: "Shut off lights and power for temporary darkness"
-    coverAssetId: halloween-gameplay-2
+    coverAssetId: smiths-grove
     relations:
       - pageId: michael-myers-hub
         type: related
@@ -328,7 +328,7 @@ pages:
         value: "Kill residents and time-limited Special Targets"
       - label: "Second chance"
         value: "Eliminated Civilians may return as Deputy or Dr. Loomis"
-    coverAssetId: halloween-gameplay-2
+    coverAssetId: rachel-gameplay
     relations:
       - pageId: multiplayer-how-it-works
         type: next-step
@@ -358,7 +358,7 @@ pages:
         value: "Escape and item locations vary between matches"
       - label: "Maps"
         value: "Three revealed Haddonfield maps at launch window"
-    coverAssetId: halloween-gameplay-1
+    coverAssetId: rachel-gameplay
     relations:
       - pageId: multiplayer-crossplay
         type: next-step
@@ -388,7 +388,7 @@ pages:
         value: "PC (Steam/Epic), PS5, Xbox Series X|S"
       - label: "Full matrix"
         value: "Not confirmed in primary sources pre-launch"
-    coverAssetId: halloween-gameplay-2
+    coverAssetId: extended-first-look
     relations:
       - pageId: pc-system-requirements
         type: next-step
@@ -419,7 +419,7 @@ pages:
         value: "Dr. Samuel Loomis"
       - label: "Replay extras"
         value: "Challenges, collectibles, lore, executions, cosmetics"
-    coverAssetId: halloween-gameplay-1
+    coverAssetId: michael-singleplayer-haddonfield
     relations:
       - pageId: michael-myers-hub
         type: next-step
@@ -429,8 +429,8 @@ pages:
         type: related
     changeSummary: "CONTENT_EXPANSION — Single Player pillar hub."
   - id: pc-hub
-    title: "Halloween: The Game on PC — Requirements, EAC & Launch Checks"
-    description: "PC storefronts, anti-cheat notices, Steam Deck status links, and what to verify after Advance Access."
+    title: "Halloween: The Game on PC — Requirements & Launch Checks"
+    description: "PC storefronts, system requirements, Steam Deck status links, and what to verify after Advance Access."
     category: pc-guides
     slug: pc
     source: site-input/pages/pc.md
@@ -440,18 +440,18 @@ pages:
     role: core
     intents:
       - halloween-pc
-    quickAnswer: "PC releases on Steam (App ID 3219630) and Epic. Steam lists Windows 11, DX12, SSD/NVMe, and Easy Anti-Cheat with a kernel-level notice. Steam Deck and real-world FPS are launch verification pending."
+    quickAnswer: "PC releases on Steam (App ID 3219630) and Epic. Steam lists Windows 11, DX12, SSD/NVMe, and full controller support. Anti-cheat middleware and Steam Deck compatibility are launch verification pending."
     eyebrow: "PC Guide"
     facts:
       - label: "Steam App ID"
         value: "App ID 3219630"
       - label: "Engine"
         value: "Unreal Engine 5"
-      - label: "Anti-cheat"
-        value: "Easy Anti-Cheat (kernel notice on Steam)"
+      - label: "Controller support"
+        value: "Full controller support on Steam (verified API field)"
       - label: "Storage"
         value: "45 GB SSD/NVMe required"
-    coverAssetId: halloween-gameplay-2
+    coverAssetId: halloween-keyart
     relations:
       - pageId: pc-system-requirements
         type: next-step
@@ -459,7 +459,7 @@ pages:
         type: next-step
       - pageId: multiplayer-crossplay
         type: related
-    changeSummary: "CONTENT_EXPANSION — PC pillar hub."
+    changeSummary: "V4 pass — removed unverified EAC from facts; controller support confirmed."
   - id: pc-system-requirements
     title: "Halloween: The Game PC System Requirements"
     description: "Current Steam minimum and recommended specs for Halloween: The Game, plus launch-pending performance claims."
@@ -484,7 +484,7 @@ pages:
         value: "16 GB min / 32 GB recommended"
       - label: "Storage"
         value: "45 GB on SSD/NVMe"
-    coverAssetId: halloween-gameplay-1
+    coverAssetId: extended-first-look
     relations:
       - pageId: pc-hub
         type: related
@@ -510,11 +510,11 @@ pages:
         value: "Friday, September 4, 2026 — 9:00 AM PT (official FAQ)"
       - label: "Full release date"
         value: "September 8, 2026 (official storefront listings)"
-      - label: "Advance Access eligibility"
-        value: "Confirmed for Digital Deluxe pre-orders only (official preorder page). Standard edition pre-orders do not list gameplay Early Access."
+      - label: "Advance Access rules"
+        value: "Sep 4, 9 AM PT for Digital Deluxe pre-orders only; post-launch Deluxe upgrade Advance Access Not Announced"
       - label: "Standard price"
         value: "USD $39.99 (official FAQ/store pages)"
-    coverAssetId: halloween-gameplay-1
+    coverAssetId: extended-first-look
     relations:
       - pageId: multiplayer-hub
         type: next-step
@@ -522,7 +522,7 @@ pages:
         type: next-step
       - pageId: pc-system-requirements
         type: next-step
-    changeSummary: "CONTENT_EXPANSION — added next-step links to multiplayer and PC guides."
+    changeSummary: "V4 pass — Deluxe upgrade Advance Access marked Not Announced."
   - id: standard-vs-deluxe-upgrade
     title: "Halloween: The Game — Standard vs Deluxe: Can You Upgrade Later?"
     description: "Clear, evidence-backed breakdown of Standard vs Digital Deluxe editions, upgrade path at launch, and the Phantom vs Inmate Michael Myers skins (plus Richard & Alexis civilians)."
@@ -538,21 +538,19 @@ pages:
     quickAnswer: "Yes — IllFonic confirms a Digital Deluxe Edition Upgrade at launch that grants the Inmate Michael Myers skin and the two civilians (Richard and Alexis). The Phantom Michael Myers pre-order skin is a separate pre-order exclusive and is not restored by the upgrade. Prices: Standard $39.99, Digital Deluxe $59.99 (USD)."
     eyebrow: "Editions"
     facts:
-      - label: "Standard price (USD)"
-        value: "$39.99 (Confirmed)"
-      - label: "Digital Deluxe price (USD)"
-        value: "$59.99 (Confirmed)"
+      - label: "Edition pricing (USD)"
+        value: "Standard $39.99; Digital Deluxe $59.99 (Confirmed)"
       - label: "Digital Deluxe contents"
         value: "Base game; Exclusive Inmate Michael Myers skin; two exclusive civilians (Richard and Alexis); comic and other preorder extras (Confirmed)"
-      - label: "Phantom Michael Myers skin"
-        value: "Pre-order exclusive; officially listed as not available after the pre-order period (Confirmed)"
-    coverAssetId: halloween-gameplay-2
+      - label: "Phantom vs upgrade"
+        value: "Phantom skin is pre-order exclusive; Deluxe upgrade at launch grants Inmate + civilians but not Phantom; upgrade Advance Access Not Announced"
+    coverAssetId: jennifer-aarons
     relations:
       - pageId: characters-hub
         type: next-step
       - pageId: early-access-release-time
         type: related
-    changeSummary: "Initial APIMart writer pass from launch research packet."
+    changeSummary: "V4 pass — Deluxe upgrade Advance Access marked Not Announced."
   - id: bots-private-lobbies-offline
     title: "Does Halloween: The Game Have Bots? Private Lobbies & Offline Mode Explained"
     description: "What you can and can't do offline in Halloween: The Game. Confirmed single‑player story, offline bots, and what we know about private lobbies, crossplay, Steam Deck, and Australia status at launch."
@@ -576,7 +574,7 @@ pages:
         value: "Reported by third‑party outlet (Playfront) with manual/random role assignment; treated as secondary until duplicated by an official source"
       - label: "AI/bot backfill in private online lobbies"
         value: "Not Announced — no official confirmation available"
-    coverAssetId: halloween-gameplay-1
+    coverAssetId: michael-police-lurking
     relations:
       - pageId: multiplayer-hub
         type: next-step
@@ -584,8 +582,8 @@ pages:
         type: related
     changeSummary: "CONTENT_EXPANSION — linked to multiplayer and single-player pillars."
   - id: steam-deck
-    title: "Halloween: The Game Steam Deck — Compatibility, Easy Anti-Cheat & Launch Status"
-    description: "What is and isn’t known about playing Halloween: The Game on Steam Deck: Easy Anti-Cheat presence, PC requirements, controller support and what to check at launch."
+    title: "Halloween: The Game Steam Deck — Compatibility & Launch Status"
+    description: "What is and isn't known about playing Halloween: The Game on Steam Deck: PC requirements, controller support, and what to check at launch."
     category: reference
     slug: steam-deck
     source: site-input/pages/steam-deck.md
@@ -595,24 +593,30 @@ pages:
     role: core
     intents:
       - steam-deck
-    quickAnswer: "Easy Anti-Cheat is listed for the PC build but Steam Deck compatibility has not been verified. The store lists full controller support and Windows 11 system requirements; do not assume Steam Deck works out of the box until hands‑on Proton/EAC testing or an official Valve/IllFonic statement."
+    quickAnswer: "Steam Deck compatibility has not been verified — no Valve Verified badge and no IllFonic statement pre-launch. Steam lists full controller support and Windows 11 requirements; anti-cheat middleware is unverified on the live store page. Do not assume Deck works until hands-on testing."
     eyebrow: "Steam Deck Status"
     facts:
-      - label: "Release date"
-        value: "Digital release confirmed for September 8, 2026 (Advance Access starts Sep 4 for eligible preorders)"
+      - label: "Steam Deck status"
+        value: "Not verified — no Valve Verified/Playable badge pre-launch"
       - label: "Steam App ID"
         value: "App ID 3219630"
-      - label: "Platforms"
-        value: "PC (Steam, Epic), PS5, Xbox Series X|S"
+      - label: "Controller support"
+        value: "Full controller support on Steam (verified API field)"
       - label: "Anti-cheat"
-        value: "Easy Anti-Cheat listed for the PC build (secondary source: PCGamingWiki)"
-    coverAssetId: halloween-gameplay-2
+        value: "Provisional — secondary sources cite EAC; live Steam anti-cheat field not verified"
+    trust:
+      status: provisional
+      lastVerified: 2026-09-02
+      appliesTo:
+        - Steam Deck compatibility
+        - Anti-cheat middleware
+    coverAssetId: rachel-gameplay
     relations:
       - pageId: pc-hub
         type: next-step
       - pageId: pc-system-requirements
         type: next-step
-    changeSummary: "CONTENT_EXPANSION — linked to PC pillar."
+    changeSummary: "V4 pass — EAC marked provisional; trust block added."
   - id: australia-release-status
     title: "Is Halloween: The Game Banned in Australia? Current Release Status"
     description: "Summary of the Australian Classification Board decision, why the game was Refused Classification, what that means for digital/physical sales and how SKU differences (Standard vs Digital Deluxe) affect classification as of the last verification."
@@ -638,10 +642,11 @@ pages:
         value: "September 8, 2026 (Steam, Epic, PS5, Xbox Series X|S). Advance Access for some buyers begins Sep 4, 2026 (see preorder FAQ)."
     trust:
       status: provisional
-      lastVerified: 2026-08-29
+      lastVerified: 2026-09-02
       appliesTo:
         - Pre-release research snapshot
-    coverAssetId: halloween-gameplay-1
+        - Digital Deluxe IARC listing
+    coverAssetId: halloween-keyart
     changeSummary: "Initial APIMart writer pass from launch research packet."
   - id: match-length-timer
     title: "How Long Are Halloween: The Game Matches? 12‑Minute Timer Explained"
@@ -666,18 +671,24 @@ pages:
         value: "Private lobbies are reported in press/third‑party coverage; AI/backfill in online private lobbies is not confirmed"
       - label: "Australia status (base game)"
         value: "Refused Classification (RC) due to illicit drug use linked to gameplay advantage — Last Verified: 2026-08-29"
-    coverAssetId: halloween-gameplay-2
+    coverAssetId: rabbit-in-red-lounge
+    trust:
+      status: provisional
+      lastVerified: 2026-09-02
+      appliesTo:
+        - Match timer rules
+        - Preview footage duration observations
     relations:
       - pageId: multiplayer-how-it-works
         type: next-step
-    changeSummary: "CONTENT_EXPANSION — linked to multiplayer how-it-works guide."
+    changeSummary: "V4 pass — trust block added; no official timer confirmed."
 
 routes:
   - id: maps
     eyebrow: "Maps"
     title: "Maps"
     description: "Confirmed Haddonfield maps, landmarks, and what still needs launch verification."
-    visualAssetId: halloween-gameplay-2
+    visualAssetId: town-center-main-street
     fastAnswers:
       - question: "How many maps are in Halloween: The Game?"
         answer: Three maps are officially revealed—Haddonfield Heights, Town Center, and Orange Grove Estates.
@@ -697,7 +708,7 @@ routes:
     eyebrow: "Characters"
     title: "Characters"
     description: "Playable Civilian roster, Deluxe exclusives, and trait overview."
-    visualAssetId: halloween-gameplay-1
+    visualAssetId: heroes-of-haddonfield
     fastAnswers:
       - question: "Who can you play as?"
         answer: Standard Edition includes 10 Civilians; Deluxe adds Richard and Alexis.
@@ -711,7 +722,7 @@ routes:
     eyebrow: "Killer"
     title: "Michael Myers"
     description: "How Michael works in-game—objectives, abilities, and combat rules."
-    visualAssetId: halloween-gameplay-1
+    visualAssetId: michael-mask-hero
     fastAnswers:
       - question: "What abilities does Michael Myers have?"
         answer: Killer Sense, Stalk, Shape Jump, Shape Dash, and blackout/light manipulation are confirmed.
@@ -726,7 +737,7 @@ routes:
     eyebrow: "Multiplayer"
     title: "Multiplayer"
     description: "1v4 online format, crossplay notes, bots, and match questions."
-    visualAssetId: halloween-gameplay-2
+    visualAssetId: rachel-gameplay
     fastAnswers:
       - question: "How does Halloween multiplayer work?"
         answer: 1 Michael vs 4 Civilians with varying escapes, items, and police escalation.
@@ -744,7 +755,7 @@ routes:
     eyebrow: "Story Mode"
     title: "Single Player"
     description: "Michael Myers story chapters, replay structure, and unlocks."
-    visualAssetId: halloween-gameplay-1
+    visualAssetId: michael-singleplayer-haddonfield
     fastAnswers:
       - question: "Does Halloween: The Game have single player?"
         answer: Yes—a six-chapter story played as Michael with Dr. Loomis narration.
@@ -754,14 +765,14 @@ routes:
   - id: pc
     eyebrow: "PC"
     title: "PC"
-    description: "System requirements, anti-cheat, Steam Deck checks, and PC launch notes."
-    visualAssetId: halloween-gameplay-2
+    description: "System requirements, Steam Deck checks, and PC launch notes."
+    visualAssetId: orange-grove-park
     fastAnswers:
       - question: "What are the PC system requirements?"
         answer: Steam lists Windows 11, 16–32 GB RAM, DX12, and 45 GB SSD/NVMe storage.
         pageId: pc-system-requirements
       - question: "Does Halloween work on Steam Deck?"
-        answer: Not verified—see the Steam Deck status page for EAC and testing notes.
+        answer: Not verified—see the Steam Deck status page for compatibility checks.
         pageId: steam-deck
     pages:
       - pc-hub
@@ -809,7 +820,7 @@ homepage:
       context: "Launch upgrade SKU vs Phantom pre-order exclusive."
       pageId: standard-vs-deluxe-upgrade
     - label: "Does Halloween: The Game work on Steam Deck?"
-      context: "EAC, Windows requirements, and verification status."
+      context: "Windows requirements and verification status."
       pageId: steam-deck
   startHere:
     - pageId: early-access-release-time
@@ -823,6 +834,138 @@ homepage:
       label: Steam Deck
 
 assets:
+  - id: michael-mask-hero
+    source: site-input/assets/hero/michael-mask-hero.jpg
+    target: hero/michael-mask-hero.jpg
+    alt: "Michael Myers mask close-up from Halloween: The Game"
+    sourceType: official
+    usageStatus: review-required
+  - id: halloween-keyart
+    source: site-input/assets/hero/halloween-keyart.jpg
+    target: hero/halloween-keyart.jpg
+    alt: "Halloween: The Game key art"
+    sourceType: official
+    usageStatus: review-required
+  - id: michael-haddonfield
+    source: site-input/assets/hero/michael-haddonfield.jpg
+    target: hero/michael-haddonfield.jpg
+    alt: "Michael Myers in Haddonfield from Halloween: The Game"
+    sourceType: official
+    usageStatus: review-required
+  - id: extended-first-look
+    source: site-input/assets/covers/gameplay/extended-first-look.jpg
+    target: covers/gameplay/extended-first-look.jpg
+    alt: "Haddonfield street at night in Halloween: The Game"
+    sourceType: official
+    usageStatus: review-required
+  - id: haddonfield-heights-01
+    source: site-input/assets/covers/maps/haddonfield-heights-01.jpg
+    target: covers/maps/haddonfield-heights-01.jpg
+    alt: "Myers house at night on Haddonfield Heights map"
+    sourceType: official
+    usageStatus: review-required
+  - id: town-center-main-street
+    source: site-input/assets/covers/maps/town-center-main-street.jpg
+    target: covers/maps/town-center-main-street.jpg
+    alt: "Haddonfield Town Center main street"
+    sourceType: official
+    usageStatus: review-required
+  - id: town-center-nichols-hardware
+    source: site-input/assets/covers/maps/town-center-nichols-hardware.jpg
+    target: covers/maps/town-center-nichols-hardware.jpg
+    alt: "Nichols Hardware in Haddonfield Town Center"
+    sourceType: official
+    usageStatus: review-required
+  - id: orange-grove-wallace-house
+    source: site-input/assets/covers/maps/orange-grove-wallace-house.jpg
+    target: covers/maps/orange-grove-wallace-house.jpg
+    alt: "Wallace house in Orange Grove Estates"
+    sourceType: official
+    usageStatus: review-required
+  - id: orange-grove-playground
+    source: site-input/assets/covers/maps/orange-grove-playground.jpg
+    target: covers/maps/orange-grove-playground.jpg
+    alt: "Playground in Orange Grove Estates"
+    sourceType: official
+    usageStatus: review-required
+  - id: orange-grove-park
+    source: site-input/assets/covers/maps/orange-grove-park.jpg
+    target: covers/maps/orange-grove-park.jpg
+    alt: "Park pavilion in Orange Grove Estates"
+    sourceType: official
+    usageStatus: review-required
+  - id: heroes-of-haddonfield
+    source: site-input/assets/covers/characters/heroes-of-haddonfield.jpg
+    target: covers/characters/heroes-of-haddonfield.jpg
+    alt: "Heroes of Haddonfield civilian roster"
+    sourceType: official
+    usageStatus: review-required
+  - id: rachel-calahan
+    source: site-input/assets/covers/characters/rachel-calahan.jpg
+    target: covers/characters/rachel-calahan.jpg
+    alt: "Rachel Calahan character art"
+    sourceType: official
+    usageStatus: review-required
+  - id: jennifer-aarons
+    source: site-input/assets/covers/characters/jennifer-aarons.jpg
+    target: covers/characters/jennifer-aarons.jpg
+    alt: "Jennifer Aarons character art"
+    sourceType: official
+    usageStatus: review-required
+  - id: rachel-gameplay
+    source: site-input/assets/covers/gameplay/rachel-gameplay.png
+    target: covers/gameplay/rachel-gameplay.png
+    alt: "Civilians in Halloween: The Game multiplayer"
+    sourceType: official
+    usageStatus: review-required
+  - id: michael-singleplayer-haddonfield
+    source: site-input/assets/covers/michael/singleplayer-haddonfield.jpg
+    target: covers/michael/singleplayer-haddonfield.jpg
+    alt: "Michael Myers in Haddonfield single-player story"
+    sourceType: official
+    usageStatus: review-required
+  - id: michael-stairs
+    source: site-input/assets/covers/michael/stairs.jpg
+    target: covers/michael/stairs.jpg
+    alt: "Michael Myers on stairs in Halloween: The Game"
+    sourceType: official
+    usageStatus: review-required
+  - id: michael-police-lurking
+    source: site-input/assets/covers/michael/police-lurking.jpg
+    target: covers/michael/police-lurking.jpg
+    alt: "Michael Myers lurking near police in Halloween: The Game"
+    sourceType: official
+    usageStatus: review-required
+  - id: haddonfield-heights-02
+    source: site-input/assets/covers/maps/haddonfield-heights-02.jpg
+    target: covers/maps/haddonfield-heights-02.jpg
+    alt: "Lampkin Lane area on Haddonfield Heights map"
+    sourceType: official
+    usageStatus: review-required
+  - id: haddonfield-heights-03
+    source: site-input/assets/covers/maps/haddonfield-heights-03.jpg
+    target: covers/maps/haddonfield-heights-03.jpg
+    alt: "Water tower landmark on Haddonfield Heights map"
+    sourceType: official
+    usageStatus: review-required
+  - id: town-center-cemetery
+    source: site-input/assets/covers/maps/town-center-cemetery.jpg
+    target: covers/maps/town-center-cemetery.jpg
+    alt: "Haddonfield Cemetery in Town Center map"
+    sourceType: official
+    usageStatus: review-required
+  - id: smiths-grove
+    source: site-input/assets/covers/michael/smiths-grove.jpg
+    target: covers/michael/smiths-grove.jpg
+    alt: "Smith's Grove Sanitarium in Halloween: The Game"
+    sourceType: official
+    usageStatus: review-required
+  - id: rabbit-in-red-lounge
+    source: site-input/assets/covers/gameplay/rabbit-in-red-lounge.jpg
+    target: covers/gameplay/rabbit-in-red-lounge.jpg
+    alt: "Rabbit in Red Lounge interior in Halloween: The Game"
+    sourceType: official
+    usageStatus: review-required
   - id: halloween-hero
     source: site-input/assets/halloween-hero.jpg
     target: hero/halloween-hero.jpg

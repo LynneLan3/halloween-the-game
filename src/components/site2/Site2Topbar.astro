@@ -1,0 +1,72 @@
+---
+import Site2Icon from './Site2Icon.astro';
+import { buildSite2NavItems, site2NavActivePath } from '../../lib/site2-nav';
+import { experienceNav } from '../../lib/experience-nav';
+
+interface Props {
+	homeHref: string;
+	activePath?: string;
+}
+
+const { homeHref, activePath = '' } = Astro.props;
+const { guidesHref } = await experienceNav();
+const navItems = buildSite2NavItems(guidesHref);
+---
+
+<header class="topbar" data-site2-topbar>
+	<a class="brand" href={homeHref} aria-label="Halloween The Game Guide home">
+		<span class="brand-mark"><Site2Icon name="skull" size={19} /></span>
+		<span><strong>HALLOWEEN</strong><small>The Game Guide</small></span>
+	</a>
+	<nav class="main-nav" data-site2-nav>
+		{
+			navItems.map((item) => (
+				<a
+					href={item.href}
+					aria-current={site2NavActivePath(activePath, item) ? 'page' : undefined}
+				>
+					{item.label}
+				</a>
+			))
+		}
+	</nav>
+	<div class="nav-actions">
+		<button type="button" class="search-trigger" data-site2-search-open aria-label="Search guides">
+			<Site2Icon name="search" size={18} /><span>Search</span>
+		</button>
+		<button type="button" class="menu-trigger" data-site2-menu-trigger aria-label="Toggle navigation" aria-expanded="false">
+			<Site2Icon name="menu" size={22} class="site2-icon-menu" />
+			<Site2Icon name="x" size={22} class="site2-icon-close" />
+		</button>
+	</div>
+</header>
+
+<script is:inline>
+	document.querySelectorAll('[data-site2-topbar]').forEach((topbar) => {
+		const nav = topbar.querySelector('[data-site2-nav]');
+		const trigger = topbar.querySelector('[data-site2-menu-trigger]');
+		const onScroll = () => {
+			topbar.classList.toggle('is-stuck', window.scrollY > 16);
+		};
+		onScroll();
+		window.addEventListener('scroll', onScroll, { passive: true });
+		if (!nav || !trigger) return;
+		trigger.addEventListener('click', () => {
+			const open = nav.classList.toggle('open');
+			trigger.setAttribute('aria-expanded', open ? 'true' : 'false');
+		});
+	});
+</script>
+
+<style>
+	.menu-trigger .site2-icon-close {
+		display: none;
+	}
+	.main-nav.open ~ .nav-actions .menu-trigger .site2-icon-menu,
+	.topbar:has(.main-nav.open) .menu-trigger .site2-icon-menu {
+		display: none;
+	}
+	.topbar:has(.main-nav.open) .menu-trigger .site2-icon-close {
+		display: block;
+	}
+</style>

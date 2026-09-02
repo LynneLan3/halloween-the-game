@@ -23,12 +23,12 @@ relations:
   -
     slug: bots-private-lobbies-offline
     type: related
-cover: ../../../assets/covers/halloween-gameplay-1.jpg
+cover: ../../../assets/covers/michael/singleplayer-haddonfield.jpg
 coverMedia:
-  alt: "Michael Myers stalking in Halloween: The Game"
+  alt: Michael Myers in Haddonfield single-player story
   kind: cover
   aspectRatio: 16:9
-  sourceUrl: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219630/fef848f20a2a5e857ee275662acf979b89754af7/ss_fef848f20a2a5e857ee275662acf979b89754af7.1920x1080.jpg?t=1787962852"
+  sourceLabel: Official
 changeSummary: "CONTENT_EXPANSION — Single Player pillar hub."
 eyebrow: Story Mode
 facts:

@@ -1,0 +1,73 @@
+---
+/** Website 2.0 guide page header — design system extension. */
+import { loadGuideContent } from '../../lib/guide-content';
+import { experienceNav } from '../../lib/experience-nav';
+import { site2RouteHubHref } from '../../lib/site2-nav';
+import { formatUiDate, ui } from '../../lib/ui';
+import ContentTrust from '../ContentTrust.astro';
+import GuideStatus from '../GuideStatus.astro';
+
+const { entry } = Astro.locals.starlightRoute;
+const t = ui();
+const { homeHref, guidesHref } = await experienceNav();
+const content = await loadGuideContent(entry);
+const data = entry.data;
+const route = content.primaryRoute;
+const routeLink = route ? site2RouteHubHref(route.id) : undefined;
+---
+
+<div class="site2-guide">
+	<nav class="site2-guide__crumb" aria-label={t.breadcrumb}>
+		<a href={homeHref}>{t.homeNav}</a>
+		<span aria-hidden="true">/</span>
+		{
+			route && routeLink ? (
+				<>
+					<a href={routeLink}>{route.title}</a>
+					<span aria-hidden="true">/</span>
+				</>
+			) : (
+				<>
+					<a href={guidesHref}>{t.guidesNav}</a>
+					<span aria-hidden="true">/</span>
+				</>
+			)
+		}
+		<span aria-current="page">{data.title}</span>
+	</nav>
+
+	<header class="site2-guide__header">
+		{data.eyebrow && <p class="section-label"><span />{data.eyebrow}</p>}
+		<h1>{data.title}</h1>
+		{data.description && <p class="site2-guide__dek">{data.description}</p>}
+		{(data.status || content.lastUpdated) && (
+			<div class="site2-guide__meta">
+				{data.status && <GuideStatus status={data.status} />}
+				{content.lastUpdated && (
+					<time datetime={content.lastUpdated.toISOString()}>
+						{t.updatedOn(formatUiDate(content.lastUpdated))}
+					</time>
+				)}
+			</div>
+		)}
+		{data.trust && <ContentTrust trust={data.trust} detailed={false} />}
+	</header>
+
+	{content.quickAnswer && (
+		<div class="site2-guide__quick">
+			<p class="section-label"><span />Quick answer</p>
+			<p>{content.quickAnswer}</p>
+		</div>
+	)}
+
+	{content.facts.length > 0 && (
+		<dl class="site2-guide__facts">
+			{content.facts.map((fact) => (
+				<div>
+					<dt>{fact.label}</dt>
+					<dd>{fact.value}</dd>
+				</div>
+			))}
+		</dl>
+	)}
+</div>

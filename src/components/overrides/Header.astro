@@ -2,25 +2,28 @@
 import DefaultHeader from '@astrojs/starlight/components/Header.astro';
 import GameTopNav from '../GameTopNav.astro';
 import GameShellTopbar from '../experience/GameShellTopbar.astro';
+import Site2Topbar from '../site2/Site2Topbar.astro';
 import { game } from '../../config/game';
 import { isExperienceGuide, isExperienceHomepage } from '../../lib/experience-guide';
 import { experienceNav } from '../../lib/experience-nav';
+import { isSite2Shell } from '../../lib/site2';
 
 const isHome = isExperienceHomepage(Astro.locals.starlightRoute.entry);
 const isExperience = isExperienceGuide(
 	Astro.locals.starlightRoute.entry,
 	Astro.url.pathname,
 );
+const site2 = isSite2Shell() && (isHome || isExperience);
 const { nav, homeHref, guidesHref } = await experienceNav();
 const siteTitle = game.shortName ?? game.title;
 ---
 
 {
-	isHome ? (
-		// Formal Homepage: unified top bar with Home active
+	site2 ? (
+		<Site2Topbar homeHref={homeHref} activePath={isHome ? homeHref : Astro.url.pathname} />
+	) : isHome ? (
 		<GameShellTopbar siteTitle={siteTitle} homeHref={homeHref} nav={nav} activePath={homeHref} />
 	) : isExperience ? (
-		// Guide content pages: highlight "Guides" in the unified top bar
 		<GameShellTopbar
 			siteTitle={siteTitle}
 			homeHref={homeHref}

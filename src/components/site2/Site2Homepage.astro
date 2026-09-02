@@ -1,0 +1,274 @@
+---
+/**
+ * Website 2.0 Homepage — Astro port of Halloween_The_Game design.
+ * Data from site-spec / game.portal (verified production content).
+ */
+import { getImage } from 'astro:assets';
+import Site2Icon from './Site2Icon.astro';
+import { game } from '../../config/game';
+import { buildSite2HomepageModel } from '../../lib/site2-homepage';
+
+const model = await buildSite2HomepageModel();
+
+const heroStyle = model.heroImageUrl
+	? ({
+			backgroundImage: `linear-gradient(90deg,#070b0f 0%,rgba(7,11,15,.87) 27%,rgba(7,11,15,.3) 60%,rgba(7,11,15,.25)),linear-gradient(0deg,#080d11,transparent 30%), url("${model.heroImageUrl}")`,
+			backgroundSize: 'cover',
+			backgroundPosition: 'center 44%',
+		} as Record<string, string>)
+	: undefined;
+const killerStyle = model.killer.imageUrl
+	? ({ backgroundImage: `linear-gradient(0deg,#090e12ee,transparent 65%), url("${model.killer.imageUrl}")` } as Record<string, string>)
+	: undefined;
+const heroesStyle = model.heroes.imageUrl
+	? ({ backgroundImage: `linear-gradient(0deg,#091115ee,transparent 65%), url("${model.heroes.imageUrl}")` } as Record<string, string>)
+	: undefined;
+
+let featuredImageUrl: string | undefined;
+if (model.featured?.cover) {
+	const optimized = await getImage({
+		src: model.featured.cover,
+		width: 1280,
+		height: 720,
+	});
+	featuredImageUrl = optimized.src;
+}
+---
+
+<div class="site-shell">
+	<section class="hero">
+		<div class="hero-image" style={heroStyle} />
+		<div class="hero-scanlines" />
+		<div class="hero-content">
+			<div class="eyebrow"><span class="pulse-dot" />{model.heroBadge}</div>
+			<h1>Halloween:<br /><em>The Game</em><br /><span>Guide</span></h1>
+			<p class="hero-tagline">Survive Haddonfield.<br /><strong>Or become the Boogeyman.</strong></p>
+			<p class="hero-copy">{game.description}</p>
+			<div class="hero-buttons">
+				{
+					model.primaryCta && (
+						<a class="arrow-button" href={model.primaryCta.href}>
+							{model.primaryCta.label}<Site2Icon name="arrow-right" size={16} />
+						</a>
+					)
+				}
+				{
+					model.secondaryCta && (
+						<a class="text-link" href={model.secondaryCta.href}>
+							{model.secondaryCta.label} <Site2Icon name="arrow-down-right" size={15} />
+						</a>
+					)
+				}
+			</div>
+			{
+				model.statusItems.length > 0 && (
+					<div class="release-status" aria-label="Release timing">
+						{
+							model.statusItems.map((item) => (
+								<div>
+									<span>{item.label}</span>
+									<strong>{item.value}</strong>
+								</div>
+							))
+						}
+					</div>
+				)
+			}
+		</div>
+		<div class="hero-caption">THE BOOGEYMAN IS BACK <span>SCROLL TO EXPLORE</span></div>
+	</section>
+
+	{
+		model.trending.length > 0 && (
+			<section class="section trending" id="guides">
+				<div class="section-heading">
+					<div>
+						<p class="section-label"><span />Start here</p>
+						<h2>What players<br /><em>need right now.</em></h2>
+					</div>
+					<p class="heading-note">The short version before you step into the dark.<br />Updated as the night gets closer.</p>
+				</div>
+				<div class="trending-grid">
+					{
+						model.trending.map((card, index) => (
+							<a class={`trend-card ${card.accent}`} href={card.href}>
+								<div class="card-number">0{index + 1}</div>
+								<div class="card-image" style={card.imageUrl ? { backgroundImage: `url(${card.imageUrl})` } : undefined} />
+								<div class="card-shade" />
+								<div class="trend-content">
+									<span class="card-label">{card.label}</span>
+									<h3>{card.title}</h3>
+									<p>{card.text}</p>
+									<Site2Icon name="arrow-down-right" size={21} class="card-arrow" />
+								</div>
+							</a>
+						))
+					}
+				</div>
+			</section>
+		)
+	}
+
+	{
+		model.maps.length > 0 && (
+			<section class="section map-section" id="maps">
+				<div class="section-heading map-heading">
+					<div>
+						<p class="section-label"><span />Know your ground</p>
+						<h2>Explore<br /><em>Haddonfield.</em></h2>
+					</div>
+					<div class="map-intro">
+						<p>Every street has a story. Every window could be watching. Learn the neighborhoods before the lights go out.</p>
+						<a class="arrow-button" href={model.mapsHubHref}>
+							View all maps<Site2Icon name="arrow-right" size={16} />
+						</a>
+					</div>
+				</div>
+				<div class:list={['map-grid', model.maps.length === 2 && 'map-grid--two']}>
+					{
+						model.maps.map((map) => (
+							<a class:list={['map-card', map.large && 'map-feature']} href={map.href}>
+								<div class="map-image" style={map.imageUrl ? { backgroundImage: `url(${map.imageUrl})` } : undefined} />
+								<div class="map-overlay" />
+								<div class="map-info">
+									<span>{map.meta}</span>
+									<h3>{map.title}</h3>
+									<Site2Icon name="arrow-right" size={20} />
+								</div>
+							</a>
+						))
+					}
+				</div>
+			</section>
+		)
+	}
+
+	<section class="sides-section" id="michael-myers">
+		<div class="sides-intro">
+			<p class="section-label"><span />Choose your side</p>
+			<h2>One night.<br /><em>Two ways out.</em></h2>
+			<p>Hunt the town as its most famous resident, or work together to survive him.</p>
+		</div>
+		<a class="side-card killer" href={model.killer.href}>
+			<div class="side-bg" style={killerStyle} />
+			<div class="side-content">
+				<span class="side-kicker"><Site2Icon name="skull" size={15} /> The killer</span>
+				<h3>Michael<br /><em>Myers</em></h3>
+				<p>Abilities · Stalk · Shape Jump · Blackouts</p>
+				<span class="arrow-button">Play as Michael<Site2Icon name="arrow-right" size={16} /></span>
+			</div>
+		</a>
+		<a class="side-card heroes" href={model.heroes.href}>
+			<div class="side-bg" style={heroesStyle} />
+			<div class="side-content">
+				<span class="side-kicker"><Site2Icon name="shield" size={15} /> The survivors</span>
+				<h3>Heroes of<br /><em>Haddonfield</em></h3>
+				<p>Characters · Objectives · Weapons · Police</p>
+				<span class="arrow-button">Survive as a hero<Site2Icon name="arrow-right" size={16} /></span>
+			</div>
+		</a>
+	</section>
+
+	{
+		model.questions.length > 0 && (
+			<section class="section questions" id="multiplayer">
+				<div class="section-heading">
+					<div>
+						<p class="section-label"><span />Before you queue</p>
+						<h2>Popular<br /><em>questions.</em></h2>
+					</div>
+					<p class="heading-note">Straight answers to the things<br />everyone is asking.</p>
+				</div>
+				<div class="questions-grid">
+					{
+						model.questions.map((item, index) => (
+							<a class={`question-card q${index + 1}`} href={item.href}>
+								<span>0{index + 1}</span>
+								<h3>{item.question}</h3>
+								<p>{item.answer}</p>
+								<Site2Icon name="chevron-down" size={17} />
+							</a>
+						))
+					}
+				</div>
+			</section>
+		)
+	}
+
+	{
+		model.categories.length > 0 && (
+			<section class="section category-section" id="characters">
+				<div class="section-heading">
+					<div>
+						<p class="section-label"><span />Go deeper</p>
+						<h2>Find your<br /><em>way through.</em></h2>
+					</div>
+					<p class="heading-note">The field guide, organized for<br />how you actually play.</p>
+				</div>
+				<div class="category-grid">
+					{
+						model.categories.map((tile) => (
+							<a class="category-tile" href={tile.href}>
+								<div style={tile.imageUrl ? { backgroundImage: `url(${tile.imageUrl})` } : undefined} />
+								<div class="category-overlay" />
+								<span>{tile.title}</span>
+								<h3>{tile.copy}</h3>
+								<Site2Icon name="arrow-down-right" size={19} />
+							</a>
+						))
+					}
+				</div>
+			</section>
+		)
+	}
+
+	{
+		model.featured && (
+			<section class="section featured" id="featured">
+				<div
+					class="featured-image"
+					style={featuredImageUrl ? { backgroundImage: `url(${featuredImageUrl})` } : undefined}
+				/>
+				<div class="featured-content">
+					<p class="section-label"><span />Featured guide</p>
+					{model.featured.updated && <span class="updated">Updated · {model.featured.updated}</span>}
+					<h2>
+						{model.featured.title.includes(' — ') ? (
+							<>
+								{model.featured.title.split(' — ')[0]}<br /><em>{model.featured.title.split(' — ').slice(1).join(' — ')}</em>
+							</>
+						) : (
+							model.featured.title
+						)}
+					</h2>
+					<p>{model.featured.description}</p>
+					<a class="arrow-button" href={model.featured.href}>
+						Read the guide<Site2Icon name="arrow-right" size={16} />
+					</a>
+				</div>
+			</section>
+		)
+	}
+
+	<section class="release-strip" id="about">
+		<div><Site2Icon name="sparkles" size={17} /><span>The night he comes home</span></div>
+		<strong>{model.releaseDate}</strong>
+		<p>{model.releaseNote} · {model.platforms}</p>
+	</section>
+</div>
+
+<style>
+	.side-card {
+		display: block;
+		color: inherit;
+	}
+	.question-card {
+		display: block;
+		color: inherit;
+		text-decoration: none;
+	}
+	.featured h2 :global(em) {
+		color: #ad542e;
+		font-style: normal;
+	}
+</style>

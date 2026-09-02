@@ -1,0 +1,222 @@
+/* Website 2.0 — guide footer bands (next questions, references, routes) */
+
+.site2-guide-sections {
+	overflow-x: clip;
+	width: 100%;
+}
+
+.site2-bottom-shell {
+	display: flex;
+	flex-direction: column;
+	gap: 0;
+	width: 100%;
+}
+
+.site2-bottom-band {
+	width: 100%;
+	box-sizing: border-box;
+	padding: clamp(56px, 8vw, 96px) clamp(24px, 7vw, 112px);
+	content-visibility: auto;
+	contain-intrinsic-size: auto 480px;
+}
+
+.site2-bottom-band--meta {
+	background: #0d171f;
+	color: #d8d2c6;
+}
+
+.site2-bottom-band--trending {
+	background: #0d171f;
+	color: #e7dfca;
+}
+
+.site2-bottom-band--refs {
+	background: #ebe4d3;
+	color: #1d2a2d;
+}
+
+.site2-bottom-band--refs h2,
+.site2-bottom-band--refs h2 em {
+	color: #17252b;
+}
+
+.site2-bottom-band--refs h2 em {
+	color: #ae542e;
+}
+
+.site2-bottom-band--refs .section-label {
+	color: #b2542d;
+}
+
+.site2-bottom-band--routes {
+	background: #0f1a22;
+	color: #e7dfca;
+}
+
+.site2-bottom-band .section-heading {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	gap: 24px;
+	margin-bottom: 40px;
+	max-width: 1320px;
+	margin-inline: auto;
+}
+
+.site2-bottom-band .section-heading > div {
+	min-width: 0;
+}
+
+/* Responsive card grids — fill row without stretching a single card full-width */
+.site2-next-grid,
+.site2-ref-grid,
+.site2-routes-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
+	gap: 12px;
+	max-width: 1320px;
+	margin-inline: auto;
+}
+
+.site2-ref-grid {
+	grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 420px));
+	justify-content: start;
+}
+
+.site2-next-grid .trend-card,
+.site2-ref-grid .trend-card {
+	height: min(390px, 52vw);
+	min-height: 280px;
+}
+
+/* Route bar — inline strip above route tiles (not v2.2 box) */
+.site2-route-bar {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	gap: 20px 32px;
+	max-width: 1320px;
+	margin: 0 auto 48px;
+	padding-bottom: 28px;
+	border-bottom: 1px solid #ffffff14;
+}
+
+.site2-route-bar__eyebrow {
+	margin: 0 0 4px;
+	font-size: 10px;
+	text-transform: uppercase;
+	letter-spacing: 0.14em;
+	color: #e8782f;
+}
+
+.site2-route-bar__title {
+	margin: 0;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: clamp(1.5rem, 3vw, 2.25rem);
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #ebe5d7;
+	line-height: 1;
+}
+
+.site2-route-bar__actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+.site2-route-bar__link {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	padding: 10px 16px;
+	border: 1px solid #ffffff22;
+	color: #d0c9b8;
+	font-size: 0.8125rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+	text-decoration: none;
+	transition: border-color 0.2s, color 0.2s, background 0.2s;
+}
+
+.site2-route-bar__link:hover {
+	border-color: #e8782f;
+	color: #f2c35a;
+}
+
+.site2-route-bar__link--accent {
+	border-color: #e8782f55;
+	color: #f2c35a;
+}
+
+.site2-routes-heading {
+	margin-top: 8px;
+}
+
+.site2-routes-grid .category-tile {
+	height: 200px;
+	text-decoration: none;
+	color: inherit;
+}
+
+/* Evidence / sources in footer */
+.site2-bottom-band--meta .gw-sources,
+.site2-bottom-band--meta .gw-guide-evidence {
+	max-width: 1320px;
+	margin-inline: auto;
+}
+
+.site2-bottom-band--meta .gw-sources h2,
+.site2-bottom-band--meta .gw-guide-evidence h2 {
+	font-family: 'Barlow Condensed', sans-serif;
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	color: #ebe5d7;
+	margin: 0 0 16px;
+}
+
+.site2-bottom-band--meta .gw-sources ul,
+.site2-bottom-band--meta .gw-guide-evidence ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	gap: 10px;
+}
+
+.site2-bottom-band--meta .gw-sources a {
+	display: flex;
+	justify-content: space-between;
+	gap: 12px;
+	padding: 12px 16px;
+	border: 1px solid #ffffff18;
+	background: #152028;
+	color: #f2c35a;
+	text-decoration: none;
+}
+
+.site2-bottom-band--meta .gw-sources a:hover {
+	border-color: #e8782f;
+}
+
+.site2-bottom-band--meta .gw-sources__type {
+	color: #b8b2a6;
+	font-size: 0.8125rem;
+}
+
+@media (max-width: 720px) {
+	.site2-bottom-band .section-heading {
+		display: block;
+	}
+
+	.site2-bottom-band .heading-note {
+		margin-top: 16px;
+	}
+
+	.site2-route-bar {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+}

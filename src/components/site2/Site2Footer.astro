@@ -1,0 +1,31 @@
+---
+import Site2Icon from './Site2Icon.astro';
+import { game } from '../../config/game';
+import { experienceNav } from '../../lib/experience-nav';
+
+interface Props {
+	homeHref: string;
+}
+
+const { homeHref } = Astro.props;
+const { guidesHref } = await experienceNav();
+const mapsHref = game.routes?.find((r) => r.id === 'maps')?.pages[0]?.href ?? '/maps/';
+const charactersHref = game.routes?.find((r) => r.id === 'characters')?.pages[0]?.href ?? '/characters/';
+const killerHref = game.routes?.find((r) => r.id === 'michael-myers')?.pages[0]?.href ?? '/michael-myers/';
+const year = new Date().getFullYear();
+---
+
+<footer>
+	<a class="brand" href={homeHref}>
+		<span class="brand-mark"><Site2Icon name="skull" size={19} /></span>
+		<span><strong>HALLOWEEN</strong><small>The Game Guide</small></span>
+	</a>
+	<div class="footer-links">
+		<a href={guidesHref}>Guides</a>
+		<a href={mapsHref}>Maps</a>
+		<a href={charactersHref}>Characters</a>
+		<a href={killerHref}>Michael Myers</a>
+	</div>
+	<p>{game.disclaimer ?? 'Unofficial fan guide. Not affiliated with the rights holders.'}</p>
+	<span class="copyright">© {year} HADDONFIELD FIELD NOTES</span>
+</footer>

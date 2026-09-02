@@ -1,0 +1,78 @@
+/* Website 2.0 — Starlight chrome overrides for player-facing pages */
+.site2-shell-page {
+	--sl-content-width: 100%;
+	position: relative;
+	background: #080d11;
+	color: #e7dfca;
+}
+
+.site2-shell-page .sidebar-pane,
+.site2-shell-page .right-sidebar,
+.site2-shell-page .right-sidebar-container,
+.site2-shell-page nav.sidebar,
+.site2-shell-page .sl-skip-link {
+	display: none !important;
+}
+
+.site2-shell-page .main-frame,
+.site2-shell-page .main-pane,
+.site2-shell-page main {
+	padding: 0;
+	width: 100%;
+	max-width: none;
+	background: #080d11;
+}
+
+.site2-shell-page .content-panel {
+	padding: 0;
+	max-width: none;
+	border: 0;
+}
+
+.site2-shell-page .content-panel:has(.sl-container:empty) {
+	display: none;
+}
+
+.site2-shell-page .sl-container {
+	max-width: none;
+	width: 100%;
+	margin-inline: 0;
+	padding: 0;
+}
+
+.site2-shell-page .sl-markdown-content,
+.site2-shell-page .site2-main {
+	width: 100%;
+}
+
+.site2-shell-page header.header {
+	display: contents;
+}
+
+.site2-shell-page footer.footer {
+	display: contents;
+}
+
+.site2-shell-page .page {
+	padding: 0;
+}
+
+/* Homepage — flatten Starlight wrappers so Hero is full-bleed like Bolt */
+.site2-shell-page.site2-home {
+	position: relative;
+	min-height: 100vh;
+	overflow-x: clip;
+}
+
+.site2-shell-page.site2-home .site2-main,
+.site2-shell-page.site2-home .main-pane,
+.site2-shell-page.site2-home main,
+.site2-shell-page.site2-home .content-panel,
+.site2-shell-page.site2-home .sl-container {
+	display: contents;
+}
+
+.site2-shell-page.site2-home .site-shell {
+	position: relative;
+	width: 100%;
+}

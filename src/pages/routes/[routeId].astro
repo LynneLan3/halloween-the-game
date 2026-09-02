@@ -1,22 +1,38 @@
 ---
-/** Formal dynamic Route Hub. */
-import GameShell from '../../components/experience/GameShell.astro';
-import RouteHub from '../../components/experience/routes/RouteHub.astro';
+/** Formal dynamic Route Hub — Website 2.0 shell. */
+import Site2RouteHub from '../../components/site2/Site2RouteHub.astro';
+import Site2Shell from '../../components/site2/Site2Shell.astro';
 import { game } from '../../config/game';
 import type { GameRoute } from '../../config/game';
 import { experienceNav } from '../../lib/experience-nav';
-import '../../styles/routes.css';
+import { site2RouteHubHref } from '../../lib/site2-nav';
+import { optimizeSite2Background } from '../../lib/site2-images';
 
 export function getStaticPaths() {
 	return (game.routes ?? []).map((route) => ({ params: { routeId: route.id }, props: { route } }));
 }
 
-interface Props { route: GameRoute; }
+interface Props {
+	route: GameRoute;
+}
 const { route } = Astro.props;
-const { nav, footerLinks, homeHref } = await experienceNav();
+const { homeHref } = await experienceNav();
 const routes = game.routes ?? [];
+const hubHref = site2RouteHubHref(route.id);
+const heroPreload = await optimizeSite2Background(route.visual, {
+	width: 1920,
+	height: 1080,
+	quality: 82,
+});
 ---
 
-<GameShell title={`${route.title} — ${game.title}`} description={route.description} canonical={new URL(route.href, game.siteUrl).href} siteTitle={game.shortName} homeHref={homeHref} nav={nav} activePath={route.href} footerLinks={footerLinks} footerText={game.title}>
-	<RouteHub route={route} routes={routes} />
-</GameShell>
+<Site2Shell
+	title={`${route.title} — ${game.title}`}
+	description={route.description}
+	canonical={new URL(hubHref, game.siteUrl).href}
+	homeHref={homeHref}
+	activePath={hubHref}
+>
+	{heroPreload && <link slot="head" rel="preload" as="image" href={heroPreload} fetchpriority="high" />}
+	<Site2RouteHub route={route} routes={routes} />
+</Site2Shell>

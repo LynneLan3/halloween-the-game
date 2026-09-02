@@ -3,49 +3,75 @@ import Default from '@astrojs/starlight/components/Head.astro';
 import AdScript from '../AdScript.astro';
 import Analytics from '../Analytics.astro';
 import SocialMeta from '../SocialMeta.astro';
-import { isExperienceGuide } from '../../lib/experience-guide';
-import '../../styles/experience.css';
-import '../../styles/experience-guide.css';
-import '../../styles/experience-homepage.css';
+import { isExperienceGuide, isExperienceHomepage } from '../../lib/experience-guide';
+import ExperienceGuideStyles from '../experience/ExperienceGuideStyles.astro';
+import ExperienceStyles from '../experience/ExperienceStyles.astro';
+import { game } from '../../config/game';
+import { isSite2Shell } from '../../lib/site2';
+import { getSite2HeroPreloadUrl } from '../../lib/site2-images';
 
+const entry = Astro.locals.starlightRoute.entry;
+const isHome = isExperienceHomepage(entry);
 const isExperience =
-	isExperienceGuide(
-		Astro.locals.starlightRoute.entry,
-		Astro.url.pathname,
-	) && Astro.locals.starlightRoute.entry.id !== 'privacy';
+	isExperienceGuide(entry, Astro.url.pathname) && entry.id !== 'privacy';
+const site2 = isSite2Shell() && (isHome || isExperience);
+const heroPreload = site2 && isHome ? await getSite2HeroPreloadUrl(game.heroImage) : undefined;
 ---
 
+{site2 ? null : isExperience ? <ExperienceGuideStyles /> : <ExperienceStyles />}
 {
-	isExperience && (
+		site2 ? (
 		<>
+			{heroPreload && <link rel="preload" as="image" href={heroPreload} fetchpriority="high" />}
+			<link rel="preconnect" href="https://fonts.googleapis.com" />
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+			<link
+				href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600;700&family=Special+Elite&display=swap"
+				rel="stylesheet"
+			/>
 			<style is:inline>
 				html {
-					background: #0f1219;
+					background: #080d11;
 					color-scheme: dark;
 				}
-
 				body {
-					background: #0f1219;
-					color: #c5ced6;
+					background: #080d11;
+					color: #e7dfca;
 				}
 			</style>
-			<script is:inline>
-				(function () {
-					var root = document.documentElement;
-					root.dataset.theme = 'dark';
-					root.style.colorScheme = 'dark';
-					var observer = new MutationObserver(function () {
-						if (root.dataset.theme !== 'dark') root.dataset.theme = 'dark';
-					});
-					observer.observe(root, { attributes: true, attributeFilter: ['data-theme'] });
-				})();
-			</script>
 		</>
+	) : (
+		isExperience && (
+			<>
+				<style is:inline>
+					html {
+						background: #0f1219;
+						color-scheme: dark;
+					}
+
+					body {
+						background: #0f1219;
+						color: #c5ced6;
+					}
+				</style>
+				<script is:inline>
+					(function () {
+						var root = document.documentElement;
+						root.dataset.theme = 'dark';
+						root.style.colorScheme = 'dark';
+						var observer = new MutationObserver(function () {
+							if (root.dataset.theme !== 'dark') root.dataset.theme = 'dark';
+						});
+						observer.observe(root, { attributes: true, attributeFilter: ['data-theme'] });
+					})();
+				</script>
+			</>
+		)
 	)
 }
 <Default />
 {
-	isExperience && (
+	!site2 && isExperience && (
 		<script is:inline>
 			document.documentElement.dataset.theme = 'dark';
 			document.documentElement.style.colorScheme = 'dark';

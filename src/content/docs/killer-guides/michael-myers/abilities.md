@@ -19,12 +19,12 @@ relations:
   -
     slug: multiplayer/how-multiplayer-works
     type: next-step
-cover: ../../../../assets/covers/halloween-gameplay-2.jpg
+cover: ../../../../assets/covers/michael/smiths-grove.jpg
 coverMedia:
-  alt: "Survivors in Haddonfield in Halloween: The Game"
+  alt: "Smith's Grove Sanitarium in Halloween: The Game"
   kind: cover
   aspectRatio: 16:9
-  sourceUrl: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219630/b6788a76e909167f1e599e62f52ea0a9734aa133/ss_b6788a76e909167f1e599e62f52ea0a9734aa133.1920x1080.jpg?t=1787962852"
+  sourceLabel: Official
 changeSummary: "CONTENT_EXPANSION — Michael Myers abilities guide."
 eyebrow: Killer Abilities
 facts:

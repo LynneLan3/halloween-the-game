@@ -9,6 +9,12 @@ role: core
 assetType: article
 sidebar:
   order: 6
+trust:
+  status: provisional
+  lastVerified: "2026-09-02"
+  appliesTo:
+    - Match timer rules
+    - Preview footage duration observations
 intents:
   - match-length-timer
 quickAnswer: "No official, published match timer yet. Preview footage frequently shows sessions around 12 minutes, but IllFonic has not confirmed a fixed match length — treat footage as observational until the developer publishes rules or patch notes."
@@ -16,13 +22,13 @@ relations:
   -
     slug: multiplayer/how-multiplayer-works
     type: next-step
-cover: ../../../assets/covers/halloween-gameplay-2.jpg
+cover: ../../../assets/covers/gameplay/rabbit-in-red-lounge.jpg
 coverMedia:
-  alt: "Survivors in Haddonfield in Halloween: The Game"
+  alt: "Rabbit in Red Lounge interior in Halloween: The Game"
   kind: cover
   aspectRatio: 16:9
-  sourceUrl: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219630/b6788a76e909167f1e599e62f52ea0a9734aa133/ss_b6788a76e909167f1e599e62f52ea0a9734aa133.1920x1080.jpg?t=1787962852"
-changeSummary: "CONTENT_EXPANSION — linked to multiplayer how-it-works guide."
+  sourceLabel: Official
+changeSummary: "V4 pass — trust block added; no official timer confirmed."
 eyebrow: Match Length
 facts:
   -
@@ -48,7 +54,7 @@ facts:
 
 Confirmed
 
-- No official, published match timer/rules: IllFonic and storefront pages have not published a fixed multiplayer match timer as of Last Verified: 2026-08-29. The Steam store page and official FAQ do not list a specific match length. **Confirmed.**
+- No official, published match timer/rules: IllFonic and storefront pages have not published a fixed multiplayer match timer as of Last Verified: 2026-09-02.
 
 - Preview footage shows ~12‑minute sessions: community previews and early streams that surfaced before launch often show matches that run around 12 minutes from setup to conclusion. These are observational artifacts of footage and build settings shown by creators, not official rulebooks. Treat them as demonstrations, not final mechanics. **Confirmed (observational).**
 
@@ -80,7 +86,7 @@ How to verify the official answer at or after launch
 
 Australia status (important note)
 
-- The base game was Refused Classification (RC) in Australia due to illicit drug use linked to gameplay advantage/reward. Last Verified: 2026-08-29. A separate IARC/Deluxe SKU listing was reported by secondary sources, but do not treat the game as “unbanned” without an official reclassification or IllFonic confirmation. See /australia-release-status/ for more context. **Confirmed.**
+- The base game was Refused Classification (RC) in Australia due to illicit drug use linked to gameplay advantage/reward. Last Verified: 2026-09-02. A separate IARC/Deluxe SKU listing was reported by secondary sources, but do not treat the game as "unbanned" without an official reclassification or IllFonic confirmation. See /australia-release-status/.
 
 Quick checklist for launch day
 
@@ -96,6 +102,4 @@ Sources and where this guidance came from are below. If IllFonic publishes offic
 - [Halloween: The Game — Official Preorder / News](https://halloweengame.com/news/preorder/)
 - [Halloween: The Game on Steam (store page)](https://store.steampowered.com/app/3219630/Halloween_The_Game/)
 - [Playfront reporting on private lobbies and token/role systems](https://playfront.de/en/halloween-the-game-setzt-auf-rollenbasiertes-matchmaking-mit-token-system-fuer-killer/)
-- [PCGamingWiki entry (Easy Anti‑Cheat listing, platform notes)](https://www.pcgamingwiki.com/wiki/Halloween:_The_Game)
 - [Press Start — Australian Classification Board coverage](https://press-start.com.au/news/playstation/2026/08/14/halloween-the-game-classification-board-statement/)
-- [IGN interview / single‑player confirmation (background on modes)](https://www.ign.com/articles/halloween-revealed-by-friday-the-13th-the-game-developer-ign-interviews-illfonic-on-the-single-player-story-mode-working-with-john-carpenter-and-more)

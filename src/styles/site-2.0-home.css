@@ -1,0 +1,101 @@
+/* Website 2.0 — homepage layout fixes (non-hero sections) */
+
+.site-shell {
+	overflow: visible;
+}
+
+.site-shell .release-status div {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+
+.site-shell .release-status span {
+	font-size: 9px;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	color: #b8c0b8;
+}
+
+.site-shell .release-status strong {
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: clamp(16px, 2vw, 20px);
+	font-weight: 500;
+	letter-spacing: 0.04em;
+	color: #ebe5d7;
+}
+
+/* Map grid — center when fewer tiles; fix meta/title overlap */
+.site-shell .map-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.site-shell .map-section .section-heading,
+.site-shell .map-section .map-grid {
+	width: 100%;
+	max-width: 1320px;
+}
+
+.site-shell .map-grid {
+	height: auto;
+	min-height: 420px;
+	margin-inline: auto;
+}
+
+.site-shell .map-grid.map-grid--two {
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	grid-template-rows: minmax(320px, 1fr);
+	max-width: 960px;
+}
+
+.site-shell .map-grid.map-grid--two .map-feature {
+	grid-row: auto;
+}
+
+.site-shell .map-grid.map-grid--two .map-card {
+	min-height: 360px;
+}
+
+.site-shell .map-info span {
+	display: block;
+	max-width: 100%;
+	font-size: 9px;
+	letter-spacing: 0.11em;
+	text-transform: uppercase;
+	color: #dfb67a;
+	line-height: 1.4;
+	margin-bottom: 8px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.site-shell .map-info h3 {
+	margin: 0;
+}
+
+/* Homepage trending — responsive instead of fixed 4 columns */
+.site-shell .trending-grid {
+	grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+	max-width: 1320px;
+	margin-inline: auto;
+}
+
+/* Sides section — full bleed, no clip */
+.site-shell .sides-section {
+	width: 100%;
+	max-width: none;
+	overflow: visible;
+	min-height: 0;
+}
+
+.site-shell .sides-intro {
+	overflow: visible;
+	padding-block: clamp(64px, 8vw, 92px);
+}
+
+.site-shell .sides-intro h2 {
+	line-height: 0.88;
+}

@@ -69,6 +69,14 @@ export default defineConfig({
 			filter: (page) => !isExcludedFromSitemap(page),
 		}),
 	],
+	image: {
+		service: {
+			entrypoint: 'astro/assets/services/sharp',
+			config: {
+				limitInputPixels: false,
+			},
+		},
+	},
 	markdown: {
 		rehypePlugins: [rehypeAffiliateLinks],
 	},

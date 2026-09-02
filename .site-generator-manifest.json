@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "templateVersion": "2.0.0",
   "generatorVersion": "1.0.0",
-  "specHash": "1d2c6e006d7a79b60a73b10b9c4de43f31cc589dc1cb8591470ec7c47ef7b375",
+  "specHash": "16c6294d3000fc2c6eb15cdaeab1b6d27858ac9ace6d66a860f076811b7bbf44",
   "siteId": "halloween-the-game",
   "createdFromSpec": "site-spec.yaml",
   "managedFiles": [
@@ -10,6 +10,36 @@
       "path": "public/1da59765-592e-45fa-a171-a2959131bf75.txt",
       "sha256": "ed8811db8e09b694356c5a851ced52ae99ab19d9fdc796a51abe08b3a347ebec",
       "kind": "other"
+    },
+    {
+      "path": "src/assets/covers/characters/heroes-of-haddonfield.jpg",
+      "sha256": "4a41d122fea2cacf422e4b8df5558327d8fc691b593b5bb694b7958312e0c9a7",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/covers/characters/jennifer-aarons.jpg",
+      "sha256": "d2cefc82d75858d39988f8b01ca4e146d1b1a70281848f37e165ec9e87b815f7",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/covers/characters/rachel-calahan.jpg",
+      "sha256": "9f2e215b587ff9ef3d1d4341f7c2a158832238c5012f4d7671246075a788c450",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/covers/gameplay/extended-first-look.jpg",
+      "sha256": "afdefc77c1451dcab8971707aabbfcc4f448d29bb904e805df199ae05d3c3f8c",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/covers/gameplay/rabbit-in-red-lounge.jpg",
+      "sha256": "044925bfdf06b93dd991eec349f0af0eaa1b8757a10eb31bca3f4596538246b7",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/covers/gameplay/rachel-gameplay.png",
+      "sha256": "c6b7b7035bf63107bf270ef1b697e74c0fcd45264903ab3c65da8bf97fc25656",
+      "kind": "asset"
     },
     {
       "path": "src/assets/covers/halloween-gameplay-1.jpg",
@@ -22,8 +52,88 @@
       "kind": "asset"
     },
     {
+      "path": "src/assets/covers/maps/haddonfield-heights-01.jpg",
+      "sha256": "8cd4023aa6af2aa34cdd6f8e9b1c6262e088534191e54e658436680be945bd83",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/covers/maps/haddonfield-heights-02.jpg",
+      "sha256": "19401575a456ff1e2dd67ab9655229ce320684cb6b767d2d28e6c041a649a250",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/covers/maps/haddonfield-heights-03.jpg",
+      "sha256": "b76810f3d5987a4a1750b8a4b35b467ef7f5c138eaee3ec6cec0cd8b56920bf6",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/covers/maps/orange-grove-park.jpg",
+      "sha256": "1bc38a45061d94f5eda446cbf5816c61a263fb8a0df8c8e7eb11d574f10328ef",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/covers/maps/orange-grove-playground.jpg",
+      "sha256": "d712cc16a0583a46dcf803755aa8ff710796ab0cfb0d5106b2e83de81d20d162",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/covers/maps/orange-grove-wallace-house.jpg",
+      "sha256": "877cf3a907e25d7d3051eeade4931769ecee7c42caf801ce0bcf51160466bf18",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/covers/maps/town-center-cemetery.jpg",
+      "sha256": "99ab811109bdd06bf192ebaf5e5d342a858eb03226b54d74265817568358e458",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/covers/maps/town-center-main-street.jpg",
+      "sha256": "4cc321355a3cbd765736b139e8b0be1eb3e33d167123c32a7b946c5921d637bc",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/covers/maps/town-center-nichols-hardware.jpg",
+      "sha256": "a62e1dd658533d980ee35f9ab8b06ecd1b8dffad75848a6814134a67b936ec61",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/covers/michael/police-lurking.jpg",
+      "sha256": "2d279bdeb4ef2c580842679dfa9bcc18f221ac34ec692eab88f22941eb9cf3ae",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/covers/michael/singleplayer-haddonfield.jpg",
+      "sha256": "e4715f010a397394d4db7bef547ccbcf4d993d6ed1b4e67d73df7f95040d35d1",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/covers/michael/smiths-grove.jpg",
+      "sha256": "ab84a16e61e0f2b678bdf54f9d19cacb8e6a3067fca4fb3b5b263eb755899ad0",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/covers/michael/stairs.jpg",
+      "sha256": "1048906ddab385bd4094c08f38d2683987dee238326b131e48ccfe7270862ef3",
+      "kind": "asset"
+    },
+    {
       "path": "src/assets/hero/halloween-hero.jpg",
       "sha256": "81127fb47124260587083b8409db5a3553d14d60d278c4cd276409aecbf836a7",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/hero/halloween-keyart.jpg",
+      "sha256": "ab7665ec187c346cd9b48954401dbd192eaa05c217d5e797571295fd57a74de8",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/hero/michael-haddonfield.jpg",
+      "sha256": "82efaffcaa0899f2ff3b3f154220215fefd511e80c00818dc99faf9b72e41425",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/hero/michael-mask-hero.jpg",
+      "sha256": "0552e65d1b944a98dc3a1d64df3a4a838724217518a7435bf3eed56603fa83c3",
       "kind": "asset"
     },
     {
@@ -38,32 +148,32 @@
     },
     {
       "path": "src/config/site.generated.ts",
-      "sha256": "e59d54a6e0f24e95e89c129fb2e797e6a94ddaac9dc01cb3fe467364e1cfa005",
+      "sha256": "085aaecc1ab06f879eafefbf0ef73eb3de0d60b3c7e86cdc778e4818e4ea2428",
       "kind": "config"
     },
     {
       "path": "src/content/docs/character-guides/characters.md",
-      "sha256": "3e353b0e0421cb7d71aed45a62d9177e1ce6d4f43d376274a9616b0200113868",
+      "sha256": "d9c0ee88c2c31b440983f6c774e4c75604d99d831348abcf2bb32678efb58558",
       "kind": "page"
     },
     {
       "path": "src/content/docs/guides/bots-private-lobbies-offline.md",
-      "sha256": "5ed8b1f77cb7d3f0378f55954e822155ffc47cbed4333119a206c157ed485355",
+      "sha256": "2f29db60fed95c62d77d216f7960c7694b536ef63a617b0ca8bbed137d1d7bda",
       "kind": "page"
     },
     {
       "path": "src/content/docs/guides/early-access-release-time.md",
-      "sha256": "acdad28b1f74b0f90e73b608a97226babaa64a84fb1d24aa16b4555fed49ffde",
+      "sha256": "146959e8f13b8b07b44f9db0fa41bfd3c1db15bd95202e6454c3c4079e03d8b7",
       "kind": "page"
     },
     {
       "path": "src/content/docs/guides/match-length-timer.md",
-      "sha256": "1d8e96107050546c034264492a3f1979ac269ffa1b0e563c288c5e1e76a9d430",
+      "sha256": "17f3be3eaa3dbd8f90f012bb61948dbc18bfb9cf7fd2d07b7264fbac695db1bf",
       "kind": "page"
     },
     {
       "path": "src/content/docs/guides/standard-vs-deluxe-upgrade.md",
-      "sha256": "a52fa9beee73b138e1cc3e3b511ca46f29be86e0bc0b88b374fc875d1c036c4c",
+      "sha256": "ef50fd04a002459cc507e60e8b8a499c91c80ed26d581a6df723806d95d9b4fa",
       "kind": "page"
     },
     {
@@ -73,76 +183,108 @@
     },
     {
       "path": "src/content/docs/killer-guides/michael-myers.md",
-      "sha256": "abf65f63cab15aa7f1c277890eb34cfd753c6c87adbfea51246359488f8f6ede",
+      "sha256": "4197e91e6d0585089f2ee4fb76b8693c365c214a77a2a5bbbc5f83120a2dbb13",
       "kind": "page"
     },
     {
       "path": "src/content/docs/killer-guides/michael-myers/abilities.md",
-      "sha256": "f9509c0d6fce8e1bc28eff18caba4a94ec1f76b152de337aef529997c69ba8b9",
+      "sha256": "8379a0bad725546315b533a024b19343472de2d9b44c02134b25bf0557977591",
       "kind": "page"
     },
     {
       "path": "src/content/docs/map-guides/maps.md",
-      "sha256": "9f988f5e9146586f7c1901253f5e45a39b560ded1309ad7cbc3f4ab8ac990687",
+      "sha256": "aa831d0a928732b3361fc549b709327dd7b9d60d32363e022e545938bf3b3ee0",
       "kind": "page"
     },
     {
       "path": "src/content/docs/map-guides/maps/haddonfield-heights.md",
-      "sha256": "387842741b226352a2b9315d303c86a757b5efa1ad66df0879c99082df8e5098",
+      "sha256": "3599a68e13de92ef7b5ea34fb1c8d615b368ab0489e7b284b19768857cf673e6",
       "kind": "page"
     },
     {
       "path": "src/content/docs/map-guides/maps/haddonfield-town-center.md",
-      "sha256": "327e4b3a0892b7cd0c76c6503ef7aa720619772694448067236d1f9c0321251e",
+      "sha256": "c65c55ff1d98e5f90a716e0a8d5c95e5ec0c7750a6c38bb954095a29aa8f35ff",
       "kind": "page"
     },
     {
       "path": "src/content/docs/map-guides/maps/orange-grove-estates.md",
-      "sha256": "b9a1da9a1930a155cf181ee4fc809617be76fd88bb98c3a384532aaa48ad60d8",
+      "sha256": "a10abb513756a5f8676e44f9b88f63659d5e5c7577ea46fa1541ff7239c77843",
       "kind": "page"
     },
     {
       "path": "src/content/docs/multiplayer-guides/multiplayer.md",
-      "sha256": "7c39de36bb94cd9be341cb706144840a9241ff3ba7cf51483ccc1aacf6cb056c",
+      "sha256": "58bf4de1024d0c0248a3a6d095e01e7ca01bad6087367fb0a7455b495c2bd6c0",
       "kind": "page"
     },
     {
       "path": "src/content/docs/multiplayer-guides/multiplayer/crossplay.md",
-      "sha256": "9f92640bb1e55b36366b5196f6eec8ac51f6466fbc749adbfbf9d53698c6cd56",
+      "sha256": "3e7b83c0837326a414009d014ec4368bd5061cf2e30d54d3eadfaa07ba7c4223",
       "kind": "page"
     },
     {
       "path": "src/content/docs/multiplayer-guides/multiplayer/how-multiplayer-works.md",
-      "sha256": "8ed28078b2b30106e41d54954ef2a944f1703b83e0ca3c43ac64966f73b241fc",
+      "sha256": "384911645e6bba4b91cf1be9db64be4d1882072b9ce237d1f77364578b8357f8",
       "kind": "page"
     },
     {
       "path": "src/content/docs/pc-guides/pc.md",
-      "sha256": "3a130c40a5d4f2cd0adbad2fc501129df2e1dfa1f32e04730e2c5d10854b62fa",
+      "sha256": "4486eb8f6eac765edf0127d1cfb2de3cf4c0463fa110f630098027c05e39f71f",
       "kind": "page"
     },
     {
       "path": "src/content/docs/pc-guides/pc/system-requirements.md",
-      "sha256": "e63a3711468e99be0f732e1d25f626ec568933232ad4c48a97ad13787b42d08d",
+      "sha256": "fa48ab494cac14df0afed8e12a95451e85cae7f9ecac25acdc53a28d4bf8d26d",
       "kind": "page"
     },
     {
       "path": "src/content/docs/reference/australia-release-status.md",
-      "sha256": "d17ce161e97f41b7eaf5044ada6267384243d6743d8788d1600b4d3929dd5624",
+      "sha256": "8150e362a8dc99d8e1262075c79d946f75fa27bda2e409968a978766a5fe2f2f",
       "kind": "page"
     },
     {
       "path": "src/content/docs/reference/steam-deck.md",
-      "sha256": "17eca4bb35645b4eaf63a8f6cf44bf5b90afe6be7a1774f4bd7b3ab7b942e854",
+      "sha256": "d378ac7e5f253009734fc625e34e9b9a8f863af1b1d201e35c3f184dc8446d8d",
       "kind": "page"
     },
     {
       "path": "src/content/docs/story-guides/single-player.md",
-      "sha256": "30d40672babebc8a56f130e43ce22a0bbad8cb697c76ba8a9af6e258981b26dd",
+      "sha256": "be93387cded299e3a49fe5e70cb0a6f92b0ec513496bba823a98deda1e47550d",
       "kind": "page"
     }
   ],
   "managedAssets": [
+    {
+      "id": "extended-first-look",
+      "target": "covers/gameplay/extended-first-look.jpg",
+      "source": "site-input/assets/covers/gameplay/extended-first-look.jpg",
+      "sha256": "afdefc77c1451dcab8971707aabbfcc4f448d29bb904e805df199ae05d3c3f8c",
+      "usageStatus": "review-required",
+      "sourceType": "official"
+    },
+    {
+      "id": "haddonfield-heights-01",
+      "target": "covers/maps/haddonfield-heights-01.jpg",
+      "source": "site-input/assets/covers/maps/haddonfield-heights-01.jpg",
+      "sha256": "8cd4023aa6af2aa34cdd6f8e9b1c6262e088534191e54e658436680be945bd83",
+      "usageStatus": "review-required",
+      "sourceType": "official"
+    },
+    {
+      "id": "haddonfield-heights-02",
+      "target": "covers/maps/haddonfield-heights-02.jpg",
+      "source": "site-input/assets/covers/maps/haddonfield-heights-02.jpg",
+      "sha256": "19401575a456ff1e2dd67ab9655229ce320684cb6b767d2d28e6c041a649a250",
+      "usageStatus": "review-required",
+      "sourceType": "official"
+    },
+    {
+      "id": "haddonfield-heights-03",
+      "target": "covers/maps/haddonfield-heights-03.jpg",
+      "source": "site-input/assets/covers/maps/haddonfield-heights-03.jpg",
+      "sha256": "b76810f3d5987a4a1750b8a4b35b467ef7f5c138eaee3ec6cec0cd8b56920bf6",
+      "usageStatus": "review-required",
+      "sourceType": "official"
+    },
     {
       "id": "halloween-gameplay-1",
       "target": "covers/halloween-gameplay-1.jpg",
@@ -168,12 +310,156 @@
       "sourceType": "store"
     },
     {
+      "id": "halloween-keyart",
+      "target": "hero/halloween-keyart.jpg",
+      "source": "site-input/assets/hero/halloween-keyart.jpg",
+      "sha256": "ab7665ec187c346cd9b48954401dbd192eaa05c217d5e797571295fd57a74de8",
+      "usageStatus": "review-required",
+      "sourceType": "official"
+    },
+    {
       "id": "halloween-social",
       "target": "social/halloween-social.jpg",
       "source": "site-input/assets/halloween-social.jpg",
       "sha256": "81127fb47124260587083b8409db5a3553d14d60d278c4cd276409aecbf836a7",
       "usageStatus": "review-required",
       "sourceType": "store"
+    },
+    {
+      "id": "heroes-of-haddonfield",
+      "target": "covers/characters/heroes-of-haddonfield.jpg",
+      "source": "site-input/assets/covers/characters/heroes-of-haddonfield.jpg",
+      "sha256": "4a41d122fea2cacf422e4b8df5558327d8fc691b593b5bb694b7958312e0c9a7",
+      "usageStatus": "review-required",
+      "sourceType": "official"
+    },
+    {
+      "id": "jennifer-aarons",
+      "target": "covers/characters/jennifer-aarons.jpg",
+      "source": "site-input/assets/covers/characters/jennifer-aarons.jpg",
+      "sha256": "d2cefc82d75858d39988f8b01ca4e146d1b1a70281848f37e165ec9e87b815f7",
+      "usageStatus": "review-required",
+      "sourceType": "official"
+    },
+    {
+      "id": "michael-haddonfield",
+      "target": "hero/michael-haddonfield.jpg",
+      "source": "site-input/assets/hero/michael-haddonfield.jpg",
+      "sha256": "82efaffcaa0899f2ff3b3f154220215fefd511e80c00818dc99faf9b72e41425",
+      "usageStatus": "review-required",
+      "sourceType": "official"
+    },
+    {
+      "id": "michael-mask-hero",
+      "target": "hero/michael-mask-hero.jpg",
+      "source": "site-input/assets/hero/michael-mask-hero.jpg",
+      "sha256": "0552e65d1b944a98dc3a1d64df3a4a838724217518a7435bf3eed56603fa83c3",
+      "usageStatus": "review-required",
+      "sourceType": "official"
+    },
+    {
+      "id": "michael-police-lurking",
+      "target": "covers/michael/police-lurking.jpg",
+      "source": "site-input/assets/covers/michael/police-lurking.jpg",
+      "sha256": "2d279bdeb4ef2c580842679dfa9bcc18f221ac34ec692eab88f22941eb9cf3ae",
+      "usageStatus": "review-required",
+      "sourceType": "official"
+    },
+    {
+      "id": "michael-singleplayer-haddonfield",
+      "target": "covers/michael/singleplayer-haddonfield.jpg",
+      "source": "site-input/assets/covers/michael/singleplayer-haddonfield.jpg",
+      "sha256": "e4715f010a397394d4db7bef547ccbcf4d993d6ed1b4e67d73df7f95040d35d1",
+      "usageStatus": "review-required",
+      "sourceType": "official"
+    },
+    {
+      "id": "michael-stairs",
+      "target": "covers/michael/stairs.jpg",
+      "source": "site-input/assets/covers/michael/stairs.jpg",
+      "sha256": "1048906ddab385bd4094c08f38d2683987dee238326b131e48ccfe7270862ef3",
+      "usageStatus": "review-required",
+      "sourceType": "official"
+    },
+    {
+      "id": "orange-grove-park",
+      "target": "covers/maps/orange-grove-park.jpg",
+      "source": "site-input/assets/covers/maps/orange-grove-park.jpg",
+      "sha256": "1bc38a45061d94f5eda446cbf5816c61a263fb8a0df8c8e7eb11d574f10328ef",
+      "usageStatus": "review-required",
+      "sourceType": "official"
+    },
+    {
+      "id": "orange-grove-playground",
+      "target": "covers/maps/orange-grove-playground.jpg",
+      "source": "site-input/assets/covers/maps/orange-grove-playground.jpg",
+      "sha256": "d712cc16a0583a46dcf803755aa8ff710796ab0cfb0d5106b2e83de81d20d162",
+      "usageStatus": "review-required",
+      "sourceType": "official"
+    },
+    {
+      "id": "orange-grove-wallace-house",
+      "target": "covers/maps/orange-grove-wallace-house.jpg",
+      "source": "site-input/assets/covers/maps/orange-grove-wallace-house.jpg",
+      "sha256": "877cf3a907e25d7d3051eeade4931769ecee7c42caf801ce0bcf51160466bf18",
+      "usageStatus": "review-required",
+      "sourceType": "official"
+    },
+    {
+      "id": "rabbit-in-red-lounge",
+      "target": "covers/gameplay/rabbit-in-red-lounge.jpg",
+      "source": "site-input/assets/covers/gameplay/rabbit-in-red-lounge.jpg",
+      "sha256": "044925bfdf06b93dd991eec349f0af0eaa1b8757a10eb31bca3f4596538246b7",
+      "usageStatus": "review-required",
+      "sourceType": "official"
+    },
+    {
+      "id": "rachel-calahan",
+      "target": "covers/characters/rachel-calahan.jpg",
+      "source": "site-input/assets/covers/characters/rachel-calahan.jpg",
+      "sha256": "9f2e215b587ff9ef3d1d4341f7c2a158832238c5012f4d7671246075a788c450",
+      "usageStatus": "review-required",
+      "sourceType": "official"
+    },
+    {
+      "id": "rachel-gameplay",
+      "target": "covers/gameplay/rachel-gameplay.png",
+      "source": "site-input/assets/covers/gameplay/rachel-gameplay.png",
+      "sha256": "c6b7b7035bf63107bf270ef1b697e74c0fcd45264903ab3c65da8bf97fc25656",
+      "usageStatus": "review-required",
+      "sourceType": "official"
+    },
+    {
+      "id": "smiths-grove",
+      "target": "covers/michael/smiths-grove.jpg",
+      "source": "site-input/assets/covers/michael/smiths-grove.jpg",
+      "sha256": "ab84a16e61e0f2b678bdf54f9d19cacb8e6a3067fca4fb3b5b263eb755899ad0",
+      "usageStatus": "review-required",
+      "sourceType": "official"
+    },
+    {
+      "id": "town-center-cemetery",
+      "target": "covers/maps/town-center-cemetery.jpg",
+      "source": "site-input/assets/covers/maps/town-center-cemetery.jpg",
+      "sha256": "99ab811109bdd06bf192ebaf5e5d342a858eb03226b54d74265817568358e458",
+      "usageStatus": "review-required",
+      "sourceType": "official"
+    },
+    {
+      "id": "town-center-main-street",
+      "target": "covers/maps/town-center-main-street.jpg",
+      "source": "site-input/assets/covers/maps/town-center-main-street.jpg",
+      "sha256": "4cc321355a3cbd765736b139e8b0be1eb3e33d167123c32a7b946c5921d637bc",
+      "usageStatus": "review-required",
+      "sourceType": "official"
+    },
+    {
+      "id": "town-center-nichols-hardware",
+      "target": "covers/maps/town-center-nichols-hardware.jpg",
+      "source": "site-input/assets/covers/maps/town-center-nichols-hardware.jpg",
+      "sha256": "a62e1dd658533d980ee35f9ab8b06ecd1b8dffad75848a6814134a67b936ec61",
+      "usageStatus": "review-required",
+      "sourceType": "official"
     }
   ]
 }

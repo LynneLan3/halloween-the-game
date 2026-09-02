@@ -1,0 +1,137 @@
+---
+import { game } from '../../config/game';
+import { ui } from '../../lib/ui';
+
+const t = ui();
+const popular = game.portal?.popularQuestions?.slice(0, 6) ?? [];
+---
+
+<div class="site2-search-overlay" data-site2-search-overlay data-open="false">
+	<div class="site2-search-dialog" data-site2-search-dialog>
+		<div id="site2-pagefind-container"></div>
+		{
+			popular.length > 0 && (
+				<div class="site2-search-popular" data-site2-search-popular>
+					<p class="site2-search-popular__label">{t.popularQuestions}</p>
+					<ul class="site2-search-popular__list">
+						{
+							popular.map((item) => (
+								<li>
+									<a href={item.href}>
+										<span>{item.label}</span>
+										{item.context && <small>{item.context}</small>}
+									</a>
+								</li>
+							))
+						}
+					</ul>
+				</div>
+			)
+		}
+		<p class="site2-search-hint" data-site2-search-hint hidden>
+			Run <code>npm run build</code> once, then restart dev — search indexes after build.
+		</p>
+	</div>
+</div>
+
+<script is:inline>
+	(function () {
+		if (window.__site2SearchInit) return;
+		window.__site2SearchInit = true;
+
+		var overlay = document.querySelector('[data-site2-search-overlay]');
+		var hint = document.querySelector('[data-site2-search-hint]');
+		var pfInit = false;
+		var pfFailed = false;
+		var cssLoaded = false;
+
+		function loadPagefindCss() {
+			if (cssLoaded) return;
+			cssLoaded = true;
+			var link = document.createElement('link');
+			link.rel = 'stylesheet';
+			link.href = '/pagefind/pagefind-ui.css';
+			document.head.appendChild(link);
+		}
+
+		function openSearch() {
+			if (!overlay) return;
+			loadPagefindCss();
+			overlay.setAttribute('data-open', 'true');
+			document.documentElement.style.overflow = 'hidden';
+			if (!pfInit && !pfFailed) {
+				pfInit = true;
+				var script = document.createElement('script');
+				script.src = '/pagefind/pagefind-ui.js';
+				script.onload = function () {
+					if (typeof PagefindUI === 'undefined') {
+						pfFailed = true;
+						if (hint) hint.hidden = false;
+						return;
+					}
+					new PagefindUI({
+						element: '#site2-pagefind-container',
+						showSubResults: true,
+						showImages: false,
+					});
+					focusInput();
+				};
+				script.onerror = function () {
+					pfFailed = true;
+					pfInit = false;
+					if (hint) hint.hidden = false;
+				};
+				document.head.appendChild(script);
+			} else {
+				focusInput();
+			}
+		}
+
+		function focusInput() {
+			window.requestAnimationFrame(function () {
+				var input = document.querySelector('#site2-pagefind-container input');
+				if (input) {
+					input.focus();
+					togglePopular(input.value.length === 0);
+					input.addEventListener('input', function () {
+						togglePopular(input.value.length === 0);
+					});
+				}
+			});
+		}
+
+		function togglePopular(show) {
+			var pop = document.querySelector('[data-site2-search-popular]');
+			if (pop) pop.hidden = !show;
+		}
+
+		function closeSearch() {
+			if (!overlay) return;
+			overlay.setAttribute('data-open', 'false');
+			document.documentElement.style.overflow = '';
+		}
+
+		document.addEventListener('click', function (e) {
+			var btn = e.target.closest('[data-site2-search-open]');
+			if (!btn) return;
+			e.preventDefault();
+			openSearch();
+		});
+
+		if (overlay) {
+			overlay.addEventListener('click', function (e) {
+				if (e.target === overlay) closeSearch();
+			});
+		}
+
+		document.addEventListener('keydown', function (e) {
+			if (e.key === '/' && !e.ctrlKey && !e.metaKey && !e.altKey) {
+				var tag = (document.activeElement || {}).tagName;
+				if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT') return;
+				e.preventDefault();
+				openSearch();
+			}
+			if (e.key === 'Escape') closeSearch();
+		});
+	})();
+</script>

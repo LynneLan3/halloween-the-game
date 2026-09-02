@@ -23,12 +23,12 @@ relations:
   -
     slug: michael-myers
     type: related
-cover: ../../../assets/covers/halloween-gameplay-2.jpg
+cover: ../../../assets/covers/maps/haddonfield-heights-03.jpg
 coverMedia:
-  alt: "Survivors in Haddonfield in Halloween: The Game"
+  alt: Water tower landmark on Haddonfield Heights map
   kind: cover
   aspectRatio: 16:9
-  sourceUrl: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219630/b6788a76e909167f1e599e62f52ea0a9734aa133/ss_b6788a76e909167f1e599e62f52ea0a9734aa133.1920x1080.jpg?t=1787962852"
+  sourceLabel: Official
 changeSummary: "CONTENT_EXPANSION — Maps pillar hub."
 eyebrow: Maps
 facts:

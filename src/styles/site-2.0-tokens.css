@@ -1,0 +1,26 @@
+/* Website 2.0 — semantic color tokens (matches experience.css contract) */
+.site2-shell-page,
+.site2-shell-standalone {
+	--xp-bg: #080d11;
+	--xp-surface: #0f1a22;
+	--xp-surface-tinted: #121e28;
+	--xp-surface-dark: #060a10;
+	--xp-text: #d8d2c6;
+	--xp-text-bright: #ebe5d7;
+	--xp-text-muted: #b8b2a6;
+	--xp-text-dim: #9ba09a;
+	--xp-accent: #e8782f;
+	--xp-accent-fg: #160f0b;
+	--xp-accent-text: #f2c35a;
+	--xp-accent-dim: #c45a3a;
+	--xp-border: #ffffff1f;
+	--xp-border-subtle: #ffffff14;
+	--xp-font: 'DM Sans', system-ui, sans-serif;
+	--xp-text-xs: 0.8125rem;
+	--xp-text-sm: 0.9375rem;
+	--xp-text-base: 1.0625rem;
+	--xp-text-lg: 1.1875rem;
+	--xp-guide-reading: 42rem;
+	--xp-green: #6fcf97;
+	--xp-green-high: #9ae6b4;
+}

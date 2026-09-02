@@ -1,0 +1,318 @@
+/* Website 2.0 — Guide page extension (same design system as homepage) */
+.site2-guide {
+	padding: clamp(28px, 4vw, 36px) clamp(24px, 7vw, 112px) 0;
+	background: var(--ink, #080d11);
+	color: var(--cream, #e7dfca);
+}
+
+.site2-guide__crumb {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	align-items: center;
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	color: #b8b2a6;
+	margin-bottom: 28px;
+}
+
+.site2-guide__crumb a {
+	color: #d0c9b8;
+}
+
+.site2-guide__crumb a:hover {
+	color: var(--yellow, #f2c35a);
+}
+
+.site2-guide__header h1 {
+	font-family: 'Barlow Condensed', sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: clamp(42px, 5vw, 72px);
+	line-height: 0.92;
+	margin: 0 0 16px;
+	color: var(--cream, #e7dfca);
+	max-width: 18ch;
+}
+
+/* Generated markdown often repeats the page title as H1 */
+.site2-guide-article-wrap .exp-guide-prose > h1:first-child {
+	display: none;
+}
+
+.site2-guide__dek {
+	font-size: 1.0625rem;
+	line-height: 1.65;
+	color: #c8c2b4;
+	max-width: none;
+	margin: 0 0 20px;
+}
+
+.site2-guide__meta {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 16px;
+	font-size: 0.9375rem;
+	color: #b8b2a6;
+	margin-bottom: 20px;
+}
+
+.site2-guide__quick {
+	background: #ebe4d3;
+	color: #1d2a2d;
+	padding: 28px clamp(20px, 4vw, 36px);
+	margin: 0 0 32px;
+	border-left: 4px solid var(--orange, #e8782f);
+}
+
+.site2-guide__quick p:last-child {
+	margin: 12px 0 0;
+	font-size: 1.0625rem;
+	line-height: 1.65;
+	color: #2a3838;
+}
+
+.site2-guide__quick .section-label {
+	color: #b2542d;
+}
+
+.site2-guide__facts {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 12px;
+	margin: 0 0 40px;
+	padding: 0;
+}
+
+.site2-guide__facts div {
+	background: #0f1a22;
+	border: 1px solid #ffffff18;
+	padding: 16px 18px;
+}
+
+.site2-guide__facts dt {
+	font-size: 10px;
+	text-transform: uppercase;
+	letter-spacing: 0.12em;
+	color: var(--orange, #e8782f);
+	margin: 0 0 6px;
+}
+
+.site2-guide__facts dd {
+	margin: 0;
+	font-size: 0.9375rem;
+	line-height: 1.55;
+	color: #e0d9ca;
+}
+
+.site2-guide-body {
+	padding: 0 clamp(24px, 7vw, 112px) 80px;
+	background: var(--ink, #080d11);
+	color: #d8d2c6;
+}
+
+/* ── Full-width article (no side cover rail) ── */
+.site2-guide-article-wrap {
+	max-width: 1320px;
+	margin: 0 auto;
+	padding: 0 clamp(24px, 7vw, 112px) 48px;
+	background: var(--ink, #080d11);
+	box-sizing: border-box;
+}
+
+.site2-shell-page.site2-guide-page {
+	overflow-x: clip;
+}
+
+/* ── Article prose ── */
+.site2-guide-article-wrap .exp-guide-prose,
+.site2-guide-article-wrap .site2-guide-article {
+	max-width: none;
+	font-size: 1.0625rem;
+	line-height: 1.8;
+	color: #d8d2c6;
+	counter-reset: exp-guide-section;
+}
+
+.site2-guide-article-wrap .exp-guide-prose p,
+.site2-guide-article-wrap .exp-guide-prose li {
+	color: #d8d2c6;
+	font-size: 1.0625rem;
+	line-height: 1.8;
+	margin: 0 0 1.15rem;
+}
+
+.site2-guide-article-wrap .exp-guide-prose ul,
+.site2-guide-article-wrap .exp-guide-prose ol {
+	max-width: none;
+	padding-left: 1.35rem;
+	margin: 0 0 1.25rem;
+}
+
+.site2-guide-article-wrap .exp-guide-prose strong,
+.site2-guide-body .exp-guide-prose strong {
+	color: #ebe5d7;
+	font-weight: 600;
+}
+
+.site2-guide-article-wrap .exp-guide-prose h2 {
+	font-family: 'Barlow Condensed', sans-serif;
+	text-transform: uppercase;
+	font-size: clamp(1.75rem, 3.5vw, 2.35rem);
+	font-weight: 700;
+	color: #ebe5d7;
+	margin: 3rem 0 1rem;
+	padding-top: 2.5rem;
+	border-bottom: 1px solid #ffffff18;
+	padding-bottom: 10px;
+	letter-spacing: 0.01em;
+	display: flex;
+	align-items: baseline;
+	gap: 1rem;
+	counter-increment: exp-guide-section;
+	scroll-margin-top: 6rem;
+}
+
+.site2-guide-article-wrap .exp-guide-prose h2::before,
+.site2-guide-body .exp-guide-prose h2::before {
+	content: counter(exp-guide-section, decimal-leading-zero);
+	font-weight: 900;
+	letter-spacing: -0.06em;
+	color: #c45a3a;
+	font-size: clamp(1.25rem, 2.5vw, 1.75rem);
+	line-height: 1;
+	flex-shrink: 0;
+}
+
+.site2-guide-article-wrap .exp-guide-prose > h2:first-child,
+.site2-guide-body .exp-guide-prose > h2:first-child {
+	padding-top: 0;
+	margin-top: 0;
+}
+
+.site2-guide-article-wrap .exp-guide-prose h3,
+.site2-guide-body .exp-guide-prose h3 {
+	font-family: 'Barlow Condensed', sans-serif;
+	text-transform: uppercase;
+	font-size: 1.35rem;
+	font-weight: 600;
+	color: #f2c35a;
+	margin: 2rem 0 0.75rem;
+}
+
+.site2-guide-article-wrap .exp-guide-prose h4,
+.site2-guide-body .exp-guide-prose h4 {
+	font-size: 1.0625rem;
+	font-weight: 700;
+	color: #ebe5d7;
+	margin: 1.5rem 0 0.5rem;
+}
+
+.site2-guide-article-wrap .exp-guide-prose a,
+.site2-guide-body .exp-guide-prose a {
+	color: #f2c35a;
+	text-decoration: underline;
+	text-underline-offset: 3px;
+}
+
+.site2-guide-article-wrap .exp-guide-prose a:hover,
+.site2-guide-body .exp-guide-prose a:hover {
+	color: #e8782f;
+}
+
+.site2-guide-article-wrap .exp-guide-prose ul,
+.site2-guide-article-wrap .exp-guide-prose ol,
+.site2-guide-body .exp-guide-prose ul,
+.site2-guide-body .exp-guide-prose ol {
+	padding-left: 1.35rem;
+	margin: 0 0 1.25rem;
+}
+
+.site2-guide-article-wrap .exp-guide-prose li,
+.site2-guide-body .exp-guide-prose li {
+	margin: 0.35rem 0;
+}
+
+.site2-guide-article-wrap .exp-guide-prose table,
+.site2-guide-body .exp-guide-prose table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 0.9375rem;
+	margin: 1.25rem 0 1.5rem;
+}
+
+.site2-guide-article-wrap .exp-guide-prose th,
+.site2-guide-article-wrap .exp-guide-prose td,
+.site2-guide-body .exp-guide-prose th,
+.site2-guide-body .exp-guide-prose td {
+	border: 1px solid #ffffff22;
+	padding: 12px 14px;
+	text-align: left;
+	vertical-align: top;
+	color: #d8d2c6;
+}
+
+.site2-guide-article-wrap .exp-guide-prose th,
+.site2-guide-body .exp-guide-prose th {
+	background: #152028;
+	color: #ebe5d7;
+	text-transform: uppercase;
+	font-size: 0.75rem;
+	letter-spacing: 0.08em;
+	font-weight: 700;
+}
+
+.site2-guide-article-wrap .exp-guide-prose tr:nth-child(even) td,
+.site2-guide-body .exp-guide-prose tr:nth-child(even) td {
+	background: #0c141a;
+}
+
+.site2-guide-article-wrap .exp-guide-prose code,
+.site2-guide-body .exp-guide-prose code {
+	padding: 0.15rem 0.4rem;
+	border-radius: 3px;
+	background: #152028;
+	color: #f2c35a;
+	font-size: 0.9em;
+}
+
+.site2-guide-article-wrap .exp-guide-prose pre,
+.site2-guide-body .exp-guide-prose pre {
+	overflow-x: auto;
+	margin: 1.25rem 0;
+	padding: 1rem 1.1rem;
+	border: 1px solid #ffffff18;
+	background: #0c141a;
+	color: #ebe5d7;
+	font-size: 0.9375rem;
+}
+
+.site2-guide-article-wrap .exp-guide-prose blockquote,
+.site2-guide-body .exp-guide-prose blockquote {
+	margin: 1.25rem 0;
+	padding: 0.25rem 0 0.25rem 1rem;
+	border-left: 3px solid #e8782f;
+	color: #c8c2b4;
+}
+
+.site2-guide-sections {
+	padding: 0;
+	background: transparent;
+	color: #d8d2c6;
+}
+
+@media (max-width: 640px) {
+	.site2-guide {
+		padding-top: 20px;
+	}
+
+	.site2-guide-article-wrap .exp-guide-prose,
+	.site2-guide-article-wrap .exp-guide-prose p,
+	.site2-guide-article-wrap .exp-guide-prose li,
+	.site2-guide-body .exp-guide-prose,
+	.site2-guide-body .exp-guide-prose p,
+	.site2-guide-body .exp-guide-prose li {
+		font-size: 1rem;
+	}
+}

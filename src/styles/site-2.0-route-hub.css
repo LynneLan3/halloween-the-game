@@ -1,0 +1,224 @@
+/* Website 2.0 — /routes/{id}/ hub: one dark stage + cream guides block */
+
+/* ── Stage 1: unified dark (hero + fast answers) ── */
+.site2-route-hub-stage {
+	position: relative;
+	min-height: calc(100vh - var(--site2-topbar-height, 78px));
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	background-color: #0d171f;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+}
+
+.site2-route-hub-stage__scanlines {
+	position: absolute;
+	inset: 0;
+	opacity: 0.08;
+	background-image: radial-gradient(#fff 0.6px, transparent 0.8px);
+	background-size: 5px 5px;
+	mix-blend-mode: overlay;
+	pointer-events: none;
+}
+
+.site2-route-hub-stage__inner {
+	position: relative;
+	z-index: 2;
+	width: 100%;
+	max-width: 1320px;
+	margin: 0 auto;
+	padding: clamp(40px, 7vh, 72px) clamp(24px, 7vw, 112px) clamp(28px, 4vh, 40px);
+	display: flex;
+	flex-direction: column;
+	gap: clamp(28px, 5vh, 48px);
+	flex: 1;
+	justify-content: flex-end;
+}
+
+.site2-route-hub-stage__intro {
+	max-width: 640px;
+}
+
+.site2-route-hub-stage__number {
+	display: block;
+	font-size: 0.42em;
+	color: #e8782f;
+	margin-bottom: 6px;
+	letter-spacing: 0.08em;
+}
+
+.site2-route-hub-stage__title {
+	font-family: 'Barlow Condensed', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: clamp(2.75rem, 7vw, 5rem);
+	line-height: 0.88;
+	margin: 0 0 14px;
+	color: #ebe5d7;
+	text-shadow: 2px 3px 0 #111;
+}
+
+.site2-route-hub-stage__dek {
+	margin: 0;
+	font-size: clamp(0.9375rem, 1.6vw, 1.0625rem);
+	line-height: 1.65;
+	color: #c8c2b4;
+	max-width: 48ch;
+}
+
+.site2-route-hub-stage__faq {
+	padding-top: clamp(20px, 3vh, 28px);
+	border-top: 1px solid rgba(231, 223, 202, 0.2);
+}
+
+.site2-route-hub-stage__faq-label {
+	margin: 0 0 12px;
+	font-size: 10px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.14em;
+	color: #e8782f;
+}
+
+.site2-route-hub-stage__faq-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+	gap: 10px;
+}
+
+.site2-route-hub-faq-card {
+	position: relative;
+	display: block;
+	padding: 16px 40px 16px 16px;
+	background: rgba(15, 26, 34, 0.78);
+	border: 1px solid rgba(255, 255, 255, 0.14);
+	color: inherit;
+	text-decoration: none;
+	backdrop-filter: blur(8px);
+	transition:
+		border-color 0.2s,
+		background 0.2s,
+		transform 0.2s;
+}
+
+.site2-route-hub-faq-card:hover {
+	border-color: #e8782f;
+	background: rgba(21, 32, 40, 0.92);
+	transform: translateY(-3px);
+}
+
+.site2-route-hub-faq-card__num {
+	display: block;
+	font: 700 0.875rem / 1 'Barlow Condensed', sans-serif;
+	color: #e8782f;
+	margin-bottom: 8px;
+}
+
+.site2-route-hub-faq-card h3 {
+	margin: 0 0 6px;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 1rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #ebe5d7;
+	line-height: 1.2;
+}
+
+.site2-route-hub-faq-card p {
+	margin: 0;
+	font-size: 0.8125rem;
+	line-height: 1.5;
+	color: #b8b2a6;
+}
+
+.site2-route-hub-faq-card svg {
+	position: absolute;
+	right: 14px;
+	bottom: 14px;
+	color: #e8782f;
+	opacity: 0.75;
+	transition: opacity 0.2s, transform 0.2s;
+}
+
+.site2-route-hub-faq-card:hover svg {
+	opacity: 1;
+	transform: translate(2px, 2px);
+}
+
+.site2-route-hub-stage__caption {
+	position: absolute;
+	right: clamp(24px, 7vw, 112px);
+	bottom: clamp(20px, 3vh, 32px);
+	z-index: 2;
+	margin: 0;
+	font-size: 9px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.12em;
+	color: #9ba09a;
+	text-align: right;
+}
+
+.site2-route-hub-stage__caption span {
+	display: block;
+	margin-top: 4px;
+	color: #e8782f;
+}
+
+/* ── Stage 2: cream guides (clear break from dark) ── */
+.site2-route-hub-guides.section {
+	padding: clamp(48px, 7vw, 80px) clamp(24px, 7vw, 112px);
+	max-width: none;
+	margin: 0;
+	background: #ebe4d3;
+	border-top: 4px solid #e8782f;
+}
+
+.site2-route-hub-guides h2 {
+	color: #17252b;
+}
+
+.site2-route-hub-guides h2 em {
+	color: #ae542e;
+}
+
+.site2-route-hub-guides .section-label {
+	color: #b2542d;
+}
+
+.site2-route-hub-guides .heading-note {
+	color: #56615e;
+}
+
+.site2-route-hub-guides .question-card h3 {
+	max-width: none;
+	font-size: clamp(1.25rem, 2.5vw, 1.75rem);
+	line-height: 1.1;
+}
+
+.site2-route-hub-guides .question-card p {
+	max-width: none;
+	font-size: 0.8125rem;
+}
+
+.site2-route-guide-grid {
+	grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+	max-width: 1320px;
+	margin-inline: auto;
+}
+
+.site2-route-guide-grid .question-card {
+	min-height: 200px;
+}
+
+@media (max-width: 720px) {
+	.site2-route-hub-stage__caption {
+		display: none;
+	}
+
+	.site2-route-hub-stage__inner {
+		padding-bottom: 24px;
+	}
+}

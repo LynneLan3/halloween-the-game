@@ -1,47 +1,34 @@
 ---
-/** Formal Guides Index — the library of actual generated Guide pages. */
-import GameShell from '../components/experience/GameShell.astro';
-import GuideGrid from '../components/GuideGrid.astro';
-import RouteIndex from '../components/experience/routes/RouteIndex.astro';
+/** Formal Guides Index — Website 2.0 shell. */
+import Site2GuidesIndex from '../components/site2/Site2GuidesIndex.astro';
+import Site2Shell from '../components/site2/Site2Shell.astro';
 import { game } from '../config/game';
 import { ui } from '../lib/ui';
 import { experienceNav } from '../lib/experience-nav';
-import { getGuides, sortGuides } from '../lib/guides';
-import '../styles/custom.css';
-import '../styles/routes.css';
 
 const t = ui();
-const { nav, footerLinks, homeHref, guidesHref } = await experienceNav();
-const guides = (await getGuides()).sort(sortGuides);
+const { homeHref, guidesHref } = await experienceNav();
 const routes = game.routes ?? [];
 ---
 
-<GameShell title={`${t.allGuides} — ${game.title}`} description={game.description} canonical={new URL(guidesHref, game.siteUrl).href} siteTitle={game.shortName} homeHref={homeHref} nav={nav} activePath={guidesHref} footerLinks={footerLinks} footerText={game.title}>
-	{routes.length === 0 && <section class="exp-index-hero">
-		<div class="exp-content">
-			<p class="exp-eyebrow">{t.fieldGuide}</p>
-			<h1 class="exp-h1">{t.allGuides}</h1>
-			<p class="exp-lede">{game.description}</p>
-		</div>
-	</section>}
-	{routes.length > 0 ? <>
-		<RouteIndex routes={routes} />
-		{guides.length > 0 && (
-			<section class="exp-content exp-guides-library" aria-labelledby="guide-library-heading">
-				<div class="exp-guides-library__heading">
-					<div>
-						<p class="exp-eyebrow">{t.fieldGuide}</p>
-						<h2 class="exp-h2" id="guide-library-heading">{t.allGuides}</h2>
-					</div>
-					<span class="exp-guides-library__count">{guides.length} guides</span>
+<Site2Shell
+	title={`${t.allGuides} — ${game.title}`}
+	description={game.description}
+	canonical={new URL(guidesHref, game.siteUrl).href}
+	homeHref={homeHref}
+	activePath={guidesHref}
+>
+	{routes.length > 0 ? <Site2GuidesIndex routes={routes} /> : (
+		<section class="site2-guides-hero">
+			<div class="section-heading">
+				<div>
+					<p class="section-label"><span />{t.fieldGuide}</p>
+					<h2>
+						All<br /><em>guides.</em>
+					</h2>
 				</div>
-				<GuideGrid entries={guides} />
-			</section>
-		)}
-	</> : guides.length > 0 && (
-		<section class="exp-content gw-section" aria-labelledby="guide-library-heading">
-			<h2 class="exp-h2" id="guide-library-heading">{t.allGuides}</h2>
-			<GuideGrid entries={guides} />
+				<p class="heading-note">{game.description}</p>
+			</div>
 		</section>
 	)}
-</GameShell>
+</Site2Shell>

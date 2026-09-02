@@ -19,12 +19,12 @@ relations:
   -
     slug: single-player
     type: related
-cover: ../../../assets/covers/halloween-gameplay-1.jpg
+cover: ../../../assets/covers/michael/police-lurking.jpg
 coverMedia:
-  alt: "Michael Myers stalking in Halloween: The Game"
+  alt: "Michael Myers lurking near police in Halloween: The Game"
   kind: cover
   aspectRatio: 16:9
-  sourceUrl: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219630/fef848f20a2a5e857ee275662acf979b89754af7/ss_fef848f20a2a5e857ee275662acf979b89754af7.1920x1080.jpg?t=1787962852"
+  sourceLabel: Official
 changeSummary: "CONTENT_EXPANSION — linked to multiplayer and single-player pillars."
 eyebrow: Multiplayer Modes
 facts:
@@ -61,7 +61,7 @@ Not Announced
 
 - Match Timer Rules: No official, published match timer for multiplayer was available at the research cutoff. Community footage has led to speculation about average match lengths, but pre‑release footage should not be treated as final rules. See /match-length-timer/ for ongoing coverage.
 
-- Steam Deck / EAC Compatibility: Valve or IllFonic have not published a Steam Deck Verified/Playable result or a hands‑on EAC compatibility statement. PCGamingWiki lists Easy Anti‑Cheat as middleware, but that alone does not confirm Deck functionality. Do not claim Steam Deck support without hands‑on verification. See /steam-deck/ for the verification checklist.
+- Steam Deck compatibility: Valve or IllFonic have not published a Steam Deck Verified/Playable result. Anti-cheat middleware is cited in secondary sources only and was not verified on the live Steam anti-cheat field. Do not claim Steam Deck support without hands-on verification. See /steam-deck/ for the verification checklist.
 
 Secondary / Reported (treat as tentative)
 
@@ -74,7 +74,7 @@ Australia status — Last Verified: 2026‑08‑29
 Helpful links & next steps
 
 - If you want Advance Access eligibility details for Deluxe preorders and timing, check /early-access-release-time/ and /standard-vs-deluxe-upgrade/.
-- For Steam Deck and EAC verification status, follow /steam-deck/ and official Valve/IllFonic updates.
+- For Steam Deck compatibility status, follow /steam-deck/ and official Valve/IllFonic updates.
 - For match length and community concerns about session pacing, follow /match-length-timer/.
 - Official homepage: /
 
@@ -88,7 +88,4 @@ You can expect a solo story mode and offline bot play at launch — those are co
 - [Preorder / Official FAQ — Halloween: The Game](https://halloweengame.com/news/preorder/)
 - [IGN interview / single‑player story mode coverage](https://www.ign.com/articles/halloween-revealed-by-friday-the-13th-the-game-developer-ign-interviews-illfonic-on-the-single-player-story-mode-working-with-john-carpenter-and-more)
 - [Playfront report on matchmaking / private lobbies](https://playfront.de/en/halloween-the-game-setzt-auf-rollenbasiertes-matchmaking-mit-token-system-fuer-killer/)
-- [PCGamingWiki — Easy Anti‑Cheat listing (secondary)](https://www.pcgamingwiki.com/wiki/Halloween:_The_Game)
-- [PlayStation store Digital Deluxe listing](https://store.playstation.com/en-us/product/UP3095-PPSA29340_00-HALLOWEENDELUXED)
-- [Xbox Digital Deluxe upgrade store page](https://www.xbox.com/en-US/games/store/halloween-digital-deluxe-upgrade/9mt8jbqs8lnr)
 - [Australian Classification Board reporting via press coverage](https://press-start.com.au/news/playstation/2026/08/14/halloween-the-game-classification-board-statement/)

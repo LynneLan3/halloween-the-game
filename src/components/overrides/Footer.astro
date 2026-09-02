@@ -5,22 +5,31 @@ import FooterTrustLinks from '../FooterTrustLinks.astro';
 import NextStepGuide from '../NextStepGuide.astro';
 import RelatedGuides from '../RelatedGuides.astro';
 import GameShellFooter from '../experience/GameShellFooter.astro';
+import Site2Footer from '../site2/Site2Footer.astro';
 import { game } from '../../config/game';
 import { isTrustPath } from '../../lib/trust';
 import { isExperienceGuide, isExperienceHomepage } from '../../lib/experience-guide';
 import { experienceNav } from '../../lib/experience-nav';
+import { isSite2Shell } from '../../lib/site2';
 
 const entry = Astro.locals.starlightRoute.entry;
 const isHome = isExperienceHomepage(entry);
 const isSplash = entry.data.template === 'splash';
 const isTrust = isTrustPath(Astro.url.pathname);
 const isExperience = isExperienceGuide(entry, Astro.url.pathname);
-const { footerLinks } = await experienceNav();
+const site2 = isSite2Shell() && (isHome || isExperience);
+const { footerLinks, homeHref } = await experienceNav();
 const siteTitle = game.shortName ?? game.title;
 ---
 
 {
-	isHome ? (
+	site2 ? (
+		<>
+			{isExperience && !isHome && <AdSlot placement="guide-before-related" />}
+			<Site2Footer homeHref={homeHref} />
+			<FooterTrustLinks />
+		</>
+	) : isHome ? (
 		<>
 			<GameShellFooter footerLinks={footerLinks} siteTitle={siteTitle} />
 			<FooterTrustLinks />

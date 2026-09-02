@@ -1,0 +1,175 @@
+---
+/**
+ * Website 2.0 guide footer — next questions, references, route context.
+ */
+import { getImage } from 'astro:assets';
+import GuideEvidence from '../GuideEvidence.astro';
+import SourceList from '../SourceList.astro';
+import Site2Icon from './Site2Icon.astro';
+import Site2RouteContext from './Site2RouteContext.astro';
+import { assetUrl } from '../experience/routes/asset-url';
+import { ui } from '../../lib/ui';
+import { experienceNav } from '../../lib/experience-nav';
+import { guideHref } from '../../lib/guides';
+import { loadGuideContent } from '../../lib/guide-content';
+import { resolveGuideCardImage, sortGuidesByCardImage } from '../../lib/card-images';
+import { site2CardBlurb, site2CardTitle } from '../../lib/site2-guides';
+import { site2RouteHubHref } from '../../lib/site2-nav';
+import ContentTrust from '../ContentTrust.astro';
+
+const { entry } = Astro.locals.starlightRoute;
+const t = ui();
+const { guidesHref } = await experienceNav();
+const content = await loadGuideContent(entry);
+const data = entry.data;
+const orderedNextGuides = sortGuidesByCardImage(content.nextGuides);
+const orderedRelatedGuides = sortGuidesByCardImage(content.related);
+const hasTrustDetails = Boolean(data.trust?.sources?.length || data.trust?.note);
+const accents = ['orange', 'cream', 'blue', 'red'] as const;
+
+async function cardImageUrl(guide: (typeof orderedNextGuides)[number]) {
+	const image = resolveGuideCardImage(guide);
+	if (!image) return undefined;
+	const optimized = await getImage({ src: image, width: 480, height: 300, format: 'webp' });
+	return optimized.src;
+}
+
+const nextCards = await Promise.all(
+	orderedNextGuides.map(async (guide, index) => ({
+		guide,
+		index,
+		imageUrl: await cardImageUrl(guide),
+	})),
+);
+
+const refCards = await Promise.all(
+	orderedRelatedGuides.map(async (guide, index) => ({
+		guide,
+		index,
+		imageUrl: await cardImageUrl(guide),
+	})),
+);
+---
+
+<div class="site2-bottom-shell">
+	{
+		((data.evidence ?? []).length > 0 ||
+			(data.sources ?? []).length > 0 ||
+			hasTrustDetails) && (
+			<div class="site2-bottom-band site2-bottom-band--meta">
+				{(data.evidence ?? []).length > 0 && <GuideEvidence />}
+				{(data.sources ?? []).length > 0 && <SourceList />}
+				{hasTrustDetails && <ContentTrust trust={data.trust!} />}
+			</div>
+		)
+	}
+
+	{
+		content.nextGuides.length > 0 && (
+			<section class="site2-bottom-band site2-bottom-band--trending" aria-labelledby="site2-next-heading">
+				<div class="section-heading">
+					<div>
+						<p class="section-label"><span />{t.nextQuestions}</p>
+						<h2 id="site2-next-heading">
+							Continue with the<br /><em>question most likely next.</em>
+						</h2>
+					</div>
+				</div>
+				<div class="trending-grid site2-next-grid">
+					{
+						nextCards.map(({ guide, index, imageUrl }) => (
+							<a class={`trend-card ${accents[index % accents.length]}`} href={guideHref(guide)}>
+								<div class="card-number">0{index + 1}</div>
+								<div
+									class="card-image"
+									style={imageUrl ? { backgroundImage: `url(${imageUrl})` } : undefined}
+								/>
+								<div class="card-shade" />
+								<div class="trend-content">
+									<span class="card-label">Next step</span>
+									<h3>{site2CardTitle(guide.data.title)}</h3>
+									<p>{site2CardBlurb(guide.data.description)}</p>
+									<Site2Icon name="arrow-down-right" size={21} class="card-arrow" />
+								</div>
+							</a>
+						))
+					}
+				</div>
+			</section>
+		)
+	}
+
+	{
+		content.related.length > 0 && (
+			<section class="site2-bottom-band site2-bottom-band--refs" aria-labelledby="site2-refs-heading">
+				<div class="section-heading">
+					<div>
+						<p class="section-label"><span />{t.moreReferences}</p>
+						<h2 id="site2-refs-heading">
+							More<br /><em>references.</em>
+						</h2>
+					</div>
+				</div>
+				<div class="trending-grid site2-ref-grid">
+					{
+						refCards.map(({ guide, index, imageUrl }) => (
+							<a class={`trend-card ${accents[index % accents.length]}`} href={guideHref(guide)}>
+								<div class="card-number">0{index + 1}</div>
+								<div
+									class="card-image"
+									style={imageUrl ? { backgroundImage: `url(${imageUrl})` } : undefined}
+								/>
+								<div class="card-shade" />
+								<div class="trend-content">
+									<span class="card-label">Reference</span>
+									<h3>{site2CardTitle(guide.data.title)}</h3>
+									<p>{site2CardBlurb(guide.data.description)}</p>
+									<Site2Icon name="arrow-down-right" size={21} class="card-arrow" />
+								</div>
+							</a>
+						))
+					}
+				</div>
+			</section>
+		)
+	}
+
+	{
+		(content.currentRoutes.length > 0 || content.otherRoutes.length > 0) && (
+			<section class="site2-bottom-band site2-bottom-band--routes" aria-labelledby="site2-routes-heading">
+				{
+					content.currentRoutes.length > 0 && (
+						<Site2RouteContext pageId={content.pageId} routes={content.routes} guidesHref={guidesHref} />
+					)
+				}
+				{
+					content.otherRoutes.length > 0 && (
+						<>
+							<div class="section-heading site2-routes-heading">
+								<div>
+									<p class="section-label"><span />{t.exploreAnotherRoute}</p>
+									<h2 id="site2-routes-heading">
+										Choose another<br /><em>route.</em>
+									</h2>
+								</div>
+							</div>
+							<div class="category-grid site2-routes-grid">
+								{
+						content.otherRoutes.map((route) => (
+							<a class="category-tile" href={site2RouteHubHref(route.id)}>
+											<div style={assetUrl(route.visual) ? { backgroundImage: `url(${assetUrl(route.visual)})` } : undefined} />
+											<div class="category-overlay" />
+											<span>{route.eyebrow ?? 'Route'}</span>
+											<h3>{route.title}</h3>
+											<Site2Icon name="arrow-down-right" size={19} />
+										</a>
+									))
+								}
+							</div>
+						</>
+					)
+				}
+			</section>
+		)
+	}
+</div>

@@ -1,0 +1,61 @@
+---
+/**
+ * Website 2.0 standalone document shell — for /guides/, route hubs, etc.
+ * Starlight guide pages use PageFrame + overrides instead.
+ */
+import Site2Footer from './Site2Footer.astro';
+import Site2Search from './Site2Search.astro';
+import Site2Styles from './Site2Styles.astro';
+import Site2Topbar from './Site2Topbar.astro';
+import { game } from '../../config/game';
+
+interface Props {
+	title: string;
+	description?: string;
+	canonical?: string;
+	homeHref: string;
+	activePath?: string;
+}
+
+const { title, description, canonical, homeHref, activePath = '' } = Astro.props;
+---
+
+<!doctype html>
+<html lang={game.locale === 'zh-CN' ? 'zh-CN' : 'en'}>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>{title}</title>
+		{description && <meta name="description" content={description} />}
+		{canonical && <link rel="canonical" href={canonical} />}
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600;700&family=Special+Elite&display=swap"
+			rel="stylesheet"
+		/>
+		<style is:inline>
+			html {
+				background: #080d11;
+				color-scheme: dark;
+			}
+			body {
+				margin: 0;
+				background: #080d11;
+				color: #e7dfca;
+			}
+		</style>
+		<Site2Styles />
+		<slot name="head" />
+	</head>
+	<body>
+		<div class="site2-shell-standalone">
+			<Site2Topbar homeHref={homeHref} activePath={activePath} />
+			<Site2Search />
+			<main class="site2-hub-main" data-pagefind-body>
+				<slot />
+			</main>
+			<Site2Footer homeHref={homeHref} />
+		</div>
+	</body>
+</html>
