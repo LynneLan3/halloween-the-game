@@ -1,6 +1,5 @@
 ---
 import Default from '@astrojs/starlight/components/Head.astro';
-import AdScript from '../AdScript.astro';
 import Analytics from '../Analytics.astro';
 import SocialMeta from '../SocialMeta.astro';
 import { isExperienceGuide, isExperienceHomepage } from '../../lib/experience-guide';
@@ -79,5 +78,4 @@ const heroPreload = site2 && isHome ? await getSite2HeroPreloadUrl(game.heroImag
 	)
 }
 <SocialMeta />
-<AdScript />
 <Analytics />

@@ -1,0 +1,210 @@
+---
+import { adLoaderConfig } from '../lib/monetization';
+
+const config = adLoaderConfig();
+---
+
+{
+	config && (
+		<script
+			is:inline
+			define:vars={{ scriptSrc: config.scriptSrc, containerId: config.containerId }}
+		>
+			(function () {
+				if (window.__GW_AD_BOOTSTRAPPED__) return;
+				window.__GW_AD_BOOTSTRAPPED__ = true;
+
+				var SCRIPT_ATTR = 'data-gw-ad-script';
+				var ROOT_MARGIN = '240px';
+				var LOAD_TIMEOUT_MS = 10000;
+				var IDLE_TIMEOUT_MS = 3500;
+
+				var state =
+					window.__GW_AD_STATE__ ||
+					(window.__GW_AD_STATE__ = {
+						scriptInjected: false,
+						scriptLoading: false,
+						boundContainer: null,
+						observers: [],
+					});
+
+				function cleanupObservers() {
+					for (var i = 0; i < state.observers.length; i += 1) {
+						state.observers[i].disconnect();
+					}
+					state.observers = [];
+				}
+
+				function clearBoundContainer() {
+					if (state.boundContainer) {
+						state.boundContainer.removeAttribute('id');
+						state.boundContainer = null;
+					}
+				}
+
+				function querySlots() {
+					return Array.prototype.slice.call(document.querySelectorAll('[data-ad-slot]'));
+				}
+
+				function bindNetworkContainer(slotRoot) {
+					var container = slotRoot.querySelector('[data-gw-ad-container]');
+					if (!container) return null;
+					clearBoundContainer();
+					container.id = containerId;
+					state.boundContainer = container;
+					return container;
+				}
+
+				function failSlot(slotRoot) {
+					slotRoot.classList.add('ad-slot--failed');
+					slotRoot.setAttribute('data-ad-failed', 'true');
+					slotRoot.classList.remove('ad-slot--pending');
+				}
+
+				function failAllSlots() {
+					querySlots().forEach(failSlot);
+				}
+
+				function containerHasCreative(container) {
+					return !!container.querySelector('iframe, ins, img, [data-ad], [id^="google_ads"]');
+				}
+
+				function injectScript(onLoad, onError) {
+					if (state.scriptInjected || state.scriptLoading) return;
+					if (document.querySelector('script[' + SCRIPT_ATTR + ']')) {
+						state.scriptInjected = true;
+						if (onLoad) onLoad();
+						return;
+					}
+					state.scriptLoading = true;
+					var script = document.createElement('script');
+					script.async = true;
+					script.setAttribute('data-cfasync', 'false');
+					script.src = scriptSrc;
+					script.setAttribute(SCRIPT_ATTR, '');
+					script.onload = function () {
+						state.scriptInjected = true;
+						state.scriptLoading = false;
+						if (onLoad) onLoad();
+					};
+					script.onerror = function () {
+						state.scriptLoading = false;
+						failAllSlots();
+						if (onError) onError();
+					};
+					document.head.appendChild(script);
+				}
+
+				var activeLoads = typeof WeakSet !== 'undefined' ? new WeakSet() : null;
+				var loadedKeys = typeof WeakSet === 'undefined' ? {} : null;
+
+				function slotLoadKey(slotRoot) {
+					return slotRoot.getAttribute('data-ad-slot') || '';
+				}
+
+				function markSlotLoading(slotRoot) {
+					if (activeLoads) {
+						if (activeLoads.has(slotRoot)) return false;
+						activeLoads.add(slotRoot);
+						return true;
+					}
+					var key = slotLoadKey(slotRoot);
+					if (loadedKeys[key]) return false;
+					loadedKeys[key] = true;
+					return true;
+				}
+
+				function loadAdForSlot(slotRoot) {
+					if (slotRoot.getAttribute('data-ad-failed') === 'true') return;
+					if (!markSlotLoading(slotRoot)) return;
+
+					slotRoot.classList.add('ad-slot--pending');
+					var container = bindNetworkContainer(slotRoot);
+					if (!container) {
+						failSlot(slotRoot);
+						return;
+					}
+
+					var timeoutId = window.setTimeout(function () {
+						if (!containerHasCreative(container)) {
+							failSlot(slotRoot);
+						}
+					}, LOAD_TIMEOUT_MS);
+
+					var settle = function () {
+						window.clearTimeout(timeoutId);
+						slotRoot.classList.remove('ad-slot--pending');
+						if (containerHasCreative(container)) {
+							slotRoot.classList.add('ad-slot--loaded');
+						}
+					};
+
+					if (state.scriptInjected) {
+						window.setTimeout(settle, 0);
+						return;
+					}
+
+					injectScript(settle, function () {
+						window.clearTimeout(timeoutId);
+						failSlot(slotRoot);
+					});
+				}
+
+				function scheduleIdleFallback(slots) {
+					var run = function () {
+						for (var i = 0; i < slots.length; i += 1) {
+							loadAdForSlot(slots[i]);
+						}
+					};
+					if ('requestIdleCallback' in window) {
+						requestIdleCallback(run, { timeout: IDLE_TIMEOUT_MS });
+					} else {
+						window.setTimeout(run, IDLE_TIMEOUT_MS);
+					}
+				}
+
+				function observeSlots() {
+					cleanupObservers();
+					clearBoundContainer();
+					var slots = querySlots();
+					if (!slots.length) return;
+
+					if ('IntersectionObserver' in window) {
+						var observer = new IntersectionObserver(
+							function (entries) {
+								for (var i = 0; i < entries.length; i += 1) {
+									if (entries[i].isIntersecting) {
+										loadAdForSlot(entries[i].target);
+										observer.unobserve(entries[i].target);
+									}
+								}
+							},
+							{ rootMargin: ROOT_MARGIN, threshold: 0 },
+						);
+						state.observers.push(observer);
+						for (var j = 0; j < slots.length; j += 1) {
+							observer.observe(slots[j]);
+						}
+					}
+
+					scheduleIdleFallback(slots);
+				}
+
+				function init() {
+					if (document.querySelector('script[' + SCRIPT_ATTR + ']')) {
+						state.scriptInjected = true;
+					}
+					observeSlots();
+				}
+
+				if (document.readyState === 'loading') {
+					document.addEventListener('DOMContentLoaded', init, { once: true });
+				} else {
+					init();
+				}
+
+				document.addEventListener('astro:page-load', init);
+			})();
+		</script>
+	)
+}

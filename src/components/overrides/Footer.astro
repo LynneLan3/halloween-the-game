@@ -1,5 +1,6 @@
 ---
 import Default from '@astrojs/starlight/components/Footer.astro';
+import AdLoader from '../AdLoader.astro';
 import AdSlot from '../AdSlot.astro';
 import FooterTrustLinks from '../FooterTrustLinks.astro';
 import NextStepGuide from '../NextStepGuide.astro';
@@ -56,3 +57,4 @@ const siteTitle = game.shortName ?? game.title;
 		</>
 	)
 }
+<AdLoader />

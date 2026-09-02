@@ -1409,6 +1409,11 @@ body:has(.gw-portal) .gw-trust-footer {
 	max-width: 100%;
 }
 
+.ad-slot--failed {
+	display: none;
+	margin: 0;
+}
+
 .gw-guide-evidence__caption {
 	color: var(--sl-color-white);
 }

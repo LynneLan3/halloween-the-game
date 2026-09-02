@@ -37,6 +37,14 @@ export function adContainerId(): string | undefined {
 	return id || undefined;
 }
 
+/** Client-side lazy loader config. Network script is injected once per document lifecycle. */
+export function adLoaderConfig(): { scriptSrc: string; containerId: string } | null {
+	const scriptSrc = adScriptSrc();
+	const containerId = adContainerId();
+	if (!scriptSrc || !containerId) return null;
+	return { scriptSrc, containerId };
+}
+
 /** When ads are off, AdSlot renders nothing (no empty box, no CLS). */
 export function adSlotDatasetFor(
 	adsEnabled: boolean,

@@ -3,7 +3,7 @@ import { readFileSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import test from 'node:test';
-import { adSlotDatasetFor, type AdPlacement } from '../../src/lib/monetization';
+import { adLoaderConfig, adSlotDatasetFor, type AdPlacement } from '../../src/lib/monetization';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 
@@ -34,6 +34,19 @@ test('unknown placement produces no slot', () => {
 test('default Guide slot is before related, never before Quick Answer', () => {
 	const pageTitle = readFileSync(path.join(ROOT, 'src/components/overrides/PageTitle.astro'), 'utf8');
 	const footer = readFileSync(path.join(ROOT, 'src/components/overrides/Footer.astro'), 'utf8');
+	const adSlot = readFileSync(path.join(ROOT, 'src/components/AdSlot.astro'), 'utf8');
+	const head = readFileSync(path.join(ROOT, 'src/components/overrides/Head.astro'), 'utf8');
 	assert.doesNotMatch(pageTitle, /AdSlot/);
 	assert.match(footer, /placement="guide-before-related"/);
+	assert.match(footer, /AdLoader/);
+	assert.doesNotMatch(head, /AdScript/);
+	assert.doesNotMatch(adSlot, /\bid=\{containerId\}/);
+	assert.match(adSlot, /data-gw-ad-container/);
+});
+
+test('ad loader config is available when ads are enabled in generated site', () => {
+	const config = adLoaderConfig();
+	assert.ok(config);
+	assert.match(config!.scriptSrc, /invoke\.js$/);
+	assert.match(config!.containerId, /^container-/);
 });
