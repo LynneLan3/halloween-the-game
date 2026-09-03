@@ -115,8 +115,8 @@ export const siteConfig: GameConfig = {
 				label: "Standard vs Deluxe",
 			},
 			{
-				title: "Does Halloween: The Game Have Bots? Private Lobbies & Offline Mode Explained",
-				description: "What you can and can't do offline in Halloween: The Game. Confirmed single‑player story, offline bots, and what we know about private lobbies, crossplay, Steam Deck, and Australia status at launch.",
+				title: "Halloween: The Game Offline Bots & Private Matches: What's Confirmed",
+				description: "What is officially confirmed about Halloween: The Game offline bots, private matches against AI, and private matches with friends — and which bot-related details still require Advance Access verification.",
 				href: "/bots-private-lobbies-offline/",
 				image: "covers/michael/police-lurking.jpg",
 				label: "Bots & Private Lobbies",
@@ -789,8 +789,8 @@ export const siteConfig: GameConfig = {
 				{
 					pageId: "bots-private-lobbies-offline",
 					href: "/bots-private-lobbies-offline/",
-					title: "Does Halloween: The Game Have Bots? Private Lobbies & Offline Mode Explained",
-					description: "What you can and can't do offline in Halloween: The Game. Confirmed single‑player story, offline bots, and what we know about private lobbies, crossplay, Steam Deck, and Australia status at launch.",
+					title: "Halloween: The Game Offline Bots & Private Matches: What's Confirmed",
+					description: "What is officially confirmed about Halloween: The Game offline bots, private matches against AI, and private matches with friends — and which bot-related details still require Advance Access verification.",
 					eyebrow: "Multiplayer Modes",
 					image: "covers/michael/police-lurking.jpg",
 				},

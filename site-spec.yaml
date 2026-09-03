@@ -552,8 +552,8 @@ pages:
         type: related
     changeSummary: "V4 pass — Deluxe upgrade Advance Access marked Not Announced."
   - id: bots-private-lobbies-offline
-    title: "Does Halloween: The Game Have Bots? Private Lobbies & Offline Mode Explained"
-    description: "What you can and can't do offline in Halloween: The Game. Confirmed single‑player story, offline bots, and what we know about private lobbies, crossplay, Steam Deck, and Australia status at launch."
+    title: "Halloween: The Game Offline Bots & Private Matches: What's Confirmed"
+    description: "What is officially confirmed about Halloween: The Game offline bots, private matches against AI, and private matches with friends — and which bot-related details still require Advance Access verification."
     category: guides
     slug: bots-private-lobbies-offline
     source: site-input/pages/bots-private-lobbies-offline.md
@@ -563,17 +563,17 @@ pages:
     role: core
     intents:
       - bots-private-lobbies-offline
-    quickAnswer: "Yes — a single‑player story mode and offline play against bots are confirmed. Private lobbies are reported by third‑party outlets but official details (including whether online private lobbies get AI/bot fill) have not been announced. See the sections below for what is confirmed and what remains unverified."
+    quickAnswer: "IllFonic has officially announced bot play and private matches against AI. Original official announcement wording explicitly described playing against bots offline. The Advance Access / final-build implementation details for bot play have not yet been verified. Story Mode is a separate single-player experience from offline bot play and private matches against AI."
     eyebrow: "Multiplayer Modes"
     facts:
-      - label: "Single‑player story mode"
-        value: "Confirmed by official Steam description and developer/press materials"
-      - label: "Offline bots"
-        value: "Confirmed — IllFonic/Gamescom materials describe playing against bots offline, separate from story mode"
-      - label: "Private lobbies"
-        value: "Reported by third‑party outlet (Playfront) with manual/random role assignment; treated as secondary until duplicated by an official source"
-      - label: "AI/bot backfill in private online lobbies"
-        value: "Not Announced — no official confirmation available"
+      - label: "Offline bot play"
+        value: "Original official announcement wording explicitly described playing against bots offline; Advance Access / final-build implementation details have not yet been verified"
+      - label: "Private matches against AI"
+        value: "IllFonic’s Progression & Customization update explicitly lists private matches against AI as a distinct option"
+      - label: "Private matches with friends"
+        value: "Private lobbies for friends have been officially announced; roles can be specified or randomized"
+      - label: "Story Mode"
+        value: "Story Mode is a separate single-player experience from offline bot play and private matches against AI"
     coverAssetId: michael-police-lurking
     relations:
       - pageId: multiplayer-hub
