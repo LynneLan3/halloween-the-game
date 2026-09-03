@@ -1,6 +1,6 @@
 ---
 title: "How Halloween: The Game Multiplayer Works"
-description: "Step-by-step overview of the confirmed multiplayer loop, Civilian and Michael tasks, and launch-pending systems."
+description: "1 Michael vs 4 Civilians multiplayer loop: 4 maps, Civilian and Michael objectives, private AI matches, and what remains unknown about bot fill."
 category: multiplayer-guides
 slug: multiplayer/how-multiplayer-works
 status: needs-verification
@@ -11,7 +11,7 @@ sidebar:
   order: 2
 intents:
   - how-multiplayer-works
-quickAnswer: Matches pair 1 Michael with 4 Civilians on Haddonfield maps. Civilians pursue randomized escapes and police escalation while Michael uses stalking and blackouts. Item and escape locations vary between matches per IllFonic.
+quickAnswer: "Multiplayer is 1 Michael Myers vs 4 Civilians on 4 maps. Civilians find residents, gather proof, contact police, and pursue randomized escapes; Michael hunts residents and Special Targets. Private matches against AI are officially announced; automatic bot fill and public AI backfill remain unknown."
 relations:
   -
     slug: multiplayer/crossplay
@@ -32,14 +32,17 @@ changeSummary: "CONTENT_EXPANSION — Multiplayer how-it-works guide."
 eyebrow: Multiplayer Guide
 facts:
   -
-    label: Players
-    value: "Up to 5 online (1 Killer + 4 Civilians)"
-  -
-    label: Variety
-    value: Escape and item locations vary between matches
+    label: Format
+    value: "1 Michael Myers vs 4 Civilians (up to 5 players)"
   -
     label: Maps
-    value: Three revealed Haddonfield maps at launch window
+    value: "4 multiplayer maps (official materials)"
+  -
+    label: Private AI
+    value: Private matches against AI officially announced
+  -
+    label: Bot fill
+    value: Automatic private-slot fill and public AI backfill unknown
 ---
 <!--
   This file is generated from site-spec.yaml.
@@ -49,63 +52,89 @@ facts:
 -->
 # How Halloween: The Game Multiplayer Works
 
-This guide walks through the **confirmed multiplayer loop** for Halloween: The Game—what each side is trying to do, how matches stay varied, and what still needs launch verification.
+Quick Answer
 
-## The basic loop
+- Multiplayer is 1 Michael Myers vs 4 Civilians (up to 5 players total).
+- Official materials describe 4 multiplayer maps.
+- Civilians must find residents, gather proof, contact police, and pursue randomized escape options; Michael hunts residents and Special Targets while denying those objectives.
+- Private matches against AI have been officially announced.
+- Automatic bot fill for empty private-match slots is unknown. Public-match AI backfill is unknown.
 
-1. **Lobby:** Up to 5 players—1 Michael, 4 Civilians (see /multiplayer/).
-2. **Map load:** One of the revealed Haddonfield maps (/maps/).
-3. **Civilian phase work:** Find residents, gather proof and items, rally police/NPC help, pursue an escape or detention plan.
-4. **Michael pressure:** Stalk, blackout lights, eliminate residents and Special Targets (/michael-myers/abilities/).
-5. **End state:** Civilians escape or detain Michael—or Michael wins by denying their objectives.
+## The basic multiplayer loop
 
-## Civilian tasks in detail
+1. Lobby: up to 5 players — 1 Michael, 4 Civilians (see [multiplayer overview](/multiplayer/)).
+2. Map load: one of the four revealed multiplayer maps (see [maps guide](/maps/)).
+3. Civilian phase work: Civilians search, rally NPCs/police, and pursue an escape or detention plan.
+4. Michael pressure: Michael stalks, blackouts areas, and targets residents and Special Targets (see [Michael abilities](/michael-myers/abilities/)).
+5. End state: Civilians either complete escape/detention objectives, or Michael prevents their progress and wins.
 
-**Confirmed** objectives include:
+## Civilian tasks (player order)
 
-- Convince residents that Michael is real
-- Escort or save residents under pressure
-- Search the environment for items and contact police
-- Use **randomized escape options** that change between matches
-- Coordinate as police response escalates
-- Command or equip NPC allies when the systems allow
+Follow these tasks in the order Civilians will typically pursue them:
 
-Because escape and item locations vary, routes that worked in one match may not work in the next—IllFonic highlights this as core replayability.
+1. Locate and convince residents that Michael is real.
+2. Rescue or escort residents under threat.
+3. Search for items and evidence needed to contact police or unlock escape options.
+4. Contact and coordinate with police/NPC allies when the system allows.
+5. Choose and execute randomized escape options (escape routes/objectives change between matches).
 
-## Michael tasks in detail
+These confirmed themes come from official materials and are the primary ways Civilians make progress during a match.
 
-**Confirmed** objectives include:
+## Michael tasks
 
-- Eliminate residents to stop Civilian progress
-- Hunt **Special Targets** for time-limited rewards
-- Use **Killer Sense**, **Stalk**, **Shape Jump / Shape Dash**, and **blackouts** to control engagements
+Confirmed Michael objectives and behaviors:
 
-Overview: /michael-myers/.
+- Hunt residents to stop Civilian progress.
+- Hunt Special Targets for time-limited rewards.
+- Apply pressure by using abilities such as Stalk, Killer Sense, Shape mobility, and blackouts to control engagements and deny Civilians time to gather proof or escape.
 
-## When Civilians are eliminated
+Overview: [Michael Myers guide](/michael-myers/) and ability details: [Michael abilities](/michael-myers/abilities/).
 
-**Confirmed:** Downed Civilians are not always out for good—they may return as **Sheriff's Deputy** or **Dr. Loomis** to keep assisting the team.
+## Can Michael be killed or detained?
 
-Exact rules are **launch verification pending**.
+- Michael cannot simply be killed like a Civilian.
+- Civilians and police can knock Michael down; sufficient resistance can detain him and return him to Smith’s Grove.
+- The detention mechanic is confirmed in official materials; exact timing and full rules are pending live-build verification.
 
-## Offline, bots, and private lobbies
+## Private matches, bots, and AI boundaries
 
-- **Story mode** and **offline bot play** are separate from standard online multiplayer—/bots-private-lobbies-offline/
-- **Private lobbies** are reported by third-party outlets but lack full official detail on AI fill—treat as tentative until IllFonic confirms
+- Private matches against AI have been officially announced (see [bots and private matches guide](/bots-private-lobbies-offline/)).
+- Whether empty private-match slots are automatically filled with bots is currently unknown.
+- Whether public matchmaking will use AI backfill is currently unknown.
+- The page above contains the official boundary between offline/bot play and standard online modes.
 
-## Crossplay and platforms
+## Progression (brief)
 
-Cross-platform multiplayer is **officially indicated** on Xbox store materials, but IllFonic has not published a complete PS5 ↔ Xbox ↔ Steam ↔ Epic pairing matrix. See /multiplayer/crossplay/.
+- Progression unlocks Michael abilities, starting weapons, executions, and cosmetic options such as skins and tints.
+- This page stays brief on progression—see the official progression overview and Michael pages for loadout and unlock details: [Progression & Customization overview — Halloween: The Game](https://halloweengame.com/news/progression-customization-overview/) and [Michael Myers guide](/michael-myers/) / [Michael abilities](/michael-myers/abilities/).
 
-PC players should review /pc/system-requirements/ and /steam-deck/ before launch.
+## What still needs live-build verification
 
-## Launch verification pending
+Official materials confirm core systems but leave implementation details unresolved until live builds or launch patches:
 
-- Published match timer and overtime rules (/match-length-timer/)
-- Party invite flow, crossplay toggle, and account linking
-- Voice chat and moderation tools
-- Exact NPC command UI and police escalation timings
+- Exact detention timing and full rules for returning Michael to Smith’s Grove.
+- Whether eliminated Civilians always return as Sheriff's Deputy or Dr. Loomis in every circumstance (this return is confirmed as a mechanic, but exact triggers/limits need verification).
+- Automatic bot fill behavior for private lobbies.
+- Public-match AI backfill behavior.
+- Match timer/overtime rules, party invite flow, crossplay pairing matrix, and NPC command UI specifics.
+
+## Common mistakes to avoid
+
+- Do not assume Michael can be "killed" like a Civilian — official materials confirm detention is the outcome of sufficient resistance, not ordinary death.
+- Do not assume empty private slots will automatically fill with bots — that behavior is currently unknown.
+- Do not assume public matchmaking will use AI backfill — that is currently unknown.
+
+## Related guides
+
+- [multiplayer overview](/multiplayer/)
+- [Michael Myers guide](/michael-myers/)
+- [Michael abilities](/michael-myers/abilities/)
+- [maps guide](/maps/)
+- [bots and private matches guide](/bots-private-lobbies-offline/)
+- [crossplay guide](/multiplayer/crossplay/)
 
 ## Sources
 
 - [Multiplayer gameplay overview — Halloween: The Game](https://halloweengame.com/news/multiplayer-gameplay-overview/)
+- [Progression & Customization overview — Halloween: The Game](https://halloweengame.com/news/progression-customization-overview/)
+- [Single & Multiplayer overview — Halloween: The Game](https://halloweengame.com/news/single-and-multiplayer/)

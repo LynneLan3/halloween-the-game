@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "templateVersion": "2.0.0",
   "generatorVersion": "1.0.0",
-  "specHash": "102adca72ffd1dcdad5aaf07f0ebd7d3512d48dc15d5c43a2476ed285f8e37e1",
+  "specHash": "99e5a5c10339b925c8625180ea6c13b10b8cdd711bd422b65979795032b26f72",
   "siteId": "halloween-the-game",
   "createdFromSpec": "site-spec.yaml",
   "managedFiles": [
@@ -148,7 +148,7 @@
     },
     {
       "path": "src/config/site.generated.ts",
-      "sha256": "e6926330c29c30373611142a49bc2bad71bb700d29c6b91d42fe1e1583a2c75d",
+      "sha256": "5cb06cf40e4f354a0b8f353b5690104377c933d17c9b22b6dd20f9a509e07012",
       "kind": "config"
     },
     {
@@ -183,7 +183,7 @@
     },
     {
       "path": "src/content/docs/killer-guides/michael-myers.md",
-      "sha256": "4197e91e6d0585089f2ee4fb76b8693c365c214a77a2a5bbbc5f83120a2dbb13",
+      "sha256": "58c97cc6c5a17addcdcefefac57f4f855ceff59ce54467c8f3d32749190d33e9",
       "kind": "page"
     },
     {
@@ -223,7 +223,7 @@
     },
     {
       "path": "src/content/docs/multiplayer-guides/multiplayer/how-multiplayer-works.md",
-      "sha256": "384911645e6bba4b91cf1be9db64be4d1882072b9ce237d1f77364578b8357f8",
+      "sha256": "ec8ba6334c332501299b5139a02a63905123f07c86d6ec2ff68b59d9141030a0",
       "kind": "page"
     },
     {

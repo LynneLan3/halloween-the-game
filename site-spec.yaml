@@ -246,8 +246,8 @@ pages:
         type: related
     changeSummary: "CONTENT_EXPANSION — Characters pillar hub."
   - id: michael-myers-hub
-    title: "Michael Myers in Halloween: The Game — Killer Guide"
-    description: "How Michael Myers works in multiplayer and story mode: objectives, combat rules, detention, and links to official ability descriptions."
+    title: "Michael Myers in Halloween: The Game — How the Killer Works"
+    description: "How Michael Myers works in Halloween: The Game: 1v4 multiplayer role, detention rules, 2 starting traits + 3 selectable abilities, progression unlocks, and six-chapter single-player Michael."
     category: killer-guides
     slug: michael-myers
     source: site-input/pages/michael-myers.md
@@ -257,15 +257,17 @@ pages:
     role: core
     intents:
       - michael-myers-gameplay
-    quickAnswer: "One player controls Michael in 1v4 multiplayer. Michael kills residents and Special Targets, uses Killer Sense, Stalk, Shape Jump, and blackouts, and can be resisted or detained—but not simply killed. See the abilities page for official kit detail."
+    quickAnswer: "Multiplayer is 1 Michael Myers vs 4 Civilians. Michael hunts residents and Special Targets, can be knocked down or detained but cannot simply be killed, and uses a loadout of 2 starting traits (Killer Sense, Shape Jump) plus 3 selectable abilities. Single-player Michael is a separate six-chapter story."
     eyebrow: "Killer Guide"
     facts:
       - label: "Multiplayer role"
-        value: "1 Michael vs 4 Civilians"
-      - label: "Core kit"
-        value: "Killer Sense, Stalk, Shape Jump/Dash, blackouts"
+        value: "1 Michael Myers vs 4 Civilians"
+      - label: "Loadout"
+        value: "2 starting traits (Killer Sense, Shape Jump) + 3 selectable abilities"
       - label: "Resistance outcome"
-        value: "Can be knocked down; detention returns Michael to Smith's Grove"
+        value: "Can be knocked down; sufficient resistance can detain Michael to Smith's Grove"
+      - label: "Single-player"
+        value: "Six-chapter story from Michael's perspective"
     coverAssetId: michael-mask-hero
     relations:
       - pageId: michael-myers-abilities
@@ -339,7 +341,7 @@ pages:
     changeSummary: "CONTENT_EXPANSION — Multiplayer pillar hub."
   - id: multiplayer-how-it-works
     title: "How Halloween: The Game Multiplayer Works"
-    description: "Step-by-step overview of the confirmed multiplayer loop, Civilian and Michael tasks, and launch-pending systems."
+    description: "1 Michael vs 4 Civilians multiplayer loop: 4 maps, Civilian and Michael objectives, private AI matches, and what remains unknown about bot fill."
     category: multiplayer-guides
     slug: multiplayer/how-multiplayer-works
     source: site-input/pages/multiplayer/how-multiplayer-works.md
@@ -349,15 +351,17 @@ pages:
     role: core
     intents:
       - how-multiplayer-works
-    quickAnswer: "Matches pair 1 Michael with 4 Civilians on Haddonfield maps. Civilians pursue randomized escapes and police escalation while Michael uses stalking and blackouts. Item and escape locations vary between matches per IllFonic."
+    quickAnswer: "Multiplayer is 1 Michael Myers vs 4 Civilians on 4 maps. Civilians find residents, gather proof, contact police, and pursue randomized escapes; Michael hunts residents and Special Targets. Private matches against AI are officially announced; automatic bot fill and public AI backfill remain unknown."
     eyebrow: "Multiplayer Guide"
     facts:
-      - label: "Players"
-        value: "Up to 5 online (1 Killer + 4 Civilians)"
-      - label: "Variety"
-        value: "Escape and item locations vary between matches"
+      - label: "Format"
+        value: "1 Michael Myers vs 4 Civilians (up to 5 players)"
       - label: "Maps"
-        value: "Three revealed Haddonfield maps at launch window"
+        value: "4 multiplayer maps (official materials)"
+      - label: "Private AI"
+        value: "Private matches against AI officially announced"
+      - label: "Bot fill"
+        value: "Automatic private-slot fill and public AI backfill unknown"
     coverAssetId: rachel-gameplay
     relations:
       - pageId: multiplayer-crossplay
