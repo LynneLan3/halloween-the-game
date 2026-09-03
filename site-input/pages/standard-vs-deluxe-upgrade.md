@@ -11,14 +11,14 @@ status: needs-verification
 Quick answer
 
 - Standard is the base game at $39.99. Digital Deluxe is $59.99 — exactly $20 more — and adds the Inmate Michael Myers skin plus the Richard and Alexis civilians and other Deluxe/preorder extras.
-- Digital Deluxe preorders include Advance Access beginning Friday, September 4, 2026 at 9:00 AM PT ({{page:early-access-release-time}}). Buying a Deluxe upgrade after launch does not have an announced Advance Access policy.
+- Digital Deluxe preorders include Advance Access beginning Friday, September 4, 2026 at 9:00 AM PT ([Advance Access timing]({{page:early-access-release-time}})). Buying a Deluxe upgrade after launch does not have an announced Advance Access policy.
 - You can upgrade a Standard purchase to Digital Deluxe at launch using the Deluxe Edition Upgrade SKU, but the upgrade price per storefront is unannounced.
 - Important irreversible consequence: the Phantom Michael Myers skin is a preorder-only item and cannot be recovered later by purchasing the Digital Deluxe Edition Upgrade.
 
 ## Confirmed
 
 - Editions and prices: Standard — **$39.99 USD**; Digital Deluxe — **$59.99 USD** (official FAQ and storefronts). That is a $20 difference between editions.
-- Digital Deluxe confirmed contents: base game, **Inmate Michael Myers skin**, exclusive civilians **Richard** and **Alexis**, comic and other preorder extras — {{page:characters-hub}}.
+- Digital Deluxe confirmed contents: base game, **Inmate Michael Myers skin**, exclusive civilians **Richard** and **Alexis**, comic and other preorder extras — [characters guide]({{page:characters-hub}}).
 - Phantom Michael Myers skin: confirmed digital pre-order exclusive; official materials describe it as unavailable after the preorder period. The Deluxe Upgrade at launch does **not** restore Phantom.
 - Standard owners can buy the Digital Deluxe Edition Upgrade at launch (storefront sku exists); exact upgrade price is not announced.
 - Advance Access: Digital Deluxe preorder Advance Access begins Friday, September 4, 2026 at 9:00 AM PT. The Standard listing does not include that Advance Access bullet.
@@ -57,7 +57,7 @@ Do not read the table as implying Digital Deluxe eliminates preorder missables �
 
 ## Early access (Advance Access) — what we know
 
-- Advance Access tied to Digital Deluxe preorders begins Friday, September 4, 2026 at 9:00 AM PT. See {{page:early-access-release-time}} for the exact published time.
+- Advance Access tied to Digital Deluxe preorders begins Friday, September 4, 2026 at 9:00 AM PT. See [Advance Access timing]({{page:early-access-release-time}}) for the exact published time.
 - Official materials confirm Advance Access for Digital Deluxe preorders. IllFonic has not announced whether a post-purchase Deluxe Upgrade or a Deluxe purchase without a preorder will grant the same Sep 4 Advance Access — that remains unannounced.
 
 ## Common mistakes to avoid
@@ -71,7 +71,7 @@ Do not read the table as implying Digital Deluxe eliminates preorder missables �
 - If you want Sep 4 Advance Access or the Phantom preorder item: preorder Digital Deluxe before the preorder window closes.
 - If you buy Standard now and later decide you want Deluxe content: wait for the launch Deluxe Upgrade SKU; expect to pay an additional amount (storefront price unannounced) to add Deluxe content, but know the Phantom preorder item will remain unavailable if you did not preorder it.
 
-Official preorder and upgrade SKUs: {{hub}} and storefront listings linked below.
+Official preorder and upgrade SKUs: [Halloween: The Game guide hub]({{hub}}) and storefront listings linked below.
 
 ## Sources
 
