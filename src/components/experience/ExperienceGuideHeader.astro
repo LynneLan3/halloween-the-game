@@ -12,6 +12,7 @@ import { experienceNav } from '../../lib/experience-nav';
 import { loadGuideContent } from '../../lib/guide-content';
 import { routeHref } from '../../lib/routes';
 import { game } from '../../config/game';
+import AdcashBanner from '../AdcashBanner.astro';
 import ContentTrust from '../ContentTrust.astro';
 
 const { entry } = Astro.locals.starlightRoute;
@@ -92,3 +93,6 @@ const routeLink = route ? routeHref(game.hubPath, route.id) : undefined;
 		)}
 	</div>
 )}
+
+{/* Adcash Display 300x250 — after Quick Answer / facts, before body prose */}
+<AdcashBanner />

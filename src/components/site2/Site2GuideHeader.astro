@@ -4,6 +4,7 @@ import { loadGuideContent } from '../../lib/guide-content';
 import { experienceNav } from '../../lib/experience-nav';
 import { site2RouteHubHref } from '../../lib/site2-nav';
 import { formatUiDate, ui } from '../../lib/ui';
+import AdcashBanner from '../AdcashBanner.astro';
 import ContentTrust from '../ContentTrust.astro';
 import GuideStatus from '../GuideStatus.astro';
 
@@ -70,4 +71,7 @@ const routeLink = route ? site2RouteHubHref(route.id) : undefined;
 			))}
 		</dl>
 	)}
+
+	{/* Adcash Display 300x250 — after Quick Answer / facts, before body prose */}
+	<AdcashBanner />
 </div>

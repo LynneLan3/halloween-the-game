@@ -1,5 +1,6 @@
 ---
 import Default from '@astrojs/starlight/components/PageTitle.astro';
+import AdcashBanner from '../AdcashBanner.astro';
 import GuideBreadcrumb from '../GuideBreadcrumb.astro';
 import GuideStatus from '../GuideStatus.astro';
 import QuickAnswer from '../QuickAnswer.astro';
@@ -65,6 +66,7 @@ const eyebrow: string | undefined = (entry.data as Record<string, unknown>).eyeb
 			<GuideHero />
 			<GuideFacts />
 			{entry.data.quickAnswer && <QuickAnswer text={entry.data.quickAnswer} />}
+			<AdcashBanner />
 		</>
 	)
 }

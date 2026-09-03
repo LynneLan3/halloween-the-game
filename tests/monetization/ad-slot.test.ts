@@ -44,6 +44,14 @@ test('default Guide slot is before related, never before Quick Answer', () => {
 	assert.match(adSlot, /data-gw-ad-container/);
 });
 
+test('Adcash Display is the after-answer article slot (not Adsterra)', () => {
+	const pageTitle = readFileSync(path.join(ROOT, 'src/components/overrides/PageTitle.astro'), 'utf8');
+	const head = readFileSync(path.join(ROOT, 'src/components/overrides/Head.astro'), 'utf8');
+	assert.match(pageTitle, /AdcashBanner/);
+	assert.match(head, /shouldLoadAdcashOnPage/);
+	assert.match(head, /loadAdcash && <AdcashLib/);
+});
+
 test('ad loader config is available when ads are enabled in generated site', () => {
 	const config = adLoaderConfig();
 	assert.ok(config);

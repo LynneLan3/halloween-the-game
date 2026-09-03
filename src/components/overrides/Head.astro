@@ -1,11 +1,13 @@
 ---
 import Default from '@astrojs/starlight/components/Head.astro';
+import AdcashLib from '../AdcashLib.astro';
 import Analytics from '../Analytics.astro';
 import SocialMeta from '../SocialMeta.astro';
 import { isExperienceGuide, isExperienceHomepage } from '../../lib/experience-guide';
 import ExperienceGuideStyles from '../experience/ExperienceGuideStyles.astro';
 import ExperienceStyles from '../experience/ExperienceStyles.astro';
 import { game } from '../../config/game';
+import { shouldLoadAdcashOnPage } from '../../lib/adcash';
 import { isSite2Shell } from '../../lib/site2';
 import { getSite2HeroPreloadUrl } from '../../lib/site2-images';
 
@@ -15,6 +17,7 @@ const isExperience =
 	isExperienceGuide(entry, Astro.url.pathname) && entry.id !== 'privacy';
 const site2 = isSite2Shell() && (isHome || isExperience);
 const heroPreload = site2 && isHome ? await getSite2HeroPreloadUrl(game.heroImage) : undefined;
+const loadAdcash = shouldLoadAdcashOnPage(entry, Astro.url.pathname);
 ---
 
 {site2 ? null : isExperience ? <ExperienceGuideStyles /> : <ExperienceStyles />}
@@ -78,4 +81,5 @@ const heroPreload = site2 && isHome ? await getSite2HeroPreloadUrl(game.heroImag
 	)
 }
 <SocialMeta />
+{loadAdcash && <AdcashLib />}
 <Analytics />

@@ -1,0 +1,11 @@
+---
+/**
+ * Loads Adcash aclib.js once in Article <head>.
+ * Mount only when shouldLoadAdcashOnPage is true (same pages as AdcashBanner).
+ * Display Banner only — no Autotag/Pop/Interstitial/Push.
+ */
+import { ADCASH_LIB_SRC } from '../lib/adcash';
+---
+
+<script id="aclib" type="text/javascript" src={ADCASH_LIB_SRC} is:inline />
+

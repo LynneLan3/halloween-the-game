@@ -1,0 +1,40 @@
+---
+/**
+ * Adcash 300x250 Display Banner for Guide Article pages.
+ * Place after Quick Answer / above-fold answer, before the first body section.
+ * Does not use the Adsterra banner placement path (no dual banner here).
+ */
+import { ADCASH_BANNER_ZONE_ID, isAdcashEnabled } from '../lib/adcash';
+
+const enabled = isAdcashEnabled();
+const zoneId = ADCASH_BANNER_ZONE_ID;
+---
+
+{
+	enabled && (
+		<div class="adcash-banner" data-adcash-banner={zoneId} aria-label="Advertisement">
+			<div class="adcash-banner__box">
+				<script is:inline define:vars={{ zoneId }}>
+					(function () {
+						var id = String(zoneId);
+						function run() {
+							if (typeof aclib === 'undefined' || typeof aclib.runBanner !== 'function') return;
+							aclib.runBanner({ zoneId: id });
+						}
+						if (typeof aclib !== 'undefined') {
+							run();
+							return;
+						}
+						var lib = document.getElementById('aclib');
+						if (lib) {
+							lib.addEventListener('load', run, { once: true });
+						} else {
+							window.addEventListener('load', run, { once: true });
+						}
+					})();
+				</script>
+			</div>
+			<span class="adcash-banner__label" aria-hidden="true">ad</span>
+		</div>
+	)
+}
