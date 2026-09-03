@@ -1,6 +1,6 @@
 ---
-title: "Halloween: The Game Early Access — September 4 Release Time & Countdown"
-description: "Confirmed Advance Access start time for Digital Deluxe pre-orders (Sep 4, 2026, 9:00 AM PT), full release date, edition eligibility, pricing and key platform/region notes."
+title: "Halloween: The Game Early Access Time — Sep 4 Unlock Times"
+description: "Early Access starts Sep 4, 2026 at 9:00 AM PT for Digital Deluxe preorders (four days before the Sep 8 full release). Standard Edition does not include this four-day Advance Access."
 category: guides
 slug: early-access-release-time
 status: needs-verification
@@ -11,7 +11,7 @@ sidebar:
   order: 1
 intents:
   - early-access-release-time
-quickAnswer: "Advance Access for Halloween: The Game begins Friday, September 4, 2026 at 9:00 AM PT and is confirmed for Digital Deluxe pre-orders. The full, public release is September 8, 2026. Standard pre-orders do not list gameplay Early Access."
+quickAnswer: "Digital Deluxe preorder Early Access begins Friday, September 4, 2026 at 9:00 AM PT. This Advance Access is four days before the full release on September 8, 2026. Standard Edition does not include the four-day Digital Deluxe Advance Access."
 relations:
   -
     slug: multiplayer
@@ -33,16 +33,16 @@ eyebrow: Advance Access
 facts:
   -
     label: Advance Access start
-    value: "Friday, September 4, 2026 — 9:00 AM PT (official FAQ)"
+    value: "Friday, September 4, 2026 — 9:00 AM PT"
+  -
+    label: Who gets Advance Access
+    value: "Digital Deluxe Edition preorder; Standard Edition does not include the four-day Advance Access"
+  -
+    label: How early
+    value: "Four days before the September 8, 2026 full release"
   -
     label: Full release date
-    value: "September 8, 2026 (official storefront listings)"
-  -
-    label: Advance Access rules
-    value: "Sep 4, 9 AM PT for Digital Deluxe pre-orders only; post-launch Deluxe upgrade Advance Access Not Announced"
-  -
-    label: Standard price
-    value: "USD $39.99 (official FAQ/store pages)"
+    value: "September 8, 2026"
 ---
 <!--
   This file is generated from site-spec.yaml.
@@ -50,69 +50,69 @@ facts:
   Run npm run site:generate instead.
   Source: site-input/pages/early-access-release-time.md
 -->
-# Halloween: The Game Early Access — September 4 Release Time & Countdown
+# Halloween: The Game Early Access Time — Sep 4 Unlock Times
 
-Use this page if you are planning around the **September 2026 launch window** and need the official Advance Access time, edition rules, and what is still unannounced.
+Quick answer
 
-## Confirmed
+- Digital Deluxe preorder Early Access begins Friday, September 4, 2026 at 9:00 AM PT.
+- This Advance Access is four days before the full release on September 8, 2026.
+- Standard Edition does not include the four-day Digital Deluxe Advance Access.
+- Helpful conversions (informational): 12:00 PM EDT / 4:00 PM UTC / 5:00 PM BST / 6:00 PM CEST / 12:00 AM Sep 5 China/Singapore / 1:00 AM Sep 5 Japan / 2:00 AM Sep 5 Sydney.
 
-- **Advance Access start time:** The official preorder FAQ lists Advance Access beginning **Friday, September 4, 2026 at 9:00 AM PT**. This is the launch-window time from IllFonic/publisher materials and storefront pre-order pages. Ignore secondary outlets citing 10:00 AM PT.
+Halloween: The Game Early Access Time (official authority and conversions)
 
-- **Who gets Advance Access:** The official preorder page ties gameplay "Early Access Starting on 9/4/2026" to the **Digital Deluxe Edition pre-order**. Standard edition pre-orders do **not** list gameplay Early Access. If you want to play at the Advance Access window, the Digital Deluxe pre-order is the confirmed path in publisher materials.
+- Official unlock time (publisher): Friday, September 4, 2026 — 9:00 AM Pacific Time (PT).
+- Conversions (informational):
 
-- **Full release:** Storefront listings (Steam, PlayStation, Xbox) list the full public digital release on **September 8, 2026**.
-
-- **Pricing and Deluxe contents:** Official pages list Standard at **USD $39.99** and Digital Deluxe at **USD $59.99**. Digital Deluxe includes the Inmate Michael Myers skin, exclusive civilians Richard and Alexis, and other preorder extras. The **Phantom Michael Myers skin** is a pre-order exclusive and is **not** restored by the post-launch Deluxe upgrade.
-
-- **Deluxe upgrade at launch:** IllFonic's FAQ confirms a **Digital Deluxe Edition Upgrade** at launch that grants the civilians and Inmate skin. The Phantom pre-order skin remains separate.
-
-## Not Announced
-
-- **Post-launch Deluxe upgrade Advance Access:** Whether buying the Digital Deluxe edition after the pre-order window—or purchasing the **Deluxe upgrade SKU at launch**—grants the same **September 4 Advance Access** is **Not Announced**. Official copy ties Early Access to the **Digital Deluxe pre-order**; it does not promise the same gameplay window to post-preorder or upgrade buyers.
-
-- **Exact Deluxe upgrade prices** and regional SKU availability vary by store and were not all published at the research cutoff.
-
-- **Preload timing** is not clearly confirmed in the FAQ.
-
-## Convert 9:00 AM PT to your timezone
-
-Official time: **Friday, September 4, 2026 — 9:00 AM Pacific Time**.
-
-| Region | Local time (Sep 4, 2026) |
+| Region | Unlock time |
 | --- | --- |
-| US Pacific (PT) | 9:00 AM |
-| US Eastern (ET) | 12:00 PM (noon) |
-| US Central (CT) | 11:00 AM |
-| US Mountain (MT) | 10:00 AM |
-| UK (BST) | 5:00 PM |
-| Central Europe (CEST) | 6:00 PM |
-| Australia — Sydney (AEST) | Sep 5, 2:00 AM |
+| Los Angeles / PDT | Sep 4, 9:00 AM |
+| New York / EDT | Sep 4, 12:00 PM |
+| UTC | Sep 4, 4:00 PM |
+| UK / BST | Sep 4, 5:00 PM |
+| Central Europe / CEST | Sep 4, 6:00 PM |
+| China / Singapore | Sep 5, 12:00 AM |
+| Japan | Sep 5, 1:00 AM |
+| Sydney / AEST | Sep 5, 2:00 AM |
 
-Use an official world-clock converter on launch day in case of daylight-saving edge cases.
+Who Gets Early Access?
 
-## Important platform and regional notes
+1. Publisher materials tie Early Access to the Digital Deluxe Edition preorder. Buyers who preordered the Digital Deluxe Edition are the confirmed route to play at the Sep 4 Advance Access window.
+2. Standard Edition pre-orders do not include the four-day Advance Access and therefore are not confirmed to unlock on Sep 4.
+3. Whether buying a Deluxe upgrade after the preorder window (or purchasing a post-launch Deluxe SKU) grants the same Sep 4 Advance Access is Not Announced by the publisher. For a comparison of editions and upgrade options, see the [edition comparison](/standard-vs-deluxe-upgrade/).
 
-- **Crossplay:** Cross-platform multiplayer is indicated on Xbox store listings. PC (Steam/Epic), PS5, and Xbox Series X\|S are confirmed platforms. See /multiplayer/crossplay/ for the full pairing matrix (launch verification pending).
+How Early Is It?
 
-- **Offline and match options:** Single-player story mode and offline play against bots are described in official materials. Private online lobbies are reported by third-party outlets only—do not assume AI backfill. See /bots-private-lobbies-offline/.
+- Digital Deluxe Advance Access on Sep 4, 2026 vs the full release on Sep 8, 2026 = four days of early play for Digital Deluxe preorders.
 
-- **Steam Deck:** Compatibility is **not verified** pre-launch. Anti-cheat middleware has **not** been confirmed on the live Steam anti-cheat field—see /steam-deck/.
+What If the Game Does Not Unlock at 9 AM PT?
 
-## Australia (classification) — Last Verified: 2026-09-02
+Follow these steps in order:
 
-The Australian Classification Board issued **Refused Classification (RC)** for the base game due to illicit drug use tied to gameplay advantage/reward. IllFonic stated AU/NZ sales are blocked for affected SKUs. A separate Digital Deluxe IARC listing was reported in secondary coverage, but there has been **no official reclassification**. Do not treat Australia as "unbanned." See /australia-release-status/.
+1. Confirm you converted 9:00 AM PT to your local timezone correctly.
+2. Restart the storefront or game client you purchased through (Steam, Epic, PlayStation, Xbox) and sign back in.
+3. Verify your purchase or preorder entitlement on the storefront account that made the Digital Deluxe preorder.
+4. Check whether the game shows as downloading, queued, or awaiting an update — allow any downloads or updates to finish.
+5. Allow for a brief storefront rollout delay (storefronts sometimes stagger availability by a few minutes). If the problem persists after the above, check the official preorder FAQ or the publisher’s official channels for any last-minute notices.
 
-## Match length
+Common mistakes to avoid
 
-No official match timer has been published. Footage suggesting ~12-minute sessions is observational only. See /match-length-timer/.
+- Assuming Standard Edition unlocks early — it does not include the four-day Advance Access.
+- Mixing up timezones — use the official 9:00 AM PT start as your reference.
+- Not confirming the correct storefront account or preorder entitlement before launch.
 
-If you preordered Digital Deluxe, verify your purchase on your storefront (Steam, Epic, PlayStation, Xbox) and watch the official site for last-minute changes: /.
+What happens next
 
-## Sources
+- Full public release is scheduled for September 8, 2026.
+- The publisher has not announced whether post-preorder Deluxe purchases or launch-day Deluxe upgrades will grant the Sep 4 Advance Access; this remains unconfirmed. Keep an eye on official channels and your storefront account for any updates.
 
-- [Official Preorder/News — Halloween: The Game](https://halloweengame.com/news/preorder/)
-- [Halloween: The Game on Steam (store page)](https://store.steampowered.com/app/3219630/Halloween_The_Game/)
-- [PlayStation Store — Halloween Digital Deluxe](https://store.playstation.com/en-us/product/UP3095-PPSA29340_00-HALLOWEENDELUXED)
-- [Xbox — Halloween Digital Deluxe Upgrade (store listing)](https://www.xbox.com/en-US/games/store/halloween-digital-deluxe-upgrade/9mt8jbqs8lnr)
-- [Press Start Australia — Classification Board statement coverage](https://press-start.com.au/news/playstation/2026/08/14/halloween-the-game-classification-board-statement/)
-- [IGN interview/features (story mode confirmation)](https://www.ign.com/articles/halloween-revealed-by-friday-the-13th-the-game-developer-ign-interviews-illfonic-on-the-single-player-story-mode-working-with-john-carpenter-and-more)
+Full release date
+
+- Official full release: September 8, 2026.
+
+If you need more on editions, pricing, and what the Deluxe preorder includes, see the [edition comparison](/standard-vs-deluxe-upgrade/) and the [Halloween: The Game guide hub](/).
+
+Sources
+
+- [Official Halloween preorder FAQ](https://halloweengame.com/news/preorder/)
+- [Halloween: The Game on Steam](https://store.steampowered.com/app/3219630/Halloween/)

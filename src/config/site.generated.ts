@@ -100,8 +100,8 @@ export const siteConfig: GameConfig = {
 		],
 		startHere: [
 			{
-				title: "Halloween: The Game Early Access — September 4 Release Time & Countdown",
-				description: "Confirmed Advance Access start time for Digital Deluxe pre-orders (Sep 4, 2026, 9:00 AM PT), full release date, edition eligibility, pricing and key platform/region notes.",
+				title: "Halloween: The Game Early Access Time — Sep 4 Unlock Times",
+				description: "Early Access starts Sep 4, 2026 at 9:00 AM PT for Digital Deluxe preorders (four days before the Sep 8 full release). Standard Edition does not include this four-day Advance Access.",
 				href: "/early-access-release-time/",
 				image: "covers/gameplay/extended-first-look.jpg",
 				label: "Early Access",

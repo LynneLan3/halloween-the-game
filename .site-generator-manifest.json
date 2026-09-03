@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "templateVersion": "2.0.0",
   "generatorVersion": "1.0.0",
-  "specHash": "5088d981c6a34783d428a5af924805c8032faae544f675ccad24bc78c1d95aa4",
+  "specHash": "51c07a03865e9102645307c94972c95e40bc38deabc9de8ae62e72eb1604a43d",
   "siteId": "halloween-the-game",
   "createdFromSpec": "site-spec.yaml",
   "managedFiles": [
@@ -148,7 +148,7 @@
     },
     {
       "path": "src/config/site.generated.ts",
-      "sha256": "eb789ff64e0929d82de1c65750ad71920cd386d24caba349bbaf38f84c21a8b3",
+      "sha256": "ff953af84fe2caaf119327bd7b3512db4f38500302a55802ac58ac8a84039b89",
       "kind": "config"
     },
     {
@@ -163,7 +163,7 @@
     },
     {
       "path": "src/content/docs/guides/early-access-release-time.md",
-      "sha256": "146959e8f13b8b07b44f9db0fa41bfd3c1db15bd95202e6454c3c4079e03d8b7",
+      "sha256": "69d30f95386c5e53d10236cf5d339584195df6c091a6d3a54ae3cfd49ba279d1",
       "kind": "page"
     },
     {

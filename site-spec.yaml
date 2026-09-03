@@ -492,8 +492,8 @@ pages:
         type: next-step
     changeSummary: "CONTENT_EXPANSION — PC system requirements guide."
   - id: early-access-release-time
-    title: "Halloween: The Game Early Access — September 4 Release Time & Countdown"
-    description: "Confirmed Advance Access start time for Digital Deluxe pre-orders (Sep 4, 2026, 9:00 AM PT), full release date, edition eligibility, pricing and key platform/region notes."
+    title: "Halloween: The Game Early Access Time — Sep 4 Unlock Times"
+    description: "Early Access starts Sep 4, 2026 at 9:00 AM PT for Digital Deluxe preorders (four days before the Sep 8 full release). Standard Edition does not include this four-day Advance Access."
     category: guides
     slug: early-access-release-time
     source: site-input/pages/early-access-release-time.md
@@ -503,17 +503,17 @@ pages:
     role: core
     intents:
       - early-access-release-time
-    quickAnswer: "Advance Access for Halloween: The Game begins Friday, September 4, 2026 at 9:00 AM PT and is confirmed for Digital Deluxe pre-orders. The full, public release is September 8, 2026. Standard pre-orders do not list gameplay Early Access."
+    quickAnswer: "Digital Deluxe preorder Early Access begins Friday, September 4, 2026 at 9:00 AM PT. This Advance Access is four days before the full release on September 8, 2026. Standard Edition does not include the four-day Digital Deluxe Advance Access."
     eyebrow: "Advance Access"
     facts:
       - label: "Advance Access start"
-        value: "Friday, September 4, 2026 — 9:00 AM PT (official FAQ)"
+        value: "Friday, September 4, 2026 — 9:00 AM PT"
+      - label: "Who gets Advance Access"
+        value: "Digital Deluxe Edition preorder; Standard Edition does not include the four-day Advance Access"
+      - label: "How early"
+        value: "Four days before the September 8, 2026 full release"
       - label: "Full release date"
-        value: "September 8, 2026 (official storefront listings)"
-      - label: "Advance Access rules"
-        value: "Sep 4, 9 AM PT for Digital Deluxe pre-orders only; post-launch Deluxe upgrade Advance Access Not Announced"
-      - label: "Standard price"
-        value: "USD $39.99 (official FAQ/store pages)"
+        value: "September 8, 2026"
     coverAssetId: extended-first-look
     relations:
       - pageId: multiplayer-hub
