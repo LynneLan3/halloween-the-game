@@ -863,8 +863,8 @@ export const siteConfig: GameConfig = {
 				{
 					pageId: "pc-system-requirements",
 					href: "/pc/system-requirements/",
-					title: "Halloween: The Game PC System Requirements",
-					description: "Current Steam minimum and recommended specs for Halloween: The Game, plus launch-pending performance claims.",
+					title: "Halloween: The Game System Requirements — Minimum & Recommended PC Specs",
+					description: "Minimum and Recommended PC specs for Halloween: The Game: Windows 11, SSD/NVMe, Easy Anti-Cheat, 1080p30 / 4K30 store targets, and what is still not confirmed.",
 					eyebrow: "System Requirements",
 					image: "covers/gameplay/extended-first-look.jpg",
 				},

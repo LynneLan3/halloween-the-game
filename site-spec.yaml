@@ -461,8 +461,8 @@ pages:
         type: related
     changeSummary: "V4 pass — removed unverified EAC from facts; controller support confirmed."
   - id: pc-system-requirements
-    title: "Halloween: The Game PC System Requirements"
-    description: "Current Steam minimum and recommended specs for Halloween: The Game, plus launch-pending performance claims."
+    title: "Halloween: The Game System Requirements — Minimum & Recommended PC Specs"
+    description: "Minimum and Recommended PC specs for Halloween: The Game: Windows 11, SSD/NVMe, Easy Anti-Cheat, 1080p30 / 4K30 store targets, and what is still not confirmed."
     category: pc-guides
     slug: pc/system-requirements
     source: site-input/pages/pc/system-requirements.md
@@ -473,17 +473,17 @@ pages:
     intents:
       - system-requirements
       - pc-requirements
-    quickAnswer: "Minimum: Windows 11, 16 GB RAM, GTX 1660-class GPU, 1080p30 target, 45 GB SSD. Recommended: 32 GB RAM, RTX 3000 / RX 7000 class, 4K30 target. Real FPS and upscaling are launch verification pending."
+    quickAnswer: "Minimum: Windows 11 64-bit, 16 GB RAM, GTX 1660+ / RX 590+ / Arc A770+, 1080p @ 30 fps, DirectX 12, 45 GB SSD/NVMe. Recommended: 32 GB RAM, RTX 3000 / RX 7000 series, 4K @ 30 fps. Steam confirms Kernel Level Easy Anti-Cheat. No official 60 FPS config is published."
     eyebrow: "System Requirements"
     facts:
-      - label: "Minimum GPU"
-        value: "GTX 1660+ / RX 590+ / Arc A770+"
-      - label: "Recommended GPU"
-        value: "RTX 3000 series / RX 7000 series"
-      - label: "RAM"
-        value: "16 GB min / 32 GB recommended"
-      - label: "Storage"
-        value: "45 GB on SSD/NVMe"
+      - label: "Minimum"
+        value: "Windows 11 64-bit, 16 GB RAM, GTX 1660+ / RX 590+ / Arc A770+, 1080p @ 30 fps, 45 GB SSD/NVMe"
+      - label: "Recommended"
+        value: "Windows 11 64-bit, 32 GB RAM, RTX 3000 / RX 7000 series, 4K @ 30 fps, 45 GB SSD/NVMe"
+      - label: "Easy Anti-Cheat"
+        value: "Steam confirms Kernel Level Easy Anti-Cheat; manual removal required after uninstall"
+      - label: "Not published"
+        value: "No official 60 FPS configuration; Windows 10 is not listed"
     coverAssetId: extended-first-look
     relations:
       - pageId: pc-hub
