@@ -108,8 +108,8 @@ export const siteConfig: GameConfig = {
 				badge: "Highest priority",
 			},
 			{
-				title: "Halloween: The Game — Standard vs Deluxe: Can You Upgrade Later?",
-				description: "Clear, evidence-backed breakdown of Standard vs Digital Deluxe editions, upgrade path at launch, and the Phantom vs Inmate Michael Myers skins (plus Richard & Alexis civilians).",
+				title: "Halloween: The Game — Standard vs Digital Deluxe: Which Edition Should I Buy?",
+				description: "Direct comparison of Standard ($39.99) vs Digital Deluxe ($59.99): what the $20 difference buys, Advance Access timing, upgrade path at launch, and which preorder content is permanently missable.",
 				href: "/standard-vs-deluxe-upgrade/",
 				image: "covers/characters/jennifer-aarons.jpg",
 				label: "Standard vs Deluxe",
