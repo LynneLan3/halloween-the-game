@@ -1354,6 +1354,12 @@ social:
     asset: social/halloween-social.jpg
     alt: "Halloween: The Game Guide — Maps, Characters, Multiplayer & Launch Answers"
 
+trust:
+  enabled: true
+  privacy:
+    enabled: true
+    source: site-input/trust/privacy.md
+
 analytics:
   enabled: true
   siteId: halloween-the-game
@@ -1361,7 +1367,7 @@ analytics:
   templateVersion: "2.0.0"
   launchDate: 2026-09-08
   ga4:
-    enabled: false
+    enabled: true
   vercelAnalytics:
     enabled: true
 

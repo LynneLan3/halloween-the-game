@@ -1,3 +1,15 @@
+---
+title: Privacy
+description: "Starter privacy copy for Halloween: The Game Guide & Wiki. Update before adding analytics, ads, or affiliate links."
+trustType: privacy
+robots: "noindex,follow"
+---
+<!--
+  This file is generated from site-spec.yaml.
+  Do not edit directly.
+  Run npm run site:generate instead.
+  Source: site-input/trust/privacy.md
+-->
 # Privacy
 
 This page is informational and not legal advice.

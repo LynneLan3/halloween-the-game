@@ -8,7 +8,11 @@ const environment = resolveAnalyticsEnvironment({
 	isProd: import.meta.env.PROD,
 	vercelEnv: import.meta.env.VERCEL_ENV,
 });
-const measurementId = import.meta.env.PUBLIC_GA_MEASUREMENT_ID?.trim();
+const measurementId = (
+	analytics?.measurementId ||
+	import.meta.env.PUBLIC_GA_MEASUREMENT_ID ||
+	''
+).trim();
 const ga4Enabled = Boolean(analytics?.ga4?.enabled || analytics?.provider === 'ga4');
 const hasIdentity = Boolean(analytics?.siteId && analytics?.gameSlug && analytics?.templateVersion);
 const enabled = shouldLoadGa4({
@@ -23,7 +27,7 @@ const config =
 		? {
 				measurementId,
 				siteHost,
-				trackOutbound: analytics.trackOutbound,
+				trackOutbound: analytics.trackOutbound !== false,
 				siteId: analytics.siteId,
 				gameSlug: analytics.gameSlug,
 				templateVersion: analytics.templateVersion,

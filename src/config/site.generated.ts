@@ -1218,13 +1218,25 @@ export const siteConfig: GameConfig = {
 			],
 		},
 	],
+	trust: {
+		enabled: true,
+		pages: {
+			privacy: {
+				enabled: true,
+				slug: "privacy",
+				path: "/privacy/",
+				title: "Privacy",
+				robots: "noindex,follow",
+			},
+		},
+	},
 	analytics: {
 		enabled: true,
 		siteId: "halloween-the-game",
 		gameSlug: "halloween-the-game",
 		templateVersion: "2.0.0",
 		launchDate: "2026-09-08",
-		ga4: { enabled: false },
+		ga4: { enabled: true },
 		vercelAnalytics: { enabled: true },
 	},
 	monetization: {
