@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "templateVersion": "2.0.0",
   "generatorVersion": "1.0.0",
-  "specHash": "a0d264d3b5b5be9ba2741f4ce4f707f2298e2e1a8edb8c27187aff7d9e2e6a5f",
+  "specHash": "3eb56254db97d43c6335f9ce0c59713d73fd4639190891b7811a809efeb1cf8b",
   "siteId": "halloween-the-game",
   "createdFromSpec": "site-spec.yaml",
   "managedFiles": [
@@ -193,7 +193,7 @@
     },
     {
       "path": "src/config/site.generated.ts",
-      "sha256": "4ccf252ccd86aace5e10f720a5962e8a8135e6c10f5ad74149f9108538f71259",
+      "sha256": "fe13813c6c27570967e264c42656acefe729d0dfaa5a68408d47766a3ea13ddd",
       "kind": "config"
     },
     {
@@ -203,12 +203,12 @@
     },
     {
       "path": "src/content/docs/guides/bots-private-lobbies-offline.md",
-      "sha256": "f90d1e1459a20455565d746512da9fd8c4001a8b2e3e7480a1e3383b3d4e8daa",
+      "sha256": "d19dabb6afa93339e314f18ade133b8ecc8e5204229d4f25b23c061395c87635",
       "kind": "page"
     },
     {
       "path": "src/content/docs/guides/early-access-release-time.md",
-      "sha256": "4f7ea2c585783c31f19a01219512078fb09e7619808f28741d4856f0b34fce38",
+      "sha256": "2a0e3242b12bf802b881076bbee5b5c1b33a5080226ae6ec3f9ea0f9b4a011b7",
       "kind": "page"
     },
     {
@@ -233,7 +233,7 @@
     },
     {
       "path": "src/content/docs/guides/standard-vs-deluxe-upgrade.md",
-      "sha256": "743505702f03dfe87bd25e92b18e9496983405b29b505ea7858a4d358ab4b5ae",
+      "sha256": "03bcebb12fabc218552eaef0b7d20b4b3a07941ae34720e75acfa79fc3cb67ec",
       "kind": "page"
     },
     {

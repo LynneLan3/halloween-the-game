@@ -53,9 +53,9 @@ export const siteConfig: GameConfig = {
 		],
 		popularQuestions: [
 			{
-				label: "What time does Halloween: The Game early access start?",
+				label: "What time does Halloween: The Game come out / early access start?",
 				href: "/early-access-release-time/",
-				context: "Deluxe pre-order Advance Access window and timezone.",
+				context: "Sep 4 9 AM PT Early Access (Digital Deluxe) and Sep 8 9 AM PT full launch.",
 			},
 			{
 				label: "Can I preload Halloween: The Game before Early Access?",
@@ -65,7 +65,7 @@ export const siteConfig: GameConfig = {
 			{
 				label: "Should I buy Standard or Digital Deluxe?",
 				href: "/standard-vs-deluxe-upgrade/",
-				context: "Edition comparison, upgrade path, and missable Phantom skin.",
+				context: "Standard $39.99 vs Deluxe $59.99, upgrade path, Early Access, and missable Phantom skin.",
 			},
 			{
 				label: "How many maps are in Halloween: The Game?",
@@ -93,9 +93,9 @@ export const siteConfig: GameConfig = {
 				context: "Killer role, detention rules, and loadout model.",
 			},
 			{
-				label: "Does Halloween: The Game have bots or private lobbies?",
+				label: "Does Halloween: The Game have offline bots?",
 				href: "/bots-private-lobbies-offline/",
-				context: "Story mode, private AI matches, and offline bots.",
+				context: "Private matches against AI confirmed; network-offline still needs verification.",
 			},
 			{
 				label: "What are the PC system requirements?",
@@ -105,8 +105,8 @@ export const siteConfig: GameConfig = {
 		],
 		startHere: [
 			{
-				title: "Halloween: The Game Early Access Time — Sep 4 Unlock Times",
-				description: "Early Access starts Sep 4, 2026 at 9:00 AM PT for Digital Deluxe preorders (four days before the Sep 8 full release). Standard Edition does not include this four-day Advance Access.",
+				title: "Halloween: The Game Release Time — Early Access at 9 AM PT",
+				description: "Early Access unlocks Sep 4, 2026 at 9:00 AM PT for Digital Deluxe purchasers; full launch is Sep 8, 2026 at 9:00 AM PT. Purchasing Digital Deluxe during Early Access still grants Early Access and preorder bonuses through Sep 8, 2026 at 9:00 AM PT. Preload timing varies by storefront — see the preload guide.",
 				href: "/early-access-release-time/",
 				image: "covers/gameplay/extended-first-look.jpg",
 				label: "Early Access",
@@ -120,15 +120,15 @@ export const siteConfig: GameConfig = {
 				label: "Preload status",
 			},
 			{
-				title: "Halloween: The Game — Standard vs Digital Deluxe: Which Edition Should I Buy?",
-				description: "Direct comparison of Standard ($39.99) vs Digital Deluxe ($59.99): what the $20 difference buys, Advance Access timing, upgrade path at launch, and which preorder content is permanently missable.",
+				title: "Halloween: The Game Standard vs Deluxe — Upgrade & Worth It?",
+				description: "Standard $39.99 vs Digital Deluxe $59.99 — $20 difference. Digital Deluxe adds Early Access (Sep 4 9 AM PT), Inmate Michael, Richard & Alexis; Deluxe Upgrade available at launch. Digital Deluxe bought during Early Access still gets Early Access and preorder bonuses through Sep 8 9 AM PT.",
 				href: "/standard-vs-deluxe-upgrade/",
 				image: "covers/characters/jennifer-aarons.jpg",
 				label: "Standard vs Deluxe",
 			},
 			{
-				title: "Halloween: The Game Offline Bots & Private Matches: What's Confirmed",
-				description: "What is officially confirmed about Halloween: The Game offline bots, private matches against AI, and private matches with friends — and which bot-related details still require Advance Access verification.",
+				title: "Halloween: The Game Offline Bots — Private Matches vs AI",
+				description: "Yes — IllFonic confirms private matches against AI and announced offline bot play; network-offline play still needs separate verification. What is confirmed about bots and private matches, and what remains unverified before Advance Access.",
 				href: "/bots-private-lobbies-offline/",
 				image: "covers/michael/police-lurking.jpg",
 				label: "Bots & Private Lobbies",
@@ -1108,9 +1108,9 @@ export const siteConfig: GameConfig = {
 				{
 					pageId: "bots-private-lobbies-offline",
 					href: "/bots-private-lobbies-offline/",
-					title: "Halloween: The Game Offline Bots & Private Matches: What's Confirmed",
-					description: "What is officially confirmed about Halloween: The Game offline bots, private matches against AI, and private matches with friends — and which bot-related details still require Advance Access verification.",
-					eyebrow: "Multiplayer Modes",
+					title: "Halloween: The Game Offline Bots — Private Matches vs AI",
+					description: "Yes — IllFonic confirms private matches against AI and announced offline bot play; network-offline play still needs separate verification. What is confirmed about bots and private matches, and what remains unverified before Advance Access.",
+					eyebrow: "Offline Bots",
 					image: "covers/michael/police-lurking.jpg",
 				},
 				{

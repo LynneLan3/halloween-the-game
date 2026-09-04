@@ -1,0 +1,77 @@
+{
+  "schemaVersion": "hotword-publish-receipt-v1",
+  "common": {
+    "site": "Halloween: The Game",
+    "siteId": "halloween-the-game",
+    "game": "Halloween: The Game",
+    "releaseDate": "2026-09-08",
+    "lifecyclePhase": "pre-release",
+    "batchId": "halloween-the-game-ctr-intent-ownership-20260904",
+    "developmentTaskId": "dev-halloween-the-game-ctr-intent-ownership-20260904",
+    "opportunityId": "opp-halloween-the-game-ctr-intent-ownership-001",
+    "attributionMode": "OBSERVATIONAL_ONLY",
+    "commitSha": "",
+    "deploymentUrl": "",
+    "productionUrl": "https://www.halloweengameguide.wiki/",
+    "deployedAt": "",
+    "sourceRefs": [
+      "https://halloweengame.com/news/halloween-the-game-launch-and-early-access/",
+      "https://halloweengame.com/news/progression-customization-overview/",
+      "https://halloweengame.com/news/preorder/",
+      "dev-halloween-the-game-ctr-intent-ownership-20260904"
+    ]
+  },
+  "interventions": [
+    {
+      "action": "UPDATE_PAGE",
+      "primaryUrl": "/early-access-release-time/",
+      "affectedUrls": [
+        "/early-access-release-time/"
+      ],
+      "developmentTaskId": "dev-halloween-the-game-ctr-intent-ownership-20260904",
+      "triggerType": "gsc_ctr_intent",
+      "triggerQueries": [
+        "halloween the game release time",
+        "halloween the game early access time",
+        "what time does halloween the game come out"
+      ],
+      "triggerSummary": "Baseline 2180 impressions / 1.15% CTR / pos 6.96 — own release-time and Early Access-time SERP entry.",
+      "reason": "CTR intent ownership: Release Time title/meta/quick answer; sync Sep 3 Digital Deluxe-during-EA eligibility; remove Not Announced and Countdown framing.",
+      "changeSummary": "Title/meta/H1/quick answer + Early Access eligibility fact sync; preload secondary linked to /preload-download-status/."
+    },
+    {
+      "action": "UPDATE_PAGE",
+      "primaryUrl": "/standard-vs-deluxe-upgrade/",
+      "affectedUrls": [
+        "/standard-vs-deluxe-upgrade/"
+      ],
+      "developmentTaskId": "dev-halloween-the-game-ctr-intent-ownership-20260904",
+      "triggerType": "gsc_ctr_intent",
+      "triggerQueries": [
+        "halloween the game standard vs deluxe",
+        "halloween the game deluxe upgrade",
+        "is halloween the game deluxe worth it"
+      ],
+      "triggerSummary": "Baseline 1063 impressions / 0.85% CTR / pos 7.05 — own Standard vs Deluxe / upgrade / worth-it SERP entry.",
+      "reason": "CTR intent ownership: Standard vs Deluxe title/meta highlighting $39.99/$59.99/$20, upgrade, Early Access + Inmate/Richard/Alexis; sync Sep 3 Deluxe-during-EA fact.",
+      "changeSummary": "Title/meta/H1/quick answer + remove superseded Not Announced claims about Digital Deluxe purchased during Early Access."
+    },
+    {
+      "action": "UPDATE_PAGE",
+      "primaryUrl": "/bots-private-lobbies-offline/",
+      "affectedUrls": [
+        "/bots-private-lobbies-offline/"
+      ],
+      "developmentTaskId": "dev-halloween-the-game-ctr-intent-ownership-20260904",
+      "triggerType": "gsc_ctr_intent",
+      "triggerQueries": [
+        "halloween the game offline bots",
+        "does halloween the game have bots",
+        "halloween the game bots"
+      ],
+      "triggerSummary": "Baseline 553 impressions / 2.17% CTR / pos 6.73 — own offline bots / bots SERP entry.",
+      "reason": "CTR intent ownership: Offline Bots title/meta answering bots first; confirm private matches against AI; keep network-offline separately unverified.",
+      "changeSummary": "Title/meta/H1/quick answer + remove private-AI-unconfirmed judgment; preserve network-offline verification boundary."
+    }
+  ]
+}

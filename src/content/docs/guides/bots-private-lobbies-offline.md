@@ -1,6 +1,6 @@
 ---
-title: "Halloween: The Game Offline Bots & Private Matches: What's Confirmed"
-description: "What is officially confirmed about Halloween: The Game offline bots, private matches against AI, and private matches with friends — and which bot-related details still require Advance Access verification."
+title: "Halloween: The Game Offline Bots — Private Matches vs AI"
+description: "Yes — IllFonic confirms private matches against AI and announced offline bot play; network-offline play still needs separate verification. What is confirmed about bots and private matches, and what remains unverified before Advance Access."
 category: guides
 slug: bots-private-lobbies-offline
 status: needs-verification
@@ -11,7 +11,7 @@ sidebar:
   order: 5
 intents:
   - bots-private-lobbies-offline
-quickAnswer: IllFonic has officially announced bot play and private matches against AI. Original official announcement wording explicitly described playing against bots offline. The Advance Access / final-build implementation details for bot play have not yet been verified. Story Mode is a separate single-player experience from offline bot play and private matches against AI.
+quickAnswer: "Yes — IllFonic confirms private matches against AI, and early reveal wording described playing against bots offline. Private matches with friends are also announced. Do not assume private AI matches equal fully network-offline play. Story Mode is a separate single-player experience."
 relations:
   -
     slug: multiplayer
@@ -25,21 +25,21 @@ coverMedia:
   kind: cover
   aspectRatio: 16:9
   sourceLabel: Official
-changeSummary: "CONTENT_EXPANSION — linked to multiplayer and single-player pillars."
-eyebrow: Multiplayer Modes
+changeSummary: "CTR INTENT — Offline Bots title/meta; private AI confirmed; network-offline still unverified."
+eyebrow: Offline Bots
 facts:
   -
-    label: Offline bot play
-    value: "Original official announcement wording explicitly described playing against bots offline; Advance Access / final-build implementation details have not yet been verified"
-  -
     label: Private matches against AI
-    value: "IllFonic’s Progression & Customization update explicitly lists private matches against AI as a distinct option"
+    value: "Officially confirmed in IllFonic’s Progression & Customization update"
   -
-    label: Private matches with friends
-    value: "Private lobbies for friends have been officially announced; roles can be specified or randomized"
+    label: Offline bot wording
+    value: "Original official reveal described playing against bots offline; live connection behavior still needs verification"
+  -
+    label: Network-offline
+    value: Not confirmed as zero-network / fully disconnected play
   -
     label: Story Mode
-    value: Story Mode is a separate single-player experience from offline bot play and private matches against AI
+    value: Separate single-player experience from bots / private AI matches
 ---
 <!--
   This file is generated from site-spec.yaml.
@@ -47,63 +47,61 @@ facts:
   Run npm run site:generate instead.
   Source: site-input/pages/bots-private-lobbies-offline.md
 -->
-# Halloween: The Game Offline Bots & Private Matches: What's Confirmed
+# Halloween: The Game Offline Bots — Private Matches vs AI
 
 Quick answer
 
-- IllFonic has officially announced bot play and private matches against AI. The developer’s Progression & Customization update and earlier reveal copy both describe non‑human opponents as part of the game’s play options.
-- Private matches with friends (hosted private lobbies where roles can be specified or randomized) have also been officially announced.
-- Original official announcement wording explicitly described playing against bots offline.
-- The Advance Access / final‑build implementation details for bot play (menu paths, exact bot behavior, rewards, offline/connection behavior) have not yet been verified.
-- Story Mode is a separate single-player experience from offline bot play and private matches against AI.
+- Yes — IllFonic has officially announced bot play: the developer’s Progression & Customization update lists private matches against AI, and early reveal/storefront wording described playing against bots offline.
+- Private matches with friends (hosted private lobbies where roles can be specified or randomized) are also officially announced.
+- Do not assume private matches against AI are the same as guaranteed fully network‑offline/no‑internet play — the game’s connection behavior for offline bot play still needs live-build verification.
+- Story Mode is a separate single‑player experience from private AI matches and (early) offline bot wording.
 
-What IllFonic Has Confirmed About Bots
+What IllFonic has confirmed about bots / AI
 
-- Official statements now list three distinct play options: a single‑player Story Mode, private matches against AI, and online 1v4 multiplayer matchmaking. The Progression & Customization update is the primary source for the private‑match/AI confirmation. [Progression & Customization overview](https://halloweengame.com/news/progression-customization-overview)
-- The game’s original public reveal and storefront copy also described the ability to play against bots (described as offline bot play in early materials). That reveal language establishes bot play as an intended offering from launch messaging. [Gamespot coverage of reveal](https://www.gamespot.com/articles/halloween-the-game-coming-from-friday-the-13th-devs-features-single-player/1100-6534148/)
-- Online multiplayer is confirmed as a 1v4 player structure in official materials and storefront descriptions. [Single & Multiplayer overview](https://halloweengame.com/news/single-and-multiplayer/)
+- IllFonic’s Progression & Customization overview explicitly lists three play options: singleplayer Story Mode, private matches against AI, and online 1v4 matchmaking. The Progression & Customization update is the primary official source for the private‑AI confirmation. (See Sources.)
+- Early reveal and storefront copy also used wording that described playing against bots offline. That language is part of the game’s public messaging and shows the developer intended bot play in messaging prior to launch.
+- Official materials separately confirm online 1v4 multiplayer matchmaking as the core public matchmaking format.
 
-Offline Bots vs Private Matches Against AI
+Offline bots vs private matches against AI (boundary)
 
-- Offline bot play: The game’s reveal messaging described playing against bots offline; that original copy is part of the public record. Evidence shows the developer intended a non‑online/bot play option in early announcements, but the Advance Access build’s exact behavior for “offline” bot play (whether it requires any network connection, how the menus present it, etc.) still needs live verification.
-- Private matches against AI: IllFonic’s more recent Progression & Customization update explicitly lists private matches against AI as a distinct option from Story Mode and online matchmaking. This confirms private‑AI matches as an announced feature, though not all implementation details are published yet.
-- Important: do not assume “offline” equals guaranteed no‑internet execution unless IllFonic explicitly states that in a verification update or storefront notes.
+- Confirmed: IllFonic has announced private matches against AI and used reveal copy that described playing against bots offline.
+- Not confirmed: whether those “offline” references guarantee a fully network‑disconnected experience (no internet required) in the shipping/Advance Access build. Official sources have not yet published explicit wording that confirms zero‑network offline execution.
+- Practical takeaway: treat “private matches against AI” as an officially announced feature, and treat “offline” as developer messaging that still requires verification in a live build to know exact connection requirements and UI presentation.
 
-Private Matches With Friends
+Private matches with friends
 
-- Private lobbies for friends have been officially announced. Coverage of the matchmaking overview explains hosts can make private matches and that role assignment in those private lobbies can be specified or randomized. [Matchmaking overview coverage](https://bloody-disgusting.com/video-games/3965607/new-video-delves-into-halloween-the-game-matchmaking-watch/)
-- Private matches are a separate mode from public 1v4 matchmaking and from Story Mode; the developer lists them as their own option in official resources. [Progression & Customization overview](https://halloweengame.com/news/progression-customization-overview)
+- Private lobbies are an announced option separate from public 1v4 matchmaking and Story Mode. Coverage of the matchmaking materials indicates hosts can create private matches and that role assignment in private lobbies can be specified or randomized (source coverage cited below).
+- The Progression & Customization materials list private matches against AI as a distinct play option; public matchmaking and private lobbies are presented as separate choices in official messaging.
 
-What Is Still Not Confirmed
+What is still not confirmed (items to verify at Advance Access / launch)
 
-The following items remain unverified and should not be assumed until Advance Access / live testing confirms them:
+Do not assume any of the following until live builds are inspected and the developer confirms:
 
-- Exact bot/private‑AI menu path and UI flow.
-- Which side(s) (killer or survivor roles) will be playable against AI in private matches.
-- Whether Michael Myers or any specific playable role can be AI‑controlled.
-- Bot counts per match and bot difficulty or behavior presets.
-- Whether private matches automatically fill empty player slots with bots.
-- Whether public matchmaking will use AI backfill or replace disconnected players with bots.
-- Whether offline/bot play runs without any internet connection in practice.
-- Exact XP, reward, or progression behavior when playing against bots or in private AI matches.
+- Exact menu paths and UI wording for accessing private‑AI matches or any “offline” bot play.
+- Which side(s) (killer or survivor) will be playable against AI in private matches.
+- Whether specific roles (for example, Michael Myers or other killers) are available as AI or require player control.
+- Bot counts per match, bot difficulty levels, or detailed bot behavior.
+- Whether private matches auto‑fill empty player slots with bots.
+- Whether public matchmaking will use AI backfill for disconnects.
+- Whether “offline” bot play can run with zero network connection in practice.
+- Any XP, reward, or progression differences for matches that include bots.
 
 Common mistakes players make reading pre‑release posts
 
-- Thinking private AI matches were only third‑party reports. That is incorrect: IllFonic has officially announced private matches against AI in their Progression & Customization update.
-- Treating Story Mode and bot/private‑AI matches as the same mode. They are listed separately by the developer.
-- Assuming “offline” guarantees no internet connection; the developer’s early reveal used the term but final connection behavior requires verification.
+- Treating private AI matches as only third‑party rumors — incorrect. IllFonic’s Progression & Customization update explicitly lists private matches against AI.
+- Conflating Story Mode with private AI matches — they are listed as separate modes by the developer.
+- Assuming the word “offline” in early reveal copy guarantees no‑internet play at launch — the connection behavior still needs verification.
 - Assuming public matchmaking will automatically use AI backfill or that private lobbies will auto‑fill with bots — neither behavior is confirmed.
 
 Bots vs Story Mode
 
-- Story Mode is a dedicated single‑player campaign experience distinct from both offline bot play and private AI matches. For details on the story campaign itself, see [single-player guide](/single-player/).
+- Story Mode is a dedicated single‑player campaign experience distinct from private AI matches and any offline/bot wording in reveal materials.
+- For more on the Story Mode single‑player campaign, see [single‑player guide](/single-player/).
 
-Launch‑Build Verification
+Launch‑build verification checklist (what this page will confirm when Advance Access / live builds are available)
 
-Once Advance Access / live builds are available, the following categories will be checked and updated on this page:
-
-- Exact menu paths and UI wording for offline/bot play and private‑AI matches.
-- Role/side options in private matches (which sides can be AI‑controlled or player‑controlled).
+- Menu/UI paths and exact wording for private‑AI and any offline/bot modes.
+- Which sides and roles can be AI‑controlled in private matches.
 - Bot counts, difficulty options, and behavior settings.
 - Connection behavior: whether offline play requires any network, whether private lobbies auto‑fill, and whether public matchmaking uses AI backfill.
 - Any reward/XP differences for matches that include bots.

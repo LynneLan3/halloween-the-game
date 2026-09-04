@@ -1,174 +1,154 @@
-# Writer Research Brief: Halloween Early Access Release Time
+# Writer Research Brief: Halloween Release / Early Access Time (CTR Intent Ownership)
 
 ## Page Goal
 
-Update the existing page:
+Update the existing page only:
 https://www.halloweengameguide.wiki/early-access-release-time/
 
-Keep the existing URL. Do not create a new page.
+Keep the existing URL `/early-access-release-time/`. Do not create a new page. Do not change the slug.
 
-Primary intent: **Halloween: The Game early access time**
+This page is the Intent Owner for release-time / Early Access-time queries.
 
-This page must answer exactly when players can play, who gets Advance Access, and how that relates to the full release.
+Baseline (GSC): 2180 impressions / 1.15% CTR / pos 6.96
 
 ---
 
-## Current Search Performance
+## Intent Brief
 
-Observed GSC signal (custom-domain page):
-
-- 215 impressions / 4 clicks
-- CTR 1.86%
-- avg position 6.33
-
-Queries already appearing:
-
-- halloween the game early access time
-- will the halloween game have early access
-- halloween early access
-- when does halloween early access start
-- when is early access for halloween the game
+```json
+{
+  "primaryQuery": "halloween the game release time",
+  "queryCluster": [
+    "halloween the game release time",
+    "halloween the game early access time",
+    "what time does halloween the game come out",
+    "halloween the game early access",
+    "when does halloween early access start"
+  ],
+  "userJob": "Learn the exact Early Access and full-launch unlock times, who can play early, and how that relates to Digital Deluxe eligibility.",
+  "intentOwnerStatus": "KEEP",
+  "serpPromise": "Sep 4, 2026 at 9 AM PT Early Access for Digital Deluxe; Sep 8, 2026 at 9 AM PT full launch — with eligibility and preload pointers.",
+  "secondaryIntents": [
+    { "query": "halloween the game preload", "action": "KEEP_SUPPORTING" },
+    { "query": "halloween the game early access timezone", "action": "KEEP_SUPPORTING" },
+    { "query": "who gets halloween the game early access", "action": "KEEP_SUPPORTING" }
+  ]
+}
+```
 
 ---
 
 ## Primary Intent
 
-Halloween: The Game early access time
+halloween the game release time / early access time / what time does halloween the game come out
 
 ### Secondary Intents
 
-- who gets Advance Access?
-- Standard vs Deluxe (only as needed for access eligibility)
-- how many days early?
-- full launch date
-- timezone conversion
+- preload status (support only; deep detail belongs on {{page:preload-download-status}})
+- regional / timezone conversion
+- who gets Early Access / Digital Deluxe eligibility
 
-Do NOT dilute the page with bots, Steam Deck, Australia store availability, multiplayer details, or general gameplay information.
+Do NOT dilute with bots, Steam Deck, Australia store availability, multiplayer mechanics, or general gameplay.
 
 ---
 
-## Official Facts
+## Official Facts (research date 2026-09-04)
 
-From the official Halloween preorder FAQ (https://halloweengame.com/news/preorder/):
+From [Halloween: The Game Launch and Early Access](https://halloweengame.com/news/halloween-the-game-launch-and-early-access/) (IllFonic, 3 Sep 2026):
 
-- Halloween: The Game Early Access begins Friday, September 4, 2026 at 9:00 AM PT.
-- Early Access is tied to the Digital Deluxe Edition preorder.
-- Standard Edition: $39.99
-- Digital Deluxe Edition: $59.99
-- Full release: September 8, 2026
+- Early Access begins Friday, September 4, 2026 at 9 AM PT.
+- Full launch is Friday, September 8, 2026 at 9 AM PT.
+- Pre-ordering / purchasing the Digital Deluxe Edition grants Early Access.
+- **NEW (supersedes old Not Announced):** Purchasing the Digital Deluxe Edition during the Early Access period still grants Early Access and all preorder bonuses. Preorder bonuses remain available until the game launches on September 8, 2026 at 9 AM PT.
 
-Steam currently confirms (https://store.steampowered.com/app/3219630/Halloween/):
+From [Official Preorder FAQ](https://halloweengame.com/news/preorder/):
 
-- full release Sep 8, 2026
-- Advance Access starts Sep 4
-- Deluxe preorder lets buyers play four days early
+- Digital Standard $39.99; Digital Deluxe $59.99.
+- Early Access tied to Digital Deluxe path.
+- Standard Edition does not include the four-day Advance Access.
 
----
+From Steam (App 3219630): full release Sep 8, 2026; Advance Access starts Sep 4.
 
-## Time Conversion
-
-Official authority: **9:00 AM PT on September 4, 2026**.
-
-Informational conversions:
-
-| Region | Local time |
-| --- | --- |
-| 9:00 AM PDT / Los Angeles | Sep 4, 2026 — 9:00 AM |
-| 12:00 PM EDT / New York | Sep 4, 2026 — 12:00 PM |
-| 4:00 PM UTC | Sep 4, 2026 — 4:00 PM |
-| 5:00 PM BST / UK | Sep 4, 2026 — 5:00 PM |
-| 6:00 PM CEST | Sep 4, 2026 — 6:00 PM |
-| 12:00 AM Sep 5 / China, Singapore | Sep 5, 2026 — 12:00 AM |
-| 1:00 AM Sep 5 / Japan | Sep 5, 2026 — 1:00 AM |
-| 2:00 AM Sep 5 / Sydney (AEST) | Sep 5, 2026 — 2:00 AM |
-
-Use the official 9 AM PT time as authority. Conversions are informational.
+Preload: IllFonic has not published a universal preload schedule in the cited launch/preorder materials. Point readers to {{page:preload-download-status}} rather than inventing preload times or sizes.
 
 ---
 
-## Required Update Direction
+## Superseded Claims — MUST DELETE / REPLACE
 
-The writer should update:
+Remove these outdated judgments:
 
-- SEO title
-- Meta description
-- H1
-- Above-fold Quick Answer
-- Body structure listed below
+- "Whether buying a Deluxe upgrade after the preorder window grants Sep 4 Advance Access is Not Announced"
+- Any claim that Digital Deluxe purchased during Early Access does not grant Early Access / preorder bonuses
+- Any title/meta wording with **Countdown** (rapidly expires)
 
-Title target:
+Replace with the Sep 3 official FAQ: Digital Deluxe purchased during Early Access still grants Early Access + preorder bonuses until Sep 8, 2026 at 9 AM PT.
 
-Halloween: The Game Early Access Time — Sep 4 Unlock Times
+---
 
-Keep the exact phrase **Halloween: The Game Early Access Time** near the front.
+## Title Direction (required)
 
-Do not use: Ultimate Guide, Complete Guide.
+Halloween: The Game Release Time — Early Access at 9 AM PT
 
-Description target — answer:
+Do not use: Countdown, Ultimate Guide, Complete Guide.
 
-- Sep 4
-- 9 AM PT
-- Digital Deluxe preorder
-- Sep 8 full release
+Keep "Release Time" / "Early Access" near the front. H1 must match title.
 
-Do not make the description generic.
+## Meta description (required)
 
-Quick Answer must answer immediately, without background opening:
+Must directly answer:
 
-- Digital Deluxe preorder Early Access starts Sep 4, 2026 at 9:00 AM PT.
-- This is four days before the Sep 8 full release.
-- Standard Edition does not provide this four-day Advance Access.
-- Include the most useful major timezone conversions.
+- Sep 4, 2026 — 9 AM PT Early Access
+- Sep 8, 2026 — 9 AM PT full launch
+- Digital Deluxe eligibility (including purchase during Early Access still qualifies through Sep 8 9 AM PT)
+- Preload status is storefront-check / not a universal published schedule (brief; link preload page in body)
 
-Required body structure:
+## Quick Answer (required — answer-first)
+
+Must lead with unlock times, not background:
+
+1. Early Access: Sep 4, 2026 at 9:00 AM PT for Digital Deluxe.
+2. Full launch: Sep 8, 2026 at 9:00 AM PT.
+3. Digital Deluxe purchased during Early Access still grants Early Access and preorder bonuses until Sep 8, 2026 at 9 AM PT.
+4. Standard Edition does not include the four-day Early Access.
+5. Brief timezone conversions are OK; preload detail → link {{page:preload-download-status}}.
+
+---
+
+## Required body structure (preserve overall shape; update overturned facts)
 
 1. Quick Answer
-2. Halloween: The Game Early Access Time — include compact timezone table
-3. Who Gets Early Access? — Standard vs Digital Deluxe only as needed; link to dedicated edition comparison page
+2. Official unlock times + compact timezone table (authority = 9 AM PT)
+3. Who Gets Early Access? — include Digital Deluxe during Early Access eligibility; link editions page
 4. How Early Is It? — Sep 4 vs Sep 8 = four days
-5. What If the Game Does Not Unlock at 9 AM PT? — keep conservative: restart storefront/client; verify Deluxe entitlement/purchase; check download/update status; allow brief storefront rollout delay. Do not invent platform-specific technical fixes.
-6. Full Release Date — Sep 8, 2026
-7. Sources
+5. What If the Game Does Not Unlock at 9 AM PT? — conservative storefront steps only
+6. Preload pointer → {{page:preload-download-status}}
+7. Full Release Date — Sep 8, 2026 at 9 AM PT
+8. Sources
 
-Do not change the URL.
+Internal links (natural Markdown):
+
+- [edition comparison]({{page:standard-vs-deluxe-upgrade}})
+- [preload download status guide]({{page:preload-download-status}})
+- [Halloween: The Game guide hub]({{hub}})
 
 ---
 
-## Source Rules
+## Sources (Markdown links)
 
-Prefer these Sources as Markdown links:
-
+- [Halloween: The Game Launch and Early Access](https://halloweengame.com/news/halloween-the-game-launch-and-early-access/)
 - [Official Halloween preorder FAQ](https://halloweengame.com/news/preorder/)
 - [Halloween: The Game on Steam](https://store.steampowered.com/app/3219630/Halloween/)
-
-Do not invent new URLs.
-
-Internal page tokens must appear exactly, inside natural Markdown links:
-
-[edition comparison]({{page:standard-vs-deluxe-upgrade}})
-[Halloween: The Game guide hub]({{hub}})
-
-Do not append research-brief headings or token lists to the final page.
 
 ## Must Preserve Exact Tokens
 
 {{page:standard-vs-deluxe-upgrade}}
+{{page:preload-download-status}}
 {{hub}}
-
-## Must Include Facts
-
-- Early Access begins September 4, 2026 at 9:00 AM PT.
-- Early Access is available through the Digital Deluxe Edition preorder.
-- Digital Deluxe gives access four days before the September 8 full release.
-- Standard Edition does not include the four-day Digital Deluxe Advance Access.
-- Full release is September 8, 2026.
 
 ## Forbidden Claims
 
-- Do not state that Early Access has already begun.
-- Do not claim a different unlock time from 9:00 AM PT.
-- Do not imply Standard Edition receives the same four-day Advance Access.
-- Do not claim preload timing unless existing evidence explicitly supports it.
-- Do not claim exact download size.
-- Do not claim platform-specific rollout behavior as confirmed.
-- Do not turn this into a general release-date/gameplay guide.
+- Do not invent a universal preload open time or install size.
+- Do not claim Standard Edition gets the same four-day Early Access.
+- Do not use Countdown framing.
+- Do not invent platform-specific rollout behavior as confirmed.
+- Do not append research headings or bare token lists to the final page.

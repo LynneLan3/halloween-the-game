@@ -4,74 +4,24 @@ description: "Standard $39.99 vs Digital Deluxe $59.99 — $20 difference. Digit
 category: guides
 slug: standard-vs-deluxe-upgrade
 status: needs-verification
-featured: true
-role: core
-assetType: article
-sidebar:
-  order: 3
-intents:
-  - standard-vs-deluxe-upgrade
-quickAnswer: "Standard is $39.99; Digital Deluxe is $59.99 ($20 more) and adds Early Access, Inmate Michael, and civilians Richard & Alexis. A Deluxe Upgrade is available at launch. Digital Deluxe purchased during Early Access still grants Early Access and preorder bonuses through Sep 8, 2026 at 9:00 AM PT. Phantom is preorder-only and is not restored by the upgrade."
-relations:
-  -
-    slug: early-access-release-time
-    type: related
-  -
-    slug: preload-download-status
-    type: related
-  -
-    slug: characters
-    type: next-step
-  -
-    slug: physical-collectors-edition
-    type: related
-  -
-    slug: michael-myers/skins
-    type: related
-cover: ../../../assets/covers/characters/jennifer-aarons.jpg
-coverMedia:
-  alt: Jennifer Aarons character art
-  kind: cover
-  aspectRatio: 16:9
-  sourceLabel: Official
-changeSummary: "CTR INTENT — Standard vs Deluxe title/meta; Digital Deluxe during EA still qualifies; remove Not Announced."
-eyebrow: Editions
-facts:
-  -
-    label: "Edition pricing (USD)"
-    value: "Standard $39.99; Digital Deluxe $59.99 ($20 difference)"
-  -
-    label: Digital Deluxe contents
-    value: "Early Access path; Inmate Michael; Richard & Alexis; comic and other Deluxe extras"
-  -
-    label: Deluxe Upgrade
-    value: "Available at launch; grants Inmate + civilians; does not restore Phantom; upgrade price unannounced"
-  -
-    label: Early Access window
-    value: "Sep 4–Sep 8, 2026 at 9 AM PT; Digital Deluxe bought during EA still qualifies"
 ---
-<!--
-  This file is generated from site-spec.yaml.
-  Do not edit directly.
-  Run npm run site:generate instead.
-  Source: site-input/pages/standard-vs-deluxe-upgrade.md
--->
+
 # Halloween: The Game Standard vs Deluxe — Upgrade & Worth It?
 
 Quick answer
 
 - Price: Standard is $39.99; Digital Deluxe is $59.99 — exactly a $20 difference. The $20 buys the Inmate Michael Myers skin plus the civilians Richard and Alexis and other Deluxe/preorder extras.
 - Upgrade: A Digital Deluxe Edition Upgrade SKU is available at launch so Standard owners can add Deluxe content later; the upgrade price per storefront is unannounced and should not be assumed to equal $20.
-- Early Access & preorder bonuses: Digital Deluxe preorders get Early Access starting Sep 4, 2026 at 9:00 AM PT. Official clarification (Sep 3) says purchasing Digital Deluxe during the Early Access window still grants Early Access and preorder bonuses through Sep 8, 2026 at 9:00 AM PT — see [Advance Access timing](/early-access-release-time/).
+- Early Access & preorder bonuses: Digital Deluxe preorders get Early Access starting Sep 4, 2026 at 9:00 AM PT. Official clarification (Sep 3) says purchasing Digital Deluxe during the Early Access window still grants Early Access and preorder bonuses through Sep 8, 2026 at 9:00 AM PT — see [Advance Access timing]({{page:early-access-release-time}}).
 - Missables: The Phantom Michael Myers skin is a preorder-only item and is not restored by the Deluxe Upgrade.
 
 ## Confirmed
 
 - Prices (official FAQ / storefronts): Standard — **$39.99 USD**; Digital Deluxe — **$59.99 USD** (a $20 difference).
-- Digital Deluxe contents (official FAQ): base game, **Inmate Michael Myers** skin, exclusive civilians **Richard** and **Alexis**, the Deluxe comic and other preorder extras. See the [characters guide](/characters/) and the Michael skin list at [Michael Myers skins](/michael-myers/skins/).
+- Digital Deluxe contents (official FAQ): base game, **Inmate Michael Myers** skin, exclusive civilians **Richard** and **Alexis**, the Deluxe comic and other preorder extras. See the [characters guide]({{page:characters-hub}}) and the Michael skin list at [Michael Myers skins]({{page:michael-myers-skins}}).
 - Deluxe Upgrade: A Digital Deluxe Edition Upgrade SKU exists and will be available at launch; the upgrade price is not announced.
 - Phantom skin: The Phantom Michael Myers skin is a preorder-only item and is not recoverable via the Deluxe Upgrade.
-- Early Access timing: Early Access starts Sep 4, 2026 at 9:00 AM PT and full launch is Sep 8, 2026 at 9:00 AM PT. Official clarification (Sep 3) states purchases of Digital Deluxe during the Early Access window still receive Early Access and preorder bonuses through Sep 8, 2026 at 9:00 AM PT. See [Advance Access timing](/early-access-release-time/).
+- Early Access timing: Early Access starts Sep 4, 2026 at 9:00 AM PT and full launch is Sep 8, 2026 at 9:00 AM PT. Official clarification (Sep 3) states purchases of Digital Deluxe during the Early Access window still receive Early Access and preorder bonuses through Sep 8, 2026 at 9:00 AM PT. See [Advance Access timing]({{page:early-access-release-time}}).
 
 ## Edition comparison (at a glance)
 
@@ -112,7 +62,7 @@ Do not read the table as implying the Deluxe Upgrade restores preorder-only item
 
 ## Early Access (Advance Access) — what changed
 
-- Early Access (Advance Access) schedule: Early Access begins Sep 4, 2026 at 9:00 AM PT; full launch is Sep 8, 2026 at 9:00 AM PT. See [Advance Access timing](/early-access-release-time/).
+- Early Access (Advance Access) schedule: Early Access begins Sep 4, 2026 at 9:00 AM PT; full launch is Sep 8, 2026 at 9:00 AM PT. See [Advance Access timing]({{page:early-access-release-time}}).
 - Official clarification (published Sep 3): Purchasing Digital Deluxe during the Early Access window still grants Early Access and all preorder bonuses through Sep 8, 2026 at 9:00 AM PT.
 - What the clarification does not change: the Phantom skin remains a preorder-only reward and is not restorable by the Deluxe Upgrade. The exact upgrade price remains unannounced.
 
@@ -130,15 +80,15 @@ Do not read the table as implying the Deluxe Upgrade restores preorder-only item
 
 ## Related guides
 
-- Physical & Collector’s editions: [Physical & Collector’s Editions](/physical-collectors-edition/)
-- Michael Myers skins (Phantom / Inmate / others): [Michael Myers skins](/michael-myers/skins/)
-- Characters and civilians: [characters guide](/characters/)
-- Official hub and storefronts: [Halloween: The Game guide hub](/)
+- Physical & Collector’s editions: [Physical & Collector’s Editions]({{page:physical-collectors-edition}})
+- Michael Myers skins (Phantom / Inmate / others): [Michael Myers skins]({{page:michael-myers-skins}})
+- Characters and civilians: [characters guide]({{page:characters-hub}})
+- Official hub and storefronts: [Halloween: The Game guide hub]({{hub}})
 
 ## Sources
 
-- [Official Preorder / FAQ — Halloween: The Game (IllFonic)](https://halloweengame.com/news/preorder/)
-- [Halloween: The Game Launch and Early Access](https://halloweengame.com/news/halloween-the-game-launch-and-early-access/)
-- [Steam store — Halloween: The Game (App ID 3219630)](https://store.steampowered.com/app/3219630/Halloween_The_Game/)
-- [PlayStation Store — Halloween Digital Deluxe](https://store.playstation.com/en-us/product/UP3095-PPSA29340_00-HALLOWEENDELUXED)
-- [Xbox — Halloween Digital Deluxe Upgrade SKU](https://www.xbox.com/en-US/games/store/halloween-digital-deluxe-upgrade/9mt8jbqs8lnr)
+- Official Preorder / FAQ — IllFonic: https://halloweengame.com/news/preorder/
+- Launch and Early Access — IllFonic (Early Access timing / Sep 3 clarification): https://halloweengame.com/news/halloween-the-game-launch-and-early-access/
+- Steam store — Halloween: The Game: https://store.steampowered.com/app/3219630/Halloween_The_Game/
+- PlayStation Store — Halloween Digital Deluxe (storefront listing)
+- Xbox storefront — Halloween Digital Deluxe Upgrade SKU (storefront listing)

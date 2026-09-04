@@ -1,6 +1,6 @@
 ---
-title: "Halloween: The Game Early Access Time — Sep 4 Unlock Times"
-description: "Early Access starts Sep 4, 2026 at 9:00 AM PT for Digital Deluxe preorders (four days before the Sep 8 full release). Standard Edition does not include this four-day Advance Access."
+title: "Halloween: The Game Release Time — Early Access at 9 AM PT"
+description: "Early Access unlocks Sep 4, 2026 at 9:00 AM PT for Digital Deluxe purchasers; full launch is Sep 8, 2026 at 9:00 AM PT. Purchasing Digital Deluxe during Early Access still grants Early Access and preorder bonuses through Sep 8, 2026 at 9:00 AM PT. Preload timing varies by storefront — see the preload guide."
 category: guides
 slug: early-access-release-time
 status: needs-verification
@@ -11,7 +11,7 @@ sidebar:
   order: 1
 intents:
   - early-access-release-time
-quickAnswer: "Digital Deluxe preorder Early Access begins Friday, September 4, 2026 at 9:00 AM PT. This Advance Access is four days before the full release on September 8, 2026. Standard Edition does not include the four-day Digital Deluxe Advance Access."
+quickAnswer: "Early Access for Digital Deluxe unlocks Friday, September 4, 2026 at 9:00 AM PT. Full launch is Friday, September 8, 2026 at 9:00 AM PT. Purchasing Digital Deluxe during Early Access still grants Early Access and preorder bonuses through Sep 8, 2026 at 9:00 AM PT. Standard Edition does not include the four-day Early Access."
 relations:
   -
     slug: preload-download-status
@@ -31,21 +31,21 @@ coverMedia:
   kind: cover
   aspectRatio: 16:9
   sourceLabel: Official
-changeSummary: "V4 pass — Deluxe upgrade Advance Access marked Not Announced; links Preload + Editions."
-eyebrow: Advance Access
+changeSummary: "CTR INTENT — Release Time title/meta; Digital Deluxe during EA still qualifies; remove Not Announced."
+eyebrow: Release Time
 facts:
   -
-    label: Advance Access start
+    label: Early Access start
     value: "Friday, September 4, 2026 — 9:00 AM PT"
   -
-    label: Who gets Advance Access
-    value: "Digital Deluxe Edition preorder; Standard Edition does not include the four-day Advance Access"
+    label: Full launch
+    value: "Friday, September 8, 2026 — 9:00 AM PT"
   -
-    label: How early
-    value: "Four days before the September 8, 2026 full release"
+    label: Who gets Early Access
+    value: "Digital Deluxe path, including purchases during Early Access through Sep 8 9 AM PT; Standard does not include the four-day window"
   -
-    label: Full release date
-    value: "September 8, 2026"
+    label: Preload
+    value: "No universal publisher preload schedule — check your storefront"
 ---
 <!--
   This file is generated from site-spec.yaml.
@@ -53,69 +53,74 @@ facts:
   Run npm run site:generate instead.
   Source: site-input/pages/early-access-release-time.md
 -->
-# Halloween: The Game Early Access Time — Sep 4 Unlock Times
+# Halloween: The Game Release Time — Early Access at 9 AM PT
 
 Quick answer
 
-- Digital Deluxe preorder Early Access begins Friday, September 4, 2026 at 9:00 AM PT.
-- This Advance Access is four days before the full release on September 8, 2026.
-- Standard Edition does not include the four-day Digital Deluxe Advance Access.
-- Helpful conversions (informational): 12:00 PM EDT / 4:00 PM UTC / 5:00 PM BST / 6:00 PM CEST / 12:00 AM Sep 5 China/Singapore / 1:00 AM Sep 5 Japan / 2:00 AM Sep 5 Sydney.
+- Early Access (Digital Deluxe): Friday, September 4, 2026 at 9:00 AM Pacific Time (PT).
+- Full launch: Friday, September 8, 2026 at 9:00 AM PT.
+- Purchasing the Digital Deluxe Edition during the Early Access period still grants Early Access and all preorder bonuses until the game launches on Sep 8, 2026 at 9:00 AM PT.
+- Standard Edition does not include the four-day Early Access.
+- Preload schedules are set by each storefront; check the [preload download status guide](/preload-download-status/) for platform-specific notes.
 
-Halloween: The Game Early Access Time (official authority and conversions)
+Official unlock times + compact timezone table
 
-- Official unlock time (publisher): Friday, September 4, 2026 — 9:00 AM Pacific Time (PT).
-- Conversions (informational):
+- Official publisher unlock time: Friday, September 4, 2026 — 9:00 AM Pacific Time (PT). This is the authoritative time to convert from.
+
+Conversions (informational):
 
 | Region | Unlock time |
 | --- | --- |
-| Los Angeles / PDT | Sep 4, 9:00 AM |
-| New York / EDT | Sep 4, 12:00 PM |
-| UTC | Sep 4, 4:00 PM |
-| UK / BST | Sep 4, 5:00 PM |
-| Central Europe / CEST | Sep 4, 6:00 PM |
-| China / Singapore | Sep 5, 12:00 AM |
-| Japan | Sep 5, 1:00 AM |
-| Sydney / AEST | Sep 5, 2:00 AM |
+| Los Angeles / PT | Sep 4 — 9:00 AM |
+| New York / EDT | Sep 4 — 12:00 PM |
+| UTC | Sep 4 — 4:00 PM |
+| UK / BST | Sep 4 — 5:00 PM |
+| Central Europe / CEST | Sep 4 — 6:00 PM |
+| China / Singapore | Sep 5 — 12:00 AM |
+| Japan | Sep 5 — 1:00 AM |
+| Sydney / AEST | Sep 5 — 2:00 AM |
 
 Who Gets Early Access?
 
-1. Publisher materials tie Early Access to the Digital Deluxe Edition preorder. Buyers who preordered the Digital Deluxe Edition are the confirmed route to play at the Sep 4 Advance Access window.
-2. Standard Edition pre-orders do not include the four-day Advance Access and therefore are not confirmed to unlock on Sep 4.
-3. Whether buying a Deluxe upgrade after the preorder window (or purchasing a post-launch Deluxe SKU) grants the same Sep 4 Advance Access is Not Announced by the publisher. For a comparison of editions and upgrade options, see the [edition comparison](/standard-vs-deluxe-upgrade/).
+1. Early Access is tied to the Digital Deluxe Edition path. The publisher lists Digital Deluxe purchasers as the confirmed route to play on Sep 4 at 9:00 AM PT.
+2. Standard Edition does not include the four-day Early Access and therefore does not unlock on Sep 4 as part of that Advance Access window.
+3. Purchasing the Digital Deluxe Edition during the Early Access period still grants Early Access and preorder bonuses through Sep 8, 2026 at 9:00 AM PT. For a full comparison of editions and upgrade options, see the [edition comparison](/standard-vs-deluxe-upgrade/).
 
-How Early Is It?
+How early is it?
 
-- Digital Deluxe Advance Access on Sep 4, 2026 vs the full release on Sep 8, 2026 = four days of early play for Digital Deluxe preorders.
+- Digital Deluxe Early Access starts Sep 4, 2026 at 9:00 AM PT and the full public release opens Sep 8, 2026 at 9:00 AM PT — a four-day Advance Access window for Digital Deluxe purchasers.
 
-What If the Game Does Not Unlock at 9 AM PT?
+What if the game does not unlock at 9 AM PT?
 
 Follow these steps in order:
 
-1. Confirm you converted 9:00 AM PT to your local timezone correctly.
-2. Restart the storefront or game client you purchased through (Steam, Epic, PlayStation, Xbox) and sign back in.
-3. Verify your purchase or preorder entitlement on the storefront account that made the Digital Deluxe preorder.
-4. Check whether the game shows as downloading, queued, or awaiting an update — allow any downloads or updates to finish.
-5. Allow for a brief storefront rollout delay (storefronts sometimes stagger availability by a few minutes). If the problem persists after the above, check the official preorder FAQ or the publisher’s official channels for any last-minute notices.
+1. Make sure you converted 9:00 AM PT to your local timezone correctly (use the table above as reference).
+2. Restart the storefront or game client (Steam, Epic, PlayStation, Xbox) and sign back in to refresh entitlements.
+3. Verify the purchase or preorder entitlement on the storefront account that made the Digital Deluxe purchase.
+4. Check the client’s download queue — allow any downloads or automatic updates to finish.
+5. If the game still does not unlock after the above, consult the publisher’s official channels or the official preorder FAQ for any notices or troubleshooting steps.
 
 Common mistakes to avoid
 
 - Assuming Standard Edition unlocks early — it does not include the four-day Advance Access.
-- Mixing up timezones — use the official 9:00 AM PT start as your reference.
+- Mixing up timezones — convert from the official 9:00 AM PT start.
 - Not confirming the correct storefront account or preorder entitlement before launch.
 
-What happens next
+Preload note
 
-- Full public release is scheduled for September 8, 2026.
-- The publisher has not announced whether post-preorder Deluxe purchases or launch-day Deluxe upgrades will grant the Sep 4 Advance Access; this remains unconfirmed. Keep an eye on official channels and your storefront account for any updates.
+- The publisher has not published a single universal preload schedule. Preload availability and file sizes vary by storefront and platform. Check the [preload download status guide](/preload-download-status/) for the latest platform-specific preload notes and links.
 
 Full release date
 
-- Official full release: September 8, 2026.
+- Official full release: Friday, September 8, 2026 at 9:00 AM Pacific Time (PT).
 
-If you need more on download/preload status before unlock, see the [preload download status guide](/preload-download-status/). For editions, pricing, and what the Deluxe preorder includes, see the [edition comparison](/standard-vs-deluxe-upgrade/) and the [Halloween: The Game guide hub](/).
+What happens next
+
+- If you intend to get Early Access, purchase the Digital Deluxe Edition before Sep 8, 2026 at 9:00 AM PT; purchases made during the Early Access window continue to grant Early Access and preorder bonuses until the full-launch time. For editions, pricing, and what the Deluxe preorder includes, see the [edition comparison](/standard-vs-deluxe-upgrade/).
+- For general guides and other launch coverage, see the [Halloween: The Game guide hub](/).
 
 Sources
 
+- [Halloween: The Game Launch and Early Access](https://halloweengame.com/news/halloween-the-game-launch-and-early-access/)
 - [Official Halloween preorder FAQ](https://halloweengame.com/news/preorder/)
 - [Halloween: The Game on Steam](https://store.steampowered.com/app/3219630/Halloween/)
