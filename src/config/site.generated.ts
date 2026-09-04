@@ -109,7 +109,7 @@ export const siteConfig: GameConfig = {
 				description: "Early Access unlocks Sep 4, 2026 at 9:00 AM PT for Digital Deluxe purchasers; full launch is Sep 8, 2026 at 9:00 AM PT. Purchasing Digital Deluxe during Early Access still grants Early Access and preorder bonuses through Sep 8, 2026 at 9:00 AM PT. Preload timing varies by storefront — see the preload guide.",
 				href: "/early-access-release-time/",
 				image: "covers/gameplay/extended-first-look.jpg",
-				label: "Early Access",
+				label: "Release time",
 				badge: "Highest priority",
 			},
 			{
