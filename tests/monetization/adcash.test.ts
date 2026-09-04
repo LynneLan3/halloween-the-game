@@ -85,3 +85,18 @@ test('guide-after-answer is not wired to Adsterra AdSlot (no dual banner at test
 	assert.doesNotMatch(experience, /AdSlot|guide-after-answer/);
 	assert.match(footer, /guide-before-related/);
 });
+
+test('Adcash stays enabled while Adsterra soft-offline is off', () => {
+	const monetization = readFileSync(path.join(ROOT, 'src/lib/monetization.ts'), 'utf8');
+	assert.match(monetization, /ADSTERRA_ENABLED\s*=\s*false/);
+	assert.equal(isAdcashEnabled(), true);
+	assert.equal(isAdsEnabled(), true);
+	assert.match(
+		readFileSync(path.join(ROOT, 'src/components/AdcashBanner.astro'), 'utf8'),
+		/runBanner/,
+	);
+	assert.match(
+		readFileSync(path.join(ROOT, 'src/components/AdcashLib.astro'), 'utf8'),
+		/aclib/,
+	);
+});
