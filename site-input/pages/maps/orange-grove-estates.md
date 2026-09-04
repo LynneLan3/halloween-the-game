@@ -19,7 +19,7 @@ IllFonic notes more entrances, windows, and verticality than the modest single-s
 Orange Grove Estates is positioned as a map where:
 
 - Civilians must manage **multiple entrances** and longer lines of sight
-- **Open spaces** (park, courts, streets) create different stalking and escape tension than Town Center's storefront interiors ({{page:maps-haddonfield-town-center}})
+- **Open spaces** (park, courts, streets) create different stalking and escape tension than Town Center's storefront interiors ({{page:maps-haddonfield-town-center}}) or East Haddonfield's rural outskirts ({{page:maps-east-haddonfield}})
 - Environmental interactables and varied routing support the randomized escape and item systems described in the multiplayer overview—see {{page:multiplayer-how-it-works}}
 
 ## Launch verification pending

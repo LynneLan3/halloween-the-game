@@ -24,7 +24,7 @@ Michael's stalking, light manipulation, and execution pressure are part of the s
 
 ## How this map compares
 
-Haddonfield Heights is the most compact of the three revealed maps. Orange Grove Estates ({{page:maps-orange-grove-estates}}) emphasizes larger multi-story homes and longer sightlines; Haddonfield Town Center ({{page:maps-haddonfield-town-center}}) shifts play into named downtown businesses and the cemetery.
+Haddonfield Heights is a compact residential launch map. Orange Grove Estates ({{page:maps-orange-grove-estates}}) emphasizes larger multi-story homes and longer sightlines; Haddonfield Town Center ({{page:maps-haddonfield-town-center}}) shifts play into named downtown businesses and the cemetery; East Haddonfield ({{page:maps-east-haddonfield}}) is the rural outskirts / farmland launch map.
 
 ## Launch verification pending
 

@@ -19,6 +19,9 @@ relations:
   -
     slug: maps/orange-grove-estates
     type: next-step
+  -
+    slug: maps/east-haddonfield
+    type: related
 cover: ../../../../assets/covers/maps/town-center-cemetery.jpg
 coverMedia:
   alt: Haddonfield Cemetery in Town Center map
@@ -64,7 +67,7 @@ Official posts confirm these areas as in-map spaces:
 
 Town Center shifts multiplayer away from purely residential blocks. Civilians still work through the broader objective loop—locating residents, gathering proof, contacting police, and pursuing varied escape options—while Michael pressures the team with stalking, blackout opportunities, and priority targets. See /multiplayer/how-multiplayer-works/.
 
-Compared with Haddonfield Heights (/maps/haddonfield-heights/), Town Center offers denser commercial interiors and named storefront routing. Orange Grove Estates (/maps/orange-grove-estates/) leans into larger suburban homes and park space.
+Compared with Haddonfield Heights (/maps/haddonfield-heights/), Town Center offers denser commercial interiors and named storefront routing. Orange Grove Estates (/maps/orange-grove-estates/) leans into larger suburban homes and park space. East Haddonfield (/maps/east-haddonfield/) is the rural outskirts alternative with The Rabbit in Red Lounge and Phelps Garage.
 
 ## Launch verification pending
 

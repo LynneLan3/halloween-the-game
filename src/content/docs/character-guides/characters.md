@@ -15,6 +15,9 @@ intents:
 quickAnswer: "Standard Edition includes 10 playable Civilians—Jennifer, Tanya, Rachel, Eric, Marcus, Thomas, plus legacy Bob, Lynda, Annie, and Laurie. Digital Deluxe adds Richard and Alexis. Each has unique stats and traits; full numeric tables are launch verification pending."
 relations:
   -
+    slug: progression-perks
+    type: next-step
+  -
     slug: michael-myers
     type: next-step
   -
@@ -29,7 +32,7 @@ coverMedia:
   kind: cover
   aspectRatio: 16:9
   sourceLabel: Official
-changeSummary: "CONTENT_EXPANSION — Characters pillar hub."
+changeSummary: "CONTENT_EXPANSION — Characters pillar hub; links to progression."
 eyebrow: Character Guide
 facts:
   -
@@ -108,6 +111,7 @@ This hub will add `/characters/[name]/` guides when post-launch evidence support
 
 ## How characters connect to other modes
 
+- **Progression & perks:** Civilian Perk Cards, decks, and unlock tracks—/progression-perks/
 - **Multiplayer:** Civilians are the 4-player survivor side in 1v4 matches—/multiplayer/how-multiplayer-works/
 - **Michael Myers:** The Killer players hunt these Civilians—/michael-myers/
 - **Single player:** Story mode is played from Michael's perspective, not as these Civilians—/single-player/

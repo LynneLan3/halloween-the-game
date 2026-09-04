@@ -60,6 +60,7 @@ For ability-by-ability intent and details, see [Michael abilities]({{page:michae
 
 - Progression unlocks new Michael abilities, starting weapons, executions, and skins/tints according to the developer overview.
 - Exact unlock orders, full execution lists, and other progression specifics are pending live-build verification.
+- For the four XP tracks, Civilian Perk Cards, and broader unlock systems, see [progression and perks]({{page:progression-perks}}).
 
 ---
 
@@ -94,6 +95,8 @@ The developer material confirms high-level systems but leaves many live-build de
 ## Related guides
 
 - Abilities: [Michael abilities]({{page:michael-myers-abilities}})
+- Progression & perks: [progression and perks]({{page:progression-perks}})
+- Matchmaking / queues: [matchmaking queue]({{page:multiplayer-matchmaking-queue}})
 - Multiplayer format and roles: [multiplayer guide]({{page:multiplayer-how-it-works}})
 - Story mode (Michael POV): [single-player guide]({{page:single-player-hub}})
 

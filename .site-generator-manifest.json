@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "templateVersion": "2.0.0",
   "generatorVersion": "1.0.0",
-  "specHash": "99e5a5c10339b925c8625180ea6c13b10b8cdd711bd422b65979795032b26f72",
+  "specHash": "8caab6409cb6f56c77017344415b211ef575cc0268dd8e745d89ad04929fac9f",
   "siteId": "halloween-the-game",
   "createdFromSpec": "site-spec.yaml",
   "managedFiles": [
@@ -49,6 +49,21 @@
     {
       "path": "src/assets/covers/halloween-gameplay-2.jpg",
       "sha256": "2ba971d1de7f59053cb0ef5152a0e4da0a1dc2f614ecdd7218d83ed44a896bb3",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/covers/maps/east-haddonfield-phelps.jpg",
+      "sha256": "362865ebe7635d4943c78a51cbbe092d5fa190dfb6d46af8c42fa3f7521a2970",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/covers/maps/east-haddonfield-rabbit-interior.jpg",
+      "sha256": "2c7d1b81469c62e2b0e8bf61f7a9aba4b55a32d00c0d9864514ec2efc9ea83c3",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/covers/maps/east-haddonfield-rabbit-lounge.jpg",
+      "sha256": "044925bfdf06b93dd991eec349f0af0eaa1b8757a10eb31bca3f4596538246b7",
       "kind": "asset"
     },
     {
@@ -117,6 +132,21 @@
       "kind": "asset"
     },
     {
+      "path": "src/assets/covers/progression/po-customization.jpg",
+      "sha256": "ec2410813ae3b53ba5a4c34e2d935620fe8d3c027cdd02da0b7acdd9a391adcc",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/covers/progression/po-perk-cards.jpg",
+      "sha256": "9b0800d74405730cd7cb1dc13bd3d34b200b277b0804f99297bfbaa776077886",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/covers/progression/po-player-customization.jpg",
+      "sha256": "19a9b1f567cf7bd27b13ea97ebdd9bbf6fd25643f4cacda6938490512c385916",
+      "kind": "asset"
+    },
+    {
       "path": "src/assets/hero/halloween-hero.jpg",
       "sha256": "81127fb47124260587083b8409db5a3553d14d60d278c4cd276409aecbf836a7",
       "kind": "asset"
@@ -148,22 +178,22 @@
     },
     {
       "path": "src/config/site.generated.ts",
-      "sha256": "5cb06cf40e4f354a0b8f353b5690104377c933d17c9b22b6dd20f9a509e07012",
+      "sha256": "e91d1c62a43723ad02346ab714b3e0988eab710e5dee583c916a0cc1848cc4c7",
       "kind": "config"
     },
     {
       "path": "src/content/docs/character-guides/characters.md",
-      "sha256": "d9c0ee88c2c31b440983f6c774e4c75604d99d831348abcf2bb32678efb58558",
+      "sha256": "63c08d4e69ccebfd56e3f53eab5aa2434b6cbc372722bbcc2c1252098e52e14b",
       "kind": "page"
     },
     {
       "path": "src/content/docs/guides/bots-private-lobbies-offline.md",
-      "sha256": "dd293a2ae2bc62efcfe902c522eddf1a71415c04427766c361f46959199d33c1",
+      "sha256": "f90d1e1459a20455565d746512da9fd8c4001a8b2e3e7480a1e3383b3d4e8daa",
       "kind": "page"
     },
     {
       "path": "src/content/docs/guides/early-access-release-time.md",
-      "sha256": "69d30f95386c5e53d10236cf5d339584195df6c091a6d3a54ae3cfd49ba279d1",
+      "sha256": "4f7ea2c585783c31f19a01219512078fb09e7619808f28741d4856f0b34fce38",
       "kind": "page"
     },
     {
@@ -172,8 +202,18 @@
       "kind": "page"
     },
     {
+      "path": "src/content/docs/guides/preload-download-status.md",
+      "sha256": "9d4bcf738133178fbfadf2987829bb166e81c1ab8f61c6be19148b680e65c469",
+      "kind": "page"
+    },
+    {
+      "path": "src/content/docs/guides/progression-perks.md",
+      "sha256": "54475ab4bd50fe29789da3efead1cdb60b69517a1cba83f8904c754ca5a20397",
+      "kind": "page"
+    },
+    {
       "path": "src/content/docs/guides/standard-vs-deluxe-upgrade.md",
-      "sha256": "27c2c23bb3cf303368e3e05ff74b905fa18476838b62ca00bc7c3b8f406cb8ef",
+      "sha256": "044b0c6d7cc347ab2e8c522854232c32cfa75dd09115e89a960ebc84a915c36f",
       "kind": "page"
     },
     {
@@ -183,7 +223,7 @@
     },
     {
       "path": "src/content/docs/killer-guides/michael-myers.md",
-      "sha256": "58c97cc6c5a17addcdcefefac57f4f855ceff59ce54467c8f3d32749190d33e9",
+      "sha256": "83c4ed30c50afc602ff9570d1845b74efc2abd1c24ac7df626b459482a80769f",
       "kind": "page"
     },
     {
@@ -193,37 +233,47 @@
     },
     {
       "path": "src/content/docs/map-guides/maps.md",
-      "sha256": "aa831d0a928732b3361fc549b709327dd7b9d60d32363e022e545938bf3b3ee0",
+      "sha256": "f6ffb6e7174c5782c82cb8f081a3cb691bd49d6417308ab740600ba5710ffd96",
+      "kind": "page"
+    },
+    {
+      "path": "src/content/docs/map-guides/maps/east-haddonfield.md",
+      "sha256": "96b4cbe52c61f10d86aae72e050c7f0e21489982515642c07c0d3248e6a6fed3",
       "kind": "page"
     },
     {
       "path": "src/content/docs/map-guides/maps/haddonfield-heights.md",
-      "sha256": "3599a68e13de92ef7b5ea34fb1c8d615b368ab0489e7b284b19768857cf673e6",
+      "sha256": "a718683c48847d4bff1814a5672379d5a66a180d797eeaec046e753b502bcbf7",
       "kind": "page"
     },
     {
       "path": "src/content/docs/map-guides/maps/haddonfield-town-center.md",
-      "sha256": "c65c55ff1d98e5f90a716e0a8d5c95e5ec0c7750a6c38bb954095a29aa8f35ff",
+      "sha256": "61303ac0274400405d2378c165effa85da92a22f4087d9cda11f90287c79ec27",
       "kind": "page"
     },
     {
       "path": "src/content/docs/map-guides/maps/orange-grove-estates.md",
-      "sha256": "a10abb513756a5f8676e44f9b88f63659d5e5c7577ea46fa1541ff7239c77843",
+      "sha256": "9c3a6e8a46f5c396db25e9dbb4058c6657ace1a403eebe8d6f813da87f581a13",
       "kind": "page"
     },
     {
       "path": "src/content/docs/multiplayer-guides/multiplayer.md",
-      "sha256": "58bf4de1024d0c0248a3a6d095e01e7ca01bad6087367fb0a7455b495c2bd6c0",
+      "sha256": "c1af928a562f580e8e45e01675f72f92355db70926776e2cdfe3c97c9504f425",
       "kind": "page"
     },
     {
       "path": "src/content/docs/multiplayer-guides/multiplayer/crossplay.md",
-      "sha256": "3e7b83c0837326a414009d014ec4368bd5061cf2e30d54d3eadfaa07ba7c4223",
+      "sha256": "d79df6de32be9f61b5a82d7391db8d556c589e49cc73129326e047577f96e28a",
       "kind": "page"
     },
     {
       "path": "src/content/docs/multiplayer-guides/multiplayer/how-multiplayer-works.md",
-      "sha256": "ec8ba6334c332501299b5139a02a63905123f07c86d6ec2ff68b59d9141030a0",
+      "sha256": "8342cc724bf56855436a42e428dcb9d5b864b8332027f182944905cfab5df7dc",
+      "kind": "page"
+    },
+    {
+      "path": "src/content/docs/multiplayer-guides/multiplayer/matchmaking-queue.md",
+      "sha256": "9b85c55a0fd54b95a2a88e85ca88f7be7f914b7047d9a65ae11cdc4db5bddb09",
       "kind": "page"
     },
     {
@@ -253,6 +303,30 @@
     }
   ],
   "managedAssets": [
+    {
+      "id": "east-haddonfield-phelps",
+      "target": "covers/maps/east-haddonfield-phelps.jpg",
+      "source": "site-input/assets/covers/maps/east-haddonfield-phelps.jpg",
+      "sha256": "362865ebe7635d4943c78a51cbbe092d5fa190dfb6d46af8c42fa3f7521a2970",
+      "usageStatus": "review-required",
+      "sourceType": "official"
+    },
+    {
+      "id": "east-haddonfield-rabbit-interior",
+      "target": "covers/maps/east-haddonfield-rabbit-interior.jpg",
+      "source": "site-input/assets/covers/maps/east-haddonfield-rabbit-interior.jpg",
+      "sha256": "2c7d1b81469c62e2b0e8bf61f7a9aba4b55a32d00c0d9864514ec2efc9ea83c3",
+      "usageStatus": "review-required",
+      "sourceType": "official"
+    },
+    {
+      "id": "east-haddonfield-rabbit-lounge",
+      "target": "covers/maps/east-haddonfield-rabbit-lounge.jpg",
+      "source": "site-input/assets/covers/maps/east-haddonfield-rabbit-lounge.jpg",
+      "sha256": "044925bfdf06b93dd991eec349f0af0eaa1b8757a10eb31bca3f4596538246b7",
+      "usageStatus": "review-required",
+      "sourceType": "official"
+    },
     {
       "id": "extended-first-look",
       "target": "covers/gameplay/extended-first-look.jpg",
@@ -402,6 +476,30 @@
       "target": "covers/maps/orange-grove-wallace-house.jpg",
       "source": "site-input/assets/covers/maps/orange-grove-wallace-house.jpg",
       "sha256": "877cf3a907e25d7d3051eeade4931769ecee7c42caf801ce0bcf51160466bf18",
+      "usageStatus": "review-required",
+      "sourceType": "official"
+    },
+    {
+      "id": "progression-character-customization",
+      "target": "covers/progression/po-customization.jpg",
+      "source": "site-input/assets/covers/progression/po-customization.jpg",
+      "sha256": "ec2410813ae3b53ba5a4c34e2d935620fe8d3c027cdd02da0b7acdd9a391adcc",
+      "usageStatus": "review-required",
+      "sourceType": "official"
+    },
+    {
+      "id": "progression-perk-cards",
+      "target": "covers/progression/po-perk-cards.jpg",
+      "source": "site-input/assets/covers/progression/po-perk-cards.jpg",
+      "sha256": "9b0800d74405730cd7cb1dc13bd3d34b200b277b0804f99297bfbaa776077886",
+      "usageStatus": "review-required",
+      "sourceType": "official"
+    },
+    {
+      "id": "progression-player-customization",
+      "target": "covers/progression/po-player-customization.jpg",
+      "source": "site-input/assets/covers/progression/po-player-customization.jpg",
+      "sha256": "19a9b1f567cf7bd27b13ea97ebdd9bbf6fd25643f4cacda6938490512c385916",
       "usageStatus": "review-required",
       "sourceType": "official"
     },

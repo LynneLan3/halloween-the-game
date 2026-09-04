@@ -8,7 +8,7 @@ featured: false
 role: core
 assetType: article
 sidebar:
-  order: 3
+  order: 4
 intents:
   - halloween-crossplay
 quickAnswer: "Cross-platform multiplayer is officially indicated on Xbox store listings, and IllFonic confirms PC, PS5, and Xbox Series X|S. A complete PS5 ↔ Xbox ↔ Steam ↔ Epic pairing matrix is not published—treat full crossplay details as launch verification pending."

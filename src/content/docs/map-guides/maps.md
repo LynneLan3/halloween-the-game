@@ -1,6 +1,6 @@
 ---
 title: "Halloween: The Game Maps — All Confirmed Haddonfield Locations"
-description: "Three officially revealed multiplayer maps: Haddonfield Heights, Haddonfield Town Center, and Orange Grove Estates. Landmarks, gameplay traits, and what still needs launch verification."
+description: "Four launch multiplayer maps: Haddonfield Heights, Haddonfield Town Center, Orange Grove Estates, and East Haddonfield. Landmarks, gameplay traits, and what still needs launch verification."
 category: map-guides
 slug: maps
 status: needs-verification
@@ -12,10 +12,13 @@ sidebar:
 intents:
   - halloween-maps
   - how-many-maps
-quickAnswer: "IllFonic has officially revealed three multiplayer maps: Haddonfield Heights, Haddonfield Town Center, and Orange Grove Estates. Exact item spawns, escape routes, and map meta are launch verification pending."
+quickAnswer: "IllFonic launches with four multiplayer maps: Haddonfield Heights, Haddonfield Town Center, Orange Grove Estates, and East Haddonfield. Exact item spawns, escape routes, and map meta are launch verification pending."
 relations:
   -
     slug: maps/haddonfield-heights
+    type: next-step
+  -
+    slug: maps/east-haddonfield
     type: next-step
   -
     slug: multiplayer/how-multiplayer-works
@@ -29,21 +32,21 @@ coverMedia:
   kind: cover
   aspectRatio: 16:9
   sourceLabel: Official
-changeSummary: "CONTENT_EXPANSION — Maps pillar hub."
+changeSummary: "CONTENT_EXPANSION — Maps pillar hub; 4 launch maps including East Haddonfield."
 eyebrow: Maps
 facts:
   -
-    label: Confirmed map count
-    value: 3 maps officially revealed pre-launch
+    label: Launch map count
+    value: 4 multiplayer maps at launch
   -
-    label: First revealed map
-    value: "Haddonfield Heights (residential neighborhood)"
+    label: Residential / town / suburb
+    value: "Haddonfield Heights, Town Center, Orange Grove Estates"
   -
-    label: Town map
-    value: "Haddonfield Town Center (named businesses + cemetery as playspace)"
+    label: Rural outskirts map
+    value: "East Haddonfield — Rabbit in Red Lounge, Phelps Garage, Midwest Feed Company"
   -
-    label: Suburban map
-    value: "Orange Grove Estates (multi-story homes, park, Wallace/Doyle houses)"
+    label: Spawns / meta
+    value: "Exact item spawns, escapes, and map meta are launch verification pending"
 ---
 <!--
   This file is generated from site-spec.yaml.
@@ -53,15 +56,16 @@ facts:
 -->
 # Halloween: The Game Maps — Confirmed Haddonfield Locations
 
-**Confirmed:** IllFonic has officially revealed three multiplayer maps for Halloween: The Game ahead of the September 2026 launch window. All three are set in and around Haddonfield and are intended as playable spaces—not background lore.
+**Confirmed:** IllFonic launches Halloween: The Game with **four** multiplayer maps set in and around Haddonfield. All four are intended as playable spaces—not background lore.
 
 ## How many maps are confirmed?
 
-Three maps are officially announced as of pre-launch research:
+Four maps are officially announced for launch:
 
 1. **Haddonfield Heights** — the first revealed map; a residential neighborhood.
 2. **Haddonfield Town Center** — a downtown commercial district with named storefronts and the cemetery.
 3. **Orange Grove Estates** — a larger upscale suburban map with multi-story homes and open sightlines.
+4. **East Haddonfield** — rural outskirts / farmland with The Rabbit in Red Lounge, Phelps Garage, and Midwest Feed Company.
 
 IllFonic may add more maps after launch. This hub will expand when new maps are officially confirmed.
 
@@ -72,12 +76,14 @@ IllFonic may add more maps after launch. This hub will expand when new maps are 
 | Haddonfield Heights | Modest single-story homes, fenced yards, dim streets | Abandoned Myers house, Haddonfield water tower, Lampkin Lane; PAX demo showed trunk searches, barricading, hiding |
 | Haddonfield Town Center | Downtown Haddonfield businesses | Nichols Hardware, Patty's Pub, A-Side Music Store, Hill Garden Center, Post Office, Margie's Auto Repair, Haddonfield Cemetery—all confirmed as playspace |
 | Orange Grove Estates | Upscale suburban blocks | Multi-story houses, garages, balconies, fences, hedges, chokepoints, neighborhood park, playground, basketball court, Wallace house, Doyle house, vehicles and bikes |
+| East Haddonfield | Rural outskirts / farmland | The Rabbit in Red Lounge, Phelps Garage, Midwest Feed Company; Castle Hill Rooks association; rustic change of scenery vs denser maps |
 
 See each map page for landmark detail and gameplay notes drawn from official posts:
 
 - /maps/haddonfield-heights/
 - /maps/haddonfield-town-center/
 - /maps/orange-grove-estates/
+- /maps/east-haddonfield/
 
 ## What gameplay characteristics are officially known?
 
@@ -105,5 +111,7 @@ These require hands-on verification after Advance Access (September 4, 2026) and
 - [Haddonfield Heights map flythrough — Halloween: The Game](https://halloweengame.com/news/haddonfield-heights-map-flythrough/)
 - [Haddonfield Town Center — Halloween: The Game](https://halloweengame.com/news/haddonfield-town-center/)
 - [Orange Grove Estates — Halloween: The Game](https://halloweengame.com/news/orange-grove-estates/)
+- [The Locations of Halloween: The Game](https://halloweengame.com/news/the-locations-of-halloween-the-game/)
+- [Halloween: The Game Launch and Early Access](https://halloweengame.com/news/halloween-the-game-launch-and-early-access/)
 - [PAX East 2026 — Halloween: The Game](https://halloweengame.com/news/pax-east-2026/)
 - [Multiplayer gameplay overview — Halloween: The Game](https://halloweengame.com/news/multiplayer-gameplay-overview/)

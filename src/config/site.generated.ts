@@ -58,19 +58,29 @@ export const siteConfig: GameConfig = {
 				context: "Deluxe pre-order Advance Access window and timezone.",
 			},
 			{
+				label: "Can I preload Halloween: The Game before Early Access?",
+				href: "/preload-download-status/",
+				context: "Storefront download status vs Sep 4 play unlock.",
+			},
+			{
+				label: "Should I buy Standard or Digital Deluxe?",
+				href: "/standard-vs-deluxe-upgrade/",
+				context: "Edition comparison, upgrade path, and missable Phantom skin.",
+			},
+			{
 				label: "How many maps are in Halloween: The Game?",
 				href: "/maps/",
-				context: "Three confirmed Haddonfield maps at pre-launch.",
+				context: "Four launch Haddonfield maps including East Haddonfield.",
 			},
 			{
-				label: "Who can you play as?",
-				href: "/characters/",
-				context: "10 Standard Civilians plus Deluxe exclusives.",
+				label: "How does matchmaking / the queue work?",
+				href: "/multiplayer/matchmaking-queue/",
+				context: "Role queues, Killer Tokens reporting, and private matches.",
 			},
 			{
-				label: "What abilities does Michael Myers have?",
-				href: "/michael-myers/abilities/",
-				context: "Killer Sense, Stalk, Shape Jump, and blackouts.",
+				label: "How do progression and perks work?",
+				href: "/progression-perks/",
+				context: "Four XP tracks, Perk Cards, and Michael unlocks.",
 			},
 			{
 				label: "How does Halloween multiplayer work?",
@@ -78,24 +88,19 @@ export const siteConfig: GameConfig = {
 				context: "1v4 format, objectives, and replay variety.",
 			},
 			{
-				label: "Does Halloween: The Game have single player?",
-				href: "/single-player/",
-				context: "Six-chapter Michael Myers story mode.",
+				label: "How does Michael Myers work?",
+				href: "/michael-myers/",
+				context: "Killer role, detention rules, and loadout model.",
+			},
+			{
+				label: "Does Halloween: The Game have bots or private lobbies?",
+				href: "/bots-private-lobbies-offline/",
+				context: "Story mode, private AI matches, and offline bots.",
 			},
 			{
 				label: "What are the PC system requirements?",
 				href: "/pc/system-requirements/",
 				context: "Steam minimum and recommended specs.",
-			},
-			{
-				label: "Can I upgrade from Standard to Deluxe later?",
-				href: "/standard-vs-deluxe-upgrade/",
-				context: "Launch upgrade SKU vs Phantom pre-order exclusive.",
-			},
-			{
-				label: "Does Halloween: The Game work on Steam Deck?",
-				href: "/steam-deck/",
-				context: "Windows requirements and verification status.",
 			},
 		],
 		startHere: [
@@ -106,6 +111,13 @@ export const siteConfig: GameConfig = {
 				image: "covers/gameplay/extended-first-look.jpg",
 				label: "Early Access",
 				badge: "Highest priority",
+			},
+			{
+				title: "Halloween: The Game Preload — Can You Download Before Early Access?",
+				description: "What is confirmed about Halloween: The Game preload/download status vs Early Access unlock times — and how to check your storefront when IllFonic has not published a universal preload schedule.",
+				href: "/preload-download-status/",
+				image: "covers/gameplay/extended-first-look.jpg",
+				label: "Preload status",
 			},
 			{
 				title: "Halloween: The Game — Standard vs Digital Deluxe: Which Edition Should I Buy?",
@@ -211,6 +223,10 @@ export const siteConfig: GameConfig = {
 					type: "next-step",
 				},
 				{
+					pageId: "maps-east-haddonfield",
+					type: "next-step",
+				},
+				{
 					pageId: "multiplayer-how-it-works",
 					type: "next-step",
 				},
@@ -239,6 +255,10 @@ export const siteConfig: GameConfig = {
 					pageId: "maps-haddonfield-town-center",
 					type: "next-step",
 				},
+				{
+					pageId: "maps-east-haddonfield",
+					type: "related",
+				},
 			],
 			sources: [
 			],
@@ -260,6 +280,10 @@ export const siteConfig: GameConfig = {
 					pageId: "maps-orange-grove-estates",
 					type: "next-step",
 				},
+				{
+					pageId: "maps-east-haddonfield",
+					type: "related",
+				},
 			],
 			sources: [
 			],
@@ -275,6 +299,43 @@ export const siteConfig: GameConfig = {
 			relations: [
 				{
 					pageId: "maps-hub",
+					type: "related",
+				},
+				{
+					pageId: "maps-east-haddonfield",
+					type: "next-step",
+				},
+				{
+					pageId: "multiplayer-how-it-works",
+					type: "next-step",
+				},
+			],
+			sources: [
+			],
+			evidence: [
+			],
+		},
+		{
+			id: "maps-east-haddonfield",
+			slug: "maps/east-haddonfield",
+			role: "core",
+			assetType: "article",
+			intents: ["east-haddonfield-map"],
+			relations: [
+				{
+					pageId: "maps-hub",
+					type: "related",
+				},
+				{
+					pageId: "maps-haddonfield-heights",
+					type: "related",
+				},
+				{
+					pageId: "maps-haddonfield-town-center",
+					type: "related",
+				},
+				{
+					pageId: "maps-orange-grove-estates",
 					type: "related",
 				},
 				{
@@ -294,6 +355,10 @@ export const siteConfig: GameConfig = {
 			assetType: "article",
 			intents: ["halloween-characters", "playable-characters"],
 			relations: [
+				{
+					pageId: "progression-perks",
+					type: "next-step",
+				},
 				{
 					pageId: "michael-myers-hub",
 					type: "next-step",
@@ -322,6 +387,14 @@ export const siteConfig: GameConfig = {
 				{
 					pageId: "michael-myers-abilities",
 					type: "next-step",
+				},
+				{
+					pageId: "progression-perks",
+					type: "next-step",
+				},
+				{
+					pageId: "multiplayer-matchmaking-queue",
+					type: "related",
 				},
 				{
 					pageId: "multiplayer-how-it-works",
@@ -366,16 +439,20 @@ export const siteConfig: GameConfig = {
 			intents: ["halloween-multiplayer"],
 			relations: [
 				{
-					pageId: "multiplayer-how-it-works",
+					pageId: "multiplayer-matchmaking-queue",
 					type: "next-step",
 				},
 				{
-					pageId: "multiplayer-crossplay",
+					pageId: "multiplayer-how-it-works",
 					type: "next-step",
 				},
 				{
 					pageId: "bots-private-lobbies-offline",
 					type: "related",
+				},
+				{
+					pageId: "multiplayer-crossplay",
+					type: "next-step",
 				},
 			],
 			sources: [
@@ -391,6 +468,10 @@ export const siteConfig: GameConfig = {
 			intents: ["how-multiplayer-works"],
 			relations: [
 				{
+					pageId: "multiplayer-matchmaking-queue",
+					type: "next-step",
+				},
+				{
 					pageId: "multiplayer-crossplay",
 					type: "next-step",
 				},
@@ -400,6 +481,39 @@ export const siteConfig: GameConfig = {
 				},
 				{
 					pageId: "maps-hub",
+					type: "related",
+				},
+				{
+					pageId: "progression-perks",
+					type: "related",
+				},
+			],
+			sources: [
+			],
+			evidence: [
+			],
+		},
+		{
+			id: "multiplayer-matchmaking-queue",
+			slug: "multiplayer/matchmaking-queue",
+			role: "core",
+			assetType: "article",
+			intents: ["matchmaking-queue", "killer-tokens"],
+			relations: [
+				{
+					pageId: "multiplayer-hub",
+					type: "related",
+				},
+				{
+					pageId: "multiplayer-how-it-works",
+					type: "next-step",
+				},
+				{
+					pageId: "bots-private-lobbies-offline",
+					type: "related",
+				},
+				{
+					pageId: "progression-perks",
 					type: "related",
 				},
 			],
@@ -508,15 +622,40 @@ export const siteConfig: GameConfig = {
 			intents: ["early-access-release-time"],
 			relations: [
 				{
+					pageId: "preload-download-status",
+					type: "next-step",
+				},
+				{
+					pageId: "standard-vs-deluxe-upgrade",
+					type: "next-step",
+				},
+				{
 					pageId: "multiplayer-hub",
 					type: "next-step",
 				},
 				{
-					pageId: "multiplayer-crossplay",
+					pageId: "pc-system-requirements",
 					type: "next-step",
 				},
+			],
+			sources: [
+			],
+			evidence: [
+			],
+		},
+		{
+			id: "preload-download-status",
+			slug: "preload-download-status",
+			role: "core",
+			assetType: "article",
+			intents: ["preload-download-status"],
+			relations: [
 				{
-					pageId: "pc-system-requirements",
+					pageId: "early-access-release-time",
+					type: "related",
+				},
+				{
+					pageId: "standard-vs-deluxe-upgrade",
 					type: "next-step",
 				},
 			],
@@ -533,11 +672,44 @@ export const siteConfig: GameConfig = {
 			intents: ["standard-vs-deluxe-upgrade"],
 			relations: [
 				{
+					pageId: "early-access-release-time",
+					type: "related",
+				},
+				{
+					pageId: "preload-download-status",
+					type: "related",
+				},
+				{
 					pageId: "characters-hub",
 					type: "next-step",
 				},
+			],
+			sources: [
+			],
+			evidence: [
+			],
+		},
+		{
+			id: "progression-perks",
+			slug: "progression-perks",
+			role: "core",
+			assetType: "article",
+			intents: ["progression-perks", "perk-cards"],
+			relations: [
 				{
-					pageId: "early-access-release-time",
+					pageId: "michael-myers-hub",
+					type: "next-step",
+				},
+				{
+					pageId: "michael-myers-abilities",
+					type: "related",
+				},
+				{
+					pageId: "characters-hub",
+					type: "related",
+				},
+				{
+					pageId: "multiplayer-how-it-works",
 					type: "related",
 				},
 			],
@@ -632,7 +804,7 @@ export const siteConfig: GameConfig = {
 					pageId: "maps-hub",
 					href: "/maps/",
 					title: "Halloween: The Game Maps — All Confirmed Haddonfield Locations",
-					description: "Three officially revealed multiplayer maps: Haddonfield Heights, Haddonfield Town Center, and Orange Grove Estates. Landmarks, gameplay traits, and what still needs launch verification.",
+					description: "Four launch multiplayer maps: Haddonfield Heights, Haddonfield Town Center, Orange Grove Estates, and East Haddonfield. Landmarks, gameplay traits, and what still needs launch verification.",
 					eyebrow: "Maps",
 					image: "covers/maps/haddonfield-heights-03.jpg",
 				},
@@ -660,11 +832,19 @@ export const siteConfig: GameConfig = {
 					eyebrow: "Map Location",
 					image: "covers/maps/orange-grove-playground.jpg",
 				},
+				{
+					pageId: "maps-east-haddonfield",
+					href: "/maps/east-haddonfield/",
+					title: "East Haddonfield — Halloween: The Game Map Guide",
+					description: "Rural launch map with The Rabbit in Red Lounge, Phelps Garage, and Midwest Feed Company — landmarks and what still needs launch verification.",
+					eyebrow: "Map Location",
+					image: "covers/maps/east-haddonfield-rabbit-lounge.jpg",
+				},
 			],
 			fastAnswers: [
 				{
 					question: "How many maps are in Halloween: The Game?",
-					answer: "Three maps are officially revealed—Haddonfield Heights, Town Center, and Orange Grove Estates.",
+					answer: "Four launch maps—Haddonfield Heights, Town Center, Orange Grove Estates, and East Haddonfield.",
 					pageId: "maps-hub",
 					href: "/maps/",
 				},
@@ -675,10 +855,10 @@ export const siteConfig: GameConfig = {
 					href: "/maps/haddonfield-heights/",
 				},
 				{
-					question: "Which map has the cemetery?",
-					answer: "Haddonfield Town Center includes Haddonfield Cemetery as playable space.",
-					pageId: "maps-haddonfield-town-center",
-					href: "/maps/haddonfield-town-center/",
+					question: "What is on East Haddonfield?",
+					answer: "Rural outskirts map with The Rabbit in Red Lounge, Phelps Garage, and Midwest Feed Company.",
+					pageId: "maps-east-haddonfield",
+					href: "/maps/east-haddonfield/",
 				},
 			],
 		},
@@ -698,6 +878,14 @@ export const siteConfig: GameConfig = {
 					eyebrow: "Character Guide",
 					image: "covers/characters/heroes-of-haddonfield.jpg",
 				},
+				{
+					pageId: "progression-perks",
+					href: "/progression-perks/",
+					title: "Halloween: The Game Progression & Perks — How Unlocks Work",
+					description: "Four progression levels (Profile, Killer, Civilian, Weapon), Civilian Perk Cards and decks, Michael loadout unlocks, and what still needs live-build verification.",
+					eyebrow: "Progression",
+					image: "covers/progression/po-perk-cards.jpg",
+				},
 			],
 			fastAnswers: [
 				{
@@ -711,6 +899,12 @@ export const siteConfig: GameConfig = {
 					answer: "Yes—Laurie Strode and Annie Brackett are confirmed legacy Civilians.",
 					pageId: "characters-hub",
 					href: "/characters/",
+				},
+				{
+					question: "How do Civilian perks and progression work?",
+					answer: "Perk Points roll Perk Cards into Perk Decks; four XP tracks unlock cosmetics and more.",
+					pageId: "progression-perks",
+					href: "/progression-perks/",
 				},
 			],
 		},
@@ -738,6 +932,14 @@ export const siteConfig: GameConfig = {
 					eyebrow: "Killer Abilities",
 					image: "covers/michael/smiths-grove.jpg",
 				},
+				{
+					pageId: "progression-perks",
+					href: "/progression-perks/",
+					title: "Halloween: The Game Progression & Perks — How Unlocks Work",
+					description: "Four progression levels (Profile, Killer, Civilian, Weapon), Civilian Perk Cards and decks, Michael loadout unlocks, and what still needs live-build verification.",
+					eyebrow: "Progression",
+					image: "covers/progression/po-perk-cards.jpg",
+				},
 			],
 			fastAnswers: [
 				{
@@ -758,7 +960,7 @@ export const siteConfig: GameConfig = {
 			id: "multiplayer",
 			eyebrow: "Multiplayer",
 			title: "Multiplayer",
-			description: "1v4 online format, crossplay notes, bots, and match questions.",
+			description: "1v4 online format, matchmaking, crossplay notes, bots, and match questions.",
 			href: "/multiplayer/",
 			visual: "covers/gameplay/rachel-gameplay.png",
 			pages: [
@@ -768,6 +970,14 @@ export const siteConfig: GameConfig = {
 					title: "Halloween: The Game Multiplayer — 1v4 Format & Objectives",
 					description: "Confirmed 1 Michael vs 4 Civilians multiplayer, Civilian and Michael objectives, deputy returns, and replayability notes from IllFonic.",
 					eyebrow: "Multiplayer",
+					image: "covers/gameplay/rachel-gameplay.png",
+				},
+				{
+					pageId: "multiplayer-matchmaking-queue",
+					href: "/multiplayer/matchmaking-queue/",
+					title: "Halloween: The Game Matchmaking Queue — Roles, Tokens & Private Matches",
+					description: "Role-based matchmaking queues, secondary-reported Killer Tokens, private matches with friends, and what remains unknown about AI backfill.",
+					eyebrow: "Matchmaking",
 					image: "covers/gameplay/rachel-gameplay.png",
 				},
 				{
@@ -809,6 +1019,12 @@ export const siteConfig: GameConfig = {
 					answer: "1 Michael vs 4 Civilians with varying escapes, items, and police escalation.",
 					pageId: "multiplayer-how-it-works",
 					href: "/multiplayer/how-multiplayer-works/",
+				},
+				{
+					question: "How does the matchmaking queue work?",
+					answer: "Role queues and private matches are covered; Killer Tokens are secondary-reported; public AI backfill is unknown.",
+					pageId: "multiplayer-matchmaking-queue",
+					href: "/multiplayer/matchmaking-queue/",
 				},
 				{
 					question: "Does Halloween: The Game support crossplay?",

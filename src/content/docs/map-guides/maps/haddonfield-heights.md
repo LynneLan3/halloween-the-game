@@ -19,6 +19,9 @@ relations:
   -
     slug: maps/haddonfield-town-center
     type: next-step
+  -
+    slug: maps/east-haddonfield
+    type: related
 cover: ../../../../assets/covers/maps/haddonfield-heights-02.jpg
 coverMedia:
   alt: Lampkin Lane area on Haddonfield Heights map
@@ -70,7 +73,7 @@ Michael's stalking, light manipulation, and execution pressure are part of the s
 
 ## How this map compares
 
-Haddonfield Heights is the most compact of the three revealed maps. Orange Grove Estates (/maps/orange-grove-estates/) emphasizes larger multi-story homes and longer sightlines; Haddonfield Town Center (/maps/haddonfield-town-center/) shifts play into named downtown businesses and the cemetery.
+Haddonfield Heights is a compact residential launch map. Orange Grove Estates (/maps/orange-grove-estates/) emphasizes larger multi-story homes and longer sightlines; Haddonfield Town Center (/maps/haddonfield-town-center/) shifts play into named downtown businesses and the cemetery; East Haddonfield (/maps/east-haddonfield/) is the rural outskirts / farmland launch map.
 
 ## Launch verification pending
 

@@ -97,7 +97,7 @@ categories:
 pages:
   - id: maps-hub
     title: "Halloween: The Game Maps — All Confirmed Haddonfield Locations"
-    description: "Three officially revealed multiplayer maps: Haddonfield Heights, Haddonfield Town Center, and Orange Grove Estates. Landmarks, gameplay traits, and what still needs launch verification."
+    description: "Four launch multiplayer maps: Haddonfield Heights, Haddonfield Town Center, Orange Grove Estates, and East Haddonfield. Landmarks, gameplay traits, and what still needs launch verification."
     category: map-guides
     slug: maps
     source: site-input/pages/maps.md
@@ -108,26 +108,28 @@ pages:
     intents:
       - halloween-maps
       - how-many-maps
-    quickAnswer: "IllFonic has officially revealed three multiplayer maps: Haddonfield Heights, Haddonfield Town Center, and Orange Grove Estates. Exact item spawns, escape routes, and map meta are launch verification pending."
+    quickAnswer: "IllFonic launches with four multiplayer maps: Haddonfield Heights, Haddonfield Town Center, Orange Grove Estates, and East Haddonfield. Exact item spawns, escape routes, and map meta are launch verification pending."
     eyebrow: "Maps"
     facts:
-      - label: "Confirmed map count"
-        value: "3 maps officially revealed pre-launch"
-      - label: "First revealed map"
-        value: "Haddonfield Heights (residential neighborhood)"
-      - label: "Town map"
-        value: "Haddonfield Town Center (named businesses + cemetery as playspace)"
-      - label: "Suburban map"
-        value: "Orange Grove Estates (multi-story homes, park, Wallace/Doyle houses)"
+      - label: "Launch map count"
+        value: "4 multiplayer maps at launch"
+      - label: "Residential / town / suburb"
+        value: "Haddonfield Heights, Town Center, Orange Grove Estates"
+      - label: "Rural outskirts map"
+        value: "East Haddonfield — Rabbit in Red Lounge, Phelps Garage, Midwest Feed Company"
+      - label: "Spawns / meta"
+        value: "Exact item spawns, escapes, and map meta are launch verification pending"
     coverAssetId: haddonfield-heights-03
     relations:
       - pageId: maps-haddonfield-heights
+        type: next-step
+      - pageId: maps-east-haddonfield
         type: next-step
       - pageId: multiplayer-how-it-works
         type: next-step
       - pageId: michael-myers-hub
         type: related
-    changeSummary: "CONTENT_EXPANSION — Maps pillar hub."
+    changeSummary: "CONTENT_EXPANSION — Maps pillar hub; 4 launch maps including East Haddonfield."
   - id: maps-haddonfield-heights
     title: "Haddonfield Heights — Halloween: The Game Map Guide"
     description: "Official landmarks, PAX-shown Civilian interactions, and launch-pending details for the first revealed Halloween: The Game map."
@@ -155,6 +157,8 @@ pages:
         type: related
       - pageId: maps-haddonfield-town-center
         type: next-step
+      - pageId: maps-east-haddonfield
+        type: related
     changeSummary: "CONTENT_EXPANSION — Haddonfield Heights map guide."
   - id: maps-haddonfield-town-center
     title: "Haddonfield Town Center — Halloween: The Game Map Guide"
@@ -183,6 +187,8 @@ pages:
         type: related
       - pageId: maps-orange-grove-estates
         type: next-step
+      - pageId: maps-east-haddonfield
+        type: related
     changeSummary: "CONTENT_EXPANSION — Haddonfield Town Center map guide."
   - id: maps-orange-grove-estates
     title: "Orange Grove Estates — Halloween: The Game Map Guide"
@@ -209,9 +215,45 @@ pages:
     relations:
       - pageId: maps-hub
         type: related
+      - pageId: maps-east-haddonfield
+        type: next-step
       - pageId: multiplayer-how-it-works
         type: next-step
     changeSummary: "CONTENT_EXPANSION — Orange Grove Estates map guide."
+  - id: maps-east-haddonfield
+    title: "East Haddonfield — Halloween: The Game Map Guide"
+    description: "Rural launch map with The Rabbit in Red Lounge, Phelps Garage, and Midwest Feed Company — landmarks and what still needs launch verification."
+    category: map-guides
+    slug: maps/east-haddonfield
+    source: site-input/pages/maps/east-haddonfield.md
+    status: needs-verification
+    featured: true
+    sidebarOrder: 5
+    role: core
+    intents:
+      - east-haddonfield-map
+    quickAnswer: "East Haddonfield is one of four launch multiplayer maps — a rural outskirts / farmland setting with Midwest Feed Company, The Rabbit in Red Lounge, and Phelps Garage. Exact spawns and escape routes are launch verification pending."
+    eyebrow: "Map Location"
+    facts:
+      - label: "Setting"
+        value: "Rural outskirts / farmland; Midwest Feed Company headquarters"
+      - label: "Landmarks"
+        value: "The Rabbit in Red Lounge, Phelps Garage"
+      - label: "Local color"
+        value: "Castle Hill Rooks biker gang association (official locations copy)"
+    coverAssetId: east-haddonfield-rabbit-lounge
+    relations:
+      - pageId: maps-hub
+        type: related
+      - pageId: maps-haddonfield-heights
+        type: related
+      - pageId: maps-haddonfield-town-center
+        type: related
+      - pageId: maps-orange-grove-estates
+        type: related
+      - pageId: multiplayer-how-it-works
+        type: next-step
+    changeSummary: "INTENT EXPANSION — East Haddonfield launch map guide."
   - id: characters-hub
     title: "Halloween: The Game Characters — All Playable Civilians"
     description: "Standard Edition's 10 Civilians (6 new + 4 legacy), Deluxe exclusives Richard and Alexis, and what IllFonic confirms about unique stats and traits."
@@ -238,13 +280,15 @@ pages:
         value: "Richard and Alexis (Digital Deluxe)"
     coverAssetId: heroes-of-haddonfield
     relations:
+      - pageId: progression-perks
+        type: next-step
       - pageId: michael-myers-hub
         type: next-step
       - pageId: multiplayer-how-it-works
         type: next-step
       - pageId: standard-vs-deluxe-upgrade
         type: related
-    changeSummary: "CONTENT_EXPANSION — Characters pillar hub."
+    changeSummary: "CONTENT_EXPANSION — Characters pillar hub; links to progression."
   - id: michael-myers-hub
     title: "Michael Myers in Halloween: The Game — How the Killer Works"
     description: "How Michael Myers works in Halloween: The Game: 1v4 multiplayer role, detention rules, 2 starting traits + 3 selectable abilities, progression unlocks, and six-chapter single-player Michael."
@@ -272,11 +316,15 @@ pages:
     relations:
       - pageId: michael-myers-abilities
         type: next-step
+      - pageId: progression-perks
+        type: next-step
+      - pageId: multiplayer-matchmaking-queue
+        type: related
       - pageId: multiplayer-how-it-works
         type: next-step
       - pageId: characters-hub
         type: related
-    changeSummary: "CONTENT_EXPANSION — Michael Myers pillar hub."
+    changeSummary: "CONTENT_EXPANSION — Michael Myers pillar hub; links to progression and matchmaking."
   - id: michael-myers-abilities
     title: "Michael Myers Abilities — Killer Sense, Stalk, Shape Jump & Blackouts"
     description: "Official ability descriptions for Michael Myers in Halloween: The Game multiplayer, plus what remains launch verification pending."
@@ -332,13 +380,15 @@ pages:
         value: "Eliminated Civilians may return as Deputy or Dr. Loomis"
     coverAssetId: rachel-gameplay
     relations:
-      - pageId: multiplayer-how-it-works
+      - pageId: multiplayer-matchmaking-queue
         type: next-step
-      - pageId: multiplayer-crossplay
+      - pageId: multiplayer-how-it-works
         type: next-step
       - pageId: bots-private-lobbies-offline
         type: related
-    changeSummary: "CONTENT_EXPANSION — Multiplayer pillar hub."
+      - pageId: multiplayer-crossplay
+        type: next-step
+    changeSummary: "CONTENT_EXPANSION — Multiplayer pillar hub; matchmaking + bots links."
   - id: multiplayer-how-it-works
     title: "How Halloween: The Game Multiplayer Works"
     description: "1 Michael vs 4 Civilians multiplayer loop: 4 maps, Civilian and Michael objectives, private AI matches, and what remains unknown about bot fill."
@@ -364,13 +414,52 @@ pages:
         value: "Automatic private-slot fill and public AI backfill unknown"
     coverAssetId: rachel-gameplay
     relations:
+      - pageId: multiplayer-matchmaking-queue
+        type: next-step
       - pageId: multiplayer-crossplay
         type: next-step
       - pageId: match-length-timer
         type: related
       - pageId: maps-hub
         type: related
+      - pageId: progression-perks
+        type: related
     changeSummary: "CONTENT_EXPANSION — Multiplayer how-it-works guide."
+  - id: multiplayer-matchmaking-queue
+    title: "Halloween: The Game Matchmaking Queue — Roles, Tokens & Private Matches"
+    description: "Role-based matchmaking queues, secondary-reported Killer Tokens, private matches with friends, and what remains unknown about AI backfill."
+    category: multiplayer-guides
+    slug: multiplayer/matchmaking-queue
+    source: site-input/pages/multiplayer/matchmaking-queue.md
+    status: needs-verification
+    featured: true
+    sidebarOrder: 3
+    role: core
+    intents:
+      - matchmaking-queue
+      - killer-tokens
+    quickAnswer: "Online matches are 1 Michael vs 4 Civilians. Private matches with friends are announced (roles can be set or randomized), and private matches against AI are officially listed. Killer Tokens / priority Michael queue access are secondary-reported. Public AI backfill remains unknown."
+    eyebrow: "Matchmaking"
+    facts:
+      - label: "Online format"
+        value: "1 Michael vs 4 Civilians"
+      - label: "Private matches"
+        value: "Friends lobbies announced; roles specified or randomized"
+      - label: "Private AI"
+        value: "Officially listed as a play option"
+      - label: "Killer Tokens"
+        value: "Secondary press reporting of priority Killer queue access"
+    coverAssetId: rachel-gameplay
+    relations:
+      - pageId: multiplayer-hub
+        type: related
+      - pageId: multiplayer-how-it-works
+        type: next-step
+      - pageId: bots-private-lobbies-offline
+        type: related
+      - pageId: progression-perks
+        type: related
+    changeSummary: "INTENT EXPANSION — Matchmaking queue guide."
   - id: multiplayer-crossplay
     title: "Halloween: The Game Crossplay — What Is Officially Confirmed"
     description: "Xbox storefront cross-platform indicators, confirmed platforms, and what not to claim about the full crossplay matrix pre-launch."
@@ -379,7 +468,7 @@ pages:
     source: site-input/pages/multiplayer/crossplay.md
     status: needs-verification
     featured: false
-    sidebarOrder: 3
+    sidebarOrder: 4
     role: core
     intents:
       - halloween-crossplay
@@ -520,13 +609,45 @@ pages:
         value: "September 8, 2026"
     coverAssetId: extended-first-look
     relations:
-      - pageId: multiplayer-hub
+      - pageId: preload-download-status
         type: next-step
-      - pageId: multiplayer-crossplay
+      - pageId: standard-vs-deluxe-upgrade
+        type: next-step
+      - pageId: multiplayer-hub
         type: next-step
       - pageId: pc-system-requirements
         type: next-step
-    changeSummary: "V4 pass — Deluxe upgrade Advance Access marked Not Announced."
+    changeSummary: "V4 pass — Deluxe upgrade Advance Access marked Not Announced; links Preload + Editions."
+  - id: preload-download-status
+    title: "Halloween: The Game Preload — Can You Download Before Early Access?"
+    description: "What is confirmed about Halloween: The Game preload/download status vs Early Access unlock times — and how to check your storefront when IllFonic has not published a universal preload schedule."
+    category: guides
+    slug: preload-download-status
+    source: site-input/pages/preload-download-status.md
+    status: needs-verification
+    featured: true
+    sidebarOrder: 2
+    role: core
+    intents:
+      - preload-download-status
+    quickAnswer: "IllFonic’s cited launch/preorder materials do not publish a universal preload start time or install size. Check your storefront for Preload/Download status. Digital Deluxe Early Access play unlock is Sep 4, 2026 at 9:00 AM PT; full release play unlock is Sep 8, 2026 at 9:00 AM PT."
+    eyebrow: "Preload"
+    facts:
+      - label: "Universal preload schedule"
+        value: "Not clearly confirmed in cited IllFonic launch/preorder materials"
+      - label: "Early Access play unlock"
+        value: "Sep 4, 2026 — 9:00 AM PT (Digital Deluxe path)"
+      - label: "Full release play unlock"
+        value: "Sep 8, 2026 — 9:00 AM PT"
+      - label: "How to verify download"
+        value: "Check Steam / Epic / PlayStation / Xbox product or library page"
+    coverAssetId: extended-first-look
+    relations:
+      - pageId: early-access-release-time
+        type: related
+      - pageId: standard-vs-deluxe-upgrade
+        type: next-step
+    changeSummary: "INTENT EXPANSION — Preload / download status guide."
   - id: standard-vs-deluxe-upgrade
     title: "Halloween: The Game — Standard vs Digital Deluxe: Which Edition Should I Buy?"
     description: "Direct comparison of Standard ($39.99) vs Digital Deluxe ($59.99): what the $20 difference buys, Advance Access timing, upgrade path at launch, and which preorder content is permanently missable."
@@ -535,7 +656,7 @@ pages:
     source: site-input/pages/standard-vs-deluxe-upgrade.md
     status: needs-verification
     featured: true
-    sidebarOrder: 2
+    sidebarOrder: 3
     role: core
     intents:
       - standard-vs-deluxe-upgrade
@@ -550,11 +671,48 @@ pages:
         value: "Phantom skin is pre-order exclusive; Deluxe upgrade at launch grants Inmate + civilians but not Phantom; upgrade Advance Access Not Announced"
     coverAssetId: jennifer-aarons
     relations:
-      - pageId: characters-hub
-        type: next-step
       - pageId: early-access-release-time
         type: related
-    changeSummary: "V4 pass — Deluxe upgrade Advance Access marked Not Announced."
+      - pageId: preload-download-status
+        type: related
+      - pageId: characters-hub
+        type: next-step
+    changeSummary: "V4 pass — Deluxe upgrade Advance Access marked Not Announced; links Preload."
+  - id: progression-perks
+    title: "Halloween: The Game Progression & Perks — How Unlocks Work"
+    description: "Four progression levels (Profile, Killer, Civilian, Weapon), Civilian Perk Cards and decks, Michael loadout unlocks, and what still needs live-build verification."
+    category: guides
+    slug: progression-perks
+    source: site-input/pages/progression-perks.md
+    status: needs-verification
+    featured: true
+    sidebarOrder: 4
+    role: core
+    intents:
+      - progression-perks
+      - perk-cards
+    quickAnswer: "Progression uses four XP tracks — Profile, Killer, Civilian, and Weapon — earned from story, private AI matches, and online 1v4. Civilians roll Perk Cards into Perk Decks; Michael uses 2 starting traits plus 3 selectable abilities, with progression unlocking abilities, weapons, executions, and cosmetics."
+    eyebrow: "Progression"
+    facts:
+      - label: "Progression tracks"
+        value: "Profile, Killer, Civilian, Weapon"
+      - label: "Civilian perks"
+        value: "Perk Points → Perk Cards → Perk Decks"
+      - label: "Michael loadout"
+        value: "2 starting traits + 3 selectable abilities"
+      - label: "Prestige"
+        value: "Available at max level in any of the four categories"
+    coverAssetId: progression-perk-cards
+    relations:
+      - pageId: michael-myers-hub
+        type: next-step
+      - pageId: michael-myers-abilities
+        type: related
+      - pageId: characters-hub
+        type: related
+      - pageId: multiplayer-how-it-works
+        type: related
+    changeSummary: "INTENT EXPANSION — Progression and perks guide."
   - id: bots-private-lobbies-offline
     title: "Halloween: The Game Offline Bots & Private Matches: What's Confirmed"
     description: "What is officially confirmed about Halloween: The Game offline bots, private matches against AI, and private matches with friends — and which bot-related details still require Advance Access verification."
@@ -563,7 +721,7 @@ pages:
     source: site-input/pages/bots-private-lobbies-offline.md
     status: needs-verification
     featured: true
-    sidebarOrder: 3
+    sidebarOrder: 5
     role: core
     intents:
       - bots-private-lobbies-offline
@@ -695,19 +853,20 @@ routes:
     visualAssetId: town-center-main-street
     fastAnswers:
       - question: "How many maps are in Halloween: The Game?"
-        answer: Three maps are officially revealed—Haddonfield Heights, Town Center, and Orange Grove Estates.
+        answer: Four launch maps—Haddonfield Heights, Town Center, Orange Grove Estates, and East Haddonfield.
         pageId: maps-hub
       - question: "What landmarks are on Haddonfield Heights?"
         answer: The Myers house, water tower, and Lampkin Lane are confirmed landmarks.
         pageId: maps-haddonfield-heights
-      - question: "Which map has the cemetery?"
-        answer: Haddonfield Town Center includes Haddonfield Cemetery as playable space.
-        pageId: maps-haddonfield-town-center
+      - question: "What is on East Haddonfield?"
+        answer: Rural outskirts map with The Rabbit in Red Lounge, Phelps Garage, and Midwest Feed Company.
+        pageId: maps-east-haddonfield
     pages:
       - maps-hub
       - maps-haddonfield-heights
       - maps-haddonfield-town-center
       - maps-orange-grove-estates
+      - maps-east-haddonfield
   - id: characters
     eyebrow: "Characters"
     title: "Characters"
@@ -720,8 +879,12 @@ routes:
       - question: "Are Laurie and Annie playable?"
         answer: Yes—Laurie Strode and Annie Brackett are confirmed legacy Civilians.
         pageId: characters-hub
+      - question: "How do Civilian perks and progression work?"
+        answer: Perk Points roll Perk Cards into Perk Decks; four XP tracks unlock cosmetics and more.
+        pageId: progression-perks
     pages:
       - characters-hub
+      - progression-perks
   - id: michael-myers
     eyebrow: "Killer"
     title: "Michael Myers"
@@ -737,20 +900,25 @@ routes:
     pages:
       - michael-myers-hub
       - michael-myers-abilities
+      - progression-perks
   - id: multiplayer
     eyebrow: "Multiplayer"
     title: "Multiplayer"
-    description: "1v4 online format, crossplay notes, bots, and match questions."
+    description: "1v4 online format, matchmaking, crossplay notes, bots, and match questions."
     visualAssetId: rachel-gameplay
     fastAnswers:
       - question: "How does Halloween multiplayer work?"
         answer: 1 Michael vs 4 Civilians with varying escapes, items, and police escalation.
         pageId: multiplayer-how-it-works
+      - question: "How does the matchmaking queue work?"
+        answer: Role queues and private matches are covered; Killer Tokens are secondary-reported; public AI backfill is unknown.
+        pageId: multiplayer-matchmaking-queue
       - question: "Does Halloween: The Game support crossplay?"
         answer: Cross-platform multiplayer is indicated on Xbox; full pairing matrix is launch verification pending.
         pageId: multiplayer-crossplay
     pages:
       - multiplayer-hub
+      - multiplayer-matchmaking-queue
       - multiplayer-how-it-works
       - multiplayer-crossplay
       - bots-private-lobbies-offline
@@ -802,34 +970,39 @@ homepage:
     - label: "What time does Halloween: The Game early access start?"
       context: "Deluxe pre-order Advance Access window and timezone."
       pageId: early-access-release-time
+    - label: "Can I preload Halloween: The Game before Early Access?"
+      context: "Storefront download status vs Sep 4 play unlock."
+      pageId: preload-download-status
+    - label: "Should I buy Standard or Digital Deluxe?"
+      context: "Edition comparison, upgrade path, and missable Phantom skin."
+      pageId: standard-vs-deluxe-upgrade
     - label: "How many maps are in Halloween: The Game?"
-      context: "Three confirmed Haddonfield maps at pre-launch."
+      context: "Four launch Haddonfield maps including East Haddonfield."
       pageId: maps-hub
-    - label: "Who can you play as?"
-      context: "10 Standard Civilians plus Deluxe exclusives."
-      pageId: characters-hub
-    - label: "What abilities does Michael Myers have?"
-      context: "Killer Sense, Stalk, Shape Jump, and blackouts."
-      pageId: michael-myers-abilities
+    - label: "How does matchmaking / the queue work?"
+      context: "Role queues, Killer Tokens reporting, and private matches."
+      pageId: multiplayer-matchmaking-queue
+    - label: "How do progression and perks work?"
+      context: "Four XP tracks, Perk Cards, and Michael unlocks."
+      pageId: progression-perks
     - label: "How does Halloween multiplayer work?"
       context: "1v4 format, objectives, and replay variety."
       pageId: multiplayer-how-it-works
-    - label: "Does Halloween: The Game have single player?"
-      context: "Six-chapter Michael Myers story mode."
-      pageId: single-player-hub
+    - label: "How does Michael Myers work?"
+      context: "Killer role, detention rules, and loadout model."
+      pageId: michael-myers-hub
+    - label: "Does Halloween: The Game have bots or private lobbies?"
+      context: "Story mode, private AI matches, and offline bots."
+      pageId: bots-private-lobbies-offline
     - label: "What are the PC system requirements?"
       context: "Steam minimum and recommended specs."
       pageId: pc-system-requirements
-    - label: "Can I upgrade from Standard to Deluxe later?"
-      context: "Launch upgrade SKU vs Phantom pre-order exclusive."
-      pageId: standard-vs-deluxe-upgrade
-    - label: "Does Halloween: The Game work on Steam Deck?"
-      context: "Windows requirements and verification status."
-      pageId: steam-deck
   startHere:
     - pageId: early-access-release-time
       label: Early Access
       badge: Highest priority
+    - pageId: preload-download-status
+      label: Preload status
     - pageId: standard-vs-deluxe-upgrade
       label: Standard vs Deluxe
     - pageId: bots-private-lobbies-offline
@@ -968,6 +1141,46 @@ assets:
     source: site-input/assets/covers/gameplay/rabbit-in-red-lounge.jpg
     target: covers/gameplay/rabbit-in-red-lounge.jpg
     alt: "Rabbit in Red Lounge interior in Halloween: The Game"
+    sourceType: official
+    usageStatus: review-required
+  - id: east-haddonfield-rabbit-lounge
+    source: site-input/assets/covers/maps/east-haddonfield-rabbit-lounge.jpg
+    target: covers/maps/east-haddonfield-rabbit-lounge.jpg
+    alt: "Rabbit in Red Lounge neon exterior on the East Haddonfield map"
+    sourceType: official
+    usageStatus: review-required
+  - id: east-haddonfield-phelps
+    source: site-input/assets/covers/maps/east-haddonfield-phelps.jpg
+    target: covers/maps/east-haddonfield-phelps.jpg
+    alt: "Phelps Garage on the East Haddonfield outskirts"
+    sourceUrl: https://a.storyblok.com/f/286129504682394/3840x2160/dd6c5713e9/phelps-v2.jpg
+    sourceType: official
+    usageStatus: review-required
+  - id: east-haddonfield-rabbit-interior
+    source: site-input/assets/covers/maps/east-haddonfield-rabbit-interior.jpg
+    target: covers/maps/east-haddonfield-rabbit-interior.jpg
+    alt: "Interior of The Rabbit in Red Lounge bar on East Haddonfield"
+    sourceType: official
+    usageStatus: review-required
+  - id: progression-perk-cards
+    source: site-input/assets/covers/progression/po-perk-cards.jpg
+    target: covers/progression/po-perk-cards.jpg
+    alt: "Official Halloween: The Game Perk Cards menu"
+    sourceUrl: https://a.storyblok.com/f/286129504682394/3840x2160/f0e80a2ba0/po-perk-cards.jpg
+    sourceType: official
+    usageStatus: review-required
+  - id: progression-player-customization
+    source: site-input/assets/covers/progression/po-player-customization.jpg
+    target: covers/progression/po-player-customization.jpg
+    alt: "Official Halloween: The Game player customization screen"
+    sourceUrl: https://a.storyblok.com/f/286129504682394/3840x2160/00c3c7f83b/po-player-customization.jpg
+    sourceType: official
+    usageStatus: review-required
+  - id: progression-character-customization
+    source: site-input/assets/covers/progression/po-customization.jpg
+    target: covers/progression/po-customization.jpg
+    alt: "Official Halloween: The Game character customization and loadout UI"
+    sourceUrl: https://a.storyblok.com/f/286129504682394/3840x2160/1f6955ed5f/po-customization.jpg
     sourceType: official
     usageStatus: review-required
   - id: halloween-hero

@@ -55,6 +55,7 @@ This hub will add `/characters/[name]/` guides when post-launch evidence support
 
 ## How characters connect to other modes
 
+- **Progression & perks:** Civilian Perk Cards, decks, and unlock tracks—{{page:progression-perks}}
 - **Multiplayer:** Civilians are the 4-player survivor side in 1v4 matches—{{page:multiplayer-how-it-works}}
 - **Michael Myers:** The Killer players hunt these Civilians—{{page:michael-myers-hub}}
 - **Single player:** Story mode is played from Michael's perspective, not as these Civilians—{{page:single-player-hub}}

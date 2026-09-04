@@ -14,6 +14,9 @@ intents:
 quickAnswer: "Multiplayer is 1 Michael Myers vs 4 Civilians on 4 maps. Civilians find residents, gather proof, contact police, and pursue randomized escapes; Michael hunts residents and Special Targets. Private matches against AI are officially announced; automatic bot fill and public AI backfill remain unknown."
 relations:
   -
+    slug: multiplayer/matchmaking-queue
+    type: next-step
+  -
     slug: multiplayer/crossplay
     type: next-step
   -
@@ -21,6 +24,9 @@ relations:
     type: related
   -
     slug: maps
+    type: related
+  -
+    slug: progression-perks
     type: related
 cover: ../../../../assets/covers/gameplay/rachel-gameplay.png
 coverMedia:
@@ -106,7 +112,7 @@ Overview: [Michael Myers guide](/michael-myers/) and ability details: [Michael a
 ## Progression (brief)
 
 - Progression unlocks Michael abilities, starting weapons, executions, and cosmetic options such as skins and tints.
-- This page stays brief on progression—see the official progression overview and Michael pages for loadout and unlock details: [Progression & Customization overview — Halloween: The Game](https://halloweengame.com/news/progression-customization-overview/) and [Michael Myers guide](/michael-myers/) / [Michael abilities](/michael-myers/abilities/).
+- This page stays brief on progression—see [progression and perks](/progression-perks/), plus [Michael Myers guide](/michael-myers/) / [Michael abilities](/michael-myers/abilities/).
 
 ## What still needs live-build verification
 
@@ -115,7 +121,7 @@ Official materials confirm core systems but leave implementation details unresol
 - Exact detention timing and full rules for returning Michael to Smith’s Grove.
 - Whether eliminated Civilians always return as Sheriff's Deputy or Dr. Loomis in every circumstance (this return is confirmed as a mechanic, but exact triggers/limits need verification).
 - Automatic bot fill behavior for private lobbies.
-- Public-match AI backfill behavior.
+- Public-match AI backfill behavior (see [matchmaking queue](/multiplayer/matchmaking-queue/)).
 - Match timer/overtime rules, party invite flow, crossplay pairing matrix, and NPC command UI specifics.
 
 ## Common mistakes to avoid
@@ -127,8 +133,10 @@ Official materials confirm core systems but leave implementation details unresol
 ## Related guides
 
 - [multiplayer overview](/multiplayer/)
+- [matchmaking queue](/multiplayer/matchmaking-queue/)
 - [Michael Myers guide](/michael-myers/)
 - [Michael abilities](/michael-myers/abilities/)
+- [progression and perks](/progression-perks/)
 - [maps guide](/maps/)
 - [bots and private matches guide](/bots-private-lobbies-offline/)
 - [crossplay guide](/multiplayer/crossplay/)

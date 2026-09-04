@@ -14,21 +14,24 @@ intents:
 quickAnswer: "Online multiplayer is 1 Michael Myers vs 4 Civilians (up to 5 players). Civilians save residents, contact police, and pursue varied escapes; Michael kills residents and Special Targets. Eliminated Civilians may return as Deputy or Dr. Loomis."
 relations:
   -
-    slug: multiplayer/how-multiplayer-works
+    slug: multiplayer/matchmaking-queue
     type: next-step
   -
-    slug: multiplayer/crossplay
+    slug: multiplayer/how-multiplayer-works
     type: next-step
   -
     slug: bots-private-lobbies-offline
     type: related
+  -
+    slug: multiplayer/crossplay
+    type: next-step
 cover: ../../../assets/covers/gameplay/rachel-gameplay.png
 coverMedia:
   alt: "Civilians in Halloween: The Game multiplayer"
   kind: cover
   aspectRatio: 16:9
   sourceLabel: Official
-changeSummary: "CONTENT_EXPANSION — Multiplayer pillar hub."
+changeSummary: "CONTENT_EXPANSION — Multiplayer pillar hub; matchmaking + bots links."
 eyebrow: Multiplayer
 facts:
   -
@@ -61,7 +64,7 @@ facts:
 | Michael Myers | 1 | Kill residents and priority targets; deny Civilian progress |
 | Civilians | 4 | Save residents, prove Michael is real, escape or detain Michael |
 
-Maps include Haddonfield Heights, Town Center, and Orange Grove Estates—see /maps/.
+Maps include Haddonfield Heights, Town Center, Orange Grove Estates, and East Haddonfield—see /maps/.
 
 ## Civilian objectives (confirmed)
 
@@ -101,10 +104,12 @@ Do not assume fixed routes or spawns—see individual map pages for what remains
 
 ## Related modes & questions
 
+- **Matchmaking / queues:** /multiplayer/matchmaking-queue/
 - **How matches work step by step:** /multiplayer/how-multiplayer-works/
-- **Cross-platform play:** /multiplayer/crossplay/
 - **Bots & private lobbies:** /bots-private-lobbies-offline/
+- **Cross-platform play:** /multiplayer/crossplay/
 - **Match length / timer:** /match-length-timer/
+- **Progression & perks:** /progression-perks/
 - **Offline story (separate mode):** /single-player/
 - **PC / requirements:** /pc/
 
@@ -115,7 +120,7 @@ Not officially documented pre-launch:
 - Exact match timer (see /match-length-timer/)
 - Party / invite flow and voice chat defaults
 - Ranked vs casual queue structure
-- Full private lobby feature set and AI backfill rules
+- Full private lobby feature set and public AI backfill rules (see /multiplayer/matchmaking-queue/)
 
 ## Sources
 

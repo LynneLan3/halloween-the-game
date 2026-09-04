@@ -14,10 +14,13 @@ intents:
 quickAnswer: "Digital Deluxe preorder Early Access begins Friday, September 4, 2026 at 9:00 AM PT. This Advance Access is four days before the full release on September 8, 2026. Standard Edition does not include the four-day Digital Deluxe Advance Access."
 relations:
   -
-    slug: multiplayer
+    slug: preload-download-status
     type: next-step
   -
-    slug: multiplayer/crossplay
+    slug: standard-vs-deluxe-upgrade
+    type: next-step
+  -
+    slug: multiplayer
     type: next-step
   -
     slug: pc/system-requirements
@@ -28,7 +31,7 @@ coverMedia:
   kind: cover
   aspectRatio: 16:9
   sourceLabel: Official
-changeSummary: "V4 pass — Deluxe upgrade Advance Access marked Not Announced."
+changeSummary: "V4 pass — Deluxe upgrade Advance Access marked Not Announced; links Preload + Editions."
 eyebrow: Advance Access
 facts:
   -
@@ -110,7 +113,7 @@ Full release date
 
 - Official full release: September 8, 2026.
 
-If you need more on editions, pricing, and what the Deluxe preorder includes, see the [edition comparison](/standard-vs-deluxe-upgrade/) and the [Halloween: The Game guide hub](/).
+If you need more on download/preload status before unlock, see the [preload download status guide](/preload-download-status/). For editions, pricing, and what the Deluxe preorder includes, see the [edition comparison](/standard-vs-deluxe-upgrade/) and the [Halloween: The Game guide hub](/).
 
 Sources
 

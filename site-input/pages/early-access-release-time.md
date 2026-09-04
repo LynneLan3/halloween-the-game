@@ -66,7 +66,7 @@ Full release date
 
 - Official full release: September 8, 2026.
 
-If you need more on editions, pricing, and what the Deluxe preorder includes, see the [edition comparison]({{page:standard-vs-deluxe-upgrade}}) and the [Halloween: The Game guide hub]({{hub}}).
+If you need more on download/preload status before unlock, see the [preload download status guide]({{page:preload-download-status}}). For editions, pricing, and what the Deluxe preorder includes, see the [edition comparison]({{page:standard-vs-deluxe-upgrade}}) and the [Halloween: The Game guide hub]({{hub}}).
 
 Sources
 

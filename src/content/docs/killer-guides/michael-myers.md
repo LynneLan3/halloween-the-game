@@ -17,6 +17,12 @@ relations:
     slug: michael-myers/abilities
     type: next-step
   -
+    slug: progression-perks
+    type: next-step
+  -
+    slug: multiplayer/matchmaking-queue
+    type: related
+  -
     slug: multiplayer/how-multiplayer-works
     type: next-step
   -
@@ -28,7 +34,7 @@ coverMedia:
   kind: cover
   aspectRatio: 16:9
   sourceLabel: Official
-changeSummary: "CONTENT_EXPANSION — Michael Myers pillar hub."
+changeSummary: "CONTENT_EXPANSION — Michael Myers pillar hub; links to progression and matchmaking."
 eyebrow: Killer Guide
 facts:
   -
@@ -112,6 +118,7 @@ For ability-by-ability intent and details, see [Michael abilities](/michael-myer
 
 - Progression unlocks new Michael abilities, starting weapons, executions, and skins/tints according to the developer overview.
 - Exact unlock orders, full execution lists, and other progression specifics are pending live-build verification.
+- For the four XP tracks, Civilian Perk Cards, and broader unlock systems, see [progression and perks](/progression-perks/).
 
 ---
 
@@ -146,6 +153,8 @@ The developer material confirms high-level systems but leaves many live-build de
 ## Related guides
 
 - Abilities: [Michael abilities](/michael-myers/abilities/)
+- Progression & perks: [progression and perks](/progression-perks/)
+- Matchmaking / queues: [matchmaking queue](/multiplayer/matchmaking-queue/)
 - Multiplayer format and roles: [multiplayer guide](/multiplayer/how-multiplayer-works/)
 - Story mode (Michael POV): [single-player guide](/single-player/)
 

@@ -9,7 +9,7 @@
 | Michael Myers | 1 | Kill residents and priority targets; deny Civilian progress |
 | Civilians | 4 | Save residents, prove Michael is real, escape or detain Michael |
 
-Maps include Haddonfield Heights, Town Center, and Orange Grove Estates—see {{page:maps-hub}}.
+Maps include Haddonfield Heights, Town Center, Orange Grove Estates, and East Haddonfield—see {{page:maps-hub}}.
 
 ## Civilian objectives (confirmed)
 
@@ -49,10 +49,12 @@ Do not assume fixed routes or spawns—see individual map pages for what remains
 
 ## Related modes & questions
 
+- **Matchmaking / queues:** {{page:multiplayer-matchmaking-queue}}
 - **How matches work step by step:** {{page:multiplayer-how-it-works}}
-- **Cross-platform play:** {{page:multiplayer-crossplay}}
 - **Bots & private lobbies:** {{page:bots-private-lobbies-offline}}
+- **Cross-platform play:** {{page:multiplayer-crossplay}}
 - **Match length / timer:** {{page:match-length-timer}}
+- **Progression & perks:** {{page:progression-perks}}
 - **Offline story (separate mode):** {{page:single-player-hub}}
 - **PC / requirements:** {{page:pc-hub}}
 
@@ -63,7 +65,7 @@ Not officially documented pre-launch:
 - Exact match timer (see {{page:match-length-timer}})
 - Party / invite flow and voice chat defaults
 - Ranked vs casual queue structure
-- Full private lobby feature set and AI backfill rules
+- Full private lobby feature set and public AI backfill rules (see {{page:multiplayer-matchmaking-queue}})
 
 ## Sources
 

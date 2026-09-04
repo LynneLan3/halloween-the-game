@@ -8,24 +8,27 @@ featured: true
 role: core
 assetType: article
 sidebar:
-  order: 2
+  order: 3
 intents:
   - standard-vs-deluxe-upgrade
 quickAnswer: "Yes — IllFonic confirms a Digital Deluxe Edition Upgrade at launch that grants the Inmate Michael Myers skin and the two civilians (Richard and Alexis). The Phantom Michael Myers pre-order skin is a separate pre-order exclusive and is not restored by the upgrade. Prices: Standard $39.99, Digital Deluxe $59.99 (USD)."
 relations:
   -
-    slug: characters
-    type: next-step
-  -
     slug: early-access-release-time
     type: related
+  -
+    slug: preload-download-status
+    type: related
+  -
+    slug: characters
+    type: next-step
 cover: ../../../assets/covers/characters/jennifer-aarons.jpg
 coverMedia:
   alt: Jennifer Aarons character art
   kind: cover
   aspectRatio: 16:9
   sourceLabel: Official
-changeSummary: "V4 pass — Deluxe upgrade Advance Access marked Not Announced."
+changeSummary: "V4 pass — Deluxe upgrade Advance Access marked Not Announced; links Preload."
 eyebrow: Editions
 facts:
   -

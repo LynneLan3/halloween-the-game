@@ -8,7 +8,7 @@ featured: true
 role: core
 assetType: article
 sidebar:
-  order: 3
+  order: 5
 intents:
   - bots-private-lobbies-offline
 quickAnswer: IllFonic has officially announced bot play and private matches against AI. Original official announcement wording explicitly described playing against bots offline. The Advance Access / final-build implementation details for bot play have not yet been verified. Story Mode is a separate single-player experience from offline bot play and private matches against AI.

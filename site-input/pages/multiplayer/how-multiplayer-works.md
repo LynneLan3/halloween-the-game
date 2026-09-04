@@ -54,7 +54,7 @@ Overview: [Michael Myers guide]({{page:michael-myers-hub}}) and ability details:
 ## Progression (brief)
 
 - Progression unlocks Michael abilities, starting weapons, executions, and cosmetic options such as skins and tints.
-- This page stays brief on progression—see the official progression overview and Michael pages for loadout and unlock details: [Progression & Customization overview — Halloween: The Game](https://halloweengame.com/news/progression-customization-overview/) and [Michael Myers guide]({{page:michael-myers-hub}}) / [Michael abilities]({{page:michael-myers-abilities}}).
+- This page stays brief on progression—see [progression and perks]({{page:progression-perks}}), plus [Michael Myers guide]({{page:michael-myers-hub}}) / [Michael abilities]({{page:michael-myers-abilities}}).
 
 ## What still needs live-build verification
 
@@ -63,7 +63,7 @@ Official materials confirm core systems but leave implementation details unresol
 - Exact detention timing and full rules for returning Michael to Smith’s Grove.
 - Whether eliminated Civilians always return as Sheriff's Deputy or Dr. Loomis in every circumstance (this return is confirmed as a mechanic, but exact triggers/limits need verification).
 - Automatic bot fill behavior for private lobbies.
-- Public-match AI backfill behavior.
+- Public-match AI backfill behavior (see [matchmaking queue]({{page:multiplayer-matchmaking-queue}})).
 - Match timer/overtime rules, party invite flow, crossplay pairing matrix, and NPC command UI specifics.
 
 ## Common mistakes to avoid
@@ -75,8 +75,10 @@ Official materials confirm core systems but leave implementation details unresol
 ## Related guides
 
 - [multiplayer overview]({{page:multiplayer-hub}})
+- [matchmaking queue]({{page:multiplayer-matchmaking-queue}})
 - [Michael Myers guide]({{page:michael-myers-hub}})
 - [Michael abilities]({{page:michael-myers-abilities}})
+- [progression and perks]({{page:progression-perks}})
 - [maps guide]({{page:maps-hub}})
 - [bots and private matches guide]({{page:bots-private-lobbies-offline}})
 - [crossplay guide]({{page:multiplayer-crossplay}})
