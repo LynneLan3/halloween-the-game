@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "hotword-publish-receipt-v1",
+  "common": {
+    "site": "Halloween: The Game",
+    "siteId": "halloween-the-game",
+    "game": "Halloween: The Game",
+    "releaseDate": "2026-09-08",
+    "lifecyclePhase": "pre-release",
+    "batchId": "halloween-the-game-adsterra-soft-offline-20260904",
+    "opportunityId": "opp-halloween-the-game-adsterra-soft-offline-001",
+    "attributionMode": "OBSERVATIONAL_ONLY",
+    "commitSha": "3072e7ae697a9d9cd16ad7bd16060c8ea074a0cd",
+    "deploymentUrl": "",
+    "productionUrl": "https://www.halloweengameguide.wiki/",
+    "deployedAt": ""
+  },
+  "interventions": [
+    {
+      "action": "MONETIZATION_DISABLE",
+      "primaryUrl": "/",
+      "affectedUrls": [
+        "/",
+        "/guides/",
+        "/routes/",
+        "/michael-myers/",
+        "/maps/",
+        "/characters/",
+        "/multiplayer/",
+        "/single-player/",
+        "/pc/"
+      ],
+      "triggerType": "operator_request",
+      "triggerSummary": "Soft-offline Adsterra / Profitablerate Native Banner while preserving Zone config for quick restore.",
+      "reason": "Stop Adsterra runtime requests and empty slots; keep Adcash Display Banner running.",
+      "changeSummary": "ADSTERRA_ENABLED=false gates AdLoader/AdSlot; preserve invoke.js URL and container ID; Adcash aclib/runBanner unchanged."
+    }
+  ]
+}
