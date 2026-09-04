@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "templateVersion": "2.0.0",
   "generatorVersion": "1.0.0",
-  "specHash": "64154ba5d2824922222d44e9a610eea8a150391727d85d7e0c62d08a90d1190b",
+  "specHash": "a0d264d3b5b5be9ba2741f4ce4f707f2298e2e1a8edb8c27187aff7d9e2e6a5f",
   "siteId": "halloween-the-game",
   "createdFromSpec": "site-spec.yaml",
   "managedFiles": [
@@ -193,7 +193,7 @@
     },
     {
       "path": "src/config/site.generated.ts",
-      "sha256": "97350f2fdf2a785ce04977209157d0ceae2d94eeccffd5e8d283fcded0386138",
+      "sha256": "4ccf252ccd86aace5e10f720a5962e8a8135e6c10f5ad74149f9108538f71259",
       "kind": "config"
     },
     {
@@ -263,27 +263,27 @@
     },
     {
       "path": "src/content/docs/map-guides/maps.md",
-      "sha256": "f6ffb6e7174c5782c82cb8f081a3cb691bd49d6417308ab740600ba5710ffd96",
+      "sha256": "dfef06f52e935b5e7a3e463e0d321704c32809750416a2007a6a5c857701a3b7",
       "kind": "page"
     },
     {
       "path": "src/content/docs/map-guides/maps/east-haddonfield.md",
-      "sha256": "96b4cbe52c61f10d86aae72e050c7f0e21489982515642c07c0d3248e6a6fed3",
+      "sha256": "dd342cdc646b171d8e4dddbc9b70b5d6998a419b30993279162de66a31fa1439",
       "kind": "page"
     },
     {
       "path": "src/content/docs/map-guides/maps/haddonfield-heights.md",
-      "sha256": "a718683c48847d4bff1814a5672379d5a66a180d797eeaec046e753b502bcbf7",
+      "sha256": "4247fe514bc274a79bf098350f8c2e02a92389d34ddbba8599c28de8cebf42ed",
       "kind": "page"
     },
     {
       "path": "src/content/docs/map-guides/maps/haddonfield-town-center.md",
-      "sha256": "61303ac0274400405d2378c165effa85da92a22f4087d9cda11f90287c79ec27",
+      "sha256": "438a309573691f1e06a852edd3b0f6debead39d903c22fe2ad4c7eb95728c576",
       "kind": "page"
     },
     {
       "path": "src/content/docs/map-guides/maps/orange-grove-estates.md",
-      "sha256": "9c3a6e8a46f5c396db25e9dbb4058c6657ace1a403eebe8d6f813da87f581a13",
+      "sha256": "8b768663e1ae285b02ad3fa875789439c70a4ce314d035b6ad45b1853e5870a2",
       "kind": "page"
     },
     {
@@ -298,7 +298,7 @@
     },
     {
       "path": "src/content/docs/multiplayer-guides/multiplayer/how-multiplayer-works.md",
-      "sha256": "8342cc724bf56855436a42e428dcb9d5b864b8332027f182944905cfab5df7dc",
+      "sha256": "a683a00f540322ac838d0124d6254d6631380b3774e771c230034441c665b3df",
       "kind": "page"
     },
     {

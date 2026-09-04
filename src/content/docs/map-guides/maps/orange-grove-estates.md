@@ -61,15 +61,17 @@ Official materials highlight:
 - A **neighborhood park** with a **playground** and **basketball court**
 - **Vehicles and bikes** scattered through the streets
 
-IllFonic notes more entrances, windows, and verticality than the modest single-story homes on Haddonfield Heights (/maps/haddonfield-heights/).
+IllFonic notes more entrances, windows, and verticality than the modest single-story homes on [Haddonfield Heights](/maps/haddonfield-heights/).
 
 ## Gameplay characteristics (official)
 
 Orange Grove Estates is positioned as a map where:
 
 - Civilians must manage **multiple entrances** and longer lines of sight
-- **Open spaces** (park, courts, streets) create different stalking and escape tension than Town Center's storefront interiors (/maps/haddonfield-town-center/) or East Haddonfield's rural outskirts (/maps/east-haddonfield/)
-- Environmental interactables and varied routing support the randomized escape and item systems described in the multiplayer overview—see /multiplayer/how-multiplayer-works/
+- **Open spaces** (park, courts, streets) create different stalking and escape tension than [Haddonfield Town Center](/maps/haddonfield-town-center/)'s storefront interiors or [East Haddonfield](/maps/east-haddonfield/)'s rural outskirts
+- Environmental interactables and varied routing support the randomized escape and item systems described in the multiplayer overview—see [how multiplayer works](/multiplayer/how-multiplayer-works/)
+
+See [all 4 Halloween: The Game launch maps](/maps/).
 
 ## Launch verification pending
 

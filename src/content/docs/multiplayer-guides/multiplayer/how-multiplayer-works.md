@@ -69,7 +69,7 @@ Quick Answer
 ## The basic multiplayer loop
 
 1. Lobby: up to 5 players — 1 Michael, 4 Civilians (see [multiplayer overview](/multiplayer/)).
-2. Map load: one of the four revealed multiplayer maps (see [maps guide](/maps/)).
+2. Map load: one of [all four launch maps](/maps/).
 3. Civilian phase work: Civilians search, rally NPCs/police, and pursue an escape or detention plan.
 4. Michael pressure: Michael stalks, blackouts areas, and targets residents and Special Targets (see [Michael abilities](/michael-myers/abilities/)).
 5. End state: Civilians either complete escape/detention objectives, or Michael prevents their progress and wins.
@@ -137,7 +137,7 @@ Official materials confirm core systems but leave implementation details unresol
 - [Michael Myers guide](/michael-myers/)
 - [Michael abilities](/michael-myers/abilities/)
 - [progression and perks](/progression-perks/)
-- [maps guide](/maps/)
+- [all four launch maps](/maps/)
 - [bots and private matches guide](/bots-private-lobbies-offline/)
 - [crossplay guide](/multiplayer/crossplay/)
 

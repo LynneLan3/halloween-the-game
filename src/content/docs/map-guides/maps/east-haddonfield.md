@@ -85,7 +85,7 @@ How this map compares
   - [Haddonfield Town Center](/maps/haddonfield-town-center/)
   - [Haddonfield Heights](/maps/haddonfield-heights/)
   - [Orange Grove Estates](/maps/orange-grove-estates/)
-  - Full maps hub: [Maps hub](/maps/)
+  - [all 4 Halloween: The Game launch maps](/maps/)
 
 Launch verification pending
 - The developer has not published exact item/phone/key spawn points, fixed escape routes, resident spawn tables, or map meta. Those details are launch verification pending and will need to be observed and confirmed during early access/launch gameplay.
@@ -97,7 +97,6 @@ Launch verification pending
 Related guides
 - Overview of how multiplayer works: [How multiplayer works](/multiplayer/how-multiplayer-works/)
 - See the other launch maps: [Haddonfield Town Center](/maps/haddonfield-town-center/), [Haddonfield Heights](/maps/haddonfield-heights/), [Orange Grove Estates](/maps/orange-grove-estates/)
-- Main maps hub: [Maps hub](/maps/)
 
 Sources
 - [The Locations of Halloween: The Game](https://halloweengame.com/news/the-locations-of-halloween-the-game/)  

@@ -96,8 +96,8 @@ categories:
 
 pages:
   - id: maps-hub
-    title: "Halloween: The Game Maps — All Confirmed Haddonfield Locations"
-    description: "Four launch multiplayer maps: Haddonfield Heights, Haddonfield Town Center, Orange Grove Estates, and East Haddonfield. Landmarks, gameplay traits, and what still needs launch verification."
+    title: "Halloween: The Game Maps — All 4 Launch Maps & Locations"
+    description: "Halloween: The Game launches with 4 multiplayer maps: Haddonfield Heights, Haddonfield Town Center, Orange Grove Estates, and East Haddonfield. Compare confirmed landmarks and settings."
     category: map-guides
     slug: maps
     source: site-input/pages/maps.md
@@ -108,15 +108,15 @@ pages:
     intents:
       - halloween-maps
       - how-many-maps
-    quickAnswer: "IllFonic launches with four multiplayer maps: Haddonfield Heights, Haddonfield Town Center, Orange Grove Estates, and East Haddonfield. Exact item spawns, escape routes, and map meta are launch verification pending."
+    quickAnswer: "Halloween: The Game launches with 4 multiplayer maps: Haddonfield Heights, Haddonfield Town Center, Orange Grove Estates, and East Haddonfield."
     eyebrow: "Maps"
     facts:
       - label: "Launch map count"
         value: "4 multiplayer maps at launch"
-      - label: "Residential / town / suburb"
-        value: "Haddonfield Heights, Town Center, Orange Grove Estates"
-      - label: "Rural outskirts map"
-        value: "East Haddonfield — Rabbit in Red Lounge, Phelps Garage, Midwest Feed Company"
+      - label: "All launch maps"
+        value: "Haddonfield Heights, Haddonfield Town Center, Orange Grove Estates, East Haddonfield"
+      - label: "What this hub covers"
+        value: "Confirmed settings, landmarks, and links to each map guide"
       - label: "Spawns / meta"
         value: "Exact item spawns, escapes, and map meta are launch verification pending"
     coverAssetId: haddonfield-heights-03
@@ -129,7 +129,7 @@ pages:
         type: next-step
       - pageId: michael-myers-hub
         type: related
-    changeSummary: "CONTENT_EXPANSION — Maps pillar hub; 4 launch maps including East Haddonfield."
+    changeSummary: "INTENT CAPTURE — /maps/ owns map-count and map-list queries; All 4 launch maps framing."
   - id: maps-haddonfield-heights
     title: "Haddonfield Heights — Halloween: The Game Map Guide"
     description: "Official landmarks, PAX-shown Civilian interactions, and launch-pending details for the first revealed Halloween: The Game map."
@@ -965,7 +965,7 @@ routes:
     visualAssetId: town-center-main-street
     fastAnswers:
       - question: "How many maps are in Halloween: The Game?"
-        answer: Four launch maps—Haddonfield Heights, Town Center, Orange Grove Estates, and East Haddonfield.
+        answer: "4 launch multiplayer maps: Haddonfield Heights, Haddonfield Town Center, Orange Grove Estates, and East Haddonfield."
         pageId: maps-hub
       - question: "What landmarks are on Haddonfield Heights?"
         answer: The Myers house, water tower, and Lampkin Lane are confirmed landmarks.
@@ -1093,7 +1093,7 @@ homepage:
       context: "Edition comparison, upgrade path, and missable Phantom skin."
       pageId: standard-vs-deluxe-upgrade
     - label: "How many maps are in Halloween: The Game?"
-      context: "Four launch Haddonfield maps including East Haddonfield."
+      context: "4 launch multiplayer maps: Haddonfield Heights, Haddonfield Town Center, Orange Grove Estates, and East Haddonfield."
       pageId: maps-hub
     - label: "How does matchmaking / the queue work?"
       context: "Role queues, Killer Tokens reporting, and private matches."

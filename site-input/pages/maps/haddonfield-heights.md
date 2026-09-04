@@ -20,11 +20,13 @@ The PAX East 2026 coverage and map materials show Civilians:
 - Using **escape routes** and environmental cover
 - **Barricading houses** and **hiding** while managing resident objectives
 
-Michael's stalking, light manipulation, and execution pressure are part of the same sessions—see {{page:michael-myers-abilities}} and {{page:multiplayer-how-it-works}}.
+Michael's stalking, light manipulation, and execution pressure are part of the same sessions—see [Michael abilities]({{page:michael-myers-abilities}}) and [how multiplayer works]({{page:multiplayer-how-it-works}}).
 
 ## How this map compares
 
-Haddonfield Heights is a compact residential launch map. Orange Grove Estates ({{page:maps-orange-grove-estates}}) emphasizes larger multi-story homes and longer sightlines; Haddonfield Town Center ({{page:maps-haddonfield-town-center}}) shifts play into named downtown businesses and the cemetery; East Haddonfield ({{page:maps-east-haddonfield}}) is the rural outskirts / farmland launch map.
+Haddonfield Heights is a compact residential launch map. [Orange Grove Estates]({{page:maps-orange-grove-estates}}) emphasizes larger multi-story homes and longer sightlines; [Haddonfield Town Center]({{page:maps-haddonfield-town-center}}) shifts play into named downtown businesses and the cemetery; [East Haddonfield]({{page:maps-east-haddonfield}}) is the rural outskirts / farmland launch map.
+
+See [all 4 Halloween: The Game launch maps]({{page:maps-hub}}).
 
 ## Launch verification pending
 

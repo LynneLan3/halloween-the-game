@@ -70,7 +70,7 @@ export const siteConfig: GameConfig = {
 			{
 				label: "How many maps are in Halloween: The Game?",
 				href: "/maps/",
-				context: "Four launch Haddonfield maps including East Haddonfield.",
+				context: "4 launch multiplayer maps: Haddonfield Heights, Haddonfield Town Center, Orange Grove Estates, and East Haddonfield.",
 			},
 			{
 				label: "How does matchmaking / the queue work?",
@@ -898,8 +898,8 @@ export const siteConfig: GameConfig = {
 				{
 					pageId: "maps-hub",
 					href: "/maps/",
-					title: "Halloween: The Game Maps — All Confirmed Haddonfield Locations",
-					description: "Four launch multiplayer maps: Haddonfield Heights, Haddonfield Town Center, Orange Grove Estates, and East Haddonfield. Landmarks, gameplay traits, and what still needs launch verification.",
+					title: "Halloween: The Game Maps — All 4 Launch Maps & Locations",
+					description: "Halloween: The Game launches with 4 multiplayer maps: Haddonfield Heights, Haddonfield Town Center, Orange Grove Estates, and East Haddonfield. Compare confirmed landmarks and settings.",
 					eyebrow: "Maps",
 					image: "covers/maps/haddonfield-heights-03.jpg",
 				},
@@ -939,7 +939,7 @@ export const siteConfig: GameConfig = {
 			fastAnswers: [
 				{
 					question: "How many maps are in Halloween: The Game?",
-					answer: "Four launch maps—Haddonfield Heights, Town Center, Orange Grove Estates, and East Haddonfield.",
+					answer: "4 launch multiplayer maps: Haddonfield Heights, Haddonfield Town Center, Orange Grove Estates, and East Haddonfield.",
 					pageId: "maps-hub",
 					href: "/maps/",
 				},
