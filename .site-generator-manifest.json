@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "templateVersion": "2.0.0",
   "generatorVersion": "1.0.0",
-  "specHash": "8caab6409cb6f56c77017344415b211ef575cc0268dd8e745d89ad04929fac9f",
+  "specHash": "1046a75d12893466dfe1b9c8f31c42032b8f96af08fe2a942cc9f76cc1926547",
   "siteId": "halloween-the-game",
   "createdFromSpec": "site-spec.yaml",
   "managedFiles": [
@@ -24,6 +24,21 @@
     {
       "path": "src/assets/covers/characters/rachel-calahan.jpg",
       "sha256": "9f2e215b587ff9ef3d1d4341f7c2a158832238c5012f4d7671246075a788c450",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/covers/editions/halloween-physical-editions.jpg",
+      "sha256": "46e534dbe9ff470e91c49a11bfbaabfcdbd8339e7516e6e7ff69a02364f293eb",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/covers/editions/physical-collectors.jpg",
+      "sha256": "888314a560f7e8928de6f80034a71fbdd36a1684aac220b243b1158599cecab3",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/covers/editions/physical-standard.jpg",
+      "sha256": "3ddebd2e7d3a343423b12d9e3e12e97d5280475f4a25ef4b58f514701636b6d7",
       "kind": "asset"
     },
     {
@@ -178,7 +193,7 @@
     },
     {
       "path": "src/config/site.generated.ts",
-      "sha256": "e91d1c62a43723ad02346ab714b3e0988eab710e5dee583c916a0cc1848cc4c7",
+      "sha256": "34f43fba529102c2929168c60d3d2fd02b031718cb7306ebd040807a58140324",
       "kind": "config"
     },
     {
@@ -202,6 +217,11 @@
       "kind": "page"
     },
     {
+      "path": "src/content/docs/guides/physical-collectors-edition.md",
+      "sha256": "fdcbdf3cd7e39cb3db20d4135e4569dfa292a63871c009f3cf360f3cbf4c114e",
+      "kind": "page"
+    },
+    {
       "path": "src/content/docs/guides/preload-download-status.md",
       "sha256": "9d4bcf738133178fbfadf2987829bb166e81c1ab8f61c6be19148b680e65c469",
       "kind": "page"
@@ -213,7 +233,12 @@
     },
     {
       "path": "src/content/docs/guides/standard-vs-deluxe-upgrade.md",
-      "sha256": "044b0c6d7cc347ab2e8c522854232c32cfa75dd09115e89a960ebc84a915c36f",
+      "sha256": "743505702f03dfe87bd25e92b18e9496983405b29b505ea7858a4d358ab4b5ae",
+      "kind": "page"
+    },
+    {
+      "path": "src/content/docs/guides/trophies-achievements.md",
+      "sha256": "3f85e7235dddcfb71dbb88ea54ef36cfb3c95da8251b45a06e1170361671eea2",
       "kind": "page"
     },
     {
@@ -223,12 +248,17 @@
     },
     {
       "path": "src/content/docs/killer-guides/michael-myers.md",
-      "sha256": "83c4ed30c50afc602ff9570d1845b74efc2abd1c24ac7df626b459482a80769f",
+      "sha256": "7b010f19f4abf038b86df4556cebf8ce17ec340042196203b52567b6b61eab8b",
       "kind": "page"
     },
     {
       "path": "src/content/docs/killer-guides/michael-myers/abilities.md",
       "sha256": "8379a0bad725546315b533a024b19343472de2d9b44c02134b25bf0557977591",
+      "kind": "page"
+    },
+    {
+      "path": "src/content/docs/killer-guides/michael-myers/skins.md",
+      "sha256": "cc8b0e3f18cdee6f79f82729b163bcf75cf1cc137e6304160b64da3bf0b5274a",
       "kind": "page"
     },
     {
@@ -476,6 +506,30 @@
       "target": "covers/maps/orange-grove-wallace-house.jpg",
       "source": "site-input/assets/covers/maps/orange-grove-wallace-house.jpg",
       "sha256": "877cf3a907e25d7d3051eeade4931769ecee7c42caf801ce0bcf51160466bf18",
+      "usageStatus": "review-required",
+      "sourceType": "official"
+    },
+    {
+      "id": "physical-collectors-edition-art",
+      "target": "covers/editions/physical-collectors.jpg",
+      "source": "site-input/assets/covers/editions/physical-collectors.jpg",
+      "sha256": "888314a560f7e8928de6f80034a71fbdd36a1684aac220b243b1158599cecab3",
+      "usageStatus": "review-required",
+      "sourceType": "official"
+    },
+    {
+      "id": "physical-editions-hero",
+      "target": "covers/editions/halloween-physical-editions.jpg",
+      "source": "site-input/assets/covers/editions/halloween-physical-editions.jpg",
+      "sha256": "46e534dbe9ff470e91c49a11bfbaabfcdbd8339e7516e6e7ff69a02364f293eb",
+      "usageStatus": "review-required",
+      "sourceType": "official"
+    },
+    {
+      "id": "physical-standard-edition",
+      "target": "covers/editions/physical-standard.jpg",
+      "source": "site-input/assets/covers/editions/physical-standard.jpg",
+      "sha256": "3ddebd2e7d3a343423b12d9e3e12e97d5280475f4a25ef4b58f514701636b6d7",
       "usageStatus": "review-required",
       "sourceType": "official"
     },

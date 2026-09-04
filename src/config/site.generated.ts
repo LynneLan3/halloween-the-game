@@ -404,6 +404,10 @@ export const siteConfig: GameConfig = {
 					pageId: "characters-hub",
 					type: "related",
 				},
+				{
+					pageId: "michael-myers-skins",
+					type: "next-step",
+				},
 			],
 			sources: [
 			],
@@ -683,6 +687,14 @@ export const siteConfig: GameConfig = {
 					pageId: "characters-hub",
 					type: "next-step",
 				},
+				{
+					pageId: "physical-collectors-edition",
+					type: "related",
+				},
+				{
+					pageId: "michael-myers-skins",
+					type: "related",
+				},
 			],
 			sources: [
 			],
@@ -710,6 +722,89 @@ export const siteConfig: GameConfig = {
 				},
 				{
 					pageId: "multiplayer-how-it-works",
+					type: "related",
+				},
+			],
+			sources: [
+			],
+			evidence: [
+			],
+		},
+		{
+			id: "trophies-achievements",
+			slug: "trophies-achievements",
+			role: "core",
+			assetType: "article",
+			intents: ["trophies-achievements", "platinum"],
+			relations: [
+				{
+					pageId: "progression-perks",
+					type: "next-step",
+				},
+				{
+					pageId: "single-player-hub",
+					type: "related",
+				},
+				{
+					pageId: "michael-myers-hub",
+					type: "related",
+				},
+				{
+					pageId: "characters-hub",
+					type: "related",
+				},
+			],
+			sources: [
+			],
+			evidence: [
+			],
+		},
+		{
+			id: "physical-collectors-edition",
+			slug: "physical-collectors-edition",
+			role: "core",
+			assetType: "article",
+			intents: ["physical-collectors-edition", "collectors-edition"],
+			relations: [
+				{
+					pageId: "standard-vs-deluxe-upgrade",
+					type: "next-step",
+				},
+				{
+					pageId: "michael-myers-skins",
+					type: "next-step",
+				},
+				{
+					pageId: "progression-perks",
+					type: "related",
+				},
+			],
+			sources: [
+			],
+			evidence: [
+			],
+		},
+		{
+			id: "michael-myers-skins",
+			slug: "michael-myers/skins",
+			role: "core",
+			assetType: "article",
+			intents: ["michael-myers-skins", "phantom-michael"],
+			relations: [
+				{
+					pageId: "michael-myers-hub",
+					type: "related",
+				},
+				{
+					pageId: "progression-perks",
+					type: "next-step",
+				},
+				{
+					pageId: "standard-vs-deluxe-upgrade",
+					type: "next-step",
+				},
+				{
+					pageId: "physical-collectors-edition",
 					type: "related",
 				},
 			],
@@ -933,6 +1028,14 @@ export const siteConfig: GameConfig = {
 					image: "covers/michael/smiths-grove.jpg",
 				},
 				{
+					pageId: "michael-myers-skins",
+					href: "/michael-myers/skins/",
+					title: "Halloween: The Game Michael Myers Skins — Phantom, Inmate, Clown & Samhain",
+					description: "Confirmed Michael Myers skins: Base, Phantom (digital preorder exclusive), Inmate (Deluxe/Deluxe Upgrade), Clown and Samhain (physical Advance Access, also earnable via challenges).",
+					eyebrow: "Michael Skins",
+					image: "covers/editions/halloween-physical-editions.jpg",
+				},
+				{
 					pageId: "progression-perks",
 					href: "/progression-perks/",
 					title: "Halloween: The Game Progression & Perks — How Unlocks Work",
@@ -953,6 +1056,12 @@ export const siteConfig: GameConfig = {
 					answer: "Michael can be resisted and detained but not simply killed by Civilians.",
 					pageId: "michael-myers-hub",
 					href: "/michael-myers/",
+				},
+				{
+					question: "What Michael Myers skins are confirmed?",
+					answer: "Base, Phantom (digital preorder exclusive), Inmate (Deluxe), Clown and Samhain (physical Advance Access, also earnable).",
+					pageId: "michael-myers-skins",
+					href: "/michael-myers/skins/",
 				},
 			],
 		},

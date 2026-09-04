@@ -22,6 +22,12 @@ relations:
   -
     slug: characters
     type: next-step
+  -
+    slug: physical-collectors-edition
+    type: related
+  -
+    slug: michael-myers/skins
+    type: related
 cover: ../../../assets/covers/characters/jennifer-aarons.jpg
 coverMedia:
   alt: Jennifer Aarons character art
@@ -113,6 +119,11 @@ Do not read the table as implying Digital Deluxe eliminates preorder missables �
 - If you buy Standard now and later decide you want Deluxe content: wait for the launch Deluxe Upgrade SKU; expect to pay an additional amount (storefront price unannounced) to add Deluxe content, but know the Phantom preorder item will remain unavailable if you did not preorder it.
 
 Official preorder and upgrade SKUs: [Halloween: The Game guide hub](/) and storefront listings linked below.
+
+## Related guides
+
+- Physical & Collector’s editions: [Physical & Collector’s Editions](/physical-collectors-edition/)
+- Michael Myers skins (Phantom / Inmate / Clown / Samhain): [Michael Myers skins](/michael-myers/skins/)
 
 ## Sources
 

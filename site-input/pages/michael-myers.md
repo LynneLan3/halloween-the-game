@@ -99,8 +99,7 @@ The developer material confirms high-level systems but leaves many live-build de
 - Matchmaking / queues: [matchmaking queue]({{page:multiplayer-matchmaking-queue}})
 - Multiplayer format and roles: [multiplayer guide]({{page:multiplayer-how-it-works}})
 - Story mode (Michael POV): [single-player guide]({{page:single-player-hub}})
-
----
+- Skins: [Michael Myers skins]({{page:michael-myers-skins}})
 
 ## Sources
 

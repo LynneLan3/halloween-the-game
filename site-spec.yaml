@@ -324,6 +324,8 @@ pages:
         type: next-step
       - pageId: characters-hub
         type: related
+      - pageId: michael-myers-skins
+        type: next-step
     changeSummary: "CONTENT_EXPANSION — Michael Myers pillar hub; links to progression and matchmaking."
   - id: michael-myers-abilities
     title: "Michael Myers Abilities — Killer Sense, Stalk, Shape Jump & Blackouts"
@@ -677,6 +679,10 @@ pages:
         type: related
       - pageId: characters-hub
         type: next-step
+      - pageId: physical-collectors-edition
+        type: related
+      - pageId: michael-myers-skins
+        type: related
     changeSummary: "V4 pass — Deluxe upgrade Advance Access marked Not Announced; links Preload."
   - id: progression-perks
     title: "Halloween: The Game Progression & Perks — How Unlocks Work"
@@ -713,6 +719,112 @@ pages:
       - pageId: multiplayer-how-it-works
         type: related
     changeSummary: "INTENT EXPANSION — Progression and perks guide."
+  - id: trophies-achievements
+    title: "Halloween: The Game Trophies & Achievements — 51 Trophy Platinum Preview"
+    description: "PRE-EA PS5 trophy preview: 51 trophies (1 Platinum, 2 Gold, 10 Silver, 38 Bronze), 3 secret trophies, and theme coverage across story, Michael, Civilian, progression, and collectibles — not a live-verified roadmap."
+    category: guides
+    slug: trophies-achievements
+    source: site-input/pages/trophies-achievements.md
+    status: needs-verification
+    featured: true
+    sidebarOrder: 6
+    role: core
+    intents:
+      - trophies-achievements
+      - platinum
+    quickAnswer: "The published PS5 list has 51 trophies: 1 Platinum, 2 Gold, 10 Silver, 38 Bronze, including 3 secret trophies. Themes span story, Michael, Civilian/multiplayer, progression, and collectibles. This is a PRE-EA Trophy Preview, not a completed or live-verified Trophy Roadmap."
+    eyebrow: "Trophies"
+    facts:
+      - label: "PS5 trophy count"
+        value: "51 trophies"
+      - label: "Rarity breakdown"
+        value: "1 Platinum, 2 Gold, 10 Silver, 38 Bronze"
+      - label: "Secret trophies"
+        value: "3 secret trophies"
+      - label: "Page status"
+        value: "PRE-EA Trophy Preview — not a live-verified roadmap"
+    coverAssetId: extended-first-look
+    relations:
+      - pageId: progression-perks
+        type: next-step
+      - pageId: single-player-hub
+        type: related
+      - pageId: michael-myers-hub
+        type: related
+      - pageId: characters-hub
+        type: related
+    changeSummary: "INTENT EXPANSION — PRE-EA trophies & platinum preview."
+
+  - id: physical-collectors-edition
+    title: "Halloween: The Game Physical & Collector’s Editions — Price, Contents & Release Date"
+    description: "Physical Standard ($39.99) vs Limited Collector’s ($149.99) for PS5 and Xbox Series X on Oct 6, 2026 — disc contents, Clown/Samhain Advance Access vs exclusivity, and why Phantom is digital-preorder-only."
+    category: guides
+    slug: physical-collectors-edition
+    source: site-input/pages/physical-collectors-edition.md
+    status: needs-verification
+    featured: true
+    sidebarOrder: 7
+    role: core
+    intents:
+      - physical-collectors-edition
+      - collectors-edition
+    quickAnswer: "Physical editions release October 6, 2026 on PS5 and Xbox Series X. Standard is $39.99; Limited Collector’s is $149.99. The game is on disc. Clown (and Samhain on Collector’s) are Advance Access cosmetics also earnable via challenges. Physical does not include Phantom Michael."
+    eyebrow: "Physical Editions"
+    facts:
+      - label: "Physical release"
+        value: "October 6, 2026 — PS5 and Xbox Series X"
+      - label: "Pricing (USD)"
+        value: "Standard $39.99; Limited Collector’s $149.99"
+      - label: "Media"
+        value: "Game on disc"
+      - label: "Phantom"
+        value: "Digital Pre-order Exclusive — not included with physical"
+    coverAssetId: physical-editions-hero
+    relations:
+      - pageId: standard-vs-deluxe-upgrade
+        type: next-step
+      - pageId: michael-myers-skins
+        type: next-step
+      - pageId: progression-perks
+        type: related
+    changeSummary: "INTENT EXPANSION — Physical Standard vs Collector’s editions."
+
+  - id: michael-myers-skins
+    title: "Halloween: The Game Michael Myers Skins — Phantom, Inmate, Clown & Samhain"
+    description: "Confirmed Michael Myers skins: Base, Phantom (digital preorder exclusive), Inmate (Deluxe/Deluxe Upgrade), Clown and Samhain (physical Advance Access, also earnable via challenges)."
+    category: killer-guides
+    slug: michael-myers/skins
+    source: site-input/pages/michael-myers/skins.md
+    status: needs-verification
+    featured: true
+    sidebarOrder: 3
+    role: core
+    intents:
+      - michael-myers-skins
+      - phantom-michael
+    quickAnswer: "Confirmed skins: Base, Phantom, Inmate, Clown, and Samhain. Phantom is a digital preorder exclusive that can be missed permanently after launch. Inmate comes with Deluxe / Deluxe Upgrade. Clown and Samhain are physical Advance Access cosmetics that are also earnable via in-game challenges — not permanent exclusives."
+    eyebrow: "Michael Skins"
+    facts:
+      - label: "Confirmed skins"
+        value: "Base, Phantom, Inmate, Clown, Samhain"
+      - label: "Permanent miss risk"
+        value: "Phantom — digital preorder exclusive"
+      - label: "Deluxe"
+        value: "Inmate via Digital Deluxe / Deluxe Upgrade"
+      - label: "Physical Advance Access"
+        value: "Clown / Samhain — also earnable via challenges"
+    coverAssetId: physical-editions-hero
+    relations:
+      - pageId: michael-myers-hub
+        type: related
+      - pageId: progression-perks
+        type: next-step
+      - pageId: standard-vs-deluxe-upgrade
+        type: next-step
+      - pageId: physical-collectors-edition
+        type: related
+    changeSummary: "INTENT EXPANSION — Michael Myers skins comparison."
+
   - id: bots-private-lobbies-offline
     title: "Halloween: The Game Offline Bots & Private Matches: What's Confirmed"
     description: "What is officially confirmed about Halloween: The Game offline bots, private matches against AI, and private matches with friends — and which bot-related details still require Advance Access verification."
@@ -897,9 +1009,13 @@ routes:
       - question: "Can Michael be killed?"
         answer: Michael can be resisted and detained but not simply killed by Civilians.
         pageId: michael-myers-hub
+      - question: "What Michael Myers skins are confirmed?"
+        answer: "Base, Phantom (digital preorder exclusive), Inmate (Deluxe), Clown and Samhain (physical Advance Access, also earnable)."
+        pageId: michael-myers-skins
     pages:
       - michael-myers-hub
       - michael-myers-abilities
+      - michael-myers-skins
       - progression-perks
   - id: multiplayer
     eyebrow: "Multiplayer"
@@ -1181,6 +1297,27 @@ assets:
     target: covers/progression/po-customization.jpg
     alt: "Official Halloween: The Game character customization and loadout UI"
     sourceUrl: https://a.storyblok.com/f/286129504682394/3840x2160/1f6955ed5f/po-customization.jpg
+    sourceType: official
+    usageStatus: review-required
+  - id: physical-editions-hero
+    source: site-input/assets/covers/editions/halloween-physical-editions.jpg
+    target: covers/editions/halloween-physical-editions.jpg
+    alt: "Official Halloween: The Game Physical Editions artwork"
+    sourceUrl: https://a.storyblok.com/f/286129504682394/1920x1080/7bfb9e24bb/halloween-physical-editions.jpg
+    sourceType: official
+    usageStatus: review-required
+  - id: physical-standard-edition
+    source: site-input/assets/covers/editions/physical-standard.jpg
+    target: covers/editions/physical-standard.jpg
+    alt: "Official Physical Standard Edition product art for Halloween: The Game"
+    sourceUrl: https://a.storyblok.com/f/286129504682394/1920x1080/9feba32a50/pse.jpg
+    sourceType: official
+    usageStatus: review-required
+  - id: physical-collectors-edition-art
+    source: site-input/assets/covers/editions/physical-collectors.jpg
+    target: covers/editions/physical-collectors.jpg
+    alt: "Official Limited Collector’s Edition product art for Halloween: The Game"
+    sourceUrl: https://a.storyblok.com/f/286129504682394/1920x1080/faae8fff79/pce.jpg
     sourceType: official
     usageStatus: review-required
   - id: halloween-hero

@@ -28,6 +28,9 @@ relations:
   -
     slug: characters
     type: related
+  -
+    slug: michael-myers/skins
+    type: next-step
 cover: ../../../assets/hero/michael-mask-hero.jpg
 coverMedia:
   alt: "Michael Myers mask close-up from Halloween: The Game"
@@ -157,8 +160,7 @@ The developer material confirms high-level systems but leaves many live-build de
 - Matchmaking / queues: [matchmaking queue](/multiplayer/matchmaking-queue/)
 - Multiplayer format and roles: [multiplayer guide](/multiplayer/how-multiplayer-works/)
 - Story mode (Michael POV): [single-player guide](/single-player/)
-
----
+- Skins: [Michael Myers skins](/michael-myers/skins/)
 
 ## Sources
 

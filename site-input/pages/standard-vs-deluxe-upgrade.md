@@ -73,6 +73,11 @@ Do not read the table as implying Digital Deluxe eliminates preorder missables �
 
 Official preorder and upgrade SKUs: [Halloween: The Game guide hub]({{hub}}) and storefront listings linked below.
 
+## Related guides
+
+- Physical & Collector’s editions: [Physical & Collector’s Editions]({{page:physical-collectors-edition}})
+- Michael Myers skins (Phantom / Inmate / Clown / Samhain): [Michael Myers skins]({{page:michael-myers-skins}})
+
 ## Sources
 
 - [Official Preorder / FAQ — Halloween: The Game (IllFonic)](https://halloweengame.com/news/preorder/)
