@@ -17,6 +17,10 @@ import {
 	runDeployCli,
 	spawnVercelDeploy,
 } from './lib/deployment-identity.mjs';
+import {
+	collectDevelopmentTaskIds,
+	validateLedgerBinding,
+} from './lib/ledger-binding.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 export const RECEIPT_SCHEMA_VERSION = 'hotword-publish-receipt-v1';
@@ -74,6 +78,92 @@ export function validateReceiptMinimum(receipt) {
 	}
 	return true;
 }
+
+/**
+ * Fail before production deploy when Development Task binding is inconsistent.
+ * Observational receipts (no developmentTaskId) pass without a lookup.
+ *
+ * Formal receipts:
+ * 1. options.lookupDevelopmentTask — unit-test / explicit registry lookup
+ * 2. options.dryRunLedgerBinding — injected Apps Script dry-run
+ * 3. default clasp dry-run against recordPublishedBatch
+ */
+export function preflightLedgerBinding(receipt, options = {}) {
+	const taskIds = collectDevelopmentTaskIds(receipt);
+	if (taskIds.length === 0) {
+		return { ok: true, mode: 'OBSERVATIONAL' };
+	}
+	if (typeof options.lookupDevelopmentTask === 'function') {
+		return validateLedgerBinding(receipt, options.lookupDevelopmentTask);
+	}
+	if (typeof options.dryRunLedgerBinding === 'function') {
+		const stubbed = buildBindingDryRunReceipt(receipt, options);
+		const dry = options.dryRunLedgerBinding(stubbed);
+		if (dry?.ok) return { ok: true, mode: 'FORMAL', via: 'dryRun' };
+		return {
+			ok: false,
+			mode: 'FORMAL',
+			error: asString(dry?.error || dry?.output) || 'Ledger binding dry-run failed',
+		};
+	}
+	if (options.skipLedgerBindingPreflight === true) {
+		return { ok: true, mode: 'FORMAL', skipped: true };
+	}
+	const stubbed = buildBindingDryRunReceipt(receipt, options);
+	const dry = invokeLedgerBindingDryRun(stubbed);
+	if (dry.ok) return { ok: true, mode: 'FORMAL', via: 'clasp-dry-run' };
+	return {
+		ok: false,
+		mode: 'FORMAL',
+		error: asString(dry.error || dry.output) || `Ledger binding preflight failed for ${taskIds.join(', ')}`,
+	};
+}
+
+function buildBindingDryRunReceipt(receipt, options = {}) {
+	const common = isRecord(receipt?.common) ? { ...receipt.common } : {};
+	const productionUrl = asString(options.productionUrl) || asString(common.productionUrl) || 'https://example.invalid';
+	return {
+		...receipt,
+		dryRun: true,
+		common: {
+			...common,
+			commitSha: asString(common.commitSha) || asString(options.commitSha) || 'binding-preflight',
+			deploymentUrl: asString(common.deploymentUrl) || productionUrl,
+			productionUrl,
+			deployedAt: asString(common.deployedAt) || asString(options.deployedAt) || new Date().toISOString(),
+		},
+	};
+}
+
+function invokeLedgerBindingDryRun(receipt) {
+	const claspUser = process.env.HOTWORD_CLASP_USER?.trim() || 'hotword-ledger';
+	const direct = spawnSync(
+		'clasp',
+		['--json', 'run', 'recordPublishedBatch', '--user', claspUser, '--params', JSON.stringify([receipt])],
+		{
+			cwd: path.dirname(LEDGER_SCRIPT),
+			encoding: 'utf8',
+			env: { ...process.env, HOTWORD_CLASP_USER: claspUser },
+			timeout: 120_000,
+		},
+	);
+	const directOut = `${direct.stdout || ''}\n${direct.stderr || ''}`.trim();
+	if (direct.status === 0) {
+		try {
+			const parsed = JSON.parse(String(direct.stdout || '').trim());
+			const value = parsed?.response || parsed?.result || parsed;
+			if (value?.ok === true || value?.dryRun === true) {
+				return { ok: true, output: directOut, response: value };
+			}
+		} catch {
+			// fall through to treat zero exit as success when JSON is opaque
+		}
+		return { ok: true, output: directOut };
+	}
+	return { ok: false, output: directOut, error: directOut || `exit ${direct.status}` };
+}
+
+export { collectDevelopmentTaskIds, validateLedgerBinding, attachFormalLedgerBinding } from './lib/ledger-binding.mjs';
 
 function normalizeUrl(value, baseUrl) {
 	const parsed = new URL(value, baseUrl);
@@ -306,6 +396,10 @@ export async function runProductionPublish(options = {}) {
 		result.commit = head;
 		if (asString(receipt.common.commitSha) && asString(receipt.common.commitSha) !== head) {
 			throw new Error(`receipt common.commitSha does not match HEAD (${head})`);
+		}
+		const bindingPreflight = preflightLedgerBinding(receipt, options);
+		if (!bindingPreflight.ok) {
+			throw new Error(bindingPreflight.error || 'Ledger binding preflight failed');
 		}
 		if (options.checkOnly) {
 			result.production = 'NOT_RUN';

@@ -6,10 +6,15 @@ import test from 'node:test';
 import {
 	buildProductionUrls,
 	buildVerificationUrls,
+	preflightLedgerBinding,
 	runProductionPublish,
+	validateLedgerBinding,
 	validateReceiptMinimum,
 	verifyProductionUrls,
 } from '../../scripts/publish-production.mjs';
+import {
+	attachFormalLedgerBinding,
+} from '../../scripts/lib/ledger-binding.mjs';
 
 const HEAD = 'a'.repeat(40);
 
@@ -80,6 +85,12 @@ function publishOptions(root: string, file: string, extra: Record<string, unknow
 	};
 }
 
+const REGISTERED_TASK = {
+	taskId: 'dev-fixture-content-refresh-001',
+	opportunityId: 'opp-fixture-content-refresh-001',
+	actionType: 'CONTENT_REFRESH',
+};
+
 test('no receipt fails before deploy', async () => {
 	let deployCalls = 0;
 	const result = await runProductionPublish({
@@ -116,6 +127,109 @@ test('commit mismatch fails before deploy', async () => {
 	assert.equal(result.status, 'PUBLISH_FAILED');
 	assert.match(result.error, /does not match HEAD/);
 	assert.equal(deployCalls, 0);
+});
+
+test('Ledger binding: valid formal binding passes preflight', () => {
+	const value = receipt({
+		common: {
+			developmentTaskId: REGISTERED_TASK.taskId,
+			opportunityId: REGISTERED_TASK.opportunityId,
+		},
+		intervention: {
+			action: 'CONTENT_REFRESH',
+			developmentTaskId: REGISTERED_TASK.taskId,
+		},
+	});
+	const result = validateLedgerBinding(value, () => REGISTERED_TASK);
+	assert.equal(result.ok, true);
+	assert.equal(result.mode, 'FORMAL');
+});
+
+test('Ledger binding: wrong opportunityId fails before deploy', async () => {
+	const root = workspace();
+	const value = receipt({
+		common: {
+			developmentTaskId: REGISTERED_TASK.taskId,
+			opportunityId: 'opp-wrong',
+		},
+		intervention: {
+			action: 'CONTENT_REFRESH',
+			developmentTaskId: REGISTERED_TASK.taskId,
+		},
+	});
+	const file = writeReceipt(root, value);
+	let deployCalls = 0;
+	const result = await runProductionPublish(publishOptions(root, file, {
+		lookupDevelopmentTask: () => REGISTERED_TASK,
+		deployFn: async () => { deployCalls += 1; return 0; },
+	}));
+	assert.equal(deployCalls, 0);
+	assert.equal(result.status, 'PUBLISH_FAILED');
+	assert.match(String(result.error), /opportunityId mismatch/);
+});
+
+test('Ledger binding: wrong action fails before deploy', async () => {
+	const root = workspace();
+	const value = receipt({
+		common: {
+			developmentTaskId: REGISTERED_TASK.taskId,
+			opportunityId: REGISTERED_TASK.opportunityId,
+		},
+		intervention: {
+			action: 'UPDATE_PAGE',
+			developmentTaskId: REGISTERED_TASK.taskId,
+		},
+	});
+	const file = writeReceipt(root, value);
+	let deployCalls = 0;
+	const result = await runProductionPublish(publishOptions(root, file, {
+		lookupDevelopmentTask: () => REGISTERED_TASK,
+		deployFn: async () => { deployCalls += 1; return 0; },
+	}));
+	assert.equal(deployCalls, 0);
+	assert.equal(result.status, 'PUBLISH_FAILED');
+	assert.match(String(result.error), /action mismatch/);
+});
+
+test('Ledger binding: observational receipt without developmentTaskId passes', () => {
+	const value = receipt();
+	const result = preflightLedgerBinding(value);
+	assert.equal(result.ok, true);
+	assert.equal(result.mode, 'OBSERVATIONAL');
+});
+
+test('Ledger binding: attachFormalLedgerBinding does not invent IDs', () => {
+	const observational = attachFormalLedgerBinding({ action: 'CONTENT_REFRESH' }, null);
+	assert.equal(observational.developmentTaskId, undefined);
+	assert.equal(observational.opportunityId, undefined);
+	assert.equal(observational.attributionMode, 'OBSERVATIONAL_ONLY');
+
+	const formal = attachFormalLedgerBinding({ batchId: 'x' }, REGISTERED_TASK);
+	assert.equal(formal.developmentTaskId, REGISTERED_TASK.taskId);
+	assert.equal(formal.opportunityId, REGISTERED_TASK.opportunityId);
+	assert.equal(formal.action, 'CONTENT_REFRESH');
+});
+
+test('Ledger retry is idempotent when writeLedger returns ALREADY_RECORDED', async () => {
+	const root = workspace();
+	const file = writeReceipt(root, receipt());
+	let ledgerCalls = 0;
+	const writeLedger = async () => {
+		ledgerCalls += 1;
+		return {
+			ok: true,
+			skipped: ledgerCalls > 1,
+			output: ledgerCalls === 1
+				? 'PASS ledger writeback batch=batch-1 interventions=iv-1 baseline=2026-08-23'
+				: 'SKIP deployment receipt result=ALREADY_RECORDED receiptKey=batch-1 intervention=iv-1 contentUpdates=3 observations=0',
+		};
+	};
+	const first = await runProductionPublish(publishOptions(root, file, { writeLedger }));
+	const second = await runProductionPublish(publishOptions(root, file, { writeLedger }));
+	assert.equal(first.status, 'PUBLISH_COMPLETE');
+	assert.equal(second.status, 'PUBLISH_COMPLETE');
+	assert.equal(ledgerCalls, 2);
+	assert.match(String(second.ledgerResult?.output || ''), /ALREADY_RECORDED/);
 });
 
 test('IndexNow and verification URL generation normalizes, dedupes, and filters origin', () => {
@@ -178,7 +292,7 @@ test('Ledger failure does not deploy twice and reports live/incomplete', async (
 	assert.equal(deployCalls, 1);
 	assert.equal(result.production, 'PASS');
 	assert.equal(result.ledger, 'FAIL');
-	assert.equal(result.status, 'PRODUCTION_LIVE_LEDGER_INCOMPLETE');
+	assert.equal(result.status, 'RECEIPT_FAILED');
 });
 
 test('all completion steps pass', async () => {

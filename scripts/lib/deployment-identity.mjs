@@ -388,8 +388,8 @@ export function createVercelDeployEnv(deployment, baseEnv = process.env) {
 function extractDeploymentUrl(output, fallback = '') {
 	const lines = String(output || '').split(/\r?\n/);
 	const preferred = lines.find((line) => /production|url/i.test(line) && /https?:\/\//i.test(line));
-	const match = String(preferred || output || '').match(/https?:\/\/[^\s)]+/i);
-	return (match?.[0] || fallback).replace(/[.,]+$/, '');
+	const match = String(preferred || output || '').match(/https?:\/\/[^\s)"']+/i);
+	return (match?.[0] || fallback).replace(/[.,"']+$/, '');
 }
 
 /**
