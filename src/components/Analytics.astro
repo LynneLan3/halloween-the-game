@@ -2,6 +2,7 @@
 import { game } from '../config/game';
 import { resolveAnalyticsEnvironment, shouldLoadGa4 } from '../lib/analytics';
 import VercelAnalytics from './VercelAnalytics.astro';
+import SpeedInsights from '@vercel/speed-insights/astro';
 
 const analytics = game.analytics;
 const environment = resolveAnalyticsEnvironment({
@@ -80,6 +81,7 @@ const config =
 }
 
 <VercelAnalytics />
+<SpeedInsights />
 
 {
 	config && hasIdentity && (

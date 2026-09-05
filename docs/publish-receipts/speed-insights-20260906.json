@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "hotword-publish-receipt-v1",
+  "common": {
+    "site": "Halloween: The Game",
+    "siteId": "halloween-the-game",
+    "game": "Halloween: The Game",
+    "batchId": "halloween-the-game|speed-insights|20260906",
+    "lifecyclePhase": "early-access",
+    "attributionMode": "OBSERVATIONAL_ONLY",
+    "sourceRefs": ["Vercel Speed Insights integration"]
+  },
+  "interventions": [
+    {
+      "interventionId": "halloween-the-game|speed-insights|global",
+      "action": "ANALYTICS_UPDATE",
+      "primaryUrl": "/",
+      "affectedUrls": ["/", "/michael-myers/"],
+      "reason": "Add global Astro Speed Insights alongside existing Analytics without changing UI or existing analytics behavior.",
+      "triggerType": "operator_request",
+      "triggerSummary": "Install and mount @vercel/speed-insights for production performance telemetry.",
+      "sourceRefs": ["package.json", "src/components/Analytics.astro"]
+    }
+  ]
+}
