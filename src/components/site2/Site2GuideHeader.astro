@@ -19,17 +19,17 @@ const routeLink = route ? site2RouteHubHref(route.id) : undefined;
 
 <div class="site2-guide">
 	<nav class="site2-guide__crumb" aria-label={t.breadcrumb}>
-		<a href={homeHref}>{t.homeNav}</a>
+		<a href={homeHref} data-astro-prefetch>{t.homeNav}</a>
 		<span aria-hidden="true">/</span>
 		{
 			route && routeLink ? (
 				<>
-					<a href={routeLink}>{route.title}</a>
+					<a href={routeLink} data-astro-prefetch>{route.title}</a>
 					<span aria-hidden="true">/</span>
 				</>
 			) : (
 				<>
-					<a href={guidesHref}>{t.guidesNav}</a>
+					<a href={guidesHref} data-astro-prefetch>{t.guidesNav}</a>
 					<span aria-hidden="true">/</span>
 				</>
 			)

@@ -26,13 +26,13 @@ const matched = findRoutesForPage(pageId, routes);
 			<div class="site2-route-bar__actions">
 				{
 					matched.map((r) => (
-						<a class="site2-route-bar__link" href={site2RouteHubHref(r.id)}>
+						<a class="site2-route-bar__link" href={site2RouteHubHref(r.id)} data-astro-prefetch>
 							<Site2Icon name="arrow-right" size={14} />
 							{r.title}
 						</a>
 					))
 				}
-				<a class="site2-route-bar__link site2-route-bar__link--accent" href={guidesHref}>
+				<a class="site2-route-bar__link site2-route-bar__link--accent" href={guidesHref} data-astro-prefetch>
 					{t.chooseAnotherRouteAction}
 					<Site2Icon name="arrow-down-right" size={14} />
 				</a>

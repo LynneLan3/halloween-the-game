@@ -57,7 +57,7 @@ const otherRouteTiles = await Promise.all(
 					<div class="site2-route-hub-stage__faq-grid">
 						{
 							route.fastAnswers.map((item, index) => (
-								<a class="site2-route-hub-faq-card" href={item.href}>
+								<a class="site2-route-hub-faq-card" href={item.href} data-astro-prefetch>
 									<span class="site2-route-hub-faq-card__num">0{index + 1}</span>
 									<h3>{item.question}</h3>
 									<p>{item.answer}</p>
@@ -88,7 +88,7 @@ const otherRouteTiles = await Promise.all(
 	<div class="questions-grid site2-route-guide-grid">
 		{
 			route.pages.map((page, index) => (
-				<a class={`question-card q${(index % 6) + 1}`} href={page.href}>
+				<a class={`question-card q${(index % 6) + 1}`} href={page.href} data-astro-prefetch>
 					<span>0{index + 1}</span>
 					{page.eyebrow && <small class="site2-step-eyebrow">{page.eyebrow}</small>}
 					<h3>{page.label ?? page.title}</h3>
@@ -114,7 +114,7 @@ const otherRouteTiles = await Promise.all(
 			<div class="category-grid site2-routes-grid">
 				{
 					otherRouteTiles.map(({ other, visualUrl }) => (
-						<a class="category-tile" href={site2RouteHubHref(other.id)}>
+						<a class="category-tile" href={site2RouteHubHref(other.id)} data-astro-prefetch>
 							<div style={visualUrl ? { backgroundImage: `url(${visualUrl})` } : undefined} />
 							<div class="category-overlay" />
 							<span>{other.eyebrow ?? 'Route'}</span>

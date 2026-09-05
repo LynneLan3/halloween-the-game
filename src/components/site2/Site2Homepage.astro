@@ -47,14 +47,14 @@ if (model.featured?.cover) {
 			<div class="hero-buttons">
 				{
 					model.primaryCta && (
-						<a class="arrow-button" href={model.primaryCta.href}>
+						<a class="arrow-button" href={model.primaryCta.href} data-astro-prefetch>
 							{model.primaryCta.label}<Site2Icon name="arrow-right" size={16} />
 						</a>
 					)
 				}
 				{
 					model.secondaryCta && (
-						<a class="text-link" href={model.secondaryCta.href}>
+						<a class="text-link" href={model.secondaryCta.href} data-astro-prefetch>
 							{model.secondaryCta.label} <Site2Icon name="arrow-down-right" size={15} />
 						</a>
 					)
@@ -91,7 +91,7 @@ if (model.featured?.cover) {
 				<div class="trending-grid">
 					{
 						model.trending.map((card, index) => (
-							<a class={`trend-card ${card.accent}`} href={card.href}>
+							<a class={`trend-card ${card.accent}`} href={card.href} data-astro-prefetch>
 								<div class="card-number">0{index + 1}</div>
 								<div class="card-image" style={card.imageUrl ? { backgroundImage: `url(${card.imageUrl})` } : undefined} />
 								<div class="card-shade" />
@@ -119,7 +119,7 @@ if (model.featured?.cover) {
 					</div>
 					<div class="map-intro">
 						<p>Every street has a story. Every window could be watching. Learn the neighborhoods before the lights go out.</p>
-						<a class="arrow-button" href={model.mapsHubHref}>
+						<a class="arrow-button" href={model.mapsHubHref} data-astro-prefetch>
 							View all maps<Site2Icon name="arrow-right" size={16} />
 						</a>
 					</div>
@@ -127,7 +127,7 @@ if (model.featured?.cover) {
 				<div class:list={['map-grid', model.maps.length === 2 && 'map-grid--two']}>
 					{
 						model.maps.map((map) => (
-							<a class:list={['map-card', map.large && 'map-feature']} href={map.href}>
+							<a class:list={['map-card', map.large && 'map-feature']} href={map.href} data-astro-prefetch>
 								<div class="map-image" style={map.imageUrl ? { backgroundImage: `url(${map.imageUrl})` } : undefined} />
 								<div class="map-overlay" />
 								<div class="map-info">
@@ -149,7 +149,7 @@ if (model.featured?.cover) {
 			<h2>One night.<br /><em>Two ways out.</em></h2>
 			<p>Hunt the town as its most famous resident, or work together to survive him.</p>
 		</div>
-		<a class="side-card killer" href={model.killer.href}>
+		<a class="side-card killer" href={model.killer.href} data-astro-prefetch>
 			<div class="side-bg" style={killerStyle} />
 			<div class="side-content">
 				<span class="side-kicker"><Site2Icon name="skull" size={15} /> The killer</span>
@@ -158,7 +158,7 @@ if (model.featured?.cover) {
 				<span class="arrow-button">Play as Michael<Site2Icon name="arrow-right" size={16} /></span>
 			</div>
 		</a>
-		<a class="side-card heroes" href={model.heroes.href}>
+		<a class="side-card heroes" href={model.heroes.href} data-astro-prefetch>
 			<div class="side-bg" style={heroesStyle} />
 			<div class="side-content">
 				<span class="side-kicker"><Site2Icon name="shield" size={15} /> The survivors</span>
@@ -182,7 +182,7 @@ if (model.featured?.cover) {
 				<div class="questions-grid">
 					{
 						model.questions.map((item, index) => (
-							<a class={`question-card q${index + 1}`} href={item.href}>
+							<a class={`question-card q${index + 1}`} href={item.href} data-astro-prefetch>
 								<span>0{index + 1}</span>
 								<h3>{item.question}</h3>
 								<p>{item.answer}</p>
@@ -208,7 +208,7 @@ if (model.featured?.cover) {
 				<div class="category-grid">
 					{
 						model.categories.map((tile) => (
-							<a class="category-tile" href={tile.href}>
+							<a class="category-tile" href={tile.href} data-astro-prefetch>
 								<div style={tile.imageUrl ? { backgroundImage: `url(${tile.imageUrl})` } : undefined} />
 								<div class="category-overlay" />
 								<span>{tile.title}</span>
@@ -242,7 +242,7 @@ if (model.featured?.cover) {
 						)}
 					</h2>
 					<p>{model.featured.description}</p>
-					<a class="arrow-button" href={model.featured.href}>
+					<a class="arrow-button" href={model.featured.href} data-astro-prefetch>
 						Read the guide<Site2Icon name="arrow-right" size={16} />
 					</a>
 				</div>

@@ -14,7 +14,7 @@ const navItems = buildSite2NavItems(guidesHref);
 ---
 
 <header class="topbar" data-site2-topbar>
-	<a class="brand" href={homeHref} aria-label="Halloween The Game Guide home">
+	<a class="brand" href={homeHref} data-astro-prefetch aria-label="Halloween The Game Guide home">
 		<span class="brand-mark"><Site2Icon name="skull" size={19} /></span>
 		<span><strong>HALLOWEEN</strong><small>The Game Guide</small></span>
 	</a>
@@ -23,6 +23,7 @@ const navItems = buildSite2NavItems(guidesHref);
 			navItems.map((item) => (
 				<a
 					href={item.href}
+					data-astro-prefetch
 					aria-current={site2NavActivePath(activePath, item) ? 'page' : undefined}
 				>
 					{item.label}

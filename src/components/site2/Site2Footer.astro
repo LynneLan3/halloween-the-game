@@ -16,15 +16,15 @@ const year = new Date().getFullYear();
 ---
 
 <footer>
-	<a class="brand" href={homeHref}>
+	<a class="brand" href={homeHref} data-astro-prefetch>
 		<span class="brand-mark"><Site2Icon name="skull" size={19} /></span>
 		<span><strong>HALLOWEEN</strong><small>The Game Guide</small></span>
 	</a>
 	<div class="footer-links">
-		<a href={guidesHref}>Guides</a>
-		<a href={mapsHref}>Maps</a>
-		<a href={charactersHref}>Characters</a>
-		<a href={killerHref}>Michael Myers</a>
+		<a href={guidesHref} data-astro-prefetch>Guides</a>
+		<a href={mapsHref} data-astro-prefetch>Maps</a>
+		<a href={charactersHref} data-astro-prefetch>Characters</a>
+		<a href={killerHref} data-astro-prefetch>Michael Myers</a>
 	</div>
 	<p>{game.disclaimer ?? 'Unofficial fan guide. Not affiliated with the rights holders.'}</p>
 	<span class="copyright">© {year} HADDONFIELD FIELD NOTES</span>

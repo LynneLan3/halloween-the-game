@@ -78,7 +78,7 @@ const refCards = await Promise.all(
 				<div class="trending-grid site2-next-grid">
 					{
 						nextCards.map(({ guide, index, imageUrl }) => (
-							<a class={`trend-card ${accents[index % accents.length]}`} href={guideHref(guide)}>
+							<a class={`trend-card ${accents[index % accents.length]}`} href={guideHref(guide)} data-astro-prefetch>
 								<div class="card-number">0{index + 1}</div>
 								<div
 									class="card-image"
@@ -113,7 +113,7 @@ const refCards = await Promise.all(
 				<div class="trending-grid site2-ref-grid">
 					{
 						refCards.map(({ guide, index, imageUrl }) => (
-							<a class={`trend-card ${accents[index % accents.length]}`} href={guideHref(guide)}>
+							<a class={`trend-card ${accents[index % accents.length]}`} href={guideHref(guide)} data-astro-prefetch>
 								<div class="card-number">0{index + 1}</div>
 								<div
 									class="card-image"
@@ -156,7 +156,7 @@ const refCards = await Promise.all(
 							<div class="category-grid site2-routes-grid">
 								{
 						content.otherRoutes.map((route) => (
-							<a class="category-tile" href={site2RouteHubHref(route.id)}>
+							<a class="category-tile" href={site2RouteHubHref(route.id)} data-astro-prefetch>
 											<div style={assetUrl(route.visual) ? { backgroundImage: `url(${assetUrl(route.visual)})` } : undefined} />
 											<div class="category-overlay" />
 											<span>{route.eyebrow ?? 'Route'}</span>

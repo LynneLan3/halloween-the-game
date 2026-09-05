@@ -17,7 +17,7 @@ const popular = game.portal?.popularQuestions?.slice(0, 6) ?? [];
 						{
 							popular.map((item) => (
 								<li>
-									<a href={item.href}>
+									<a href={item.href} data-astro-prefetch>
 										<span>{item.label}</span>
 										{item.context && <small>{item.context}</small>}
 									</a>

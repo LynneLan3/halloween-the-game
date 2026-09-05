@@ -37,7 +37,7 @@ const routeTiles = await Promise.all(
 	<div class="category-grid site2-guides-grid">
 		{
 			routeTiles.map(({ route, index, visualUrl }) => (
-				<a class="category-tile site2-guides-tile" href={site2RouteHubHref(route.id)}>
+				<a class="category-tile site2-guides-tile" href={site2RouteHubHref(route.id)} data-astro-prefetch>
 					<div style={visualUrl ? { backgroundImage: `url(${visualUrl})` } : undefined} />
 					<div class="category-overlay" />
 					<span>
