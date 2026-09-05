@@ -105,8 +105,8 @@ export const siteConfig: GameConfig = {
 		],
 		startHere: [
 			{
-				title: "Halloween: The Game Release Time — Early Access at 9 AM PT",
-				description: "Early Access unlocks Sep 4, 2026 at 9:00 AM PT for Digital Deluxe purchasers; full launch is Sep 8, 2026 at 9:00 AM PT. Purchasing Digital Deluxe during Early Access still grants Early Access and preorder bonuses through Sep 8, 2026 at 9:00 AM PT. Preload timing varies by storefront — see the preload guide.",
+				title: "What time does Halloween the Game come out? Early Access & launch times (PT)",
+				description: "Early Access begins Friday, Sep 4, 2026 at 9:00 AM PT for Digital Deluxe (already live). Full launch is Tuesday, Sep 8, 2026 at 9:00 AM PT — Standard Edition waits for Sep 8. Preload schedules vary by storefront; see the preload guide.",
 				href: "/early-access-release-time/",
 				image: "covers/gameplay/extended-first-look.jpg",
 				label: "Release time",
@@ -120,15 +120,15 @@ export const siteConfig: GameConfig = {
 				label: "Preload status",
 			},
 			{
-				title: "Halloween: The Game Standard vs Deluxe — Upgrade & Worth It?",
-				description: "Standard $39.99 vs Digital Deluxe $59.99 — $20 difference. Digital Deluxe adds Early Access (Sep 4 9 AM PT), Inmate Michael, Richard & Alexis; Deluxe Upgrade available at launch. Digital Deluxe bought during Early Access still gets Early Access and preorder bonuses through Sep 8 9 AM PT.",
+				title: "Halloween: The Game — Standard vs Digital Deluxe: Worth the $20? Upgrade & Missables",
+				description: "Standard $39.99 vs Digital Deluxe $59.99 — $20 difference. Compare price, Early Access (Sep 4), Deluxe contents (Inmate Michael + Richard & Alexis), launch-time Deluxe Upgrade (price unannounced), and the preorder-only Phantom skin that cannot be recovered after the preorder/Early Access cutoff. Buying Digital Deluxe during Early Access still grants Early Access and preorder bonuses through Sep 8, 2026 at 9:00 AM PT.",
 				href: "/standard-vs-deluxe-upgrade/",
 				image: "covers/characters/jennifer-aarons.jpg",
 				label: "Standard vs Deluxe",
 			},
 			{
-				title: "Halloween: The Game Offline Bots — Private Matches vs AI",
-				description: "Yes — IllFonic confirms private matches against AI and announced offline bot play; network-offline play still needs separate verification. What is confirmed about bots and private matches, and what remains unverified before Advance Access.",
+				title: "Does Halloween: The Game Have Offline Bots? — Yes (Private AI Matches Confirmed)",
+				description: "Yes — IllFonic has officially announced private matches against AI. The developer’s Progression & Customization and reveal/storefront messaging described playing against bots offline; private matches with friends are supported in live-period coverage (TheGamer, Sep 4, 2026). Fully network‑offline/no‑internet play is not confirmed in live builds.",
 				href: "/bots-private-lobbies-offline/",
 				image: "covers/michael/police-lurking.jpg",
 				label: "Bots & Private Lobbies",
@@ -1108,8 +1108,8 @@ export const siteConfig: GameConfig = {
 				{
 					pageId: "bots-private-lobbies-offline",
 					href: "/bots-private-lobbies-offline/",
-					title: "Halloween: The Game Offline Bots — Private Matches vs AI",
-					description: "Yes — IllFonic confirms private matches against AI and announced offline bot play; network-offline play still needs separate verification. What is confirmed about bots and private matches, and what remains unverified before Advance Access.",
+					title: "Does Halloween: The Game Have Offline Bots? — Yes (Private AI Matches Confirmed)",
+					description: "Yes — IllFonic has officially announced private matches against AI. The developer’s Progression & Customization and reveal/storefront messaging described playing against bots offline; private matches with friends are supported in live-period coverage (TheGamer, Sep 4, 2026). Fully network‑offline/no‑internet play is not confirmed in live builds.",
 					eyebrow: "Offline Bots",
 					image: "covers/michael/police-lurking.jpg",
 				},

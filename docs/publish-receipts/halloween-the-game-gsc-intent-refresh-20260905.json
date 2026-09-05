@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "hotword-publish-receipt-v1",
+  "common": {
+    "site": "Halloween: The Game",
+    "siteId": "halloween-the-game",
+    "game": "Halloween: The Game",
+    "releaseDate": "2026-09-08",
+    "lifecyclePhase": "early-access",
+    "batchId": "halloween-the-game-gsc-intent-refresh-20260905",
+    "developmentTaskId": "dev-halloween-the-game-gsc-intent-refresh-20260905",
+    "opportunityId": "opp-halloween-the-game-gsc-intent-refresh-20260905",
+    "attributionMode": "OBSERVATIONAL_ONLY",
+    "commitSha": "",
+    "deploymentUrl": "",
+    "productionUrl": "https://www.halloweengameguide.wiki/",
+    "deployedAt": "",
+    "sourceRefs": [
+      "https://halloweengame.com/news/halloween-the-game-launch-and-early-access/",
+      "https://halloweengame.com/news/progression-customization-overview/",
+      "https://halloweengame.com/news/preorder/",
+      "https://www.thegamer.com/halloween-the-game-multiplayer-friends-crossplay-guide/",
+      "dev-halloween-the-game-gsc-intent-refresh-20260905"
+    ],
+    "writerModel": "gpt-5-mini",
+    "writerPipeline": "hotword-control-center/scripts/shared-article-writer.mjs"
+  },
+  "interventions": [
+    {
+      "action": "CONTENT_REFRESH",
+      "primaryUrl": "/early-access-release-time/",
+      "affectedUrls": [
+        "/early-access-release-time/"
+      ],
+      "developmentTaskId": "dev-halloween-the-game-gsc-intent-refresh-20260905",
+      "triggerType": "gsc_ctr_intent",
+      "triggerQueries": [
+        "what time does halloween the game come out",
+        "what time can i play halloween",
+        "halloween the game launch time"
+      ],
+      "triggerSummary": "3267 impressions / 0.83% CTR / pos 7.46 / impressions +208% — Top 10 exposure with weak CTR on what-time queries.",
+      "reason": "Regenerate SERP promise for primaryQuery what-time; correct Sep 8 weekday to Tuesday; answer who can play now after Advance Access live.",
+      "changeSummary": "Shared Writer update: Title/Meta/H1/quick answer from Intent Brief; Tuesday Sep 8 fix; Early Access already-live framing."
+    },
+    {
+      "action": "CONTENT_REFRESH",
+      "primaryUrl": "/standard-vs-deluxe-upgrade/",
+      "affectedUrls": [
+        "/standard-vs-deluxe-upgrade/"
+      ],
+      "developmentTaskId": "dev-halloween-the-game-gsc-intent-refresh-20260905",
+      "triggerType": "gsc_ctr_intent",
+      "triggerQueries": [
+        "halloween the game standard vs deluxe",
+        "halloween the game deluxe upgrade",
+        "is halloween the game deluxe worth it"
+      ],
+      "triggerSummary": "1252 impressions / 0.64% CTR / pos 7.15 — Top 10 exposure with very low CTR on purchase-decision queries.",
+      "reason": "Tighten page to comparison/decision playbook: table → conditional recommendation → supporting detail; regenerate SERP promise.",
+      "changeSummary": "Shared Writer update: purchase-decision Title/Meta; comparison table first; upgrade/missables emphasis; Tuesday Sep 8 weekday fix."
+    },
+    {
+      "action": "CONTENT_REFRESH",
+      "primaryUrl": "/bots-private-lobbies-offline/",
+      "affectedUrls": [
+        "/bots-private-lobbies-offline/"
+      ],
+      "developmentTaskId": "dev-halloween-the-game-gsc-intent-refresh-20260905",
+      "triggerType": "gsc_ctr_intent",
+      "triggerQueries": [
+        "does halloween the game have offline bots",
+        "halloween the game offline bots",
+        "halloween the game bots"
+      ],
+      "triggerSummary": "678 impressions / 1.77% CTR / pos 6.85 — question-form bots queries need yes/no SERP promise.",
+      "reason": "Regenerate Title/Meta for does-it-have-offline-bots; keep network-offline unverified after Sep 4 Advance Access without reliable live-build proof.",
+      "changeSummary": "Shared Writer update: yes/no Title; private AI confirmed; private friends live-period coverage; network-offline still not confirmed."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "primaryQuery": "does halloween the game have offline bots",
+  "queryCluster": [
+    "does halloween the game have offline bots",
+    "halloween the game offline bots",
+    "halloween game offline bots",
+    "halloween the game bots",
+    "will halloween the game have offline bots",
+    "halloween the game offline mode"
+  ],
+  "userJob": "Immediately learn whether the game supports bots, and how bots, private matches, and true offline mode differ.",
+  "intentOwnerStatus": "KEEP",
+  "serpPromise": "Lead with a clear yes/no, then explain what the current live build actually supports.",
+  "secondaryIntents": [
+    { "query": "halloween the game private matches against AI", "action": "KEEP_SUPPORTING" },
+    { "query": "halloween the game offline mode", "action": "KEEP_SUPPORTING" },
+    { "query": "halloween the game private lobbies", "action": "KEEP_SUPPORTING" }
+  ]
+}

@@ -1,4 +1,4 @@
-# Writer Research Brief: Halloween Standard vs Deluxe (CTR Intent Ownership)
+# Writer Research Brief: Halloween Standard vs Deluxe (GSC Intent Refresh 2026-09-05)
 
 ## Page Goal
 
@@ -9,7 +9,17 @@ Keep URL `/standard-vs-deluxe-upgrade/`. Do not create a new page. Do not change
 
 This page owns Standard vs Deluxe / upgrade / worth-it purchase-decision intent.
 
-Baseline (GSC): 1063 impressions / 0.85% CTR / pos 7.05
+GSC (current): 1252 impressions / 8 clicks / CTR 0.64% / avg position 7.15.
+
+pageType: comparison/decision
+metadataUpdate: REQUIRED
+
+Follow the Writing Playbook comparison/decision structure:
+1. comparison table
+2. conditional recommendation
+3. supporting detail
+
+Tighten from catalog-style listing into a purchase decision.
 
 ---
 
@@ -25,9 +35,9 @@ Baseline (GSC): 1063 impressions / 0.85% CTR / pos 7.05
     "is halloween the game deluxe worth it",
     "halloween the game deluxe edition"
   ],
-  "userJob": "Decide Standard vs Digital Deluxe: price difference, upgrade path, Early Access eligibility, and which skins/characters each path includes.",
+  "userJob": "Decide whether Deluxe is worth the extra money, and whether buying Standard still allows an upgrade later.",
   "intentOwnerStatus": "KEEP",
-  "serpPromise": "Standard $39.99 vs Deluxe $59.99 ($20 more) — Early Access + Inmate Michael + Richard & Alexis; Deluxe Upgrade available at launch.",
+  "serpPromise": "Directly compare price, Early Access, Deluxe contents, the upgrade path, and what content cannot be recovered later.",
   "secondaryIntents": [
     { "query": "halloween the game price difference", "action": "KEEP_SUPPORTING" },
     { "query": "halloween the game early access deluxe", "action": "KEEP_SUPPORTING" },
@@ -52,7 +62,7 @@ Exact Early Access clock ownership stays on {{page:early-access-release-time}}.
 
 ---
 
-## Official Facts (research date 2026-09-04)
+## Official Facts (research date 2026-09-05)
 
 From [Official Preorder FAQ](https://halloweengame.com/news/preorder/):
 
@@ -64,9 +74,9 @@ From [Official Preorder FAQ](https://halloweengame.com/news/preorder/):
 
 From [Launch and Early Access](https://halloweengame.com/news/halloween-the-game-launch-and-early-access/) (3 Sep 2026):
 
-- Early Access: Sep 4, 2026 at 9 AM PT
-- Full launch: Sep 8, 2026 at 9 AM PT
-- **NEW:** Purchasing Digital Deluxe during Early Access still grants Early Access and all preorder bonuses until Sep 8, 2026 at 9 AM PT
+- Early Access: Friday, Sep 4, 2026 at 9 AM PT (already live as of research date)
+- Full launch: **Tuesday**, Sep 8, 2026 at 9 AM PT (calendar weekday; do not call Sep 8 Friday)
+- Purchasing Digital Deluxe during Early Access still grants Early Access and all preorder bonuses until Sep 8, 2026 at 9 AM PT
 
 ---
 
@@ -74,52 +84,50 @@ From [Launch and Early Access](https://halloweengame.com/news/halloween-the-game
 
 Remove:
 
-- "Buying a Deluxe upgrade after launch does not have an announced Advance Access policy" as if Early Access-period Deluxe purchase were unconfirmed
-- "IllFonic has not announced whether a post-purchase Deluxe Upgrade or a Deluxe purchase without a preorder will grant the same Sep 4 Advance Access — that remains unannounced" where it contradicts the Sep 3 post for **purchases during Early Access**
+- Any wording that calls September 8, 2026 a Friday
+- Catalog-only openings that delay the purchase decision
 - Any wording that treats Digital Deluxe bought during Early Access as Not Announced for Early Access / preorder bonuses
 
 Keep precise:
 
-- Deluxe Upgrade **at/after full launch** Advance Access is moot once Early Access ends (Sep 8 9 AM PT). Do not invent a post-launch Early Access grant.
+- Deluxe Upgrade **at/after full launch** does not grant a past Early Access window once Early Access ends (Sep 8 9 AM PT). Do not invent a post-launch Early Access grant.
 - Exact Deluxe Upgrade SKU **price** remains unannounced — do not assume it equals $20.
 
 ---
 
-## Title Direction (required)
+## Required Update Direction (metadataUpdate: REQUIRED)
 
-Halloween: The Game Standard vs Deluxe — Upgrade & Worth It?
+Regenerate SEO Title, Meta description, and H1 from the Intent Brief. Emphasize the purchase decision (price / worth it / upgrade / missables), not a generic edition catalog.
 
-Do not use: Ultimate Guide, Complete Guide, Countdown.
+### SEO Title
 
-H1 must match title.
+Comparison / decision framing for Standard vs Deluxe. Include the decision dimensions players care about (price, Early Access, upgrade, missables) without Ultimate Guide / Complete Guide wording. H1 must match the Title promise.
 
-## Meta description (required)
+### Meta description
 
 Must highlight:
 
-- Standard $39.99
-- Deluxe $59.99
-- $20 difference
-- Deluxe Upgrade available at launch
-- Early Access + Inmate Michael + Richard & Alexis
-- Note Digital Deluxe purchased during Early Access still gets Early Access + preorder bonuses (through Sep 8 9 AM PT)
+- Standard $39.99 vs Deluxe $59.99 ($20)
+- What Deluxe adds (Early Access + Inmate Michael + Richard & Alexis)
+- Upgrade path available at launch
+- What cannot be recovered later (Phantom preorder-only)
+- Digital Deluxe purchased during Early Access still gets Early Access + preorder bonuses through Sep 8 9 AM PT
 
-## Quick Answer (required — answer-first)
+### Quick Answer (required — answer-first)
 
-Lead with prices and what $20 buys, then upgrade + Early Access eligibility. No background opening.
+Lead with prices and whether Deluxe is worth $20 / whether Standard can upgrade later. No background opening.
 
 ---
 
-## Required body structure (preserve purchase-decision shape)
+## Required body structure (comparison/decision playbook)
 
 1. Quick Answer
-2. Confirmed facts
-3. Edition comparison table
-4. Which edition / conditional recommendation
-5. Upgrade details — can you upgrade later?
-6. Early Access — include Sep 3 Digital Deluxe-during-EA fact; link timing page for clocks
-7. Common mistakes (Phantom missable; upgrade price unknown; Early Access window ends Sep 8 9 AM PT)
-8. Related guides + Sources
+2. Edition comparison table (immediately after Quick Answer — decision fields only)
+3. Conditional recommendation (Buy Deluxe if… / Buy Standard if… / Unsure…)
+4. Supporting detail: upgrade path, Early Access eligibility, missables (Phantom), common mistakes
+5. Related guides + Sources
+
+Do **not** reverse this order into long catalog prose before the table/recommendation.
 
 Internal links (natural Markdown):
 
@@ -130,6 +138,8 @@ Internal links (natural Markdown):
 - [Halloween: The Game guide hub]({{hub}})
 
 Preserve useful existing image placeholder if present: `[IMAGE: Storefront purchase options showing Standard and Digital Deluxe price]`
+
+Do not pad for word count.
 
 ---
 
@@ -148,10 +158,20 @@ Preserve useful existing image placeholder if present: `[IMAGE: Storefront purch
 {{page:michael-myers-skins}}
 {{hub}}
 
+## Must Include Facts
+
+- Standard is $39.99 USD; Digital Deluxe is $59.99 USD ($20 difference).
+- Digital Deluxe adds Early Access path, Inmate Michael Myers, civilians Richard and Alexis, plus other Deluxe extras.
+- Digital Deluxe Edition Upgrade is available at launch; upgrade price is unannounced.
+- Phantom Michael Myers skin is preorder-only and is not restored by the Deluxe Upgrade.
+- Purchasing Digital Deluxe during Early Access still grants Early Access and preorder bonuses through Sep 8, 2026 at 9:00 AM PT.
+- Full launch is Tuesday, September 8, 2026 at 9:00 AM PT.
+
 ## Forbidden Claims
 
 - Do not invent Deluxe Upgrade price.
 - Do not claim Phantom is restorable via Deluxe Upgrade.
 - Do not claim Standard gets Early Access.
 - Do not invent post–Sep 8 Early Access for late Deluxe Upgrade buyers.
+- Do not call September 8, 2026 a Friday.
 - Do not append research headings or bare token lists.

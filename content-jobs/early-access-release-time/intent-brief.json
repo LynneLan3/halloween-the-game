@@ -1,0 +1,23 @@
+{
+  "primaryQuery": "what time does halloween the game come out",
+  "queryCluster": [
+    "what time does halloween the game come out",
+    "what time can i play halloween",
+    "what time can i play halloween the game",
+    "halloween the game countdown",
+    "halloween game release time",
+    "halloween the game launch time",
+    "halloween the game advance access",
+    "halloween the game preload",
+    "halloween the game steam preload"
+  ],
+  "userJob": "Immediately learn when the current version becomes playable and convert that unlock time to the reader's own timezone.",
+  "intentOwnerStatus": "KEEP",
+  "serpPromise": "Directly answer the exact Early Access and full-launch unlock times, and who can play right now.",
+  "secondaryIntents": [
+    { "query": "halloween the game preload", "action": "KEEP_SUPPORTING" },
+    { "query": "halloween the game steam preload", "action": "KEEP_SUPPORTING" },
+    { "query": "halloween the game advance access", "action": "KEEP_SUPPORTING" },
+    { "query": "who gets halloween the game early access", "action": "KEEP_SUPPORTING" }
+  ]
+}

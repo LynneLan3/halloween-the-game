@@ -587,8 +587,8 @@ pages:
         type: next-step
     changeSummary: "CONTENT_EXPANSION — PC system requirements guide."
   - id: early-access-release-time
-    title: "Halloween: The Game Release Time — Early Access at 9 AM PT"
-    description: "Early Access unlocks Sep 4, 2026 at 9:00 AM PT for Digital Deluxe purchasers; full launch is Sep 8, 2026 at 9:00 AM PT. Purchasing Digital Deluxe during Early Access still grants Early Access and preorder bonuses through Sep 8, 2026 at 9:00 AM PT. Preload timing varies by storefront — see the preload guide."
+    title: "What time does Halloween the Game come out? Early Access & launch times (PT)"
+    description: "Early Access begins Friday, Sep 4, 2026 at 9:00 AM PT for Digital Deluxe (already live). Full launch is Tuesday, Sep 8, 2026 at 9:00 AM PT — Standard Edition waits for Sep 8. Preload schedules vary by storefront; see the preload guide."
     category: guides
     slug: early-access-release-time
     source: site-input/pages/early-access-release-time.md
@@ -598,15 +598,15 @@ pages:
     role: core
     intents:
       - early-access-release-time
-    quickAnswer: "Early Access for Digital Deluxe unlocks Friday, September 4, 2026 at 9:00 AM PT. Full launch is Friday, September 8, 2026 at 9:00 AM PT. Purchasing Digital Deluxe during Early Access still grants Early Access and preorder bonuses through Sep 8, 2026 at 9:00 AM PT. Standard Edition does not include the four-day Early Access."
+    quickAnswer: "Early Access / Advance Access: Friday, September 4, 2026 at 9:00 AM PT — Digital Deluxe owners can already play. Full launch: Tuesday, September 8, 2026 at 9:00 AM PT. Purchasing Digital Deluxe during Early Access still grants Early Access and preorder bonuses through Sep 8, 2026 at 9:00 AM PT. Standard Edition does not include the four-day Early Access."
     eyebrow: "Release Time"
     facts:
       - label: "Early Access start"
-        value: "Friday, September 4, 2026 — 9:00 AM PT"
+        value: "Friday, September 4, 2026 — 9:00 AM PT (already live for Digital Deluxe)"
       - label: "Full launch"
-        value: "Friday, September 8, 2026 — 9:00 AM PT"
-      - label: "Who gets Early Access"
-        value: "Digital Deluxe path, including purchases during Early Access through Sep 8 9 AM PT; Standard does not include the four-day window"
+        value: "Tuesday, September 8, 2026 — 9:00 AM PT"
+      - label: "Who can play now"
+        value: "Digital Deluxe path, including purchases during Early Access through Sep 8 9 AM PT; Standard waits for full launch"
       - label: "Preload"
         value: "No universal publisher preload schedule — check your storefront"
     coverAssetId: extended-first-look
@@ -619,7 +619,7 @@ pages:
         type: next-step
       - pageId: pc-system-requirements
         type: next-step
-    changeSummary: "CTR INTENT — Release Time title/meta; Digital Deluxe during EA still qualifies; remove Not Announced."
+    changeSummary: "GSC INTENT — what-time primaryQuery; Tuesday Sep 8 weekday fix; who can play now."
   - id: preload-download-status
     title: "Halloween: The Game Preload — Can You Download Before Early Access?"
     description: "What is confirmed about Halloween: The Game preload/download status vs Early Access unlock times — and how to check your storefront when IllFonic has not published a universal preload schedule."
@@ -651,8 +651,8 @@ pages:
         type: next-step
     changeSummary: "INTENT EXPANSION — Preload / download status guide."
   - id: standard-vs-deluxe-upgrade
-    title: "Halloween: The Game Standard vs Deluxe — Upgrade & Worth It?"
-    description: "Standard $39.99 vs Digital Deluxe $59.99 — $20 difference. Digital Deluxe adds Early Access (Sep 4 9 AM PT), Inmate Michael, Richard & Alexis; Deluxe Upgrade available at launch. Digital Deluxe bought during Early Access still gets Early Access and preorder bonuses through Sep 8 9 AM PT."
+    title: "Halloween: The Game — Standard vs Digital Deluxe: Worth the $20? Upgrade & Missables"
+    description: "Standard $39.99 vs Digital Deluxe $59.99 — $20 difference. Compare price, Early Access (Sep 4), Deluxe contents (Inmate Michael + Richard & Alexis), launch-time Deluxe Upgrade (price unannounced), and the preorder-only Phantom skin that cannot be recovered after the preorder/Early Access cutoff. Buying Digital Deluxe during Early Access still grants Early Access and preorder bonuses through Sep 8, 2026 at 9:00 AM PT."
     category: guides
     slug: standard-vs-deluxe-upgrade
     source: site-input/pages/standard-vs-deluxe-upgrade.md
@@ -662,7 +662,7 @@ pages:
     role: core
     intents:
       - standard-vs-deluxe-upgrade
-    quickAnswer: "Standard is $39.99; Digital Deluxe is $59.99 ($20 more) and adds Early Access, Inmate Michael, and civilians Richard & Alexis. A Deluxe Upgrade is available at launch. Digital Deluxe purchased during Early Access still grants Early Access and preorder bonuses through Sep 8, 2026 at 9:00 AM PT. Phantom is preorder-only and is not restored by the upgrade."
+    quickAnswer: "Standard is $39.99; Digital Deluxe is $59.99 ($20 more) and adds Early Access, Inmate Michael, and civilians Richard & Alexis. A Deluxe Upgrade is available at launch (price unannounced). Digital Deluxe purchased during Early Access still grants Early Access and preorder bonuses through Sep 8, 2026 at 9:00 AM PT. Phantom is preorder-only and is not restored by the upgrade."
     eyebrow: "Editions"
     facts:
       - label: "Edition pricing (USD)"
@@ -672,7 +672,7 @@ pages:
       - label: "Deluxe Upgrade"
         value: "Available at launch; grants Inmate + civilians; does not restore Phantom; upgrade price unannounced"
       - label: "Early Access window"
-        value: "Sep 4–Sep 8, 2026 at 9 AM PT; Digital Deluxe bought during EA still qualifies"
+        value: "Sep 4–Tuesday Sep 8, 2026 at 9 AM PT; Digital Deluxe bought during EA still qualifies"
     coverAssetId: jennifer-aarons
     relations:
       - pageId: early-access-release-time
@@ -685,7 +685,7 @@ pages:
         type: related
       - pageId: michael-myers-skins
         type: related
-    changeSummary: "CTR INTENT — Standard vs Deluxe title/meta; Digital Deluxe during EA still qualifies; remove Not Announced."
+    changeSummary: "GSC INTENT — purchase-decision comparison; table → recommendation; Tuesday Sep 8 weekday fix."
   - id: progression-perks
     title: "Halloween: The Game Progression & Perks — How Unlocks Work"
     description: "Four progression levels (Profile, Killer, Civilian, Weapon), Civilian Perk Cards and decks, Michael loadout unlocks, and what still needs live-build verification."
@@ -828,8 +828,8 @@ pages:
     changeSummary: "INTENT EXPANSION — Michael Myers skins comparison."
 
   - id: bots-private-lobbies-offline
-    title: "Halloween: The Game Offline Bots — Private Matches vs AI"
-    description: "Yes — IllFonic confirms private matches against AI and announced offline bot play; network-offline play still needs separate verification. What is confirmed about bots and private matches, and what remains unverified before Advance Access."
+    title: "Does Halloween: The Game Have Offline Bots? — Yes (Private AI Matches Confirmed)"
+    description: "Yes — IllFonic has officially announced private matches against AI. The developer’s Progression & Customization and reveal/storefront messaging described playing against bots offline; private matches with friends are supported in live-period coverage (TheGamer, Sep 4, 2026). Fully network‑offline/no‑internet play is not confirmed in live builds."
     category: guides
     slug: bots-private-lobbies-offline
     source: site-input/pages/bots-private-lobbies-offline.md
@@ -839,7 +839,7 @@ pages:
     role: core
     intents:
       - bots-private-lobbies-offline
-    quickAnswer: "Yes — IllFonic confirms private matches against AI, and early reveal wording described playing against bots offline. Private matches with friends are also announced. Do not assume private AI matches equal fully network-offline play. Story Mode is a separate single-player experience."
+    quickAnswer: "Yes — IllFonic has officially announced private matches against AI. Early reveal wording described playing against bots offline. Private matches with friends are covered in live-period reliable media. Fully network-offline play is not confirmed. Story Mode is a separate single-player experience."
     eyebrow: "Offline Bots"
     facts:
       - label: "Private matches against AI"
@@ -848,15 +848,15 @@ pages:
         value: "Original official reveal described playing against bots offline; live connection behavior still needs verification"
       - label: "Network-offline"
         value: "Not confirmed as zero-network / fully disconnected play"
-      - label: "Story Mode"
-        value: "Separate single-player experience from bots / private AI matches"
+      - label: "Private matches with friends"
+        value: "Supported in live-period reliable coverage (TheGamer, Sep 4, 2026)"
     coverAssetId: michael-police-lurking
     relations:
       - pageId: multiplayer-hub
         type: next-step
       - pageId: single-player-hub
         type: related
-    changeSummary: "CTR INTENT — Offline Bots title/meta; private AI confirmed; network-offline still unverified."
+    changeSummary: "GSC INTENT — question-form yes/no Title; private AI yes; network-offline still unverified."
   - id: steam-deck
     title: "Halloween: The Game Steam Deck — Compatibility & Launch Status"
     description: "What is and isn't known about playing Halloween: The Game on Steam Deck: PC requirements, controller support, and what to check at launch."

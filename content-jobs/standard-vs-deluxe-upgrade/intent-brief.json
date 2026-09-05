@@ -1,0 +1,18 @@
+{
+  "primaryQuery": "halloween the game standard vs deluxe",
+  "queryCluster": [
+    "halloween the game standard vs deluxe",
+    "halloween the game deluxe upgrade",
+    "can you upgrade halloween the game later",
+    "is halloween the game deluxe worth it",
+    "halloween the game deluxe edition"
+  ],
+  "userJob": "Decide whether Deluxe is worth the extra money, and whether buying Standard still allows an upgrade later.",
+  "intentOwnerStatus": "KEEP",
+  "serpPromise": "Directly compare price, Early Access, Deluxe contents, the upgrade path, and what content cannot be recovered later.",
+  "secondaryIntents": [
+    { "query": "halloween the game price difference", "action": "KEEP_SUPPORTING" },
+    { "query": "halloween the game early access deluxe", "action": "KEEP_SUPPORTING" },
+    { "query": "halloween the game phantom vs inmate", "action": "KEEP_SUPPORTING" }
+  ]
+}
