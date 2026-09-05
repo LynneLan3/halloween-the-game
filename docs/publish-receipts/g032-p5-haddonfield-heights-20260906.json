@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "hotword-publish-receipt-v1",
+  "common": {
+    "site": "Halloween: The Game",
+    "siteId": "halloween-the-game",
+    "game": "Halloween: The Game",
+    "batchId": "halloween-the-game|g032-p5-heights|20260906",
+    "lifecyclePhase": "early-access",
+    "attributionMode": "OBSERVATIONAL_ONLY",
+    "commitSha": "c2f6633e7d6fb5c58089eb3016a54f9dcf646ccf",
+    "deploymentUrl": "https://halloween-the-game-guide-b3en8e483-lynnelan3s-projects.vercel.app",
+    "productionUrl": "https://www.halloweengameguide.wiki",
+    "deployedAt": "2026-09-05T23:40:24.000Z",
+    "sourceRefs": [
+      "content-jobs/haddonfield-heights-g032-p4/evidence-pack.json",
+      "site-input/pages/maps/haddonfield-heights.md",
+      "G032 P5 Production Pilot — FAST_VERIFIED Heights publish",
+      "dpl_7CzXzeTugnzLpsHpSrgPxJC9upwV"
+    ]
+  },
+  "interventions": [
+    {
+      "interventionId": "halloween-the-game|g032-p5-heights|maps-haddonfield-heights",
+      "action": "UPDATE_PAGE",
+      "primaryUrl": "/maps/haddonfield-heights/",
+      "affectedUrls": [
+        "/maps/haddonfield-heights/",
+        "/maps/",
+        "/routes/maps/"
+      ],
+      "reason": "Publish G032 P4 FAST_VERIFIED Haddonfield Heights evidence-backed page (IllFonic flythrough supporting visual + known unknowns retained).",
+      "triggerType": "operator_request",
+      "triggerSummary": "G032 P5 Production Pilot: ship existing FAST_VERIFIED Heights page via standard production publish; no forced EVIDENCE_COMPLETE upgrade without qualifying new evidence.",
+      "sourceRefs": [
+        "content-jobs/haddonfield-heights-g032-p4/evidence-pack.json",
+        "commit:3159f23aea94275124cdf10a8be845fac4b13efe",
+        "dpl_7CzXzeTugnzLpsHpSrgPxJC9upwV"
+      ]
+    }
+  ]
+}
