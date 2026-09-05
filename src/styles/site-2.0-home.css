@@ -99,3 +99,39 @@
 .site-shell .sides-intro h2 {
 	line-height: 0.88;
 }
+
+/* Preserve the existing background-image crop and hover treatment for lazy img cards. */
+.site-shell .card-image,
+.site-shell .map-image,
+.site-shell .side-bg,
+.site-shell .featured-image,
+.site-shell .category-image {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.site-shell .category-tile > .category-image {
+	position: absolute;
+	inset: 0;
+	background-size: cover;
+	background-position: center;
+	transition: transform 0.45s;
+}
+
+.site-shell .category-tile:hover > .category-image {
+	transform: scale(1.08);
+}
+
+.site-shell .featured-image {
+	height: 390px;
+}
+
+@media (max-width: 480px) {
+	.site-shell .trending-grid,
+	.site-shell .questions-grid,
+	.site-shell .category-grid {
+		grid-template-columns: 1fr;
+	}
+}

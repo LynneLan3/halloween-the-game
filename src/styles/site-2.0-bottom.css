@@ -83,6 +83,13 @@
 	justify-content: start;
 }
 
+.site2-bottom-shell .card-image {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
 .site2-next-grid .trend-card,
 .site2-ref-grid .trend-card {
 	height: min(390px, 52vw);

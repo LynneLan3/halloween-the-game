@@ -93,7 +93,7 @@ if (model.featured?.cover) {
 						model.trending.map((card, index) => (
 							<a class={`trend-card ${card.accent}`} href={card.href} data-astro-prefetch>
 								<div class="card-number">0{index + 1}</div>
-								<div class="card-image" style={card.imageUrl ? { backgroundImage: `url(${card.imageUrl})` } : undefined} />
+								{card.imageUrl ? <img class="card-image" src={card.imageUrl} loading="lazy" decoding="async" alt="" /> : <div class="card-image" />}
 								<div class="card-shade" />
 								<div class="trend-content">
 									<span class="card-label">{card.label}</span>
@@ -128,7 +128,7 @@ if (model.featured?.cover) {
 					{
 						model.maps.map((map) => (
 							<a class:list={['map-card', map.large && 'map-feature']} href={map.href} data-astro-prefetch>
-								<div class="map-image" style={map.imageUrl ? { backgroundImage: `url(${map.imageUrl})` } : undefined} />
+								{map.imageUrl ? <img class="map-image" src={map.imageUrl} loading="lazy" decoding="async" alt="" /> : <div class="map-image" />}
 								<div class="map-overlay" />
 								<div class="map-info">
 									<span>{map.meta}</span>
@@ -150,7 +150,7 @@ if (model.featured?.cover) {
 			<p>Hunt the town as its most famous resident, or work together to survive him.</p>
 		</div>
 		<a class="side-card killer" href={model.killer.href} data-astro-prefetch>
-			<div class="side-bg" style={killerStyle} />
+			{model.killer.imageUrl ? <img class="side-bg" src={model.killer.imageUrl} loading="lazy" decoding="async" alt="" /> : <div class="side-bg" style={killerStyle} />}
 			<div class="side-content">
 				<span class="side-kicker"><Site2Icon name="skull" size={15} /> The killer</span>
 				<h3>Michael<br /><em>Myers</em></h3>
@@ -159,7 +159,7 @@ if (model.featured?.cover) {
 			</div>
 		</a>
 		<a class="side-card heroes" href={model.heroes.href} data-astro-prefetch>
-			<div class="side-bg" style={heroesStyle} />
+			{model.heroes.imageUrl ? <img class="side-bg" src={model.heroes.imageUrl} loading="lazy" decoding="async" alt="" /> : <div class="side-bg" style={heroesStyle} />}
 			<div class="side-content">
 				<span class="side-kicker"><Site2Icon name="shield" size={15} /> The survivors</span>
 				<h3>Heroes of<br /><em>Haddonfield</em></h3>
@@ -209,7 +209,7 @@ if (model.featured?.cover) {
 					{
 						model.categories.map((tile) => (
 							<a class="category-tile" href={tile.href} data-astro-prefetch>
-								<div style={tile.imageUrl ? { backgroundImage: `url(${tile.imageUrl})` } : undefined} />
+									{tile.imageUrl ? <img class="category-image" src={tile.imageUrl} loading="lazy" decoding="async" alt="" /> : <div />}
 								<div class="category-overlay" />
 								<span>{tile.title}</span>
 								<h3>{tile.copy}</h3>
@@ -225,10 +225,7 @@ if (model.featured?.cover) {
 	{
 		model.featured && (
 			<section class="section featured" id="featured">
-				<div
-					class="featured-image"
-					style={featuredImageUrl ? { backgroundImage: `url(${featuredImageUrl})` } : undefined}
-				/>
+				{featuredImageUrl ? <img class="featured-image" src={featuredImageUrl} loading="lazy" decoding="async" alt="" /> : <div class="featured-image" />}
 				<div class="featured-content">
 					<p class="section-label"><span />Featured guide</p>
 					{model.featured.updated && <span class="updated">Updated · {model.featured.updated}</span>}

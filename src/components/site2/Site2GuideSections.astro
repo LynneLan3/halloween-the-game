@@ -80,10 +80,7 @@ const refCards = await Promise.all(
 						nextCards.map(({ guide, index, imageUrl }) => (
 							<a class={`trend-card ${accents[index % accents.length]}`} href={guideHref(guide)} data-astro-prefetch>
 								<div class="card-number">0{index + 1}</div>
-								<div
-									class="card-image"
-									style={imageUrl ? { backgroundImage: `url(${imageUrl})` } : undefined}
-								/>
+								{imageUrl ? <img class="card-image" src={imageUrl} loading="lazy" decoding="async" alt="" /> : <div class="card-image" />}
 								<div class="card-shade" />
 								<div class="trend-content">
 									<span class="card-label">Next step</span>
@@ -115,10 +112,7 @@ const refCards = await Promise.all(
 						refCards.map(({ guide, index, imageUrl }) => (
 							<a class={`trend-card ${accents[index % accents.length]}`} href={guideHref(guide)} data-astro-prefetch>
 								<div class="card-number">0{index + 1}</div>
-								<div
-									class="card-image"
-									style={imageUrl ? { backgroundImage: `url(${imageUrl})` } : undefined}
-								/>
+								{imageUrl ? <img class="card-image" src={imageUrl} loading="lazy" decoding="async" alt="" /> : <div class="card-image" />}
 								<div class="card-shade" />
 								<div class="trend-content">
 									<span class="card-label">Reference</span>
@@ -157,7 +151,7 @@ const refCards = await Promise.all(
 								{
 						content.otherRoutes.map((route) => (
 							<a class="category-tile" href={site2RouteHubHref(route.id)} data-astro-prefetch>
-											<div style={assetUrl(route.visual) ? { backgroundImage: `url(${assetUrl(route.visual)})` } : undefined} />
+											{assetUrl(route.visual) ? <img class="category-image" src={assetUrl(route.visual)} loading="lazy" decoding="async" alt="" /> : <div />}
 											<div class="category-overlay" />
 											<span>{route.eyebrow ?? 'Route'}</span>
 											<h3>{route.title}</h3>

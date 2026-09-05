@@ -97,6 +97,20 @@
 	grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
 }
 
+.site2-shell-standalone .category-tile > .category-image {
+	position: absolute;
+	inset: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 0.45s;
+}
+
+.site2-shell-standalone .category-tile:hover > .category-image {
+	transform: scale(1.08);
+}
+
 @media (max-width: 720px) {
 	.site2-page-heading {
 		display: block;
@@ -106,5 +120,16 @@
 	.site2-page-heading .heading-note {
 		margin-top: 16px;
 		max-width: none;
+	}
+}
+
+@media (max-width: 480px) {
+	.site2-shell-page .trending-grid,
+	.site2-shell-page .questions-grid,
+	.site2-shell-page .category-grid,
+	.site2-shell-standalone .trending-grid,
+	.site2-shell-standalone .questions-grid,
+	.site2-shell-standalone .category-grid {
+		grid-template-columns: 1fr;
 	}
 }

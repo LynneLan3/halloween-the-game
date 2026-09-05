@@ -115,7 +115,7 @@ const otherRouteTiles = await Promise.all(
 				{
 					otherRouteTiles.map(({ other, visualUrl }) => (
 						<a class="category-tile" href={site2RouteHubHref(other.id)} data-astro-prefetch>
-							<div style={visualUrl ? { backgroundImage: `url(${visualUrl})` } : undefined} />
+						{visualUrl ? <img class="category-image" src={visualUrl} loading="lazy" decoding="async" alt="" /> : <div />}
 							<div class="category-overlay" />
 							<span>{other.eyebrow ?? 'Route'}</span>
 							<h3>{other.title}</h3>
