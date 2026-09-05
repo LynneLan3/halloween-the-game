@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "hotword-publish-receipt-v1",
+  "common": {
+    "site": "Halloween: The Game",
+    "siteId": "halloween-the-game",
+    "game": "Halloween: The Game",
+    "batchId": "halloween-the-game|site-2-0-cleanup|20260906",
+    "lifecyclePhase": "early-access",
+    "attributionMode": "OBSERVATIONAL_ONLY",
+    "sourceRefs": [
+      "commit:b7ff00187c933718ac3e334b48ff2c042b10354b",
+      "Site 2.0 UI/performance cleanup acceptance"
+    ]
+  },
+  "interventions": [
+    {
+      "interventionId": "halloween-the-game|site-2-0-cleanup|homepage-cards",
+      "action": "UPDATE_PAGE",
+      "primaryUrl": "/",
+      "affectedUrls": [
+        "/",
+        "/guides/",
+        "/routes/maps/",
+        "/routes/characters/",
+        "/routes/michael-myers/",
+        "/routes/multiplayer/",
+        "/routes/single-player/",
+        "/routes/pc/"
+      ],
+      "reason": "Site 2.0 card layout and below-fold image loading cleanup.",
+      "triggerType": "operator_request",
+      "triggerSummary": "Preserve card content and image selection while improving mobile layout and loading behavior.",
+      "sourceRefs": ["commit:b7ff00187c933718ac3e334b48ff2c042b10354b"]
+    }
+  ]
+}
