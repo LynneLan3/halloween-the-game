@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "public-copy-hygiene-config-v1",
+  "rules": [
+    {
+      "id": "claim-ledger",
+      "pattern": "\\bclaim\\s+ledgers?\\b",
+      "flags": "i"
+    },
+    {
+      "id": "fast-verified",
+      "pattern": "\\bFAST_VERIFIED\\b",
+      "flags": "i"
+    },
+    {
+      "id": "evidence-complete",
+      "pattern": "\\bEVIDENCE_COMPLETE\\b",
+      "flags": "i"
+    },
+    {
+      "id": "human-capture-task",
+      "pattern": "\\bHUMAN_CAPTURE_TASK\\b",
+      "flags": "i"
+    },
+    {
+      "id": "confidence-score",
+      "pattern": "\\bconfidence\\s+score\\b",
+      "flags": "i"
+    },
+    {
+      "id": "claim-id",
+      "pattern": "\\bclaim_id\\b",
+      "flags": "i"
+    },
+    {
+      "id": "g032-goal",
+      "pattern": "\\bG032\\b",
+      "flags": "i"
+    }
+  ]
+}

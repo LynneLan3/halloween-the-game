@@ -1,0 +1,278 @@
+{
+  "schema_version": "launch-content-evidence-pack-v1",
+  "pack_id": "ep-halloween-haddonfield-heights-001",
+  "mode": "LAUNCH",
+  "demand_ref": "demand-halloween-haddonfield-heights-001",
+  "intent_ref": "intent-halloween-haddonfield-heights-001",
+  "demand_signal": {
+    "demand_id": "demand-halloween-haddonfield-heights-001",
+    "query": "haddonfield heights map",
+    "query_cluster": [
+      "haddonfield heights map",
+      "halloween the game haddonfield heights",
+      "haddonfield heights landmarks halloween"
+    ],
+    "signal_source": "MANUAL",
+    "observed_at": "2026-09-05T18:00:00+08:00",
+    "freshness_class": "LAUNCH_SPIKE",
+    "game": "Halloween: The Game",
+    "notes": "Real launch map demand from Halloween v4-content-matrix / site-spec intents / site-input maps/haddonfield-heights.md. Visual evidence required for Myers house / water tower / Lampkin Lane."
+  },
+  "intent_brief": {
+    "intent_id": "intent-halloween-haddonfield-heights-001",
+    "player_task": "Understand Haddonfield Heights setting and confirmed landmarks without inventing spawns or meta routes.",
+    "intent_class": "LOCATION_MAP",
+    "tech_facet": null,
+    "required_answers": [
+      "That Haddonfield Heights is one of four launch multiplayer maps",
+      "Confirmed residential / neighborhood setting",
+      "Confirmed named landmarks (Myers house, water tower, Lampkin Lane)",
+      "What remains unverified (spawns, routes, meta)"
+    ],
+    "stakes": "Players search map names at launch; inventing landmarks or routes creates false guides.",
+    "out_of_scope": [
+      "Exact item/phone/key spawn points",
+      "Fixed escape routes or resident spawn tables",
+      "Fabricated top-down map"
+    ]
+  },
+  "article_type": "WALKTHROUGH",
+  "article_decision": "NEW",
+  "research_route": {
+    "article_type": "WALKTHROUGH",
+    "tech_facet": null,
+    "profile": "WALKTHROUGH_LOCATION",
+    "source_classes": [
+      "VIDEO",
+      "OFFICIAL",
+      "SERP",
+      "COMMUNITY"
+    ],
+    "rationale": [
+      "WALKTHROUGH/location prioritizes gameplay/video + official + SERP",
+      "Community is supporting for landmarks/meta that remain unverified"
+    ]
+  },
+  "unique_contribution": [
+    "Timestamped visual proof of Heights landmarks from official/gameplay video",
+    "Explicit non-invention boundary for spawns/routes",
+    "Evidence Pack video attribution retained for Writer"
+  ],
+  "competitor_gap_summary": "Heights pages often list names without timestamped gameplay landmark frames from official flythrough / PAX footage.",
+  "claim_ledger": [
+    {
+      "claim_id": "cl-hh-001",
+      "claim": "Halloween: The Game launches with four unique multiplayer maps including Haddonfield Heights.",
+      "evidence_status": "OFFICIAL",
+      "evidence_refs": [
+        "ev-hh-001"
+      ],
+      "applicability": "Launch / Early Access map set",
+      "known_unknown": false,
+      "superseded_by": null
+    },
+    {
+      "claim_id": "cl-hh-002",
+      "claim": "Haddonfield Heights is a residential Haddonfield neighborhood with modest homes, fenced yards, and dimly lit streets.",
+      "evidence_status": "OFFICIAL",
+      "evidence_refs": [
+        "ev-hh-001"
+      ],
+      "applicability": "Heights setting description",
+      "known_unknown": false,
+      "superseded_by": null
+    },
+    {
+      "claim_id": "cl-hh-003",
+      "claim": "Confirmed named landmarks include the abandoned Myers house, Haddonfield water tower, and Lampkin Lane.",
+      "evidence_status": "OFFICIAL",
+      "evidence_refs": [
+        "ev-hh-001"
+      ],
+      "applicability": "Named locations only; not spawn coordinates",
+      "known_unknown": false,
+      "superseded_by": null
+    },
+    {
+      "claim_id": "cl-hh-004",
+      "claim": "Exact item/phone/key spawn points, fixed escape routes, and an official top-down map are not confirmed.",
+      "evidence_status": "UNKNOWN",
+      "evidence_refs": [],
+      "applicability": "Launch verification pending",
+      "known_unknown": true,
+      "superseded_by": null
+    }
+  ],
+  "active_claims": [
+    {
+      "claim_id": "cl-hh-001",
+      "claim": "Halloween: The Game launches with four unique multiplayer maps including Haddonfield Heights.",
+      "evidence_status": "OFFICIAL",
+      "evidence_refs": [
+        "ev-hh-001"
+      ],
+      "applicability": "Launch / Early Access map set",
+      "known_unknown": false,
+      "superseded_by": null
+    },
+    {
+      "claim_id": "cl-hh-002",
+      "claim": "Haddonfield Heights is a residential Haddonfield neighborhood with modest homes, fenced yards, and dimly lit streets.",
+      "evidence_status": "OFFICIAL",
+      "evidence_refs": [
+        "ev-hh-001"
+      ],
+      "applicability": "Heights setting description",
+      "known_unknown": false,
+      "superseded_by": null
+    },
+    {
+      "claim_id": "cl-hh-003",
+      "claim": "Confirmed named landmarks include the abandoned Myers house, Haddonfield water tower, and Lampkin Lane.",
+      "evidence_status": "OFFICIAL",
+      "evidence_refs": [
+        "ev-hh-001"
+      ],
+      "applicability": "Named locations only; not spawn coordinates",
+      "known_unknown": false,
+      "superseded_by": null
+    },
+    {
+      "claim_id": "cl-hh-004",
+      "claim": "Exact item/phone/key spawn points, fixed escape routes, and an official top-down map are not confirmed.",
+      "evidence_status": "UNKNOWN",
+      "evidence_refs": [],
+      "applicability": "Launch verification pending",
+      "known_unknown": true,
+      "superseded_by": null
+    }
+  ],
+  "evidence_items": [
+    {
+      "evidence_id": "ev-hh-001",
+      "source_class": "OFFICIAL",
+      "source_ref": "IllFonic — Haddonfield Heights map flythrough / Locations of Halloween: The Game",
+      "captured_at": "2026-09-05T18:05:00+08:00",
+      "supports_claims": [
+        "cl-hh-001",
+        "cl-hh-002",
+        "cl-hh-003"
+      ],
+      "summary": "Official Heights reveal confirms residential setting and named landmarks; flythrough is primary visual source.",
+      "limitations": "No official top-down map or spawn tables."
+    },
+    {
+      "evidence_id": "ev-hh-002",
+      "source_class": "SERP",
+      "source_ref": "v4-content-matrix query: haddonfield heights map; site-spec intent haddonfield-heights-map",
+      "captured_at": "2026-09-05T18:06:00+08:00",
+      "supports_claims": [
+        "cl-hh-001"
+      ],
+      "summary": "Confirmed page/intent demand for Heights map guide.",
+      "limitations": "Demand evidence only."
+    }
+  ],
+  "video_evidence": [
+    {
+      "video_evidence_id": "ve-C2iqQykoqB8-cl-hh-003",
+      "source_url": "https://www.youtube.com/watch?v=C2iqQykoqB8",
+      "creator": "IllFonic",
+      "title": "Halloween | Haddonfield Heights Map Flythrough",
+      "timestamp": "0:12",
+      "timestamp_detail": {
+        "start_sec": 12,
+        "end_sec": 18,
+        "confidence": 0.35,
+        "reason": "No transcript landmark hit; sampling flythrough/showcase windows from metadata",
+        "signal": "metadata_sample"
+      },
+      "claim_id": "cl-hh-003",
+      "claim": "cl-hh-003",
+      "capture_purpose": "Visual proof of Haddonfield Heights landmarks — Myers house, water tower, and/or Lampkin Lane residential street from official flythrough or gameplay footage.",
+      "capture_method": "YTDLP_SECTION_FFMPEG",
+      "asset_path": "site-input/assets/evidence/maps/heights-flythrough-t12.webp",
+      "asset_ref": "site-input/assets/evidence/maps/heights-flythrough-t12.webp",
+      "asset": {
+        "asset_id": "asset-halloween-the-game-cl-hh-003-t0-12",
+        "filename": "heights-flythrough-t12.webp",
+        "asset_path": "site-input/assets/evidence/maps/heights-flythrough-t12.webp",
+        "asset_ref": "site-input/assets/evidence/maps/heights-flythrough-t12.webp",
+        "original_frame_path": "/Users/lanling/Code/shared-dev-skills/launch-content/fixtures/validation-receipts/haddonfield-heights/pipeline/frames/C2iqQykoqB8/frame-t12.jpg",
+        "optimized_path": "/Users/lanling/Code/shared-dev-skills/launch-content/fixtures/validation-receipts/haddonfield-heights/pipeline/assets/halloween-the-game-cl-hh-003-t0-12.webp",
+        "annotated_path": null,
+        "overlay_path": null,
+        "alt": "Gameplay evidence: Visual proof of Haddonfield Heights landmarks — Myers house, water tower, and/or Lampkin Lane residential street from official flythrough or gameplay footage. (source IllFonic @ 0:12)",
+        "caption": "Visual proof of Haddonfield Heights landmarks — Myers house, water tower, and/or Lampkin Lane residential street from official flythrough or gameplay footage.. Source: IllFonic — Halloween | Haddonfield Heights Map Flythrough @ 0:12.",
+        "annotation": null,
+        "attribution": {
+          "source_url": "https://www.youtube.com/watch?v=C2iqQykoqB8",
+          "creator": "IllFonic",
+          "title": "Halloween | Haddonfield Heights Map Flythrough",
+          "timestamp": "0:12",
+          "video_id": "C2iqQykoqB8"
+        },
+        "claim_id": "cl-hh-003",
+        "capture_purpose": "Visual proof of Haddonfield Heights landmarks — Myers house, water tower, and/or Lampkin Lane residential street from official flythrough or gameplay footage.",
+        "public_path": "site-input/assets/evidence/maps/heights-flythrough-t12.webp",
+        "writer_path": "site-input/assets/evidence/maps/heights-flythrough-t12.webp",
+        "page_path": "../../../../assets/evidence/maps/heights-flythrough-t12.webp"
+      },
+      "confidence": 0.35,
+      "attribution": {
+        "source_url": "https://www.youtube.com/watch?v=C2iqQykoqB8",
+        "creator": "IllFonic",
+        "title": "Halloween | Haddonfield Heights Map Flythrough",
+        "timestamp": "0:12",
+        "video_id": "C2iqQykoqB8"
+      },
+      "capture_status": "CAPTURED",
+      "selection_reason": "Frame 1 clearly shows a residential street with multiple house exteriors, streetlights, parked cars and a lit porch — matching the Lampkin Lane / Haddonfield Heights suburban street environment from the official map flythrough.",
+      "captured_at": "2026-09-05T16:55:17.339Z",
+      "schema_version": "launch-video-evidence-v1"
+    }
+  ],
+  "human_capture_tasks": [
+    {
+      "task_id": "hct-hh-001",
+      "reason": "WALKTHROUGH/location prefers gameplay video; P3 should resolve via Video Evidence Engine or keep OPEN.",
+      "target_claim_ids": [
+        "cl-hh-003"
+      ],
+      "source_url": null,
+      "timestamp": null,
+      "capture_purpose": "Capture Heights landmark environment frames from official flythrough or gameplay.",
+      "annotation_need": "crop",
+      "status": "DONE",
+      "resolved_by": "launch-video-evidence",
+      "resolved_at": "2026-09-05T23:16:54.011Z"
+    }
+  ],
+  "known_unknowns": [
+    "Exact item / phone / key spawn points",
+    "Fixed escape routes or resident spawn tables",
+    "Map meta / optimal routes",
+    "Official top-down map"
+  ],
+  "publish_readiness": "FAST_VERIFIED",
+  "readiness_reasons": [
+    "critical claims corroborated enough for LAUNCH Writer",
+    "known unknowns explicit",
+    "1 OPEN HUMAN_CAPTURE_TASK(s) — upgrade path to EVIDENCE_COMPLETE"
+  ],
+  "lifecycle": {
+    "state": "FAST_VERIFIED",
+    "next": "EVIDENCE_COMPLETE"
+  },
+  "writer_contract": {
+    "may_invent_claims": false,
+    "consumes": [
+      "evidence_pack",
+      "claim_ledger"
+    ]
+  },
+  "video_evidence_engine": {
+    "schema_version": "launch-video-evidence-v1",
+    "attached_at": "2026-09-05T23:16:54.011Z"
+  }
+}

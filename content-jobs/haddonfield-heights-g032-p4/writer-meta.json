@@ -1,0 +1,14 @@
+{
+  "articleType": "WALKTHROUGH",
+  "readiness": "FAST_VERIFIED",
+  "videos": [
+    {
+      "video_evidence_id": "ve-C2iqQykoqB8-cl-hh-003",
+      "claim_id": "cl-hh-003",
+      "role": "SUPPORTING_VISUAL",
+      "asset_ref": "../../../../assets/evidence/maps/heights-flythrough-t12.webp"
+    }
+  ],
+  "pack_id": "ep-halloween-haddonfield-heights-001",
+  "openTasks": []
+}

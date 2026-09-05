@@ -131,8 +131,8 @@ pages:
         type: related
     changeSummary: "INTENT CAPTURE — /maps/ owns map-count and map-list queries; All 4 launch maps framing."
   - id: maps-haddonfield-heights
-    title: "Haddonfield Heights — Halloween: The Game Map Guide"
-    description: "Official landmarks, PAX-shown Civilian interactions, and launch-pending details for the first revealed Halloween: The Game map."
+    title: "Haddonfield Heights Map — Halloween: The Game Landmarks Guide"
+    description: "Confirm Haddonfield Heights setting and named landmarks from official materials, with illustrative IllFonic flythrough footage. Spawns and routes stay launch verification pending."
     category: map-guides
     slug: maps/haddonfield-heights
     source: site-input/pages/maps/haddonfield-heights.md
@@ -142,7 +142,7 @@ pages:
     role: core
     intents:
       - haddonfield-heights-map
-    quickAnswer: "Haddonfield Heights is a residential map with the Myers house, water tower, and Lampkin Lane. PAX demo footage showed trunk searches, barricading, and hiding. Exact spawns and escape routes are launch verification pending."
+    quickAnswer: "Haddonfield Heights is one of four launch multiplayer maps: a residential neighborhood with the abandoned Myers house, Haddonfield water tower, and Lampkin Lane. Exact spawns and escape routes remain launch verification pending."
     eyebrow: "Map Location"
     facts:
       - label: "Setting"
@@ -152,6 +152,13 @@ pages:
       - label: "Demo gameplay"
         value: "Trunk searches, barricading houses, hiding (PAX East 2026)"
     coverAssetId: haddonfield-heights-02
+    evidence:
+      - asset: evidence/maps/heights-flythrough-t12.webp
+        alt: "Residential street at night on Haddonfield Heights from official map flythrough"
+        caption: "Illustrative IllFonic map flythrough footage of Heights residential streets (not a substitute for named landmark confirmation)."
+        sourceLabel: "IllFonic flythrough @ 0:12"
+        sourceType: official
+        sourceUrl: "https://www.youtube.com/watch?v=C2iqQykoqB8&t=12s"
     relations:
       - pageId: maps-hub
         type: related
@@ -159,7 +166,7 @@ pages:
         type: next-step
       - pageId: maps-east-haddonfield
         type: related
-    changeSummary: "CONTENT_EXPANSION — Haddonfield Heights map guide."
+    changeSummary: "Evidence-backed Heights landmarks update; IllFonic flythrough supporting visual + known unknowns retained."
   - id: maps-haddonfield-town-center
     title: "Haddonfield Town Center — Halloween: The Game Map Guide"
     description: "Named downtown businesses and Haddonfield Cemetery confirmed as playable space in Halloween: The Game's Town Center map."
@@ -1157,6 +1164,12 @@ assets:
     source: site-input/assets/covers/maps/haddonfield-heights-01.jpg
     target: covers/maps/haddonfield-heights-01.jpg
     alt: "Myers house at night on Haddonfield Heights map"
+    sourceType: official
+    usageStatus: review-required
+  - id: heights-flythrough-t12
+    source: site-input/assets/evidence/maps/heights-flythrough-t12.webp
+    target: evidence/maps/heights-flythrough-t12.webp
+    alt: "Residential street at night on Haddonfield Heights from official map flythrough"
     sourceType: official
     usageStatus: review-required
   - id: town-center-main-street

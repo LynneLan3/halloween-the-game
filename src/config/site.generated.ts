@@ -263,6 +263,14 @@ export const siteConfig: GameConfig = {
 			sources: [
 			],
 			evidence: [
+				{
+					asset: "evidence/maps/heights-flythrough-t12.webp",
+					alt: "Residential street at night on Haddonfield Heights from official map flythrough",
+					caption: "Illustrative IllFonic map flythrough footage of Heights residential streets (not a substitute for named landmark confirmation).",
+					sourceLabel: "IllFonic flythrough @ 0:12",
+					sourceType: "official",
+					sourceUrl: "https://www.youtube.com/watch?v=C2iqQykoqB8&t=12s",
+				},
 			],
 		},
 		{
@@ -906,8 +914,8 @@ export const siteConfig: GameConfig = {
 				{
 					pageId: "maps-haddonfield-heights",
 					href: "/maps/haddonfield-heights/",
-					title: "Haddonfield Heights — Halloween: The Game Map Guide",
-					description: "Official landmarks, PAX-shown Civilian interactions, and launch-pending details for the first revealed Halloween: The Game map.",
+					title: "Haddonfield Heights Map — Halloween: The Game Landmarks Guide",
+					description: "Confirm Haddonfield Heights setting and named landmarks from official materials, with illustrative IllFonic flythrough footage. Spawns and routes stay launch verification pending.",
 					eyebrow: "Map Location",
 					image: "covers/maps/haddonfield-heights-02.jpg",
 				},

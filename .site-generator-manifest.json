@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "templateVersion": "2.0.0",
   "generatorVersion": "1.0.0",
-  "specHash": "3bc3a88acdb23cc6c55b4394f6b6052a17a724c25e0fc0b812bbcc0703b070b4",
+  "specHash": "73c355de16c423d493a23495628f5215501f3c6d9907f66474242ee36d94685a",
   "siteId": "halloween-the-game",
   "createdFromSpec": "site-spec.yaml",
   "managedFiles": [
@@ -162,6 +162,11 @@
       "kind": "asset"
     },
     {
+      "path": "src/assets/evidence/maps/heights-flythrough-t12.webp",
+      "sha256": "c538ecaab255d51c16f22f0b0bd5ee46d31354039146a88da4faeccdee25ea66",
+      "kind": "asset"
+    },
+    {
       "path": "src/assets/hero/halloween-hero.jpg",
       "sha256": "81127fb47124260587083b8409db5a3553d14d60d278c4cd276409aecbf836a7",
       "kind": "asset"
@@ -193,7 +198,7 @@
     },
     {
       "path": "src/config/site.generated.ts",
-      "sha256": "1d10a94339f54b9a1426ef2d0a4a7fe2b70814cf31cb1d43ce0379b50621c727",
+      "sha256": "dd1dd6cf362054420ef5320aa0cb165caf700db7901495d36fe2d7491e967abe",
       "kind": "config"
     },
     {
@@ -273,7 +278,7 @@
     },
     {
       "path": "src/content/docs/map-guides/maps/haddonfield-heights.md",
-      "sha256": "4247fe514bc274a79bf098350f8c2e02a92389d34ddbba8599c28de8cebf42ed",
+      "sha256": "5d5bf19e648bf8f8dcf33f1fc681147759623ddb48ff589d2f116aa990d07516",
       "kind": "page"
     },
     {
@@ -433,6 +438,14 @@
       "sha256": "81127fb47124260587083b8409db5a3553d14d60d278c4cd276409aecbf836a7",
       "usageStatus": "review-required",
       "sourceType": "store"
+    },
+    {
+      "id": "heights-flythrough-t12",
+      "target": "evidence/maps/heights-flythrough-t12.webp",
+      "source": "site-input/assets/evidence/maps/heights-flythrough-t12.webp",
+      "sha256": "c538ecaab255d51c16f22f0b0bd5ee46d31354039146a88da4faeccdee25ea66",
+      "usageStatus": "review-required",
+      "sourceType": "official"
     },
     {
       "id": "heroes-of-haddonfield",

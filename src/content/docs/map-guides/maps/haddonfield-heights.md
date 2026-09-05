@@ -1,6 +1,6 @@
 ---
-title: "Haddonfield Heights — Halloween: The Game Map Guide"
-description: "Official landmarks, PAX-shown Civilian interactions, and launch-pending details for the first revealed Halloween: The Game map."
+title: "Haddonfield Heights Map — Halloween: The Game Landmarks Guide"
+description: "Confirm Haddonfield Heights setting and named landmarks from official materials, with illustrative IllFonic flythrough footage. Spawns and routes stay launch verification pending."
 category: map-guides
 slug: maps/haddonfield-heights
 status: needs-verification
@@ -11,7 +11,7 @@ sidebar:
   order: 2
 intents:
   - haddonfield-heights-map
-quickAnswer: "Haddonfield Heights is a residential map with the Myers house, water tower, and Lampkin Lane. PAX demo footage showed trunk searches, barricading, and hiding. Exact spawns and escape routes are launch verification pending."
+quickAnswer: "Haddonfield Heights is one of four launch multiplayer maps: a residential neighborhood with the abandoned Myers house, Haddonfield water tower, and Lampkin Lane. Exact spawns and escape routes remain launch verification pending."
 relations:
   -
     slug: maps
@@ -22,13 +22,21 @@ relations:
   -
     slug: maps/east-haddonfield
     type: related
+evidence:
+  -
+    asset: evidence/maps/heights-flythrough-t12.webp
+    alt: Residential street at night on Haddonfield Heights from official map flythrough
+    caption: "Illustrative IllFonic map flythrough footage of Heights residential streets (not a substitute for named landmark confirmation)."
+    sourceLabel: "IllFonic flythrough @ 0:12"
+    sourceType: official
+    sourceUrl: "https://www.youtube.com/watch?v=C2iqQykoqB8&t=12s"
 cover: ../../../../assets/covers/maps/haddonfield-heights-02.jpg
 coverMedia:
   alt: Lampkin Lane area on Haddonfield Heights map
   kind: cover
   aspectRatio: 16:9
   sourceLabel: Official
-changeSummary: "CONTENT_EXPANSION — Haddonfield Heights map guide."
+changeSummary: "Evidence-backed Heights landmarks update; IllFonic flythrough supporting visual + known unknowns retained."
 eyebrow: Map Location
 facts:
   -
@@ -47,19 +55,24 @@ facts:
   Run npm run site:generate instead.
   Source: site-input/pages/maps/haddonfield-heights.md
 -->
-# Haddonfield Heights — Map Guide
+# Haddonfield Heights Map Guide
 
-**Confirmed:** Haddonfield Heights was the first map IllFonic publicly revealed for Halloween: The Game. Official materials describe it as a residential Haddonfield neighborhood with modest single-story homes, fenced yards, and dimly lit streets.
+Quick answer
+
+Haddonfield Heights is one of four launch multiplayer maps in Halloween: The Game. Official materials describe it as a residential Haddonfield neighborhood with modest homes, fenced yards, and dimly lit streets. Official sources also name three confirmed landmarks: the abandoned Myers house, the Haddonfield water tower, and Lampkin Lane. Exact item/phone/key spawn points, fixed escape locations, official top-down maps, and any community "meta" routes remain unverified until in-game launch — treat preview footage as illustrative, not definitive.
 
 ## Known landmarks
 
-IllFonic and the official map flythrough highlight:
+Confirmed named landmarks from official materials:
 
 - **Abandoned Myers house**
 - **Haddonfield water tower**
 - **Lampkin Lane**
 
-These are presented as recognizable locations within the playable space.
+![Residential street at night on Haddonfield Heights from official map flythrough](../../../../assets/evidence/maps/heights-flythrough-t12.webp)  
+*Illustrative IllFonic map flythrough footage of Heights residential streets @ 0:12 — not a substitute for named landmark confirmation.*
+
+Use these named landmarks to orient yourself in preview footage and early play. Do not infer spawn points, fixed escape routes, or optimal community routes from flythrough or promotional clips alone.
 
 ## Officially shown gameplay
 
@@ -69,7 +82,7 @@ The PAX East 2026 coverage and map materials show Civilians:
 - Using **escape routes** and environmental cover
 - **Barricading houses** and **hiding** while managing resident objectives
 
-Michael's stalking, light manipulation, and execution pressure are part of the same sessions—see [Michael abilities](/michael-myers/abilities/) and [how multiplayer works](/multiplayer/how-multiplayer-works/).
+Michael's stalking, light manipulation, and execution pressure are part of the same sessions — see [Michael abilities](/michael-myers/abilities/) and [how multiplayer works](/multiplayer/how-multiplayer-works/).
 
 ## How this map compares
 
@@ -85,6 +98,7 @@ Not confirmed before launch:
 - Fixed escape locations or resident placements
 - Optimal routes or community "meta"
 - Final lighting or power-cut behavior per street
+- An official top-down map
 
 Treat preview footage as illustrative until verified in-game after Advance Access.
 
@@ -92,3 +106,4 @@ Treat preview footage as illustrative until verified in-game after Advance Acces
 
 - [Haddonfield Heights map flythrough](https://halloweengame.com/news/haddonfield-heights-map-flythrough/)
 - [PAX East 2026](https://halloweengame.com/news/pax-east-2026/)
+- [IllFonic Haddonfield Heights flythrough on YouTube @ 0:12](https://www.youtube.com/watch?v=C2iqQykoqB8&t=12s)
