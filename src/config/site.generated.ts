@@ -1059,8 +1059,8 @@ export const siteConfig: GameConfig = {
 				{
 					pageId: "michael-myers-abilities",
 					href: "/michael-myers/abilities/",
-					title: "Michael Myers Abilities — Killer Sense, Stalk, Shape Jump & Blackouts",
-					description: "Official ability descriptions for Michael Myers in Halloween: The Game multiplayer, plus what remains launch verification pending.",
+					title: "Michael Myers Abilities — Evil Presence, Killer Sense, Stalk & Shape Jump",
+					description: "What Evil Presence does in Halloween: The Game, how Michael's abilities unlock, and which EA details remain unproven.",
 					eyebrow: "Killer Abilities",
 					image: "covers/michael/smiths-grove.jpg",
 				},

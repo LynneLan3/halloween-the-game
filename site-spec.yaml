@@ -337,8 +337,8 @@ pages:
         type: next-step
     changeSummary: "CONTENT_EXPANSION — Michael Myers pillar hub; links to progression and matchmaking."
   - id: michael-myers-abilities
-    title: "Michael Myers Abilities — Killer Sense, Stalk, Shape Jump & Blackouts"
-    description: "Official ability descriptions for Michael Myers in Halloween: The Game multiplayer, plus what remains launch verification pending."
+    title: "Michael Myers Abilities — Evil Presence, Killer Sense, Stalk & Shape Jump"
+    description: "What Evil Presence does in Halloween: The Game, how Michael's abilities unlock, and which EA details remain unproven."
     category: killer-guides
     slug: michael-myers/abilities
     source: site-input/pages/michael-myers/abilities.md
@@ -348,24 +348,26 @@ pages:
     role: core
     intents:
       - michael-myers-abilities
-    quickAnswer: "Confirmed abilities: Killer Sense (prey awareness), Stalk (tracking and executions), Shape Jump (shadow movement), Shape Dash (burst from Shape Jump), and blackouts that enable shadow play. Execution lists and numeric values are launch verification pending."
+    quickAnswer: "Evil Presence is an unlockable Michael ability observed in EA as a short-range aura that staggers nearby Civilians, creating an opening to close distance or interrupt escape. Exact unlock level, cooldown, range, Stalk Tier 3 requirement, and guaranteed execution remain launch verification pending. Official kit also includes Killer Sense, Stalk, Shape Jump, Shape Dash, and blackouts."
     eyebrow: "Killer Abilities"
     facts:
+      - label: "Evil Presence"
+        value: "Short-range aura; observed Civilian stagger in EA"
+      - label: "Loadout"
+        value: "2 starting traits + 3 selectable abilities"
       - label: "Killer Sense"
         value: "First-person awareness to detect nearby prey"
       - label: "Stalk"
         value: "Builds on focus; unlocks stronger executions"
       - label: "Shape Jump"
         value: "Shadow movement; enter/exit in darkness or outside LOS"
-      - label: "Blackouts"
-        value: "Shut off lights and power for temporary darkness"
     coverAssetId: smiths-grove
     relations:
       - pageId: michael-myers-hub
         type: related
       - pageId: multiplayer-how-it-works
         type: next-step
-    changeSummary: "CONTENT_EXPANSION — Michael Myers abilities guide."
+    changeSummary: "CONTENT_EXPANSION — Evil Presence EA evidence on Michael abilities; UPDATE for what-does-evil-presence-do intent."
   - id: michael-myers-how-to-arrest
     title: "How to Arrest Michael Myers in Halloween: The Game"
     description: "Step-by-step multiplayer arrest/detain sequence: police reinforcements, handcuff readiness, [E] Detain Michael, MICHAEL DETAINED, and why knockdowns fail before readiness."

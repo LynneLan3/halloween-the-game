@@ -1,0 +1,27 @@
+{
+  "intent_id": "intent-halloween-evil-presence-abilities-001",
+  "player_task": "Understand what Evil Presence does for Michael Myers in Early Access, what the activation looks like, how it helps in a chase, and which unlock/numeric details remain unproven — while still looking up Michael's other confirmed abilities.",
+  "intent_class": "ABILITY_REFERENCE",
+  "tech_facet": null,
+  "required_answers": [
+    "What does Evil Presence actually do?",
+    "What should you look for when it activates?",
+    "How is it useful during a chase?",
+    "Does Evil Presence require Stalk Tier 3?",
+    "Does it guarantee an execution?",
+    "How do you unlock it / what is still unknown?",
+    "What other Michael abilities / traits are confirmed?"
+  ],
+  "stakes": "Players searching ability effects will confuse community combo reports with hard rules, invent cooldown/range numbers, or open a thin Evil Presence page that cannibalizes the abilities guide.",
+  "out_of_scope": [
+    "Exact Killer Level unlock for Evil Presence",
+    "Exact cooldown, range, duration, damage, probability, or blood/resource cost",
+    "Asserting formal Chase State / Stalk Tier 3 / Bloodthirst requirements",
+    "Guaranteed trip or guaranteed execution chain",
+    "Creating a NEW /evil-presence/ page"
+  ],
+  "primaryQuery": "what does evil presence do in halloween the game",
+  "intentOwnerStatus": "KEEP",
+  "targetPage": "/michael-myers/abilities/",
+  "articleDecision": "UPDATE"
+}

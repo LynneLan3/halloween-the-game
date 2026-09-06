@@ -1,0 +1,221 @@
+{
+  "pack_id": "ep-halloween-evil-presence-abilities-001",
+  "article_type": "ANSWER",
+  "article_decision": "UPDATE",
+  "demand": {
+    "demand_id": "demand-halloween-evil-presence-abilities-001",
+    "query": "what does evil presence do in halloween the game",
+    "query_cluster": [
+      "what does evil presence do in halloween the game",
+      "halloween the game evil presence",
+      "michael myers evil presence",
+      "how to use evil presence",
+      "michael myers abilities"
+    ],
+    "signal_source": "MIXED",
+    "observed_at": "2026-09-06T11:00:00+08:00",
+    "freshness_class": "LAUNCH_SPIKE",
+    "game": "Halloween: The Game",
+    "notes": "UPDATE owned /michael-myers/abilities/ — do not create a NEW Evil Presence page. Hub /michael-myers/ already had an Evil Presence intent refresh; ability detail belongs here."
+  },
+  "intent": {
+    "intent_id": "intent-halloween-evil-presence-abilities-001",
+    "player_task": "Understand what Evil Presence does for Michael Myers in Early Access, what the activation looks like, how it helps in a chase, and which unlock/numeric details remain unproven — while still looking up Michael's other confirmed abilities.",
+    "intent_class": "ABILITY_REFERENCE",
+    "tech_facet": null,
+    "required_answers": [
+      "What does Evil Presence actually do?",
+      "What should you look for when it activates?",
+      "How is it useful during a chase?",
+      "Does Evil Presence require Stalk Tier 3?",
+      "Does it guarantee an execution?",
+      "How do you unlock it / what is still unknown?",
+      "What other Michael abilities / traits are confirmed?"
+    ],
+    "stakes": "Players searching ability effects will confuse community combo reports with hard rules, invent cooldown/range numbers, or open a thin Evil Presence page that cannibalizes the abilities guide.",
+    "out_of_scope": [
+      "Exact Killer Level unlock for Evil Presence",
+      "Exact cooldown, range, duration, damage, probability, or blood/resource cost",
+      "Asserting formal Chase State / Stalk Tier 3 / Bloodthirst requirements",
+      "Guaranteed trip or guaranteed execution chain",
+      "Creating a NEW /evil-presence/ page"
+    ]
+  },
+  "competitor_gap": {
+    "summary": "Owned abilities page still lacks EA Evil Presence gameplay evidence. Hub covers intent briefly; abilities detail should answer what Evil Presence does with observed stagger vs reported trip, plus explicit unknowns.",
+    "unique_contribution": [
+      "Direct Evil Presence gameplay evidence from Middi EA footage with timestamped frame when capture succeeds",
+      "Player-visible explanation of the observed short-range aura / stagger state",
+      "Clear distinction between observed stagger/interruption and community-reported trip/fall",
+      "Explicit answer on what is NOT yet proven (level, cooldown, range, Stalk Tier 3, guaranteed execution)",
+      "Preserve full Michael abilities reference so the page is not thinned to Evil Presence only"
+    ]
+  },
+  "article_contract": {
+    "visual_evidence_required": true,
+    "required_visual_claim_ids": ["cl-ep-002"],
+    "troubleshooting_first": false,
+    "evidence_placement": "step_adjacent"
+  },
+  "claims": [
+    {
+      "claim_id": "cl-ep-001",
+      "claim": "Evil Presence is an unlockable Michael ability observed in Early Access multiplayer gameplay (selectable Michael ability slot, not one of the two official starting traits).",
+      "evidence_status": "VIDEO_OBSERVED",
+      "evidence_refs": ["ev-ep-middi", "ev-ep-official-progression"],
+      "applicability": "Early Access multiplayer Sep 2026",
+      "known_unknown": false,
+      "capture_purpose": "Evil Presence ability name / activation in Michael loadout or HUD during EA gameplay"
+    },
+    {
+      "claim_id": "cl-ep-002",
+      "claim": "Observed EA gameplay shows Evil Presence as a short-range area/aura around Michael that visibly staggers or interrupts nearby Civilians' movement.",
+      "evidence_status": "VIDEO_OBSERVED",
+      "evidence_refs": ["ev-ep-middi"],
+      "applicability": "Early Access multiplayer footage — Middi",
+      "known_unknown": false,
+      "visual_evidence_required": true,
+      "capture_purpose": "Michael short-range Evil Presence aura with nearby Civilian stagger / movement interruption"
+    },
+    {
+      "claim_id": "cl-ep-003",
+      "claim": "The observed stagger/interruption can create an opening for Michael to close distance or interrupt an escape attempt.",
+      "evidence_status": "VIDEO_OBSERVED",
+      "evidence_refs": ["ev-ep-middi"],
+      "applicability": "Early Access multiplayer footage — Middi; usefulness inference from visible interruption only",
+      "known_unknown": false,
+      "requirement_class": "OBSERVED_SEQUENCE",
+      "capture_purpose": "Chase moment where Evil Presence stagger lets Michael close distance or cut off escape"
+    },
+    {
+      "claim_id": "cl-ep-004",
+      "claim": "Some players report that Evil Presence can make Civilians trip or fall; this remains community-reported and is not proven as a guaranteed trip mechanic.",
+      "evidence_status": "COMMUNITY_CORROBORATED",
+      "evidence_refs": ["ev-ep-community"],
+      "applicability": "Community reports Sep 2026; distinguish from video-observed stagger",
+      "known_unknown": false,
+      "requirement_class": "OBSERVED_SEQUENCE"
+    },
+    {
+      "claim_id": "cl-ep-005",
+      "claim": "Some players describe a Tier 3 Stalk → chase → Evil Presence → execution sequence; this is community-reported play order, not a hard requirement that Evil Presence needs Stalk Tier 3 or guarantees an execution.",
+      "evidence_status": "COMMUNITY_CORROBORATED",
+      "evidence_refs": ["ev-ep-community"],
+      "applicability": "Community reports Sep 2026",
+      "known_unknown": false,
+      "requirement_class": "OBSERVED_SEQUENCE"
+    },
+    {
+      "claim_id": "cl-ep-006",
+      "claim": "Official materials do not publish Evil Presence's exact Killer Level, cooldown, range, duration, damage, probability, blood/resource cost, formal Chase State requirement, Stalk Tier 3 requirement, or Bloodthirst interaction — treat those fields as launch verification pending.",
+      "evidence_status": "OFFICIAL",
+      "evidence_refs": ["ev-ep-official-progression"],
+      "applicability": "Official progression/customization overview as of research pack; values remain known unknowns",
+      "known_unknown": true
+    },
+    {
+      "claim_id": "cl-ep-007",
+      "claim": "Michael loadouts have 2 starting traits (Killer Sense + Shape Jump); players separately choose 3 Michael abilities; Killer progression unlocks new Michael abilities.",
+      "evidence_status": "OFFICIAL",
+      "evidence_refs": ["ev-ep-official-progression"],
+      "applicability": "Official progression & customization overview",
+      "known_unknown": false,
+      "requirement_class": "HARD_REQUIREMENT"
+    },
+    {
+      "claim_id": "cl-ep-008",
+      "claim": "Official multiplayer overview documents Michael's core kit including Killer Sense (prey awareness), Stalk (focus builds tracking and stronger execution opportunities), Shape Jump (shadow mobility with darkness/LOS enter-exit constraints), Shape Dash from Shape Jump, blackouts/light manipulation, and melee combat where Civilians can resist and Michael cannot simply be killed.",
+      "evidence_status": "OFFICIAL",
+      "evidence_refs": ["ev-ep-official-mp"],
+      "applicability": "Official multiplayer gameplay overview",
+      "known_unknown": false
+    },
+    {
+      "claim_id": "cl-ep-009",
+      "claim": "Xander noob footage shows short stun/stagger gameplay near Michael but cannot cleanly prove that effect is Evil Presence; use only as secondary context, not core Evil Presence proof.",
+      "evidence_status": "VIDEO_OBSERVED",
+      "evidence_refs": ["ev-ep-xander"],
+      "applicability": "Secondary context only — Middi remains primary Evil Presence proof",
+      "known_unknown": false,
+      "capture_purpose": "Short stun/stagger near Michael as secondary context (not labeled Evil Presence proof)"
+    }
+  ],
+  "evidence_items": [
+    {
+      "evidence_id": "ev-ep-official-progression",
+      "source_class": "OFFICIAL",
+      "source_ref": "https://halloweengame.com/news/progression-customization-overview/",
+      "captured_at": "2026-09-06T11:05:00+08:00",
+      "supports_claims": [
+        "cl-ep-001",
+        "cl-ep-006",
+        "cl-ep-007"
+      ],
+      "summary": "Official IllFonic progression/customization overview: Michael loadout has 2 starting traits (Killer Sense + Shape Jump) plus 3 selectable Michael abilities; Killer progression unlocks new Michael abilities. Does not publish Evil Presence numeric values.",
+      "limitations": "Does not name Evil Presence or publish unlock level / cooldown / range."
+    },
+    {
+      "evidence_id": "ev-ep-official-mp",
+      "source_class": "OFFICIAL",
+      "source_ref": "https://halloweengame.com/news/multiplayer-gameplay-overview/",
+      "captured_at": "2026-09-06T11:05:00+08:00",
+      "supports_claims": [
+        "cl-ep-008"
+      ],
+      "summary": "Official multiplayer gameplay overview for Michael / Stalk / Shape Jump / blackouts / combat resistance boundaries.",
+      "limitations": "Does not document Evil Presence."
+    },
+    {
+      "evidence_id": "ev-ep-middi",
+      "source_class": "VIDEO",
+      "source_ref": "https://www.youtube.com/watch?v=DUohGl2xF7c",
+      "captured_at": "2026-09-06T11:10:00+08:00",
+      "supports_claims": [
+        "cl-ep-001",
+        "cl-ep-002",
+        "cl-ep-003"
+      ],
+      "summary": "Middi — The BEST Ability On Myers In Halloween The Game (Evil Presence). EA gameplay explicitly discusses and uses Evil Presence; short-range aura around Michael with nearby Civilian stagger/movement interruption.",
+      "limitations": "Verbal cooldown/blood numbers are unreliable and must not become exact mechanics. Early Access build."
+    },
+    {
+      "evidence_id": "ev-ep-xander",
+      "source_class": "VIDEO",
+      "source_ref": "https://www.youtube.com/watch?v=z6SAsHMCJ_c",
+      "captured_at": "2026-09-06T11:10:00+08:00",
+      "supports_claims": [
+        "cl-ep-009"
+      ],
+      "summary": "Xander noob — MICHAEL MYERS' NEW ABILITY | Halloween: The Game. Secondary context for short stun/stagger gameplay; cannot cleanly prove Evil Presence.",
+      "limitations": "Must not be used as core Evil Presence claim proof."
+    },
+    {
+      "evidence_id": "ev-ep-community",
+      "source_class": "COMMUNITY",
+      "source_ref": "COMMUNITY_PLAYER_REPORTS_EA_SEP_2026",
+      "captured_at": "2026-09-06T11:05:00+08:00",
+      "supports_claims": [
+        "cl-ep-004",
+        "cl-ep-005"
+      ],
+      "summary": "Player reports: Evil Presence may make Civilians trip/fall; some describe Tier 3 Stalk → chase → Evil Presence → execution. Keep COMMUNITY_CORROBORATED only.",
+      "limitations": "Not official rules; not HARD_REQUIREMENT."
+    }
+  ],
+  "video_evidence": [],
+  "human_capture_tasks": [],
+  "known_unknowns": [
+    "Exact Killer Level that unlocks Evil Presence",
+    "Exact cooldown",
+    "Exact range",
+    "Exact duration",
+    "Exact damage",
+    "Exact probability",
+    "Exact blood/resource cost",
+    "Whether a formal Chase State is required",
+    "Whether stagger is formally a guaranteed trip mechanic",
+    "Whether Stalk Tier 3 is required",
+    "Whether an execution chain is guaranteed",
+    "Mandatory Bloodthirst interaction"
+  ]
+}
