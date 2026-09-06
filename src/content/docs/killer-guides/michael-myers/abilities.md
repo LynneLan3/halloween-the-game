@@ -25,7 +25,7 @@ coverMedia:
   kind: cover
   aspectRatio: 16:9
   sourceLabel: Official
-changeSummary: "CONTENT_EXPANSION — Evil Presence EA evidence on Michael abilities; UPDATE for what-does-evil-presence-do intent."
+changeSummary: "PRESENTATION — widen evidence layout, promote Evil Presence frame, compress secondary ability reference, compact bottom recommendations."
 eyebrow: Killer Abilities
 facts:
   -

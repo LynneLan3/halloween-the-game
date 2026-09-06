@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "templateVersion": "2.0.0",
   "generatorVersion": "1.0.0",
-  "specHash": "244945c9fb8443c45192ff1e4717fae5d8f96b5e44b9b8e2d1886d706f90df39",
+  "specHash": "6666d69563ad480ddbf9dc313f330e1e30a66d80f5e7331a23366e41f0cc0bed",
   "siteId": "halloween-the-game",
   "createdFromSpec": "site-spec.yaml",
   "managedFiles": [
@@ -308,7 +308,7 @@
     },
     {
       "path": "src/content/docs/killer-guides/michael-myers/abilities.md",
-      "sha256": "963eb12a90ba06509aacadaf2372ce8ddded26824b03d89ac33d2445657c57b0",
+      "sha256": "388568ab28116e6af04c148d7ff4908f7c49a72124654ae2e25da84afa0afa2c",
       "kind": "page"
     },
     {

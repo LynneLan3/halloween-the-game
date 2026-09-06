@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "hotword-publish-receipt-v1",
+  "common": {
+    "site": "Halloween: The Game",
+    "siteId": "halloween-the-game",
+    "game": "Halloween: The Game",
+    "batchId": "halloween-the-game|evil-presence-abilities-final|20260906",
+    "lifecyclePhase": "early-access",
+    "attributionMode": "OBSERVATIONAL_ONLY",
+    "sourceRefs": [
+      "content-jobs/evil-presence-abilities/",
+      "site-input/pages/michael-myers/abilities.md",
+      "src/assets/evidence/evil-presence/middi-evil-presence-aura-1m35.webp",
+      "src/styles/site-2.0-guide.css",
+      "src/styles/site-2.0-bottom.css",
+      "shared-dev-skills@dda35e2"
+    ]
+  },
+  "interventions": [
+    {
+      "interventionId": "halloween-the-game|evil-presence-abilities-final|20260906",
+      "action": "UPDATE_PAGE",
+      "primaryUrl": "/michael-myers/abilities/",
+      "affectedUrls": [
+        "/michael-myers/abilities/",
+        "/michael-myers/",
+        "/routes/michael-myers/"
+      ],
+      "reason": "Ship LAUNCH Skill v1 final reuse validation for Evil Presence on the owned abilities page: Evidence Pack EVIDENCE_COMPLETE, Middi timestamped frame, presentation refinement (unique Hero H1, evidence-wide layout, compact bottom recommendations).",
+      "triggerType": "operator_request",
+      "triggerSummary": "Final production release after LAUNCH Skill reuse validation, EVIDENCE_COMPLETE, and presentation acceptance.",
+      "triggerQueries": [
+        "what does evil presence do in halloween the game",
+        "halloween the game evil presence",
+        "michael myers evil presence",
+        "how to use evil presence",
+        "michael myers abilities"
+      ],
+      "changeSummary": "UPDATE /michael-myers/abilities/ with Evil Presence EA evidence and presentation refinement; no new Evil Presence page; shared-dev-skills Playwright/publication QA fix at dda35e2."
+    }
+  ]
+}
