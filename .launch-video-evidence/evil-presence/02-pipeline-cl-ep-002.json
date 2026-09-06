@@ -1,0 +1,29 @@
+{
+  "ok": false,
+  "video_evidence": [],
+  "human_capture_tasks": [
+    {
+      "task_id": "hct-video-timestamp-not-found-cl-ep-002",
+      "reason": "Captions unavailable: WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies\nERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests",
+      "failure_status": "TIMESTAMP_NOT_FOUND",
+      "target_claim_ids": [
+        "cl-ep-002"
+      ],
+      "source_url": "https://www.youtube.com/watch?v=DUohGl2xF7c",
+      "timestamp": null,
+      "timestamp_window": null,
+      "capture_purpose": "Michael short-range Evil Presence aura with nearby Civilian stagger / movement interruption",
+      "suggested_frame_content": "Michael short-range Evil Presence aura with nearby Civilian stagger / movement interruption",
+      "annotation_need": "crop",
+      "status": "OPEN",
+      "automation_bypass_forbidden": true
+    }
+  ],
+  "selected_frame": null,
+  "stages_summary": {
+    "discover": {
+      "method": "OVERRIDE"
+    },
+    "timestamp_hits": 0
+  }
+}

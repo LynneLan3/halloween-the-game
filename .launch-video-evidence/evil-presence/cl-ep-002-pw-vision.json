@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "selected": {
+    "path": "/Users/lanling/Code/hot_words_websites/halloween-the-game/.launch-video-evidence/evil-presence/cl-ep-002-pw/frames/playwright-t35.png",
+    "timestamp_sec": 35,
+    "timestamp": "0:35",
+    "offset_sec": 0,
+    "capture_method": "PLAYWRIGHT_PLAYER",
+    "source_resolution": {
+      "width": 1920,
+      "height": 1080,
+      "label": "1920x1080"
+    },
+    "video_title": "The BEST Ability On Myers In Halloween The Game (Evil Presence)",
+    "creator": "Middi",
+    "hit_reason": "Gameplay after stagger mention",
+    "hit_confidence": 0.45
+  },
+  "selected_index": 2,
+  "selection_reason": "Frame 2 is the only gameplay frame that shows an active in-game ability UI (red circular ability icon / vignette) and a nearby player/NPC with a red name/marker near the shelves. The vignette/darkening and ability icon are consistent with Evil Presence being active at short range and there is a nearby character whose movement appears interrupted (red marker/indicator). Menu frames (0,1) do not show in-game evidence, so frame 2 best matches the capture purpose.",
+  "confidence": 0.6,
+  "visible_evidence": [
+    "red circular ability icon (bottom-left) consistent with Evil Presence",
+    "dark vignette around edges indicating ability effect",
+    "nearby character with red name/marker by shelves (possible civilian / movement interruption)",
+    "on-screen XP / 'Hold Stalk Tier 1' text indicating active stalk/ability state"
+  ],
+  "capture_status": "CAPTURED",
+  "human_capture_task": null,
+  "automation": {
+    "stage": "selectFramesWithVision",
+    "method": "APIMART_VISION",
+    "model": "gpt-5-mini"
+  }
+}

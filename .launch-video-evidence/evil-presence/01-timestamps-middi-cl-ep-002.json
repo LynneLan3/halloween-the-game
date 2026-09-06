@@ -1,0 +1,56 @@
+{
+  "ok": true,
+  "candidate": {
+    "video_id": "DUohGl2xF7c",
+    "title": "The BEST Ability On Myers In Halloween The Game (Evil Presence)",
+    "creator": "Middi",
+    "source_url": "https://www.youtube.com/watch?v=DUohGl2xF7c",
+    "source_type": "GUIDE",
+    "duration_sec": null,
+    "description": "Evil Presence Michael Myers Halloween The Game"
+  },
+  "claim_id": "cl-ep-002",
+  "capture_purpose": "Michael short-range Evil Presence aura with nearby Civilian stagger / movement interruption",
+  "hits": [
+    {
+      "start_sec": 7.269,
+      "end_sec": 7.279,
+      "timestamp": "0:07",
+      "confidence": 0.69,
+      "reason": "Transcript mention at 0:07: \"which is going to be evil presence. So emit a concentrated area of evil aura\"",
+      "signal": "transcript",
+      "matched_terms": [
+        "evil",
+        "presence",
+        "area",
+        "aura"
+      ],
+      "cue_text": "which is going to be evil presence. So emit a concentrated area of evil aura"
+    },
+    {
+      "start_sec": 27.029,
+      "end_sec": 27.039,
+      "timestamp": "0:27",
+      "confidence": 0.69,
+      "reason": "Transcript mention at 0:27: \"evil presence is actually good because this staggers people. When you start\"",
+      "signal": "transcript",
+      "matched_terms": [
+        "evil",
+        "presence",
+        "staggers",
+        "stagger"
+      ],
+      "cue_text": "evil presence is actually good because this staggers people. When you start"
+    }
+  ],
+  "caption_available": true,
+  "human_capture_task": null,
+  "automation": {
+    "stage": "resolveTimestamps",
+    "downloaded_full_video": false,
+    "signals_used": [
+      "transcript",
+      "metadata"
+    ]
+  }
+}

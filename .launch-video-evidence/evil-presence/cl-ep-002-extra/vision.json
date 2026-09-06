@@ -1,0 +1,32 @@
+{
+  "ok": true,
+  "selected": {
+    "path": "/Users/lanling/Code/hot_words_websites/halloween-the-game/.launch-video-evidence/evil-presence/cl-ep-002-extra/frames/playwright-t95.png",
+    "timestamp_sec": 95,
+    "timestamp": "1:35",
+    "offset_sec": 0,
+    "capture_method": "PLAYWRIGHT_PLAYER",
+    "source_resolution": {
+      "width": 1920,
+      "height": 1080,
+      "label": "1920x1080"
+    },
+    "video_title": "The BEST Ability On Myers In Halloween The Game (Evil Presence)",
+    "creator": "Middi"
+  },
+  "selected_index": 3,
+  "selection_reason": "In-world gameplay frame showing Michael’s short-range Evil Presence aura as concentric red rings centered on a civilian. The civilian is inside the rings and appears targeted/affected (outlined and standing inside the aura), matching the required aura + nearby civilian movement interruption evidence. This is not a menu or flythrough shot.",
+  "confidence": 0.9,
+  "visible_evidence": [
+    "Concentric red aura rings (Evil Presence)",
+    "Civilian inside the aura (outlined/targeted)",
+    "In-world gameplay HUD visible (not a menu)"
+  ],
+  "capture_status": "CAPTURED",
+  "human_capture_task": null,
+  "automation": {
+    "stage": "selectFramesWithVision",
+    "method": "APIMART_VISION",
+    "model": "gpt-5-mini"
+  }
+}

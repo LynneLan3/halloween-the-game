@@ -1,0 +1,22 @@
+{
+  "ok": false,
+  "video_evidence": [],
+  "human_capture_tasks": [
+    {
+      "task_id": "hct-video-timestamp-not-found-cl-ep-003",
+      "reason": "Captions available but no claim-relevant timestamp found",
+      "failure_status": "TIMESTAMP_NOT_FOUND",
+      "target_claim_ids": [
+        "cl-ep-003"
+      ],
+      "source_url": "https://www.youtube.com/watch?v=DUohGl2xF7c",
+      "timestamp": null,
+      "timestamp_window": null,
+      "capture_purpose": "Chase moment where Evil Presence stagger lets Michael close distance or cut off escape",
+      "suggested_frame_content": "Chase moment where Evil Presence stagger lets Michael close distance or cut off escape",
+      "annotation_need": "crop",
+      "status": "OPEN",
+      "automation_bypass_forbidden": true
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "record": {
+    "video_evidence_id": "ve-DUohGl2xF7c-cl-ep-002",
+    "source_url": "https://www.youtube.com/watch?v=DUohGl2xF7c",
+    "creator": "Middi",
+    "title": "The BEST Ability On Myers In Halloween The Game (Evil Presence)",
+    "timestamp": "1:35",
+    "timestamp_detail": {
+      "start_sec": 95,
+      "end_sec": 100,
+      "confidence": 0.9,
+      "reason": "In-world gameplay frame showing Michael’s short-range Evil Presence aura as concentric red rings centered on a civilian. The civilian is inside the rings and appears targeted/affected (outlined and standing inside the aura), matching the required aura + nearby civilian movement interruption evidence. This is not a menu or flythrough shot.",
+      "signal": "vision_selected_gameplay"
+    },
+    "claim_id": "cl-ep-002",
+    "claim": "cl-ep-002",
+    "capture_purpose": "Michael short-range Evil Presence aura with nearby Civilian stagger / movement interruption",
+    "capture_method": "PLAYWRIGHT_PLAYER",
+    "asset_path": "site-input/assets/evidence/evil-presence/middi-evil-presence-aura-1m35.webp",
+    "asset_ref": "site-input/assets/evidence/evil-presence/middi-evil-presence-aura-1m35.webp",
+    "asset": {
+      "asset_id": "asset-middi-evil-presence-aura-1m35",
+      "filename": "middi-evil-presence-aura-1m35.webp",
+      "asset_path": "site-input/assets/evidence/evil-presence/middi-evil-presence-aura-1m35.webp",
+      "asset_ref": "site-input/assets/evidence/evil-presence/middi-evil-presence-aura-1m35.webp",
+      "original_frame_path": "/Users/lanling/Code/hot_words_websites/halloween-the-game/.launch-video-evidence/evil-presence/cl-ep-002-extra/frames/playwright-t95.png",
+      "optimized_path": "/Users/lanling/Code/hot_words_websites/halloween-the-game/.launch-video-evidence/evil-presence/cl-ep-002-final/assets/middi-evil-presence-aura-1m35.webp",
+      "annotated_path": null,
+      "overlay_path": null,
+      "alt": "Evil Presence short-range red aura rings around a nearby Civilian in Halloween: The Game EA gameplay",
+      "caption": "Look for the concentric red rings around the nearby Civilian — the short-range Evil Presence aura Middi demonstrates in EA gameplay.",
+      "annotation": null,
+      "attribution": {
+        "source_url": "https://www.youtube.com/watch?v=DUohGl2xF7c",
+        "creator": "Middi",
+        "title": "The BEST Ability On Myers In Halloween The Game (Evil Presence)",
+        "timestamp": "1:35",
+        "video_id": "DUohGl2xF7c"
+      },
+      "claim_id": "cl-ep-002",
+      "capture_purpose": "Michael short-range Evil Presence aura with nearby Civilian stagger / movement interruption"
+    },
+    "confidence": 0.9,
+    "attribution": {
+      "source_url": "https://www.youtube.com/watch?v=DUohGl2xF7c",
+      "creator": "Middi",
+      "title": "The BEST Ability On Myers In Halloween The Game (Evil Presence)",
+      "timestamp": "1:35",
+      "video_id": "DUohGl2xF7c"
+    },
+    "capture_status": "CAPTURED",
+    "selection_reason": "In-world gameplay frame showing Michael’s short-range Evil Presence aura as concentric red rings centered on a civilian. The civilian is inside the rings and appears targeted/affected (outlined and standing inside the aura), matching the required aura + nearby civilian movement interruption evidence. This is not a menu or flythrough shot.",
+    "captured_at": "2026-09-06T03:35:04.988Z",
+    "schema_version": "launch-video-evidence-v1",
+    "publication_qa": {
+      "source_resolution": {
+        "width": 1920,
+        "height": 1080,
+        "label": "1920x1080"
+      },
+      "facecam_detected": false,
+      "overlay_detected": false,
+      "ui_readability": "readable",
+      "publication_status": "PASS",
+      "rejection_reason": null,
+      "notes": []
+    }
+  },
+  "qa": {
+    "source_resolution": {
+      "width": 1920,
+      "height": 1080,
+      "label": "1920x1080"
+    },
+    "facecam_detected": false,
+    "overlay_detected": false,
+    "ui_readability": "readable",
+    "publication_status": "PASS",
+    "rejection_reason": null,
+    "notes": []
+  },
+  "siteRef": "site-input/assets/evidence/evil-presence/middi-evil-presence-aura-1m35.webp",
+  "readiness": "EVIDENCE_COMPLETE",
+  "reasons": [
+    "critical claims corroborated enough for LAUNCH Writer",
+    "known unknowns explicit",
+    "no OPEN HUMAN_CAPTURE_TASK",
+    "official and/or video evidence attached",
+    "no UNKNOWN active claims",
+    "required visual claims passed publication QA (PASS or PASS_AFTER_CROP with readable UI)"
+  ]
+}

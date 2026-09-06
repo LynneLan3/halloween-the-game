@@ -1,0 +1,84 @@
+{
+  "ok": true,
+  "record": {
+    "video_evidence_id": "ve-DUohGl2xF7c-cl-ep-002",
+    "source_url": "https://www.youtube.com/watch?v=DUohGl2xF7c",
+    "creator": "Middi",
+    "title": "The BEST Ability On Myers In Halloween The Game (Evil Presence)",
+    "timestamp": "0:35",
+    "timestamp_detail": {
+      "start_sec": 35,
+      "end_sec": 40,
+      "confidence": 0.45,
+      "reason": "Gameplay after stagger mention",
+      "signal": "seeded"
+    },
+    "claim_id": "cl-ep-002",
+    "claim": "cl-ep-002",
+    "capture_purpose": "Michael short-range Evil Presence aura with nearby Civilian stagger / movement interruption",
+    "capture_method": "PLAYWRIGHT_PLAYER",
+    "asset_path": "site-input/assets/evidence/evil-presence/middi-cl-ep-002-0m35.webp",
+    "asset_ref": "site-input/assets/evidence/evil-presence/middi-cl-ep-002-0m35.webp",
+    "asset": {
+      "asset_id": "asset-middi-cl-ep-002",
+      "filename": "middi-cl-ep-002.webp",
+      "asset_path": "site-input/assets/evidence/evil-presence/middi-cl-ep-002-0m35.webp",
+      "asset_ref": "site-input/assets/evidence/evil-presence/middi-cl-ep-002-0m35.webp",
+      "original_frame_path": "/Users/lanling/Code/hot_words_websites/halloween-the-game/.launch-video-evidence/evil-presence/cl-ep-002-pw/frames/playwright-t35.png",
+      "optimized_path": "/Users/lanling/Code/hot_words_websites/halloween-the-game/.launch-video-evidence/evil-presence/cl-ep-002-pw/assets/middi-cl-ep-002.webp",
+      "annotated_path": null,
+      "overlay_path": null,
+      "alt": "Gameplay evidence: Michael short-range Evil Presence aura with nearby Civilian stagger / movement interruption (source Middi @ 0:35)",
+      "caption": "Michael short-range Evil Presence aura with nearby Civilian stagger / movement interruption. Source: Middi — The BEST Ability On Myers In Halloween The Game (Evil Presence) @ 0:35.",
+      "annotation": null,
+      "attribution": {
+        "source_url": "https://www.youtube.com/watch?v=DUohGl2xF7c",
+        "creator": "Middi",
+        "title": "The BEST Ability On Myers In Halloween The Game (Evil Presence)",
+        "timestamp": "0:35",
+        "video_id": "DUohGl2xF7c"
+      },
+      "claim_id": "cl-ep-002",
+      "capture_purpose": "Michael short-range Evil Presence aura with nearby Civilian stagger / movement interruption"
+    },
+    "confidence": 0.45,
+    "attribution": {
+      "source_url": "https://www.youtube.com/watch?v=DUohGl2xF7c",
+      "creator": "Middi",
+      "title": "The BEST Ability On Myers In Halloween The Game (Evil Presence)",
+      "timestamp": "0:35",
+      "video_id": "DUohGl2xF7c"
+    },
+    "capture_status": "CAPTURED",
+    "selection_reason": "Frame 2 is the only gameplay frame that shows an active in-game ability UI (red circular ability icon / vignette) and a nearby player/NPC with a red name/marker near the shelves. The vignette/darkening and ability icon are consistent with Evil Presence being active at short range and there is a nearby character whose movement appears interrupted (red marker/indicator). Menu frames (0,1) do not show in-game evidence, so frame 2 best matches the capture purpose.",
+    "captured_at": "2026-09-06T03:31:15.816Z",
+    "schema_version": "launch-video-evidence-v1",
+    "publication_qa": {
+      "source_resolution": {
+        "width": 1920,
+        "height": 1080,
+        "label": "1920x1080"
+      },
+      "facecam_detected": false,
+      "overlay_detected": false,
+      "ui_readability": "readable",
+      "publication_status": "PASS",
+      "rejection_reason": null,
+      "notes": []
+    }
+  },
+  "qa": {
+    "source_resolution": {
+      "width": 1920,
+      "height": 1080,
+      "label": "1920x1080"
+    },
+    "facecam_detected": false,
+    "overlay_detected": false,
+    "ui_readability": "readable",
+    "publication_status": "PASS",
+    "rejection_reason": null,
+    "notes": []
+  },
+  "siteRef": "site-input/assets/evidence/evil-presence/middi-cl-ep-002-0m35.webp"
+}

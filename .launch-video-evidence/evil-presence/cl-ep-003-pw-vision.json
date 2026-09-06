@@ -1,0 +1,28 @@
+{
+  "ok": false,
+  "selected": null,
+  "selection_reason": "Both frames are the in-menu ability/character screen showing 'Evil Presence' and Michael's model — not actual gameplay. There is no chase action, no survivor present, no stagger animation, and no visual evidence of Michael closing distance or cutting off escape. Although a road/car is visible in the background, this is a menu scene and does not prove the capture purpose.",
+  "confidence": 0.15,
+  "capture_status": "FRAME_AMBIGUOUS",
+  "human_capture_task": {
+    "task_id": "hct-video-frame-ambiguous-cl-ep-003",
+    "reason": "Both frames are the in-menu ability/character screen showing 'Evil Presence' and Michael's model — not actual gameplay. There is no chase action, no survivor present, no stagger animation, and no visual evidence of Michael closing distance or cutting off escape. Although a road/car is visible in the background, this is a menu scene and does not prove the capture purpose.",
+    "failure_status": "FRAME_AMBIGUOUS",
+    "target_claim_ids": [
+      "cl-ep-003"
+    ],
+    "source_url": "https://www.youtube.com/watch?v=DUohGl2xF7c",
+    "timestamp": null,
+    "timestamp_window": null,
+    "capture_purpose": "Chase moment where Evil Presence stagger lets Michael close distance or cut off escape",
+    "suggested_frame_content": "Chase moment where Evil Presence stagger lets Michael close distance or cut off escape",
+    "annotation_need": "crop",
+    "status": "OPEN",
+    "automation_bypass_forbidden": true
+  },
+  "automation": {
+    "stage": "selectFramesWithVision",
+    "method": "APIMART_VISION",
+    "model": "gpt-5-mini"
+  }
+}
