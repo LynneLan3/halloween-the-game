@@ -227,3 +227,62 @@
 		align-items: flex-start;
 	}
 }
+
+/* Compact bottom recommendations (abilities / evidence-led pages):
+   keep next + related links, shrink visual mass below the article. */
+.site2-guide-page:has([data-guide-bottom='compact']) .site2-bottom-band {
+	padding: clamp(28px, 4vw, 48px) clamp(24px, 7vw, 112px);
+	contain-intrinsic-size: auto 260px;
+}
+
+.site2-guide-page:has([data-guide-bottom='compact']) .site2-bottom-band .section-heading {
+	margin-bottom: 18px;
+	align-items: flex-end;
+}
+
+.site2-guide-page:has([data-guide-bottom='compact']) .site2-bottom-band .section-heading h2 {
+	font-size: clamp(28px, 3.2vw, 40px);
+	line-height: 0.95;
+}
+
+.site2-guide-page:has([data-guide-bottom='compact']) .site2-bottom-band .section-heading h2 br {
+	display: none;
+}
+
+.site2-guide-page:has([data-guide-bottom='compact']) .site2-next-grid .trend-card,
+.site2-guide-page:has([data-guide-bottom='compact']) .site2-ref-grid .trend-card {
+	height: 200px;
+	min-height: 180px;
+}
+
+.site2-guide-page:has([data-guide-bottom='compact']) .site2-next-grid .trend-content p,
+.site2-guide-page:has([data-guide-bottom='compact']) .site2-ref-grid .trend-content p {
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+.site2-guide-page:has([data-guide-bottom='compact']) .site2-ref-grid {
+	grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 320px));
+}
+
+/* Keep route context strip; hide the large "explore another route" tile grid */
+.site2-guide-page:has([data-guide-bottom='compact']) .site2-routes-heading,
+.site2-guide-page:has([data-guide-bottom='compact']) .site2-routes-grid {
+	display: none;
+}
+
+.site2-guide-page:has([data-guide-bottom='compact']) .site2-route-bar {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border-bottom: 0;
+}
+
+@media (max-width: 720px) {
+	.site2-guide-page:has([data-guide-bottom='compact']) .site2-next-grid .trend-card,
+	.site2-guide-page:has([data-guide-bottom='compact']) .site2-ref-grid .trend-card {
+		height: 180px;
+		min-height: 160px;
+	}
+}

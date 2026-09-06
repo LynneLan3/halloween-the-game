@@ -50,9 +50,7 @@ facts:
   Run npm run site:generate instead.
   Source: site-input/pages/michael-myers/abilities.md
 -->
-# Michael Myers Abilities — Evil Presence, Killer Sense, Stalk & Shape Jump
-
-**Quick Answer:** Evil Presence is an unlockable Michael ability observed in Early Access. It creates a short-range aura around Michael that visibly staggers or interrupts nearby Civilians, giving him an opening to close distance or cut off an escape. Community reports add trip/fall and Stalk Tier 3 → execution stories, but those are not proven rules. Official materials do not publish Evil Presence’s exact unlock level, cooldown, range, duration, damage, or resource cost.
+Evil Presence is an unlockable Michael ability observed in Early Access. It creates a short-range aura around Michael that visibly staggers or interrupts nearby Civilians, giving him an opening to close distance or cut off an escape. Community reports add trip/fall and Stalk Tier 3 → execution stories, but those are not proven rules. Official materials do not publish Evil Presence’s exact unlock level, cooldown, range, duration, damage, or resource cost.
 
 ## What does Evil Presence do?
 
@@ -62,8 +60,12 @@ Observed EA gameplay shows Evil Presence as a **short-range area/aura** around M
 
 In the successful runs reviewed, that stagger/interruption created an opening for Michael to **close distance** or **interrupt an escape**.
 
-![Evil Presence short-range red aura rings around a nearby Civilian](../../../../assets/evidence/evil-presence/middi-evil-presence-aura-1m35.webp)  
-*Look for the concentric red rings around the nearby Civilian — Middi’s EA footage of Evil Presence @ 1:35.*
+![Evil Presence short-range red aura rings around a nearby Civilian](../../../../assets/evidence/evil-presence/middi-evil-presence-aura-1m35.webp)
+
+*Evil Presence evidence — Middi @ 1:35.*  
+**Frame shows:** concentric red rings / short-range aura locked onto a nearby Civilian in EA multiplayer.  
+**Proves:** Evil Presence presents as a short-range area/aura that can affect a nearby Civilian.  
+**Does not prove:** exact range, cooldown, duration, a guaranteed trip/fall, Stalk Tier 3 as a requirement, or a guaranteed execution.
 
 ### What to look for when it activates
 
@@ -87,16 +89,7 @@ In the successful runs reviewed, the aura’s stagger/interruption can break a C
 
 Official progression materials confirm Killer progression unlocks new Michael abilities, and Michael loadouts use **2 starting traits + 3 selectable abilities**. Evil Presence appears as one of those selectable abilities in EA footage.
 
-Still **launch verification pending** (not published officially):
-
-- Exact Killer Level unlock
-- Exact cooldown, range, and duration
-- Exact damage, stagger probability, and blood/resource cost
-- Whether a formal Chase State is required
-- Whether stagger is a guaranteed trip/fall mechanic
-- Whether Stalk Tier 3 is required
-- Whether an execution chain is guaranteed
-- Mandatory Bloodthirst interaction
+Still **launch verification pending** (not published officially): exact Killer Level unlock; cooldown, range, and duration; damage, stagger probability, and blood/resource cost; formal Chase State requirement; whether stagger is a guaranteed trip/fall; whether Stalk Tier 3 is required; whether an execution chain is guaranteed; Bloodthirst interaction.
 
 ### Observed stagger vs reported trip
 
@@ -108,11 +101,7 @@ Still **launch verification pending** (not published officially):
 
 Secondary Xander noob footage shows short stun/stagger near Michael, but it cannot cleanly prove that effect is Evil Presence. Use Middi for the core Evil Presence claim.
 
----
-
 ## Loadout model (official)
-
-Michael loadouts have:
 
 - **2 starting traits:** Killer Sense + Shape Jump
 - **3 selectable Michael abilities** chosen by the player
@@ -120,78 +109,25 @@ Michael loadouts have:
 
 Official examples of selectable abilities include Reality Tear, Blackout, and Detection Pulse — examples only, not a complete roster. Evil Presence is documented here from EA gameplay, not as an official named list entry.
 
-## Killer Sense
+## Other Michael abilities (reference)
 
-**Confirmed:**
+| Ability / trait | Confirmed role |
+| --- | --- |
+| **Killer Sense** | First-person awareness mode; helps Michael detect nearby prey |
+| **Stalk** | Builds while focusing targets; improves tracking; unlocks stronger execution opportunities. Official mechanic — **not** one of the two starting traits |
+| **Shape Jump** | Enter shadows and move unseen; enter/exit only in darkness or outside resident line of sight |
+| **Shape Dash** | Forward burst / lunge available from Shape Jump |
+| **Blackout / lights** | Shut off lights, cut power, trigger temporary blackouts; darkness enables Shape Jump |
+| **Combat / resistance** | Melee options; Civilians can fight back and knock Michael down; he cannot simply be killed; enough resistance can detain him back to Smith’s Grove |
 
-- First-person **awareness mode**
-- Helps Michael **detect nearby prey**
-
-Killer Sense is Michael's information tool for closing on Civilians who are searching, escorting residents, or preparing escape options.
-
-## Stalk
-
-**Confirmed:**
-
-- Builds while Michael **focuses on targets**
-- Improves **identification and tracking**
-- Unlocks **increasingly strong execution opportunities** as Stalk progresses
-
-IllFonic positions Stalk as the escalation mechanic that rewards sustained pressure on a target. Stalk is an officially described Michael gameplay mechanic; it is **not** listed as one of the two Sep 2 starting traits.
-
-## Shape Jump
-
-**Confirmed:**
-
-- Michael **enters shadows** and moves **unseen**
-- Increases **mobility** while active
-- Can only **enter or exit** while hidden in **darkness** or **outside resident line of sight**
-
-Shape Jump is the foundation for ambush play and map rotation when lights are out.
-
-## Shape Dash
-
-**Confirmed:**
-
-- A **traversal option available from Shape Jump**
-- Delivers a **forward burst / lunge**
-
-Use Shape Dash to close distance after setting up darkness or breaking line of sight.
-
-## Blackout / light manipulation
-
-**Confirmed:**
-
-- Michael can **shut off lights**, **cut power**, and **trigger temporary blackouts**
-- Darkness **enables Shape Jump opportunities**
-
-This ties Michael's map control directly to mobility—especially on maps with varied interiors like Haddonfield Town Center (/maps/haddonfield-town-center/).
-
-## Combat and resistance
-
-**Confirmed:**
-
-- Michael has **melee combat** options
-- Civilians **can fight back**
-- Michael can be **knocked down / resisted**
-- Michael **cannot simply be killed**
-- Strong enough **community / police resistance** can lead to **detention** and return to **Smith's Grove**
-
-Exact combat numbers and detention triggers are **launch verification pending**.
+Exact combat numbers, detention triggers, Stalk meter values, and Shape Jump / Shape Dash cooldowns remain **launch verification pending**.
 
 ## Launch verification pending
-
-Do not treat as confirmed before hands-on verification or an official patch:
 
 - Evil Presence numeric values (level, cooldown, range, duration, damage, cost)
 - Guaranteed trip / Stalk Tier 3 / execution-chain rules for Evil Presence
 - Full execution move list and unlock conditions
-- Stalk meter values and decay rates
-- Shape Jump / Shape Dash cooldowns and range
-- Best ability combos or perk builds
-- Counter-play guides for Civilians
-
-See also: /michael-myers/ | /multiplayer/how-multiplayer-works/ | /maps/
+- Best ability combos or Civilian counter-play guides
 
 ## Sources
 

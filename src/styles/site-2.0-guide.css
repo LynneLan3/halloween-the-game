@@ -36,8 +36,10 @@
 	max-width: 18ch;
 }
 
-/* Generated markdown often repeats the page title as H1 */
-.site2-guide-article-wrap .exp-guide-prose > h1:first-child {
+/* Generated markdown often repeats the page title as H1.
+   Starlight wraps headings in .sl-heading-wrapper — hide that too. */
+.site2-guide-article-wrap .exp-guide-prose > h1:first-child,
+.site2-guide-article-wrap .exp-guide-prose > .sl-heading-wrapper.level-h1:first-child {
 	display: none;
 }
 
@@ -443,6 +445,16 @@
 	font-size: 0.9375rem;
 	line-height: 1.55;
 	color: #b8b2a6;
+}
+
+/* Multi-line evidence captions (shows / proves / does not prove) */
+.site2-guide-page:has([data-guide-layout='evidence-wide']) .site2-guide-article-wrap .exp-guide-prose p:has(> img) + p {
+	max-width: min(100%, 72rem);
+	width: 100%;
+}
+
+.site2-guide-page:has([data-guide-layout='evidence-wide']) .site2-guide-article-wrap .exp-guide-prose table {
+	width: min(100%, 58rem);
 }
 
 @media (max-width: 720px) {
