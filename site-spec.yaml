@@ -381,33 +381,18 @@ pages:
     quickAnswer: "Michael cannot simply be killed. Build police/reinforcement pressure until the handcuff readiness indicator appears, knock him down, press [E] Detain Michael, finish the short progress interaction, and end the match with MICHAEL DETAINED."
     eyebrow: "Arrest Guide"
     facts:
-      - label: "Kill vs detain"
-        value: "Cannot simply be killed; can be detained to Smith's Grove"
-      - label: "Readiness cue"
-        value: "Handcuff-style indicator on Michael under police pressure"
-      - label: "Final prompt"
-        value: "[E] Detain Michael after a ready-state knockdown"
-      - label: "Success state"
-        value: "MICHAEL DETAINED! ends the match"
-    evidence:
-      - asset: evidence/arrest-michael/bryce-detain-prompt-annotated.webp
-        alt: "Annotated [E] Detain Michael prompt with handcuff icon after knockdown"
-        caption: "Arrest readiness: [E] Detain Michael + handcuff icon after Michael is knocked down."
-        sourceLabel: "Bryce Games @ 2:25"
-        sourceType: community
-        sourceUrl: "https://www.youtube.com/watch?v=EN2Ik4aHgBE&t=145s"
-      - asset: evidence/arrest-michael/bryce-michael-detained.webp
-        alt: "MICHAEL DETAINED! match end state"
-        caption: "Successful detain ends the match with MICHAEL DETAINED!"
-        sourceLabel: "Bryce Games @ 2:38"
-        sourceType: community
-        sourceUrl: "https://www.youtube.com/watch?v=EN2Ik4aHgBE&t=158s"
-      - asset: evidence/arrest-michael/d3ad-detain-prompt.webp
-        alt: "Independent [E] Detain Michael prompt from live gameplay"
-        caption: "Second independent source confirming [E] Detain Michael after Downed Michael."
-        sourceLabel: "D3AD Plays @ 7:44"
-        sourceType: community
-        sourceUrl: "https://www.youtube.com/watch?v=fJsZDScSAYU&t=464s"
+      - label: "Call Police"
+        value: "CB / radio path"
+      - label: "Reinforcements"
+        value: "Wagon / cop HUD"
+      - label: "Handcuff Ready"
+        value: "Icon on Michael"
+      - label: "Detain Prompt"
+        value: "[E] Detain Michael"
+      - label: "Minigame"
+        value: "Finish the circle"
+      - label: "Michael Detained"
+        value: "Match ends"
     relations:
       - pageId: michael-myers-hub
         type: related

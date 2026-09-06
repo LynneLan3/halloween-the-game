@@ -470,30 +470,6 @@ export const siteConfig: GameConfig = {
 			sources: [
 			],
 			evidence: [
-				{
-					asset: "evidence/arrest-michael/bryce-detain-prompt-annotated.webp",
-					alt: "Annotated [E] Detain Michael prompt with handcuff icon after knockdown",
-					caption: "Arrest readiness: [E] Detain Michael + handcuff icon after Michael is knocked down.",
-					sourceLabel: "Bryce Games @ 2:25",
-					sourceType: "community",
-					sourceUrl: "https://www.youtube.com/watch?v=EN2Ik4aHgBE&t=145s",
-				},
-				{
-					asset: "evidence/arrest-michael/bryce-michael-detained.webp",
-					alt: "MICHAEL DETAINED! match end state",
-					caption: "Successful detain ends the match with MICHAEL DETAINED!",
-					sourceLabel: "Bryce Games @ 2:38",
-					sourceType: "community",
-					sourceUrl: "https://www.youtube.com/watch?v=EN2Ik4aHgBE&t=158s",
-				},
-				{
-					asset: "evidence/arrest-michael/d3ad-detain-prompt.webp",
-					alt: "Independent [E] Detain Michael prompt from live gameplay",
-					caption: "Second independent source confirming [E] Detain Michael after Downed Michael.",
-					sourceLabel: "D3AD Plays @ 7:44",
-					sourceType: "community",
-					sourceUrl: "https://www.youtube.com/watch?v=fJsZDScSAYU&t=464s",
-				},
 			],
 		},
 		{

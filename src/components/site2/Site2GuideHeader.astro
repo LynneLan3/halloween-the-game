@@ -15,9 +15,15 @@ const content = await loadGuideContent(entry);
 const data = entry.data;
 const route = content.primaryRoute;
 const routeLink = route ? site2RouteHubHref(route.id) : undefined;
+const guideSlug = String(data.slug ?? entry.id ?? '').replace(/^\/+|\/+$/g, '');
+const evidenceWide = guideSlug === 'michael-myers/how-to-arrest';
+const progressionLayout = evidenceWide && content.facts.length >= 5;
 ---
 
-<div class="site2-guide">
+<div
+	class:list={['site2-guide', evidenceWide && 'site2-guide--evidence-wide']}
+	data-guide-layout={evidenceWide ? 'evidence-wide' : undefined}
+>
 	<nav class="site2-guide__crumb" aria-label={t.breadcrumb}>
 		<a href={homeHref} data-astro-prefetch>{t.homeNav}</a>
 		<span aria-hidden="true">/</span>
@@ -62,14 +68,28 @@ const routeLink = route ? site2RouteHubHref(route.id) : undefined;
 	)}
 
 	{content.facts.length > 0 && (
-		<dl class="site2-guide__facts">
-			{content.facts.map((fact) => (
-				<div>
-					<dt>{fact.label}</dt>
-					<dd>{fact.value}</dd>
-				</div>
-			))}
-		</dl>
+		progressionLayout ? (
+			<nav class="site2-guide__progression" aria-label="Arrest progression">
+				<p class="section-label"><span />Arrest progression</p>
+				<ol>
+					{content.facts.map((fact) => (
+						<li>
+							<strong>{fact.label}</strong>
+							<span>{fact.value}</span>
+						</li>
+					))}
+				</ol>
+			</nav>
+		) : (
+			<dl class="site2-guide__facts">
+				{content.facts.map((fact) => (
+					<div>
+						<dt>{fact.label}</dt>
+						<dd>{fact.value}</dd>
+					</div>
+				))}
+			</dl>
+		)
 	)}
 
 	{/* Adcash Display 300x250 — after Quick Answer / facts, before body prose */}

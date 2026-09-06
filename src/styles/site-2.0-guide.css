@@ -106,6 +106,70 @@
 	color: #e0d9ca;
 }
 
+/* Arrest / evidence-heavy guide — scannable progression strip */
+.site2-guide__progression {
+	margin: 0 0 40px;
+}
+
+.site2-guide__progression .section-label {
+	margin-bottom: 14px;
+}
+
+.site2-guide__progression ol {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px 0;
+	align-items: stretch;
+}
+
+.site2-guide__progression li {
+	position: relative;
+	flex: 1 1 9.5rem;
+	min-width: 8.5rem;
+	max-width: 12rem;
+	background: #0f1a22;
+	border: 1px solid #ffffff18;
+	padding: 14px 16px 14px 14px;
+	margin: 0 18px 0 0;
+}
+
+.site2-guide__progression li:not(:last-child)::after {
+	content: '→';
+	position: absolute;
+	right: -15px;
+	top: 50%;
+	transform: translateY(-50%);
+	color: var(--orange, #e8782f);
+	font-size: 1rem;
+	font-weight: 700;
+	line-height: 1;
+}
+
+.site2-guide__progression li:last-child {
+	margin-right: 0;
+}
+
+.site2-guide__progression strong {
+	display: block;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 1.05rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.02em;
+	color: #ebe5d7;
+	margin: 0 0 4px;
+}
+
+.site2-guide__progression span {
+	display: block;
+	font-size: 0.8125rem;
+	line-height: 1.4;
+	color: #b8b2a6;
+}
+
 .site2-guide-body {
 	padding: 0 clamp(24px, 7vw, 112px) 80px;
 	background: var(--ink, #080d11);
@@ -314,5 +378,76 @@
 	.site2-guide-body .exp-guide-prose p,
 	.site2-guide-body .exp-guide-prose li {
 		font-size: 1rem;
+	}
+
+	.site2-guide__progression li {
+		flex: 1 1 calc(50% - 12px);
+		max-width: none;
+		margin-right: 0;
+	}
+
+	.site2-guide__progression li:not(:last-child)::after {
+		display: none;
+	}
+}
+
+/* ── Evidence-wide guide (Arrest walkthrough): wider column + large frames ── */
+.site2-guide-page:has([data-guide-layout='evidence-wide']) {
+	--xp-guide-reading: min(58rem, 100%);
+}
+
+.site2-guide-page:has([data-guide-layout='evidence-wide']) .site2-guide-article-wrap {
+	max-width: 1480px;
+}
+
+.site2-guide-page:has([data-guide-layout='evidence-wide']) .site2-guide--evidence-wide {
+	max-width: 1480px;
+	margin-inline: auto;
+	box-sizing: border-box;
+}
+
+.site2-guide-page:has([data-guide-layout='evidence-wide']) .site2-guide-article-wrap .exp-guide-prose p,
+.site2-guide-page:has([data-guide-layout='evidence-wide']) .site2-guide-article-wrap .exp-guide-prose li {
+	max-width: var(--xp-guide-reading);
+}
+
+.site2-guide-page:has([data-guide-layout='evidence-wide']) .site2-guide-article-wrap .exp-guide-prose ol,
+.site2-guide-page:has([data-guide-layout='evidence-wide']) .site2-guide-article-wrap .exp-guide-prose ul {
+	max-width: var(--xp-guide-reading);
+}
+
+.site2-guide-page:has([data-guide-layout='evidence-wide']) .site2-guide-article-wrap .exp-guide-prose table {
+	max-width: min(100%, 58rem);
+}
+
+/* Evidence frames use most of the article column (70–100%) */
+.site2-guide-page:has([data-guide-layout='evidence-wide']) .site2-guide-article-wrap .exp-guide-prose p:has(> img) {
+	max-width: min(100%, 72rem);
+	width: 100%;
+	margin: 1.25rem 0 0.35rem;
+}
+
+.site2-guide-page:has([data-guide-layout='evidence-wide']) .site2-guide-article-wrap .exp-guide-prose p:has(> img) img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	margin: 0;
+	border: 1px solid #ffffff22;
+	background: #0a1218;
+}
+
+.site2-guide-page:has([data-guide-layout='evidence-wide']) .site2-guide-article-wrap .exp-guide-prose p:has(> img) + p:has(> em) {
+	max-width: min(100%, 72rem);
+	width: 100%;
+	margin: 0 0 1.75rem;
+	font-size: 0.9375rem;
+	line-height: 1.55;
+	color: #b8b2a6;
+}
+
+@media (max-width: 720px) {
+	.site2-guide-page:has([data-guide-layout='evidence-wide']) .site2-guide-article-wrap .exp-guide-prose p:has(> img),
+	.site2-guide-page:has([data-guide-layout='evidence-wide']) .site2-guide-article-wrap .exp-guide-prose p:has(> img) + p:has(> em) {
+		max-width: 100%;
 	}
 }

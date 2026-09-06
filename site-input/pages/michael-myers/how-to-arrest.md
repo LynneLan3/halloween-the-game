@@ -23,11 +23,11 @@ See also the [Michael Myers hub]({{page:michael-myers-hub}}) for the broader kil
 1. **Build police / reinforcement pressure**  
    Call police through Civilian tools and keep authority figures in play. Dead or escaped players can still help via Loomis/deputy return or the Police Reinforcements perk (“Respawn in the match as a police officer”).
 
-![Police Reinforcements perk — Respawn in the match as a police officer](../../../../assets/evidence/arrest-michael/bryce-police-reinforcements-perk.webp)  
-*Look at the selected card text: **Police Reinforcements** → “Respawn in the match as a police officer.” Bryce Games @ 1:45.*
-
 ![CB / shortwave radio interaction during an arrest setup](../../../../assets/evidence/arrest-michael/bryce-cb-radio.webp)  
 *Look for the floating radio/antenna marker over the table CB set — authority-support path. Bryce Games @ 1:30.*
+
+![Police Reinforcements perk — Respawn in the match as a police officer](../../../../assets/evidence/arrest-michael/bryce-police-reinforcements-perk.webp)  
+*Look at the selected card text: **Police Reinforcements** → “Respawn in the match as a police officer.” Bryce Games @ 1:45.*
 
 2. **Confirm police progression on the HUD**  
    Watch for escalation such as **POLICE WAGON CALLED**, **A COP HAS ARRIVED TO INVESTIGATE**, and **Reinforcements Available** / **Reinforcements In**.

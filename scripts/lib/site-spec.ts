@@ -1150,13 +1150,13 @@ function parsePageFacts(
 ): SiteSpecPageFact[] | undefined {
 	const raw = requireArray(item, 'facts', `${parentLoc}.facts`, { optional: true });
 	if (!raw) return undefined;
-	if (raw.length > 4) {
+	if (raw.length > 6) {
 		fail(
-			'pages[].facts may contain at most 4 items.',
+			'pages[].facts may contain at most 6 items.',
 			`${parentLoc}.facts`,
 			raw.length,
 			`${parentLoc}.facts`,
-			'Remove extra fact entries (max 4).',
+			'Remove extra fact entries (max 6).',
 		);
 	}
 	return raw.map((entry, index) => {

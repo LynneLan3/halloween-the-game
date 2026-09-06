@@ -22,43 +22,27 @@ relations:
   -
     slug: maps
     type: related
-evidence:
-  -
-    asset: evidence/arrest-michael/bryce-detain-prompt-annotated.webp
-    alt: "Annotated [E] Detain Michael prompt with handcuff icon after knockdown"
-    caption: "Arrest readiness: [E] Detain Michael + handcuff icon after Michael is knocked down."
-    sourceLabel: "Bryce Games @ 2:25"
-    sourceType: community
-    sourceUrl: "https://www.youtube.com/watch?v=EN2Ik4aHgBE&t=145s"
-  -
-    asset: evidence/arrest-michael/bryce-michael-detained.webp
-    alt: "MICHAEL DETAINED! match end state"
-    caption: "Successful detain ends the match with MICHAEL DETAINED!"
-    sourceLabel: "Bryce Games @ 2:38"
-    sourceType: community
-    sourceUrl: "https://www.youtube.com/watch?v=EN2Ik4aHgBE&t=158s"
-  -
-    asset: evidence/arrest-michael/d3ad-detain-prompt.webp
-    alt: "Independent [E] Detain Michael prompt from live gameplay"
-    caption: "Second independent source confirming [E] Detain Michael after Downed Michael."
-    sourceLabel: "D3AD Plays @ 7:44"
-    sourceType: community
-    sourceUrl: "https://www.youtube.com/watch?v=fJsZDScSAYU&t=464s"
 changeSummary: Arrest/detain walkthrough with dual gameplay video evidence and official kill/detain boundary.
 eyebrow: Arrest Guide
 facts:
   -
-    label: Kill vs detain
-    value: "Cannot simply be killed; can be detained to Smith's Grove"
+    label: Call Police
+    value: CB / radio path
   -
-    label: Readiness cue
-    value: Handcuff-style indicator on Michael under police pressure
+    label: Reinforcements
+    value: Wagon / cop HUD
   -
-    label: Final prompt
-    value: "[E] Detain Michael after a ready-state knockdown"
+    label: Handcuff Ready
+    value: Icon on Michael
   -
-    label: Success state
-    value: "MICHAEL DETAINED! ends the match"
+    label: Detain Prompt
+    value: "[E] Detain Michael"
+  -
+    label: Minigame
+    value: Finish the circle
+  -
+    label: Michael Detained
+    value: Match ends
 ---
 <!--
   This file is generated from site-spec.yaml.
@@ -91,11 +75,11 @@ See also the [Michael Myers hub](/michael-myers/) for the broader killer overvie
 1. **Build police / reinforcement pressure**  
    Call police through Civilian tools and keep authority figures in play. Dead or escaped players can still help via Loomis/deputy return or the Police Reinforcements perk (“Respawn in the match as a police officer”).
 
-![Police Reinforcements perk — Respawn in the match as a police officer](../../../../assets/evidence/arrest-michael/bryce-police-reinforcements-perk.webp)  
-*Look at the selected card text: **Police Reinforcements** → “Respawn in the match as a police officer.” Bryce Games @ 1:45.*
-
 ![CB / shortwave radio interaction during an arrest setup](../../../../assets/evidence/arrest-michael/bryce-cb-radio.webp)  
 *Look for the floating radio/antenna marker over the table CB set — authority-support path. Bryce Games @ 1:30.*
+
+![Police Reinforcements perk — Respawn in the match as a police officer](../../../../assets/evidence/arrest-michael/bryce-police-reinforcements-perk.webp)  
+*Look at the selected card text: **Police Reinforcements** → “Respawn in the match as a police officer.” Bryce Games @ 1:45.*
 
 2. **Confirm police progression on the HUD**  
    Watch for escalation such as **POLICE WAGON CALLED**, **A COP HAS ARRIVED TO INVESTIGATE**, and **Reinforcements Available** / **Reinforcements In**.

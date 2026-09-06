@@ -100,7 +100,7 @@ export const collections = {
 							value: z.string().min(1),
 						}),
 					)
-					.max(4)
+					.max(6)
 					.optional(),
 				}),
 		}),

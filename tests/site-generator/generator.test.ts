@@ -471,14 +471,14 @@ test('11.5m invalid evidence sourceUrl fails before writes', () => {
 	);
 });
 
-test('11.5n facts exceeding 4 items fails before writes', () => {
+test('11.5n facts exceeding 6 items fails before writes', () => {
 	expectPatchedSpecFail(
 		(raw) => {
 			const anchor = '    related:\n      - beginner-guide\n    changeSummary:';
 			return raw.replace(anchor,
-				'    facts:\n      - label: A\n        value: a\n      - label: B\n        value: b\n      - label: C\n        value: c\n      - label: D\n        value: d\n      - label: E\n        value: e\n' + anchor);
+				'    facts:\n      - label: A\n        value: a\n      - label: B\n        value: b\n      - label: C\n        value: c\n      - label: D\n        value: d\n      - label: E\n        value: e\n      - label: F\n        value: f\n      - label: G\n        value: g\n' + anchor);
 		},
-		/facts|at most 4/i,
+		/facts|at most 6/i,
 	);
 });
 
