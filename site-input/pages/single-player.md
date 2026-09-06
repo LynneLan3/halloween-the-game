@@ -16,11 +16,19 @@ In the successful runs reviewed:
 2. Follow the power/gate progression cue.
 3. Continue toward the station wagon.
 
+![Michael reaches the station wagon route at the end of the observed Prologue sequence](../../../assets/evidence/single-player-growth/v01-prologue-1505-frame.webp)
+
+*Prologue station-wagon route state.*
+
 ## Chapter 1 — observed progression
 
 1. Encounter the Rabbit in Red sequence.
 2. Follow the red/noise tracking segments.
 3. Continue toward the mechanic progression state.
+
+![The observed Chapter 1 sequence reaches the mechanic progression state](../../../assets/evidence/single-player-growth/v01-ch1-3220-frame.webp)
+
+*Chapter 1 mechanic progression state.*
 
 ## Chapter 2 — observed progression
 
@@ -35,17 +43,33 @@ In the successful runs reviewed:
 2. Complete the house/flashback material.
 3. Continue to later neighborhood objectives.
 
+![Michael inside the Myers House during the observed Chapter 3 sequence](../../../assets/evidence/single-player-growth/v01-ch3-7224-frame.webp)
+
+*Myers House sequence in Chapter 3.*
+
 ## Chapter 4 — observed progression
 
 1. Follow the Wallace House event chain.
 2. Continue through the observed Bob/Lynda states.
 3. Follow the later event-chain progression toward the Laurie phase.
 
+![The Wallace House is the active objective during the observed Chapter 4 route](../../../assets/evidence/single-player-growth/f07-correct-frame.webp)
+
+*Wallace House objective in Chapter 4.*
+
 ## Chapter 5 — observed progression
 
 1. Continue through the police/search-pressure phase.
 2. Follow the escape objective when it appears.
 3. In VIDEO-02, the observed run reaches a train-track escape branch. This is run-specific evidence, not a universal ending requirement.
+
+![The escape objective is active in the observed Chapter 5 run](../../../assets/evidence/single-player-growth/v02-ch5-esc-frame.webp)
+
+*Chapter 5 escape objective.*
+
+![The observed run commits to the train-track escape branch](../../../assets/evidence/single-player-growth/v02-ch5-rail-frame.webp)
+
+*Chapter 5 train-track escape branch.*
 
 ## First clear vs challenge cleanup
 

@@ -12,6 +12,7 @@
   "research_handoff_ref":"content-jobs/single-player-growth/research-handoff.md",
   "claim_ledger_ref":"content-jobs/single-player-growth/claim-ledger.json",
   "video_evidence_ref":"content-jobs/single-player-growth/video-evidence.json",
+  "published_asset_refs":["src/assets/evidence/single-player-growth/v01-prologue-1505-frame.webp","src/assets/evidence/single-player-growth/v01-ch1-3220-frame.webp","src/assets/evidence/single-player-growth/v01-ch3-7224-frame.webp","src/assets/evidence/single-player-growth/f07-correct-frame.webp","src/assets/evidence/single-player-growth/v02-ch5-esc-frame.webp","src/assets/evidence/single-player-growth/v02-ch5-rail-frame.webp"],
   "local_annotation_ref":"content-jobs/single-player-growth/local-index-annotation.json",
   "chapter_support_ref":"content-jobs/single-player-growth/local-index-annotation.json#chapter_support",
   "frame_reassessment_ref":"content-jobs/single-player-growth/local-index-annotation.json#frame_reassessment",

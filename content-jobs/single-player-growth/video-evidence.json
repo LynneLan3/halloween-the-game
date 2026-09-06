@@ -53,6 +53,14 @@
   "chapter_segments_note": "No chapter_start_timestamp is asserted; chapter-specific anchors are stored in local-index-annotation.json#chapter_support.",
   "required_chapters": ["Prologue — Escape From Smith's Grove","Chapter 1 — The Road To Haddonfield","Chapter 2 — Main Street","Chapter 3 — Returning Home","Chapter 4 — The Babysitters","Chapter 5 — Into The Shadows"],
   "blocker": "None for player-task coverage; exact chapter starts remain UNKNOWN by design and are not publication claims.",
+  "published_assets": [
+    {"asset_ref":"src/assets/evidence/single-player-growth/v01-prologue-1505-frame.webp","source_video":"VIDEO-01","timestamp":"00:15:05","chapter":"Prologue","claim_refs":["SPG-003"],"state_ref":"station-wagon finish instruction/scene"},
+    {"asset_ref":"src/assets/evidence/single-player-growth/v01-ch1-3220-frame.webp","source_video":"VIDEO-01","timestamp":"00:32:20","chapter":"Chapter 1","claim_refs":["SPG-004"],"state_ref":"mechanic progression cinematic"},
+    {"asset_ref":"src/assets/evidence/single-player-growth/v01-ch3-7224-frame.webp","source_video":"VIDEO-01","timestamp":"01:12:24","chapter":"Chapter 3","claim_refs":["SPG-006"],"state_ref":"Myers House interior gameplay"},
+    {"asset_ref":"src/assets/evidence/single-player-growth/f07-correct-frame.webp","source_video":"VIDEO-01","timestamp":"01:24:07","chapter":"Chapter 4","claim_refs":["SPG-007"],"state_ref":"GO TO THE WALLACE HOUSE"},
+    {"asset_ref":"src/assets/evidence/single-player-growth/v02-ch5-esc-frame.webp","source_video":"VIDEO-02","timestamp":"01:18:05","chapter":"Chapter 5","claim_refs":["SPG-008"],"state_ref":"FIND A WAY TO ESCAPE HADDONFIELD"},
+    {"asset_ref":"src/assets/evidence/single-player-growth/v02-ch5-rail-frame.webp","source_video":"VIDEO-02","timestamp":"01:20:40","chapter":"Chapter 5","claim_refs":["SPG-008"],"state_ref":"DISCOVERED TRAIN TRACKS ESCAPE"}
+  ],
   "visual_candidates": [
     {"frame_id":"FRAME-01","selected_or_rejected":"REJECTED","timestamp":null,"chapter":"Prologue","current_state":"gate / power transition","what_it_proves":"Gate/power state","next_action":"Open/lower gate","claim_refs":["SPG-003"],"capture_method":"storyboard only","publication_qa":"FAIL — HUD unreadable / no source-native frame","rejection_reason":"No readable publication frame captured."},
     {"frame_id":"FRAME-02","selected_or_rejected":"REJECTED","timestamp":null,"chapter":"Prologue","current_state":"station wagon stealth finish","what_it_proves":"Final Prologue route","next_action":"Reach station wagon unnoticed","claim_refs":["SPG-003"],"capture_method":"storyboard only","publication_qa":"FAIL","rejection_reason":"No readable publication frame captured."},
