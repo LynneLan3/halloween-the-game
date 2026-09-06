@@ -1,0 +1,50 @@
+{
+  "schema_version": "growth-content-evidence-pack-v1",
+  "pack_id": "ep-halloween-haddonfield-heights-growth-002",
+  "mode": "GROWTH",
+  "lifecycle": "GROWTH",
+  "article_type": "WALKTHROUGH",
+  "article_decision": "UPDATE",
+  "demand_ref": "demand-halloween-haddonfield-heights-001",
+  "intent_ref": "intent-halloween-haddonfield-heights-growth-002",
+  "demand_signal": {"query":"haddonfield heights map","query_cluster":["haddonfield heights map","halloween the game haddonfield heights","haddonfield heights landmarks halloween"],"game":"Halloween: The Game"},
+  "intent_brief": {"query":"haddonfield heights map","player_task":"Orient yourself on Haddonfield Heights using confirmed landmarks and supported road relationships, then recover when the landmark or route is not confirmed.","required_answers":["quick orientation","landmark overview","supported route relationship","wrong-turn recovery","static/dynamic evidence boundary"],"intent_class":"LOCATION_MAP"},
+  "player_task": "Orient yourself on Haddonfield Heights using confirmed landmarks and supported road relationships, then recover when the landmark or route is not confirmed.",
+  "unique_contribution": [
+    "A task-first orientation guide for confirmed Heights landmarks and the one supported first-party spatial relationship.",
+    "A visible boundary between observed residential-road cues, official landmark text, and unverified route geometry.",
+    "Wrong-landmark recovery guidance that does not pretend to be a fixed route or spawn table."
+  ],
+  "claim_ledger": [
+    {"claim_id":"hh2-001","claim":"Haddonfield Heights is a residential neighborhood with modest single-family homes and a large water tower visible over the streets.","evidence_status":"OFFICIAL","evidence_refs":["hh2-ev-official-locations","hh2-ev-flythrough"],"known_unknown":false},
+    {"claim_id":"hh2-002","claim":"The official location guide places Lampkin Lane and the abandoned Myers house in a supported approach relationship: heading down the block toward Lampkin Lane, the Myers house is a recognizable destination cue.","evidence_status":"OFFICIAL","evidence_refs":["hh2-ev-official-locations"],"known_unknown":false},
+    {"claim_id":"hh2-003","claim":"The official location guide also names the Strode house as a Heights landmark.","evidence_status":"OFFICIAL","evidence_refs":["hh2-ev-official-locations"],"known_unknown":false},
+    {"claim_id":"hh2-004","claim":"The IllFonic flythrough visibly shows residential roads, curbs, streetlights, detached houses, hedges, and parked cars.","evidence_status":"VIDEO_OBSERVED","evidence_refs":["hh2-ev-video-index"],"known_unknown":false},
+    {"claim_id":"hh2-005","claim":"The official locations guide and flythrough independently support the residential-neighborhood identity and named-landmark context.","evidence_status":"CROSS_SOURCE","evidence_refs":["hh2-ev-official-locations","hh2-ev-flythrough"],"known_unknown":false},
+    {"claim_id":"hh2-006","claim":"Use the water tower, street lighting, curb line, and repeated detached-house frontage as orientation cues when no named landmark is readable; if lost, return to the nearest visible residential road cue and re-check the named-landmark relationship, but do not treat that recovery advice as a guaranteed route rule.","evidence_status":"INFERENCE","evidence_refs":["hh2-ev-official-locations","hh2-ev-video-index"],"known_unknown":false},
+    {"claim_id":"hh2-007","claim":"Exact spawn points, top-down map geometry, fixed escape routes, landmark-to-landmark turn sequences, and static-versus-dynamic landmark behavior are not established by the available evidence.","evidence_status":"UNKNOWN","evidence_refs":[],"known_unknown":true}
+  ],
+  "evidence_items": [
+    {"evidence_id":"hh2-ev-official-locations","source_class":"OFFICIAL","source_ref":"https://halloweengame.com/news/the-locations-of-halloween-the-game/","captured_at":"2026-09-06T00:00:00+08:00","supports_claims":["hh2-001","hh2-002","hh2-003","hh2-005","hh2-006"],"summary":"First-party Heights section names the Strode house, Lampkin Lane, abandoned Myers house, modest single-family homes, and the water tower; it explicitly describes heading down the block toward Lampkin Lane.","limitations":"Descriptive article prose is not a top-down map, coordinate set, spawn table, or tested turn-by-turn route."},
+    {"evidence_id":"hh2-ev-flythrough","source_class":"OFFICIAL","source_ref":"https://halloweengame.com/news/haddonfield-heights-map-flythrough/","captured_at":"2026-09-06T00:00:00+08:00","supports_claims":["hh2-001","hh2-005","hh2-006"],"summary":"Official map-flythrough page establishes the Heights neighborhood context and links the IllFonic flythrough.","limitations":"The flythrough frames inspected here show residential road cues but do not identify exact named landmarks or prove route geometry."},
+    {"evidence_id":"hh2-ev-video-index","source_class":"VIDEO","source_ref":"https://www.youtube.com/watch?v=C2iqQykoqB8","captured_at":"2026-09-06T14:26:26Z","supports_claims":["hh2-004","hh2-006"],"summary":"Shared Video Evidence prepareVideoIndex downloaded one 640x360 low-res index; decoded frames at 0:05, 0:12, 0:20, and 0:35 were inspected. Targeted windows at 0:05, 0:12, and 0:35 captured successfully but publication QA rejected them for native 640x360 resolution.","limitations":"Supporting visual only; no named route claim; targeted low-res captures are not publication-grade."}
+  ],
+  "video_evidence": [
+    {"video_evidence_id":"ve-hh2-supporting-residential-012","source_url":"https://www.youtube.com/watch?v=C2iqQykoqB8","creator":"IllFonic","title":"Halloween | Haddonfield Heights Map Flythrough","timestamp":"0:12","claim_id":"hh2-004","capture_purpose":"Residential road context only; do not use this frame as named-landmark or fixed-route proof.","selection_reason":"Ambient residential frame; route geometry not established.","capture_method":"YTDLP_MWEB_LOW_RES_INDEX_REUSED_AS_PRIOR_APPROVED_ASSET","capture_status":"CAPTURED","selected_or_rejected":"SELECTED","publication_qa":{"publication_status":"PASS","ui_readability":"readable","note":"Existing approved supporting visual from the prior Heights evidence pack; ambient/supporting only, not named-landmark proof."},"asset_ref":"site-input/assets/evidence/maps/heights-flythrough-t12.webp","limitations":"Supporting visual only; does not prove exact route geometry."}
+  ],
+  "human_capture_tasks": [],
+  "known_unknowns": [
+    "Exact item, phone, or key spawn points",
+    "Official top-down map geometry",
+    "Fixed escape routes and landmark-to-landmark turn sequences",
+    "Static versus dynamic landmark behavior in live matches",
+    "A reliable recovery route from every possible wrong landmark"
+  ],
+  "publish_readiness": "EVIDENCE_COMPLETE",
+  "readiness_reasons": [
+    "The declared Player Task is fully answered at the supported orientation level.",
+    "The only supported spatial relationship is stated as official prose, not expanded into invented geometry.",
+    "Video evidence is attached as bounded supporting visual; rejected low-resolution windows are not used as proof."
+  ],
+  "writer_contract": {"may_invent_claims":false,"consumes":["claim_ledger","evidence_items","known_unknowns"],"mode":"UPDATE"}
+}

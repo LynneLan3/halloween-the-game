@@ -132,7 +132,7 @@ pages:
     changeSummary: "INTENT CAPTURE — /maps/ owns map-count and map-list queries; All 4 launch maps framing."
   - id: maps-haddonfield-heights
     title: "Haddonfield Heights Map — Halloween: The Game Landmarks Guide"
-    description: "Confirm Haddonfield Heights setting and named landmarks from official materials, with illustrative IllFonic flythrough footage. Spawns and routes stay launch verification pending."
+    description: "Orient yourself on Haddonfield Heights with confirmed landmarks, supported Lampkin Lane and Myers house context, residential road cues, and explicit route unknowns."
     category: map-guides
     slug: maps/haddonfield-heights
     source: site-input/pages/maps/haddonfield-heights.md
@@ -142,20 +142,20 @@ pages:
     role: core
     intents:
       - haddonfield-heights-map
-    quickAnswer: "Haddonfield Heights is one of four launch multiplayer maps: a residential neighborhood with the abandoned Myers house, Haddonfield water tower, and Lampkin Lane. Exact spawns and escape routes remain launch verification pending."
+    quickAnswer: "Use the water tower, abandoned Myers house, Lampkin Lane, and Strode house as confirmed Heights landmarks. The official guide supports one Lampkin Lane-to-Myers house approach relationship; exact map geometry, spawns, and fixed routes remain unverified."
     eyebrow: "Map Location"
     facts:
       - label: "Setting"
-        value: "Modest single-story homes, fenced yards, dim streets"
+        value: "Modest single-family homes, a large water tower, curbs, streetlights, hedges, and parked cars"
       - label: "Landmarks"
-        value: "Abandoned Myers house, Haddonfield water tower, Lampkin Lane"
-      - label: "Demo gameplay"
-        value: "Trunk searches, barricading houses, hiding (PAX East 2026)"
+        value: "Abandoned Myers house, Lampkin Lane, Haddonfield water tower, Strode house"
+      - label: "Supported route context"
+        value: "Heading down the block toward Lampkin Lane, the Myers house is a recognizable destination cue"
     coverAssetId: haddonfield-heights-02
     evidence:
       - asset: evidence/maps/heights-flythrough-t12.webp
-        alt: "Residential street at night on Haddonfield Heights from official map flythrough"
-        caption: "Illustrative IllFonic map flythrough footage of Heights residential streets (not a substitute for named landmark confirmation)."
+        alt: "Residential road and detached houses on Haddonfield Heights from the IllFonic flythrough"
+        caption: "Illustrative IllFonic map flythrough footage of Heights residential road cues at 0:12; not named-landmark or route proof."
         sourceLabel: "IllFonic flythrough @ 0:12"
         sourceType: official
         sourceUrl: "https://www.youtube.com/watch?v=C2iqQykoqB8&t=12s"

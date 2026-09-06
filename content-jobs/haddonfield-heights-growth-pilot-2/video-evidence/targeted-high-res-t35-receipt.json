@@ -1,0 +1,72 @@
+{
+  "timestamp_sec": 35,
+  "capture": {
+    "ok": true,
+    "frames": [
+      {
+        "path": "/Users/lanling/Code/hot_words_websites/halloween-the-game/content-jobs/haddonfield-heights-growth-pilot-2/video-evidence/high-res-windows/frame-t33m2.jpg",
+        "timestamp_sec": 33,
+        "timestamp": "0:33",
+        "offset_sec": -2,
+        "capture_method": "YTDLP_SECTION_FFMPEG",
+        "source_resolution": {
+          "width": 640,
+          "height": 360,
+          "label": "640x360"
+        }
+      },
+      {
+        "path": "/Users/lanling/Code/hot_words_websites/halloween-the-game/content-jobs/haddonfield-heights-growth-pilot-2/video-evidence/high-res-windows/frame-t35p0.jpg",
+        "timestamp_sec": 35,
+        "timestamp": "0:35",
+        "offset_sec": 0,
+        "capture_method": "YTDLP_SECTION_FFMPEG",
+        "source_resolution": {
+          "width": 640,
+          "height": 360,
+          "label": "640x360"
+        }
+      },
+      {
+        "path": "/Users/lanling/Code/hot_words_websites/halloween-the-game/content-jobs/haddonfield-heights-growth-pilot-2/video-evidence/high-res-windows/frame-t37p2.jpg",
+        "timestamp_sec": 37,
+        "timestamp": "0:37",
+        "offset_sec": 2,
+        "capture_method": "YTDLP_SECTION_FFMPEG",
+        "source_resolution": {
+          "width": 640,
+          "height": 360,
+          "label": "640x360"
+        }
+      }
+    ],
+    "capture_status": "CAPTURED",
+    "capture_method": "YTDLP_SECTION_FFMPEG",
+    "manifest_path": "/Users/lanling/Code/hot_words_websites/halloween-the-game/content-jobs/haddonfield-heights-growth-pilot-2/video-evidence/high-res-windows/capture-manifest-t35.json",
+    "reused": true,
+    "automation": {
+      "stage": "captureFrames",
+      "proxy_used": false,
+      "ip_pool_used": false,
+      "window_only": true
+    }
+  },
+  "window": {
+    "start_sec": 32,
+    "end_sec": 38,
+    "duration_sec": 6
+  },
+  "publication_qa": {
+    "source_resolution": {
+      "width": 640,
+      "height": 360,
+      "label": "640x360"
+    },
+    "facecam_detected": false,
+    "overlay_detected": false,
+    "ui_readability": "readable",
+    "publication_status": "REJECT",
+    "rejection_reason": "Native/decoded source resolution too low for publication (640x360); yt-dlp listing a higher format or large display size does not PASS",
+    "notes": []
+  }
+}

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "templateVersion": "2.0.0",
   "generatorVersion": "1.0.0",
-  "specHash": "874170dcf3901fb312548a6ab066a8a5fcbb19ea39cb0f7c9b5c88a469e812cc",
+  "specHash": "c6f07c4f575f10b6706f13d54a3cd2c006ccbb56baad0fa63a749fec2f56cf2e",
   "siteId": "halloween-the-game",
   "createdFromSpec": "site-spec.yaml",
   "managedFiles": [
@@ -248,7 +248,7 @@
     },
     {
       "path": "src/config/site.generated.ts",
-      "sha256": "b396eb7308ad5dd15be2ce54f2534cb9333255719cc2faf3e04150b3e3e6c0ba",
+      "sha256": "d4cfb611c6ee32430cad4e893af36a296aed590dc4e80d6074a0cb47d4afd4ad",
       "kind": "config"
     },
     {
@@ -333,7 +333,7 @@
     },
     {
       "path": "src/content/docs/map-guides/maps/haddonfield-heights.md",
-      "sha256": "5d5bf19e648bf8f8dcf33f1fc681147759623ddb48ff589d2f116aa990d07516",
+      "sha256": "ce2c26d16e5bde9a0ea3b45b5b84776595ad5d3159dc17d6cb141e3f59662bc6",
       "kind": "page"
     },
     {

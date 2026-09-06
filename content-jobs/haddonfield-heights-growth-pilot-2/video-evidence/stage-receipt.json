@@ -1,0 +1,82 @@
+{
+  "schema_version": "growth-pilot-2-video-evidence-v1",
+  "source": "https://www.youtube.com/watch?v=C2iqQykoqB8",
+  "index": {
+    "video_id": "C2iqQykoqB8",
+    "source": "https://www.youtube.com/watch?v=C2iqQykoqB8",
+    "index_path": "/Users/lanling/Code/hot_words_websites/halloween-the-game/content-jobs/haddonfield-heights-growth-pilot-2/video-evidence/cache/C2iqQykoqB8/index.mp4",
+    "duration_sec": 50,
+    "source_resolution": {
+      "width": 640,
+      "height": 360,
+      "label": "640x360"
+    },
+    "source_metadata": {
+      "title": "Halloween | Haddonfield Heights Map Flythrough",
+      "uploader": "IllFonic",
+      "extractor": "youtube"
+    },
+    "capture_method": "YTDLP_MWEB_LOW_RES",
+    "created_at": "2026-09-06T14:26:26.550Z",
+    "reused": false
+  },
+  "requests": [
+    {
+      "video": "C2iqQykoqB8",
+      "chapter": null,
+      "what_it_proves": "Residential street orientation: use the road, curb, lamps and repeated detached houses as the confirmed neighborhood cue; no exact route inferred.",
+      "approximate_anchor": {
+        "start_sec": 5,
+        "end_sec": 20
+      },
+      "current_state": "Entering a residential street",
+      "observed_state": "Road with detached houses and streetlights",
+      "claim_refs": [
+        "hh2",
+        "hh-route-unknown"
+      ]
+    },
+    {
+      "video": "C2iqQykoqB8",
+      "chapter": null,
+      "what_it_proves": "Landmark approach context: compare the street-facing residential approach with named landmark statements; frame is supporting visual only.",
+      "approximate_anchor": {
+        "start_sec": 20,
+        "end_sec": 35
+      },
+      "current_state": "Approaching a named landmark area",
+      "observed_state": "Residential street flythrough",
+      "claim_refs": [
+        "hh3",
+        "hh-route-unknown"
+      ]
+    }
+  ],
+  "decoded_frames": [
+    {
+      "path": "/Users/lanling/Code/hot_words_websites/halloween-the-game/content-jobs/haddonfield-heights-growth-pilot-2/video-evidence/low-res-frames/frame-t5.jpg",
+      "timestamp_sec": 5,
+      "reused": false
+    },
+    {
+      "path": "/Users/lanling/Code/hot_words_websites/halloween-the-game/content-jobs/haddonfield-heights-growth-pilot-2/video-evidence/low-res-frames/frame-t12.jpg",
+      "timestamp_sec": 12,
+      "reused": false
+    },
+    {
+      "path": "/Users/lanling/Code/hot_words_websites/halloween-the-game/content-jobs/haddonfield-heights-growth-pilot-2/video-evidence/low-res-frames/frame-t20.jpg",
+      "timestamp_sec": 20,
+      "reused": false
+    },
+    {
+      "path": "/Users/lanling/Code/hot_words_websites/halloween-the-game/content-jobs/haddonfield-heights-growth-pilot-2/video-evidence/low-res-frames/frame-t35.jpg",
+      "timestamp_sec": 35,
+      "reused": false
+    }
+  ],
+  "targeted_windows": [],
+  "publication_qa": [],
+  "metadata": {
+    "full_low_res_indexes_downloaded": 1
+  }
+}

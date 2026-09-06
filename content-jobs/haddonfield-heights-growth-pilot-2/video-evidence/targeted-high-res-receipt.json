@@ -1,0 +1,224 @@
+{
+  "schema_version": "growth-pilot-2-video-evidence-v1",
+  "targeted_windows": [
+    {
+      "timestamp_sec": 5,
+      "capture": {
+        "ok": true,
+        "frames": [
+          {
+            "path": "/Users/lanling/Code/hot_words_websites/halloween-the-game/content-jobs/haddonfield-heights-growth-pilot-2/video-evidence/high-res-windows/frame-t3m2.jpg",
+            "timestamp_sec": 3,
+            "timestamp": "0:03",
+            "offset_sec": -2,
+            "capture_method": "YTDLP_SECTION_FFMPEG",
+            "source_resolution": {
+              "width": 640,
+              "height": 360,
+              "label": "640x360"
+            }
+          },
+          {
+            "path": "/Users/lanling/Code/hot_words_websites/halloween-the-game/content-jobs/haddonfield-heights-growth-pilot-2/video-evidence/high-res-windows/frame-t5p0.jpg",
+            "timestamp_sec": 5,
+            "timestamp": "0:05",
+            "offset_sec": 0,
+            "capture_method": "YTDLP_SECTION_FFMPEG",
+            "source_resolution": {
+              "width": 640,
+              "height": 360,
+              "label": "640x360"
+            }
+          },
+          {
+            "path": "/Users/lanling/Code/hot_words_websites/halloween-the-game/content-jobs/haddonfield-heights-growth-pilot-2/video-evidence/high-res-windows/frame-t7p2.jpg",
+            "timestamp_sec": 7,
+            "timestamp": "0:07",
+            "offset_sec": 2,
+            "capture_method": "YTDLP_SECTION_FFMPEG",
+            "source_resolution": {
+              "width": 640,
+              "height": 360,
+              "label": "640x360"
+            }
+          }
+        ],
+        "capture_status": "CAPTURED",
+        "capture_method": "YTDLP_SECTION_FFMPEG",
+        "human_capture_task": null,
+        "manifest_path": "/Users/lanling/Code/hot_words_websites/halloween-the-game/content-jobs/haddonfield-heights-growth-pilot-2/video-evidence/high-res-windows/capture-manifest-t5.json",
+        "automation": {
+          "stage": "captureFrames",
+          "proxy_used": false,
+          "ip_pool_used": false,
+          "window_only": true
+        }
+      },
+      "publication_qa": {
+        "source_resolution": {
+          "width": 640,
+          "height": 360,
+          "label": "640x360"
+        },
+        "facecam_detected": false,
+        "overlay_detected": false,
+        "ui_readability": "readable",
+        "publication_status": "REJECT",
+        "rejection_reason": "Native/decoded source resolution too low for publication (640x360); yt-dlp listing a higher format or large display size does not PASS",
+        "notes": []
+      },
+      "window": {
+        "start_sec": 2,
+        "end_sec": 8,
+        "duration_sec": 6
+      }
+    },
+    {
+      "timestamp_sec": 12,
+      "capture": {
+        "ok": true,
+        "frames": [
+          {
+            "path": "/Users/lanling/Code/hot_words_websites/halloween-the-game/content-jobs/haddonfield-heights-growth-pilot-2/video-evidence/high-res-windows/frame-t10m2.jpg",
+            "timestamp_sec": 10,
+            "timestamp": "0:10",
+            "offset_sec": -2,
+            "capture_method": "YTDLP_SECTION_FFMPEG",
+            "source_resolution": {
+              "width": 640,
+              "height": 360,
+              "label": "640x360"
+            }
+          },
+          {
+            "path": "/Users/lanling/Code/hot_words_websites/halloween-the-game/content-jobs/haddonfield-heights-growth-pilot-2/video-evidence/high-res-windows/frame-t12p0.jpg",
+            "timestamp_sec": 12,
+            "timestamp": "0:12",
+            "offset_sec": 0,
+            "capture_method": "YTDLP_SECTION_FFMPEG",
+            "source_resolution": {
+              "width": 640,
+              "height": 360,
+              "label": "640x360"
+            }
+          },
+          {
+            "path": "/Users/lanling/Code/hot_words_websites/halloween-the-game/content-jobs/haddonfield-heights-growth-pilot-2/video-evidence/high-res-windows/frame-t14p2.jpg",
+            "timestamp_sec": 14,
+            "timestamp": "0:14",
+            "offset_sec": 2,
+            "capture_method": "YTDLP_SECTION_FFMPEG",
+            "source_resolution": {
+              "width": 640,
+              "height": 360,
+              "label": "640x360"
+            }
+          }
+        ],
+        "capture_status": "CAPTURED",
+        "capture_method": "YTDLP_SECTION_FFMPEG",
+        "human_capture_task": null,
+        "manifest_path": "/Users/lanling/Code/hot_words_websites/halloween-the-game/content-jobs/haddonfield-heights-growth-pilot-2/video-evidence/high-res-windows/capture-manifest-t12.json",
+        "automation": {
+          "stage": "captureFrames",
+          "proxy_used": false,
+          "ip_pool_used": false,
+          "window_only": true
+        }
+      },
+      "publication_qa": {
+        "source_resolution": {
+          "width": 640,
+          "height": 360,
+          "label": "640x360"
+        },
+        "facecam_detected": false,
+        "overlay_detected": false,
+        "ui_readability": "readable",
+        "publication_status": "REJECT",
+        "rejection_reason": "Native/decoded source resolution too low for publication (640x360); yt-dlp listing a higher format or large display size does not PASS",
+        "notes": []
+      },
+      "window": {
+        "start_sec": 9,
+        "end_sec": 15,
+        "duration_sec": 6
+      }
+    },
+    {
+      "timestamp_sec": 35,
+      "capture": {
+        "ok": true,
+        "frames": [
+          {
+            "path": "/Users/lanling/Code/hot_words_websites/halloween-the-game/content-jobs/haddonfield-heights-growth-pilot-2/video-evidence/high-res-windows/frame-t33m2.jpg",
+            "timestamp_sec": 33,
+            "timestamp": "0:33",
+            "offset_sec": -2,
+            "capture_method": "YTDLP_SECTION_FFMPEG",
+            "source_resolution": {
+              "width": 640,
+              "height": 360,
+              "label": "640x360"
+            }
+          },
+          {
+            "path": "/Users/lanling/Code/hot_words_websites/halloween-the-game/content-jobs/haddonfield-heights-growth-pilot-2/video-evidence/high-res-windows/frame-t35p0.jpg",
+            "timestamp_sec": 35,
+            "timestamp": "0:35",
+            "offset_sec": 0,
+            "capture_method": "YTDLP_SECTION_FFMPEG",
+            "source_resolution": {
+              "width": 640,
+              "height": 360,
+              "label": "640x360"
+            }
+          },
+          {
+            "path": "/Users/lanling/Code/hot_words_websites/halloween-the-game/content-jobs/haddonfield-heights-growth-pilot-2/video-evidence/high-res-windows/frame-t37p2.jpg",
+            "timestamp_sec": 37,
+            "timestamp": "0:37",
+            "offset_sec": 2,
+            "capture_method": "YTDLP_SECTION_FFMPEG",
+            "source_resolution": {
+              "width": 640,
+              "height": 360,
+              "label": "640x360"
+            }
+          }
+        ],
+        "capture_status": "CAPTURED",
+        "capture_method": "YTDLP_SECTION_FFMPEG",
+        "human_capture_task": null,
+        "manifest_path": "/Users/lanling/Code/hot_words_websites/halloween-the-game/content-jobs/haddonfield-heights-growth-pilot-2/video-evidence/high-res-windows/capture-manifest-t35.json",
+        "automation": {
+          "stage": "captureFrames",
+          "proxy_used": false,
+          "ip_pool_used": false,
+          "window_only": true
+        }
+      },
+      "publication_qa": {
+        "source_resolution": {
+          "width": 640,
+          "height": 360,
+          "label": "640x360"
+        },
+        "facecam_detected": false,
+        "overlay_detected": false,
+        "ui_readability": "readable",
+        "publication_status": "REJECT",
+        "rejection_reason": "Native/decoded source resolution too low for publication (640x360); yt-dlp listing a higher format or large display size does not PASS",
+        "notes": []
+      },
+      "window": {
+        "start_sec": 32,
+        "end_sec": 38,
+        "duration_sec": 6
+      }
+    }
+  ],
+  "full_low_res_indexes_downloaded": 1,
+  "manual_ytdlp_diagnosis": false,
+  "po_token_experiment": false
+}

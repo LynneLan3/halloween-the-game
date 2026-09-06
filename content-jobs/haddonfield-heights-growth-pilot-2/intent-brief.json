@@ -1,0 +1,7 @@
+{
+  "primaryQuery": "haddonfield heights map",
+  "userJob": "Orient yourself on Haddonfield Heights using confirmed landmarks and supported road relationships, then recover when the landmark or route is not confirmed.",
+  "serpPromise": "Give a practical Heights orientation guide without inventing a top-down map, spawn table, or fixed route.",
+  "intentOwnerStatus": "KEEP",
+  "articleType": "WALKTHROUGH"
+}

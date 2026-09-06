@@ -1,0 +1,18 @@
+{
+  "video_id": "C2iqQykoqB8",
+  "source": "https://www.youtube.com/watch?v=C2iqQykoqB8",
+  "index_path": "/Users/lanling/Code/hot_words_websites/halloween-the-game/content-jobs/haddonfield-heights-growth-pilot-2/video-evidence/cache/C2iqQykoqB8/index.mp4",
+  "duration_sec": 50,
+  "source_resolution": {
+    "width": 640,
+    "height": 360,
+    "label": "640x360"
+  },
+  "source_metadata": {
+    "title": "Halloween | Haddonfield Heights Map Flythrough",
+    "uploader": "IllFonic",
+    "extractor": "youtube"
+  },
+  "capture_method": "YTDLP_MWEB_LOW_RES",
+  "created_at": "2026-09-06T14:26:26.550Z"
+}

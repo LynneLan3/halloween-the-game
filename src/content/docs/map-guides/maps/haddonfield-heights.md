@@ -1,6 +1,6 @@
 ---
 title: "Haddonfield Heights Map — Halloween: The Game Landmarks Guide"
-description: "Confirm Haddonfield Heights setting and named landmarks from official materials, with illustrative IllFonic flythrough footage. Spawns and routes stay launch verification pending."
+description: "Orient yourself on Haddonfield Heights with confirmed landmarks, supported Lampkin Lane and Myers house context, residential road cues, and explicit route unknowns."
 category: map-guides
 slug: maps/haddonfield-heights
 status: needs-verification
@@ -11,7 +11,7 @@ sidebar:
   order: 2
 intents:
   - haddonfield-heights-map
-quickAnswer: "Haddonfield Heights is one of four launch multiplayer maps: a residential neighborhood with the abandoned Myers house, Haddonfield water tower, and Lampkin Lane. Exact spawns and escape routes remain launch verification pending."
+quickAnswer: "Use the water tower, abandoned Myers house, Lampkin Lane, and Strode house as confirmed Heights landmarks. The official guide supports one Lampkin Lane-to-Myers house approach relationship; exact map geometry, spawns, and fixed routes remain unverified."
 relations:
   -
     slug: maps
@@ -25,8 +25,8 @@ relations:
 evidence:
   -
     asset: evidence/maps/heights-flythrough-t12.webp
-    alt: Residential street at night on Haddonfield Heights from official map flythrough
-    caption: "Illustrative IllFonic map flythrough footage of Heights residential streets (not a substitute for named landmark confirmation)."
+    alt: Residential road and detached houses on Haddonfield Heights from the IllFonic flythrough
+    caption: "Illustrative IllFonic map flythrough footage of Heights residential road cues at 0:12; not named-landmark or route proof."
     sourceLabel: "IllFonic flythrough @ 0:12"
     sourceType: official
     sourceUrl: "https://www.youtube.com/watch?v=C2iqQykoqB8&t=12s"
@@ -41,13 +41,13 @@ eyebrow: Map Location
 facts:
   -
     label: Setting
-    value: "Modest single-story homes, fenced yards, dim streets"
+    value: "Modest single-family homes, a large water tower, curbs, streetlights, hedges, and parked cars"
   -
     label: Landmarks
-    value: "Abandoned Myers house, Haddonfield water tower, Lampkin Lane"
+    value: "Abandoned Myers house, Lampkin Lane, Haddonfield water tower, Strode house"
   -
-    label: Demo gameplay
-    value: "Trunk searches, barricading houses, hiding (PAX East 2026)"
+    label: Supported route context
+    value: "Heading down the block toward Lampkin Lane, the Myers house is a recognizable destination cue"
 ---
 <!--
   This file is generated from site-spec.yaml.
@@ -59,51 +59,61 @@ facts:
 
 Quick answer
 
-Haddonfield Heights is one of four launch multiplayer maps in Halloween: The Game. Official materials describe it as a residential Haddonfield neighborhood with modest homes, fenced yards, and dimly lit streets. Official sources also name three confirmed landmarks: the abandoned Myers house, the Haddonfield water tower, and Lampkin Lane. Exact item/phone/key spawn points, fixed escape locations, official top-down maps, and any community "meta" routes remain unverified until in-game launch — treat preview footage as illustrative, not definitive.
+Haddonfield Heights is a residential neighborhood of modest single-family homes with a large water tower visible over the streets. Confirmed named landmarks you can use to orient yourself are the abandoned Myers house, Lampkin Lane, the Haddonfield water tower, and the Strode house. The official location guide explicitly places Lampkin Lane and the abandoned Myers house in a supported approach relationship: heading down the block toward Lampkin Lane, the Myers house is a recognizable destination cue. Preview footage (the IllFonic flythrough) also shows residential roads, curbs, streetlights, detached houses, hedges, and parked cars — use those ambient cues as supporting orientation marks, but treat preview visuals as illustrative rather than definitive for routes or spawn behavior. If you become unsure of your position, a reasonable recovery (inference) is to return to the nearest visible residential road cue and re-check the named-landmark relationship; this recovery advice is an inference from the available material, not an official guaranteed route.
 
-## Known landmarks
+Confirmed landmarks
 
-Confirmed named landmarks from official materials:
+- Abandoned Myers house
+- Lampkin Lane
+- Haddonfield water tower (large water tower visible over the streets)
+- Strode house
 
-- **Abandoned Myers house**
-- **Haddonfield water tower**
-- **Lampkin Lane**
+Orientation steps (task-first)
 
-![Residential street at night on Haddonfield Heights from official map flythrough](../../../../assets/evidence/maps/heights-flythrough-t12.webp)  
-*Illustrative IllFonic map flythrough footage of Heights residential streets @ 0:12 — not a substitute for named landmark confirmation.*
+1. Find the large water tower and the residential frontage first. The water tower is a high-level visual anchor described in official materials; the neighborhood is repeatedly described as modest single-family homes.
+   ![Residential road and detached houses on Haddonfield Heights from the IllFonic flythrough](../../../../assets/evidence/maps/heights-flythrough-t12.webp)
+   *Illustrative footage of the map environment from IllFonic @ 0:12. Not a substitute for named landmark confirmation.*
 
-Use these named landmarks to orient yourself in preview footage and early play. Do not infer spawn points, fixed escape routes, or optimal community routes from flythrough or promotional clips alone.
+2. Use the Lampkin Lane → Myers house relationship when it is readable. The official location guide places Lampkin Lane and the abandoned Myers house in a supported approach relationship: in the guide, heading down the block toward Lampkin Lane, the Myers house is a recognizable destination cue. Treat this as a supported route relationship from the official guide, not as a fixed escape route or spawn table.
 
-## Officially shown gameplay
+3. If named landmarks are not immediately visible, use ambient residential cues as inference-based orientation aids. The flythrough and official materials together support the neighborhood identity and give these repeatable cues: street lighting, curbs, detached houses with repeated frontage, hedges, and parked cars. These are useful to orient yourself, but this is an inference (not an official claim) about what to use when a named landmark cannot be read.
 
-The PAX East 2026 coverage and map materials show Civilians:
+Wrong-turn recovery (inference)
 
-- Searching **car trunks** and other interactables
-- Using **escape routes** and environmental cover
-- **Barricading houses** and **hiding** while managing resident objectives
+- If you lose track of a named landmark or route, return to the nearest visible residential road cue (curb lines, streetlights, detached-house frontages) and re-check whether the Lampkin Lane → Myers house relationship is visible. This is advised as a reasonable recovery method based on the available material; it is not documented as a guaranteed or fixed route.
 
-Michael's stalking, light manipulation, and execution pressure are part of the same sessions — see [Michael abilities](/michael-myers/abilities/) and [how multiplayer works](/multiplayer/how-multiplayer-works/).
+Static vs dynamic evidence boundary (what is and isn't confirmed)
 
-## How this map compares
+Confirmed by official sources or supported cross-source:
 
-Haddonfield Heights is a compact residential launch map. [Orange Grove Estates](/maps/orange-grove-estates/) emphasizes larger multi-story homes and longer sightlines; [Haddonfield Town Center](/maps/haddonfield-town-center/) shifts play into named downtown businesses and the cemetery; [East Haddonfield](/maps/east-haddonfield/) is the rural outskirts / farmland launch map.
+- The Heights identity as a residential neighborhood with modest single-family homes and a large water tower visible over the streets.
+- Named landmarks: abandoned Myers house, Lampkin Lane, Strode house, and the Haddonfield water tower.
+- The official guide’s supported approach relationship: heading down the block toward Lampkin Lane, the Myers house is a recognizable destination cue.
+- The IllFonic flythrough shows residential roads, curbs, streetlights, detached houses, hedges, and parked cars (supporting visual context).
 
-See [all 4 Halloween: The Game launch maps](/maps/).
+Not confirmed / launch verification pending:
 
-## Launch verification pending
+- Exact spawn points, top-down map geometry, fixed escape routes, landmark-to-landmark turn sequences, and static-versus-dynamic landmark behavior in live matches remain unknown and unestablished by the available evidence. Do not treat preview footage or the supporting visual as proof of any spawn table, fixed escape route, or precise route geometry.
 
-Not confirmed before launch:
+Common mistakes to avoid
 
-- Exact item, phone, or key spawn points
-- Fixed escape locations or resident placements
-- Optimal routes or community "meta"
-- Final lighting or power-cut behavior per street
-- An official top-down map
+- Treating the flythrough frame as proof of exact named-landmark positions or spawn points. The visual is illustrative for road and house type, not a top-down map.
+- Assuming the Lampkin Lane → Myers house approach is a required or exclusive route; the guide presents it as a supported relationship from official material, not a fixed community route.
+- Expecting exact spawn locations, fixed escape routes, or guaranteed recovery paths before in-game verification.
 
-Treat preview footage as illustrative until verified in-game after Advance Access.
+Launch verification pending / what to check in-game
 
-## Sources
+When the map is playable, confirm in actual matches:
 
-- [Haddonfield Heights map flythrough](https://halloweengame.com/news/haddonfield-heights-map-flythrough/)
-- [PAX East 2026](https://halloweengame.com/news/pax-east-2026/)
-- [IllFonic Haddonfield Heights flythrough on YouTube @ 0:12](https://www.youtube.com/watch?v=C2iqQykoqB8&t=12s)
+- Whether named landmarks appear in the same readable relationships shown in the guide.
+- Exact spawn locations, top-down geometry, and whether any community routes become reliable in practice.
+
+Related next task
+
+- See the Haddonfield map hub for other map overviews and links to the Haddonfield Town Center page for the downtown / cemetery area.
+
+Sources
+
+- Haddonfield Heights map flythrough — official map page: https://halloweengame.com/news/haddonfield-heights-map-flythrough/
+- PAX East 2026 coverage: https://halloweengame.com/news/pax-east-2026/
+- IllFonic Haddonfield Heights flythrough on YouTube @ 0:12: https://www.youtube.com/watch?v=C2iqQykoqB8&t=12s

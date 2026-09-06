@@ -14,7 +14,7 @@ Confirmed landmarks
 Orientation steps (task-first)
 
 1. Find the large water tower and the residential frontage first. The water tower is a high-level visual anchor described in official materials; the neighborhood is repeatedly described as modest single-family homes.
-   ![Residential road and detached houses on Haddonfield Heights from the IllFonic flythrough](../../../../assets/evidence/maps/heights-flythrough-t12.webp)
+   ![Gameplay screenshot](site-input/assets/evidence/maps/heights-flythrough-t12.webp)
    *Illustrative footage of the map environment from IllFonic @ 0:12. Not a substitute for named landmark confirmation.*
 
 2. Use the Lampkin Lane → Myers house relationship when it is readable. The official location guide places Lampkin Lane and the abandoned Myers house in a supported approach relationship: in the guide, heading down the block toward Lampkin Lane, the Myers house is a recognizable destination cue. Treat this as a supported route relationship from the official guide, not as a fixed escape route or spawn table.
@@ -28,14 +28,12 @@ Wrong-turn recovery (inference)
 Static vs dynamic evidence boundary (what is and isn't confirmed)
 
 Confirmed by official sources or supported cross-source:
-
 - The Heights identity as a residential neighborhood with modest single-family homes and a large water tower visible over the streets.
 - Named landmarks: abandoned Myers house, Lampkin Lane, Strode house, and the Haddonfield water tower.
 - The official guide’s supported approach relationship: heading down the block toward Lampkin Lane, the Myers house is a recognizable destination cue.
 - The IllFonic flythrough shows residential roads, curbs, streetlights, detached houses, hedges, and parked cars (supporting visual context).
 
 Not confirmed / launch verification pending:
-
 - Exact spawn points, top-down map geometry, fixed escape routes, landmark-to-landmark turn sequences, and static-versus-dynamic landmark behavior in live matches remain unknown and unestablished by the available evidence. Do not treat preview footage or the supporting visual as proof of any spawn table, fixed escape route, or precise route geometry.
 
 Common mistakes to avoid
@@ -47,9 +45,9 @@ Common mistakes to avoid
 Launch verification pending / what to check in-game
 
 When the map is playable, confirm in actual matches:
-
 - Whether named landmarks appear in the same readable relationships shown in the guide.
 - Exact spawn locations, top-down geometry, and whether any community routes become reliable in practice.
+Until then, treat preview text and flythrough footage as context, not as a definitive route or spawn reference.
 
 Related next task
 

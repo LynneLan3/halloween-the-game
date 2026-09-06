@@ -1,0 +1,53 @@
+{
+  "source_url": "https://www.youtube.com/watch?v=C2iqQykoqB8",
+  "center_sec": 35,
+  "frames": [
+    {
+      "path": "/Users/lanling/Code/hot_words_websites/halloween-the-game/content-jobs/haddonfield-heights-growth-pilot-2/video-evidence/high-res-windows/frame-t33m2.jpg",
+      "timestamp_sec": 33,
+      "timestamp": "0:33",
+      "offset_sec": -2,
+      "capture_method": "YTDLP_SECTION_FFMPEG",
+      "source_resolution": {
+        "width": 640,
+        "height": 360,
+        "label": "640x360"
+      }
+    },
+    {
+      "path": "/Users/lanling/Code/hot_words_websites/halloween-the-game/content-jobs/haddonfield-heights-growth-pilot-2/video-evidence/high-res-windows/frame-t35p0.jpg",
+      "timestamp_sec": 35,
+      "timestamp": "0:35",
+      "offset_sec": 0,
+      "capture_method": "YTDLP_SECTION_FFMPEG",
+      "source_resolution": {
+        "width": 640,
+        "height": 360,
+        "label": "640x360"
+      }
+    },
+    {
+      "path": "/Users/lanling/Code/hot_words_websites/halloween-the-game/content-jobs/haddonfield-heights-growth-pilot-2/video-evidence/high-res-windows/frame-t37p2.jpg",
+      "timestamp_sec": 37,
+      "timestamp": "0:37",
+      "offset_sec": 2,
+      "capture_method": "YTDLP_SECTION_FFMPEG",
+      "source_resolution": {
+        "width": 640,
+        "height": 360,
+        "label": "640x360"
+      }
+    }
+  ],
+  "method": "YTDLP_SECTION_FFMPEG",
+  "window": {
+    "start_sec": 32,
+    "end_sec": 38,
+    "duration_sec": 6
+  },
+  "source_resolution": {
+    "width": 640,
+    "height": 360,
+    "label": "640x360"
+  }
+}
