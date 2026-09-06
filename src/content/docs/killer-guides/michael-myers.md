@@ -77,7 +77,7 @@ facts:
 - Multiplayer format: matches are 1 Michael Myers vs 4 Civilians.
 - Michael hunts and kills residents and Special Targets.
 - Civilians and responding police can knock Michael down.
-- Michael cannot simply be killed like a Civilian; sufficient resistance can detain him and return him to Smith’s Grove (ending his threat for that match).
+- Michael cannot simply be killed like a Civilian; sufficient resistance can [detain him](/michael-myers/how-to-arrest/) and return him to Smith’s Grove (ending his threat for that match).
 - Sep 2 loadout model: Michael loadouts start with two fixed starting traits — Killer Sense and Shape Jump — and players then select three Michael abilities for that loadout.
 - Official examples of selectable abilities include Reality Tear, Blackout, and Detection Pulse (these are examples only, not a complete roster).
 - Progression unlocks new Michael abilities, starting weapons, executions, and skins/tints according to the developer overview.

@@ -118,7 +118,7 @@ Official examples of selectable abilities include Reality Tear, Blackout, and De
 | **Shape Jump** | Enter shadows and move unseen; enter/exit only in darkness or outside resident line of sight |
 | **Shape Dash** | Forward burst / lunge available from Shape Jump |
 | **Blackout / lights** | Shut off lights, cut power, trigger temporary blackouts; darkness enables Shape Jump |
-| **Combat / resistance** | Melee options; Civilians can fight back and knock Michael down; he cannot simply be killed; enough resistance can detain him back to Smith’s Grove |
+| **Combat / resistance** | Melee options; Civilians can fight back and knock Michael down; he cannot simply be killed; enough resistance can [detain him](/michael-myers/how-to-arrest/) back to Smith’s Grove |
 
 Exact combat numbers, detention triggers, Stalk meter values, and Shape Jump / Shape Dash cooldowns remain **launch verification pending**.
 

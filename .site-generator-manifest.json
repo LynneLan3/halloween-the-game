@@ -303,12 +303,12 @@
     },
     {
       "path": "src/content/docs/killer-guides/michael-myers.md",
-      "sha256": "566ff8307fdd4f218c7e423503d241cfc138e194a685f902c7ac635f120f7966",
+      "sha256": "98a253599b5474b6d79c81fc01359e9cc2cfb577d136105eb990f63ac0d0a95d",
       "kind": "page"
     },
     {
       "path": "src/content/docs/killer-guides/michael-myers/abilities.md",
-      "sha256": "388568ab28116e6af04c148d7ff4908f7c49a72124654ae2e25da84afa0afa2c",
+      "sha256": "f2957ba14106e035cefc085ca708aee7025dcf395c5bc970bb4d515139a25029",
       "kind": "page"
     },
     {
