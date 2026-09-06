@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "hotword-publish-receipt-v1",
+  "common": {
+    "site": "Halloween: The Game",
+    "siteId": "halloween-the-game",
+    "game": "Halloween: The Game",
+    "batchId": "halloween-the-game|arrest-layout-readable|20260906",
+    "lifecyclePhase": "early-access",
+    "attributionMode": "OBSERVATIONAL_ONLY",
+    "sourceRefs": [
+      "site-input/pages/michael-myers/how-to-arrest.md",
+      "src/styles/site-2.0-guide.css",
+      "docs/arrest-visual-qa/",
+      "Arrest guide readability layout pass after visual acceptance"
+    ]
+  },
+  "interventions": [
+    {
+      "interventionId": "halloween-the-game|arrest-michael|layout-readable-20260906",
+      "action": "UPDATE_PAGE",
+      "primaryUrl": "/michael-myers/how-to-arrest/",
+      "affectedUrls": [
+        "/michael-myers/how-to-arrest/",
+        "/michael-myers/",
+        "/routes/michael-myers/"
+      ],
+      "reason": "Widen Arrest guide column, enlarge step-adjacent evidence frames, add scannable Arrest Progression strip, remove duplicate bottom evidence gallery.",
+      "triggerType": "operator_request",
+      "triggerSummary": "Visual acceptance passed; push and production deploy Arrest readability layout.",
+      "sourceRefs": [
+        "docs/arrest-visual-qa/",
+        "src/styles/site-2.0-guide.css"
+      ]
+    }
+  ]
+}
