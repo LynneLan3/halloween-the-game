@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "hotword-publish-receipt-v1",
+  "common": {
+    "site": "Halloween: The Game",
+    "siteId": "halloween-the-game",
+    "game": "Halloween: The Game",
+    "batchId": "halloween-the-game|arrest-michael-visual-qa|20260906",
+    "lifecyclePhase": "early-access",
+    "attributionMode": "OBSERVATIONAL_ONLY",
+    "sourceRefs": [
+      "content-jobs/arrest-michael-myers/evidence-pack.json",
+      "site-input/pages/michael-myers/how-to-arrest.md",
+      "docs/g032-arrest-evidence-production-review.md",
+      "EVIDENCE_COMPLETE visual-quality re-capture for Arrest Michael Myers"
+    ]
+  },
+  "interventions": [
+    {
+      "interventionId": "halloween-the-game|arrest-michael|visual-qa-20260906",
+      "action": "UPDATE_PAGE",
+      "primaryUrl": "/michael-myers/how-to-arrest/",
+      "affectedUrls": [
+        "/michael-myers/how-to-arrest/",
+        "/michael-myers/",
+        "/routes/michael-myers/"
+      ],
+      "reason": "Replace 360p/facecam evidence frames with native 1080p captures (facecam cropped), add POLICE WAGON CALLED frame, re-annotate Detain prompt.",
+      "triggerType": "operator_request",
+      "triggerSummary": "Publication-quality visual evidence pass for Arrest Michael Myers without shared-skill rewrite.",
+      "sourceRefs": [
+        "content-jobs/arrest-michael-myers/evidence-pack.json",
+        "docs/g032-arrest-evidence-production-review.md"
+      ]
+    }
+  ]
+}

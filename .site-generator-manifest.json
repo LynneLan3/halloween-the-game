@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "templateVersion": "2.0.0",
   "generatorVersion": "1.0.0",
-  "specHash": "73c355de16c423d493a23495628f5215501f3c6d9907f66474242ee36d94685a",
+  "specHash": "43bd6f763e17eef7214f439ba00c593ca69bd8253825387f593612061f308f43",
   "siteId": "halloween-the-game",
   "createdFromSpec": "site-spec.yaml",
   "managedFiles": [
@@ -162,6 +162,56 @@
       "kind": "asset"
     },
     {
+      "path": "src/assets/evidence/arrest-michael/bryce-cb-radio.webp",
+      "sha256": "6379286bccd52572c881f4c2dd4d4716babaf2dcb27afea54010a332440984a7",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/evidence/arrest-michael/bryce-detain-minigame.webp",
+      "sha256": "a4c19f51bac6dc6dbc601000a0771e11aaa118135015086a7ce70c580d1571c0",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/evidence/arrest-michael/bryce-detain-prompt-annotated.webp",
+      "sha256": "d683736764de4f4f19d4ae4d1de8bc9a7a8ce9171ca9fe47206610a2e2331e8e",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/evidence/arrest-michael/bryce-detain-prompt.webp",
+      "sha256": "f7e2b4ca4a96144473e3b9bd8d3feaffcf03d1ad991080b8214fe3ad4138a6b6",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/evidence/arrest-michael/bryce-handcuff-indicator.webp",
+      "sha256": "93f947b32121394df4ab4bb3ea36eaccc04c24900371fe68d5b6a5aeb69cca9a",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/evidence/arrest-michael/bryce-michael-detained.webp",
+      "sha256": "af62e7b9b0970487266fd2a8b7b9f514c4c6a8c1ec523ad6af731e301eb8dde6",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/evidence/arrest-michael/bryce-police-reinforcements-perk.webp",
+      "sha256": "0aa990f46f82a70940d3323d78cf31541fb80fc58ee6256ef5da7c5c743b9197",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/evidence/arrest-michael/d3ad-cop-arrived.webp",
+      "sha256": "a875d0a79a7c0f29105b31ec5c9ed552dbad29800c804dbeb232953c9298c9fc",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/evidence/arrest-michael/d3ad-detain-prompt.webp",
+      "sha256": "6cea4354df046a4c6cb61c708135f60825bd286a7675f25db6cc91b93ea300bc",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/evidence/arrest-michael/delirious-police-wagon-called.webp",
+      "sha256": "f157cfa82b15284f51040c3e8f5eaaa50dacd276839340d4a1694b4808925ae4",
+      "kind": "asset"
+    },
+    {
       "path": "src/assets/evidence/maps/heights-flythrough-t12.webp",
       "sha256": "c538ecaab255d51c16f22f0b0bd5ee46d31354039146a88da4faeccdee25ea66",
       "kind": "asset"
@@ -198,7 +248,7 @@
     },
     {
       "path": "src/config/site.generated.ts",
-      "sha256": "dd1dd6cf362054420ef5320aa0cb165caf700db7901495d36fe2d7491e967abe",
+      "sha256": "654aa4dc381ff11947b302d6e7f23073cba06d655bff6ea97eff30b3b0883c12",
       "kind": "config"
     },
     {
@@ -253,12 +303,17 @@
     },
     {
       "path": "src/content/docs/killer-guides/michael-myers.md",
-      "sha256": "7b010f19f4abf038b86df4556cebf8ce17ec340042196203b52567b6b61eab8b",
+      "sha256": "566ff8307fdd4f218c7e423503d241cfc138e194a685f902c7ac635f120f7966",
       "kind": "page"
     },
     {
       "path": "src/content/docs/killer-guides/michael-myers/abilities.md",
       "sha256": "8379a0bad725546315b533a024b19343472de2d9b44c02134b25bf0557977591",
+      "kind": "page"
+    },
+    {
+      "path": "src/content/docs/killer-guides/michael-myers/how-to-arrest.md",
+      "sha256": "cf14c94d5577ae277fe69fe92671effeab63441e4633b5014cbeaa9bdd8a7118",
       "kind": "page"
     },
     {
@@ -343,6 +398,86 @@
     }
   ],
   "managedAssets": [
+    {
+      "id": "arrest-bryce-cb-radio",
+      "target": "evidence/arrest-michael/bryce-cb-radio.webp",
+      "source": "site-input/assets/evidence/arrest-michael/bryce-cb-radio.webp",
+      "sha256": "6379286bccd52572c881f4c2dd4d4716babaf2dcb27afea54010a332440984a7",
+      "usageStatus": "approved",
+      "sourceType": "user-provided"
+    },
+    {
+      "id": "arrest-bryce-detain-minigame",
+      "target": "evidence/arrest-michael/bryce-detain-minigame.webp",
+      "source": "site-input/assets/evidence/arrest-michael/bryce-detain-minigame.webp",
+      "sha256": "a4c19f51bac6dc6dbc601000a0771e11aaa118135015086a7ce70c580d1571c0",
+      "usageStatus": "approved",
+      "sourceType": "user-provided"
+    },
+    {
+      "id": "arrest-bryce-detain-prompt",
+      "target": "evidence/arrest-michael/bryce-detain-prompt.webp",
+      "source": "site-input/assets/evidence/arrest-michael/bryce-detain-prompt.webp",
+      "sha256": "f7e2b4ca4a96144473e3b9bd8d3feaffcf03d1ad991080b8214fe3ad4138a6b6",
+      "usageStatus": "approved",
+      "sourceType": "user-provided"
+    },
+    {
+      "id": "arrest-bryce-detain-prompt-annotated",
+      "target": "evidence/arrest-michael/bryce-detain-prompt-annotated.webp",
+      "source": "site-input/assets/evidence/arrest-michael/bryce-detain-prompt-annotated.webp",
+      "sha256": "d683736764de4f4f19d4ae4d1de8bc9a7a8ce9171ca9fe47206610a2e2331e8e",
+      "usageStatus": "approved",
+      "sourceType": "user-provided"
+    },
+    {
+      "id": "arrest-bryce-handcuff-indicator",
+      "target": "evidence/arrest-michael/bryce-handcuff-indicator.webp",
+      "source": "site-input/assets/evidence/arrest-michael/bryce-handcuff-indicator.webp",
+      "sha256": "93f947b32121394df4ab4bb3ea36eaccc04c24900371fe68d5b6a5aeb69cca9a",
+      "usageStatus": "approved",
+      "sourceType": "user-provided"
+    },
+    {
+      "id": "arrest-bryce-michael-detained",
+      "target": "evidence/arrest-michael/bryce-michael-detained.webp",
+      "source": "site-input/assets/evidence/arrest-michael/bryce-michael-detained.webp",
+      "sha256": "af62e7b9b0970487266fd2a8b7b9f514c4c6a8c1ec523ad6af731e301eb8dde6",
+      "usageStatus": "approved",
+      "sourceType": "user-provided"
+    },
+    {
+      "id": "arrest-bryce-police-reinforcements",
+      "target": "evidence/arrest-michael/bryce-police-reinforcements-perk.webp",
+      "source": "site-input/assets/evidence/arrest-michael/bryce-police-reinforcements-perk.webp",
+      "sha256": "0aa990f46f82a70940d3323d78cf31541fb80fc58ee6256ef5da7c5c743b9197",
+      "usageStatus": "approved",
+      "sourceType": "user-provided"
+    },
+    {
+      "id": "arrest-d3ad-cop-arrived",
+      "target": "evidence/arrest-michael/d3ad-cop-arrived.webp",
+      "source": "site-input/assets/evidence/arrest-michael/d3ad-cop-arrived.webp",
+      "sha256": "a875d0a79a7c0f29105b31ec5c9ed552dbad29800c804dbeb232953c9298c9fc",
+      "usageStatus": "approved",
+      "sourceType": "user-provided"
+    },
+    {
+      "id": "arrest-d3ad-detain-prompt",
+      "target": "evidence/arrest-michael/d3ad-detain-prompt.webp",
+      "source": "site-input/assets/evidence/arrest-michael/d3ad-detain-prompt.webp",
+      "sha256": "6cea4354df046a4c6cb61c708135f60825bd286a7675f25db6cc91b93ea300bc",
+      "usageStatus": "approved",
+      "sourceType": "user-provided"
+    },
+    {
+      "id": "arrest-delirious-police-wagon-called",
+      "target": "evidence/arrest-michael/delirious-police-wagon-called.webp",
+      "source": "site-input/assets/evidence/arrest-michael/delirious-police-wagon-called.webp",
+      "sha256": "f157cfa82b15284f51040c3e8f5eaaa50dacd276839340d4a1694b4808925ae4",
+      "usageStatus": "approved",
+      "sourceType": "user-provided"
+    },
     {
       "id": "east-haddonfield-phelps",
       "target": "covers/maps/east-haddonfield-phelps.jpg",

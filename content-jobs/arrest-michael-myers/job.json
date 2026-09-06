@@ -1,0 +1,231 @@
+{
+  "pack_id": "ep-halloween-arrest-michael-001",
+  "article_type": "WALKTHROUGH",
+  "article_decision": "NEW",
+  "demand": {
+    "demand_id": "demand-halloween-arrest-michael-001",
+    "query": "how to arrest michael myers halloween the game",
+    "query_cluster": [
+      "how to arrest michael myers halloween the game",
+      "how to arrest michael",
+      "can you kill michael myers halloween the game",
+      "how to detain michael halloween the game",
+      "why can't I arrest michael"
+    ],
+    "signal_source": "MIXED",
+    "observed_at": "2026-09-06T08:00:00+08:00",
+    "freshness_class": "LAUNCH_SPIKE",
+    "game": "Halloween: The Game",
+    "notes": "Launch multiplayer detainment walkthrough. SERP competitor Whisper of the House already covers sequence prose without timestamped dual-source frames or why-can't-I-arrest triage."
+  },
+  "intent": {
+    "intent_id": "intent-halloween-arrest-michael-001",
+    "player_task": "Complete the multiplayer Arrest/Detain sequence against Michael Myers, understand why knockdowns fail before readiness, and know that Michael cannot simply be killed.",
+    "intent_class": "MECHANIC_WALKTHROUGH",
+    "tech_facet": null,
+    "required_answers": [
+      "Can Michael be killed?",
+      "How police / reinforcements / Loomis-or-deputy involvement unlock detainment",
+      "Step-by-step arrest sequence with visual state markers",
+      "Why knockdowns fail before arrest readiness (diagnostic)",
+      "What the handcuff / Detain prompt looks like",
+      "What happens after MICHAEL DETAINED"
+    ],
+    "stakes": "Players waste full matches dumping damage into Michael without Loomis/deputy readiness; false kill advice conflicts with official design.",
+    "out_of_scope": [
+      "Exact numeric arrest-meter fill rates or cooldowns",
+      "Asserting the exact HUD string POLICE WAGON CALLED without visual capture",
+      "Best loadouts / weapon DPS meta",
+      "Story-mode detainment as Michael (single-player is played as Michael)"
+    ]
+  },
+  "competitor_gap": {
+    "summary": "Whisper of the House has a prose arrest guide; reviews mention police wagon escapes and failed arrest attempts; Steam store confirms unkillable enemy. No competing page pairs two independent timestamped gameplay sources with handcuff→Detain→MICHAEL DETAINED frames plus a Why-can't-I-arrest diagnostic table.",
+    "unique_contribution": [
+      "Two independent gameplay sources cross-confirming the arrest sequence (Bryce Games guide + D3AD Plays live arrest)",
+      "Visual arrest-state progression: police/reinforcements → handcuff readiness → [E] Detain → minigame → MICHAEL DETAINED",
+      "Why can't I arrest Michael diagnostic table tied to observed failed-knockdown states",
+      "Timestamped evidence frames with creator attribution",
+      "Annotated Detain prompt / handcuff readiness frame"
+    ]
+  },
+  "claims": [
+    {
+      "claim_id": "cl-am-001",
+      "claim": "Michael Myers cannot simply be killed in multiplayer; with enough community resistance he can be detained and returned to Smith's Grove Sanitarium.",
+      "evidence_status": "OFFICIAL",
+      "evidence_refs": [
+        "ev-am-official-mp"
+      ],
+      "applicability": "Multiplayer / Early Access launch rules",
+      "known_unknown": false
+    },
+    {
+      "claim_id": "cl-am-002",
+      "claim": "Police presence escalates through Civilian calls and reinforcement progression; HUD can show messages such as A COP HAS ARRIVED TO INVESTIGATE and Reinforcements Available / Reinforcements In.",
+      "evidence_status": "VIDEO_OBSERVED",
+      "evidence_refs": [
+        "ev-am-d3ad",
+        "ev-am-bryce"
+      ],
+      "applicability": "Multiplayer Early Access footage Sep 2026",
+      "known_unknown": false,
+      "capture_purpose": "Police / reinforcement progression HUD"
+    },
+    {
+      "claim_id": "cl-am-003",
+      "claim": "Dead or escaped Civilians can still support the match and return as a Sheriff's Deputy or Dr. Loomis; spectator-side Police Reinforcements perk can respawn a player as a police officer.",
+      "evidence_status": "OFFICIAL",
+      "evidence_refs": [
+        "ev-am-official-mp",
+        "ev-am-bryce"
+      ],
+      "applicability": "Official multiplayer overview + Early Access spectator perk UI",
+      "known_unknown": false,
+      "capture_purpose": "Loomis / deputy / Police Reinforcements involvement"
+    },
+    {
+      "claim_id": "cl-am-004",
+      "claim": "When arrest readiness is building, Michael shows a handcuff-style indicator (diamond/icon with handcuffs) on or near him.",
+      "evidence_status": "VIDEO_OBSERVED",
+      "evidence_refs": [
+        "ev-am-bryce",
+        "ev-am-d3ad"
+      ],
+      "applicability": "Multiplayer Early Access footage Sep 2026",
+      "known_unknown": false,
+      "capture_purpose": "Handcuff / arrest readiness indicator on Michael"
+    },
+    {
+      "claim_id": "cl-am-005",
+      "claim": "Knocking Michael down before arrest readiness is complete is not enough—he can recover; the useful knockdown comes after handcuff readiness / police pressure is established.",
+      "evidence_status": "VIDEO_OBSERVED",
+      "evidence_refs": [
+        "ev-am-bryce",
+        "ev-am-d3ad"
+      ],
+      "applicability": "Multiplayer Early Access footage Sep 2026",
+      "known_unknown": false,
+      "capture_purpose": "Knockdown without vs with Detain prompt"
+    },
+    {
+      "claim_id": "cl-am-006",
+      "claim": "After a valid knockdown in the ready state, the interaction prompt [E] Detain Michael appears with a handcuff icon.",
+      "evidence_status": "VIDEO_OBSERVED",
+      "evidence_refs": [
+        "ev-am-bryce",
+        "ev-am-d3ad"
+      ],
+      "applicability": "Multiplayer Early Access footage Sep 2026",
+      "known_unknown": false,
+      "capture_purpose": "Arrest / Detain interaction prompt"
+    },
+    {
+      "claim_id": "cl-am-007",
+      "claim": "Completing Detain Michael requires finishing a short circular progress / input interaction before Michael recovers.",
+      "evidence_status": "VIDEO_OBSERVED",
+      "evidence_refs": [
+        "ev-am-bryce"
+      ],
+      "applicability": "Multiplayer Early Access footage Sep 2026; corroborated by ArrisWuju commentary",
+      "known_unknown": false,
+      "capture_purpose": "Detain minigame / progress meter"
+    },
+    {
+      "claim_id": "cl-am-008",
+      "claim": "A successful Detain ends the match with MICHAEL DETAINED! (GAME OVER / You Survived The Night); remaining Civilians do not need a separate escape afterward.",
+      "evidence_status": "VIDEO_OBSERVED",
+      "evidence_refs": [
+        "ev-am-bryce"
+      ],
+      "applicability": "Multiplayer Early Access footage Sep 2026",
+      "known_unknown": false,
+      "capture_purpose": "MICHAEL DETAINED success end state"
+    }
+  ],
+  "evidence_items": [
+    {
+      "evidence_id": "ev-am-official-mp",
+      "source_class": "OFFICIAL",
+      "source_ref": "https://halloweengame.com/news/multiplayer-gameplay-overview/",
+      "captured_at": "2026-09-06T08:10:00+08:00",
+      "supports_claims": [
+        "cl-am-001",
+        "cl-am-003"
+      ],
+      "summary": "Official IllFonic multiplayer overview: YOU CAN'T KILL THE BOOGEYMAN; Civilians can return as Sheriff's Deputy or Dr. Loomis; Michael can be detained and shipped back to Smith's Grove.",
+      "limitations": "Does not document exact HUD strings or meter fill rates."
+    },
+    {
+      "evidence_id": "ev-am-official-steam",
+      "source_class": "OFFICIAL",
+      "source_ref": "https://store.steampowered.com/app/3219630/Halloween_The_Game/",
+      "captured_at": "2026-09-06T08:10:00+08:00",
+      "supports_claims": [
+        "cl-am-001"
+      ],
+      "summary": "Steam store describes an unpredictable and unkillable enemy for Hero players.",
+      "limitations": "Marketing copy; detain sequence details live in gameplay overview + footage."
+    },
+    {
+      "evidence_id": "ev-am-bryce",
+      "source_class": "VIDEO",
+      "source_ref": "https://www.youtube.com/watch?v=EN2Ik4aHgBE",
+      "captured_at": "2026-09-06T08:30:00+08:00",
+      "supports_claims": [
+        "cl-am-002",
+        "cl-am-003",
+        "cl-am-004",
+        "cl-am-005",
+        "cl-am-006",
+        "cl-am-007",
+        "cl-am-008"
+      ],
+      "summary": "Bryce Games — How To Arrest Michael Myers In Halloween: The Game. Tutorial footage covering CB radio, Police Reinforcements perk, arrest meter / handcuff state, Detain prompt, minigame, MICHAEL DETAINED.",
+      "limitations": "Facecam overlay; Early Access build; some beats narrated over edited gameplay."
+    },
+    {
+      "evidence_id": "ev-am-d3ad",
+      "source_class": "VIDEO",
+      "source_ref": "https://www.youtube.com/watch?v=fJsZDScSAYU",
+      "captured_at": "2026-09-06T08:30:00+08:00",
+      "supports_claims": [
+        "cl-am-002",
+        "cl-am-004",
+        "cl-am-005",
+        "cl-am-006"
+      ],
+      "summary": "D3AD Plays — We ARRESTED Michael Myers in Halloween! ft. Monto, Mogsy. Independent live session showing COP HAS ARRIVED, failed early arrest pressure, Downed Michael XP, and [E] Detain Michael prompt.",
+      "limitations": "Live chaos; success narration near end; not a structured tutorial."
+    },
+    {
+      "evidence_id": "ev-am-arris",
+      "source_class": "VIDEO",
+      "source_ref": "https://www.youtube.com/watch?v=3c2KBoCE4qo",
+      "captured_at": "2026-09-06T08:15:00+08:00",
+      "supports_claims": [
+        "cl-am-003",
+        "cl-am-005",
+        "cl-am-007"
+      ],
+      "summary": "ArrisWuju — ARRESTING Myers Details. Commentary corroborating Loomis/cop playable requirement, bar fill, knockdown prerequisite, and detain prompt timing.",
+      "limitations": "Mostly talking-head / overlay commentary; used as corroboration, not sole visual proof."
+    },
+    {
+      "evidence_id": "ev-am-serp",
+      "source_class": "SERP",
+      "source_ref": "https://www.whisperofthehouse.com/halloween-the-game/how-to-arrest-michael-myers",
+      "captured_at": "2026-09-06T08:05:00+08:00",
+      "supports_claims": [],
+      "summary": "Competitor prose guide covering similar sequence without dual-source timestamped frames or annotated Detain UI.",
+      "limitations": "Competitor gap only; not used to invent claims."
+    }
+  ],
+  "video_evidence": [],
+  "human_capture_tasks": [],
+  "known_unknowns": [
+    "Exact arrest-meter fill rates, cooldowns, or required officer counts",
+    "Whether NPC officers can finish Detain without a player pressing [E]",
+    "Match-to-match variance for Loomis CB-radio spawn locations"
+  ]
+}

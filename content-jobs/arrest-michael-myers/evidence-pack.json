@@ -1,0 +1,901 @@
+{
+  "schema_version": "launch-content-evidence-pack-v1",
+  "pack_id": "ep-halloween-arrest-michael-001",
+  "mode": "LAUNCH",
+  "demand_ref": "demand-halloween-arrest-michael-001",
+  "intent_ref": "intent-halloween-arrest-michael-001",
+  "demand_signal": {
+    "demand_id": "demand-halloween-arrest-michael-001",
+    "query": "how to arrest michael myers halloween the game",
+    "query_cluster": [
+      "how to arrest michael myers halloween the game",
+      "how to arrest michael",
+      "can you kill michael myers halloween the game",
+      "how to detain michael halloween the game",
+      "why can't I arrest michael"
+    ],
+    "signal_source": "MIXED",
+    "observed_at": "2026-09-06T08:00:00+08:00",
+    "freshness_class": "LAUNCH_SPIKE",
+    "game": "Halloween: The Game",
+    "notes": "Launch multiplayer detainment walkthrough. SERP competitor Whisper of the House already covers sequence prose without timestamped dual-source frames or why-can't-I-arrest triage."
+  },
+  "intent_brief": {
+    "intent_id": "intent-halloween-arrest-michael-001",
+    "player_task": "Complete the multiplayer Arrest/Detain sequence against Michael Myers, understand why knockdowns fail before readiness, and know that Michael cannot simply be killed.",
+    "intent_class": "MECHANIC_WALKTHROUGH",
+    "tech_facet": null,
+    "required_answers": [
+      "Can Michael be killed?",
+      "How police / reinforcements / Loomis-or-deputy involvement unlock detainment",
+      "Step-by-step arrest sequence with visual state markers",
+      "Why knockdowns fail before arrest readiness (diagnostic)",
+      "What the handcuff / Detain prompt looks like",
+      "What happens after MICHAEL DETAINED"
+    ],
+    "stakes": "Players waste full matches dumping damage into Michael without Loomis/deputy readiness; false kill advice conflicts with official design.",
+    "out_of_scope": [
+      "Exact numeric arrest-meter fill rates or cooldowns",
+      "Best loadouts / weapon DPS meta",
+      "Story-mode detainment as Michael (single-player is played as Michael)"
+    ]
+  },
+  "article_type": "WALKTHROUGH",
+  "article_decision": "NEW",
+  "research_route": {
+    "article_type": "WALKTHROUGH",
+    "tech_facet": null,
+    "profile": "WALKTHROUGH_LOCATION",
+    "source_classes": [
+      "VIDEO",
+      "OFFICIAL",
+      "SERP",
+      "COMMUNITY"
+    ],
+    "rationale": [
+      "WALKTHROUGH/location prioritizes gameplay/video + official + SERP",
+      "Community is supporting for landmarks/meta that remain unverified"
+    ]
+  },
+  "unique_contribution": [
+    "Three independent gameplay videos for arrest pressure / detain UI (Bryce Games guide + D3AD Plays live + Delirious collab POLICE WAGON CALLED)",
+    "Visual arrest-state progression: police wagon / cop arrival / reinforcements → handcuff readiness → [E] Detain → minigame → MICHAEL DETAINED",
+    "Why can't I arrest Michael diagnostic table tied to observed failed-knockdown states",
+    "Native 1080p player captures with facecam cropped; annotated Detain prompt",
+    "Public visual-quality gate passed for core Arrest UI readability"
+  ],
+  "competitor_gap_summary": "Whisper of the House has a prose arrest guide; reviews mention police wagon escapes and failed arrest attempts; Steam store confirms unkillable enemy. No competing page pairs two independent timestamped gameplay sources with handcuff→Detain→MICHAEL DETAINED frames plus a Why-can't-I-arrest diagnostic table.",
+  "claim_ledger": [
+    {
+      "claim_id": "cl-am-001",
+      "claim": "Michael Myers cannot simply be killed in multiplayer; with enough community resistance he can be detained and returned to Smith's Grove Sanitarium.",
+      "evidence_status": "OFFICIAL",
+      "evidence_refs": [
+        "ev-am-official-mp"
+      ],
+      "applicability": "Multiplayer / Early Access launch rules",
+      "known_unknown": false,
+      "superseded_by": null
+    },
+    {
+      "claim_id": "cl-am-002",
+      "claim": "Police presence escalates through Civilian calls and reinforcement progression; HUD can show messages such as POLICE WAGON CALLED, A COP HAS ARRIVED TO INVESTIGATE, and Reinforcements Available / Reinforcements In.",
+      "evidence_status": "VIDEO_OBSERVED",
+      "evidence_refs": [
+        "ev-am-bryce",
+        "ev-am-d3ad",
+        "ev-am-delirious"
+      ],
+      "applicability": "Multiplayer Early Access footage Sep 2026",
+      "known_unknown": false,
+      "superseded_by": null
+    },
+    {
+      "claim_id": "cl-am-003",
+      "claim": "Dead or escaped Civilians can still support the match and return as a Sheriff's Deputy or Dr. Loomis; spectator-side Police Reinforcements perk can respawn a player as a police officer.",
+      "evidence_status": "OFFICIAL",
+      "evidence_refs": [
+        "ev-am-official-mp",
+        "ev-am-bryce"
+      ],
+      "applicability": "Official multiplayer overview + Early Access spectator perk UI",
+      "known_unknown": false,
+      "superseded_by": null
+    },
+    {
+      "claim_id": "cl-am-004",
+      "claim": "When arrest readiness is building, Michael shows a handcuff-style indicator (diamond/icon with handcuffs) on or near him.",
+      "evidence_status": "VIDEO_OBSERVED",
+      "evidence_refs": [
+        "ev-am-bryce",
+        "ev-am-d3ad"
+      ],
+      "applicability": "Multiplayer Early Access footage Sep 2026",
+      "known_unknown": false,
+      "superseded_by": null
+    },
+    {
+      "claim_id": "cl-am-005",
+      "claim": "Knocking Michael down before arrest readiness is complete is not enough—he can recover; the useful knockdown comes after handcuff readiness / police pressure is established.",
+      "evidence_status": "VIDEO_OBSERVED",
+      "evidence_refs": [
+        "ev-am-bryce",
+        "ev-am-d3ad"
+      ],
+      "applicability": "Multiplayer Early Access footage Sep 2026",
+      "known_unknown": false,
+      "superseded_by": null
+    },
+    {
+      "claim_id": "cl-am-006",
+      "claim": "After a valid knockdown in the ready state, the interaction prompt [E] Detain Michael appears with a handcuff icon.",
+      "evidence_status": "VIDEO_OBSERVED",
+      "evidence_refs": [
+        "ev-am-bryce",
+        "ev-am-d3ad"
+      ],
+      "applicability": "Multiplayer Early Access footage Sep 2026",
+      "known_unknown": false,
+      "superseded_by": null
+    },
+    {
+      "claim_id": "cl-am-007",
+      "claim": "Completing Detain Michael requires finishing a short circular progress / input interaction before Michael recovers.",
+      "evidence_status": "VIDEO_OBSERVED",
+      "evidence_refs": [
+        "ev-am-bryce"
+      ],
+      "applicability": "Multiplayer Early Access footage Sep 2026; corroborated by ArrisWuju commentary",
+      "known_unknown": false,
+      "superseded_by": null
+    },
+    {
+      "claim_id": "cl-am-008",
+      "claim": "A successful Detain ends the match with MICHAEL DETAINED! (GAME OVER / You Survived The Night); remaining Civilians do not need a separate escape afterward.",
+      "evidence_status": "VIDEO_OBSERVED",
+      "evidence_refs": [
+        "ev-am-bryce"
+      ],
+      "applicability": "Multiplayer Early Access footage Sep 2026",
+      "known_unknown": false,
+      "superseded_by": null
+    }
+  ],
+  "active_claims": [
+    {
+      "claim_id": "cl-am-001",
+      "claim": "Michael Myers cannot simply be killed in multiplayer; with enough community resistance he can be detained and returned to Smith's Grove Sanitarium.",
+      "evidence_status": "OFFICIAL",
+      "evidence_refs": [
+        "ev-am-official-mp"
+      ],
+      "applicability": "Multiplayer / Early Access launch rules",
+      "known_unknown": false,
+      "superseded_by": null
+    },
+    {
+      "claim_id": "cl-am-002",
+      "claim": "Police presence escalates through Civilian calls and reinforcement progression; HUD can show messages such as POLICE WAGON CALLED, A COP HAS ARRIVED TO INVESTIGATE, and Reinforcements Available / Reinforcements In.",
+      "evidence_status": "VIDEO_OBSERVED",
+      "evidence_refs": [
+        "ev-am-bryce",
+        "ev-am-d3ad",
+        "ev-am-delirious"
+      ],
+      "applicability": "Multiplayer Early Access footage Sep 2026",
+      "known_unknown": false,
+      "superseded_by": null
+    },
+    {
+      "claim_id": "cl-am-003",
+      "claim": "Dead or escaped Civilians can still support the match and return as a Sheriff's Deputy or Dr. Loomis; spectator-side Police Reinforcements perk can respawn a player as a police officer.",
+      "evidence_status": "OFFICIAL",
+      "evidence_refs": [
+        "ev-am-official-mp",
+        "ev-am-bryce"
+      ],
+      "applicability": "Official multiplayer overview + Early Access spectator perk UI",
+      "known_unknown": false,
+      "superseded_by": null
+    },
+    {
+      "claim_id": "cl-am-004",
+      "claim": "When arrest readiness is building, Michael shows a handcuff-style indicator (diamond/icon with handcuffs) on or near him.",
+      "evidence_status": "VIDEO_OBSERVED",
+      "evidence_refs": [
+        "ev-am-bryce",
+        "ev-am-d3ad"
+      ],
+      "applicability": "Multiplayer Early Access footage Sep 2026",
+      "known_unknown": false,
+      "superseded_by": null
+    },
+    {
+      "claim_id": "cl-am-005",
+      "claim": "Knocking Michael down before arrest readiness is complete is not enough—he can recover; the useful knockdown comes after handcuff readiness / police pressure is established.",
+      "evidence_status": "VIDEO_OBSERVED",
+      "evidence_refs": [
+        "ev-am-bryce",
+        "ev-am-d3ad"
+      ],
+      "applicability": "Multiplayer Early Access footage Sep 2026",
+      "known_unknown": false,
+      "superseded_by": null
+    },
+    {
+      "claim_id": "cl-am-006",
+      "claim": "After a valid knockdown in the ready state, the interaction prompt [E] Detain Michael appears with a handcuff icon.",
+      "evidence_status": "VIDEO_OBSERVED",
+      "evidence_refs": [
+        "ev-am-bryce",
+        "ev-am-d3ad"
+      ],
+      "applicability": "Multiplayer Early Access footage Sep 2026",
+      "known_unknown": false,
+      "superseded_by": null
+    },
+    {
+      "claim_id": "cl-am-007",
+      "claim": "Completing Detain Michael requires finishing a short circular progress / input interaction before Michael recovers.",
+      "evidence_status": "VIDEO_OBSERVED",
+      "evidence_refs": [
+        "ev-am-bryce"
+      ],
+      "applicability": "Multiplayer Early Access footage Sep 2026; corroborated by ArrisWuju commentary",
+      "known_unknown": false,
+      "superseded_by": null
+    },
+    {
+      "claim_id": "cl-am-008",
+      "claim": "A successful Detain ends the match with MICHAEL DETAINED! (GAME OVER / You Survived The Night); remaining Civilians do not need a separate escape afterward.",
+      "evidence_status": "VIDEO_OBSERVED",
+      "evidence_refs": [
+        "ev-am-bryce"
+      ],
+      "applicability": "Multiplayer Early Access footage Sep 2026",
+      "known_unknown": false,
+      "superseded_by": null
+    }
+  ],
+  "evidence_items": [
+    {
+      "evidence_id": "ev-am-official-mp",
+      "source_class": "OFFICIAL",
+      "source_ref": "https://halloweengame.com/news/multiplayer-gameplay-overview/",
+      "captured_at": "2026-09-06T08:10:00+08:00",
+      "supports_claims": [
+        "cl-am-001",
+        "cl-am-003"
+      ],
+      "summary": "Official IllFonic multiplayer overview: YOU CAN'T KILL THE BOOGEYMAN; Civilians can return as Sheriff's Deputy or Dr. Loomis; Michael can be detained and shipped back to Smith's Grove.",
+      "limitations": "Does not document exact HUD strings or meter fill rates."
+    },
+    {
+      "evidence_id": "ev-am-official-steam",
+      "source_class": "OFFICIAL",
+      "source_ref": "https://store.steampowered.com/app/3219630/Halloween_The_Game/",
+      "captured_at": "2026-09-06T08:10:00+08:00",
+      "supports_claims": [
+        "cl-am-001"
+      ],
+      "summary": "Steam store describes an unpredictable and unkillable enemy for Hero players.",
+      "limitations": "Marketing copy; detain sequence details live in gameplay overview + footage."
+    },
+    {
+      "evidence_id": "ev-am-bryce",
+      "source_class": "VIDEO",
+      "source_ref": "https://www.youtube.com/watch?v=EN2Ik4aHgBE",
+      "captured_at": "2026-09-06T09:25:00+08:00",
+      "supports_claims": [
+        "cl-am-002",
+        "cl-am-003",
+        "cl-am-004",
+        "cl-am-005",
+        "cl-am-006",
+        "cl-am-007",
+        "cl-am-008"
+      ],
+      "summary": "Bryce Games — How To Arrest Michael Myers In Halloween: The Game. Tutorial footage covering CB radio, Police Reinforcements perk, arrest meter / handcuff state, Detain prompt, minigame, MICHAEL DETAINED.",
+      "limitations": "Source stream includes facecam; published frames crop facecam. Early Access build."
+    },
+    {
+      "evidence_id": "ev-am-d3ad",
+      "source_class": "VIDEO",
+      "source_ref": "https://www.youtube.com/watch?v=fJsZDScSAYU",
+      "captured_at": "2026-09-06T09:25:00+08:00",
+      "supports_claims": [
+        "cl-am-002",
+        "cl-am-004",
+        "cl-am-005",
+        "cl-am-006"
+      ],
+      "summary": "D3AD Plays — We ARRESTED Michael Myers in Halloween! ft. Monto, Mogsy. Independent live session showing COP HAS ARRIVED, failed early arrest pressure, Downed Michael XP, and [E] Detain Michael prompt.",
+      "limitations": "Detain confirmation frame is in-match grayscale; UI text remains readable at native 1080p. Live chaos session."
+    },
+    {
+      "evidence_id": "ev-am-arris",
+      "source_class": "VIDEO",
+      "source_ref": "https://www.youtube.com/watch?v=3c2KBoCE4qo",
+      "captured_at": "2026-09-06T08:15:00+08:00",
+      "supports_claims": [
+        "cl-am-003",
+        "cl-am-005",
+        "cl-am-007"
+      ],
+      "summary": "ArrisWuju — ARRESTING Myers Details. Commentary corroborating Loomis/cop playable requirement, bar fill, knockdown prerequisite, and detain prompt timing.",
+      "limitations": "Mostly talking-head / overlay commentary; used as corroboration, not sole visual proof."
+    },
+    {
+      "evidence_id": "ev-am-serp",
+      "source_class": "SERP",
+      "source_ref": "https://www.whisperofthehouse.com/halloween-the-game/how-to-arrest-michael-myers",
+      "captured_at": "2026-09-06T08:05:00+08:00",
+      "supports_claims": [],
+      "summary": "Competitor prose guide covering similar sequence without dual-source timestamped frames or annotated Detain UI.",
+      "limitations": "Competitor gap only; not used to invent claims."
+    },
+    {
+      "evidence_id": "ev-am-delirious",
+      "source_class": "VIDEO",
+      "source_ref": "https://www.youtube.com/watch?v=Qny8MsFE670",
+      "captured_at": "2026-09-06T09:30:00+08:00",
+      "supports_claims": [
+        "cl-am-002"
+      ],
+      "summary": "We Arrested Michael Myers In Halloween: The Game (ft. H2O Delirious). Session HUD shows POLICE WAGON CALLED with police-vehicle arrival countdown.",
+      "limitations": "Collab stream with Bryce facecam (cropped for publish); not a structured tutorial."
+    }
+  ],
+  "video_evidence": [
+    {
+      "video_evidence_id": "ve-EN2Ik4aHgBE-cl-am-003",
+      "source_url": "https://www.youtube.com/watch?v=EN2Ik4aHgBE",
+      "creator": "Bryce Games - Bryce McQuaid",
+      "title": "How To Arrest Michael Myers In Halloween: The Game",
+      "timestamp": "1:45",
+      "claim": "cl-am-003",
+      "claim_id": "cl-am-003",
+      "capture_purpose": "Police Reinforcements perk card — Respawn in the match as a police officer",
+      "capture_method": "PLAYWRIGHT_NATIVE_1080_CROP",
+      "asset_path": "site-input/assets/evidence/arrest-michael/bryce-police-reinforcements-perk.webp",
+      "asset_ref": "site-input/assets/evidence/arrest-michael/bryce-police-reinforcements-perk.webp",
+      "confidence": 0.92,
+      "attribution": {
+        "source_url": "https://www.youtube.com/watch?v=EN2Ik4aHgBE",
+        "creator": "Bryce Games - Bryce McQuaid",
+        "title": "How To Arrest Michael Myers In Halloween: The Game",
+        "timestamp": "1:45",
+        "video_id": "EN2Ik4aHgBE"
+      },
+      "capture_status": "CAPTURED",
+      "selection_reason": "Spectator/minigame perk UI clearly shows POLICE REINFORCEMENTS uncommon card with effect Respawn in the match as a police officer.",
+      "asset": {
+        "asset_id": "asset-ve-EN2Ik4aHgBE-cl-am-003",
+        "filename": "bryce-police-reinforcements-perk.webp",
+        "asset_path": "site-input/assets/evidence/arrest-michael/bryce-police-reinforcements-perk.webp",
+        "asset_ref": "site-input/assets/evidence/arrest-michael/bryce-police-reinforcements-perk.webp",
+        "public_path": "site-input/assets/evidence/arrest-michael/bryce-police-reinforcements-perk.webp",
+        "writer_path": "site-input/assets/evidence/arrest-michael/bryce-police-reinforcements-perk.webp",
+        "page_path": "../../../../assets/evidence/arrest-michael/bryce-police-reinforcements-perk.webp",
+        "alt": "Gameplay evidence: Police Reinforcements perk card — Respawn in the match as a police officer (source Bryce Games - Bryce McQuaid @ 1:45)",
+        "caption": "Police Reinforcements perk card — Respawn in the match as a police officer. Source: Bryce Games - Bryce McQuaid — How To Arrest Michael Myers In Halloween: The Game @ 1:45.",
+        "annotation": null,
+        "attribution": {
+          "source_url": "https://www.youtube.com/watch?v=EN2Ik4aHgBE",
+          "creator": "Bryce Games - Bryce McQuaid",
+          "title": "How To Arrest Michael Myers In Halloween: The Game",
+          "timestamp": "1:45",
+          "video_id": "EN2Ik4aHgBE"
+        },
+        "claim_id": "cl-am-003",
+        "capture_purpose": "Police Reinforcements perk card — Respawn in the match as a police officer"
+      },
+      "visual_quality": {
+        "source_stream": "1080p",
+        "facecam": "cropped_or_absent",
+        "publish_ok": true
+      }
+    },
+    {
+      "video_evidence_id": "ve-EN2Ik4aHgBE-cl-am-003-radio",
+      "source_url": "https://www.youtube.com/watch?v=EN2Ik4aHgBE",
+      "creator": "Bryce Games - Bryce McQuaid",
+      "title": "How To Arrest Michael Myers In Halloween: The Game",
+      "timestamp": "1:30",
+      "claim": "cl-am-003",
+      "claim_id": "cl-am-003",
+      "capture_purpose": "CB / shortwave radio interaction used on the path to call Loomis / authority support",
+      "capture_method": "PLAYWRIGHT_NATIVE_1080_CROP",
+      "asset_path": "site-input/assets/evidence/arrest-michael/bryce-cb-radio.webp",
+      "asset_ref": "site-input/assets/evidence/arrest-michael/bryce-cb-radio.webp",
+      "confidence": 0.8,
+      "attribution": {
+        "source_url": "https://www.youtube.com/watch?v=EN2Ik4aHgBE",
+        "creator": "Bryce Games - Bryce McQuaid",
+        "title": "How To Arrest Michael Myers In Halloween: The Game",
+        "timestamp": "1:30",
+        "video_id": "EN2Ik4aHgBE"
+      },
+      "capture_status": "CAPTURED",
+      "selection_reason": "Civilian standing at table radio with white hand interaction prompt during Loomis-call segment of the guide.",
+      "asset": {
+        "asset_id": "asset-ve-EN2Ik4aHgBE-cl-am-003-radio",
+        "filename": "bryce-cb-radio.webp",
+        "asset_path": "site-input/assets/evidence/arrest-michael/bryce-cb-radio.webp",
+        "asset_ref": "site-input/assets/evidence/arrest-michael/bryce-cb-radio.webp",
+        "public_path": "site-input/assets/evidence/arrest-michael/bryce-cb-radio.webp",
+        "writer_path": "site-input/assets/evidence/arrest-michael/bryce-cb-radio.webp",
+        "page_path": "../../../../assets/evidence/arrest-michael/bryce-cb-radio.webp",
+        "alt": "Gameplay evidence: CB / shortwave radio interaction used on the path to call Loomis / authority support (source Bryce Games - Bryce McQuaid @ 1:30)",
+        "caption": "CB / shortwave radio interaction used on the path to call Loomis / authority support. Source: Bryce Games - Bryce McQuaid — How To Arrest Michael Myers In Halloween: The Game @ 1:30.",
+        "annotation": null,
+        "attribution": {
+          "source_url": "https://www.youtube.com/watch?v=EN2Ik4aHgBE",
+          "creator": "Bryce Games - Bryce McQuaid",
+          "title": "How To Arrest Michael Myers In Halloween: The Game",
+          "timestamp": "1:30",
+          "video_id": "EN2Ik4aHgBE"
+        },
+        "claim_id": "cl-am-003",
+        "capture_purpose": "CB / shortwave radio interaction used on the path to call Loomis / authority support"
+      },
+      "visual_quality": {
+        "source_stream": "1080p",
+        "facecam": "cropped_or_absent",
+        "publish_ok": true
+      }
+    },
+    {
+      "video_evidence_id": "ve-fJsZDScSAYU-cl-am-002",
+      "source_url": "https://www.youtube.com/watch?v=fJsZDScSAYU",
+      "creator": "D3AD Plays",
+      "title": "We ARRESTED Michael Myers in Halloween! ft. Monto, Mogsy",
+      "timestamp": "2:02",
+      "claim": "cl-am-002",
+      "claim_id": "cl-am-002",
+      "capture_purpose": "Police arrival HUD — A COP HAS ARRIVED TO INVESTIGATE / Reinforcements In",
+      "capture_method": "PLAYWRIGHT_NATIVE_1080_CROP",
+      "asset_path": "site-input/assets/evidence/arrest-michael/d3ad-cop-arrived.webp",
+      "asset_ref": "site-input/assets/evidence/arrest-michael/d3ad-cop-arrived.webp",
+      "confidence": 0.93,
+      "attribution": {
+        "source_url": "https://www.youtube.com/watch?v=fJsZDScSAYU",
+        "creator": "D3AD Plays",
+        "title": "We ARRESTED Michael Myers in Halloween! ft. Monto, Mogsy",
+        "timestamp": "2:02",
+        "video_id": "fJsZDScSAYU"
+      },
+      "capture_status": "CAPTURED",
+      "selection_reason": "Independent live session center HUD text A COP HAS ARRIVED TO INVESTIGATE with Reinforcements In: 0.",
+      "asset": {
+        "asset_id": "asset-ve-fJsZDScSAYU-cl-am-002",
+        "filename": "d3ad-cop-arrived.webp",
+        "asset_path": "site-input/assets/evidence/arrest-michael/d3ad-cop-arrived.webp",
+        "asset_ref": "site-input/assets/evidence/arrest-michael/d3ad-cop-arrived.webp",
+        "public_path": "site-input/assets/evidence/arrest-michael/d3ad-cop-arrived.webp",
+        "writer_path": "site-input/assets/evidence/arrest-michael/d3ad-cop-arrived.webp",
+        "page_path": "../../../../assets/evidence/arrest-michael/d3ad-cop-arrived.webp",
+        "alt": "Gameplay evidence: Police arrival HUD — A COP HAS ARRIVED TO INVESTIGATE / Reinforcements In (source D3AD Plays @ 2:02)",
+        "caption": "Police arrival HUD — A COP HAS ARRIVED TO INVESTIGATE / Reinforcements In. Source: D3AD Plays — We ARRESTED Michael Myers in Halloween! ft. Monto, Mogsy @ 2:02.",
+        "annotation": null,
+        "attribution": {
+          "source_url": "https://www.youtube.com/watch?v=fJsZDScSAYU",
+          "creator": "D3AD Plays",
+          "title": "We ARRESTED Michael Myers in Halloween! ft. Monto, Mogsy",
+          "timestamp": "2:02",
+          "video_id": "fJsZDScSAYU"
+        },
+        "claim_id": "cl-am-002",
+        "capture_purpose": "Police arrival HUD — A COP HAS ARRIVED TO INVESTIGATE / Reinforcements In"
+      },
+      "visual_quality": {
+        "source_stream": "1080p",
+        "facecam": "cropped_or_absent",
+        "publish_ok": true
+      }
+    },
+    {
+      "video_evidence_id": "ve-Qny8MsFE670-cl-am-002-wagon",
+      "source_url": "https://www.youtube.com/watch?v=Qny8MsFE670",
+      "creator": "Bryce McQuaid / H2O Delirious collab",
+      "title": "We Arrested Michael Myers In Halloween: The Game (ft. H2O Delirious)",
+      "timestamp": "11:33",
+      "claim": "cl-am-002",
+      "claim_id": "cl-am-002",
+      "capture_purpose": "POLICE WAGON CALLED HUD + police arrival countdown",
+      "capture_method": "PLAYWRIGHT_NATIVE_1080_CROP",
+      "asset_path": "site-input/assets/evidence/arrest-michael/delirious-police-wagon-called.webp",
+      "asset_ref": "site-input/assets/evidence/arrest-michael/delirious-police-wagon-called.webp",
+      "confidence": 0.95,
+      "attribution": {
+        "source_url": "https://www.youtube.com/watch?v=Qny8MsFE670",
+        "creator": "Bryce McQuaid / H2O Delirious collab",
+        "title": "We Arrested Michael Myers In Halloween: The Game (ft. H2O Delirious)",
+        "timestamp": "11:33",
+        "video_id": "Qny8MsFE670"
+      },
+      "capture_status": "CAPTURED",
+      "selection_reason": "Clearest POLICE WAGON CALLED banner with arrival countdown; facecam cropped for publish.",
+      "visual_quality": {
+        "source_stream": "1080p",
+        "facecam": "cropped",
+        "publish_ok": true,
+        "final_pixels": "1306x1080"
+      },
+      "asset": {
+        "asset_id": "asset-ve-Qny8MsFE670-cl-am-002-wagon",
+        "filename": "delirious-police-wagon-called.webp",
+        "asset_path": "site-input/assets/evidence/arrest-michael/delirious-police-wagon-called.webp",
+        "asset_ref": "site-input/assets/evidence/arrest-michael/delirious-police-wagon-called.webp",
+        "public_path": "site-input/assets/evidence/arrest-michael/delirious-police-wagon-called.webp",
+        "writer_path": "site-input/assets/evidence/arrest-michael/delirious-police-wagon-called.webp",
+        "page_path": "../../../../assets/evidence/arrest-michael/delirious-police-wagon-called.webp",
+        "alt": "Gameplay evidence: POLICE WAGON CALLED HUD with police arrival countdown",
+        "caption": "Look for POLICE WAGON CALLED and the police-vehicle countdown. Source: Delirious collab @ 11:33.",
+        "attribution": {
+          "source_url": "https://www.youtube.com/watch?v=Qny8MsFE670",
+          "creator": "Bryce McQuaid / H2O Delirious collab",
+          "title": "We Arrested Michael Myers In Halloween: The Game (ft. H2O Delirious)",
+          "timestamp": "11:33",
+          "video_id": "Qny8MsFE670"
+        },
+        "claim_id": "cl-am-002",
+        "capture_purpose": "POLICE WAGON CALLED HUD + police arrival countdown"
+      }
+    },
+    {
+      "video_evidence_id": "ve-EN2Ik4aHgBE-cl-am-004",
+      "source_url": "https://www.youtube.com/watch?v=EN2Ik4aHgBE",
+      "creator": "Bryce Games - Bryce McQuaid",
+      "title": "How To Arrest Michael Myers In Halloween: The Game",
+      "timestamp": "2:18",
+      "claim": "cl-am-004",
+      "claim_id": "cl-am-004",
+      "capture_purpose": "Handcuff readiness diamond on Michael plus Reinforcements Available and Downed Michael XP",
+      "capture_method": "PLAYWRIGHT_NATIVE_1080_CROP",
+      "asset_path": "site-input/assets/evidence/arrest-michael/bryce-handcuff-indicator.webp",
+      "asset_ref": "site-input/assets/evidence/arrest-michael/bryce-handcuff-indicator.webp",
+      "confidence": 0.94,
+      "attribution": {
+        "source_url": "https://www.youtube.com/watch?v=EN2Ik4aHgBE",
+        "creator": "Bryce Games - Bryce McQuaid",
+        "title": "How To Arrest Michael Myers In Halloween: The Game",
+        "timestamp": "2:18",
+        "video_id": "EN2Ik4aHgBE"
+      },
+      "capture_status": "CAPTURED",
+      "selection_reason": "Purple diamond with golden handcuffs over Michael; Reinforcements Available; Downed Michael feed.",
+      "asset": {
+        "asset_id": "asset-ve-EN2Ik4aHgBE-cl-am-004",
+        "filename": "bryce-handcuff-indicator.webp",
+        "asset_path": "site-input/assets/evidence/arrest-michael/bryce-handcuff-indicator.webp",
+        "asset_ref": "site-input/assets/evidence/arrest-michael/bryce-handcuff-indicator.webp",
+        "public_path": "site-input/assets/evidence/arrest-michael/bryce-handcuff-indicator.webp",
+        "writer_path": "site-input/assets/evidence/arrest-michael/bryce-handcuff-indicator.webp",
+        "page_path": "../../../../assets/evidence/arrest-michael/bryce-handcuff-indicator.webp",
+        "alt": "Gameplay evidence: Handcuff readiness diamond on Michael plus Reinforcements Available and Downed Michael XP (source Bryce Games - Bryce McQuaid @ 2:18)",
+        "caption": "Handcuff readiness diamond on Michael plus Reinforcements Available and Downed Michael XP. Source: Bryce Games - Bryce McQuaid — How To Arrest Michael Myers In Halloween: The Game @ 2:18.",
+        "annotation": null,
+        "attribution": {
+          "source_url": "https://www.youtube.com/watch?v=EN2Ik4aHgBE",
+          "creator": "Bryce Games - Bryce McQuaid",
+          "title": "How To Arrest Michael Myers In Halloween: The Game",
+          "timestamp": "2:18",
+          "video_id": "EN2Ik4aHgBE"
+        },
+        "claim_id": "cl-am-004",
+        "capture_purpose": "Handcuff readiness diamond on Michael plus Reinforcements Available and Downed Michael XP"
+      },
+      "visual_quality": {
+        "source_stream": "1080p",
+        "facecam": "cropped_or_absent",
+        "publish_ok": true
+      }
+    },
+    {
+      "video_evidence_id": "ve-EN2Ik4aHgBE-cl-am-006",
+      "source_url": "https://www.youtube.com/watch?v=EN2Ik4aHgBE",
+      "creator": "Bryce Games - Bryce McQuaid",
+      "title": "How To Arrest Michael Myers In Halloween: The Game",
+      "timestamp": "2:25",
+      "claim": "cl-am-006",
+      "claim_id": "cl-am-006",
+      "capture_purpose": "[E] Detain Michael prompt with handcuff icon over knocked-down Michael",
+      "capture_method": "PLAYWRIGHT_NATIVE_1080_CROP",
+      "asset_path": "site-input/assets/evidence/arrest-michael/bryce-detain-prompt.webp",
+      "asset_ref": "site-input/assets/evidence/arrest-michael/bryce-detain-prompt.webp",
+      "confidence": 0.96,
+      "attribution": {
+        "source_url": "https://www.youtube.com/watch?v=EN2Ik4aHgBE",
+        "creator": "Bryce Games - Bryce McQuaid",
+        "title": "How To Arrest Michael Myers In Halloween: The Game",
+        "timestamp": "2:25",
+        "video_id": "EN2Ik4aHgBE"
+      },
+      "capture_status": "CAPTURED",
+      "selection_reason": "Deputy over downed Michael with explicit [E] Detain Michael + handcuff icon; Reinforcements Available still up.",
+      "asset": {
+        "asset_id": "asset-ve-EN2Ik4aHgBE-cl-am-006",
+        "filename": "bryce-detain-prompt.webp",
+        "asset_path": "site-input/assets/evidence/arrest-michael/bryce-detain-prompt.webp",
+        "asset_ref": "site-input/assets/evidence/arrest-michael/bryce-detain-prompt.webp",
+        "public_path": "site-input/assets/evidence/arrest-michael/bryce-detain-prompt.webp",
+        "writer_path": "site-input/assets/evidence/arrest-michael/bryce-detain-prompt.webp",
+        "page_path": "../../../../assets/evidence/arrest-michael/bryce-detain-prompt.webp",
+        "alt": "Gameplay evidence: [E] Detain Michael prompt with handcuff icon over knocked-down Michael (source Bryce Games - Bryce McQuaid @ 2:25)",
+        "caption": "[E] Detain Michael prompt with handcuff icon over knocked-down Michael. Source: Bryce Games - Bryce McQuaid — How To Arrest Michael Myers In Halloween: The Game @ 2:25.",
+        "annotation": null,
+        "attribution": {
+          "source_url": "https://www.youtube.com/watch?v=EN2Ik4aHgBE",
+          "creator": "Bryce Games - Bryce McQuaid",
+          "title": "How To Arrest Michael Myers In Halloween: The Game",
+          "timestamp": "2:25",
+          "video_id": "EN2Ik4aHgBE"
+        },
+        "claim_id": "cl-am-006",
+        "capture_purpose": "[E] Detain Michael prompt with handcuff icon over knocked-down Michael"
+      },
+      "visual_quality": {
+        "source_stream": "1080p",
+        "facecam": "cropped_or_absent",
+        "publish_ok": true
+      }
+    },
+    {
+      "video_evidence_id": "ve-fJsZDScSAYU-cl-am-006",
+      "source_url": "https://www.youtube.com/watch?v=fJsZDScSAYU",
+      "creator": "D3AD Plays",
+      "title": "We ARRESTED Michael Myers in Halloween! ft. Monto, Mogsy",
+      "timestamp": "7:44",
+      "claim": "cl-am-006",
+      "claim_id": "cl-am-006",
+      "capture_purpose": "Independent confirmation of [E] Detain Michael + Downed Michael XP",
+      "capture_method": "PLAYWRIGHT_NATIVE_1080_CROP",
+      "asset_path": "site-input/assets/evidence/arrest-michael/d3ad-detain-prompt.webp",
+      "asset_ref": "site-input/assets/evidence/arrest-michael/d3ad-detain-prompt.webp",
+      "confidence": 0.95,
+      "attribution": {
+        "source_url": "https://www.youtube.com/watch?v=fJsZDScSAYU",
+        "creator": "D3AD Plays",
+        "title": "We ARRESTED Michael Myers in Halloween! ft. Monto, Mogsy",
+        "timestamp": "7:44",
+        "video_id": "fJsZDScSAYU"
+      },
+      "capture_status": "CAPTURED",
+      "selection_reason": "Second creator live footage shows [E] Detain Michael with handcuff icon and +500 XP Downed Michael.",
+      "asset": {
+        "asset_id": "asset-ve-fJsZDScSAYU-cl-am-006",
+        "filename": "d3ad-detain-prompt.webp",
+        "asset_path": "site-input/assets/evidence/arrest-michael/d3ad-detain-prompt.webp",
+        "asset_ref": "site-input/assets/evidence/arrest-michael/d3ad-detain-prompt.webp",
+        "public_path": "site-input/assets/evidence/arrest-michael/d3ad-detain-prompt.webp",
+        "writer_path": "site-input/assets/evidence/arrest-michael/d3ad-detain-prompt.webp",
+        "page_path": "../../../../assets/evidence/arrest-michael/d3ad-detain-prompt.webp",
+        "alt": "Gameplay evidence: Independent confirmation of [E] Detain Michael + Downed Michael XP (source D3AD Plays @ 7:44)",
+        "caption": "Independent confirmation of [E] Detain Michael + Downed Michael XP. Source: D3AD Plays — We ARRESTED Michael Myers in Halloween! ft. Monto, Mogsy @ 7:44.",
+        "annotation": null,
+        "attribution": {
+          "source_url": "https://www.youtube.com/watch?v=fJsZDScSAYU",
+          "creator": "D3AD Plays",
+          "title": "We ARRESTED Michael Myers in Halloween! ft. Monto, Mogsy",
+          "timestamp": "7:44",
+          "video_id": "fJsZDScSAYU"
+        },
+        "claim_id": "cl-am-006",
+        "capture_purpose": "Independent confirmation of [E] Detain Michael + Downed Michael XP"
+      },
+      "visual_quality": {
+        "source_stream": "1080p",
+        "facecam": "cropped_or_absent",
+        "publish_ok": true
+      }
+    },
+    {
+      "video_evidence_id": "ve-EN2Ik4aHgBE-cl-am-007",
+      "source_url": "https://www.youtube.com/watch?v=EN2Ik4aHgBE",
+      "creator": "Bryce Games - Bryce McQuaid",
+      "title": "How To Arrest Michael Myers In Halloween: The Game",
+      "timestamp": "2:28",
+      "claim": "cl-am-007",
+      "claim_id": "cl-am-007",
+      "capture_purpose": "Detain circular progress / input minigame while Michael is down",
+      "capture_method": "PLAYWRIGHT_NATIVE_1080_CROP",
+      "asset_path": "site-input/assets/evidence/arrest-michael/bryce-detain-minigame.webp",
+      "asset_ref": "site-input/assets/evidence/arrest-michael/bryce-detain-minigame.webp",
+      "confidence": 0.93,
+      "attribution": {
+        "source_url": "https://www.youtube.com/watch?v=EN2Ik4aHgBE",
+        "creator": "Bryce Games - Bryce McQuaid",
+        "title": "How To Arrest Michael Myers In Halloween: The Game",
+        "timestamp": "2:28",
+        "video_id": "EN2Ik4aHgBE"
+      },
+      "capture_status": "CAPTURED",
+      "selection_reason": "Circular radial progress meter with E / mouse prompts while deputy kneels over Michael.",
+      "asset": {
+        "asset_id": "asset-ve-EN2Ik4aHgBE-cl-am-007",
+        "filename": "bryce-detain-minigame.webp",
+        "asset_path": "site-input/assets/evidence/arrest-michael/bryce-detain-minigame.webp",
+        "asset_ref": "site-input/assets/evidence/arrest-michael/bryce-detain-minigame.webp",
+        "public_path": "site-input/assets/evidence/arrest-michael/bryce-detain-minigame.webp",
+        "writer_path": "site-input/assets/evidence/arrest-michael/bryce-detain-minigame.webp",
+        "page_path": "../../../../assets/evidence/arrest-michael/bryce-detain-minigame.webp",
+        "alt": "Gameplay evidence: Detain circular progress / input minigame while Michael is down (source Bryce Games - Bryce McQuaid @ 2:28)",
+        "caption": "Detain circular progress / input minigame while Michael is down. Source: Bryce Games - Bryce McQuaid — How To Arrest Michael Myers In Halloween: The Game @ 2:28.",
+        "annotation": null,
+        "attribution": {
+          "source_url": "https://www.youtube.com/watch?v=EN2Ik4aHgBE",
+          "creator": "Bryce Games - Bryce McQuaid",
+          "title": "How To Arrest Michael Myers In Halloween: The Game",
+          "timestamp": "2:28",
+          "video_id": "EN2Ik4aHgBE"
+        },
+        "claim_id": "cl-am-007",
+        "capture_purpose": "Detain circular progress / input minigame while Michael is down"
+      },
+      "visual_quality": {
+        "source_stream": "1080p",
+        "facecam": "cropped_or_absent",
+        "publish_ok": true
+      }
+    },
+    {
+      "video_evidence_id": "ve-EN2Ik4aHgBE-cl-am-008",
+      "source_url": "https://www.youtube.com/watch?v=EN2Ik4aHgBE",
+      "creator": "Bryce Games - Bryce McQuaid",
+      "title": "How To Arrest Michael Myers In Halloween: The Game",
+      "timestamp": "2:38",
+      "claim": "cl-am-008",
+      "claim_id": "cl-am-008",
+      "capture_purpose": "MICHAEL DETAINED! success end state",
+      "capture_method": "PLAYWRIGHT_NATIVE_1080_CROP",
+      "asset_path": "site-input/assets/evidence/arrest-michael/bryce-michael-detained.webp",
+      "asset_ref": "site-input/assets/evidence/arrest-michael/bryce-michael-detained.webp",
+      "confidence": 0.97,
+      "attribution": {
+        "source_url": "https://www.youtube.com/watch?v=EN2Ik4aHgBE",
+        "creator": "Bryce Games - Bryce McQuaid",
+        "title": "How To Arrest Michael Myers In Halloween: The Game",
+        "timestamp": "2:38",
+        "video_id": "EN2Ik4aHgBE"
+      },
+      "capture_status": "CAPTURED",
+      "selection_reason": "Center overlay YOU SURVIVED THE NIGHT / GAME OVER / MICHAEL DETAINED! with deputy over Michael.",
+      "asset": {
+        "asset_id": "asset-ve-EN2Ik4aHgBE-cl-am-008",
+        "filename": "bryce-michael-detained.webp",
+        "asset_path": "site-input/assets/evidence/arrest-michael/bryce-michael-detained.webp",
+        "asset_ref": "site-input/assets/evidence/arrest-michael/bryce-michael-detained.webp",
+        "public_path": "site-input/assets/evidence/arrest-michael/bryce-michael-detained.webp",
+        "writer_path": "site-input/assets/evidence/arrest-michael/bryce-michael-detained.webp",
+        "page_path": "../../../../assets/evidence/arrest-michael/bryce-michael-detained.webp",
+        "alt": "Gameplay evidence: MICHAEL DETAINED! success end state (source Bryce Games - Bryce McQuaid @ 2:38)",
+        "caption": "MICHAEL DETAINED! success end state. Source: Bryce Games - Bryce McQuaid — How To Arrest Michael Myers In Halloween: The Game @ 2:38.",
+        "annotation": null,
+        "attribution": {
+          "source_url": "https://www.youtube.com/watch?v=EN2Ik4aHgBE",
+          "creator": "Bryce Games - Bryce McQuaid",
+          "title": "How To Arrest Michael Myers In Halloween: The Game",
+          "timestamp": "2:38",
+          "video_id": "EN2Ik4aHgBE"
+        },
+        "claim_id": "cl-am-008",
+        "capture_purpose": "MICHAEL DETAINED! success end state"
+      },
+      "visual_quality": {
+        "source_stream": "1080p",
+        "facecam": "cropped_or_absent",
+        "publish_ok": true
+      }
+    },
+    {
+      "video_evidence_id": "ve-EN2Ik4aHgBE-cl-am-006-annotated",
+      "source_url": "https://www.youtube.com/watch?v=EN2Ik4aHgBE",
+      "creator": "Bryce Games - Bryce McQuaid",
+      "title": "How To Arrest Michael Myers In Halloween: The Game",
+      "timestamp": "2:25",
+      "claim": "cl-am-006",
+      "claim_id": "cl-am-006",
+      "capture_purpose": "Annotated arrest readiness — [E] Detain Michael + handcuff icon after knockdown",
+      "capture_method": "PLAYWRIGHT_NATIVE_1080_CROP",
+      "asset_path": "site-input/assets/evidence/arrest-michael/bryce-detain-prompt-annotated.webp",
+      "asset_ref": "site-input/assets/evidence/arrest-michael/bryce-detain-prompt-annotated.webp",
+      "confidence": 0.96,
+      "attribution": {
+        "source_url": "https://www.youtube.com/watch?v=EN2Ik4aHgBE",
+        "creator": "Bryce Games - Bryce McQuaid",
+        "title": "How To Arrest Michael Myers In Halloween: The Game",
+        "timestamp": "2:25",
+        "video_id": "EN2Ik4aHgBE"
+      },
+      "capture_status": "CAPTURED",
+      "selection_reason": "Same detain prompt frame with callout annotation for guide readers.",
+      "asset": {
+        "asset_id": "asset-ve-EN2Ik4aHgBE-cl-am-006-annotated",
+        "filename": "bryce-detain-prompt-annotated.webp",
+        "asset_path": "site-input/assets/evidence/arrest-michael/bryce-detain-prompt-annotated.webp",
+        "asset_ref": "site-input/assets/evidence/arrest-michael/bryce-detain-prompt-annotated.webp",
+        "public_path": "site-input/assets/evidence/arrest-michael/bryce-detain-prompt-annotated.webp",
+        "writer_path": "site-input/assets/evidence/arrest-michael/bryce-detain-prompt-annotated.webp",
+        "page_path": "../../../../assets/evidence/arrest-michael/bryce-detain-prompt-annotated.webp",
+        "alt": "Gameplay evidence: Annotated arrest readiness — [E] Detain Michael + handcuff icon after knockdown (source Bryce Games - Bryce McQuaid @ 2:25)",
+        "caption": "Annotated arrest readiness — [E] Detain Michael + handcuff icon after knockdown. Source: Bryce Games - Bryce McQuaid — How To Arrest Michael Myers In Halloween: The Game @ 2:25.",
+        "annotation": {
+          "kind": "callout",
+          "note": "Arrest readiness: [E] Detain Michael + handcuff icon after knockdown"
+        },
+        "attribution": {
+          "source_url": "https://www.youtube.com/watch?v=EN2Ik4aHgBE",
+          "creator": "Bryce Games - Bryce McQuaid",
+          "title": "How To Arrest Michael Myers In Halloween: The Game",
+          "timestamp": "2:25",
+          "video_id": "EN2Ik4aHgBE"
+        },
+        "claim_id": "cl-am-006",
+        "capture_purpose": "Annotated arrest readiness — [E] Detain Michael + handcuff icon after knockdown"
+      },
+      "visual_quality": {
+        "source_stream": "1080p",
+        "facecam": "cropped_or_absent",
+        "publish_ok": true
+      }
+    }
+  ],
+  "human_capture_tasks": [
+    {
+      "task_id": "hct-am-001",
+      "reason": "Initial yt-dlp HD formats 403/SABR; resolved via Playwright native 1080p canvas capture + facecam crop. Visual QA pass 2026-09-06.",
+      "target_claim_ids": [
+        "cl-am-002",
+        "cl-am-003",
+        "cl-am-004",
+        "cl-am-006",
+        "cl-am-007",
+        "cl-am-008"
+      ],
+      "source_url": "https://www.youtube.com/watch?v=EN2Ik4aHgBE",
+      "timestamp": "1:30-2:38",
+      "capture_purpose": "Re-capture Arrest chain at native 1080p; crop facecam; add POLICE WAGON from third source.",
+      "annotation_need": "callout",
+      "status": "DONE"
+    }
+  ],
+  "known_unknowns": [
+    "Exact arrest-meter fill rates, cooldowns, or required officer counts",
+    "Whether NPC officers can finish Detain without a player pressing [E]",
+    "Match-to-match variance for Loomis CB-radio spawn locations"
+  ],
+  "publish_readiness": "EVIDENCE_COMPLETE",
+  "readiness_reasons": [
+    "critical claims corroborated enough for LAUNCH Writer",
+    "core Arrest sequence visually complete at native 1080p (facecam cropped)",
+    ">=2 independent gameplay sources (Bryce + D3AD); third source confirms POLICE WAGON CALLED",
+    "core Detain / handcuff / DETAINED UI eye-readable on publish crops",
+    "known unknowns explicit; no UNKNOWN active claims",
+    "no OPEN HUMAN_CAPTURE_TASK"
+  ],
+  "lifecycle": {
+    "state": "EVIDENCE_COMPLETE",
+    "next": "UPDATE"
+  },
+  "writer_contract": {
+    "may_invent_claims": false,
+    "consumes": [
+      "evidence_pack",
+      "claim_ledger"
+    ]
+  },
+  "visual_quality_gate": {
+    "checked_at": "2026-09-06T09:40:00+08:00",
+    "source_stream_min": "1080p",
+    "facecam_policy": "crop_or_reject",
+    "ai_upscale": false,
+    "result": "PASS",
+    "notes": [
+      "Prior publish used 640x360 format-18 with Bryce facecam — rejected",
+      "yt-dlp adaptive 720p/1080p returns HTTP 403 under SABR for this IP/session",
+      "Playwright YouTube player @1080p + canvas drawImage yields native 1920x1080 frames",
+      "Bryce facecam cropped ~32% left; D3AD frames have no facecam"
+    ]
+  }
+}

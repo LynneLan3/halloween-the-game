@@ -1,0 +1,28 @@
+{
+  "intent_id": "intent-halloween-arrest-michael-001",
+  "primaryQuery": "how to arrest michael myers halloween the game",
+  "queryCluster": [
+    "how to arrest michael myers halloween the game",
+    "how to arrest michael",
+    "can you kill michael myers halloween the game",
+    "how to detain michael halloween the game",
+    "why can't I arrest michael"
+  ],
+  "userJob": "Complete the multiplayer Arrest/Detain sequence against Michael Myers, understand why knockdowns fail before readiness, and know that Michael cannot simply be killed.",
+  "serpPromise": "Step-by-step arrest/detain walkthrough with visual state markers, kill vs detain official boundary, and why-can't-I-arrest diagnostic.",
+  "intentOwnerStatus": "KEEP",
+  "requiredAnswers": [
+    "Can Michael be killed?",
+    "How police / reinforcements / Loomis-or-deputy involvement unlock detainment",
+    "Step-by-step arrest sequence with visual state markers",
+    "Why knockdowns fail before arrest readiness (diagnostic)",
+    "What the handcuff / Detain prompt looks like",
+    "What happens after MICHAEL DETAINED"
+  ],
+  "outOfScope": [
+    "Exact numeric arrest-meter fill rates or cooldowns",
+    "Asserting the exact HUD string POLICE WAGON CALLED without visual capture",
+    "Best loadouts / weapon DPS meta",
+    "Story-mode detainment as Michael (single-player is played as Michael)"
+  ]
+}

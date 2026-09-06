@@ -416,6 +416,10 @@ export const siteConfig: GameConfig = {
 					pageId: "michael-myers-skins",
 					type: "next-step",
 				},
+				{
+					pageId: "michael-myers-how-to-arrest",
+					type: "next-step",
+				},
 			],
 			sources: [
 			],
@@ -441,6 +445,55 @@ export const siteConfig: GameConfig = {
 			sources: [
 			],
 			evidence: [
+			],
+		},
+		{
+			id: "michael-myers-how-to-arrest",
+			slug: "michael-myers/how-to-arrest",
+			role: "core",
+			assetType: "article",
+			intents: ["how-to-arrest-michael-myers"],
+			relations: [
+				{
+					pageId: "michael-myers-hub",
+					type: "related",
+				},
+				{
+					pageId: "multiplayer-how-it-works",
+					type: "next-step",
+				},
+				{
+					pageId: "maps-hub",
+					type: "related",
+				},
+			],
+			sources: [
+			],
+			evidence: [
+				{
+					asset: "evidence/arrest-michael/bryce-detain-prompt-annotated.webp",
+					alt: "Annotated [E] Detain Michael prompt with handcuff icon after knockdown",
+					caption: "Arrest readiness: [E] Detain Michael + handcuff icon after Michael is knocked down.",
+					sourceLabel: "Bryce Games @ 2:25",
+					sourceType: "community",
+					sourceUrl: "https://www.youtube.com/watch?v=EN2Ik4aHgBE&t=145s",
+				},
+				{
+					asset: "evidence/arrest-michael/bryce-michael-detained.webp",
+					alt: "MICHAEL DETAINED! match end state",
+					caption: "Successful detain ends the match with MICHAEL DETAINED!",
+					sourceLabel: "Bryce Games @ 2:38",
+					sourceType: "community",
+					sourceUrl: "https://www.youtube.com/watch?v=EN2Ik4aHgBE&t=158s",
+				},
+				{
+					asset: "evidence/arrest-michael/d3ad-detain-prompt.webp",
+					alt: "Independent [E] Detain Michael prompt from live gameplay",
+					caption: "Second independent source confirming [E] Detain Michael after Downed Michael.",
+					sourceLabel: "D3AD Plays @ 7:44",
+					sourceType: "community",
+					sourceUrl: "https://www.youtube.com/watch?v=fJsZDScSAYU&t=464s",
+				},
 			],
 		},
 		{
@@ -1022,8 +1075,8 @@ export const siteConfig: GameConfig = {
 				{
 					pageId: "michael-myers-hub",
 					href: "/michael-myers/",
-					title: "Michael Myers in Halloween: The Game — How the Killer Works",
-					description: "How Michael Myers works in Halloween: The Game: 1v4 multiplayer role, detention rules, 2 starting traits + 3 selectable abilities, progression unlocks, and six-chapter single-player Michael.",
+					title: "Michael Myers Abilities in Halloween: The Game — Evil Presence, Stalk & Unlocks",
+					description: "What Evil Presence does in Halloween: The Game, how Michael's abilities unlock, and what EA gameplay confirms about Stalk, stagger, and executions.",
 					eyebrow: "Killer Guide",
 					image: "hero/michael-mask-hero.jpg",
 				},
@@ -1034,6 +1087,13 @@ export const siteConfig: GameConfig = {
 					description: "Official ability descriptions for Michael Myers in Halloween: The Game multiplayer, plus what remains launch verification pending.",
 					eyebrow: "Killer Abilities",
 					image: "covers/michael/smiths-grove.jpg",
+				},
+				{
+					pageId: "michael-myers-how-to-arrest",
+					href: "/michael-myers/how-to-arrest/",
+					title: "How to Arrest Michael Myers in Halloween: The Game",
+					description: "Step-by-step multiplayer arrest/detain sequence: police reinforcements, handcuff readiness, [E] Detain Michael, MICHAEL DETAINED, and why knockdowns fail before readiness.",
+					eyebrow: "Arrest Guide",
 				},
 				{
 					pageId: "michael-myers-skins",
@@ -1066,10 +1126,10 @@ export const siteConfig: GameConfig = {
 					href: "/michael-myers/",
 				},
 				{
-					question: "What Michael Myers skins are confirmed?",
-					answer: "Base, Phantom (digital preorder exclusive), Inmate (Deluxe), Clown and Samhain (physical Advance Access, also earnable).",
-					pageId: "michael-myers-skins",
-					href: "/michael-myers/skins/",
+					question: "How do you arrest Michael Myers?",
+					answer: "Build police pressure until the handcuff readiness indicator appears, knock him down, press Detain Michael, and finish the short progress interaction for MICHAEL DETAINED.",
+					pageId: "michael-myers-how-to-arrest",
+					href: "/michael-myers/how-to-arrest/",
 				},
 			],
 		},

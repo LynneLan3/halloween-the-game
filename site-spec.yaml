@@ -297,8 +297,8 @@ pages:
         type: related
     changeSummary: "CONTENT_EXPANSION — Characters pillar hub; links to progression."
   - id: michael-myers-hub
-    title: "Michael Myers in Halloween: The Game — How the Killer Works"
-    description: "How Michael Myers works in Halloween: The Game: 1v4 multiplayer role, detention rules, 2 starting traits + 3 selectable abilities, progression unlocks, and six-chapter single-player Michael."
+    title: "Michael Myers Abilities in Halloween: The Game — Evil Presence, Stalk & Unlocks"
+    description: "What Evil Presence does in Halloween: The Game, how Michael's abilities unlock, and what EA gameplay confirms about Stalk, stagger, and executions."
     category: killer-guides
     slug: michael-myers
     source: site-input/pages/michael-myers.md
@@ -308,17 +308,17 @@ pages:
     role: core
     intents:
       - michael-myers-gameplay
-    quickAnswer: "Multiplayer is 1 Michael Myers vs 4 Civilians. Michael hunts residents and Special Targets, can be knocked down or detained but cannot simply be killed, and uses a loadout of 2 starting traits (Killer Sense, Shape Jump) plus 3 selectable abilities. Single-player Michael is a separate six-chapter story."
+    quickAnswer: "EA gameplay shows Evil Presence as a short-range aura that staggers nearby Civilians, giving Michael an opening to close distance or interrupt an escape. It appears to unlock through Michael progression, but the exact Killer Level, range, cooldown, chase requirement, trip effect, and Stalk Tier 3 or execution relationship remain UNKNOWN."
     eyebrow: "Killer Guide"
     facts:
       - label: "Multiplayer role"
-        value: "1 Michael Myers vs 4 Civilians"
+        value: "Evil Presence staggers nearby Civilians in observed EA gameplay"
       - label: "Loadout"
-        value: "2 starting traits (Killer Sense, Shape Jump) + 3 selectable abilities"
+        value: "Michael progression unlocks abilities; exact Evil Presence level UNKNOWN"
       - label: "Resistance outcome"
-        value: "Can be knocked down; sufficient resistance can detain Michael to Smith's Grove"
+        value: "Stalk Tier 3 / execution relationship remains UNKNOWN"
       - label: "Single-player"
-        value: "Six-chapter story from Michael's perspective"
+        value: "2 starting traits + 3 selectable abilities; six-chapter story is separate"
     coverAssetId: michael-mask-hero
     relations:
       - pageId: michael-myers-abilities
@@ -332,6 +332,8 @@ pages:
       - pageId: characters-hub
         type: related
       - pageId: michael-myers-skins
+        type: next-step
+      - pageId: michael-myers-how-to-arrest
         type: next-step
     changeSummary: "CONTENT_EXPANSION — Michael Myers pillar hub; links to progression and matchmaking."
   - id: michael-myers-abilities
@@ -364,6 +366,56 @@ pages:
       - pageId: multiplayer-how-it-works
         type: next-step
     changeSummary: "CONTENT_EXPANSION — Michael Myers abilities guide."
+  - id: michael-myers-how-to-arrest
+    title: "How to Arrest Michael Myers in Halloween: The Game"
+    description: "Step-by-step multiplayer arrest/detain sequence: police reinforcements, handcuff readiness, [E] Detain Michael, MICHAEL DETAINED, and why knockdowns fail before readiness."
+    category: killer-guides
+    slug: michael-myers/how-to-arrest
+    source: site-input/pages/michael-myers/how-to-arrest.md
+    status: verified
+    featured: true
+    sidebarOrder: 3
+    role: core
+    intents:
+      - how-to-arrest-michael-myers
+    quickAnswer: "Michael cannot simply be killed. Build police/reinforcement pressure until the handcuff readiness indicator appears, knock him down, press [E] Detain Michael, finish the short progress interaction, and end the match with MICHAEL DETAINED."
+    eyebrow: "Arrest Guide"
+    facts:
+      - label: "Kill vs detain"
+        value: "Cannot simply be killed; can be detained to Smith's Grove"
+      - label: "Readiness cue"
+        value: "Handcuff-style indicator on Michael under police pressure"
+      - label: "Final prompt"
+        value: "[E] Detain Michael after a ready-state knockdown"
+      - label: "Success state"
+        value: "MICHAEL DETAINED! ends the match"
+    evidence:
+      - asset: evidence/arrest-michael/bryce-detain-prompt-annotated.webp
+        alt: "Annotated [E] Detain Michael prompt with handcuff icon after knockdown"
+        caption: "Arrest readiness: [E] Detain Michael + handcuff icon after Michael is knocked down."
+        sourceLabel: "Bryce Games @ 2:25"
+        sourceType: community
+        sourceUrl: "https://www.youtube.com/watch?v=EN2Ik4aHgBE&t=145s"
+      - asset: evidence/arrest-michael/bryce-michael-detained.webp
+        alt: "MICHAEL DETAINED! match end state"
+        caption: "Successful detain ends the match with MICHAEL DETAINED!"
+        sourceLabel: "Bryce Games @ 2:38"
+        sourceType: community
+        sourceUrl: "https://www.youtube.com/watch?v=EN2Ik4aHgBE&t=158s"
+      - asset: evidence/arrest-michael/d3ad-detain-prompt.webp
+        alt: "Independent [E] Detain Michael prompt from live gameplay"
+        caption: "Second independent source confirming [E] Detain Michael after Downed Michael."
+        sourceLabel: "D3AD Plays @ 7:44"
+        sourceType: community
+        sourceUrl: "https://www.youtube.com/watch?v=fJsZDScSAYU&t=464s"
+    relations:
+      - pageId: michael-myers-hub
+        type: related
+      - pageId: multiplayer-how-it-works
+        type: next-step
+      - pageId: maps-hub
+        type: related
+    changeSummary: "Arrest/detain walkthrough with dual gameplay video evidence and official kill/detain boundary."
   - id: multiplayer-hub
     title: "Halloween: The Game Multiplayer — 1v4 Format & Objectives"
     description: "Confirmed 1 Michael vs 4 Civilians multiplayer, Civilian and Michael objectives, deputy returns, and replayability notes from IllFonic."
@@ -1018,12 +1070,13 @@ routes:
       - question: "Can Michael be killed?"
         answer: Michael can be resisted and detained but not simply killed by Civilians.
         pageId: michael-myers-hub
-      - question: "What Michael Myers skins are confirmed?"
-        answer: "Base, Phantom (digital preorder exclusive), Inmate (Deluxe), Clown and Samhain (physical Advance Access, also earnable)."
-        pageId: michael-myers-skins
+      - question: "How do you arrest Michael Myers?"
+        answer: Build police pressure until the handcuff readiness indicator appears, knock him down, press Detain Michael, and finish the short progress interaction for MICHAEL DETAINED.
+        pageId: michael-myers-how-to-arrest
     pages:
       - michael-myers-hub
       - michael-myers-abilities
+      - michael-myers-how-to-arrest
       - michael-myers-skins
       - progression-perks
   - id: multiplayer
@@ -1172,6 +1225,66 @@ assets:
     alt: "Residential street at night on Haddonfield Heights from official map flythrough"
     sourceType: official
     usageStatus: review-required
+  - id: arrest-bryce-police-reinforcements
+    source: site-input/assets/evidence/arrest-michael/bryce-police-reinforcements-perk.webp
+    target: evidence/arrest-michael/bryce-police-reinforcements-perk.webp
+    alt: "Police Reinforcements perk — Respawn in the match as a police officer"
+    sourceType: user-provided
+    usageStatus: approved
+  - id: arrest-bryce-cb-radio
+    source: site-input/assets/evidence/arrest-michael/bryce-cb-radio.webp
+    target: evidence/arrest-michael/bryce-cb-radio.webp
+    alt: "CB radio interaction during arrest setup"
+    sourceType: user-provided
+    usageStatus: approved
+  - id: arrest-d3ad-cop-arrived
+    source: site-input/assets/evidence/arrest-michael/d3ad-cop-arrived.webp
+    target: evidence/arrest-michael/d3ad-cop-arrived.webp
+    alt: "A COP HAS ARRIVED TO INVESTIGATE HUD"
+    sourceType: user-provided
+    usageStatus: approved
+  - id: arrest-delirious-police-wagon-called
+    source: site-input/assets/evidence/arrest-michael/delirious-police-wagon-called.webp
+    target: evidence/arrest-michael/delirious-police-wagon-called.webp
+    alt: "POLICE WAGON CALLED HUD with police arrival countdown"
+    sourceType: user-provided
+    usageStatus: approved
+  - id: arrest-bryce-handcuff-indicator
+    source: site-input/assets/evidence/arrest-michael/bryce-handcuff-indicator.webp
+    target: evidence/arrest-michael/bryce-handcuff-indicator.webp
+    alt: "Handcuff readiness indicator on Michael Myers"
+    sourceType: user-provided
+    usageStatus: approved
+  - id: arrest-bryce-detain-prompt
+    source: site-input/assets/evidence/arrest-michael/bryce-detain-prompt.webp
+    target: evidence/arrest-michael/bryce-detain-prompt.webp
+    alt: "[E] Detain Michael prompt after knockdown"
+    sourceType: user-provided
+    usageStatus: approved
+  - id: arrest-bryce-detain-prompt-annotated
+    source: site-input/assets/evidence/arrest-michael/bryce-detain-prompt-annotated.webp
+    target: evidence/arrest-michael/bryce-detain-prompt-annotated.webp
+    alt: "Annotated [E] Detain Michael prompt with handcuff icon"
+    sourceType: user-provided
+    usageStatus: approved
+  - id: arrest-bryce-detain-minigame
+    source: site-input/assets/evidence/arrest-michael/bryce-detain-minigame.webp
+    target: evidence/arrest-michael/bryce-detain-minigame.webp
+    alt: "Detain circular progress minigame"
+    sourceType: user-provided
+    usageStatus: approved
+  - id: arrest-bryce-michael-detained
+    source: site-input/assets/evidence/arrest-michael/bryce-michael-detained.webp
+    target: evidence/arrest-michael/bryce-michael-detained.webp
+    alt: "MICHAEL DETAINED! match end state"
+    sourceType: user-provided
+    usageStatus: approved
+  - id: arrest-d3ad-detain-prompt
+    source: site-input/assets/evidence/arrest-michael/d3ad-detain-prompt.webp
+    target: evidence/arrest-michael/d3ad-detain-prompt.webp
+    alt: "Independent [E] Detain Michael prompt from live gameplay"
+    sourceType: user-provided
+    usageStatus: approved
   - id: town-center-main-street
     source: site-input/assets/covers/maps/town-center-main-street.jpg
     target: covers/maps/town-center-main-street.jpg

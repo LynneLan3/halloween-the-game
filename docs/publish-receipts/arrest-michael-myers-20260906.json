@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "hotword-publish-receipt-v1",
+  "common": {
+    "site": "Halloween: The Game",
+    "siteId": "halloween-the-game",
+    "game": "Halloween: The Game",
+    "batchId": "halloween-the-game|arrest-michael|20260906",
+    "lifecyclePhase": "early-access",
+    "attributionMode": "OBSERVATIONAL_ONLY",
+    "sourceRefs": [
+      "content-jobs/arrest-michael-myers/evidence-pack.json",
+      "site-input/pages/michael-myers/how-to-arrest.md",
+      "EVIDENCE_COMPLETE arrest Michael Myers walkthrough"
+    ]
+  },
+  "interventions": [
+    {
+      "interventionId": "halloween-the-game|arrest-michael|michael-myers-how-to-arrest",
+      "action": "NEW_PAGE",
+      "primaryUrl": "/michael-myers/how-to-arrest/",
+      "affectedUrls": [
+        "/michael-myers/how-to-arrest/",
+        "/michael-myers/",
+        "/routes/michael-myers/"
+      ],
+      "reason": "Ship EVIDENCE_COMPLETE How to Arrest Michael Myers walkthrough with dual independent gameplay sources, annotated Detain prompt, and why-can't-I-arrest diagnostic.",
+      "triggerType": "operator_request",
+      "triggerSummary": "Production publish only after Evidence Pack readiness EVIDENCE_COMPLETE for arrest/detain intent.",
+      "sourceRefs": [
+        "content-jobs/arrest-michael-myers/evidence-pack.json",
+        "content-jobs/arrest-michael-myers/job.json"
+      ]
+    }
+  ]
+}
