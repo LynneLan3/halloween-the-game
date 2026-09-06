@@ -1,55 +1,65 @@
 # Halloween: The Game Single Player — Story Mode & Chapters
 
-**Confirmed:** Halloween: The Game includes a **single-player story mode** played from **Michael Myers' perspective**. It is separate from offline bot skirmishes and online multiplayer—see {{page:bots-private-lobbies-offline}} and {{page:multiplayer-hub}}.
+Quick answer
 
-## Does Halloween: The Game have single player?
+Story Mode is a single-player narrative containing a Prologue plus five numbered chapters (Prologue + Chapters 1–5). In the successful runs reviewed, the campaign proceeds with the Prologue first and then Chapters 1–5 in that named order. The chapter progressions below are observed sequences from those runs, not guaranteed requirements. Optional challenges and collectibles are replay content tied to the six playable chapters. Current Early Access community reports describe possible save/reset, challenge/log registration, relock/loop, and Chapter 4 AI/timing problems; those reports are not confirmed as universal and do not establish a guaranteed workaround.
 
-**Yes.** Official materials describe a narrative mode that:
+First-clear state map (observed)
 
-- **Reimagines events surrounding the 1978 film**
-- Begins around Michael's **escape from Smith's Grove**
-- Spans **six chapters** with **Dr. Samuel Loomis narration**
-- Includes **familiar and new locations**
-- Follows Michael **toward Laurie Strode**
+- Prologue → Chapter 1 → Chapter 2 → Chapter 3 → Chapter 4 → Chapter 5.
 
-## How chapters work (confirmed)
+## Prologue — observed route
 
-- Each chapter has **fixed core objectives**
-- **Gameplay execution remains sandbox-driven** within those objectives
-- **Multiple difficulty options** are available
+In the successful runs reviewed:
 
-IllFonic has **not** published a full chapter-by-chapter walkthrough, every objective name, or collectible maps pre-launch.
+1. Clear the initial orderly encounters.
+2. Follow the power/gate progression cue.
+3. Continue toward the station wagon.
 
-## Replay and unlock structure (confirmed)
+## Chapter 1 — observed progression
 
-Beyond the main story path, IllFonic lists secondary content tied to replay:
+1. Encounter the Rabbit in Red sequence.
+2. Follow the red/noise tracking segments.
+3. Continue toward the mechanic progression state.
 
-- **Secondary challenges**
-- **Collectibles**
-- **Additional lore**
-- **Executions**
-- **Gameplay scenarios**
-- **Multiplayer cosmetics**
+## Chapter 2 — observed progression
 
-Exact unlock conditions are **launch verification pending**.
+1. Advance through the hardware-store and mask-related progression.
+2. Continue through named-target objectives.
+3. Follow the Judith Myers tombstone sequence.
+4. Return toward the car as the route moves toward closure.
 
-## Relationship to multiplayer
+## Chapter 3 — observed progression
 
-- **Michael's kit** in multiplayer (Killer Sense, Stalk, Shape Jump, blackouts) is documented separately—{{page:michael-myers-abilities}}
-- **Civilians** you hunt online are covered in {{page:characters-hub}}
-- **Maps** like Haddonfield Heights appear in multiplayer; story locations may overlap but are not a 1:1 list
+1. Enter the Myers House sequence.
+2. Complete the house/flashback material.
+3. Continue to later neighborhood objectives.
 
-## Launch verification pending — no walkthrough yet
+## Chapter 4 — observed progression
 
-Do not publish as fact before verification:
+1. Follow the Wallace House event chain.
+2. Continue through the observed Bob/Lynda states.
+3. Follow the later event-chain progression toward the Laurie phase.
 
-- Complete chapter names and order beyond the "six chapters" count
-- Every objective step, collectible coordinate, or secret
-- Full difficulty modifiers and rewards
-- Chapter guides at `/single-player/chapter-1/` etc.
+## Chapter 5 — observed progression
 
-Those pages will be added after Advance Access when evidence supports non-speculative guides.
+1. Continue through the police/search-pressure phase.
+2. Follow the escape objective when it appears.
+3. In VIDEO-02, the observed run reaches a train-track escape branch. This is run-specific evidence, not a universal ending requirement.
 
-## Sources
+## First clear vs challenge cleanup
+
+The chapter route above is for first-clear progression. Optional challenges and collectibles are replay content tied to the six chapters. Return to the relevant chapter for cleanup instead of letting an optional challenge derail the first clear.
+
+## Stuck or bug? Early Access note
+
+Community reports describe possible save/reset, challenge or Loomis Log registration, relock/loop, and Chapter 4 AI/timing problems. These reports are version-scoped Early Access observations, are not confirmed as universal, and have no guaranteed workaround. A missed optional timing window is different from a possible tracking or save issue: first check the current objective and state, then replay the chapter or consult current support/community updates if progress did not register.
+
+## Replay, endings, and next step
+
+After a first clear, replay individual chapters for optional challenges and collectibles. Chapter 5 ending routes remain partially unresolved in the current evidence; the train-track branch is directly observed in VIDEO-02 only.
+
+## Sources and verified date
 
 - [Unleash Hell Upon Haddonfield — Halloween: The Game](https://halloweengame.com/news/unleash-hell-upon-haddonfield/)
+- Gameplay cross-checks: MKIceAndFire, [VIDEO-01](https://www.youtube.com/watch?v=SR3vu4G0t1Q); Main Wave Gaming, [VIDEO-02](https://www.youtube.com/watch?v=d9Rk9PvL6Aw). Reviewed 2026-09-06.

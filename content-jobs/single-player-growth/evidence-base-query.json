@@ -1,0 +1,1408 @@
+{
+  "filters": {
+    "lifecycle": "GROWTH",
+    "intent": "WALKTHROUGH",
+    "show_lineage": true
+  },
+  "article_rules": [
+    {
+      "rule_id": "RULE-001",
+      "rule": "Resolve Player Task before composition; do not turn P1–P10 into fixed article templates.",
+      "applicable_lifecycles": [
+        "PRE_RELEASE",
+        "LAUNCH",
+        "GROWTH",
+        "MAINTENANCE"
+      ],
+      "applicable_intents": [
+        "Entity Detail",
+        "Catalog / Hub",
+        "Choice / Comparison",
+        "Procedure / How-to",
+        "Location / Map",
+        "Progression / Walkthrough",
+        "System / Mechanics",
+        "Meta / Recommendation",
+        "Tool / Database",
+        "Planning / Calendar"
+      ],
+      "applicable_prototypes": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7",
+        "P8",
+        "P9",
+        "P10"
+      ],
+      "derived_from_pattern_ids": [
+        "PAT-001",
+        "PAT-002"
+      ],
+      "external_evidence_refs": [
+        "WIN-001",
+        "ANAT-001",
+        "SRC-G016-FROZEN"
+      ],
+      "production_case_refs": [],
+      "evidence_status": "EXTERNAL_VALIDATED",
+      "source_examples": [
+        "WIN-001",
+        "ANAT-001",
+        "SRC-G016-FROZEN"
+      ],
+      "lifecycle_status": {
+        "PRE_RELEASE": "PENDING_VALIDATION",
+        "LAUNCH": "EXTERNAL_VALIDATED",
+        "GROWTH": "PENDING_VALIDATION",
+        "MAINTENANCE": "PENDING_VALIDATION"
+      }
+    },
+    {
+      "rule_id": "RULE-002",
+      "rule": "Put the task-specific answer payload in the first screen before generic introduction.",
+      "applicable_lifecycles": [
+        "PRE_RELEASE",
+        "LAUNCH",
+        "GROWTH",
+        "MAINTENANCE"
+      ],
+      "applicable_intents": [
+        "Entity Detail",
+        "Catalog / Hub",
+        "Choice / Comparison",
+        "Procedure / How-to",
+        "Location / Map",
+        "Progression / Walkthrough",
+        "System / Mechanics",
+        "Meta / Recommendation",
+        "Tool / Database",
+        "Planning / Calendar"
+      ],
+      "applicable_prototypes": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7",
+        "P8",
+        "P9",
+        "P10"
+      ],
+      "derived_from_pattern_ids": [
+        "PAT-003"
+      ],
+      "external_evidence_refs": [
+        "ANAT-001",
+        "ANAT-003",
+        "EVID-001"
+      ],
+      "production_case_refs": [
+        "CASE-LAUNCH-HADDONFIELD-HEIGHTS",
+        "CASE-LAUNCH-HOW-TO-ARREST-MICHAEL",
+        "CASE-LAUNCH-EVIL-PRESENCE"
+      ],
+      "evidence_status": "PRODUCTION_VALIDATED",
+      "source_examples": [
+        "ANAT-001",
+        "ANAT-003",
+        "EVID-001"
+      ],
+      "lifecycle_status": {
+        "PRE_RELEASE": "PENDING_VALIDATION",
+        "LAUNCH": "PRODUCTION_VALIDATED",
+        "GROWTH": "PENDING_VALIDATION",
+        "MAINTENANCE": "PENDING_VALIDATION"
+      }
+    },
+    {
+      "rule_id": "RULE-003",
+      "rule": "Compose only supported typed facts, steps, rules, tables, maps, tools or relationships; keep structured answers structured.",
+      "applicable_lifecycles": [
+        "PRE_RELEASE",
+        "LAUNCH",
+        "GROWTH",
+        "MAINTENANCE"
+      ],
+      "applicable_intents": [
+        "Entity Detail",
+        "Catalog / Hub",
+        "Choice / Comparison",
+        "Procedure / How-to",
+        "Location / Map",
+        "Progression / Walkthrough",
+        "System / Mechanics",
+        "Meta / Recommendation",
+        "Tool / Database",
+        "Planning / Calendar"
+      ],
+      "applicable_prototypes": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7",
+        "P8",
+        "P9",
+        "P10"
+      ],
+      "derived_from_pattern_ids": [
+        "PAT-005"
+      ],
+      "external_evidence_refs": [
+        "EVID-002",
+        "EVID-033",
+        "EVID-065"
+      ],
+      "production_case_refs": [
+        "CASE-LAUNCH-HADDONFIELD-HEIGHTS",
+        "CASE-LAUNCH-HOW-TO-ARREST-MICHAEL"
+      ],
+      "evidence_status": "PRODUCTION_VALIDATED",
+      "source_examples": [
+        "EVID-002",
+        "EVID-033",
+        "EVID-065"
+      ],
+      "lifecycle_status": {
+        "PRE_RELEASE": "PENDING_VALIDATION",
+        "LAUNCH": "PRODUCTION_VALIDATED",
+        "GROWTH": "PENDING_VALIDATION",
+        "MAINTENANCE": "PENDING_VALIDATION"
+      }
+    },
+    {
+      "rule_id": "RULE-004",
+      "rule": "Optimize for Information Gain / Evidence Density, not word count or generic section count.",
+      "applicable_lifecycles": [
+        "PRE_RELEASE",
+        "LAUNCH",
+        "GROWTH",
+        "MAINTENANCE"
+      ],
+      "applicable_intents": [
+        "Entity Detail",
+        "Catalog / Hub",
+        "Choice / Comparison",
+        "Procedure / How-to",
+        "Location / Map",
+        "Progression / Walkthrough",
+        "System / Mechanics",
+        "Meta / Recommendation",
+        "Tool / Database",
+        "Planning / Calendar"
+      ],
+      "applicable_prototypes": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7",
+        "P8",
+        "P9",
+        "P10"
+      ],
+      "derived_from_pattern_ids": [
+        "PAT-004"
+      ],
+      "external_evidence_refs": [
+        "EVID-001",
+        "EVID-033",
+        "EVID-076"
+      ],
+      "production_case_refs": [],
+      "evidence_status": "EXTERNAL_VALIDATED",
+      "source_examples": [
+        "EVID-001",
+        "EVID-033",
+        "EVID-076"
+      ],
+      "lifecycle_status": {
+        "PRE_RELEASE": "PENDING_VALIDATION",
+        "LAUNCH": "EXTERNAL_VALIDATED",
+        "GROWTH": "PENDING_VALIDATION",
+        "MAINTENANCE": "PENDING_VALIDATION"
+      }
+    },
+    {
+      "rule_id": "RULE-005",
+      "rule": "Label facts, measurements, recommendations, observed sequences, inferences, unknowns and conflicts by evidence status.",
+      "applicable_lifecycles": [
+        "PRE_RELEASE",
+        "LAUNCH",
+        "GROWTH",
+        "MAINTENANCE"
+      ],
+      "applicable_intents": [
+        "Entity Detail",
+        "Choice / Comparison",
+        "Procedure / How-to",
+        "Progression / Walkthrough",
+        "System / Mechanics",
+        "Meta / Recommendation",
+        "Planning / Calendar"
+      ],
+      "applicable_prototypes": [
+        "P1",
+        "P3",
+        "P4",
+        "P6",
+        "P7",
+        "P8",
+        "P10"
+      ],
+      "derived_from_pattern_ids": [
+        "PAT-006",
+        "PAT-015"
+      ],
+      "external_evidence_refs": [
+        "EVID-071",
+        "EVID-100",
+        "EVID-108"
+      ],
+      "production_case_refs": [
+        "CASE-LAUNCH-HOW-TO-ARREST-MICHAEL",
+        "CASE-LAUNCH-EVIL-PRESENCE"
+      ],
+      "evidence_status": "SUPPORTED",
+      "source_examples": [
+        "EVID-071",
+        "EVID-100",
+        "EVID-108"
+      ],
+      "lifecycle_status": {
+        "PRE_RELEASE": "PENDING_VALIDATION",
+        "LAUNCH": "SUPPORTED",
+        "GROWTH": "PENDING_VALIDATION",
+        "MAINTENANCE": "PENDING_VALIDATION"
+      }
+    },
+    {
+      "rule_id": "RULE-006",
+      "rule": "Include failure, recovery and edge-state guidance when evidence shows a real failure state.",
+      "applicable_lifecycles": [
+        "PRE_RELEASE",
+        "LAUNCH",
+        "GROWTH",
+        "MAINTENANCE"
+      ],
+      "applicable_intents": [
+        "Procedure / How-to",
+        "Location / Map",
+        "Progression / Walkthrough",
+        "System / Mechanics",
+        "Meta / Recommendation"
+      ],
+      "applicable_prototypes": [
+        "P4",
+        "P5",
+        "P6",
+        "P7",
+        "P8"
+      ],
+      "derived_from_pattern_ids": [
+        "PAT-007"
+      ],
+      "external_evidence_refs": [
+        "EVID-006",
+        "EVID-028",
+        "EVID-097"
+      ],
+      "production_case_refs": [
+        "CASE-LAUNCH-HOW-TO-ARREST-MICHAEL"
+      ],
+      "evidence_status": "SUPPORTED",
+      "source_examples": [
+        "EVID-006",
+        "EVID-028",
+        "EVID-097"
+      ],
+      "lifecycle_status": {
+        "PRE_RELEASE": "PENDING_VALIDATION",
+        "LAUNCH": "SUPPORTED",
+        "GROWTH": "PENDING_VALIDATION",
+        "MAINTENANCE": "PENDING_VALIDATION"
+      }
+    },
+    {
+      "rule_id": "RULE-007",
+      "rule": "Use media only with an explicit bounded whatItProves claim, source attribution, timestamp/capture context and limitation.",
+      "applicable_lifecycles": [
+        "PRE_RELEASE",
+        "LAUNCH",
+        "GROWTH",
+        "MAINTENANCE"
+      ],
+      "applicable_intents": [
+        "Procedure / How-to",
+        "Location / Map",
+        "Progression / Walkthrough",
+        "System / Mechanics",
+        "Tool / Database"
+      ],
+      "applicable_prototypes": [
+        "P4",
+        "P5",
+        "P6",
+        "P7",
+        "P9"
+      ],
+      "derived_from_pattern_ids": [
+        "PAT-008",
+        "PAT-014"
+      ],
+      "external_evidence_refs": [
+        "EVID-009",
+        "EVID-033",
+        "EVID-076"
+      ],
+      "production_case_refs": [
+        "CASE-LAUNCH-HADDONFIELD-HEIGHTS",
+        "CASE-LAUNCH-HOW-TO-ARREST-MICHAEL",
+        "CASE-LAUNCH-EVIL-PRESENCE"
+      ],
+      "evidence_status": "PRODUCTION_VALIDATED",
+      "source_examples": [
+        "EVID-009",
+        "EVID-033",
+        "EVID-076"
+      ],
+      "lifecycle_status": {
+        "PRE_RELEASE": "PENDING_VALIDATION",
+        "LAUNCH": "PRODUCTION_VALIDATED",
+        "GROWTH": "PENDING_VALIDATION",
+        "MAINTENANCE": "PENDING_VALIDATION"
+      }
+    },
+    {
+      "rule_id": "RULE-009",
+      "rule": "For progression intent, answer current state, trigger, next milestone and recovery where supported.",
+      "applicable_lifecycles": [
+        "PRE_RELEASE",
+        "LAUNCH",
+        "GROWTH",
+        "MAINTENANCE"
+      ],
+      "applicable_intents": [
+        "Progression / Walkthrough",
+        "Planning / Calendar"
+      ],
+      "applicable_prototypes": [
+        "P6",
+        "P10"
+      ],
+      "derived_from_pattern_ids": [
+        "PAT-010"
+      ],
+      "external_evidence_refs": [
+        "WIN-019",
+        "ANAT-019",
+        "EVID-019",
+        "EVID-027"
+      ],
+      "production_case_refs": [],
+      "evidence_status": "EXTERNAL_VALIDATED",
+      "source_examples": [
+        "WIN-019",
+        "ANAT-019",
+        "EVID-019",
+        "EVID-027"
+      ],
+      "lifecycle_status": {
+        "PRE_RELEASE": "PENDING_VALIDATION",
+        "LAUNCH": "EXTERNAL_VALIDATED",
+        "GROWTH": "PENDING_VALIDATION",
+        "MAINTENANCE": "PENDING_VALIDATION"
+      }
+    },
+    {
+      "rule_id": "RULE-012",
+      "rule": "Attach version, platform, season, data window or freshness to claims whose applicability can change.",
+      "applicable_lifecycles": [
+        "PRE_RELEASE",
+        "LAUNCH",
+        "GROWTH",
+        "MAINTENANCE"
+      ],
+      "applicable_intents": [
+        "Entity Detail",
+        "Choice / Comparison",
+        "Progression / Walkthrough",
+        "System / Mechanics",
+        "Meta / Recommendation",
+        "Planning / Calendar"
+      ],
+      "applicable_prototypes": [
+        "P1",
+        "P3",
+        "P6",
+        "P7",
+        "P8",
+        "P10"
+      ],
+      "derived_from_pattern_ids": [
+        "PAT-013"
+      ],
+      "external_evidence_refs": [
+        "ANAT-001",
+        "EVID-018",
+        "EVID-100"
+      ],
+      "production_case_refs": [
+        "CASE-LAUNCH-EVIL-PRESENCE"
+      ],
+      "evidence_status": "SUPPORTED",
+      "source_examples": [
+        "ANAT-001",
+        "EVID-018",
+        "EVID-100"
+      ],
+      "lifecycle_status": {
+        "PRE_RELEASE": "PENDING_VALIDATION",
+        "LAUNCH": "SUPPORTED",
+        "GROWTH": "PENDING_VALIDATION",
+        "MAINTENANCE": "PENDING_VALIDATION"
+      }
+    },
+    {
+      "rule_id": "RULE-013",
+      "rule": "Decompose YouTube into timestamped evidence segments with action/state/claim/limitation; do not use transcript summaries as proof.",
+      "applicable_lifecycles": [
+        "PRE_RELEASE",
+        "LAUNCH",
+        "GROWTH",
+        "MAINTENANCE"
+      ],
+      "applicable_intents": [
+        "Procedure / How-to",
+        "Location / Map",
+        "Progression / Walkthrough",
+        "System / Mechanics"
+      ],
+      "applicable_prototypes": [
+        "P4",
+        "P5",
+        "P6",
+        "P7"
+      ],
+      "derived_from_pattern_ids": [
+        "PAT-014"
+      ],
+      "external_evidence_refs": [
+        "EVID-002",
+        "EVID-033",
+        "EVID-076"
+      ],
+      "production_case_refs": [
+        "CASE-LAUNCH-HOW-TO-ARREST-MICHAEL",
+        "CASE-LAUNCH-EVIL-PRESENCE"
+      ],
+      "evidence_status": "SUPPORTED",
+      "source_examples": [
+        "EVID-002",
+        "EVID-033",
+        "EVID-076"
+      ],
+      "lifecycle_status": {
+        "PRE_RELEASE": "PENDING_VALIDATION",
+        "LAUNCH": "SUPPORTED",
+        "GROWTH": "PENDING_VALIDATION",
+        "MAINTENANCE": "PENDING_VALIDATION"
+      }
+    },
+    {
+      "rule_id": "RULE-014",
+      "rule": "Keep unknown/conflict explicit and source independence visible; TikTok/Shorts remain fresh signals until independently verified.",
+      "applicable_lifecycles": [
+        "PRE_RELEASE",
+        "LAUNCH",
+        "GROWTH",
+        "MAINTENANCE"
+      ],
+      "applicable_intents": [
+        "Entity Detail",
+        "Procedure / How-to",
+        "Location / Map",
+        "Progression / Walkthrough",
+        "System / Mechanics",
+        "Meta / Recommendation"
+      ],
+      "applicable_prototypes": [
+        "P1",
+        "P4",
+        "P5",
+        "P6",
+        "P7",
+        "P8"
+      ],
+      "derived_from_pattern_ids": [
+        "PAT-006",
+        "PAT-015"
+      ],
+      "external_evidence_refs": [
+        "EVID-071",
+        "EVID-100",
+        "EVID-108"
+      ],
+      "production_case_refs": [
+        "CASE-LAUNCH-HADDONFIELD-HEIGHTS",
+        "CASE-LAUNCH-EVIL-PRESENCE"
+      ],
+      "evidence_status": "PRODUCTION_VALIDATED",
+      "source_examples": [
+        "EVID-071",
+        "EVID-100",
+        "EVID-108"
+      ],
+      "lifecycle_status": {
+        "PRE_RELEASE": "PENDING_VALIDATION",
+        "LAUNCH": "PRODUCTION_VALIDATED",
+        "GROWTH": "PENDING_VALIDATION",
+        "MAINTENANCE": "PENDING_VALIDATION"
+      }
+    }
+  ],
+  "patterns": [
+    {
+      "pattern_id": "PAT-001",
+      "pattern": "Player Task first; query wording alone does not determine page shape.",
+      "evidence_basis": "44 winners and G016 bind Player Task → Prototype → composition.",
+      "source_refs": [
+        "SRC-SITE-WB#04_Certified_Winners!2:45",
+        "SRC-SITE-WB#05_Page_Anatomy!2:45",
+        "SRC-G016-FROZEN"
+      ],
+      "external_evidence_refs": [
+        "WIN-001",
+        "ANAT-001",
+        "WIN-003"
+      ],
+      "applicable_prototypes": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7",
+        "P8",
+        "P9",
+        "P10"
+      ]
+    },
+    {
+      "pattern_id": "PAT-002",
+      "pattern": "Winners do not converge on a universal Article template; they resolve into ten task prototypes.",
+      "evidence_basis": "44 anatomy rows and ten prototype rows show different module sequences.",
+      "source_refs": [
+        "SRC-SITE-WB#06_Intent_Clusters!2:11",
+        "SRC-SITE-WB#07_Page_Prototypes!2:11",
+        "SRC-DEEP-EVIDENCE-WB#02_Patterns!2:11"
+      ],
+      "external_evidence_refs": [
+        "WIN-001",
+        "ANAT-001",
+        "INTENT-001"
+      ],
+      "applicable_prototypes": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7",
+        "P8",
+        "P9",
+        "P10"
+      ]
+    },
+    {
+      "pattern_id": "PAT-003",
+      "pattern": "The first screen surfaces the answer payload before generic introduction.",
+      "evidence_basis": "Every winner has a first-screen answer pattern; deep units classify opening information gain.",
+      "source_refs": [
+        "SRC-SITE-WB#05_Page_Anatomy!2:45",
+        "SRC-DEEP-EVIDENCE-WB#05_Deep_Evidence_Study!2:109",
+        "ANAT-001"
+      ],
+      "external_evidence_refs": [
+        "ANAT-001",
+        "ANAT-003",
+        "EVID-001"
+      ],
+      "applicable_prototypes": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7",
+        "P8",
+        "P9",
+        "P10"
+      ]
+    },
+    {
+      "pattern_id": "PAT-004",
+      "pattern": "Information Gain and Evidence Density matter more than word count.",
+      "evidence_basis": "108 units classify 58 VERY_HIGH, 44 HIGH and 6 MEDIUM information gain.",
+      "source_refs": [
+        "SRC-DEEP-EVIDENCE-WB#00_Study_Summary!3:9",
+        "SRC-DEEP-EVIDENCE-WB#05_Deep_Evidence_Study!2:109",
+        "SRC-ARTICLE-NOTES"
+      ],
+      "external_evidence_refs": [
+        "EVID-001",
+        "EVID-002",
+        "EVID-076"
+      ],
+      "applicable_prototypes": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7",
+        "P8",
+        "P9",
+        "P10"
+      ]
+    },
+    {
+      "pattern_id": "PAT-005",
+      "pattern": "Use typed structured facts, steps, rules, data and relationships as composition units.",
+      "evidence_basis": "Winner anatomy and the Guide Fact Pack draft identify structured answer forms.",
+      "source_refs": [
+        "SRC-DEEP-EVIDENCE-WB#05_Deep_Evidence_Study!2:109",
+        "SRC-DEEP-EVIDENCE-WB#09_Guide_Fact_Pack_Draft!2:16",
+        "SRC-G016-FROZEN"
+      ],
+      "external_evidence_refs": [
+        "EVID-002",
+        "EVID-033",
+        "EVID-065"
+      ],
+      "applicable_prototypes": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7",
+        "P8",
+        "P9",
+        "P10"
+      ]
+    },
+    {
+      "pattern_id": "PAT-006",
+      "pattern": "Separate fact, measurement, recommendation, inference, unknown and conflict states.",
+      "evidence_basis": "Deep evidence Claim Kind/Confidence and the project Claim Ledger preserve status.",
+      "source_refs": [
+        "SRC-DEEP-EVIDENCE-WB#05_Deep_Evidence_Study!2:109",
+        "SRC-ARTICLE-NOTES",
+        "SRC-G016-FROZEN"
+      ],
+      "external_evidence_refs": [
+        "EVID-002",
+        "EVID-071",
+        "EVID-100"
+      ],
+      "applicable_prototypes": [
+        "P1",
+        "P3",
+        "P4",
+        "P6",
+        "P7",
+        "P8",
+        "P10"
+      ]
+    },
+    {
+      "pattern_id": "PAT-007",
+      "pattern": "Failure, recovery and edge states are high-value when evidence shows them.",
+      "evidence_basis": "Deep units contain troubleshooting/recovery/edge-state records.",
+      "source_refs": [
+        "SRC-DEEP-EVIDENCE-WB#05_Deep_Evidence_Study!2:109",
+        "ANAT-020",
+        "EVID-097"
+      ],
+      "external_evidence_refs": [
+        "EVID-006",
+        "EVID-028",
+        "EVID-097"
+      ],
+      "applicable_prototypes": [
+        "P4",
+        "P5",
+        "P6",
+        "P7",
+        "P8"
+      ]
+    },
+    {
+      "pattern_id": "PAT-008",
+      "pattern": "Media is functional only with a bounded whatItProves claim.",
+      "evidence_basis": "Source-role and video extraction sheets bind media to claims, steps and limitations.",
+      "source_refs": [
+        "SRC-DEEP-EVIDENCE-WB#07_Source_Role_Model!2:12",
+        "SRC-DEEP-EVIDENCE-WB#08_Video_Extraction_Draft!2:13",
+        "EVID-076"
+      ],
+      "external_evidence_refs": [
+        "EVID-009",
+        "EVID-033",
+        "EVID-076"
+      ],
+      "applicable_prototypes": [
+        "P4",
+        "P5",
+        "P6",
+        "P7",
+        "P9"
+      ]
+    },
+    {
+      "pattern_id": "PAT-010",
+      "pattern": "Progression answers current state, trigger, next milestone and recovery.",
+      "evidence_basis": "P6 winner anatomy and deep progression units emphasize sequence and next action.",
+      "source_refs": [
+        "SRC-SITE-WB#05_Page_Anatomy!2:45",
+        "SRC-DEEP-EVIDENCE-WB#05_Deep_Evidence_Study!20:33",
+        "EVID-027"
+      ],
+      "external_evidence_refs": [
+        "WIN-019",
+        "ANAT-019",
+        "EVID-027"
+      ],
+      "applicable_prototypes": [
+        "P6",
+        "P10"
+      ]
+    },
+    {
+      "pattern_id": "PAT-013",
+      "pattern": "Version, platform, season, data window and freshness attach to affected claims.",
+      "evidence_basis": "Winner freshness signals and source-role applicability require explicit scope.",
+      "source_refs": [
+        "SRC-SITE-WB#05_Page_Anatomy!2:45",
+        "SRC-DEEP-EVIDENCE-WB#07_Source_Role_Model!2:12",
+        "EVID-100"
+      ],
+      "external_evidence_refs": [
+        "ANAT-001",
+        "EVID-018",
+        "EVID-100"
+      ],
+      "applicable_prototypes": [
+        "P1",
+        "P3",
+        "P6",
+        "P7",
+        "P8",
+        "P10"
+      ]
+    },
+    {
+      "pattern_id": "PAT-014",
+      "pattern": "Video is decomposed into timestamped evidence segments, not transcript summaries.",
+      "evidence_basis": "Video extraction requires source identity, segment, action, timestamp and expected state.",
+      "source_refs": [
+        "SRC-DEEP-EVIDENCE-WB#08_Video_Extraction_Draft!2:13",
+        "SRC-DEEP-EVIDENCE-WB#05_Deep_Evidence_Study!2:109",
+        "EVID-033"
+      ],
+      "external_evidence_refs": [
+        "EVID-002",
+        "EVID-033",
+        "EVID-076"
+      ],
+      "applicable_prototypes": [
+        "P4",
+        "P5",
+        "P6",
+        "P7"
+      ]
+    },
+    {
+      "pattern_id": "PAT-015",
+      "pattern": "Source independence and unknown/conflict status remain explicit; Shorts stay fresh signals until verified.",
+      "evidence_basis": "Source-role model distinguishes families and limits SHORT_VIDEO to discovery/fresh-signal use.",
+      "source_refs": [
+        "SRC-DEEP-EVIDENCE-WB#07_Source_Role_Model!2:12",
+        "SRC-DEEP-EVIDENCE-WB#08_Video_Extraction_Draft!2:13",
+        "SRC-ARTICLE-NOTES"
+      ],
+      "external_evidence_refs": [
+        "EVID-071",
+        "EVID-100",
+        "EVID-108"
+      ],
+      "applicable_prototypes": [
+        "P1",
+        "P4",
+        "P5",
+        "P6",
+        "P7",
+        "P8"
+      ]
+    }
+  ],
+  "external_examples": [
+    {
+      "Game": "Baldur's Gate 3",
+      "Domain": "bg3.wiki",
+      "Original Query": "bg3 classes",
+      "Certified Query": "bg3 classes",
+      "Original Target URL": "https://bg3.wiki/wiki/Classes",
+      "Certified Winner URL": "https://bg3.wiki/wiki/Classes",
+      "Position": "1",
+      "Certification": "A-Current",
+      "Evidence": "Semrush screenshot",
+      "Intent": "Getting Started / Choice",
+      "Winner Type": "Hub",
+      "Notes": "Exact target winner",
+      "winner_id": "WIN-001",
+      "source_id": "SRC-SITE-WB",
+      "source_sheet": "04_Certified_Winners",
+      "source_row": "2"
+    },
+    {
+      "Game": "Baldur's Gate 3",
+      "Domain": "bg3.wiki",
+      "Original Query": "bg3 adamantine forge",
+      "Certified Query": "bg3 adamantine forge",
+      "Original Target URL": "https://bg3.wiki/wiki/Adamantine_Forge",
+      "Certified Winner URL": "https://bg3.wiki/wiki/Adamantine_Forge_(location)",
+      "Position": "3",
+      "Certification": "A-Current-Replaced",
+      "Evidence": "Semrush screenshot",
+      "Intent": "Location / Progression",
+      "Winner Type": "Location",
+      "Notes": "Actual ranking URL replaces guessed candidate",
+      "winner_id": "WIN-003",
+      "source_id": "SRC-SITE-WB",
+      "source_sheet": "04_Certified_Winners",
+      "source_row": "4"
+    },
+    {
+      "Game": "Stardew Valley",
+      "Domain": "stardewvalleywiki.com",
+      "Original Query": "stardew valley cauliflower",
+      "Certified Query": "stardew valley cauliflower",
+      "Original Target URL": "https://stardewvalleywiki.com/Cauliflower",
+      "Certified Winner URL": "https://stardewvalleywiki.com/Cauliflower",
+      "Position": "1",
+      "Certification": "A-Current",
+      "Evidence": "Semrush screenshot",
+      "Intent": "Reference",
+      "Winner Type": "Item",
+      "Notes": "Exact target winner",
+      "winner_id": "WIN-019",
+      "source_id": "SRC-SITE-WB",
+      "source_sheet": "04_Certified_Winners",
+      "source_row": "20"
+    }
+  ],
+  "page_anatomy_examples": [
+    {
+      "Game": "Baldur's Gate 3",
+      "Domain": "bg3.wiki",
+      "Certified Query": "bg3 classes",
+      "Winner URL": "https://bg3.wiki/wiki/Classes",
+      "Rank": "1",
+      "Prototype ID": "P3",
+      "Intent Cluster": "Choice / Comparison",
+      "H1 / Surface": "Classes",
+      "First-screen Answer Pattern": "Define what class controls + level cap, then expose all 12 classes immediately.",
+      "Observed Module Sequence": "Definition → option inventory → class mechanics → subclasses → multiclassing → individual classes",
+      "Data / Media Primitive": "Linked class list + proficiency/mechanics tables",
+      "Freshness Signal": "Wiki edit/history metadata",
+      "Internal / Next-step Logic": "Click directly into each class/subclass or character-creation topic",
+      "Key Lesson": "Winning choice hubs make the option space legible before explanation.",
+      "Prototype Must-Have": "Definition, options, constraints, comparison/mechanics",
+      "Avoid": "Long generic recommendation intro",
+      "Research Mode": "Direct page inspection",
+      "Source URL": "https://bg3.wiki/wiki/Classes",
+      "anatomy_id": "ANAT-001",
+      "source_id": "SRC-SITE-WB",
+      "source_sheet": "05_Page_Anatomy",
+      "source_row": "2"
+    },
+    {
+      "Game": "Baldur's Gate 3",
+      "Domain": "bg3.wiki",
+      "Certified Query": "bg3 adamantine forge",
+      "Winner URL": "https://bg3.wiki/wiki/Adamantine_Forge_(location)",
+      "Rank": "3",
+      "Prototype ID": "P5",
+      "Intent Cluster": "Location / Map",
+      "H1 / Surface": "Adamantine Forge (location)",
+      "First-screen Answer Pattern": "Disambiguate location vs quest; give exact area/coordinates before process.",
+      "Observed Module Sequence": "Location overview → coordinates/landmarks → using the forge → controls/process → boss/reward context",
+      "Data / Media Primitive": "Coordinates + location image + linked map/location graph",
+      "Freshness Signal": "Wiki edit/history metadata",
+      "Internal / Next-step Logic": "Quest, Grymforge, boss and reward pages",
+      "Key Lesson": "Ambiguous entities should state page type and exact place before explanation.",
+      "Prototype Must-Have": "Exact place, coordinate/landmark, route, requirements",
+      "Avoid": "Lore-first location page",
+      "Research Mode": "Direct page inspection",
+      "Source URL": "https://bg3.wiki/wiki/Adamantine_Forge_(location)",
+      "anatomy_id": "ANAT-003",
+      "source_id": "SRC-SITE-WB",
+      "source_sheet": "05_Page_Anatomy",
+      "source_row": "4"
+    },
+    {
+      "Game": "Stardew Valley",
+      "Domain": "stardewvalleywiki.com",
+      "Certified Query": "stardew valley cauliflower",
+      "Winner URL": "https://stardewvalleywiki.com/Cauliflower",
+      "Rank": "1",
+      "Prototype ID": "P1",
+      "Intent Cluster": "Entity Detail",
+      "H1 / Surface": "Cauliflower",
+      "First-screen Answer Pattern": "Core crop facts, quality energy/health and sell values appear before the explanatory paragraph.",
+      "Observed Module Sequence": "Info/sell values → crop definition → growth stages → recipes/bundles/gifting/tail details",
+      "Data / Media Primitive": "Quality-price tables + growth-stage images",
+      "Freshness Signal": "Wiki maintenance",
+      "Internal / Next-step Logic": "Seeds, Spring, recipes, giant crops",
+      "Key Lesson": "Crop/entity pages should show growth time, season and value immediately.",
+      "Prototype Must-Have": "Core economics, growth, stages, uses",
+      "Avoid": "Generic article intro",
+      "Research Mode": "Direct page inspection",
+      "Source URL": "https://stardewvalleywiki.com/Cauliflower",
+      "anatomy_id": "ANAT-019",
+      "source_id": "SRC-SITE-WB",
+      "source_sheet": "05_Page_Anatomy",
+      "source_row": "20"
+    }
+  ],
+  "atomic_evidence_examples": [
+    {
+      "Page ID": "P4-01",
+      "Game": "Stardew Valley",
+      "Certified Query": "stardew valley crafting",
+      "Prototype": "P4",
+      "Winner Page": "Crafting",
+      "Section": "Opening",
+      "Information Point": "Definition / task boundary",
+      "Concrete Example (Paraphrased)": "Crafting consumes recipe ingredients and is distinct from Cooking.",
+      "Primary Evidence Type": "GAME_DATA",
+      "Secondary Evidence Type": "IN_GAME_UI",
+      "Claim Kind": "FACT",
+      "Confidence": "HIGH",
+      "Information Gain": "MEDIUM",
+      "YouTube Value": "LOW",
+      "TikTok Value": "LOW",
+      "Recommended Capture Method": "Wiki/game-data extraction; verify in game UI",
+      "Guide Fact Pack Object": "fact",
+      "Winner URL": "https://stardewvalleywiki.com/Crafting",
+      "Supporting URL": "",
+      "Research Notes": "",
+      "Broad Evidence Family": "GAME DATA / RULES",
+      "evidence_unit_id": "EVID-001",
+      "source_id": "SRC-DEEP-EVIDENCE-WB",
+      "source_sheet": "05_Deep_Evidence_Study",
+      "source_row": "2"
+    },
+    {
+      "Page ID": "P4-01",
+      "Game": "Stardew Valley",
+      "Certified Query": "stardew valley crafting",
+      "Prototype": "P4",
+      "Winner Page": "Crafting",
+      "Section": "Opening",
+      "Information Point": "Exact menu access by platform",
+      "Concrete Example (Paraphrased)": "Pause menu → hammer tab; control differs by PC/Switch/Xbox/PlayStation.",
+      "Primary Evidence Type": "UI_OBSERVATION",
+      "Secondary Evidence Type": "DIRECT_GAMEPLAY",
+      "Claim Kind": "PROCEDURE",
+      "Confidence": "HIGH",
+      "Information Gain": "HIGH",
+      "YouTube Value": "HIGH",
+      "TikTok Value": "MEDIUM",
+      "Recommended Capture Method": "Gameplay capture with platform label + screenshot/frame",
+      "Guide Fact Pack Object": "step",
+      "Winner URL": "https://stardewvalleywiki.com/Crafting",
+      "Supporting URL": "",
+      "Research Notes": "",
+      "Broad Evidence Family": "GAMEPLAY / UI OBSERVATION",
+      "evidence_unit_id": "EVID-002",
+      "source_id": "SRC-DEEP-EVIDENCE-WB",
+      "source_sheet": "05_Deep_Evidence_Study",
+      "source_row": "3"
+    },
+    {
+      "Page ID": "P4-01",
+      "Game": "Stardew Valley",
+      "Certified Query": "stardew valley crafting",
+      "Prototype": "P4",
+      "Winner Page": "Crafting",
+      "Section": "Tables",
+      "Information Point": "Recipe ingredients / source / sell value",
+      "Concrete Example (Paraphrased)": "Category tables expose exact ingredients, recipe source, output/use and sell value.",
+      "Primary Evidence Type": "GAME_DATA",
+      "Secondary Evidence Type": "STRUCTURED_TABLE",
+      "Claim Kind": "LOOKUP",
+      "Confidence": "HIGH",
+      "Information Gain": "HIGH",
+      "YouTube Value": "LOW",
+      "TikTok Value": "LOW",
+      "Recommended Capture Method": "Table extraction; do not rewrite as prose",
+      "Guide Fact Pack Object": "data_table",
+      "Winner URL": "https://stardewvalleywiki.com/Crafting",
+      "Supporting URL": "",
+      "Research Notes": "",
+      "Broad Evidence Family": "GAME DATA / RULES",
+      "evidence_unit_id": "EVID-006",
+      "source_id": "SRC-DEEP-EVIDENCE-WB",
+      "source_sheet": "05_Deep_Evidence_Study",
+      "source_row": "7"
+    },
+    {
+      "Page ID": "P4-02",
+      "Game": "ARK",
+      "Certified Query": "ark taming",
+      "Prototype": "P4",
+      "Winner Page": "Taming",
+      "Section": "Opening",
+      "Information Point": "Purpose / outcomes of taming",
+      "Concrete Example (Paraphrased)": "Tamed creatures serve riding, hauling, storage, hunting, harvesting and defense roles.",
+      "Primary Evidence Type": "GAME_DATA",
+      "Secondary Evidence Type": "COMMUNITY_SYNTHESIS",
+      "Claim Kind": "FACT",
+      "Confidence": "HIGH",
+      "Information Gain": "MEDIUM",
+      "YouTube Value": "LOW",
+      "TikTok Value": "LOW",
+      "Recommended Capture Method": "Canonical game-data/wiki extraction",
+      "Guide Fact Pack Object": "fact",
+      "Winner URL": "https://ark.wiki.gg/wiki/Taming",
+      "Supporting URL": "",
+      "Research Notes": "",
+      "Broad Evidence Family": "GAME DATA / RULES",
+      "evidence_unit_id": "EVID-009",
+      "source_id": "SRC-DEEP-EVIDENCE-WB",
+      "source_sheet": "05_Deep_Evidence_Study",
+      "source_row": "10"
+    },
+    {
+      "Page ID": "P4-03",
+      "Game": "Satisfactory",
+      "Certified Query": "satisfactory dedicated server",
+      "Prototype": "P4",
+      "Winner Page": "Dedicated servers",
+      "Section": "Audience",
+      "Information Point": "Who should follow the guide",
+      "Concrete Example (Paraphrased)": "Host operators need these steps; ordinary players joining someone else's server do not.",
+      "Primary Evidence Type": "TASK_SCOPE",
+      "Secondary Evidence Type": "COMMUNITY_SYNTHESIS",
+      "Claim Kind": "FACT",
+      "Confidence": "HIGH",
+      "Information Gain": "HIGH",
+      "YouTube Value": "LOW",
+      "TikTok Value": "LOW",
+      "Recommended Capture Method": "Page/task classification",
+      "Guide Fact Pack Object": "audience",
+      "Winner URL": "https://satisfactory.wiki.gg/wiki/Dedicated_servers",
+      "Supporting URL": "",
+      "Research Notes": "",
+      "Broad Evidence Family": "GAME DATA / RULES",
+      "evidence_unit_id": "EVID-018",
+      "source_id": "SRC-DEEP-EVIDENCE-WB",
+      "source_sheet": "05_Deep_Evidence_Study",
+      "source_row": "19"
+    },
+    {
+      "Page ID": "P4-03",
+      "Game": "Satisfactory",
+      "Certified Query": "satisfactory dedicated server",
+      "Prototype": "P4",
+      "Winner Page": "Dedicated servers",
+      "Section": "Requirements",
+      "Information Point": "Minimum hardware recommendations",
+      "Concrete Example (Paraphrased)": "CPU/RAM/storage guidance is explicitly described as community recommendations rather than hard official minimums.",
+      "Primary Evidence Type": "COMMUNITY_DATA",
+      "Secondary Evidence Type": "SYSTEM_REQUIREMENTS",
+      "Claim Kind": "RECOMMENDATION",
+      "Confidence": "MEDIUM",
+      "Information Gain": "VERY_HIGH",
+      "YouTube Value": "LOW",
+      "TikTok Value": "MEDIUM",
+      "Recommended Capture Method": "Preserve provenance label 'community recommendation'",
+      "Guide Fact Pack Object": "requirement",
+      "Winner URL": "https://satisfactory.wiki.gg/wiki/Dedicated_servers",
+      "Supporting URL": "",
+      "Research Notes": "",
+      "Broad Evidence Family": "COMMUNITY EVIDENCE",
+      "evidence_unit_id": "EVID-019",
+      "source_id": "SRC-DEEP-EVIDENCE-WB",
+      "source_sheet": "05_Deep_Evidence_Study",
+      "source_row": "20"
+    },
+    {
+      "Page ID": "P4-04",
+      "Game": "Satisfactory",
+      "Certified Query": "satisfactory blueprints",
+      "Prototype": "P4",
+      "Winner Page": "Blueprint",
+      "Section": "Categories",
+      "Information Point": "Lexicographic sorting and naming workaround",
+      "Concrete Example (Paraphrased)": "Blueprint names sort lexicographically; zero-padded numbering is suggested for predictable order.",
+      "Primary Evidence Type": "DIRECT_GAMEPLAY",
+      "Secondary Evidence Type": "COMMUNITY_STRATEGY",
+      "Claim Kind": "EDGE_CASE",
+      "Confidence": "MEDIUM-HIGH",
+      "Information Gain": "HIGH",
+      "YouTube Value": "HIGH",
+      "TikTok Value": "PRIMARY",
+      "Recommended Capture Method": "UI observation + recommendation separated from fact",
+      "Guide Fact Pack Object": "edge_case",
+      "Winner URL": "https://satisfactory.wiki.gg/wiki/Blueprint",
+      "Supporting URL": "",
+      "Research Notes": "",
+      "Broad Evidence Family": "GAMEPLAY / UI OBSERVATION",
+      "evidence_unit_id": "EVID-027",
+      "source_id": "SRC-DEEP-EVIDENCE-WB",
+      "source_sheet": "05_Deep_Evidence_Study",
+      "source_row": "28"
+    },
+    {
+      "Page ID": "P4-04",
+      "Game": "Satisfactory",
+      "Certified Query": "satisfactory blueprints",
+      "Prototype": "P4",
+      "Winner Page": "Blueprint",
+      "Section": "Saving",
+      "Information Point": "Exact save directory by OS/server mode",
+      "Concrete Example (Paraphrased)": "The page gives exact Windows/Linux/Steam Deck/dedicated-server blueprint paths.",
+      "Primary Evidence Type": "SYSTEM_FILE_PATH",
+      "Secondary Evidence Type": "TECHNICAL_OBSERVATION",
+      "Claim Kind": "LOOKUP",
+      "Confidence": "HIGH",
+      "Information Gain": "VERY_HIGH",
+      "YouTube Value": "LOW",
+      "TikTok Value": "LOW",
+      "Recommended Capture Method": "Exact path extraction with OS/version keys",
+      "Guide Fact Pack Object": "file_path",
+      "Winner URL": "https://satisfactory.wiki.gg/wiki/Blueprint",
+      "Supporting URL": "",
+      "Research Notes": "",
+      "Broad Evidence Family": "CODE / TECHNICAL ARTIFACT",
+      "evidence_unit_id": "EVID-028",
+      "source_id": "SRC-DEEP-EVIDENCE-WB",
+      "source_sheet": "05_Deep_Evidence_Study",
+      "source_row": "29"
+    },
+    {
+      "Page ID": "P5-01",
+      "Game": "Baldur's Gate 3",
+      "Certified Query": "bg3 adamantine forge",
+      "Prototype": "P5",
+      "Winner Page": "Adamantine Forge (location)",
+      "Section": "Overview",
+      "Information Point": "Exact coordinates and route down from waypoint",
+      "Concrete Example (Paraphrased)": "The page gives map coordinates and a concrete descent route from the Ancient Forge waypoint.",
+      "Primary Evidence Type": "MAP_DATA",
+      "Secondary Evidence Type": "DIRECT_GAMEPLAY",
+      "Claim Kind": "LOCATION",
+      "Confidence": "HIGH",
+      "Information Gain": "VERY_HIGH",
+      "YouTube Value": "PRIMARY",
+      "TikTok Value": "HIGH",
+      "Recommended Capture Method": "Gameplay route video + map-coordinate capture",
+      "Guide Fact Pack Object": "location",
+      "Winner URL": "https://bg3.wiki/wiki/Adamantine_Forge_(location)",
+      "Supporting URL": "",
+      "Research Notes": "",
+      "Broad Evidence Family": "GAME DATA / RULES",
+      "evidence_unit_id": "EVID-033",
+      "source_id": "SRC-DEEP-EVIDENCE-WB",
+      "source_sheet": "05_Deep_Evidence_Study",
+      "source_row": "34"
+    },
+    {
+      "Page ID": "P6-03",
+      "Game": "Terraria",
+      "Certified Query": "terraria hardmode guide",
+      "Prototype": "P6",
+      "Winner Page": "Getting started with Hardmode",
+      "Section": "Wings",
+      "Information Point": "Which wings to pursue first",
+      "Concrete Example (Paraphrased)": "The guide compares early wing options and recommends practical farming paths.",
+      "Primary Evidence Type": "COMMUNITY_STRATEGY",
+      "Secondary Evidence Type": "GAME_DATA",
+      "Claim Kind": "RECOMMENDATION",
+      "Confidence": "MEDIUM",
+      "Information Gain": "VERY_HIGH",
+      "YouTube Value": "PRIMARY",
+      "TikTok Value": "PRIMARY",
+      "Recommended Capture Method": "Extract recommendation + conditions + evidence inputs",
+      "Guide Fact Pack Object": "recommendation",
+      "Winner URL": "https://terraria.wiki.gg/wiki/Guide:Getting_started_with_Hardmode",
+      "Supporting URL": "",
+      "Research Notes": "",
+      "Broad Evidence Family": "COMMUNITY EVIDENCE",
+      "evidence_unit_id": "EVID-065",
+      "source_id": "SRC-DEEP-EVIDENCE-WB",
+      "source_sheet": "05_Deep_Evidence_Study",
+      "source_row": "66"
+    },
+    {
+      "Page ID": "P6-04",
+      "Game": "ARK",
+      "Certified Query": "ark bosses",
+      "Prototype": "P6",
+      "Winner Page": "Boss Arenas",
+      "Section": "Requirements",
+      "Information Point": "Character level thresholds",
+      "Concrete Example (Paraphrased)": "Boss difficulty tiers have exact character-level requirements.",
+      "Primary Evidence Type": "GAME_DATA",
+      "Secondary Evidence Type": "STRUCTURED_TABLE",
+      "Claim Kind": "LOOKUP",
+      "Confidence": "HIGH",
+      "Information Gain": "HIGH",
+      "YouTube Value": "LOW",
+      "TikTok Value": "LOW",
+      "Recommended Capture Method": "Table extraction",
+      "Guide Fact Pack Object": "requirement",
+      "Winner URL": "https://ark.wiki.gg/wiki/Boss_Arenas",
+      "Supporting URL": "",
+      "Research Notes": "",
+      "Broad Evidence Family": "GAME DATA / RULES",
+      "evidence_unit_id": "EVID-071",
+      "source_id": "SRC-DEEP-EVIDENCE-WB",
+      "source_sheet": "05_Deep_Evidence_Study",
+      "source_row": "72"
+    },
+    {
+      "Page ID": "P7-01",
+      "Game": "Minecraft",
+      "Certified Query": "minecraft enchantments",
+      "Prototype": "P7",
+      "Winner Page": "Enchanting",
+      "Section": "Anvil",
+      "Information Point": "Exact combine workflow",
+      "Concrete Example (Paraphrased)": "Target item + sacrifice item → output if legal; the UI shows cost and removes XP on completion.",
+      "Primary Evidence Type": "UI_OBSERVATION",
+      "Secondary Evidence Type": "GAME_RULE",
+      "Claim Kind": "PROCEDURE",
+      "Confidence": "HIGH",
+      "Information Gain": "HIGH",
+      "YouTube Value": "HIGH",
+      "TikTok Value": "MEDIUM",
+      "Recommended Capture Method": "Gameplay/UI sequence + numeric state",
+      "Guide Fact Pack Object": "steps",
+      "Winner URL": "https://minecraft.wiki/w/Enchantment",
+      "Supporting URL": "",
+      "Research Notes": "",
+      "Broad Evidence Family": "GAMEPLAY / UI OBSERVATION",
+      "evidence_unit_id": "EVID-076",
+      "source_id": "SRC-DEEP-EVIDENCE-WB",
+      "source_sheet": "05_Deep_Evidence_Study",
+      "source_row": "77"
+    },
+    {
+      "Page ID": "P7-04",
+      "Game": "Satisfactory",
+      "Certified Query": "satisfactory fluids guide",
+      "Prototype": "P7",
+      "Winner Page": "Fluids",
+      "Section": "Recommendation",
+      "Information Point": "Packaging gases for long distance",
+      "Concrete Example (Paraphrased)": "The page recommends packaged gases for some long-distance transport due to compression ratios.",
+      "Primary Evidence Type": "FORMULA_DERIVATION",
+      "Secondary Evidence Type": "COMMUNITY_STRATEGY",
+      "Claim Kind": "RECOMMENDATION",
+      "Confidence": "MEDIUM-HIGH",
+      "Information Gain": "HIGH",
+      "YouTube Value": "MEDIUM",
+      "TikTok Value": "MEDIUM",
+      "Recommended Capture Method": "Keep ratio fact separate from recommendation",
+      "Guide Fact Pack Object": "recommendation",
+      "Winner URL": "https://satisfactory.wiki.gg/wiki/Fluids",
+      "Supporting URL": "",
+      "Research Notes": "",
+      "Broad Evidence Family": "FORMULA / DERIVED",
+      "evidence_unit_id": "EVID-097",
+      "source_id": "SRC-DEEP-EVIDENCE-WB",
+      "source_sheet": "05_Deep_Evidence_Study",
+      "source_row": "98"
+    },
+    {
+      "Page ID": "P7-04",
+      "Game": "Satisfactory",
+      "Certified Query": "satisfactory fluids guide",
+      "Prototype": "P7",
+      "Winner Page": "Fluids",
+      "Section": "Pipelines",
+      "Information Point": "Sloshing / loopback mitigation",
+      "Concrete Example (Paraphrased)": "Dead-end/manifold conditions can cause flow oscillation; the page describes mitigation patterns.",
+      "Primary Evidence Type": "DIRECT_GAMEPLAY",
+      "Secondary Evidence Type": "COMMUNITY_STRATEGY",
+      "Claim Kind": "TROUBLESHOOTING",
+      "Confidence": "MEDIUM-HIGH",
+      "Information Gain": "VERY_HIGH",
+      "YouTube Value": "PRIMARY",
+      "TikTok Value": "PRIMARY",
+      "Recommended Capture Method": "Video of failing vs corrected layout + throughput readout",
+      "Guide Fact Pack Object": "troubleshooting",
+      "Winner URL": "https://satisfactory.wiki.gg/wiki/Fluids",
+      "Supporting URL": "https://satisfactory.wiki.gg/wiki/Pipelines",
+      "Research Notes": "",
+      "Broad Evidence Family": "GAMEPLAY / UI OBSERVATION",
+      "evidence_unit_id": "EVID-100",
+      "source_id": "SRC-DEEP-EVIDENCE-WB",
+      "source_sheet": "05_Deep_Evidence_Study",
+      "source_row": "101"
+    },
+    {
+      "Page ID": "P7-05",
+      "Game": "Satisfactory",
+      "Certified Query": "satisfactory train throughput",
+      "Prototype": "P7",
+      "Winner Page": "Tutorial:Train throughput",
+      "Section": "Validation",
+      "Information Point": "In-game transfer-rate readout",
+      "Concrete Example (Paraphrased)": "The derived formulas are compared against the unloading platform's displayed transfer rate.",
+      "Primary Evidence Type": "DIRECT_GAMEPLAY",
+      "Secondary Evidence Type": "FORMULA_VALIDATION",
+      "Claim Kind": "VALIDATION",
+      "Confidence": "HIGH",
+      "Information Gain": "VERY_HIGH",
+      "YouTube Value": "PRIMARY",
+      "TikTok Value": "LOW",
+      "Recommended Capture Method": "Capture UI readout + predicted value + error",
+      "Guide Fact Pack Object": "validation",
+      "Winner URL": "https://satisfactory.wiki.gg/wiki/Tutorial:Train_throughput",
+      "Supporting URL": "",
+      "Research Notes": "",
+      "Broad Evidence Family": "GAMEPLAY / UI OBSERVATION",
+      "evidence_unit_id": "EVID-108",
+      "source_id": "SRC-DEEP-EVIDENCE-WB",
+      "source_sheet": "05_Deep_Evidence_Study",
+      "source_row": "109"
+    }
+  ],
+  "production_cases": [],
+  "source_provenance": {
+    "manifest": "source/source-manifest.yaml",
+    "raw_directory": "raw/",
+    "derived_directory": "derived/"
+  }
+}

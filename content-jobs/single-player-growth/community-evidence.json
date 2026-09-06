@@ -1,0 +1,12 @@
+{
+  "schema_version":"growth-walkthrough-community-evidence-v1",
+  "verified_at":"2026-09-06",
+  "lifecycle_state":"Early Access",
+  "evidence_status":"COMMUNITY_CORROBORATED / VERSION_SCOPED",
+  "claims":[
+    {"id":"COMMUNITY-001","source":["https://www.reddit.com/r/TheHalloweenGame/comments/1w7c72e/cant_save_progress_in_the_single_player_mode/","https://www.reddit.com/r/TheHalloweenGame/comments/1w7dt2z/story_mode_not_saving_or_unlocking_challenges/","https://www.reddit.com/r/TheHalloweenGame/comments/1w7a3hc/story_mode_bug/"],"date":"2026-09","affected_system":"Story progress / chapter selection","report_type":"save or reset report","corroboration_count":"multiple independent reports; exact count not determinable","version_scope":"Early Access","workaround":"No reliable workaround verified","status":"COMMUNITY_CORROBORATED"},
+    {"id":"COMMUNITY-002","source":["https://www.reddit.com/r/TheHalloweenGame/comments/1w7dt2z/story_mode_not_saving_or_unlocking_challenges/","https://www.reddit.com/r/TheHalloweenGame/comments/1w87akq/challenge_tracking_issues/","https://www.reddit.com/r/TheHalloweenGame/comments/1w8ifrf/bug_after_bug/"],"date":"2026-09","affected_system":"Challenges / Loomis Logs","report_type":"tracking registration failure","corroboration_count":"multiple reports; independence partly determinable","version_scope":"Early Access","workaround":"Later/retry success is reported by some users; not reliable or guaranteed","status":"COMMUNITY_CORROBORATED"},
+    {"id":"COMMUNITY-003","source":["https://www.reddit.com/r/TheHalloweenGame/comments/1w7eou4/list_of_issuesbugs/"],"date":"2026-09","affected_system":"Rabbit in Red / Main Street chapter progression","report_type":"loop or temporary relock","corroboration_count":"single identified thread","version_scope":"Early Access","workaround":"No reliable workaround verified","status":"COMMUNITY_CORROBORATED"},
+    {"id":"COMMUNITY-004","source":["https://www.reddit.com/r/TheHalloweenGame/comments/1w80lhg/chapter_4_of_the_single_player_campaign_the/"],"date":"2026-09","affected_system":"Chapter 4 scripted/challenge AI and timing","report_type":"event-state disruption / challenge confusion","corroboration_count":"single identified thread","version_scope":"Early Access","workaround":"No reliable workaround verified","status":"COMMUNITY_CORROBORATED"}
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "verified_at":"2026-09-06",
+  "video_tested_first":"SR3vu4G0t1Q",
+  "yt_dlp":{"binary_before":"2026.07.04 (/opt/homebrew/bin/yt-dlp)","binary_after":"2026.07.04 (Homebrew upgrade timed out)","module_after":"2026.08.19 (python3 -m yt_dlp)","update_channel":"PyPI succeeded; Homebrew available bottle was 2026.8.19","ffmpeg":"8.0.1 /opt/homebrew/bin/ffmpeg","impersonation_targets":"Available through curl_cffi; Chrome-131/136 Macos-15 and Safari targets listed"},
+  "tests":[
+    {"configuration":"updated Python yt-dlp default/visionos client","result":"FAIL","error":"Requested format unavailable; only storyboard/m3u8 path exposed"},
+    {"configuration":"youtube:player_client=web","result":"FAIL","error":"Only images available; requested format unavailable"},
+    {"configuration":"youtube:player_client=ios","result":"FAIL","error":"Only storyboard images available; higher formats omitted"},
+    {"configuration":"youtube:player_client=tv","result":"FAIL","error":"The page needs to be reloaded"},
+    {"configuration":"youtube:player_client=android","result":"PASS_PARTIAL","source":"SR3vu4G0t1Q","media":"5-second format 18 MP4 downloaded; 640x360"},
+    {"configuration":"youtube:player_client=android","result":"PASS_PARTIAL","source":"d9Rk9PvL6Aw","media":"5-second format 18 MP4 downloaded; 640x360"},
+    {"configuration":"youtube:player_client=android_vr","result":"LIMITED","error":"Higher formats require a GVS PO Token; only 360p format 18 remains"},
+    {"configuration":"--impersonate Chrome-131:Macos-15","result":"NOT_SUFFICIENT","error":"No higher-quality direct format became available"},
+    {"configuration":"current Chrome User-Agent","result":"NOT_SUFFICIENT","error":"No higher-quality direct format became available"}
+  ],
+  "frame_extraction":{"result":"PASS_PARTIAL","source":"SR3vu4G0t1Q","timestamp":"00:00:02","path":"/tmp/yt-test-frame/video01-00-00-02.jpg","resolution":"640x360","publication_qa":"FAIL — below source-native 1080p+ and not a requested chapter state"},
+  "proxy":{"availability":"NONE_FOUND_LOCALLY","system_proxy":"disabled","environment_proxy":"unset","configured_service":"ZoogVPN service proxy disabled; no residential/static-residential endpoint or credentials available","same_ip_cookie_test":"NOT_RUN"},
+  "remaining_blocker":"YouTube SABR/PO-token behavior exposes only 360p through the successful Android client; no local residential/static-residential proxy is configured, and no PO token is available for android_vr higher formats. Exact six-chapter segmentation and publication-grade FRAME-01–11 captures remain unavailable."
+}

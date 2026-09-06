@@ -1199,7 +1199,7 @@ export const siteConfig: GameConfig = {
 					pageId: "single-player-hub",
 					href: "/single-player/",
 					title: "Halloween: The Game Single Player — Story Mode & Chapters",
-					description: "Six-chapter Michael Myers story reimagining the 1978 film, Dr. Loomis narration, sandbox objectives, and replay unlocks—without speculative walkthroughs.",
+					description: "A six-chapter Michael Myers Story Mode walkthrough covering observed first-clear progression, current objectives, replay cleanup, and Early Access uncertainty.",
 					eyebrow: "Story Mode",
 					image: "covers/michael/singleplayer-haddonfield.jpg",
 				},

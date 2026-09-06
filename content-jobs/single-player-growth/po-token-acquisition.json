@@ -1,0 +1,19 @@
+{
+  "verified_at":"2026-09-06",
+  "provider":"bgutil-ytdlp-pot-provider",
+  "provider_version":"1.3.2",
+  "provider_root":"/Users/lanling/.cache/halloween-youtube-tools/bgutil-ytdlp-pot-provider",
+  "server":"http://127.0.0.1:4416",
+  "yt_dlp":"python3 -m yt_dlp 2026.08.19",
+  "client":"mweb",
+  "extractor_args":"youtube:player_client=mweb",
+  "remote_components":"ejs:github",
+  "provider_detection":"PASS — bgutil:http-1.3.2 (external); verbose output showed generated and retrieved mweb GVS/subs PO Tokens",
+  "video_tests":[
+    {"video_source_id":"VIDEO-01","video_id":"SR3vu4G0t1Q","download":"PASS — 5-second partial","format":"401+251","decoded_video":{"codec":"av1","width":3840,"height":2160,"fps":60},"frame":"PASS — ffmpeg extracted 00:00:02 JPEG at 3840x2160"},
+    {"video_source_id":"VIDEO-02","video_id":"d9Rk9PvL6Aw","download":"PASS — 5-second partial","format":"401+251","decoded_video":{"codec":"av1","width":3840,"height":2160,"fps":60},"frame":"PASS — ffmpeg extracted 00:00:02 JPEG at 3840x2160"}
+  ],
+  "proxy":"NOT USED",
+  "cookies":"NOT USED",
+  "remaining_work":"Use this stable mweb/bgutil path for targeted chapter ranges, segment both videos, capture FRAME-01 through FRAME-11, and run publication QA. Do not treat the 00:00:02 smoke frames as chapter evidence."
+}

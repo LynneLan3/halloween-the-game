@@ -1,0 +1,13 @@
+{
+  "job_id":"halloween-single-player-growth-20260906",
+  "source_type":"RESEARCH_HANDOFF",
+  "research_handoff_status":"UPSTREAM_RESEARCH_NOT_FINAL_EVIDENCE",
+  "lifecycle":"GROWTH",
+  "intent":"WALKTHROUGH",
+  "mode":"UPDATE",
+  "target":"/single-player/",
+  "writer_status":"COMPLETED_GPT-5-MINI_UPDATE",
+  "no_commit":true,
+  "no_push":true,
+  "no_deploy":true
+}

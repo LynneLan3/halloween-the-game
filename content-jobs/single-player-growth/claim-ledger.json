@@ -1,0 +1,29 @@
+{
+  "schema_version": "growth-walkthrough-claim-ledger-v1",
+  "status": "FAST_VERIFIED",
+  "verified_at": "2026-09-06",
+  "video_anchor_ref": "content-jobs/single-player-growth/local-index-annotation.json#chapter_support",
+  "video_frame_reassessment_ref": "content-jobs/single-player-growth/local-index-annotation.json#frame_reassessment",
+  "claims": [
+    {"claim_id":"SPG-001","claim":"Story Mode contains a Prologue and five numbered chapters.","evidence_status":"OFFICIAL","evidence_refs":["OFF-001","OFF-003"]},
+    {"claim_id":"SPG-002","claim":"The observed campaign order is Prologue — Escape From Smith's Grove; Chapter 1 — The Road To Haddonfield; Chapter 2 — Main Street; Chapter 3 — Returning Home; Chapter 4 — The Babysitters; Chapter 5 — Into The Shadows.","evidence_status":"VIDEO_OBSERVED","evidence_refs":["VIDEO-01","VIDEO-02"],"requirement_class":"OBSERVED_SEQUENCE"},
+    {"claim_id":"SPG-003","claim":"The Prologue route observed in the reviewed walkthroughs moves from orderly encounters to the power/gate state and then to the station wagon.","evidence_status":"VIDEO_OBSERVED","evidence_refs":["VIDEO-01","VIDEO-02"],"requirement_class":"OBSERVED_SEQUENCE"},
+    {"claim_id":"SPG-004","claim":"Chapter 1 progression observed in the reviewed walkthroughs moves through Rabbit in Red and red/noise tracking toward the mechanic.","evidence_status":"VIDEO_OBSERVED","evidence_refs":["VIDEO-01","VIDEO-02"],"requirement_class":"OBSERVED_SEQUENCE"},
+    {"claim_id":"SPG-005","claim":"Chapter 2 observed progression includes mask acquisition, named-target progression, the Judith Myers tombstone sequence, and a return toward the car.","evidence_status":"VIDEO_OBSERVED","evidence_refs":["VIDEO-01","VIDEO-02"],"requirement_class":"OBSERVED_SEQUENCE"},
+    {"claim_id":"SPG-006","claim":"Chapter 3 observed progression enters the Myers House flashback before later neighborhood objectives.","evidence_status":"VIDEO_OBSERVED","evidence_refs":["VIDEO-01","VIDEO-02"],"requirement_class":"OBSERVED_SEQUENCE"},
+    {"claim_id":"SPG-007","claim":"Chapter 4 observed progression is anchored by the Wallace House event chain, including Bob/Lynda states, the Sheet state, and the later Laurie chase.","evidence_status":"VIDEO_OBSERVED","evidence_refs":["VIDEO-01","VIDEO-02"],"requirement_class":"OBSERVED_SEQUENCE"},
+    {"claim_id":"SPG-008","claim":"Chapter 5 observed progression changes from police pressure/search to an escape or ending-route commitment state; the exact reliable route order remains unresolved here.","evidence_status":"VIDEO_OBSERVED","evidence_refs":["VIDEO-01","VIDEO-02"],"requirement_class":"OBSERVED_SEQUENCE","known_unknown":true},
+    {"claim_id":"SPG-009","claim":"Optional challenges and collectibles are replay content tied to the six playable chapters.","evidence_status":"OFFICIAL","evidence_refs":["OFF-001","OFF-002","OFF-003"]},
+    {"claim_id":"SPG-010","claim":"A missed optional timing/state window should be separated from a possible Early Access tracking or save issue.","evidence_status":"INFERENCE","evidence_refs":["COMMUNITY-001","COMMUNITY-002","COMMUNITY-003","COMMUNITY-004"]},
+    {"claim_id":"SPG-011","claim":"Current community reports describe possible save/reset, challenge/log registration, relock/loop, and Chapter 4 AI/timing problems in Early Access; they do not establish universal reproduction or a guaranteed workaround.","evidence_status":"COMMUNITY_CORROBORATED","evidence_refs":["COMMUNITY-001","COMMUNITY-002","COMMUNITY-003","COMMUNITY-004"],"version_scope":"Early Access; verified 2026-09-06"}
+  ],
+  "video_annotation_ref":"content-jobs/single-player-growth/local-index-annotation.json",
+  "sources": {
+    "OFF-001":"https://halloweengame.com/news/unleash-hell-upon-haddonfield/",
+    "OFF-002":"https://halloweengame.com/news/progression-customization-overview/",
+    "OFF-003":"https://halloweengame.com/news/the-night-he-came-home-reimagined/",
+    "OFF-004":"https://halloweengame.com/news/legacy-characters-reimagined/",
+    "VIDEO-01":"https://www.youtube.com/watch?v=SR3vu4G0t1Q",
+    "VIDEO-02":"https://www.youtube.com/watch?v=d9Rk9PvL6Aw"
+  }
+}

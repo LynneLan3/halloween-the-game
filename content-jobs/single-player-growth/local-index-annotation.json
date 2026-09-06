@@ -1,0 +1,97 @@
+{
+  "schema_version": "growth-walkthrough-local-index-annotation-v1",
+  "status": "EVIDENCE_COMPLETE",
+  "verified_at": "2026-09-06",
+  "index_copies": [
+    {"video_source_id":"VIDEO-01","path":"/Users/lanling/.cache/halloween-youtube-tools/single-player-growth/video-01/index.mp4","duration_seconds":8035.54,"resolution":"640x360","role":"PRIMARY"},
+    {"video_source_id":"VIDEO-02","path":"/Users/lanling/.cache/halloween-youtube-tools/single-player-growth/video-02/index.mp4","duration_seconds":5115.59,"resolution":"640x360","role":"CROSS_VALIDATION"}
+  ],
+  "chapter_segments": [],
+  "chapter_support": {
+    "definition": "chapter_start_timestamp is UNKNOWN unless an unmistakable boundary is visible; chapter_anchor_timestamp is the earliest verified chapter-specific gameplay state.",
+    "VIDEO-01": [
+      {"chapter":"Prologue — Escape From Smith's Grove","chapter_start_timestamp":"UNKNOWN","chapter_anchor_timestamp":"00:15:05","anchor_state":"station-wagon / store-aftermath objective","what_it_proves":"Prologue reaches station-wagon finish state.","confidence":"HIGH"},
+      {"chapter":"Chapter 1 — The Road To Haddonfield","chapter_start_timestamp":"UNKNOWN","chapter_anchor_timestamp":"00:32:20","anchor_state":"mechanic progression/cinematic","what_it_proves":"Mechanic state is reached after the observed tracking sequence.","confidence":"MEDIUM"},
+      {"chapter":"Chapter 2 — Main Street","chapter_start_timestamp":"UNKNOWN","chapter_anchor_timestamp":"00:34:18","anchor_state":"hardware-store / BECOME THE SHAPE state","what_it_proves":"Main Street reaches the hardware-store progression state.","confidence":"MEDIUM"},
+      {"chapter":"Chapter 3 — Returning Home","chapter_start_timestamp":"UNKNOWN","chapter_anchor_timestamp":"01:12:24","anchor_state":"Myers House interior gameplay","what_it_proves":"Required Myers House sequence is visibly entered.","confidence":"MEDIUM"},
+      {"chapter":"Chapter 4 — The Babysitters","chapter_start_timestamp":"UNKNOWN","chapter_anchor_timestamp":"01:24:07","anchor_state":"GO TO THE WALLACE HOUSE","what_it_proves":"Wallace House is an active Chapter 4 progression anchor.","confidence":"HIGH"},
+      {"chapter":"Chapter 5 — Into The Shadows","chapter_start_timestamp":"UNKNOWN","chapter_anchor_timestamp":"01:58:30","anchor_state":"late police/search pressure gameplay","what_it_proves":"Late campaign search/pressure material is reached; escape objective is not readable here.","confidence":"LOW"}
+    ],
+    "VIDEO-02": [
+      {"chapter":"Prologue — Escape From Smith's Grove","chapter_start_timestamp":"UNKNOWN","chapter_anchor_timestamp":"00:02:07","anchor_state":"ESCAPE THE SANITARIUM","what_it_proves":"Prologue escape state is directly visible.","confidence":"HIGH"},
+      {"chapter":"Chapter 1 — The Road To Haddonfield","chapter_start_timestamp":"UNKNOWN","chapter_anchor_timestamp":"00:17:15","anchor_state":"station-wagon/store transition material","what_it_proves":"Post-sanitarium Haddonfield route material is reached.","confidence":"MEDIUM"},
+      {"chapter":"Chapter 2 — Main Street","chapter_start_timestamp":"UNKNOWN","chapter_anchor_timestamp":"00:39:52","anchor_state":"KILL RACHEL target-hunt state","what_it_proves":"Main Street target-hunt progression is active.","confidence":"MEDIUM"},
+      {"chapter":"Chapter 3 — Returning Home","chapter_start_timestamp":"UNKNOWN","chapter_anchor_timestamp":"00:57:33","anchor_state":"house/neighborhood gameplay","what_it_proves":"Returning-home neighborhood material is reached.","confidence":"LOW"},
+      {"chapter":"Chapter 4 — The Babysitters","chapter_start_timestamp":"UNKNOWN","chapter_anchor_timestamp":"01:06:58","anchor_state":"later house/interior event material","what_it_proves":"Later babysitter/event-chain material is reached.","confidence":"LOW"},
+      {"chapter":"Chapter 5 — Into The Shadows","chapter_start_timestamp":"UNKNOWN","chapter_anchor_timestamp":"01:18:05","anchor_state":"FIND A WAY TO ESCAPE HADDONFIELD","what_it_proves":"Escape objective activates; railroad state follows at 01:20:40.","confidence":"HIGH"}
+    ]
+  },
+  "observed_state_timeline": {
+    "method": "3-second HUD-change navigation followed by decoded-frame verification; storyboard/contact sheets are navigation aids only",
+    "VIDEO-01": [
+      {"timestamp":"00:15:05","visible_state":"station-wagon/store aftermath cinematic","previous_state":"sanitarium escape sequence","new_state":"arrival/opening Main Street material","chapter_candidate":"Prologue to Chapter 1 boundary","visual_confirmation":"decoded frame","confidence":"MEDIUM_NOT_FROZEN"},
+      {"timestamp":"00:32:08","visible_state":"night road/store approach cinematic","previous_state":"Chapter 1 mechanic route","new_state":"hardware-store/Main Street material","chapter_candidate":"Chapter 1 to Chapter 2 boundary","visual_confirmation":"decoded frame","confidence":"MEDIUM_NOT_FROZEN"},
+      {"timestamp":"01:12:56","visible_state":"Myers House interior gameplay","previous_state":"Main Street target-hunt material","new_state":"Returning Home house sequence","chapter_candidate":"Chapter 2 to Chapter 3 boundary","visual_confirmation":"decoded frame","confidence":"MEDIUM_NOT_FROZEN"},
+      {"timestamp":"01:31:28","visible_state":"Wallace House / babysitter route material","previous_state":"Myers House sequence","new_state":"Chapter 4 event-chain material","chapter_candidate":"Chapter 3 to Chapter 4 boundary","visual_confirmation":"decoded frame; FRAME-07 route state later confirmed at 01:24:07 in prior chronology is retained separately","confidence":"LOW_NOT_FROZEN"},
+      {"timestamp":"01:50:45","visible_state":"late police/search gameplay and cinematics","previous_state":"Babysitter event-chain material","new_state":"late escape/ending material candidate","chapter_candidate":"Chapter 4 to Chapter 5 boundary","visual_confirmation":"decoded frame","confidence":"LOW_NOT_FROZEN"}
+    ],
+    "VIDEO-02": [
+      {"timestamp":"00:02:07","visible_state":"ESCAPE THE SANITARIUM objective","previous_state":"opening cinematic","new_state":"active escape gameplay","chapter_candidate":"Prologue progression, not a frozen chapter boundary","visual_confirmation":"decoded frame","confidence":"MEDIUM"},
+      {"timestamp":"00:16:55","visible_state":"station-wagon/store transition cinematic","previous_state":"sanitarium escape","new_state":"Haddonfield/Main Street material","chapter_candidate":"Chapter 1 boundary candidate","visual_confirmation":"decoded frame","confidence":"MEDIUM_NOT_FROZEN"},
+      {"timestamp":"00:32:17","visible_state":"outdoor target-hunt gameplay","previous_state":"Main Street material","new_state":"continuing neighborhood progression","chapter_candidate":"not independently sufficient for Chapter 3 boundary","visual_confirmation":"decoded frame","confidence":"LOW_NOT_FROZEN"},
+      {"timestamp":"00:39:52","visible_state":"campfire/cinematic material","previous_state":"neighborhood progression","new_state":"later story material","chapter_candidate":"Chapter 3/4 candidate","visual_confirmation":"decoded frame","confidence":"LOW_NOT_FROZEN"},
+      {"timestamp":"00:57:28","visible_state":"house/interior gameplay","previous_state":"campfire/story material","new_state":"later campaign material","chapter_candidate":"not sufficient for Chapter 5 boundary","visual_confirmation":"decoded frame","confidence":"LOW_NOT_FROZEN"},
+      {"timestamp":"01:18:05","visible_state":"FIND A WAY TO ESCAPE HADDONFIELD objective","previous_state":"police/search pressure","new_state":"escape objective","chapter_candidate":"Chapter 5 state evidence; exact chapter start unresolved","visual_confirmation":"decoded frame","confidence":"HIGH"},
+      {"timestamp":"01:20:40","visible_state":"DISCOVER TRAIN TRACKS ESCAPE objective","previous_state":"escape Haddonfield objective","new_state":"railroad escape branch commitment","chapter_candidate":"Chapter 5 ending branch evidence","visual_confirmation":"decoded frame","confidence":"HIGH"}
+    ]
+  },
+  "observed_transition_candidates": {
+    "VIDEO-01": [
+      {"timestamp_range":"00:15:13-00:15:15","evidence":"decoded dark/cinematic cut; not a chapter title card","confidence":"LOW_NOT_FROZEN"},
+      {"timestamp_range":"00:33:42-00:33:49","evidence":"decoded transition/cut; state ordering needs finer review","confidence":"LOW_NOT_FROZEN"},
+      {"timestamp_range":"00:54:50-00:54:55","evidence":"decoded transition into house/neighborhood sequence","confidence":"LOW_NOT_FROZEN"},
+      {"timestamp_range":"01:12:52-01:12:55","evidence":"decoded transition into later neighborhood sequence","confidence":"LOW_NOT_FROZEN"},
+      {"timestamp_range":"01:31:27-01:31:29","evidence":"decoded transition/cut near Chapter 5 material","confidence":"LOW_NOT_FROZEN"}
+    ],
+    "VIDEO-02": [
+      {"timestamp_range":"00:02:01-00:02:06","evidence":"decoded transition after prologue opening","confidence":"LOW_NOT_FROZEN"},
+      {"timestamp_range":"00:16:50-00:17:05","evidence":"decoded dark/cinematic cut","confidence":"LOW_NOT_FROZEN"},
+      {"timestamp_range":"00:32:10-00:32:13","evidence":"decoded transition/cut","confidence":"LOW_NOT_FROZEN"},
+      {"timestamp_range":"00:39:42-00:39:51","evidence":"decoded transition/cut","confidence":"LOW_NOT_FROZEN"},
+      {"timestamp_range":"00:57:26-00:57:33","evidence":"decoded transition/cut","confidence":"LOW_NOT_FROZEN"}
+    ]
+  },
+  "visual_candidates": [
+    {"frame_id":"FRAME-01","video_source_id":"VIDEO-01","exact_timestamp":"00:12:24","chapter":"Prologue","observable_state":"dark gate-area navigation","what_it_proves":"No readable power/gate state in candidate","next_action":"REJECT","confidence":"LOW","selected_or_rejected":"REJECTED","publication_qa":"FAIL — state and HUD unreadable","rejection_reason":"Candidate frame is too dark and does not visibly prove the requested gate/power transition.","four_k_window":"f01.mp4"},
+    {"frame_id":"FRAME-02","video_source_id":"VIDEO-01","exact_timestamp":"00:15:11","chapter":"Prologue","observable_state":"cinematic aftermath near store","what_it_proves":"Not the station-wagon stealth finish","next_action":"REJECT","confidence":"HIGH","selected_or_rejected":"REJECTED","publication_qa":"FAIL — wrong state","rejection_reason":"Decoded 4K window shows aftermath/cinematic material, not the requested station-wagon finish.","four_k_window":"f02-correct.mp4"},
+    {"frame_id":"FRAME-03","video_source_id":"VIDEO-01","exact_timestamp":"00:33:45","chapter":"Chapter 1","observable_state":"mechanic execution sequence","what_it_proves":"Mechanic is visible, but Shape Jump/red-noise tracking state is not","next_action":"REJECT","confidence":"HIGH","selected_or_rejected":"REJECTED","publication_qa":"FAIL — wrong progression state","rejection_reason":"The decoded candidate is an execution/cinematic state and does not prove the requested tracking transition.","four_k_window":"f03.mp4"},
+    {"frame_id":"FRAME-04","video_source_id":"VIDEO-01","exact_timestamp":"00:36:50","chapter":"Chapter 2","observable_state":"interior/cinematic sequence","what_it_proves":"Mask acquisition not visibly established","next_action":"REJECT","confidence":"MEDIUM","selected_or_rejected":"REJECTED","publication_qa":"FAIL — mask and next objective not readable","rejection_reason":"No readable mask pickup or post-pickup objective in the decoded 4K window.","four_k_window":"f04.mp4"},
+    {"frame_id":"FRAME-05","video_source_id":"VIDEO-01","exact_timestamp":"01:00:30","chapter":"Chapter 2","observable_state":"neighborhood objective state","what_it_proves":"No tombstone-to-car transition","next_action":"REJECT","confidence":"HIGH","selected_or_rejected":"REJECTED","publication_qa":"FAIL — landmark/state absent","rejection_reason":"Decoded frame does not show Judith Myers tombstone plus the requested return-to-car state.","four_k_window":"f05.mp4"},
+    {"frame_id":"FRAME-06","video_source_id":"VIDEO-01","exact_timestamp":"01:11:55","chapter":"Chapter 3","observable_state":"outdoor conversation/cutscene","what_it_proves":"Required Myers House flashback is not visually established","next_action":"REJECT","confidence":"MEDIUM","selected_or_rejected":"REJECTED","publication_qa":"FAIL — transition ambiguous","rejection_reason":"Candidate does not clearly show the Myers House flashback transition.","four_k_window":"f06.mp4"},
+    {"frame_id":"FRAME-07","video_source_id":"VIDEO-01","exact_timestamp":"01:24:07","chapter":"Chapter 4","observable_state":"Wallace House route objective","what_it_proves":"Wallace House is the active progression anchor; optional area exploration is separate","next_action":"Go to the Wallace House","confidence":"HIGH","selected_or_rejected":"SELECTED","publication_qa":"PASS — 3840x2160, readable objective/HUD, useful house context, no facecam, low blur","claim_refs":["SPG-007"],"four_k_window":"f07-correct.mp4","frame_path":"/Users/lanling/.cache/halloween-youtube-tools/single-player-growth/video-01-4k-targets/f07-correct-frame.jpg"},
+    {"frame_id":"FRAME-08","video_source_id":"VIDEO-01","exact_timestamp":"01:26:00","chapter":"Chapter 4","observable_state":"neighborhood/telephone-adjacent sequence","what_it_proves":"Sheet/disguise unlock not visibly established","next_action":"REJECT","confidence":"MEDIUM","selected_or_rejected":"REJECTED","publication_qa":"FAIL — requested sheet state absent","rejection_reason":"Decoded candidate does not clearly show Sheet pickup/equip or disguise context.","four_k_window":"f08.mp4"},
+    {"frame_id":"FRAME-09","video_source_id":"VIDEO-01","exact_timestamp":"01:27:00","chapter":"Chapter 4","observable_state":"generic resident execution","what_it_proves":"Not the Laurie chase objective","next_action":"REJECT","confidence":"HIGH","selected_or_rejected":"REJECTED","publication_qa":"FAIL — wrong character/objective","rejection_reason":"Decoded frame shows a generic resident execution and no readable Laurie objective.","four_k_window":"f09.mp4"},
+    {"frame_id":"FRAME-10","video_source_id":"VIDEO-01","exact_timestamp":null,"chapter":"Chapter 5","observable_state":null,"what_it_proves":"No frozen first exit-available timestamp","next_action":"UNKNOWN","confidence":"UNKNOWN","selected_or_rejected":"REJECTED","publication_qa":"NOT_RUN","rejection_reason":"No trustworthy local state anchor was frozen; no 4K window fetched."},
+    {"frame_id":"FRAME-11","video_source_id":"VIDEO-01","exact_timestamp":null,"chapter":"Chapter 5","observable_state":null,"what_it_proves":"No frozen ending-route commitment timestamp","next_action":"UNKNOWN","confidence":"UNKNOWN","selected_or_rejected":"REJECTED","publication_qa":"NOT_RUN","rejection_reason":"No trustworthy branch-commitment state was frozen; no 4K window fetched."}
+  ],
+  "frame_reassessment": {
+    "FRAME-01":{"original_target":"gate / power transition","literal_state_observed":"NO","replacement_anchor":null,"exact_timestamp":null,"selected_or_rejected":"REJECTED","what_it_proves":"No defensible gate/power proof.","qa":"CLAIM_NOT_PROVEN"},
+    "FRAME-02":{"original_target":"station wagon stealth finish","literal_state_observed":"YES","replacement_anchor":"station-wagon objective","exact_timestamp":"00:15:05","video_02_corroboration":"YES","selected_or_rejected":"REJECTED","what_it_proves":"Prologue reaches station-wagon state.","qa":"UNREADABLE — 4K window not fetched for frozen timestamp"},
+    "FRAME-03":{"original_target":"Shape Jump / red-noise tracking","literal_state_observed":"NO","replacement_anchor":"mechanic progression/cinematic","exact_timestamp":"00:32:20","video_02_corroboration":"PARTIAL","selected_or_rejected":"REJECTED","what_it_proves":"Mechanic state only; literal tracking state not proven.","qa":"WRONG_STATE"},
+    "FRAME-04":{"original_target":"mask acquisition","literal_state_observed":"NO","replacement_anchor":"hardware-store / BECOME THE SHAPE state","exact_timestamp":"00:34:18","video_02_corroboration":"NO","selected_or_rejected":"REJECTED","what_it_proves":"Hardware-store progression only; mask pickup not proven.","qa":"CLAIM_NOT_PROVEN"},
+    "FRAME-05":{"original_target":"Judith tombstone to car","literal_state_observed":"NO","replacement_anchor":"KILL JUDITH MYERS objective","exact_timestamp":"01:00:30","video_02_corroboration":"PARTIAL","selected_or_rejected":"REJECTED","what_it_proves":"Named-target progression only; tombstone/car transition not proven.","qa":"INSUFFICIENT_CONTEXT"},
+    "FRAME-06":{"original_target":"Myers House flashback","literal_state_observed":"YES","replacement_anchor":"Myers House interior gameplay","exact_timestamp":"01:12:24","video_02_corroboration":"PARTIAL","selected_or_rejected":"REJECTED","what_it_proves":"Required house sequence is reached.","qa":"UNREADABLE — 4K window not fetched for frozen timestamp"},
+    "FRAME-07":{"original_target":"Wallace House / Bob + Lynda","literal_state_observed":"YES","replacement_anchor":"GO TO THE WALLACE HOUSE","exact_timestamp":"01:24:07","video_02_corroboration":"PARTIAL","selected_or_rejected":"SELECTED","what_it_proves":"Wallace House is the active progression anchor.","qa":"PASS — existing 3840x2160 frame"},
+    "FRAME-08":{"original_target":"Sheet unlock / disguise","literal_state_observed":"NO","replacement_anchor":null,"exact_timestamp":null,"video_02_corroboration":"NO","selected_or_rejected":"REJECTED","what_it_proves":"No same-claim replacement observed.","qa":"STATE_NOT_OBSERVED"},
+    "FRAME-09":{"original_target":"Laurie final chase","literal_state_observed":"NO","replacement_anchor":null,"exact_timestamp":null,"video_02_corroboration":"NO","selected_or_rejected":"REJECTED","what_it_proves":"No readable Laurie state observed.","qa":"STATE_NOT_OBSERVED"},
+    "FRAME-10":{"original_target":"first exit-available state","literal_state_observed":"NO in VIDEO-01; YES in VIDEO-02","replacement_anchor":"FIND A WAY TO ESCAPE HADDONFIELD","exact_timestamp":"01:18:05","video_02_corroboration":"YES","selected_or_rejected":"REJECTED","what_it_proves":"Escape objective activates in VIDEO-02 only.","qa":"UNREADABLE — 4K window not fetched"},
+    "FRAME-11":{"original_target":"ending-route commitment","literal_state_observed":"NO in VIDEO-01; YES in VIDEO-02","replacement_anchor":"DISCOVER TRAIN TRACKS ESCAPE","exact_timestamp":"01:20:40","video_02_corroboration":"YES","selected_or_rejected":"REJECTED","what_it_proves":"Railroad ending branch is observed in VIDEO-02 only.","qa":"UNREADABLE — 4K window not fetched"}
+  },
+  "four_k_windows_fetched": 11,
+  "four_k_windows_fetched_new": 0,
+  "remaining_blockers": [
+    "Both six-chapter maps still need title-card or explicit HUD-boundary confirmation; the observed cuts above remain navigation candidates, not frozen segments.",
+    "Only FRAME-07 currently passes publication QA; FRAME-01–06 and FRAME-08–09 need better state anchors, and FRAME-10–11 remain unresolved.",
+    "Evidence Pack cannot be promoted to EVIDENCE_COMPLETE, so Writer is intentionally not run."
+  ]
+}
