@@ -11,13 +11,7 @@
         "path": "/maps/",
         "intentKey": "MAPS_OVERVIEW",
         "intentRole": "OWNER",
-        "claimsUsed": [{ "claim": "launch_map_count", "value": 3 }]
-      },
-      {
-        "path": "/routes/maps/",
-        "intentKey": "MAPS_OVERVIEW",
-        "intentRole": "OWNER",
-        "claimsUsed": [{ "claim": "launch_map_count", "value": 3 }]
+        "claimsUsed": [{ "claim": "launch_map_count", "value": 4 }]
       }
     ]
   },
@@ -34,7 +28,7 @@
   },
   "gscOpportunity": {
     "intentKey": "MAPS_OVERVIEW",
-    "actualLanding": "/",
+    "actualLanding": "/maps/",
     "query": "how many maps are in Halloween: The Game?"
   }
 }

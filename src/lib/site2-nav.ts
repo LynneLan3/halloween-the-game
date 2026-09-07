@@ -1,8 +1,9 @@
 import { game } from '../config/game';
 import { routeHref } from './routes';
 
-/** Player-facing route hub URL (`/routes/{id}/`), not the pillar guide article. */
+/** Player-facing route URL; Maps uses its canonical pillar guide. */
 export function site2RouteHubHref(routeId: string): string {
+	if (routeId === 'maps') return '/maps/';
 	return routeHref(game.hubPath, routeId);
 }
 

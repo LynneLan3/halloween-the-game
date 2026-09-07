@@ -167,7 +167,7 @@ export async function buildSite2HomepageModel(): Promise<Site2HomepageModel> {
 		statusItems: statusItems.slice(0, 2),
 		trending,
 		maps,
-		mapsHubHref: mapsRoute ? site2RouteHubHref('maps') : '/routes/maps/',
+		mapsHubHref: '/maps/',
 		killer: {
 			href: killerRoute ? site2RouteHubHref('michael-myers') : '/routes/michael-myers/',
 			imageUrl: await optimizeSite2Background('covers/michael/stairs.jpg', { width: 900, height: 620, quality: 78 }),

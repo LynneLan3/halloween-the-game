@@ -49,6 +49,11 @@
       "has": [{ "type": "host", "value": "halloween-the-game-guide-lynnelan3s-projects.vercel.app" }],
       "destination": "https://www.halloweengameguide.wiki/$1",
       "permanent": true
+    },
+    {
+      "source": "/routes/maps/",
+      "destination": "/maps/",
+      "permanent": true
     }
   ]
 }

@@ -16,6 +16,7 @@ interface Props {
 	route: GameRoute;
 }
 const { route } = Astro.props;
+if (route.id === 'maps') return Astro.redirect('/maps/', 301);
 const { homeHref } = await experienceNav();
 const routes = game.routes ?? [];
 const hubHref = site2RouteHubHref(route.id);
