@@ -238,6 +238,39 @@
       "supports_claims": ["cl-c4-002", "cl-c4-003", "cl-c4-005", "cl-c4-009"],
       "summary": "Current EA complete-challenge video with auto-caption timestamps for the Chapter 4 route: Annie 26:52–28:26, Bob/Lynda stalking 28:40–29:12, Bob wall/glasses 29:23–29:40, Sheet/Lynda telephone 29:46–30:39, Laurie route 31:16–32:53. Creator states at 32:53 that the chapter challenge should be obtained.",
       "limitations": "Auto-generated captions; no clean challenge panel before/after receipt; creator narration proves the shown route, not universal mechanic or tracking reliability."
+    },
+    {
+      "evidence_id": "ev-covocava-c4-ch4-4k-frame",
+      "source_class": "VIDEO",
+      "source_ref": "https://www.youtube.com/watch?v=ExWLmpcRfoQ&t=1564s",
+      "captured_at": "2026-09-07T14:20:00+08:00",
+      "supports_claims": ["cl-c4-010"],
+      "summary": "The source video was played at 2160p60; the publication frame visibly shows Weapon Execution on a Resident with the Bloodthirst-required cue.",
+      "limitations": "Visible preparation state only; exact challenge threshold and registration remain UNKNOWN.",
+      "publication_asset": "src/assets/evidence/chapter-4-challenges/c4-bloodlust-weapon-execution.webp",
+      "pixel_dimensions": "3840x2160"
+    },
+    {
+      "evidence_id": "ev-covocava-c4-ch5-4k-frame",
+      "source_class": "VIDEO",
+      "source_ref": "https://www.youtube.com/watch?v=ExWLmpcRfoQ&t=1738s",
+      "captured_at": "2026-09-07T14:22:00+08:00",
+      "supports_claims": ["cl-c4-003"],
+      "summary": "The source video was played at 2160p60; the publication frame visibly shows the Challenge 5 panel and the living-room closet stalk view for Bob and Lynda.",
+      "limitations": "Visible route state only; the frame does not prove a universal Tier 3 threshold or completion registration.",
+      "publication_asset": "src/assets/evidence/chapter-4-challenges/c5-bob-lynda-stalk.webp",
+      "pixel_dimensions": "3840x2160"
+    },
+    {
+      "evidence_id": "ev-covocava-c4-ch6-4k-frame",
+      "source_class": "VIDEO",
+      "source_ref": "https://www.youtube.com/watch?v=ExWLmpcRfoQ&t=1959s",
+      "captured_at": "2026-09-07T14:24:00+08:00",
+      "supports_claims": ["cl-c4-005", "cl-c4-011"],
+      "summary": "The source video was played at 2160p60; the publication frame visibly shows the active Laurie objective and the marked upstairs closet late-state cue.",
+      "limitations": "Late-state cue only; no readable challenge completion panel is present.",
+      "publication_asset": "src/assets/evidence/chapter-4-challenges/c6-laurie-closet-late-state.webp",
+      "pixel_dimensions": "3840x2160"
     }
   ],
   "video_evidence": [
@@ -287,13 +320,13 @@
   "human_capture_tasks": [
     {
       "task_id": "hct-c4-ea-route-capture",
-      "reason": "Timestamped EA route video is now located, but publication-grade local frame assets and a readable challenge-panel receipt are still missing.",
+      "reason": "Three required publication-grade Chapter 4 state frames were captured from the timestamped EA route; a readable completion-panel receipt remains unavailable.",
       "target_claim_ids": ["cl-c4-002", "cl-c4-003", "cl-c4-005"],
       "source_url": "https://www.youtube.com/watch?v=ExWLmpcRfoQ",
       "timestamp": "27:57–32:53",
       "capture_purpose": "Capture local publication-grade frames for Annie car, Bob/Lynda Tier 3 stalking, Bob wall/glasses, Sheet/Lynda telephone, Laurie route, and any readable challenge-panel state.",
       "annotation_need": "crop",
-      "status": "OPEN"
+      "status": "COMPLETE"
     },
     {
       "task_id": "hct-c4-tracking-failure",
@@ -335,7 +368,7 @@
   "visual_publication_gate": {
     "applies": true,
     "required_claim_ids": ["cl-c4-002", "cl-c4-003", "cl-c4-005", "cl-c4-007"],
-    "missing_claim_ids": ["cl-c4-002", "cl-c4-003", "cl-c4-005", "cl-c4-007"],
+    "missing_claim_ids": ["cl-c4-007"],
     "ok": false
   },
   "lifecycle": {

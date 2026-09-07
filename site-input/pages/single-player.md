@@ -84,6 +84,10 @@ Observed footage (timestamped): approximately 26:00–26:15 in the referenced ga
 - Unknowns (do not assume numbers): the exact Bloodthirsty level required, the target-health threshold the Resident must be at, which execution prompt must be selected, and whether the challenge panel will register on-screen after an execution are all UNKNOWN based on the supplied evidence.
 - Actionable takeaway: if you intend to pursue this challenge, focus on building Bloodlust and watching for the Weapon Execution prompt; do not assume a specific numeric Bloodthirsty value will be required.
 
+![Weapon Execution is available while the Bloodthirst-required cue is visible on a Resident](../../../assets/evidence/chapter-4-challenges/c4-bloodlust-weapon-execution.webp)
+
+*Weapon Execution state with the Bloodthirst-required cue in the observed Chapter 4 run.*
+
 #### Challenge 5 — fully stalk Bob and Lynda while they are making out
 
 Observed procedure and strengthened diagnosis:
@@ -98,6 +102,10 @@ Important reproduction notes:
 - Community reports indicate success is more likely if both reach Tier 3 before leaving the couch; this is a reported workaround (player inference), not an officially documented mechanic.
 - If the pair separate before you reach the stalk level target, that is a STATE_WINDOW_MISSED — restart the sequence from the closet vantage and repeat.
 - If both reach the reported stalk level but the challenge does not register, consider ROUTE_ERROR (missed step earlier in the chain) or POSSIBLE_EA_TRACKING_ISSUE; capture your build/platform and the HUD/challenge-panel state for reporting.
+
+![The Challenge 5 panel and living-room stalk view are visible while observing Bob and Lynda](../../../assets/evidence/chapter-4-challenges/c5-bob-lynda-stalk.webp)
+
+*Challenge 5 panel and living-room stalk view in the observed run.*
 
 #### Challenge 6 — match the film plot (Laurie late-state troubleshooting is the centerpiece)
 
@@ -118,6 +126,10 @@ Late-state troubleshooting focus (why runs fail to register):
 - The Laurie sequence has the most reported variability. In observed footage the creator pulls Laurie from an upstairs closet and then receives a decisive strike (approx. 31:16–32:53). Reports differ on whether a single knife hit, a grab after the second closet, or a hanger attack is the critical registration event. These discrepancies are PLAYER_WORKAROUND candidates, not confirmed triggers.
 - If Laurie uses a non-canonical closet or the final attack/cutscene does not play, this is commonly reproduced as a STATE_WINDOW_MISSED or AI-timing variance. In those cases, replay the chapter from the start and re-run the ordered steps, ensuring each earlier cutscene/dialogue completes before moving forward.
 - If you perform every ordered step above and the chapter completes without the challenge checking, treat the run as a POSSIBLE_EA_TRACKING_ISSUE. Record platform, full build/hotfix version, whether the challenge HUD flashed, whether the in-game challenge panel showed completion, and the exact sequence/timestamps before reporting.
+
+![Laurie's upstairs closet is marked while the objective to kill Laurie before she calls for help is active](../../../assets/evidence/chapter-4-challenges/c6-laurie-closet-late-state.webp)
+
+*Laurie late-state cue: the objective remains active as the upstairs closet is marked.*
 
 Developer hotfix context:
 - Early Access Hotfix 1 (2026-09-05) states it fixed “several challenges that were not tracking properly” but does not enumerate which Chapter 4 items were addressed. Do not assume Hotfix 1 resolves all Chapter 4 registration failures; use the capture-and-report workflow above if you still see failures.
