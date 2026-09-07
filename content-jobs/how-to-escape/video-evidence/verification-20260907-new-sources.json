@@ -1,0 +1,44 @@
+{
+  "schema_version": "launch-video-evidence-verification-v1",
+  "verification_scope": "Only the two newly supplied videos; no old-video rescan",
+  "sources": [
+    {
+      "video_id": "PxZSKCrdhrs",
+      "title": "Halloween: The Game - All Escape Locations and Spawns Explained",
+      "url": "https://www.youtube.com/watch?v=PxZSKCrdhrs",
+      "published": "2026-09-07",
+      "uploader": "DeftyConch",
+      "duration_sec": 580,
+      "source_resolution": "640x360",
+      "index_path": "/var/folders/0_/yf32n3px3hg_yw5jhdp5yykr0000gp/T/video-evidence-cache/PxZSKCrdhrs/index.mp4",
+      "captions": "EN auto captions available",
+      "windows": [
+        {"timestamp":"0:26-0:58","terms":["car","police wagon","storm cellar","escape gate","escape"],"result":"route-family scoped support"},
+        {"timestamp":"1:10-2:22","terms":["car","escape"],"result":"source-scoped observed spawn pattern; not capacity"},
+        {"timestamp":"4:36-4:39","terms":["repair kit","car"],"result":"spoken Repair Kit -> car battery/car repair; no UI"},
+        {"timestamp":"5:42-5:44","terms":["escape"],"result":"spoken NPC escape location context; no resident UI"},
+        {"timestamp":"8:56-8:59","terms":["repair kit","car"],"result":"spoken Repair Kit -> car repair; no UI"},
+        {"timestamp":"9:04-9:06","terms":["escape"],"result":"spoken lead residents to escape; no resident UI"}
+      ],
+      "no_direct_term_hits":["chains","boards","padlock","bolt cutters","fuse","sedan keys","fuel","gasoline","waypoint","capacity"]
+    },
+    {
+      "video_id": "T6J48peYDbI",
+      "title": "Winning as Civilians in Halloween The Game (How to Win Survivor Gameplay)",
+      "url": "https://www.youtube.com/watch?v=T6J48peYDbI",
+      "published": "2026-09-06",
+      "uploader": "BloodThirstyLord",
+      "duration_sec": 721,
+      "source_resolution": "640x360",
+      "index_path": "/var/folders/0_/yf32n3px3hg_yw5jhdp5yykr0000gp/T/video-evidence-cache/T6J48peYDbI/index.mp4",
+      "captions": "No English captions or chapters available",
+      "windows": [],
+      "result": "No targetable windows; no blind full-video scan"
+    }
+  ],
+  "publication_media": {
+    "new_assets": [],
+    "reason": "Both new sources resolved to source-native 640x360. Captures are evidence-only and publication QA rejects them; no upscale or derivative asset created."
+  },
+  "ready_for_writer": false
+}
