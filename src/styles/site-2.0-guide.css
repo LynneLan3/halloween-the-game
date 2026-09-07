@@ -460,6 +460,11 @@
 	line-height: 0;
 }
 
+.site2-guide-page:has([data-guide-layout='evidence-wide']) .site2-guide-article-wrap .exp-guide-prose p:has(> .single-player-evidence-link) {
+	width: 100%;
+	max-width: min(100%, 72rem);
+}
+
 .site2-guide-page:has([data-guide-layout='evidence-wide']) .site2-guide-article-wrap .exp-guide-prose .single-player-evidence-image {
 	display: block;
 	width: 100%;
