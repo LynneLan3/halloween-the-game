@@ -16,7 +16,7 @@
     "game": "Halloween: The Game"
   },
   "publish_readiness": "NOT_READY",
-  "readiness_reason": "Current-build multiplayer gameplay evidence is absent for the route/item matrix and capacity; candidate claims must remain uncertain.",
+  "readiness_reason": "Targeted verification completed against all four supplied videos. Official randomized-escape/noise claims are directly supported, but no supplied video proves the Cellar, Outer Gate, or Sedan procedural chains, map-marker behavior, resident-use interaction, or capacity.",
   "intent_brief": {
     "intent_id": "intent-halloween-how-to-escape-001",
     "query": "how to escape haddonfield",
@@ -36,8 +36,8 @@
   ],
   "claim_ledger_ref": "content-jobs/how-to-escape/claim-ledger.json",
   "active_claims": [
-    {"claim_id":"HE-001","claim":"Multiplayer escape options and required item locations vary between matches.","evidence_status":"OFFICIAL_REUSED","evidence_refs":["content-jobs/multiplayer-how-it-works/research.md"]},
-    {"claim_id":"HE-002","claim":"Starting an escape sequence creates major noise and alerts Michael to the location.","evidence_status":"OFFICIAL_REUSED","evidence_refs":["content-jobs/how-to-escape/research-handoff.md"]},
+    {"claim_id":"HE-001","claim":"Multiplayer escape options and required item locations vary between matches.","evidence_status":"OFFICIAL_VIDEO_OBSERVED","evidence_refs":["BPJ83MKWJuc@4:17-4:19","BPJ83MKWJuc@5:40-5:53"]},
+    {"claim_id":"HE-002","claim":"Starting an escape sequence creates major noise and alerts Michael to the location.","evidence_status":"OFFICIAL_VIDEO_OBSERVED","evidence_refs":["BPJ83MKWJuc@6:01-6:03"]},
     {"claim_id":"HE-007","claim":"Existing local Arrest evidence shows a POLICE WAGON CALLED HUD cue and police arrival countdown.","evidence_status":"VIDEO_OBSERVED_REUSED","evidence_refs":["content-jobs/arrest-michael-myers/evidence-pack.json"]}
   ],
   "known_unknowns": [
@@ -56,7 +56,16 @@
     {"evidence_id":"ev-he-arrest-police-wagon","source_class":"VIDEO_REUSED","source_ref":"content-jobs/arrest-michael-myers/evidence-pack.json","supports_claims":["HE-007"],"limitations":"Police Wagon HUD is reused from the Arrest owner; it does not prove the escape unlock threshold or escape capacity."},
     {"evidence_id":"ev-he-research-candidates","source_class":"RESEARCH_HANDOFF","source_ref":"content-jobs/how-to-escape/research-handoff.md","supports_claims":["HE-003","HE-004","HE-005","HE-006","HE-008","HE-009","HE-010","HE-011","HE-012"],"limitations":"Candidate/conflict input only; no current-build direct prompt capture."}
   ],
-  "video_evidence": [],
+  "video_evidence": [
+    {"video_evidence_id":"ve-bpj83-escape-discovery","source_url":"https://www.youtube.com/watch?v=BPJ83MKWJuc","timestamp":"4:17-4:19","claim_id":"HE-001","what_it_proves":"Official narration: several possible randomized escapes are located around the map.","capture_method":"CAPTIONS_PLUS_TARGETED_FRAME_SCAN","capture_status":"CAPTURED","selected_or_rejected":"REJECTED","publication_qa":{"publication_status":"REJECT","reason":"Available source-native capture resolved at 640x360; transcript supports the claim but frame is not publication-grade."}},
+    {"video_evidence_id":"ve-bpj83-escape-items","source_url":"https://www.youtube.com/watch?v=BPJ83MKWJuc","timestamp":"5:40-5:53","claim_id":"HE-001","what_it_proves":"Official narration: lootable containers and key items unlock/access possible escapes; locations change from match to match.","capture_method":"CAPTIONS_PLUS_TARGETED_FRAME_SCAN","capture_status":"CAPTURED","selected_or_rejected":"REJECTED","publication_qa":{"publication_status":"REJECT","reason":"Available source-native capture resolved at 640x360; frame is not publication-grade."}},
+    {"video_evidence_id":"ve-bpj83-escape-noise","source_url":"https://www.youtube.com/watch?v=BPJ83MKWJuc","timestamp":"6:01-6:03","claim_id":"HE-002","what_it_proves":"Official narration: initiating an escape sequence generates tremendous noise.","capture_method":"CAPTIONS_PLUS_TARGETED_FRAME_SCAN","capture_status":"CAPTURED","selected_or_rejected":"REJECTED","publication_qa":{"publication_status":"REJECT","reason":"Available source-native capture resolved at 640x360; frame is not publication-grade."}},
+    {"video_evidence_id":"ve-d3ad-bolt-pickup","source_url":"https://www.youtube.com/watch?v=fJsZDScSAYU","timestamp":"0:22","claim_id":"HE-005","what_it_proves":"Bolt Cutters pickup is visible, but no Cellar or Outer Gate state/prompt is proven.","capture_method":"YTDLP_SECTION_FFMPEG","capture_status":"CAPTURED","selected_or_rejected":"REJECTED","publication_qa":{"publication_status":"REJECT","reason":"640x360 and insufficient route-state proof."}},
+    {"video_evidence_id":"ve-delirious-repair-discussion","source_url":"https://www.youtube.com/watch?v=Qny8MsFE670","timestamp":"8:13","claim_id":"HE-006","what_it_proves":"Players verbally mention a repair kit for the car; no repair interaction or Sedan HUD sequence is visible.","capture_method":"YTDLP_SECTION_FFMPEG","capture_status":"CAPTURED","selected_or_rejected":"REJECTED","publication_qa":{"publication_status":"REJECT","reason":"640x360, facecam, and insufficient procedural proof."}},
+    {"video_evidence_id":"ve-delirious-bolt-report","source_url":"https://www.youtube.com/watch?v=Qny8MsFE670","timestamp":"12:59-13:01","claim_id":"HE-005","what_it_proves":"Players mention Bolt Cutters and inability to grab them; no Gate/Cellar state or successful interaction is proven.","capture_method":"YTDLP_SECTION_FFMPEG","capture_status":"CAPTURED","selected_or_rejected":"REJECTED","publication_qa":{"publication_status":"REJECT","reason":"640x360, facecam, and insufficient procedural proof."}},
+    {"video_evidence_id":"ve-delirious-police-wagon-reused","source_url":"https://www.youtube.com/watch?v=Qny8MsFE670","timestamp":"11:31-11:33","claim_id":"HE-007","what_it_proves":"POLICE WAGON CALLED HUD and arrival countdown.","capture_method":"EXISTING_ARREST_EVIDENCE_REUSED","capture_status":"CAPTURED","selected_or_rejected":"SELECTED","asset_ref":"site-input/assets/evidence/arrest-michael/delirious-police-wagon-called.webp","publication_qa":{"publication_status":"PASS_AFTER_CROP","reason":"Existing Arrest publication asset; reuse only for the visible unlock cue, not escape-entry proof."}}
+  ],
+  "verification_log_ref": "content-jobs/how-to-escape/claim-ledger.json",
   "publication_visual_status": "NOT_READY",
   "production_visual_status": "NOT_APPLICABLE_PENDING_PUBLICATION",
   "human_capture_tasks": [
