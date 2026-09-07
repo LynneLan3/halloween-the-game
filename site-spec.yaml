@@ -372,7 +372,7 @@ pages:
     title: "How to Arrest Michael Myers in Halloween: The Game"
     description: "Step-by-step multiplayer arrest/detain sequence: police reinforcements, handcuff readiness, [E] Detain Michael, MICHAEL DETAINED, and why knockdowns fail before readiness."
     category: killer-guides
-    slug: michael-myers/how-to-arrest
+    slug: how-to-arrest-michael-myers
     source: site-input/pages/michael-myers/how-to-arrest.md
     status: verified
     featured: true

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "templateVersion": "2.0.0",
   "generatorVersion": "1.0.0",
-  "specHash": "0850440c394483b7285bf8523151b5190ebc92e7c66934903ca3dda46bb903f6",
+  "specHash": "c9d4c69e595e917f3650430e8b0bd2cc23061ee346b4e2a04817f590c4942bf2",
   "siteId": "halloween-the-game",
   "createdFromSpec": "site-spec.yaml",
   "managedFiles": [
@@ -248,7 +248,7 @@
     },
     {
       "path": "src/config/site.generated.ts",
-      "sha256": "ad4baaa40be886fc1a18e35cc7f0b924f931499e939792dbf7b0f3c9c05a8200",
+      "sha256": "b77d07479cb5ced1896f786b5d2f3c00f2981efcc51d56051ef5297be42c7d49",
       "kind": "config"
     },
     {
@@ -302,18 +302,18 @@
       "kind": "hub"
     },
     {
+      "path": "src/content/docs/killer-guides/how-to-arrest-michael-myers.md",
+      "sha256": "68393b1e6de1c67e59f296a49dee459de4f42fabdbfe420ba868092a8255591e",
+      "kind": "page"
+    },
+    {
       "path": "src/content/docs/killer-guides/michael-myers.md",
-      "sha256": "98a253599b5474b6d79c81fc01359e9cc2cfb577d136105eb990f63ac0d0a95d",
+      "sha256": "13831dd65ffb260bf05dc46f16f3af793adea3b7906b7d4251de547fc2a22e0e",
       "kind": "page"
     },
     {
       "path": "src/content/docs/killer-guides/michael-myers/abilities.md",
-      "sha256": "f2957ba14106e035cefc085ca708aee7025dcf395c5bc970bb4d515139a25029",
-      "kind": "page"
-    },
-    {
-      "path": "src/content/docs/killer-guides/michael-myers/how-to-arrest.md",
-      "sha256": "543059d49ab38c45e9575f02eeff00acc6dea8e185398c62f2b196c7109109ad",
+      "sha256": "be1ca7872999c95a65d263c038c6a28d983047a1bc30b5bce53b15eae0d40338",
       "kind": "page"
     },
     {

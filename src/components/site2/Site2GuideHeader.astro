@@ -17,13 +17,13 @@ const route = content.primaryRoute;
 const routeLink = route ? site2RouteHubHref(route.id) : undefined;
 const guideSlug = String(data.slug ?? entry.id ?? '').replace(/^\/+|\/+$/g, '');
 const evidenceWideSlugs = new Set([
-	'michael-myers/how-to-arrest',
+	'how-to-arrest-michael-myers',
 	'michael-myers/abilities',
 ]);
 const evidenceWide = evidenceWideSlugs.has(guideSlug);
 const compactBottom = guideSlug === 'michael-myers/abilities';
 const progressionLayout =
-	guideSlug === 'michael-myers/how-to-arrest' && content.facts.length >= 5;
+	guideSlug === 'how-to-arrest-michael-myers' && content.facts.length >= 5;
 ---
 
 <div

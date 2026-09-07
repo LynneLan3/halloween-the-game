@@ -78,6 +78,7 @@ Whisper of the House has a prose arrest guide; reviews mention police wagon esca
 - Exact HUD string POLICE WAGON CALLED was not visually confirmed in captured frames (police wagon vehicles appear as escape/transport assets; detainment progression was confirmed via Reinforcements Available / Cop Arrived / handcuff states instead)
 - Exact arrest-meter fill rates, cooldowns, or required officer counts
 - Whether NPC officers can finish Detain without a player pressing [E]
+- Whether the final prompt is police-only, available to every Civilian, or executable by NPC officers
 - Match-to-match variance for Loomis CB-radio spawn locations
 
 ## Visual Assets

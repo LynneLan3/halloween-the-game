@@ -2,7 +2,7 @@
 title: "How to Arrest Michael Myers in Halloween: The Game"
 description: "Step-by-step multiplayer arrest/detain sequence: police reinforcements, handcuff readiness, [E] Detain Michael, MICHAEL DETAINED, and why knockdowns fail before readiness."
 category: killer-guides
-slug: michael-myers/how-to-arrest
+slug: how-to-arrest-michael-myers
 status: verified
 featured: true
 role: core
@@ -70,30 +70,34 @@ See also the [Michael Myers hub](/michael-myers/) for the broader killer overvie
 - Only after readiness is established does a knockdown open the usable detain window. Earlier knockdowns let him recover.
 - In the ready state, **[E] Detain Michael** appears. Finish the short circular progress interaction before he recovers. Success ends the match with **MICHAEL DETAINED!**
 
+## Who can perform the final Arrest?
+
+The verified footage shows a player moving to downed Michael, receiving the **[E] Detain Michael** prompt, and completing the interaction. It does **not** establish that the prompt is police-only, that every Civilian can always use it, or that an NPC officer completes it automatically. Treat the prompt itself as the permission check; exact role restrictions remain unknown.
+
 ## Step-by-step arrest sequence
 
 1. **Build police / reinforcement pressure**  
    Call police through Civilian tools and keep authority figures in play. Dead or escaped players can still help via Loomis/deputy return or the Police Reinforcements perk (“Respawn in the match as a police officer”).
 
-![CB / shortwave radio interaction during an arrest setup](../../../../assets/evidence/arrest-michael/bryce-cb-radio.webp)  
+![CB / shortwave radio interaction during an arrest setup](../../../assets/evidence/arrest-michael/bryce-cb-radio.webp)
 *Look for the floating radio/antenna marker over the table CB set — authority-support path. Bryce Games @ 1:30.*
 
-![Police Reinforcements perk — Respawn in the match as a police officer](../../../../assets/evidence/arrest-michael/bryce-police-reinforcements-perk.webp)  
+![Police Reinforcements perk — Respawn in the match as a police officer](../../../assets/evidence/arrest-michael/bryce-police-reinforcements-perk.webp)
 *Look at the selected card text: **Police Reinforcements** → “Respawn in the match as a police officer.” Bryce Games @ 1:45.*
 
 2. **Confirm police progression on the HUD**  
    Watch for escalation such as **POLICE WAGON CALLED**, **A COP HAS ARRIVED TO INVESTIGATE**, and **Reinforcements Available** / **Reinforcements In**.
 
-![POLICE WAGON CALLED HUD with police arrival countdown](../../../../assets/evidence/arrest-michael/delirious-police-wagon-called.webp)  
+![POLICE WAGON CALLED HUD with police arrival countdown](../../../assets/evidence/arrest-michael/delirious-police-wagon-called.webp)
 *Look top-center for **POLICE WAGON CALLED** and the top-right police-vehicle countdown. H2O Delirious collab (@ Bryce McQuaid) @ 11:33.*
 
-![A COP HAS ARRIVED TO INVESTIGATE HUD](../../../../assets/evidence/arrest-michael/d3ad-cop-arrived.webp)  
+![A COP HAS ARRIVED TO INVESTIGATE HUD](../../../assets/evidence/arrest-michael/d3ad-cop-arrived.webp)
 *Look for the centered banner **A COP HAS ARRIVED TO INVESTIGATE**. D3AD Plays @ 2:02.*
 
 3. **Wait for the handcuff readiness marker before the decisive knockdown**  
    When readiness is building, Michael shows a handcuff-style indicator. Knocking him down without that marker is why many teams “can’t arrest” him.
 
-![Handcuff readiness diamond on Michael with Reinforcements Available](../../../../assets/evidence/arrest-michael/bryce-handcuff-indicator.webp)  
+![Handcuff readiness diamond on Michael with Reinforcements Available](../../../assets/evidence/arrest-michael/bryce-handcuff-indicator.webp)
 *Look on Michael’s chest for the purple handcuff diamond while **Reinforcements Available** is up. Bryce Games @ 2:18.*
 
 4. **Knock Michael down while the handcuff indicator is active**  
@@ -102,33 +106,32 @@ See also the [Michael Myers hub](/michael-myers/) for the broader killer overvie
 5. **Press [E] Detain Michael**  
    After a valid ready-state knockdown, the prompt **[E] Detain Michael** appears with a handcuff icon.
 
-![Annotated [E] Detain Michael prompt after knockdown](../../../../assets/evidence/arrest-michael/bryce-detain-prompt-annotated.webp)  
+![Annotated [E] Detain Michael prompt after knockdown](../../../assets/evidence/arrest-michael/bryce-detain-prompt-annotated.webp)
 *Look at the center prompt **[E] Detain Michael** + handcuff icon (yellow callout). Bryce Games @ 2:25.*
 
-![Independent [E] Detain Michael prompt](../../../../assets/evidence/arrest-michael/d3ad-detain-prompt.webp)  
+![Independent [E] Detain Michael prompt](../../../assets/evidence/arrest-michael/d3ad-detain-prompt.webp)
 *Same prompt from a second session after **Downed Michael** XP (grayscale is an in-match filter). D3AD Plays @ 7:44.*
 
 6. **Finish the short circular progress interaction**  
    Complete the circular progress / input before Michael recovers.
 
-![Detain circular progress minigame](../../../../assets/evidence/arrest-michael/bryce-detain-minigame.webp)  
+![Detain circular progress minigame](../../../assets/evidence/arrest-michael/bryce-detain-minigame.webp)
 *Look for the circular **Detain Michael** progress ring while he stays down. Bryce Games @ 2:28.*
 
 7. **Confirm MICHAEL DETAINED!**  
    Success ends the match. Remaining Civilians do not need a separate car or Storm Cellar escape afterward.
 
-![MICHAEL DETAINED! end state](../../../../assets/evidence/arrest-michael/bryce-michael-detained.webp)  
+![MICHAEL DETAINED! end state](../../../assets/evidence/arrest-michael/bryce-michael-detained.webp)
 *Look for the end-state banner **MICHAEL DETAINED!** (GAME OVER / You Survived The Night). Bryce Games @ 2:38.*
 
 ## Why can't I arrest Michael?
 
 | Current state | Meaning | Next step |
 | --- | --- | --- |
-| No police/reinforcement HUD; no handcuff icon | Arrest pressure has not built | Call police / keep reinforcements coming; get a Deputy or Loomis into the fight |
-| Michael is downed but no handcuff indicator | Knockdown happened before readiness | Hold pressure near police until the handcuff marker appears, then knock him down again |
+| No police/reinforcement HUD; no handcuff icon | The observed arrest-readiness state has not appeared | Continue the documented police/reinforcement path; exact officer-count and trigger rules are unverified |
+| Michael is downed but no handcuff indicator | Knockdown happened before readiness | Continue the police/reinforcement sequence until the handcuff marker appears, then knock him down again |
 | Handcuff indicator visible, but no [E] after knockdown | Detain window missed or input not taken | Stay close; knock him down again while the marker is active and press **[E]** immediately |
 | **[E] Detain** starts but progress aborts | Minigame not finished before recovery | Protect the detaining player and complete the circular progress in full |
-| Team dumps damage away from officers | Pressure is not building the arrest state | Stop chasing Michael into empty yards; keep him near active police / returned officers |
 
 ## Arrest meter / handcuff state how to judge
 
@@ -145,7 +148,7 @@ See also the [Michael Myers hub](/michael-myers/) for the broader killer overvie
 ## Known limitations / launch-version notes
 
 - Exact arrest-meter fill rates, cooldowns, and required officer counts remain unverified.
-- It is not confirmed whether NPC officers can finish Detain without a player pressing **[E]**.
+- It is not confirmed whether NPC officers can finish Detain without a player pressing **[E]**, or whether every Civilian can start the prompt.
 - Loomis / CB-radio spawn locations vary match to match; exact spawn rules are unverified.
 - Footage is Early Access / launch-window multiplayer; HUD wording may change in later patches.
 

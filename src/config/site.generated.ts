@@ -449,7 +449,7 @@ export const siteConfig: GameConfig = {
 		},
 		{
 			id: "michael-myers-how-to-arrest",
-			slug: "michael-myers/how-to-arrest",
+			slug: "how-to-arrest-michael-myers",
 			role: "core",
 			assetType: "article",
 			intents: ["how-to-arrest-michael-myers"],
@@ -1066,7 +1066,7 @@ export const siteConfig: GameConfig = {
 				},
 				{
 					pageId: "michael-myers-how-to-arrest",
-					href: "/michael-myers/how-to-arrest/",
+					href: "/how-to-arrest-michael-myers/",
 					title: "How to Arrest Michael Myers in Halloween: The Game",
 					description: "Step-by-step multiplayer arrest/detain sequence: police reinforcements, handcuff readiness, [E] Detain Michael, MICHAEL DETAINED, and why knockdowns fail before readiness.",
 					eyebrow: "Arrest Guide",
@@ -1105,7 +1105,7 @@ export const siteConfig: GameConfig = {
 					question: "How do you arrest Michael Myers?",
 					answer: "Build police pressure until the handcuff readiness indicator appears, knock him down, press Detain Michael, and finish the short progress interaction for MICHAEL DETAINED.",
 					pageId: "michael-myers-how-to-arrest",
-					href: "/michael-myers/how-to-arrest/",
+					href: "/how-to-arrest-michael-myers/",
 				},
 			],
 		},
