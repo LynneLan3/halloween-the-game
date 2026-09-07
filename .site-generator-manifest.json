@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "templateVersion": "2.0.0",
   "generatorVersion": "1.0.0",
-  "specHash": "b1e7040f806abce052b1aa082d3ba34cbdf013c14c8dbbb9b0a19e790a78b069",
+  "specHash": "63481252e32f30ea9b85f75c5048e274bd1d974540bc8638acb626ade68e2fed",
   "siteId": "halloween-the-game",
   "createdFromSpec": "site-spec.yaml",
   "managedFiles": [
@@ -398,7 +398,7 @@
     },
     {
       "path": "src/content/docs/story-guides/single-player/chapter-5-challenges.md",
-      "sha256": "09324e0753484e3ee8ed56f73430aa31fb113d17ba0b66acdf2e75bf3cbc3173",
+      "sha256": "82d46e955a3e8fed5bc78ed46d28224f64f68b488442d2bed214a0a8bd619524",
       "kind": "page"
     },
     {

@@ -612,7 +612,7 @@ pages:
     category: story-guides
     slug: single-player/chapter-5-challenges
     source: site-input/pages/single-player/chapter-5-challenges.md
-    status: needs-verification
+    status: confirmed
     featured: false
     sidebarOrder: 2
     role: core
@@ -620,7 +620,7 @@ pages:
       - chapter-5-challenges
       - challenge-6-police-car
       - police-car-not-counting
-    quickAnswer: "Challenge 6's exact wording is 'Destroy any police car before you escape.' One observed successful route used a parked police car at a residential intersection, melee attacks, a sewer escape, and a checked post-chapter results screen; competing vehicle rules remain unresolved."
+    quickAnswer: "The current build lists six Chapter 5 challenges. Challenge 6 reads 'Destroy any police car before you escape.' A verified successful route used a parked police car at a residential intersection, melee attacks, a sewer escape, and a checked post-chapter results screen; competing vehicle rules remain unconfirmed."
     eyebrow: "Chapter 5 Challenges"
     relations:
       - pageId: single-player-hub

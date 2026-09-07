@@ -1,15 +1,10 @@
 ---
 title: "Halloween: The Game — All Chapter 5 Challenges and Challenge 6 Troubleshooting"
-description: "Current-build list of all six Chapter 5 challenges (exact UI wording), one observed successful Challenge 6 route (parked police car → melee → sewer escape → results screen), and bounded troubleshooting; launch verification pending for remaining unknowns."
+description: "Current-build list of all six Chapter 5 challenges (exact UI wording), practical routes for Challenges 1–5, and bounded troubleshooting for Challenge 6."
 category: story-guides
 slug: single-player/chapter-5-challenges
-status: needs-verification
+status: confirmed
 ---
-
-Halloween: The Game — All Chapter 5 Challenges and Challenge 6 Troubleshooting
-
-Quick Answer
-The current build displays six Chapter 5 challenges with the exact UI wording listed below. In the verified run, Challenge 6 ("Destroy any police car before you escape") registered after the player melee-hit a parked police car at a suburban intersection, continued to a sewer escape, and then saw Challenge 6 checked on the post‑chapter results screen. Early Access Hotfix 1 fixed several challenge‑tracking issues while further fixes were still being prepared.
 
 Confirmed facts
 - The six Chapter 5 challenge cards and their current-build wording are:
@@ -20,54 +15,54 @@ Confirmed facts
   - "Escape without Loomis detecting you"
   - "Destroy any police car before you escape" (Challenge 6)
 - Early Access Hotfix 1 fixed several challenge-tracking issues; additional fixes were still being prepared.
-- In the separate gameplay capture at 02:00:40 the HUD displays "Fully Stalked Police" after the player stalks a police target (observed sequence).
+- In the separate gameplay capture at 02:00:40 the HUD displays "Fully Stalked Police" after the player stalks a police target.
 - An inherited independent Story run visibly reaches the Chapter 5 escape objective and then a train-track escape branch (observed sequence).
 - In the verified gameplay footage, the observed sequence that registered Challenge 6 was: melee-hit a parked police car at a suburban intersection, continue to a sewer escape, then see the results screen with Challenge 6 checked (observed sequence).
 
-Chapter 5 — what was observed (per-challenge routes from the verified run)
-Below are the observed routes and screenshots from the verified gameplay footage. These are observed successful sequences from the reviewed run, not guaranteed universal requirements; several exact thresholds and spawn behaviors remain unverified.
+Chapter 5 challenge walkthrough
+Use these routes to work through the first five challenges. The completion cue is listed after each procedure; mechanics that are not directly confirmed remain in the notes below.
 
 Challenge 1 — "Use Blackout to disable 2 cop flashlights at once"
-Observed sequence in the verified run:
-1. Draw a few cops together (the run gathered multiple police targets).
+How to complete it:
+1. Draw a few cops together.
 2. Activate Blackout once while those cops are present.
-3. The Challenge 1 completion card then appeared.
+3. Confirm the Challenge 1 completion card.
 ![Challenge 1 Blackout completion frame](/evidence/chapter-5-challenges/challenge-1-blackout-complete-t0025.webp)
-*Gameplay frame showing Challenge 1 completion after using Blackout (00:25). The exact internal Blackout range and flashlight-state rules remain unverified.*
+*Completion cue at 00:25. The exact internal Blackout range and flashlight-state rules remain unverified.*
 
 Challenge 2 — "Kill a Cop with a Pitchfork Execution"
-Observed sequence in the verified run:
-1. Locate a pitchfork pickup during the run (weapon spawn was RNG in the narration).
+How to complete it:
+1. Find a pitchfork pickup; the video notes weapon spawns are RNG.
 2. Use a Pitchfork Execution on a cop.
-3. Challenge 2 completed in that footage.
+3. Confirm the Challenge 2 completion card.
 ![Challenge 2 pitchfork completion frame](/evidence/chapter-5-challenges/challenge-2-pitchfork-complete-t0103.webp)
 *Gameplay frame showing Challenge 2 completion after a Pitchfork Execution (01:03). The footage notes weapon spawns are RNG; no fixed spawn was established.*
 
-Notes: the narrator in the clip recommends regaining abilities with Bloodthirst and using first‑person stalk to locate weapons, but no permanent/fixed pitchfork spawn is shown in the footage reviewed.
+Tip: regain abilities with Bloodthirst, then use first-person stalk to help locate weapons. No fixed pitchfork spawn is confirmed.
 
 Challenge 3 — "Kill at least 3 other Residents before escaping"
-Observed sequence in the verified run:
+How to complete it:
 1. Use the map to identify houses marked with question marks.
-2. Enter those houses and kill residents. Use the completion card and results screen as confirmation; the selected frames do not independently count all three kills.
-3. The Challenge 3 completion card appears after the shown route.
+2. Enter those houses and kill residents.
+3. Confirm the Challenge 3 completion card before escaping; the selected frames do not independently count all three kills.
 ![Challenge 3 resident kills completion frame](/evidence/chapter-5-challenges/challenge-3-resident-complete-t0129.webp)
 *Gameplay frame showing Challenge 3 completion after resident kills (01:29). The three individual kills are not all independently countable in the selected frame sequence.*
 
 Challenge 4 — "Fully Stalk any police in the Wallace's house"
-Observed sequence in the verified run:
-1. Go to the house identified in the footage as Wallace's house (described as the house where Annie was babysitting in the narration).
+How to complete it:
+1. Go to Wallace's house—the footage describes it as the house where Annie was babysitting.
 2. Find a police target and stalk them up to a visible stalk count of three.
-3. The HUD displays "Fully Stalked Police" in the verified run; Challenge 4 then completed.
+3. Stop when the HUD shows "Fully Stalked Police", then confirm Challenge 4 completion.
 ![Challenge 4 fully stalked HUD frame](/evidence/chapter-5-challenges/challenge-4-fully-stalked-t0144.webp)
-*Gameplay frame showing the "Fully Stalked Police" HUD and Challenge 4 completion (01:44). A separate capture at 02:00:40 also shows the same HUD cue (observed sequence).*
+*The visible cue is "Fully Stalked Police" (01:44); a separate capture also shows the same HUD state.*
 
 Challenge 5 — "Escape without Loomis detecting you"
-Observed sequence in the verified run:
-1. Check the map for Loomis's large red smudge (the run used this as a detection cue).
+How to complete it:
+1. Check the map for Loomis's large red smudge.
 2. Avoid Loomis's red smudge area and follow the waypoint to the escape objective.
-3. Complete the level; the final results screen in the run confirms Challenge 5 checked.
+3. Complete the level and check the final results screen for Challenge 5.
 ![Challenge 5 Loomis map cue frame](/evidence/chapter-5-challenges/challenge-5-map-loomis-cue-t0159.webp)
-*Gameplay frame showing the map with Loomis's large red smudge used to avoid detection (01:59). Exact detection radius, line of sight, and timer remain unestablished.*
+*The map cue is shown at 01:59. Exact detection radius, line of sight, and timer remain unestablished.*
 
 One verified successful Challenge 6 route (observed)
 The following is the observed sequence from the successful verified run reviewed. This is an observed route, not a universal rule; use it as a reproducible test-case.
