@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "templateVersion": "2.0.0",
   "generatorVersion": "1.0.0",
-  "specHash": "c9d4c69e595e917f3650430e8b0bd2cc23061ee346b4e2a04817f590c4942bf2",
+  "specHash": "592f17304973b63afedfc2f024e3bf8f846281b69ce204e2981e7a9a7208c8d6",
   "siteId": "halloween-the-game",
   "createdFromSpec": "site-spec.yaml",
   "managedFiles": [
@@ -248,7 +248,7 @@
     },
     {
       "path": "src/config/site.generated.ts",
-      "sha256": "b77d07479cb5ced1896f786b5d2f3c00f2981efcc51d56051ef5297be42c7d49",
+      "sha256": "45cc994e2197bce336fab2965b10f72b2b71d542678b1283f46536aedb2e01f4",
       "kind": "config"
     },
     {
@@ -358,7 +358,12 @@
     },
     {
       "path": "src/content/docs/multiplayer-guides/multiplayer/how-multiplayer-works.md",
-      "sha256": "a683a00f540322ac838d0124d6254d6631380b3774e771c230034441c665b3df",
+      "sha256": "cb99dd83a2046eac044305c0009c949c9cb8d06a2a98cfb2d235793023a14826",
+      "kind": "page"
+    },
+    {
+      "path": "src/content/docs/multiplayer-guides/multiplayer/how-to-escape.md",
+      "sha256": "863b21aa457583ced7f65055c9efeae8a4c04b3e4df4738a5b7aaf14e3960f58",
       "kind": "page"
     },
     {

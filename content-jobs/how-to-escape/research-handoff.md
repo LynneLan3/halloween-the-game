@@ -21,7 +21,7 @@ This is the implementation record for the supplied `Research Handoff — How to 
 
 ## Writer gate
 
-`NOT_READY`: current-build evidence is missing for route-family completeness, Cellar variants, Outer Gate recipe, Sedan order, Police Wagon escape unlock, map markers, NPC evacuation behavior, and capacity. Do not invoke APIMart Writer until those evidence gaps are closed.
+`FAST_VERIFIED`: direct official/video evidence covers the multiplayer escape loop, randomization, noise, scoped route-family observation, and Police Wagon call/arrival. Supplied current Early Access guide corroboration may support bounded Sedan, Cellar, Outer Gate, and Police Wagon decision guidance. Do not turn corroboration into universal mechanics; retain UNKNOWN for fixed order, exact capacity, exact threshold, map markers, resident entry behavior, and bug prevalence.
 
 ## Media contract
 

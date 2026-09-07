@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "hotword-publish-receipt-v1",
+  "common": {
+    "site": "Halloween: The Game",
+    "siteId": "halloween-the-game",
+    "game": "Halloween: The Game",
+    "batchId": "halloween-the-game|how-to-escape|20260907",
+    "lifecyclePhase": "early-access",
+    "attributionMode": "OBSERVATIONAL_ONLY",
+    "sourceRefs": [
+      "content-jobs/how-to-escape/evidence-pack.json",
+      "content-jobs/how-to-escape/claim-ledger.json",
+      "site-input/pages/multiplayer/how-to-escape.md",
+      "FAST_VERIFIED How to Escape Haddonfield"
+    ]
+  },
+  "interventions": [
+    {
+      "interventionId": "halloween-the-game|how-to-escape|multiplayer-how-to-escape",
+      "action": "NEW_PAGE",
+      "primaryUrl": "/multiplayer/how-to-escape/",
+      "affectedUrls": [
+        "/multiplayer/how-to-escape/",
+        "/routes/multiplayer/",
+        "/multiplayer/"
+      ],
+      "reason": "Ship the FAST_VERIFIED escape-route decision guide with direct evidence boundaries and current Early Access guide corroboration.",
+      "triggerType": "operator_request",
+      "triggerSummary": "Production publish after FAST_VERIFIED Writer Gate acceptance; exact route mechanics, capacity, and map behavior remain explicitly unknown.",
+      "sourceRefs": [
+        "content-jobs/how-to-escape/evidence-pack.json",
+        "content-jobs/how-to-escape/job.json"
+      ]
+    }
+  ]
+}

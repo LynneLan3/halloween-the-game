@@ -26,6 +26,9 @@ relations:
     slug: maps
     type: related
   -
+    slug: multiplayer/how-to-escape
+    type: next-step
+  -
     slug: progression-perks
     type: related
 cover: ../../../../assets/covers/gameplay/rachel-gameplay.png

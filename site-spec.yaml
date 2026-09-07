@@ -470,9 +470,45 @@ pages:
         type: related
       - pageId: maps-hub
         type: related
+      - pageId: multiplayer-how-to-escape
+        type: next-step
       - pageId: progression-perks
         type: related
     changeSummary: "CONTENT_EXPANSION — Multiplayer how-it-works guide."
+  - id: multiplayer-how-to-escape
+    title: "Halloween The Game Escape Routes — Car, Cellar, Gate & Police Wagon"
+    description: "Fast-verified multiplayer escape decision guide: what to do after finding a Sedan, Storm Cellar, Outer Gate, or Police Wagon cue, with current Early Access unknowns preserved."
+    category: multiplayer-guides
+    slug: multiplayer/how-to-escape
+    source: site-input/pages/multiplayer/how-to-escape.md
+    status: needs-verification
+    featured: true
+    sidebarOrder: 3
+    role: core
+    intents:
+      - how-to-escape-haddonfield
+    quickAnswer: "Find an exit or item, then follow that route's current HUD/objective: Sedan guides report engine, gas-tank, and key requirements; Cellar and Gate blockers vary; Police Wagon shows POLICE WAGON CALLED and an arrival countdown. Escape locations and key items change between matches, and exact capacity remains unknown."
+    eyebrow: "Escape Guide"
+    facts:
+      - label: "Route families"
+        value: "Sedan, Storm Cellar, Outer Gate, Police Wagon progression"
+      - label: "Sedan reports"
+        value: "Engine repair, gas-tank fill, Sedan Keys"
+      - label: "Gate report"
+        value: "Fuse plus a possible additional blocker"
+      - label: "Capacity"
+        value: "Unknown; do not assume 3, 4, or 5"
+    coverAssetId: rachel-gameplay
+    relations:
+      - pageId: multiplayer-hub
+        type: related
+      - pageId: multiplayer-how-it-works
+        type: related
+      - pageId: michael-myers-how-to-arrest
+        type: next-step
+      - pageId: maps-hub
+        type: related
+    changeSummary: "CONTENT_EXPANSION — FAST_VERIFIED item/exit decision guide with explicit Early Access evidence boundaries."
   - id: multiplayer-matchmaking-queue
     title: "Halloween: The Game Matchmaking Queue — Roles, Tokens & Private Matches"
     description: "Role-based matchmaking queues, secondary-reported Killer Tokens, private matches with friends, and what remains unknown about AI backfill."
@@ -1079,13 +1115,14 @@ routes:
       - question: "How does the matchmaking queue work?"
         answer: Role queues and private matches are covered; Killer Tokens are secondary-reported; public AI backfill is unknown.
         pageId: multiplayer-matchmaking-queue
-      - question: "Does Halloween: The Game support crossplay?"
-        answer: Cross-platform multiplayer is indicated on Xbox; full pairing matrix is launch verification pending.
-        pageId: multiplayer-crossplay
+      - question: "Which escape should I pursue?"
+        answer: "Use the current match HUD/objective: Sedan, Storm Cellar, Outer Gate, and Police Wagon routes have different reported requirements, while exact capacity and some interaction details remain unknown."
+        pageId: multiplayer-how-to-escape
     pages:
       - multiplayer-hub
       - multiplayer-matchmaking-queue
       - multiplayer-how-it-works
+      - multiplayer-how-to-escape
       - multiplayer-crossplay
       - bots-private-lobbies-offline
       - match-length-timer

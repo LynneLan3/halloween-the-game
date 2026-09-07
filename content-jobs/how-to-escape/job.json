@@ -5,8 +5,8 @@
   "lifecycle": "LAUNCH",
   "suggested_path": "/multiplayer/how-to-escape/",
   "source_authority": "Research Handoff — How to Escape Haddonfield.md (2026-09-07) + supplied Sep 7 delta",
-  "writer_status": "NOT_READY",
-  "writer_gate": "BLOCKED_PENDING_CURRENT_BUILD_GAMEPLAY_EVIDENCE",
+  "writer_status": "READY_FAST_VERIFIED",
+  "writer_gate": "FAST_VERIFIED_BOUNDARY_ACCEPTED",
   "intent": {
     "primary_query": "how to escape haddonfield",
     "player_task": "Given the item or exit found in this match, choose the next escape action, understand the visible cue, keep the right items, evacuate residents, and decide whether the route is worth pursuing.",
@@ -55,5 +55,5 @@
     "NPC resident command and evacuation behavior.",
     "Direct capacity/use-limit evidence."
   ],
-  "blocking_reason": "The supplied handoff labels route recipes and capacity as candidate claims, and no current-build multiplayer gameplay capture is available locally. Writer must not convert them into universal mechanics."
+  "blocking_reason": "None for FAST_VERIFIED publication. Direct evidence and current multi-source corroboration may ship with explicit UNKNOWN boundaries; Writer must not convert corroborated reports into universal mechanics."
 }

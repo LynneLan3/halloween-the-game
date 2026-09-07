@@ -525,7 +525,40 @@ export const siteConfig: GameConfig = {
 					type: "related",
 				},
 				{
+					pageId: "multiplayer-how-to-escape",
+					type: "next-step",
+				},
+				{
 					pageId: "progression-perks",
+					type: "related",
+				},
+			],
+			sources: [
+			],
+			evidence: [
+			],
+		},
+		{
+			id: "multiplayer-how-to-escape",
+			slug: "multiplayer/how-to-escape",
+			role: "core",
+			assetType: "article",
+			intents: ["how-to-escape-haddonfield"],
+			relations: [
+				{
+					pageId: "multiplayer-hub",
+					type: "related",
+				},
+				{
+					pageId: "multiplayer-how-it-works",
+					type: "related",
+				},
+				{
+					pageId: "michael-myers-how-to-arrest",
+					type: "next-step",
+				},
+				{
+					pageId: "maps-hub",
 					type: "related",
 				},
 			],
@@ -1142,6 +1175,14 @@ export const siteConfig: GameConfig = {
 					image: "covers/gameplay/rachel-gameplay.png",
 				},
 				{
+					pageId: "multiplayer-how-to-escape",
+					href: "/multiplayer/how-to-escape/",
+					title: "Halloween The Game Escape Routes — Car, Cellar, Gate & Police Wagon",
+					description: "Fast-verified multiplayer escape decision guide: what to do after finding a Sedan, Storm Cellar, Outer Gate, or Police Wagon cue, with current Early Access unknowns preserved.",
+					eyebrow: "Escape Guide",
+					image: "covers/gameplay/rachel-gameplay.png",
+				},
+				{
 					pageId: "multiplayer-crossplay",
 					href: "/multiplayer/crossplay/",
 					title: "Halloween: The Game Crossplay — What Is Officially Confirmed",
@@ -1180,10 +1221,10 @@ export const siteConfig: GameConfig = {
 					href: "/multiplayer/matchmaking-queue/",
 				},
 				{
-					question: "Does Halloween: The Game support crossplay?",
-					answer: "Cross-platform multiplayer is indicated on Xbox; full pairing matrix is launch verification pending.",
-					pageId: "multiplayer-crossplay",
-					href: "/multiplayer/crossplay/",
+					question: "Which escape should I pursue?",
+					answer: "Use the current match HUD/objective: Sedan, Storm Cellar, Outer Gate, and Police Wagon routes have different reported requirements, while exact capacity and some interaction details remain unknown.",
+					pageId: "multiplayer-how-to-escape",
+					href: "/multiplayer/how-to-escape/",
 				},
 			],
 		},
