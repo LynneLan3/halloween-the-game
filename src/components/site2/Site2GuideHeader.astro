@@ -19,6 +19,7 @@ const guideSlug = String(data.slug ?? entry.id ?? '').replace(/^\/+|\/+$/g, '');
 const evidenceWideSlugs = new Set([
 	'how-to-arrest-michael-myers',
 	'michael-myers/abilities',
+	'single-player',
 ]);
 const evidenceWide = evidenceWideSlugs.has(guideSlug);
 const compactBottom = guideSlug === 'michael-myers/abilities';

@@ -70,7 +70,7 @@ In the successful runs reviewed:
 2. Follow the power/gate progression cue.
 3. Continue toward the station wagon.
 
-![Michael reaches the station wagon route at the end of the observed Prologue sequence](../../../assets/evidence/single-player-growth/v01-prologue-1505-frame.webp)
+<a class="single-player-evidence-link" href="/evidence/single-player-growth/v01-prologue-1505-frame.webp" target="_blank" rel="noreferrer"><img class="single-player-evidence-image" src="/evidence/single-player-growth/v01-prologue-1505-frame.webp" alt="Michael reaches the station wagon route at the end of the observed Prologue sequence" width="3840" height="2160" loading="lazy" decoding="async" /></a>
 
 *Prologue station-wagon route state.*
 
@@ -80,7 +80,7 @@ In the successful runs reviewed:
 2. Follow the red/noise tracking segments.
 3. Continue toward the mechanic progression state.
 
-![The observed Chapter 1 sequence reaches the mechanic progression state](../../../assets/evidence/single-player-growth/v01-ch1-3220-frame.webp)
+<a class="single-player-evidence-link" href="/evidence/single-player-growth/v01-ch1-3220-frame.webp" target="_blank" rel="noreferrer"><img class="single-player-evidence-image" src="/evidence/single-player-growth/v01-ch1-3220-frame.webp" alt="The observed Chapter 1 sequence reaches the mechanic progression state" width="3840" height="2160" loading="lazy" decoding="async" /></a>
 
 *Chapter 1 mechanic progression state.*
 
@@ -97,7 +97,7 @@ In the successful runs reviewed:
 2. Complete the house/flashback material.
 3. Continue to later neighborhood objectives.
 
-![Michael inside the Myers House during the observed Chapter 3 sequence](../../../assets/evidence/single-player-growth/v01-ch3-7224-frame.webp)
+<a class="single-player-evidence-link" href="/evidence/single-player-growth/v01-ch3-7224-frame.webp" target="_blank" rel="noreferrer"><img class="single-player-evidence-image" src="/evidence/single-player-growth/v01-ch3-7224-frame.webp" alt="Michael inside the Myers House during the observed Chapter 3 sequence" width="3840" height="2160" loading="lazy" decoding="async" /></a>
 
 *Myers House sequence in Chapter 3.*
 
@@ -107,7 +107,7 @@ In the successful runs reviewed:
 2. Continue through the observed Bob/Lynda states.
 3. Follow the later event-chain progression toward the Laurie phase.
 
-![The Wallace House is the active objective during the observed Chapter 4 route](../../../assets/evidence/single-player-growth/f07-correct-frame.webp)
+<a class="single-player-evidence-link" href="/evidence/single-player-growth/f07-correct-frame.webp" target="_blank" rel="noreferrer"><img class="single-player-evidence-image" src="/evidence/single-player-growth/f07-correct-frame.webp" alt="The Wallace House is the active objective during the observed Chapter 4 route" width="3840" height="2160" loading="lazy" decoding="async" /></a>
 
 *Wallace House objective in Chapter 4.*
 
@@ -138,7 +138,7 @@ Observed footage (timestamped): approximately 26:00–26:15 in the referenced ga
 - Unknowns (do not assume numbers): the exact Bloodthirsty level required, the target-health threshold the Resident must be at, which execution prompt must be selected, and whether the challenge panel will register on-screen after an execution are all UNKNOWN based on the supplied evidence.
 - Actionable takeaway: if you intend to pursue this challenge, focus on building Bloodlust and watching for the Weapon Execution prompt; do not assume a specific numeric Bloodthirsty value will be required.
 
-![Weapon Execution is available while the Bloodthirst-required cue is visible on a Resident](../../../assets/evidence/chapter-4-challenges/c4-bloodlust-weapon-execution.webp)
+<a class="single-player-evidence-link" href="/evidence/chapter-4-challenges/c4-bloodlust-weapon-execution.webp" target="_blank" rel="noreferrer"><img class="single-player-evidence-image" src="/evidence/chapter-4-challenges/c4-bloodlust-weapon-execution.webp" alt="Weapon Execution is available while the Bloodthirst-required cue is visible on a Resident" width="3840" height="2160" loading="lazy" decoding="async" /></a>
 
 *Weapon Execution state with the Bloodthirst-required cue in the observed Chapter 4 run.*
 
@@ -157,7 +157,7 @@ Important reproduction notes:
 - If the pair separate before you reach the stalk level target, that is a STATE_WINDOW_MISSED — restart the sequence from the closet vantage and repeat.
 - If both reach the reported stalk level but the challenge does not register, consider ROUTE_ERROR (missed step earlier in the chain) or POSSIBLE_EA_TRACKING_ISSUE; capture your build/platform and the HUD/challenge-panel state for reporting.
 
-![The Challenge 5 panel and living-room stalk view are visible while observing Bob and Lynda](../../../assets/evidence/chapter-4-challenges/c5-bob-lynda-stalk.webp)
+<a class="single-player-evidence-link" href="/evidence/chapter-4-challenges/c5-bob-lynda-stalk.webp" target="_blank" rel="noreferrer"><img class="single-player-evidence-image" src="/evidence/chapter-4-challenges/c5-bob-lynda-stalk.webp" alt="The Challenge 5 panel and living-room stalk view are visible while observing Bob and Lynda" width="3840" height="2160" loading="lazy" decoding="async" /></a>
 
 *Challenge 5 panel and living-room stalk view in the observed run.*
 
@@ -181,7 +181,7 @@ Late-state troubleshooting focus (why runs fail to register):
 - If Laurie uses a non-canonical closet or the final attack/cutscene does not play, this is commonly reproduced as a STATE_WINDOW_MISSED or AI-timing variance. In those cases, replay the chapter from the start and re-run the ordered steps, ensuring each earlier cutscene/dialogue completes before moving forward.
 - If you perform every ordered step above and the chapter completes without the challenge checking, treat the run as a POSSIBLE_EA_TRACKING_ISSUE. Record platform, full build/hotfix version, whether the challenge HUD flashed, whether the in-game challenge panel showed completion, and the exact sequence/timestamps before reporting.
 
-![Laurie's upstairs closet is marked while the objective to kill Laurie before she calls for help is active](../../../assets/evidence/chapter-4-challenges/c6-laurie-closet-late-state.webp)
+<a class="single-player-evidence-link" href="/evidence/chapter-4-challenges/c6-laurie-closet-late-state.webp" target="_blank" rel="noreferrer"><img class="single-player-evidence-image" src="/evidence/chapter-4-challenges/c6-laurie-closet-late-state.webp" alt="Laurie's upstairs closet is marked while the objective to kill Laurie before she calls for help is active" width="3840" height="2160" loading="lazy" decoding="async" /></a>
 
 *Laurie late-state cue: the objective remains active as the upstairs closet is marked.*
 
@@ -224,11 +224,11 @@ Source evidence: CovoCava Early Access gameplay (Chapter 4 segment approx. 26:52
 2. Follow the escape objective when it appears.
 3. In VIDEO-02, the observed run reaches a train-track escape branch. This is run-specific evidence, not a universal ending requirement.
 
-![The escape objective is active in the observed Chapter 5 run](../../../assets/evidence/single-player-growth/v02-ch5-esc-frame.webp)
+<a class="single-player-evidence-link" href="/evidence/single-player-growth/v02-ch5-esc-frame.webp" target="_blank" rel="noreferrer"><img class="single-player-evidence-image" src="/evidence/single-player-growth/v02-ch5-esc-frame.webp" alt="The escape objective is active in the observed Chapter 5 run" width="3840" height="2160" loading="lazy" decoding="async" /></a>
 
 *Chapter 5 escape objective.*
 
-![The observed run commits to the train-track escape branch](../../../assets/evidence/single-player-growth/v02-ch5-rail-frame.webp)
+<a class="single-player-evidence-link" href="/evidence/single-player-growth/v02-ch5-rail-frame.webp" target="_blank" rel="noreferrer"><img class="single-player-evidence-image" src="/evidence/single-player-growth/v02-ch5-rail-frame.webp" alt="The observed run commits to the train-track escape branch" width="3840" height="2160" loading="lazy" decoding="async" /></a>
 
 *Chapter 5 train-track escape branch.*
 
