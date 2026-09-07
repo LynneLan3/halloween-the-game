@@ -1,0 +1,67 @@
+{
+  "schema_version": "launch-video-evidence-verification-v1",
+  "verification_scope": "Only the four newly supplied sources; prior failed sources were not rescanned",
+  "base_commit": "3e132f2",
+  "sources": [
+    {
+      "video_id": "TCjNia55Gdk",
+      "title": "How To ESCAPE in Halloween: The Game",
+      "role": "PRIMARY",
+      "duration_sec": 345,
+      "actual_max_format": "640x360",
+      "captions": false,
+      "chapters": false,
+      "keyword_windows": [],
+      "result": "NO_TARGETABLE_WINDOWS"
+    },
+    {
+      "video_id": "OJEEIfTNoH8",
+      "title": "1 Hour of Spooky & Immersive Civilian Gameplay",
+      "role": "SECONDARY",
+      "duration_sec": 3711,
+      "actual_max_format": "640x360",
+      "captions": true,
+      "chapters": ["0:00 Match 1", "15:54 Match 2", "31:12 Match 3", "43:03 Match 4"],
+      "keyword_windows": [
+        {"timestamp":"12:49-12:51","terms":["car"],"result":"irrelevant police/context speech; no route interaction"}
+      ],
+      "result": "NO_ROUTE_EVIDENCE"
+    },
+    {
+      "video_id": "BvJqbltfUoE",
+      "title": "1 Hour of Spooky & Immersive Civilian Gameplay",
+      "role": "SECONDARY",
+      "duration_sec": 3697,
+      "actual_max_format": "640x360",
+      "captions": false,
+      "chapters": ["0:00 Match 1", "13:33 Match 2", "29:09 Match 3", "41:24 Match 4"],
+      "keyword_windows": [],
+      "result": "NO_TARGETABLE_WINDOWS"
+    },
+    {
+      "video_id": "0FVK7EfBTX0",
+      "title": "Halloween: The Game Full Gameplay Walkthrough",
+      "role": "SECONDARY",
+      "duration_sec": 4523,
+      "actual_max_format": "640x360",
+      "captions": true,
+      "chapters": false,
+      "keyword_windows": [
+        {"timestamp":"19:53-19:56","terms":["escape"],"result":"single-player Smith's Grove story context; excluded"}
+      ],
+      "result": "NO_MULTIPLAYER_ROUTE_EVIDENCE"
+    }
+  ],
+  "route_results": {
+    "sedan": "NO_DIRECT_HUD_OR_GAMEPLAY_EVIDENCE",
+    "storm_cellar": "NO_DIRECT_HUD_OR_GAMEPLAY_EVIDENCE",
+    "outer_gate": "NO_DIRECT_HUD_OR_GAMEPLAY_EVIDENCE",
+    "police_wagon": "NO_NEW_ENTRY_OR_COMPLETION_EVIDENCE",
+    "capacity": "UNKNOWN"
+  },
+  "publication_media": {
+    "new_assets": [],
+    "reason": "No source reached confirmed high-resolution availability and no targetable route interaction window was found; no capture generated."
+  },
+  "ready_for_writer": false
+}

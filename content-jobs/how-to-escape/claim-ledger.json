@@ -43,6 +43,10 @@
     {"source":"PxZSKCrdhrs","timestamps":"4:36-4:39; 8:56-8:59","result":"DIRECT_SCOPED_SUPPORT","observed":"Narration associates Repair Kit with car battery/car repair; no HUD prompt, Fuel, Sedan Keys, interaction order, drive result, or waypoint is shown."},
     {"source":"PxZSKCrdhrs","timestamps":"5:42-5:44; 9:04-9:06","result":"DIRECT_SCOPED_SUPPORT","observed":"Narration places NPC escapes on map outskirts and advises leading residents to an escape after preparation; no resident command/entry UI is shown."},
     {"source":"PxZSKCrdhrs","timestamps":"term scan","result":"NO_DIRECT_VARIANT_HIT","observed":"No transcript hit for chains, boards, padlock, bolt cutters, fuse, sedan keys, fuel/gasoline, waypoint, or capacity."},
-    {"source":"T6J48peYDbI","timestamps":"index/transcript","result":"NO_TARGETABLE_HITS","observed":"Index available at 640x360; no English captions or chapters were available, so no blind full-video scan was performed."}
+    {"source":"T6J48peYDbI","timestamps":"index/transcript","result":"NO_TARGETABLE_HITS","observed":"Index available at 640x360; no English captions or chapters were available, so no blind full-video scan was performed."},
+    {"source":"TCjNia55Gdk","timestamps":"index/transcript","result":"NO_TARGETABLE_HITS","observed":"Primary source resolved at 640x360; no English captions or chapters were available, so no blind scan was performed."},
+    {"source":"OJEEIfTNoH8","timestamps":"12:49-12:51","result":"IRRELEVANT_HIT","observed":"The only target-term transcript hit was generic spoken 'car' in a police/context sentence; no Sedan, Cellar, Gate, Wagon, or resident-escape interaction window."},
+    {"source":"BvJqbltfUoE","timestamps":"chapters only","result":"NO_TARGETABLE_HITS","observed":"Four match chapters were available but no English captions; chapter titles did not identify route interactions, so no blind scan was performed."},
+    {"source":"0FVK7EfBTX0","timestamps":"19:53-19:56","result":"IRRELEVANT_HIT","observed":"'Escape' hit belongs to single-player Smith's Grove story narration, not multiplayer escape evidence; no route claim used."}
   ]
 }

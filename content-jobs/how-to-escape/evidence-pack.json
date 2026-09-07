@@ -59,7 +59,11 @@
     {"evidence_id":"ev-he-arrest-police-wagon","source_class":"VIDEO_REUSED","source_ref":"content-jobs/arrest-michael-myers/evidence-pack.json","supports_claims":["HE-007"],"limitations":"Police Wagon HUD is reused from the Arrest owner; it does not prove the escape unlock threshold or escape capacity."},
     {"evidence_id":"ev-he-research-candidates","source_class":"RESEARCH_HANDOFF","source_ref":"content-jobs/how-to-escape/research-handoff.md","supports_claims":["HE-004","HE-005","HE-006","HE-008","HE-009","HE-010","HE-011","HE-012"],"limitations":"Candidate/conflict input only; no current-build direct prompt capture."},
     {"evidence_id":"ev-he-primary-escape-spawns","source_class":"VIDEO","source_ref":"https://www.youtube.com/watch?v=PxZSKCrdhrs","supports_claims":["HE-003","HE-013","HE-014"],"summary":"DeftyConch escape-location/spawn analysis; transcript and targeted 640x360 source-native windows reviewed at 0:26-0:58, 1:10-2:22, 4:36-4:39, 5:42-5:44, 8:56-8:59, and 9:04-9:06.","limitations":"Narration/slides and map diagrams; no direct Sedan/Cellar/Gate interaction HUD; source-scoped observational counts only."},
-    {"evidence_id":"ev-he-secondary-survivor-gameplay","source_class":"VIDEO","source_ref":"https://www.youtube.com/watch?v=T6J48peYDbI","supports_claims":[],"summary":"Index completed at 640x360; no English captions or chapters available for target-term windows.","limitations":"No claims upgraded; no blind full-video scan performed."}
+    {"evidence_id":"ev-he-secondary-survivor-gameplay","source_class":"VIDEO","source_ref":"https://www.youtube.com/watch?v=T6J48peYDbI","supports_claims":[],"summary":"Index completed at 640x360; no English captions or chapters available for target-term windows.","limitations":"No claims upgraded; no blind full-video scan performed."},
+    {"evidence_id":"ev-he-primary-escape-howto","source_class":"VIDEO","source_ref":"https://www.youtube.com/watch?v=TCjNia55Gdk","supports_claims":[],"summary":"Primary source indexed at 640x360; no English captions or chapters available.","limitations":"No targetable windows; no blind scan and no publication capture."},
+    {"evidence_id":"ev-he-secondary-civilian-oj","source_class":"VIDEO","source_ref":"https://www.youtube.com/watch?v=OJEEIfTNoH8","supports_claims":[],"summary":"Indexed at 640x360 with English captions and four match chapters; only target-term hit was irrelevant generic 'car' context at 12:49-12:51.","limitations":"No Sedan/Cellar/Gate/Wagon interaction evidence."},
+    {"evidence_id":"ev-he-secondary-civilian-bv","source_class":"VIDEO","source_ref":"https://www.youtube.com/watch?v=BvJqbltfUoE","supports_claims":[],"summary":"Indexed at 640x360 with four match chapters but no English captions.","limitations":"No targetable route anchors; no blind scan."},
+    {"evidence_id":"ev-he-secondary-story-walkthrough","source_class":"VIDEO","source_ref":"https://www.youtube.com/watch?v=0FVK7EfBTX0","supports_claims":[],"summary":"Indexed at 640x360 with English captions; escape hits are single-player Smith's Grove story context.","limitations":"Not multiplayer route evidence; no claims upgraded."}
   ],
   "video_evidence": [
     {"video_evidence_id":"ve-bpj83-escape-discovery","source_url":"https://www.youtube.com/watch?v=BPJ83MKWJuc","timestamp":"4:17-4:19","claim_id":"HE-001","what_it_proves":"Official narration: several possible randomized escapes are located around the map.","capture_method":"CAPTIONS_PLUS_TARGETED_FRAME_SCAN","capture_status":"CAPTURED","selected_or_rejected":"REJECTED","publication_qa":{"publication_status":"REJECT","reason":"Available source-native capture resolved at 640x360; transcript supports the claim but frame is not publication-grade."}},
@@ -76,6 +80,13 @@
   "verification_log_ref": "content-jobs/how-to-escape/claim-ledger.json",
   "publication_visual_status": "NOT_READY",
   "production_visual_status": "NOT_APPLICABLE_PENDING_PUBLICATION",
+  "verification_run": {
+    "commit_base": "3e132f2",
+    "sources_processed": ["TCjNia55Gdk","OJEEIfTNoH8","BvJqbltfUoE","0FVK7EfBTX0"],
+    "source_resolution_result": "All four metadata/index flows resolved maximum available format as 640x360; web 4K labels were not confirmed by yt-dlp metadata.",
+    "new_publication_assets": [],
+    "ready_for_writer": false
+  },
   "human_capture_tasks": [
     "Current-build multiplayer capture for every route/item sequence and visible cue.",
     "Capacity/use-limit reproduction across multiple matches.",
