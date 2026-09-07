@@ -1,0 +1,30 @@
+{
+  "intent_id": "intent-halloween-how-to-escape-001",
+  "primaryQuery": "how to escape haddonfield",
+  "queryCluster": [
+    "how to escape haddonfield",
+    "how to escape halloween the game",
+    "halloween the game escape routes",
+    "halloween the game cellar sedan outer gate",
+    "why is my escape not showing on the map"
+  ],
+  "userJob": "Given the item or exit found in this match, know what to do next, what cue to expect, how to recover when the route is not visible, how to evacuate residents, and whether to commit to the route.",
+  "serpPromise": "A current-build decision guide organized as item/exit found -> next action, with route-specific requirements, visible cues, recovery guidance, resident evacuation, and explicit unknowns.",
+  "intentOwnerStatus": "KEEP",
+  "requiredAnswers": [
+    "Current route families",
+    "Storm Cellar variants",
+    "Outer Gate requirements",
+    "Sedan requirements and order",
+    "Police Wagon visible unlock cue",
+    "Map-marker/discovery behavior",
+    "NPC evacuation behavior",
+    "Capacity/use limits"
+  ],
+  "outOfScope": [
+    "Arrest mechanic walkthrough",
+    "Unverified fixed capacity",
+    "Unverified fixed route spawns or geometry",
+    "Universalizing current-build troubleshooting reports"
+  ]
+}

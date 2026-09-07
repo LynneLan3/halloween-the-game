@@ -1,0 +1,29 @@
+{
+  "schema_version": "launch-content-claim-ledger-v1",
+  "ledger_id": "cl-halloween-how-to-escape-001",
+  "status": "OPEN_CAPTURE_REQUIRED",
+  "source_authority": [
+    "Research Handoff — How to Escape Haddonfield.md",
+    "supplied Sep 7 research delta",
+    "existing local multiplayer and arrest evidence packs"
+  ],
+  "claims": [
+    {"claim_id":"HE-001","claim":"Multiplayer escape options and required item locations vary between matches.","evidence_status":"OFFICIAL_REUSED","evidence_refs":["multiplayer-how-it-works","official-multiplayer-overview"],"known_unknown":false},
+    {"claim_id":"HE-002","claim":"Starting an escape sequence creates major noise and alerts Michael to the location.","evidence_status":"OFFICIAL_REUSED","evidence_refs":["official-multiplayer-overview"],"known_unknown":false},
+    {"claim_id":"HE-003","claim":"Storm Cellar/Cellar, Sedan/Car, Outer Gate/Escape Fence, and Police Wagon are candidate current-build route families.","evidence_status":"RESEARCH_CANDIDATE","evidence_refs":["research-handoff"],"known_unknown":true},
+    {"claim_id":"HE-004","claim":"Storm Cellar blockers and follow-up tools vary by cellar; exact variants need direct prompt evidence.","evidence_status":"RESEARCH_CANDIDATE","evidence_refs":["research-handoff"],"known_unknown":true},
+    {"claim_id":"HE-005","claim":"Outer Gate candidate recipe is Fuse plus either Key or Bolt Cutter.","evidence_status":"RESEARCH_CANDIDATE","evidence_refs":["research-handoff"],"known_unknown":true},
+    {"claim_id":"HE-006","claim":"Sedan candidate requirements are Fuel, Repair Kit, and Sedan Key; interaction order and failure behavior are unverified.","evidence_status":"RESEARCH_CANDIDATE","evidence_refs":["research-handoff"],"known_unknown":true},
+    {"claim_id":"HE-007","claim":"Existing local Arrest evidence shows a POLICE WAGON CALLED HUD cue and police arrival countdown.","evidence_status":"VIDEO_OBSERVED_REUSED","evidence_refs":["content-jobs/arrest-michael-myers/evidence-pack.json"],"known_unknown":false},
+    {"claim_id":"HE-008","claim":"The exact Police Wagon escape unlock threshold is unknown.","evidence_status":"UNKNOWN","evidence_refs":[],"known_unknown":true},
+    {"claim_id":"HE-009","claim":"Route discovery, destination-marker behavior, and reasons a route may not appear on the map are unknown.","evidence_status":"UNKNOWN","evidence_refs":[],"known_unknown":true},
+    {"claim_id":"HE-010","claim":"Warned residents can be directed toward escape objectives; exact command and completion behavior require current-build capture.","evidence_status":"MECHANISM_OFFICIAL_EXACT_BEHAVIOR_UNKNOWN","evidence_refs":["official-multiplayer-overview","research-handoff"],"known_unknown":true},
+    {"claim_id":"HE-011","claim":"Exact exit capacity/use limits are unknown; do not publish fixed 3/4/5 values.","evidence_status":"CONFLICTING_UNKNOWN","evidence_refs":["research-handoff"],"known_unknown":true},
+    {"claim_id":"HE-012","claim":"Sedan destination marker missing and Cellar boards/Fire Axe interaction failures are current-build observed reports only.","evidence_status":"PLAYER_REPORTED_TROUBLESHOOTING_ONLY","evidence_refs":["supplied-sep-7-delta"],"known_unknown":true}
+  ],
+  "capture_tasks": [
+    "Capture source-native prompt/state/next-action frames for Cellar variants, Outer Gate variants, Sedan sequence, Police Wagon escape, map marker, and resident evacuation.",
+    "Run enough current-build matches to test capacity/use behavior without converting a single run into a universal rule.",
+    "Preserve source-native originals and bind each selected frame to one claim/state/next action."
+  ]
+}

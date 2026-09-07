@@ -1,0 +1,59 @@
+{
+  "pack_id": "ep-halloween-how-to-escape-001",
+  "article_type": "REFERENCE",
+  "article_decision": "NEW",
+  "lifecycle": "LAUNCH",
+  "suggested_path": "/multiplayer/how-to-escape/",
+  "source_authority": "Research Handoff — How to Escape Haddonfield.md (2026-09-07) + supplied Sep 7 delta",
+  "writer_status": "NOT_READY",
+  "writer_gate": "BLOCKED_PENDING_CURRENT_BUILD_GAMEPLAY_EVIDENCE",
+  "intent": {
+    "primary_query": "how to escape haddonfield",
+    "player_task": "Given the item or exit found in this match, choose the next escape action, understand the visible cue, keep the right items, evacuate residents, and decide whether the route is worth pursuing.",
+    "intent_class": "REFERENCE_PROCEDURE_DECISION_SUPPORT",
+    "required_answers": [
+      "What route families are actually present in the current build?",
+      "What does each discovered item or exit require next?",
+      "What HUD or map cue should appear?",
+      "Why might an escape fail to appear on the map?",
+      "How do residents evacuate?",
+      "What does Police Wagon unlock look like?",
+      "What capacity or usage limit is directly proven?"
+    ]
+  },
+  "out_of_scope": [
+    "Arresting Michael mechanic details; link to the existing Arrest page",
+    "Bike, garden gate, or trapdoor as separate route families without current-build proof",
+    "Fixed capacity of 3, 4, or 5 without direct gameplay evidence",
+    "Fixed spawn points, guaranteed route spawns, or universal map geometry",
+    "Universal mechanic claims from player-reported Sedan markers or Cellar/Fire Axe interaction failures"
+  ],
+  "existing_content_check": {
+    "status": "NEW_JOB",
+    "checked_paths": [
+      "content-jobs/how-to-escape",
+      "site-input/pages/multiplayer/how-to-escape.md",
+      "src/content/docs/**/how-to-escape*.md"
+    ],
+    "independent_evidence_complete_owner": false,
+    "nearby_non_owner_evidence": [
+      "content-jobs/single-player-growth (single-player escape evidence; not this multiplayer owner)",
+      "content-jobs/arrest-michael-myers (Police Wagon / arrest evidence; reusable alternate objective evidence)"
+    ]
+  },
+  "reused_evidence": [
+    "Official multiplayer overview already used by multiplayer-how-it-works: randomized escape options, resident objective, item/route variability, and noise when starting an escape.",
+    "Existing Arrest Evidence Pack: POLICE WAGON CALLED / police arrival visual cue and Arrest page ownership boundary.",
+    "Existing multiplayer page: residents, search items, police coordination, randomized escape objective framing."
+  ],
+  "new_verification_required": [
+    "Direct current-build prompt for each route family.",
+    "Storm Cellar variants and interaction order.",
+    "Outer Gate Fuse plus Key/Bolt Cutter behavior.",
+    "Sedan Fuel, Repair Kit, Key order and failure behavior.",
+    "Escape-route discovery and map-marker behavior.",
+    "NPC resident command and evacuation behavior.",
+    "Direct capacity/use-limit evidence."
+  ],
+  "blocking_reason": "The supplied handoff labels route recipes and capacity as candidate claims, and no current-build multiplayer gameplay capture is available locally. Writer must not convert them into universal mechanics."
+}

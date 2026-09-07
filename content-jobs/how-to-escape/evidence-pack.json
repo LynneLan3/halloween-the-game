@@ -1,0 +1,67 @@
+{
+  "schema_version": "launch-content-evidence-pack-v1",
+  "pack_id": "ep-halloween-how-to-escape-001",
+  "mode": "LAUNCH",
+  "demand_ref": "demand-halloween-how-to-escape-001",
+  "intent_ref": "intent-halloween-how-to-escape-001",
+  "article_type": "REFERENCE",
+  "article_decision": "NEW",
+  "demand_signal": {
+    "demand_id": "demand-halloween-how-to-escape-001",
+    "query": "how to escape haddonfield",
+    "query_cluster": ["how to escape haddonfield", "how to escape halloween the game", "halloween the game escape routes"],
+    "signal_source": "SUPPLIED_RESEARCH_HANDOFF",
+    "observed_at": "2026-09-07",
+    "freshness_class": "LAUNCH_DELTA",
+    "game": "Halloween: The Game"
+  },
+  "publish_readiness": "NOT_READY",
+  "readiness_reason": "Current-build multiplayer gameplay evidence is absent for the route/item matrix and capacity; candidate claims must remain uncertain.",
+  "intent_brief": {
+    "intent_id": "intent-halloween-how-to-escape-001",
+    "query": "how to escape haddonfield",
+    "primaryQuery": "how to escape haddonfield",
+    "player_task": "Given the item or exit found in this match, choose the next escape action, understand the visible cue, keep the right items, evacuate residents, and decide whether to commit to the route.",
+    "playerTask": "Given the item or exit found in this match, choose the next escape action, understand the visible cue, keep the right items, evacuate residents, and decide whether to commit to the route.",
+    "intent_class": "REFERENCE_PROCEDURE_DECISION_SUPPORT",
+    "intentClass": "REFERENCE_PROCEDURE_DECISION_SUPPORT",
+    "required_answers": ["Current route families", "Storm Cellar variants", "Outer Gate requirements", "Sedan requirements and order", "Police Wagon visible unlock cue", "Map-marker/discovery behavior", "NPC evacuation behavior", "Capacity/use limits"],
+    "out_of_scope": ["Arrest mechanic walkthrough", "Unverified fixed capacity", "Unverified fixed route spawns or geometry", "Universalizing current-build troubleshooting reports"]
+  },
+  "unique_contribution": [
+    "Item/exit found -> next action decision layer",
+    "Why an escape may not appear on the map",
+    "Resident evacuation and route commitment guidance",
+    "Explicit current-build and capacity uncertainty boundary"
+  ],
+  "claim_ledger_ref": "content-jobs/how-to-escape/claim-ledger.json",
+  "active_claims": [
+    {"claim_id":"HE-001","claim":"Multiplayer escape options and required item locations vary between matches.","evidence_status":"OFFICIAL_REUSED","evidence_refs":["content-jobs/multiplayer-how-it-works/research.md"]},
+    {"claim_id":"HE-002","claim":"Starting an escape sequence creates major noise and alerts Michael to the location.","evidence_status":"OFFICIAL_REUSED","evidence_refs":["content-jobs/how-to-escape/research-handoff.md"]},
+    {"claim_id":"HE-007","claim":"Existing local Arrest evidence shows a POLICE WAGON CALLED HUD cue and police arrival countdown.","evidence_status":"VIDEO_OBSERVED_REUSED","evidence_refs":["content-jobs/arrest-michael-myers/evidence-pack.json"]}
+  ],
+  "known_unknowns": [
+    "Complete current-build route-family list",
+    "Storm Cellar variants and interaction order",
+    "Outer Gate Fuse plus Key/Bolt Cutter sequence",
+    "Sedan Fuel/Repair Kit/Key interaction order and failure behavior",
+    "Police Wagon escape unlock threshold and escape prompt",
+    "Map marker/discovery behavior",
+    "NPC evacuation command/completion behavior",
+    "Exact capacity/use limit",
+    "Whether reported Sedan marker and Cellar/Fire Axe failures reproduce universally"
+  ],
+  "evidence_items": [
+    {"evidence_id":"ev-he-official-multiplayer","source_class":"OFFICIAL_REUSED","source_ref":"content-jobs/multiplayer-how-it-works/research.md","supports_claims":["HE-001","HE-002"],"limitations":"General objective/randomization foundation; does not prove route recipes or capacity."},
+    {"evidence_id":"ev-he-arrest-police-wagon","source_class":"VIDEO_REUSED","source_ref":"content-jobs/arrest-michael-myers/evidence-pack.json","supports_claims":["HE-007"],"limitations":"Police Wagon HUD is reused from the Arrest owner; it does not prove the escape unlock threshold or escape capacity."},
+    {"evidence_id":"ev-he-research-candidates","source_class":"RESEARCH_HANDOFF","source_ref":"content-jobs/how-to-escape/research-handoff.md","supports_claims":["HE-003","HE-004","HE-005","HE-006","HE-008","HE-009","HE-010","HE-011","HE-012"],"limitations":"Candidate/conflict input only; no current-build direct prompt capture."}
+  ],
+  "video_evidence": [],
+  "publication_visual_status": "NOT_READY",
+  "production_visual_status": "NOT_APPLICABLE_PENDING_PUBLICATION",
+  "human_capture_tasks": [
+    "Current-build multiplayer capture for every route/item sequence and visible cue.",
+    "Capacity/use-limit reproduction across multiple matches.",
+    "Map-marker missing-state reproduction and resident evacuation state."
+  ]
+}
