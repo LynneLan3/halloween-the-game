@@ -17,7 +17,7 @@
   "interventions": [
     {
       "interventionId": "halloween-the-game|chapter-5-challenges|single-player-chapter-5-challenges",
-      "action": "NEW_PAGE",
+      "action": "CONTENT_EXPAND",
       "primaryUrl": "/single-player/chapter-5-challenges/",
       "affectedUrls": [
         "/single-player/chapter-5-challenges/"
