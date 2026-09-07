@@ -1,0 +1,51 @@
+{
+  "schema_version": "launch-evidence-pack-v1",
+  "job_id": "halloween-chapter-5-challenges-20260907",
+  "target": "/single-player/chapter-5-challenges/",
+  "lifecycle": {"state": "EVIDENCE_INCOMPLETE", "next": "STOP_SOURCE_REQUIRED"},
+  "primary_player_task": "LIVE_TROUBLESHOOTING",
+  "article_decision": "NEW_PENDING_EVIDENCE",
+  "research_handoff_ref": "content-jobs/chapter-5-challenges/research-handoff.md",
+  "claim_ledger_ref": "content-jobs/chapter-5-challenges/claim-ledger.json",
+  "source_registry": [
+    {"evidence_id": "o1-hotfix-1", "source_class": "OFFICIAL", "source_role": "OFFICIAL_BUILD_BOUNDARY", "source_ref": "https://halloweengame.com/news/early-access-hotfix-1/", "captured_at": "2026-09-07", "supports_claims": ["c5-001"], "summary": "Hotfix 1 fixed several challenge-tracking issues; further fixes were still being prepared.", "limitations": "Does not name Chapter 5 Challenge 6 or guarantee all challenge tracking is fixed."},
+    {"evidence_id": "c1-destructoid-c5", "source_class": "COMPETITOR", "source_role": "COMPETITOR_CANDIDATE", "source_ref": "https://www.destructoid.com/all-chapter-5-challenges-in-halloween-the-game-and-how-to-complete-them/", "captured_at": "2026-09-06", "supports_claims": ["c5-004", "c5-005"], "summary": "Candidate Chapter 5 list says Challenge 6 is destroying any police car before escape.", "limitations": "Candidate mechanic only; no direct gameplay authority."},
+    {"evidence_id": "c2-allthingshow-c5", "source_class": "COMPETITOR", "source_role": "COMPETITOR_CORROBORATION", "source_ref": "https://allthings.how/halloween-the-game-how-to-complete-every-chapter-5-challenge/", "captured_at": "2026-09-07", "supports_claims": ["c5-004", "c5-005"], "summary": "Candidate Chapter 5 list recommends destroying a parked patrol car before escape.", "limitations": "Candidate mechanic only; conflicts with player reports."},
+    {"evidence_id": "c3-steam-shakes-c5", "source_class": "COMMUNITY_GUIDE", "source_role": "COMPETITOR_CONFLICT", "source_ref": "https://steamcommunity.com/app/3219630/guides/", "captured_at": "2026-09-07", "supports_claims": ["c5-005"], "summary": "Visible guide summary describes Chapter 5 Challenge 6 as movie-accurate.", "limitations": "Conflicts with two Chapter 5 challenge lists; not UI authority."},
+    {"evidence_id": "r1-police-car-failure", "source_class": "COMMUNITY", "source_role": "COMMUNITY_CANDIDATE", "source_ref": "https://www.reddit.com/r/TheHalloweenGame/comments/1w89l64/trouble_with_challenge/", "captured_at": "2026-09-07", "supports_claims": ["c5-004"], "summary": "Repeated failure after destroying a police car and escaping; a follow-up reports success after random plus north/train-track cars.", "limitations": "Player report; cannot establish target rule or distinguish tracking failure."},
+    {"evidence_id": "r2-moving-car-claim", "source_class": "COMMUNITY", "source_role": "PRIORITY_CONFLICT", "source_ref": "https://www.reddit.com/r/TheHalloweenGame/comments/1w97b44/officer_hawkins_tell_me_what_happened_in_here/", "captured_at": "2026-09-07", "supports_claims": ["c5-004"], "summary": "Player claims the required car is driven by police.", "limitations": "Conflicts with competitor candidates and is not direct proof."},
+    {"evidence_id": "v1-ch5-police-015830", "source_class": "VIDEO", "source_role": "PRIMARY_DIRECT_GAMEPLAY", "source_ref": "https://www.youtube.com/watch?v=SR3vu4G0t1Q", "captured_at": "2026-09-07", "timestamp": "01:58:30", "supports_claims": ["c5-004", "c5-005"], "summary": "Targeted Chapter 5 window shows officer interaction and BREAK OFF THE TRACKS objective, without Challenge UI or police-car sequence.", "limitations": "640×360; no Challenge 6 target, destruction, completion, or save cue."},
+    {"evidence_id": "v1-ch5-stalk-020040", "source_class": "VIDEO", "source_role": "PRIMARY_DIRECT_GAMEPLAY", "source_ref": "https://www.youtube.com/watch?v=SR3vu4G0t1Q", "captured_at": "2026-09-07", "timestamp": "02:00:40", "supports_claims": ["c5-002", "c5-004", "c5-005"], "summary": "Targeted Chapter 5 window visibly displays Fully Stalked Police after a police interaction.", "limitations": "640×360; no Challenge list, police-car sequence, Challenge 6 completion, or save cue."},
+    {"evidence_id": "v2-shirrako-metadata", "source_class": "VIDEO", "source_role": "SECONDARY_DIRECT_GAMEPLAY", "source_ref": "https://www.youtube.com/watch?v=lbFsmgPv1zU", "captured_at": "2026-09-07", "supports_claims": [], "summary": "Public 4917-second source; current maximum downloadable stream is 640×360/30fps.", "limitations": "No chapters or subtitles; Chapter 5 cannot be located without blind scanning."},
+    {"evidence_id": "v3-rabid-metadata", "source_class": "VIDEO", "source_role": "TERTIARY_DIRECT_GAMEPLAY", "source_ref": "https://www.youtube.com/watch?v=IdFo547v_9w", "captured_at": "2026-09-07", "supports_claims": [], "summary": "Public 17845-second source; current maximum downloadable stream is 640×360/30fps.", "limitations": "No chapters or usable subtitles; Chapter 5 cannot be located without blind scanning."},
+    {"evidence_id": "spg-v2-ch5-escape", "source_class": "VIDEO", "source_role": "INHERITED_DIRECT_GAMEPLAY_CONTEXT", "source_ref": "content-jobs/single-player-growth/video-evidence.json", "timestamp": "01:18:05", "supports_claims": ["c5-003"], "summary": "Existing independent run shows FIND A WAY TO ESCAPE HADDONFIELD.", "limitations": "Escape context only; not Challenge 6 proof."},
+    {"evidence_id": "spg-v2-ch5-rail", "source_class": "VIDEO", "source_role": "INHERITED_DIRECT_GAMEPLAY_CONTEXT", "source_ref": "content-jobs/single-player-growth/video-evidence.json", "timestamp": "01:20:40", "supports_claims": ["c5-003"], "summary": "Existing independent run shows DISCOVER TRAIN TRACKS ESCAPE.", "limitations": "Run-scoped escape branch only; not Challenge 6 proof."}
+  ],
+  "claim_ledger": [
+    {"claim_id": "c5-001", "claim": "Early Access Hotfix 1 fixed several challenge-tracking issues, while further fixes were still being prepared.", "evidence_status": "OFFICIAL", "evidence_refs": ["o1-hotfix-1"], "known_unknown": false},
+    {"claim_id": "c5-002", "claim": "In the targeted V1 Chapter 5 window at 02:00:40, the HUD displays Fully Stalked Police after the player stalks a police target.", "evidence_status": "VIDEO_OBSERVED", "evidence_refs": ["v1-ch5-stalk-020040"], "known_unknown": false, "requirement_class": "OBSERVED_SEQUENCE"},
+    {"claim_id": "c5-003", "claim": "The inherited independent Story run visibly reaches the Chapter 5 escape objective and then a train-track escape branch.", "evidence_status": "VIDEO_OBSERVED", "evidence_refs": ["spg-v2-ch5-escape", "spg-v2-ch5-rail"], "known_unknown": false, "requirement_class": "OBSERVED_SEQUENCE"},
+    {"claim_id": "c5-004", "claim": "The valid Chapter 5 Challenge 6 police-car target and whether destruction registers before escape are unresolved in the current evidence.", "evidence_status": "UNKNOWN", "evidence_refs": ["c1-destructoid-c5", "c2-allthingshow-c5", "r1-police-car-failure", "r2-moving-car-claim", "v1-ch5-police-015830", "v1-ch5-stalk-020040"], "known_unknown": true},
+    {"claim_id": "c5-005", "claim": "The Chapter 5 Challenge 6 exact wording is unresolved because supplied current gameplay did not show the Challenge list, and competitor/Steam descriptions conflict.", "evidence_status": "UNKNOWN", "evidence_refs": ["c1-destructoid-c5", "c2-allthingshow-c5", "c3-steam-shakes-c5", "v1-ch5-police-015830", "v1-ch5-stalk-020040"], "known_unknown": true}
+  ],
+  "video_evidence": [
+    {"video_evidence_id": "ve-v1-c5-stalk", "claim_id": "c5-002", "source_url": "https://www.youtube.com/watch?v=SR3vu4G0t1Q", "timestamp": "02:00:40", "capture_method": "YTDLP_SECTION_FFMPEG", "capture_status": "CAPTURED", "selected_or_rejected": "REJECTED", "what_it_proves": "Fully Stalked Police HUD state in a Chapter 5 police interaction.", "publication_qa": {"publication_status": "REJECT", "reason": "640×360 current source; not publication-grade and not a Challenge completion receipt."}},
+    {"video_evidence_id": "ve-v1-c5-police", "claim_id": "c5-004", "source_url": "https://www.youtube.com/watch?v=SR3vu4G0t1Q", "timestamp": "01:58:30", "capture_method": "YTDLP_SECTION_FFMPEG", "capture_status": "CAPTURED", "selected_or_rejected": "REJECTED", "what_it_proves": "Bounded police/search state only.", "publication_qa": {"publication_status": "REJECT", "reason": "640×360 and no police-car target, destruction, completion, or save state."}}
+  ],
+  "open_evidence_slots": [
+    "Current-build Chapter 5 Challenge list with exact Challenge 6 wording.",
+    "A single direct sequence showing the selected police-car target before damage, including parked versus moving/driven state and location context.",
+    "Damage progression and unambiguous destroyed visual state.",
+    "Visible Challenge 6 completion notification or counter change.",
+    "Escape or chapter-end save state after the completion cue.",
+    "Second direct run if target specificity or tracking behavior is still inconsistent."
+  ],
+  "publish_readiness": "NOT_READY",
+  "ready_for_writer": false,
+  "readiness_reasons": [
+    "The central Challenge 6 answer is an unresolved direct conflict, not an article fact.",
+    "No supplied gameplay source displays Challenge 6 UI, a qualifying car destruction sequence, completion notification, or save state.",
+    "Available current direct captures are 640×360 and are rejected for publication."
+  ],
+  "writer_contract": {"enabled": false, "reason": "Do not invoke APIMart Writer until the central troubleshooting answer has direct current-build support."}
+}

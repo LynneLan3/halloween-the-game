@@ -1,0 +1,53 @@
+{
+  "schema_version": "launch-claim-ledger-v1",
+  "job_id": "halloween-chapter-5-challenges-20260907",
+  "lifecycle": "LAUNCH",
+  "player_task": "LIVE_TROUBLESHOOTING",
+  "target": "/single-player/chapter-5-challenges/",
+  "article_decision": "NEW_PENDING_EVIDENCE",
+  "claim_ledger": [
+    {
+      "claim_id": "c5-001",
+      "claim": "Early Access Hotfix 1 fixed several challenge-tracking issues, while further fixes were still being prepared.",
+      "evidence_status": "OFFICIAL",
+      "evidence_refs": ["o1-hotfix-1"],
+      "applicability": "Official post dated 2026-09-05; no Chapter-5-specific fix is named.",
+      "known_unknown": false
+    },
+    {
+      "claim_id": "c5-002",
+      "claim": "In the targeted V1 Chapter 5 window at 02:00:40, the HUD displays 'Fully Stalked Police' after the player stalks a police target.",
+      "evidence_status": "VIDEO_OBSERVED",
+      "evidence_refs": ["v1-ch5-stalk-020040"],
+      "applicability": "One current 640×360 primary-video run; this is not a Challenge 4 completion receipt.",
+      "known_unknown": false,
+      "requirement_class": "OBSERVED_SEQUENCE"
+    },
+    {
+      "claim_id": "c5-003",
+      "claim": "The inherited independent Story run visibly reaches the Chapter 5 escape objective and then a train-track escape branch.",
+      "evidence_status": "VIDEO_OBSERVED",
+      "evidence_refs": ["spg-v2-ch5-escape", "spg-v2-ch5-rail"],
+      "applicability": "Existing independent run; escape branch only, not Challenge 6 proof.",
+      "known_unknown": false,
+      "requirement_class": "OBSERVED_SEQUENCE"
+    },
+    {
+      "claim_id": "c5-004",
+      "claim": "The valid Chapter 5 Challenge 6 police-car target and whether destruction registers before escape are unresolved in the current evidence.",
+      "evidence_status": "UNKNOWN",
+      "evidence_refs": ["c1-destructoid-c5", "c2-allthingshow-c5", "r1-police-car-failure", "r2-moving-car-claim", "v1-ch5-police-015830", "v1-ch5-stalk-020040"],
+      "applicability": "Current-build conflict; no direct Challenge 6 UI-to-completion sequence.",
+      "known_unknown": true
+    },
+    {
+      "claim_id": "c5-005",
+      "claim": "The Chapter 5 Challenge 6 exact wording is unresolved because supplied current gameplay did not show the Challenge list, and competitor/Steam descriptions conflict.",
+      "evidence_status": "UNKNOWN",
+      "evidence_refs": ["c1-destructoid-c5", "c2-allthingshow-c5", "c3-steam-shakes-c5", "v1-ch5-police-015830", "v1-ch5-stalk-020040"],
+      "applicability": "Current-build UI is the required authority.",
+      "known_unknown": true
+    }
+  ],
+  "active_claims": ["c5-001", "c5-002", "c5-003", "c5-004", "c5-005"]
+}
