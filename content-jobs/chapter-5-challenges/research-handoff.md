@@ -4,7 +4,7 @@ Status: `READY_FOR_WRITER:YES`
 
 V4 status: `FAST_VERIFIED`.
 
-Target player task: diagnose why destroying a police car did not complete Chapter 5 Challenge 6. This is a troubleshooting-first evidence task, not a generic list of six challenges.
+Target player task: provide all six current-build Chapter 5 challenge procedures, with focused troubleshooting for why Challenge 6 may not register. Challenge 6 remains a troubleshooting-first FAST_VERIFIED route, not a universal vehicle rule.
 
 ## Existing evidence reuse
 
@@ -56,6 +56,20 @@ V4 is a dedicated 2:46 Chapter 5 Challenges video, so only the chapter windows a
 
 V4 exact-source metadata: actual source-native `3840×2160/30fps`, 166 seconds, no creator-authored subtitle track, English automatic-caption track available, chapters at `00:00`, `00:09`, `00:28`, `01:04`, `01:29`, `01:49`, and `02:20`; description includes the same six challenge descriptions and timestamps. Publication captures are under `content-jobs/chapter-5-challenges/video-evidence/v4/`; only claim-specific native-resolution frames are selected.
 
+## V4 Challenge 1–5 extraction
+
+The dedicated V4 chapters provide direct, bounded procedures for the first five challenges. They are successful approaches, not claims about every possible route or every internal mechanic.
+
+| Challenge | V4 timestamp | Directly observed procedure and cue | Boundary |
+| --- | --- | --- | --- |
+| 1 | `00:09–00:25` | Draw a few cops together, activate Blackout, then the `CHALLENGE 1 COMPLETE` card appears. | The selected frame confirms completion; the exact internal range and flashlight-state implementation are not isolated. |
+| 2 | `00:28–01:03` | Find a pitchfork, then use a Pitchfork Execution on a cop. The narration says weapon spawns are RNG and recommends Bloodthirst plus first-person stalk to locate weapons. | No fixed pitchfork spawn is established. |
+| 3 | `01:04–01:29` | Check map houses marked with question marks and kill residents; the `CHALLENGE 3 COMPLETE` card appears after the shown route. | The selected frames do not independently count three named kills. |
+| 4 | `01:29–01:44` | Go to Wallace's house, described as the house where Annie was babysitting, find a police target, and stalk to three. The HUD shows `Fully Stalked Police` and the Challenge 4 card. | V1 independently reuses the same HUD cue; no unsupported fixed path is added. |
+| 5 | `01:49–02:20` | Check the map for Loomis's large red smudge, avoid it, follow the waypoint, and complete the level. The post-chapter results screen shows Challenge 5 checked. | Exact detection radius, line of sight, timer, and an in-run Challenge 5 card are not established. |
+
+Publication assets selected from the native 4K source are claim-specific: Challenge 1 completion (`00:25`), Challenge 2 completion with Police Execution HUD (`01:03`), Challenge 3 completion (`01:29`), Challenge 4 Fully Stalked Police cue (`01:44`), and the Challenge 5 map/Loomis cue (`01:59`). No gallery is required.
+
 ## Conflict boundary
 
 The universal valid Challenge 6 target remains `UNKNOWN`, while V4 directly supports one route:
@@ -68,6 +82,10 @@ The universal valid Challenge 6 target remains `UNKNOWN`, while V4 directly supp
 are competing candidate descriptions, not universal game facts. V4 supports the narrower statement: `A parked police car can count in the shown sequence.` It does not test moving/driven, north/train-track, or two-car alternatives, and it provides no failed comparison run.
 
 Destruction boundary: V4 shows intact police-car context, repeated melee hits, and then a post-escape results screen with Challenge 6 checked. It does not visibly establish `smoking` versus `explosion/final destroyed state`, nor whether the check is awarded immediately or only persisted at escape.
+
+## Challenge 6 boundary retained
+
+V4 still supports only the verified successful route: a parked police car at a residential intersection near a stop sign, melee attacks, sewer escape, and a final results screen with Challenge 6 checked. The universal vehicle rule, moving-car behavior, northern/train-track car, two-car requirement, exact destruction visual threshold, internal completion timing, and second reproduction remain `UNKNOWN`.
 
 ## Required next evidence
 
@@ -84,6 +102,6 @@ Return to source discovery only for media that directly shows, in one current-bu
 
 `READY_FOR_WRITER:YES`.
 
-Reason: V4 supplies the six exact UI wordings, Challenge 6 wording, one verified successful parked-car route, escape context, and a post-escape checked result at publication-grade source resolution. Universal vehicle mechanics, exact destruction threshold, and completion-versus-save timing remain UNKNOWN and must stay bounded in the article. Do not seek V5 in this task.
+Reason: V4 now supplies the six exact UI wordings, bounded direct procedures and completion cues for Challenges 1–5, Challenge 6 wording, one verified successful parked-car route, escape context, and a post-escape checked result at publication-grade source resolution. Universal vehicle mechanics, exact destruction threshold, and completion-versus-save timing remain UNKNOWN and must stay bounded in the article. Do not seek V5 in this task.
 
 Writer and page publication are authorized by this `READY_FOR_WRITER:YES` handoff. Keep the article limited to the verified route and the stated UNKNOWN boundaries; do not expand to new source research or a new V5.

@@ -58,7 +58,52 @@
       "applicability": "Direct current-build UI evidence for the all-challenges list.",
       "known_unknown": false,
       "requirement_class": "HARD_REQUIREMENT"
+    },
+    {
+      "claim_id": "c5-007",
+      "claim": "V4 shows Challenge 1 completed after drawing a few cops together and activating Blackout once; exact internal range and flashlight-state mechanics remain unverified.",
+      "evidence_status": "VIDEO_OBSERVED",
+      "evidence_refs": ["v4-deere-ch5-challenges"],
+      "applicability": "Direct V4 chapter and completion-card evidence; do not infer engine-level simultaneous range.",
+      "known_unknown": true,
+      "requirement_class": "OBSERVED_SEQUENCE"
+    },
+    {
+      "claim_id": "c5-008",
+      "claim": "V4 shows Challenge 2 completed after a pitchfork is found and used for a cop execution; weapon spawn is presented as RNG and no fixed location is established.",
+      "evidence_status": "VIDEO_OBSERVED",
+      "evidence_refs": ["v4-deere-ch5-challenges"],
+      "applicability": "Direct successful sequence; do not publish a fixed pitchfork spawn.",
+      "known_unknown": true,
+      "requirement_class": "OBSERVED_SEQUENCE"
+    },
+    {
+      "claim_id": "c5-009",
+      "claim": "V4 shows the question-mark-house resident route and a Challenge 3 completion card; all three individual kills are not independently countable in the selected frames.",
+      "evidence_status": "VIDEO_OBSERVED",
+      "evidence_refs": ["v4-deere-ch5-challenges"],
+      "applicability": "Successful route only; do not name three fixed targets.",
+      "known_unknown": true,
+      "requirement_class": "OBSERVED_SEQUENCE"
+    },
+    {
+      "claim_id": "c5-010",
+      "claim": "V4 shows Wallace's house, a police target, the Fully Stalked Police HUD cue, and Challenge 4 completion; V1 independently shows the same HUD cue.",
+      "evidence_status": "VIDEO_OBSERVED",
+      "evidence_refs": ["v4-deere-ch5-challenges", "v1-ch5-stalk-020040"],
+      "applicability": "Direct route and cue evidence; keep exact fixed path bounded to the observed context.",
+      "known_unknown": false,
+      "requirement_class": "OBSERVED_SEQUENCE"
+    },
+    {
+      "claim_id": "c5-011",
+      "claim": "V4 shows the successful Challenge 5 approach of avoiding the large red Loomis map area, following the waypoint, and completing the level; exact detection mechanics remain unknown.",
+      "evidence_status": "VIDEO_OBSERVED",
+      "evidence_refs": ["v4-deere-ch5-challenges"],
+      "applicability": "Verified approach only; no radius, LOS, or timer claim.",
+      "known_unknown": true,
+      "requirement_class": "OBSERVED_SEQUENCE"
     }
   ],
-  "active_claims": ["c5-001", "c5-002", "c5-003", "c5-004", "c5-005", "c5-006"]
+  "active_claims": ["c5-001", "c5-002", "c5-003", "c5-004", "c5-005", "c5-006", "c5-007", "c5-008", "c5-009", "c5-010", "c5-011"]
 }

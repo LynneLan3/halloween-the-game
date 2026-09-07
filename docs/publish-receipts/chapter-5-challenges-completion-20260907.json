@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "hotword-publish-receipt-v1",
+  "common": {
+    "site": "Halloween: The Game",
+    "siteId": "halloween-the-game",
+    "game": "Halloween: The Game",
+    "batchId": "halloween-the-game|chapter-5-challenges-completion|20260907",
+    "lifecyclePhase": "early-access",
+    "attributionMode": "OBSERVATIONAL_ONLY",
+    "sourceRefs": [
+      "content-jobs/chapter-5-challenges/evidence-pack.json",
+      "content-jobs/chapter-5-challenges/claim-ledger.json",
+      "content-jobs/chapter-5-challenges/research-handoff.md",
+      "site-input/pages/single-player/chapter-5-challenges.md",
+      "V4 direct Challenge 1–5 procedures and FAST_VERIFIED Challenge 6 route"
+    ]
+  },
+  "interventions": [
+    {
+      "interventionId": "halloween-the-game|chapter-5-challenges|single-player-chapter-5-challenges-completion",
+      "action": "CONTENT_EXPAND",
+      "primaryUrl": "/single-player/chapter-5-challenges/",
+      "affectedUrls": [
+        "/single-player/chapter-5-challenges/"
+      ],
+      "reason": "Publish the targeted Writer completion pass for Challenges 1–5 while preserving the FAST_VERIFIED Challenge 6 route and UNKNOWN boundaries.",
+      "triggerType": "operator_request",
+      "triggerSummary": "Production publish after direct V4 Challenge 1–5 extraction and targeted completion pass.",
+      "sourceRefs": [
+        "content-jobs/chapter-5-challenges/evidence-pack.json",
+        "content-jobs/chapter-5-challenges/research-handoff.md"
+      ]
+    }
+  ]
+}
