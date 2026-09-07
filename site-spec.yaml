@@ -606,6 +606,28 @@ pages:
       - pageId: bots-private-lobbies-offline
         type: related
     changeSummary: "CONTENT_EXPANSION — Single Player pillar hub."
+  - id: single-player-chapter-5-challenges
+    title: "Halloween: The Game — All Chapter 5 Challenges and Challenge 6 Troubleshooting"
+    description: "Complete all six Chapter 5 challenges with exact current-build wording, then troubleshoot Challenge 6 with one verified parked-police-car route: melee attack, sewer escape, and results-screen confirmation."
+    category: story-guides
+    slug: single-player/chapter-5-challenges
+    source: site-input/pages/single-player/chapter-5-challenges.md
+    status: needs-verification
+    featured: false
+    sidebarOrder: 2
+    role: core
+    intents:
+      - chapter-5-challenges
+      - challenge-6-police-car
+      - police-car-not-counting
+    quickAnswer: "Challenge 6's exact wording is 'Destroy any police car before you escape.' One observed successful route used a parked police car at a residential intersection, melee attacks, a sewer escape, and a checked post-chapter results screen; competing vehicle rules remain unresolved."
+    eyebrow: "Chapter 5 Challenges"
+    relations:
+      - pageId: single-player-hub
+        type: related
+      - pageId: early-access-release-time
+        type: related
+    changeSummary: "Current-build Chapter 5 challenge list and one bounded Challenge 6 route."
   - id: pc-hub
     title: "Halloween: The Game on PC — Requirements & Launch Checks"
     description: "PC storefronts, system requirements, Steam Deck status links, and what to verify after Advance Access."
@@ -1137,6 +1159,7 @@ routes:
         pageId: single-player-hub
     pages:
       - single-player-hub
+      - single-player-chapter-5-challenges
   - id: pc
     eyebrow: "PC"
     title: "PC"

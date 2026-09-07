@@ -4,7 +4,7 @@
   "lifecycle": "LAUNCH",
   "player_task": "LIVE_TROUBLESHOOTING",
   "target": "/single-player/chapter-5-challenges/",
-  "article_decision": "NEW_PENDING_EVIDENCE",
+  "article_decision": "NEW",
   "claim_ledger": [
     {
       "claim_id": "c5-001",
@@ -34,20 +34,31 @@
     },
     {
       "claim_id": "c5-004",
-      "claim": "The valid Chapter 5 Challenge 6 police-car target and whether destruction registers before escape are unresolved in the current evidence.",
-      "evidence_status": "UNKNOWN",
-      "evidence_refs": ["c1-destructoid-c5", "c2-allthingshow-c5", "r1-police-car-failure", "r2-moving-car-claim", "v1-ch5-police-015830", "v1-ch5-stalk-020040"],
-      "applicability": "Current-build conflict; no direct Challenge 6 UI-to-completion sequence.",
-      "known_unknown": true
+      "claim": "V4 shows a parked police car at a suburban street intersection being hit with melee attacks, followed by a sewer escape and a results screen with Challenge 6 checked.",
+      "evidence_status": "VIDEO_OBSERVED",
+      "evidence_refs": ["v4-deere-ch5-challenges"],
+      "applicability": "One shown working-looking route; no universal target rule or immediate completion timing.",
+      "known_unknown": false,
+      "requirement_class": "OBSERVED_SEQUENCE"
     },
     {
       "claim_id": "c5-005",
-      "claim": "The Chapter 5 Challenge 6 exact wording is unresolved because supplied current gameplay did not show the Challenge list, and competitor/Steam descriptions conflict.",
-      "evidence_status": "UNKNOWN",
-      "evidence_refs": ["c1-destructoid-c5", "c2-allthingshow-c5", "c3-steam-shakes-c5", "v1-ch5-police-015830", "v1-ch5-stalk-020040"],
-      "applicability": "Current-build UI is the required authority.",
-      "known_unknown": true
+      "claim": "V4 directly displays the current-build Challenge 6 wording: 'Destroy any police car before you escape.'",
+      "evidence_status": "VIDEO_OBSERVED",
+      "evidence_refs": ["v4-deere-ch5-challenges"],
+      "applicability": "Direct current-build UI evidence.",
+      "known_unknown": false,
+      "requirement_class": "HARD_REQUIREMENT"
+    },
+    {
+      "claim_id": "c5-006",
+      "claim": "V4 directly displays the six Chapter 5 challenge cards and wording.",
+      "evidence_status": "VIDEO_OBSERVED",
+      "evidence_refs": ["v4-deere-ch5-challenges"],
+      "applicability": "Direct current-build UI evidence for the all-challenges list.",
+      "known_unknown": false,
+      "requirement_class": "HARD_REQUIREMENT"
     }
   ],
-  "active_claims": ["c5-001", "c5-002", "c5-003", "c5-004", "c5-005"]
+  "active_claims": ["c5-001", "c5-002", "c5-003", "c5-004", "c5-005", "c5-006"]
 }

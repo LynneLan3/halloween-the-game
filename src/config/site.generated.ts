@@ -643,6 +643,27 @@ export const siteConfig: GameConfig = {
 			],
 		},
 		{
+			id: "single-player-chapter-5-challenges",
+			slug: "single-player/chapter-5-challenges",
+			role: "core",
+			assetType: "article",
+			intents: ["chapter-5-challenges", "challenge-6-police-car", "police-car-not-counting"],
+			relations: [
+				{
+					pageId: "single-player-hub",
+					type: "related",
+				},
+				{
+					pageId: "early-access-release-time",
+					type: "related",
+				},
+			],
+			sources: [
+			],
+			evidence: [
+			],
+		},
+		{
 			id: "pc-hub",
 			slug: "pc",
 			role: "core",
@@ -1243,6 +1264,13 @@ export const siteConfig: GameConfig = {
 					description: "A six-chapter Michael Myers Story Mode walkthrough covering observed first-clear progression, current objectives, replay cleanup, and Early Access uncertainty.",
 					eyebrow: "Story Mode",
 					image: "covers/michael/singleplayer-haddonfield.jpg",
+				},
+				{
+					pageId: "single-player-chapter-5-challenges",
+					href: "/single-player/chapter-5-challenges/",
+					title: "Halloween: The Game — All Chapter 5 Challenges and Challenge 6 Troubleshooting",
+					description: "Complete all six Chapter 5 challenges with exact current-build wording, then troubleshoot Challenge 6 with one verified parked-police-car route: melee attack, sewer escape, and results-screen confirmation.",
+					eyebrow: "Chapter 5 Challenges",
 				},
 			],
 			fastAnswers: [

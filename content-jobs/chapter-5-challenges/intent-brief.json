@@ -1,0 +1,13 @@
+{
+  "primaryQuery": "Halloween: The Game all Chapter 5 challenges",
+  "userJob": "Complete all Chapter 5 challenges and troubleshoot why Challenge 6 did not register after attacking a police car.",
+  "serpPromise": "A current-build Chapter 5 challenge list with exact UI wording, one directly verified successful Challenge 6 route, and bounded troubleshooting for conflicting police-car reports.",
+  "articleType": "LIVE",
+  "intentClass": "LIVE_TROUBLESHOOTING",
+  "intentOwnerStatus": "KEEP",
+  "requiredAnswers": [
+    "Exact current-build wording for all six Chapter 5 challenges",
+    "A verified successful Challenge 6 route",
+    "What remains unknown about police-car selection and completion timing"
+  ]
+}
