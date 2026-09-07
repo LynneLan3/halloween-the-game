@@ -1,0 +1,40 @@
+{
+  "contentManifest": {
+    "assets": [
+      {
+        "path": "/",
+        "intentKey": "MAPS_OVERVIEW",
+        "intentRole": "SUPPORT",
+        "claimsUsed": [{ "claim": "launch_map_count", "value": 4 }]
+      },
+      {
+        "path": "/maps/",
+        "intentKey": "MAPS_OVERVIEW",
+        "intentRole": "OWNER",
+        "claimsUsed": [{ "claim": "launch_map_count", "value": 3 }]
+      },
+      {
+        "path": "/routes/maps/",
+        "intentKey": "MAPS_OVERVIEW",
+        "intentRole": "OWNER",
+        "claimsUsed": [{ "claim": "launch_map_count", "value": 3 }]
+      }
+    ]
+  },
+  "intentOwnership": {
+    "MAPS_OVERVIEW": { "owner": "/maps/", "support": ["/"] }
+  },
+  "volatileClaims": {
+    "launch_map_count": {
+      "value": 4,
+      "lifecycle": "LAUNCH",
+      "lastVerified": "2026-09-07",
+      "source": "site-spec.yaml#pages.maps-hub.facts.launch_map_count"
+    }
+  },
+  "gscOpportunity": {
+    "intentKey": "MAPS_OVERVIEW",
+    "actualLanding": "/",
+    "query": "how many maps are in Halloween: The Game?"
+  }
+}

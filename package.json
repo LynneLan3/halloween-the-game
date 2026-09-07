@@ -25,6 +25,7 @@
     "test:validation": "tsx --test tests/validation/validate-modes.test.ts",
     "validate:template": "npm run check && npm run verify:template && npm run validate:site -- --mode=template && npm run build",
     "validate:generated": "tsx ./scripts/validate-generated-site.ts",
+    "validate:content-integrity": "node ./scripts/content-integrity-guard.mjs",
     "validate": "npm run validate:template",
     "deploy:check": "node scripts/deploy-production.mjs --check",
     "deploy:production": "node scripts/deploy-production.mjs",
