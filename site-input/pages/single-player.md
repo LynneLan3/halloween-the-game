@@ -2,7 +2,7 @@
 
 Quick answer
 
-Story Mode is a single-player narrative containing a Prologue plus five numbered chapters (Prologue + Chapters 1–5). In the successful runs reviewed, the campaign proceeds with the Prologue first and then Chapters 1–5 in that named order. The chapter progressions below are observed sequences from those runs, not guaranteed requirements. Optional challenges and collectibles are replay content tied to the six playable chapters. Current Early Access community reports describe possible save/reset, challenge/log registration, relock/loop, and Chapter 4 AI/timing problems; those reports are not confirmed as universal and do not establish a guaranteed workaround.
+Story Mode is a single-player narrative containing 6 total chapters: a Prologue plus five numbered chapters (Chapters 1–5). In the successful runs reviewed, the campaign proceeds with the Prologue first and then Chapters 1–5 in that named order. The chapter progressions below are observed sequences from those runs, not guaranteed requirements. Optional challenges and collectibles are replay content tied to the six playable chapters. Current Early Access community reports describe possible save/reset, challenge/log registration, relock/loop, and Chapter 4 AI/timing problems; those reports are not confirmed as universal and do not establish a guaranteed workaround.
 
 First-clear state map (observed)
 
@@ -86,4 +86,5 @@ After a first clear, replay individual chapters for optional challenges and coll
 ## Sources and verified date
 
 - [Unleash Hell Upon Haddonfield — Halloween: The Game](https://halloweengame.com/news/unleash-hell-upon-haddonfield/)
+- [Halloween the Game single-player review — VGC](https://www.videogameschronicle.com/review/halloween-the-game-single-player-review-is-there-enough-here-for-solo-players/) (reviewed 2026-09-04)
 - Gameplay cross-checks: MKIceAndFire, [VIDEO-01](https://www.youtube.com/watch?v=SR3vu4G0t1Q); Main Wave Gaming, [VIDEO-02](https://www.youtube.com/watch?v=d9Rk9PvL6Aw). Reviewed 2026-09-06.

@@ -549,7 +549,8 @@ pages:
     intents:
       - halloween-single-player
       - story-mode
-    quickAnswer: "Yes—Halloween: The Game has a single-player story played as Michael Myers across a Prologue and five numbered chapters. This walkthrough follows observed first-clear progression, separates optional cleanup, and flags Early Access issues without treating them as universal."
+      - how-many-chapters
+    quickAnswer: "Halloween: The Game has 6 total Story Mode chapters: a Prologue plus five numbered chapters (Chapters 1–5). This walkthrough follows observed first-clear progression, separates optional cleanup, and flags Early Access issues without treating them as universal."
     eyebrow: "Story Mode"
     facts:
       - label: "Perspective"

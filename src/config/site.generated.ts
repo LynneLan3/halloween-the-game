@@ -589,7 +589,7 @@ export const siteConfig: GameConfig = {
 			slug: "single-player",
 			role: "core",
 			assetType: "article",
-			intents: ["halloween-single-player", "story-mode"],
+			intents: ["halloween-single-player", "story-mode", "how-many-chapters"],
 			relations: [
 				{
 					pageId: "michael-myers-hub",
