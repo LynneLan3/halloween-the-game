@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "hotword-publish-receipt-v1",
+  "common": {
+    "site": "Halloween: The Game",
+    "siteId": "halloween-the-game",
+    "game": "Halloween: The Game",
+    "batchId": "halloween-the-game|chapter-4-challenges|20260907",
+    "lifecyclePhase": "early-access",
+    "attributionMode": "OBSERVATIONAL_ONLY",
+    "commitSha": "4ed4e03e2e5315fee34215cf1aa66086371d4af1"
+  },
+  "interventions": [
+    {
+      "interventionId": "halloween-the-game|chapter-4-challenges|20260907",
+      "action": "UPDATE_PAGE",
+      "primaryUrl": "/single-player/",
+      "affectedUrls": [
+        "/single-player/"
+      ],
+      "reason": "Publish the evidence-bounded Chapter 4 Challenges section on the existing single-player page.",
+      "triggerType": "operator_request",
+      "triggerSummary": "Deploy the Chapter 4 Challenges Writer update.",
+      "changeSummary": "Update the existing /single-player/ page with observed routes, player workarounds, unknowns, and troubleshooting for Challenges 3, 5, and 6."
+    }
+  ]
+}
