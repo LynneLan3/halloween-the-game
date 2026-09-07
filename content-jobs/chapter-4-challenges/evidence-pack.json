@@ -28,6 +28,7 @@
     "tech_facet": "OTHER",
     "required_answers": [
       "What is Challenge 3's exact target and route?",
+      "What does the Bloodthirsty execution route visibly require?",
       "How do Bob and Lynda need to be stalked for Challenge 5?",
       "What ordered events are needed for the film-plot Challenge 6?",
       "Which steps are confirmed methods versus player workarounds?",
@@ -151,9 +152,29 @@
       "applicability": "Video shows one creator route, but does not establish the exact hard trigger or universal registration behavior",
       "known_unknown": true,
       "superseded_by": null
+    },
+    {
+      "claim_id": "cl-c4-010",
+      "claim": "The current EA video shows the Challenge 4 preparation route building Bloodlust on an unrelated Resident and opening the Weapon Execution choices; the exact level, target-state requirement, and registration signal are not shown as a verified challenge completion.",
+      "evidence_status": "VIDEO_OBSERVED",
+      "evidence_refs": ["ev-covocava-c4"],
+      "applicability": "CovoCava current EA video at approximately 26:00–26:15",
+      "known_unknown": true,
+      "superseded_by": null,
+      "requirement_class": "OBSERVED_SEQUENCE"
+    },
+    {
+      "claim_id": "cl-c4-011",
+      "claim": "The current EA video shows the late Challenge 6 state: the objective is to kill Laurie before she calls for help, the player searches the upstairs bedroom, pulls Laurie from the closet, and the chapter reaches its completion narration after the final grab/attack sequence.",
+      "evidence_status": "VIDEO_OBSERVED",
+      "evidence_refs": ["ev-covocava-c4"],
+      "applicability": "CovoCava current EA video at approximately 32:16–32:59",
+      "known_unknown": true,
+      "superseded_by": null,
+      "requirement_class": "OBSERVED_SEQUENCE"
     }
   ],
-  "active_claims": ["cl-c4-001", "cl-c4-002", "cl-c4-003", "cl-c4-004", "cl-c4-005", "cl-c4-006", "cl-c4-007", "cl-c4-008", "cl-c4-009"],
+  "active_claims": ["cl-c4-001", "cl-c4-002", "cl-c4-003", "cl-c4-004", "cl-c4-005", "cl-c4-006", "cl-c4-007", "cl-c4-008", "cl-c4-009", "cl-c4-010", "cl-c4-011"],
   "evidence_items": [
     {
       "evidence_id": "ev-official-hotfix-1",
@@ -306,6 +327,7 @@
   "readiness_reasons": [
     "Current EA video now provides timestamped route evidence for Challenges 3, 5, and 6.",
     "Two HUMAN_CAPTURE_TASK items remain OPEN for publication-grade frames and panel registration proof.",
+    "Challenge 4 exact Bloodthirsty level/target/registration remains UNKNOWN.",
     "Challenge 6 still contains an active UNKNOWN exact Laurie trigger claim.",
     "Official Hotfix 1 does not enumerate affected Chapter 4 challenges.",
     "Current demand is real/forming but not quantified with GSC or volume data; this does not block FAST_VERIFIED Writer entry."

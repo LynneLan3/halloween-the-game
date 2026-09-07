@@ -53,6 +53,10 @@ The convergent route is:
 
 The exact Laurie end condition is inconsistent across current guides and reports. Some reports say a single knife hit after the first closet, then a grab after the second; others say the critical condition is allowing Laurie to see the scene and receive the hanger attack. These are `PLAYER_WORKAROUND` candidates, not confirmed requirements.
 
+### Challenge 4 — Bloodthirsty execution
+
+The targeted CovoCava delta window at approximately `26:00–26:15` shows Michael building Bloodlust on an unrelated Resident and opening the Weapon Execution choices. The creator's narration frames the goal as getting enough Bloodlust to execute a Resident. This is useful current-build route evidence, but it does not prove the exact Bloodthirsty level, target-health threshold, prompt selection, or challenge-panel registration. Keep those details UNKNOWN; do not turn “more Bloodlust” into a numeric requirement.
+
 ### Tracking and Early Access state
 
 The official Early Access Hotfix 1 (2026-09-05) says it fixed “several challenges that were not tracking properly” and says a larger patch is being worked on. It does not identify which Chapter 4 challenges were fixed and does not establish that Challenge 3, 5, or 6 now register reliably.
@@ -100,3 +104,9 @@ Evidence interpretation: the video is sufficient to upgrade the ordered route cl
 - The in-game challenge panel immediately before and after completion, including a non-registering run if reproducible.
 
 Use step-adjacent visuals, with platform/build and exact timestamp retained in the capture receipt. A competitor article image can be a discovery reference only; it is not cleared publication media.
+
+## Delta verification — 2026-09-07
+
+The supplied CovoCava video was checked at the existing Chapter 4 windows without repeating search research. Around 26:00–26:15, the creator builds Bloodlust on an unrelated Resident and opens the Weapon Execution choices; the footage supports the preparation route, but does not prove the exact Bloodthirsty level, target-health condition, or challenge-panel registration. Around 32:16–32:59, the late Laurie state shows the objective to kill Laurie before she calls for help, the upstairs bedroom search, pulling Laurie from the closet, and the final grab/attack leading into the creator's Chapter 4 completion narration. This confirms the late-state cue as an observed route, not a universal hard trigger.
+
+The page must therefore describe Challenge 4 and the Laurie sequence as observed/current-build guidance, keep exact trigger and registration behavior UNKNOWN, and separate missed state windows from possible tracking failure.

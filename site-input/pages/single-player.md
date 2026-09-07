@@ -59,52 +59,98 @@ In the successful runs reviewed:
 
 ### Chapter 4 Challenges — Quick Answer
 
-For Challenges 3, 5, and 6, keep the Wallace House sequence intact: use the Annie car setup, stalk Bob and Lynda from the living-room closet, pin Bob to the kitchen wall and collect his glasses, take the Sheet, then use the telephone on Lynda before staging the scene for Laurie. This is the observed Early Access route, not a guarantee that every build will register it.
+The observed Early Access route that completes Challenges 3, 5 and 6 in one run is: follow the Wallace House chain (dog → Annie/laundry → Annie/car), stalk Bob and Lynda together from the living-room closet, pin Bob to the kitchen wall and remove his glasses, collect the Sheet from the upstairs bedroom and keep it equipped, execute Lynda with the telephone, stage the bodies, let Laurie discover the scene, then follow the Laurie chase/closet sequence through the final attack/cutscene. This ordering and these actions are the currently observed route (video and community corroboration) — they are practical steps players should attempt, but community reports and the Early Access Hotfix 1 do not guarantee universal challenge registration. If you complete these steps and a challenge does not register, follow the troubleshooting guidance below.
 
-#### Challenge 3 — Annie car, Bob's glasses, Sheet, and Lynda's telephone
+#### Challenge 3 — Lynda on the telephone while wearing the Sheet
 
-The current observed route is:
+Observed route (use numbered steps in player order):
 
-1. Complete the Annie car sequence.
-2. Follow Bob to the kitchen and pin him to the wall.
-3. Take Bob's glasses, then collect the Sheet from the upstairs bedroom.
-4. Keep the Sheet equipped and perform the telephone execution on Lynda.
+1. Complete the Annie car sequence before attempting the upstairs/Sheet portion.
+2. Follow Bob into the kitchen and reach the Level-3 stalk condition on Bob; pin him to the kitchen wall.
+3. Remove Bob's glasses (community reports link the glasses to the later Sheet interaction).
+4. Go upstairs, pick up the Sheet from the bedroom, and keep the Sheet equipped.
+5. Wait for Lynda to get up and use the telephone, then perform the telephone execution while the Sheet is equipped.
 
-The route is shown in current Early Access gameplay at approximately `27:57–30:39` ([CovoCava](https://www.youtube.com/watch?v=ExWLmpcRfoQ)). Treat the glasses-before-Sheet order as the observed route; whether the glasses are a universal interaction requirement remains unproven.
+Notes and evidence boundary:
+- The route above is observed in current Early Access gameplay (approx. 27:57–30:39 in the CovoCava run). The glasses-before-Sheet ordering is a community-correlated lead; it remains UNPROVEN as a formal mechanic until captured in-game or confirmed by the developer.
+- If the Sheet is picked up but not equipped at the telephone strike, the observed runs suggest the challenge may not register. Treat equipment state strictly during the telephone execution.
 
-#### Challenge 5 — stalk Bob and Lynda together
+#### Challenge 4 — Bloodthirsty / Weapon Execution (distinct observation)
 
-While Bob and Lynda are making out in the living room, use the closet opposite the room as the viewing position and stalk both of them before the scene advances. The current EA video covers this sequence at approximately `28:40–29:12`.
+Observed footage (timestamped): approximately 26:00–26:15 in the referenced gameplay shows Michael building Bloodlust on an unrelated Resident and opening the Weapon Execution choice menu.
 
-Some players report that both targets reaching Tier 3 before leaving the couch helps the challenge register. That is an observed/player workaround, not a confirmed hard condition. The exact registration trigger remains unknown.
+- What the capture shows: Bloodlust buildup on a Resident and the Weapon Execution UI being available.
+- Useful player interpretation: this is a preparation route for a Bloodthirsty-style execution objective in the current build.
+- Unknowns (do not assume numbers): the exact Bloodthirsty level required, the target-health threshold the Resident must be at, which execution prompt must be selected, and whether the challenge panel will register on-screen after an execution are all UNKNOWN based on the supplied evidence.
+- Actionable takeaway: if you intend to pursue this challenge, focus on building Bloodlust and watching for the Weapon Execution prompt; do not assume a specific numeric Bloodthirsty value will be required.
 
-#### Challenge 6 — match the film plot
+#### Challenge 5 — fully stalk Bob and Lynda while they are making out
 
-Use this observed route in order:
+Observed procedure and strengthened diagnosis:
 
-1. Kill the dog, then lock Annie in the laundry room and let the window/cutscene sequence play.
-2. Wait for Annie to return to the car and complete the car kill.
-3. Stalk Bob and Lynda together in the living room.
-4. Let Lynda go upstairs, then pin Bob to the kitchen wall and take his glasses.
-5. Collect and wear the Sheet, then complete Lynda's telephone kill.
-6. Stage the bodies and let Laurie discover the scene.
-7. Follow the observed Laurie chase and final attack/cutscene sequence.
+1. Enter the living-room closet opposite the couch to establish the viewing angle.
+2. Stalk both Bob and Lynda together while they remain on the couch.
+3. Work toward reaching Tier 3 (Level 3) stalk on both targets before the scene advances or they separate.
+4. Let the scene advance only after both characters have reached the intended stalk level.
 
-The current EA video covers the route at approximately `26:52–32:53`; the creator reports the challenge after the final Laurie sequence. This is route evidence, not proof of a universal registration result.
+Important reproduction notes:
+- Video evidence places this sequence at approx. 28:40–29:12 in the observed run.
+- Community reports indicate success is more likely if both reach Tier 3 before leaving the couch; this is a reported workaround (player inference), not an officially documented mechanic.
+- If the pair separate before you reach the stalk level target, that is a STATE_WINDOW_MISSED — restart the sequence from the closet vantage and repeat.
+- If both reach the reported stalk level but the challenge does not register, consider ROUTE_ERROR (missed step earlier in the chain) or POSSIBLE_EA_TRACKING_ISSUE; capture your build/platform and the HUD/challenge-panel state for reporting.
 
-#### Observed route, workaround, and unknown
+#### Challenge 6 — match the film plot (Laurie late-state troubleshooting is the centerpiece)
 
-- **Observed route:** Annie car → Bob wall/glasses → Sheet → Lynda telephone; Bob/Lynda stalking from the living-room closet; dog → Annie/car → Bob/Lynda → Sheet → Laurie for the film-plot attempt.
-- **Player workaround:** Closing the bedroom door before killing Bob is reported to help keep Lynda upstairs. Both Bob and Lynda reaching Tier 3 before leaving the couch is also reported as helpful for Challenge 5. Neither is a confirmed hard requirement.
-- **Unknown:** The exact Laurie trigger, the Lynda AI state required by the challenge, and the definite cause of Challenge 6 tracking failures remain unconfirmed.
+Ordered steps to reproduce the movie-accurate run (player order):
 
-#### Troubleshooting
+1. Kill the dog without prematurely alerting or diverting Annie; the dog trigger must fire without breaking subsequent Annie behavior.
+2. Lock Annie in the laundry room and wait for the laundry-room dialogue/cutscene to finish; do not rush away until the state advances.
+3. Let Annie return to the car and complete the car kill (Shape jump/car strangle). The observed run shows this at approx. 27:57–28:26.
+4. Enter the living room closet and stalk Bob and Lynda together; get the living-room sequence to advance with them still staged properly.
+5. Allow Lynda to go upstairs. A commonly reported workaround to keep Lynda upstairs is to close the bedroom door before performing Bob's final wall kill; this is community-reported, not developer-confirmed.
+6. Pin Bob to the kitchen wall and reach Level 3 on Bob; remove his glasses.
+7. Go upstairs, pick up the Sheet, keep the Sheet equipped.
+8. Return downstairs and perform the telephone execution on Lynda while the Sheet is equipped.
+9. Stage Bob and Lynda's bodies where the route expects, then wait for Laurie to discover the scene.
+10. Stalk Laurie through the living-room/closet sequence; allow the intended upstairs closet interaction and the final grab/attack/cutscene to resolve naturally.
 
-- If Annie does not enter the car, wait for the laundry-room dialogue/cutscene to finish before moving to the car.
-- If Lynda leaves the upstairs state, retry with the bedroom door closed before Bob's wall kill; record it as a workaround test, not a guaranteed fix.
-- If the route looks complete but the challenge is still unchecked, capture the platform/build, HUD or challenge panel state, exact sequence, and chapter-end result. Early Access Hotfix 1 confirms fixes for several challenge-tracking issues, but it does not identify them or prove that Chapter 4 tracking is fully fixed.
+Late-state troubleshooting focus (why runs fail to register):
+- The Laurie sequence has the most reported variability. In observed footage the creator pulls Laurie from an upstairs closet and then receives a decisive strike (approx. 31:16–32:53). Reports differ on whether a single knife hit, a grab after the second closet, or a hanger attack is the critical registration event. These discrepancies are PLAYER_WORKAROUND candidates, not confirmed triggers.
+- If Laurie uses a non-canonical closet or the final attack/cutscene does not play, this is commonly reproduced as a STATE_WINDOW_MISSED or AI-timing variance. In those cases, replay the chapter from the start and re-run the ordered steps, ensuring each earlier cutscene/dialogue completes before moving forward.
+- If you perform every ordered step above and the chapter completes without the challenge checking, treat the run as a POSSIBLE_EA_TRACKING_ISSUE. Record platform, full build/hotfix version, whether the challenge HUD flashed, whether the in-game challenge panel showed completion, and the exact sequence/timestamps before reporting.
 
-Source evidence: [CovoCava's current Early Access gameplay](https://www.youtube.com/watch?v=ExWLmpcRfoQ) (`26:52–32:53`) and the official [Early Access Hotfix 1](https://halloweengame.com/news/early-access-hotfix-1/). Community reports are used only for the workaround and failure clues above.
+Developer hotfix context:
+- Early Access Hotfix 1 (2026-09-05) states it fixed “several challenges that were not tracking properly” but does not enumerate which Chapter 4 items were addressed. Do not assume Hotfix 1 resolves all Chapter 4 registration failures; use the capture-and-report workflow above if you still see failures.
+
+#### Observed route, common workarounds, and unknowns (summary)
+
+- Observed route (one-run approach): dog → lock Annie in laundry → Annie car kill → stalk Bob/Lynda in living-room closet → Lynda upstairs → pin Bob to kitchen wall → remove glasses → take Sheet → equip Sheet → Lynda telephone kill → stage bodies → let Laurie discover → follow Laurie closet/chase → final attack/cutscene.
+- Reported player workarounds: closing the bedroom door before killing Bob to keep Lynda upstairs; forcing both Bob and Lynda to Tier 3 while together on the couch for Challenge 5.
+- Unknown / unproven: precise Bloodthirsty numeric thresholds for Challenge 4, whether Bob’s glasses are a formal prerequisite for the Sheet interaction, the exact Laurie final-hit trigger that counts for Challenge 6, and which (if any) Chapter 4 challenges were altered by Hotfix 1.
+
+#### Troubleshooting (if a challenge does not register)
+
+1. Verify in-order completion: make sure every listed cutscene/dialogue (laundry room, Annie car return, living-room scene) finishes before you move on.
+2. If Lynda comes downstairs prematurely, retry with the bedroom door closed before killing Bob — log this as a workaround test.
+3. If the living-room pair separates before you reach the desired stalk level, restart the living-room sequence from the closet (STATE_WINDOW_MISSED).
+4. If Laurie’s closet/attack sequence does not play or uses a different closet, replay the chapter from the start and repeat the ordered route; if failure persists after multiple clean runs, treat it as POSSIBLE_EA_TRACKING_ISSUE.
+5. If a challenge looks correctly executed but does not check: record platform, exact build/hotfix, whether the HUD flashed a challenge completion, and provide timestamps/screenshots of the final scene and challenge panel. These data points help distinguish ROUTE_ERROR from tracking bugs.
+
+#### Common mistakes to avoid
+
+- Rushing past the laundry-room dialogue/cutscene before Annie’s state finishes — this commonly desynchronizes later states.
+- Picking up the Sheet but not keeping it equipped during Lynda’s telephone execution.
+- Viewing the Bob/Lynda scene from an incorrect angle (not inside the opposite living-room closet) which can prevent both stalk meters from escalating.
+- Assuming Hotfix 1 fixed all Chapter 4 tracking; it fixed “several” unspecified issues only.
+
+#### What to do next if you still can't get a challenge to register
+
+- Replay the chapter from the start and carefully follow the ordered steps above.
+- Capture video (or precise timestamps/screenshots), note the build/hotfix version, and record whether the in-game challenge HUD flashed.
+- Report the structured evidence to support (developer) bug triage: platform, build version, exact sequence, whether the challenge panel showed completion, and whether a checkpoint reload was involved.
+- If your run is clean and you still fail to receive the challenge, label the report with POSSIBLE_EA_TRACKING_ISSUE and include any ROUTE_ERROR checks you ran.
+
+Source evidence: CovoCava Early Access gameplay (Chapter 4 segment approx. 26:52–32:53), official Early Access Hotfix 1 notes, Destructoid and Into Indie Games walkthroughs, and multiple community reports cited for workaround and failure leads.
 
 ## Chapter 5 — observed progression
 
