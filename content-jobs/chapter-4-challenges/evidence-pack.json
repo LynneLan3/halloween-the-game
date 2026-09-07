@@ -1,0 +1,332 @@
+{
+  "schema_version": "launch-content-evidence-pack-v1",
+  "pack_id": "ep-halloween-chapter-4-challenges-001",
+  "mode": "LAUNCH",
+  "demand_ref": "demand-halloween-chapter-4-challenges-001",
+  "intent_ref": "intent-halloween-chapter-4-challenges-001",
+  "demand_signal": {
+    "demand_id": "demand-halloween-chapter-4-challenges-001",
+    "query": "Halloween: The Game Chapter 4 Challenges",
+    "query_cluster": [
+      "Chapter 4 Challenge 3",
+      "Chapter 4 Challenge 5",
+      "Chapter 4 Challenge 6",
+      "Halloween The Game complete Chapter 4 matching the film plot",
+      "Halloween The Game Bob Lynda sequence",
+      "Halloween The Game challenge not registering"
+    ],
+    "signal_source": "MIXED",
+    "observed_at": "2026-09-07T00:00:00+08:00",
+    "freshness_class": "LIVE_INCIDENT",
+    "game": "Halloween: The Game",
+    "notes": "Current Early Access player friction; no GSC export or quantified volume in this pass."
+  },
+  "intent_brief": {
+    "intent_id": "intent-halloween-chapter-4-challenges-001",
+    "player_task": "Complete Chapter 4 Challenges 3, 5, and 6 and determine whether a failure is a missed sequence, a player workaround, or an Early Access tracking/AI issue.",
+    "intent_class": "WALKTHROUGH",
+    "tech_facet": "OTHER",
+    "required_answers": [
+      "What is Challenge 3's exact target and route?",
+      "How do Bob and Lynda need to be stalked for Challenge 5?",
+      "What ordered events are needed for the film-plot Challenge 6?",
+      "Which steps are confirmed methods versus player workarounds?",
+      "What should the player record when a challenge does not register?",
+      "What did Hotfix 1 actually fix, and what remains unproven?"
+    ],
+    "stakes": "A wrong order can consume a full replay, while Early Access tracking and AI reports make it unsafe to promise that a movie-accurate run will always register.",
+    "out_of_scope": [
+      "Final article prose",
+      "Publication or deployment",
+      "Exact reward/cosmetic claims not confirmed in current evidence",
+      "Claiming Hotfix 1 fixed all Chapter 4 tracking",
+      "Treating Reddit reports as proof of a universal bug"
+    ]
+  },
+  "article_type": "WALKTHROUGH",
+  "article_decision": "UPDATE",
+  "research_route": {
+    "article_type": "WALKTHROUGH",
+    "tech_facet": "OTHER",
+    "profile": "VIDEO_FIRST_EARLY_ACCESS",
+    "source_classes": ["OFFICIAL", "VIDEO", "COMMUNITY", "SERP"],
+    "rationale": [
+      "Official Hotfix defines current tracking scope.",
+      "Early Access gameplay capture is needed for step proof.",
+      "Community reports locate failures and workarounds but cannot establish universal mechanics."
+    ]
+  },
+  "unique_contribution": [
+    "One ordered Chapter 4 route spanning Challenges 3, 5, and 6.",
+    "Explicit separation of confirmed method, player workaround, and possible Early Access bug.",
+    "Hotfix-scoped tracking status instead of claiming every challenge is fixed.",
+    "Step-adjacent in-game proof targets and a non-registration diagnostic checklist."
+  ],
+  "competitor_gap_summary": "Current guides cover the nominal route but do not consistently separate proof from inference or explain what Hotfix 1 does and does not establish about failed tracking.",
+  "claim_ledger": [
+    {
+      "claim_id": "cl-c4-001",
+      "claim": "Chapter 4 Challenge 3 is the Lynda telephone execution while Michael is wearing the Sheet.",
+      "evidence_status": "COMMUNITY_CORROBORATED",
+      "evidence_refs": ["ev-destructoid-c4", "ev-intoindie-c4"],
+      "applicability": "Early Access guides checked 2026-09-07",
+      "known_unknown": false,
+      "superseded_by": null
+    },
+    {
+      "claim_id": "cl-c4-002",
+      "claim": "The reported Challenge 3 route is Bob first, collect his glasses, obtain the upstairs Sheet, keep it equipped, then complete Lynda's telephone execution.",
+      "evidence_status": "VIDEO_OBSERVED",
+      "evidence_refs": ["ev-covocava-c4"],
+      "applicability": "Current EA video, Chapter 4 route at 27:57–30:39; no challenge-panel receipt",
+      "known_unknown": false,
+      "superseded_by": null,
+      "requirement_class": "OBSERVED_SEQUENCE"
+    },
+    {
+      "claim_id": "cl-c4-003",
+      "claim": "Chapter 4 Challenge 5 requires fully stalking Bob and Lynda while they make out in the living room; the living-room closet is a reported viewing position.",
+      "evidence_status": "VIDEO_OBSERVED",
+      "evidence_refs": ["ev-covocava-c4"],
+      "applicability": "Current EA video, Bob/Lynda segment at 28:40–29:12",
+      "known_unknown": false,
+      "superseded_by": null,
+      "requirement_class": "OBSERVED_SEQUENCE",
+      "visual_evidence_required": true
+    },
+    {
+      "claim_id": "cl-c4-004",
+      "claim": "Players report that both Bob and Lynda should reach Level 3 before leaving the couch for Challenge 5 to register.",
+      "evidence_status": "COMMUNITY_CORROBORATED",
+      "evidence_refs": ["ev-reddit-c4-route"],
+      "applicability": "Player workaround/reproduction lead; not official hard-requirement proof",
+      "known_unknown": false,
+      "superseded_by": null,
+      "requirement_class": "OBSERVED_SEQUENCE"
+    },
+    {
+      "claim_id": "cl-c4-005",
+      "claim": "The convergent film-plot route is dog/laundry trigger, Annie car kill, Bob and Lynda stalking, Bob wall kill, Sheet telephone kill, body staging, Laurie discovery, and the final Laurie attack/cutscene.",
+      "evidence_status": "VIDEO_OBSERVED",
+      "evidence_refs": ["ev-covocava-c4"],
+      "applicability": "Current EA video, complete route at 26:52–32:53; no panel receipt",
+      "known_unknown": false,
+      "superseded_by": null,
+      "requirement_class": "OBSERVED_SEQUENCE",
+      "visual_evidence_required": true
+    },
+    {
+      "claim_id": "cl-c4-006",
+      "claim": "Closing the bedroom door before killing Bob is a player-reported workaround intended to keep Lynda upstairs.",
+      "evidence_status": "COMMUNITY_CORROBORATED",
+      "evidence_refs": ["ev-reddit-c4-ai"],
+      "applicability": "Player workaround only",
+      "known_unknown": false,
+      "superseded_by": null,
+      "requirement_class": "OBSERVED_SEQUENCE"
+    },
+    {
+      "claim_id": "cl-c4-007",
+      "claim": "Players report Chapter 4 Challenge 6 failing to register after apparently movie-accurate runs, with Lynda AI movement, Annie timing, and Laurie closet selection named as possible failure points.",
+      "evidence_status": "COMMUNITY_CORROBORATED",
+      "evidence_refs": ["ev-reddit-c4-bug", "ev-reddit-c4-ai"],
+      "applicability": "Early Access player reports; not proof of a universal defect",
+      "known_unknown": false,
+      "superseded_by": null
+    },
+    {
+      "claim_id": "cl-c4-008",
+      "claim": "Official Early Access Hotfix 1 fixed several challenges that were not tracking properly, but does not identify the affected challenges or prove that Chapter 4 tracking is fully reliable.",
+      "evidence_status": "OFFICIAL",
+      "evidence_refs": ["ev-official-hotfix-1"],
+      "applicability": "Official note dated 2026-09-05; platform rollout/build must be checked for each player",
+      "known_unknown": false,
+      "superseded_by": null
+    },
+    {
+      "claim_id": "cl-c4-009",
+      "claim": "Whether the exact Laurie knife-hit/grab/closet sequence is a hard Challenge 6 requirement is not established by the current evidence.",
+      "evidence_status": "UNKNOWN",
+      "evidence_refs": ["ev-covocava-c4", "ev-reddit-c4-bug", "ev-reddit-c4-ai"],
+      "applicability": "Video shows one creator route, but does not establish the exact hard trigger or universal registration behavior",
+      "known_unknown": true,
+      "superseded_by": null
+    }
+  ],
+  "active_claims": ["cl-c4-001", "cl-c4-002", "cl-c4-003", "cl-c4-004", "cl-c4-005", "cl-c4-006", "cl-c4-007", "cl-c4-008", "cl-c4-009"],
+  "evidence_items": [
+    {
+      "evidence_id": "ev-official-hotfix-1",
+      "source_class": "OFFICIAL",
+      "source_ref": "https://halloweengame.com/news/early-access-hotfix-1/",
+      "captured_at": "2026-09-07T00:00:00+08:00",
+      "supports_claims": ["cl-c4-008"],
+      "summary": "Official Hotfix 1 says several challenge-tracking issues were fixed and a larger patch is in progress.",
+      "limitations": "No per-challenge list, build number, or guarantee for Chapter 4."
+    },
+    {
+      "evidence_id": "ev-destructoid-c4",
+      "source_class": "SERP",
+      "source_ref": "https://www.destructoid.com/all-chapter-4-challenges-in-halloween-the-game-and-how-to-complete-them/",
+      "captured_at": "2026-09-07T00:00:00+08:00",
+      "supports_claims": ["cl-c4-001", "cl-c4-002", "cl-c4-003", "cl-c4-005"],
+      "summary": "Current walkthrough lists all six Chapter 4 challenges and gives the principal sequence.",
+      "limitations": "Third-party text; no timestamped EA gameplay receipt; Bloodthirsty section is explicitly uncertain."
+    },
+    {
+      "evidence_id": "ev-intoindie-c4",
+      "source_class": "SERP",
+      "source_ref": "https://intoindiegames.com/walkthroughs/halloween-the-game-walkthrough-chapters-four-and-five-the-babysitters-into-the-shadows/",
+      "captured_at": "2026-09-07T00:00:00+08:00",
+      "supports_claims": ["cl-c4-001", "cl-c4-002", "cl-c4-003", "cl-c4-005"],
+      "summary": "Independent walkthrough confirms Bob-first, closet stalking, Sheet, and Laurie route details.",
+      "limitations": "Third-party text; route is not an official specification or video proof."
+    },
+    {
+      "evidence_id": "ev-reddit-c4-route",
+      "source_class": "COMMUNITY",
+      "source_ref": "https://www.reddit.com/r/TheHalloweenGame/comments/1w90xo4/chapter_4_challenge_6/",
+      "captured_at": "2026-09-07T00:00:00+08:00",
+      "supports_claims": ["cl-c4-004", "cl-c4-005"],
+      "summary": "Player report provides a detailed route and says both Bob and Lynda should reach Level 3 before leaving the couch.",
+      "limitations": "Single-thread player report; workaround/reproduction lead only."
+    },
+    {
+      "evidence_id": "ev-reddit-c4-bug",
+      "source_class": "COMMUNITY",
+      "source_ref": "https://www.reddit.com/r/TheHalloweenGame/comments/1w7qttn/chapter_4_challenge_6_bugged_for_anyone_else/",
+      "captured_at": "2026-09-07T00:00:00+08:00",
+      "supports_claims": ["cl-c4-007", "cl-c4-009"],
+      "summary": "Multiple players report repeated Challenge 6 non-registration after movie-accurate attempts.",
+      "limitations": "Reddit reports cannot distinguish missed hidden state from a defect; no build/platform standardization."
+    },
+    {
+      "evidence_id": "ev-reddit-c4-ai",
+      "source_class": "COMMUNITY",
+      "source_ref": "https://www.reddit.com/r/TheHalloweenGame/comments/1w80lhg/chapter_4_of_the_single_player_campaign_the/",
+      "captured_at": "2026-09-07T00:00:00+08:00",
+      "supports_claims": ["cl-c4-006", "cl-c4-007", "cl-c4-009"],
+      "summary": "Players report Lynda leaving the upstairs state, Annie timing issues, and Laurie closet variance; closing the bedroom door is suggested as a workaround.",
+      "limitations": "Community discovery only; no independent reproduction receipt."
+    },
+    {
+      "evidence_id": "ev-covocava-c4",
+      "source_class": "VIDEO",
+      "source_ref": "https://www.youtube.com/watch?v=ExWLmpcRfoQ",
+      "captured_at": "2026-09-07T08:20:00+08:00",
+      "supports_claims": ["cl-c4-002", "cl-c4-003", "cl-c4-005", "cl-c4-009"],
+      "summary": "Current EA complete-challenge video with auto-caption timestamps for the Chapter 4 route: Annie 26:52–28:26, Bob/Lynda stalking 28:40–29:12, Bob wall/glasses 29:23–29:40, Sheet/Lynda telephone 29:46–30:39, Laurie route 31:16–32:53. Creator states at 32:53 that the chapter challenge should be obtained.",
+      "limitations": "Auto-generated captions; no clean challenge panel before/after receipt; creator narration proves the shown route, not universal mechanic or tracking reliability."
+    }
+  ],
+  "video_evidence": [
+    {
+      "video_evidence_id": "ve-covocava-c4-ch3",
+      "source_url": "https://www.youtube.com/watch?v=ExWLmpcRfoQ&t=1677s",
+      "creator": "CovoCava",
+      "title": "I Completed EVERY Challenge In Halloween: The Game",
+      "timestamp": "27:57–30:39",
+      "claim": "cl-c4-002",
+      "claim_id": "cl-c4-002",
+      "capture_purpose": "Observe Annie car kill, Bob wall/glasses, Sheet pickup, and Lynda telephone execution in one current EA route.",
+      "capture_method": "BROWSER_TRANSCRIPT_AND_FRAME_CHECK",
+      "capture_status": "TIMESTAMPED_OBSERVED",
+      "confidence": 0.86,
+      "selection_reason": "Auto-captioned current EA gameplay narration aligns with the visible Chapter 4 route; the 32:53 end state is described by the creator but not panel-verified."
+    },
+    {
+      "video_evidence_id": "ve-covocava-c4-ch5",
+      "source_url": "https://www.youtube.com/watch?v=ExWLmpcRfoQ&t=1720s",
+      "creator": "CovoCava",
+      "title": "I Completed EVERY Challenge In Halloween: The Game",
+      "timestamp": "28:40–29:12",
+      "claim": "cl-c4-003",
+      "claim_id": "cl-c4-003",
+      "capture_purpose": "Observe the living-room closet angle and stalking of both Bob and Lynda before the scene advances.",
+      "capture_method": "BROWSER_TRANSCRIPT_AND_FRAME_CHECK",
+      "capture_status": "TIMESTAMPED_OBSERVED",
+      "confidence": 0.84,
+      "selection_reason": "Video explicitly narrates stalking both targets to Tier 3 and moving the camera when the aim is inconsistent; Tier 3 is recorded as shown/advised, not a formal mechanic."
+    },
+    {
+      "video_evidence_id": "ve-covocava-c4-ch6",
+      "source_url": "https://www.youtube.com/watch?v=ExWLmpcRfoQ&t=1612s",
+      "creator": "CovoCava",
+      "title": "I Completed EVERY Challenge In Halloween: The Game",
+      "timestamp": "26:52–32:53",
+      "claim": "cl-c4-005",
+      "claim_id": "cl-c4-005",
+      "capture_purpose": "Observe the complete movie-order route and the creator's stated challenge completion after Laurie decisive strike.",
+      "capture_method": "BROWSER_TRANSCRIPT_AND_FRAME_CHECK",
+      "capture_status": "TIMESTAMPED_OBSERVED",
+      "confidence": 0.82,
+      "selection_reason": "Continuous current EA Chapter 4 segment covers dog, Annie, Bob/Lynda, Sheet, staged bodies, Laurie, and final attack; 32:53 is the reported completion point, but the panel is not readable."
+    }
+  ],
+  "human_capture_tasks": [
+    {
+      "task_id": "hct-c4-ea-route-capture",
+      "reason": "Timestamped EA route video is now located, but publication-grade local frame assets and a readable challenge-panel receipt are still missing.",
+      "target_claim_ids": ["cl-c4-002", "cl-c4-003", "cl-c4-005"],
+      "source_url": "https://www.youtube.com/watch?v=ExWLmpcRfoQ",
+      "timestamp": "27:57–32:53",
+      "capture_purpose": "Capture local publication-grade frames for Annie car, Bob/Lynda Tier 3 stalking, Bob wall/glasses, Sheet/Lynda telephone, Laurie route, and any readable challenge-panel state.",
+      "annotation_need": "crop",
+      "status": "OPEN"
+    },
+    {
+      "task_id": "hct-c4-tracking-failure",
+      "reason": "Player reports indicate possible tracking/AI failures, but no controlled reproduction is attached.",
+      "target_claim_ids": ["cl-c4-007", "cl-c4-009"],
+      "source_url": null,
+      "timestamp": null,
+      "capture_purpose": "Record platform, build/hotfix, exact sequence, HUD completion signal, and chapter-end challenge panel for one successful and one failed run if reproducible.",
+      "annotation_need": "none",
+      "status": "OPEN"
+    }
+  ],
+  "known_unknowns": [
+    "Which specific Chapter 4 challenges were fixed by Hotfix 1.",
+    "Whether Hotfix 1 had reached the player's platform/build.",
+    "Whether both Bob and Lynda Level 3 before leaving the couch is a hard requirement or a workaround.",
+    "Whether Bob's glasses are universally required before the Sheet interaction appears.",
+    "The exact Laurie trigger sequence for Challenge 6.",
+    "Whether Challenge 6 failure is a missed hidden state, AI variance, or a current tracking defect.",
+    "Whether a checkpoint restart invalidates any Chapter 4 challenge state.",
+    "Whether challenge completion must be confirmed in HUD, at chapter end, or both.",
+    "Exact reward/cosmetic mapping for Challenges 3, 5, and 6."
+  ],
+  "article_contract": {
+    "visual_evidence_required": true,
+    "required_visual_claim_ids": ["cl-c4-002", "cl-c4-003", "cl-c4-005", "cl-c4-007"],
+    "troubleshooting_first": true,
+    "evidence_placement": "step_adjacent"
+  },
+  "publish_readiness": "FAST_VERIFIED",
+  "readiness_reasons": [
+    "Current EA video now provides timestamped route evidence for Challenges 3, 5, and 6.",
+    "Two HUMAN_CAPTURE_TASK items remain OPEN for publication-grade frames and panel registration proof.",
+    "Challenge 6 still contains an active UNKNOWN exact Laurie trigger claim.",
+    "Official Hotfix 1 does not enumerate affected Chapter 4 challenges.",
+    "Current demand is real/forming but not quantified with GSC or volume data; this does not block FAST_VERIFIED Writer entry."
+  ],
+  "visual_publication_gate": {
+    "applies": true,
+    "required_claim_ids": ["cl-c4-002", "cl-c4-003", "cl-c4-005", "cl-c4-007"],
+    "missing_claim_ids": ["cl-c4-002", "cl-c4-003", "cl-c4-005", "cl-c4-007"],
+    "ok": false
+  },
+  "lifecycle": {
+    "state": "FAST_VERIFIED",
+    "next": "EVIDENCE_COMPLETE"
+  },
+  "writer_contract": {
+    "may_invent_claims": false,
+    "consumes": ["evidence_pack", "claim_ledger"],
+    "evidence_placement": "step_adjacent",
+    "avoid_default_bottom_gallery": true,
+    "observed_sequence_default_language": true,
+    "hard_requirement_language_only_for": "HARD_REQUIREMENT",
+    "troubleshooting_first": true
+  }
+}

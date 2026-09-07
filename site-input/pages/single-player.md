@@ -57,6 +57,55 @@ In the successful runs reviewed:
 
 *Wallace House objective in Chapter 4.*
 
+### Chapter 4 Challenges — Quick Answer
+
+For Challenges 3, 5, and 6, keep the Wallace House sequence intact: use the Annie car setup, stalk Bob and Lynda from the living-room closet, pin Bob to the kitchen wall and collect his glasses, take the Sheet, then use the telephone on Lynda before staging the scene for Laurie. This is the observed Early Access route, not a guarantee that every build will register it.
+
+#### Challenge 3 — Annie car, Bob's glasses, Sheet, and Lynda's telephone
+
+The current observed route is:
+
+1. Complete the Annie car sequence.
+2. Follow Bob to the kitchen and pin him to the wall.
+3. Take Bob's glasses, then collect the Sheet from the upstairs bedroom.
+4. Keep the Sheet equipped and perform the telephone execution on Lynda.
+
+The route is shown in current Early Access gameplay at approximately `27:57–30:39` ([CovoCava](https://www.youtube.com/watch?v=ExWLmpcRfoQ)). Treat the glasses-before-Sheet order as the observed route; whether the glasses are a universal interaction requirement remains unproven.
+
+#### Challenge 5 — stalk Bob and Lynda together
+
+While Bob and Lynda are making out in the living room, use the closet opposite the room as the viewing position and stalk both of them before the scene advances. The current EA video covers this sequence at approximately `28:40–29:12`.
+
+Some players report that both targets reaching Tier 3 before leaving the couch helps the challenge register. That is an observed/player workaround, not a confirmed hard condition. The exact registration trigger remains unknown.
+
+#### Challenge 6 — match the film plot
+
+Use this observed route in order:
+
+1. Kill the dog, then lock Annie in the laundry room and let the window/cutscene sequence play.
+2. Wait for Annie to return to the car and complete the car kill.
+3. Stalk Bob and Lynda together in the living room.
+4. Let Lynda go upstairs, then pin Bob to the kitchen wall and take his glasses.
+5. Collect and wear the Sheet, then complete Lynda's telephone kill.
+6. Stage the bodies and let Laurie discover the scene.
+7. Follow the observed Laurie chase and final attack/cutscene sequence.
+
+The current EA video covers the route at approximately `26:52–32:53`; the creator reports the challenge after the final Laurie sequence. This is route evidence, not proof of a universal registration result.
+
+#### Observed route, workaround, and unknown
+
+- **Observed route:** Annie car → Bob wall/glasses → Sheet → Lynda telephone; Bob/Lynda stalking from the living-room closet; dog → Annie/car → Bob/Lynda → Sheet → Laurie for the film-plot attempt.
+- **Player workaround:** Closing the bedroom door before killing Bob is reported to help keep Lynda upstairs. Both Bob and Lynda reaching Tier 3 before leaving the couch is also reported as helpful for Challenge 5. Neither is a confirmed hard requirement.
+- **Unknown:** The exact Laurie trigger, the Lynda AI state required by the challenge, and the definite cause of Challenge 6 tracking failures remain unconfirmed.
+
+#### Troubleshooting
+
+- If Annie does not enter the car, wait for the laundry-room dialogue/cutscene to finish before moving to the car.
+- If Lynda leaves the upstairs state, retry with the bedroom door closed before Bob's wall kill; record it as a workaround test, not a guaranteed fix.
+- If the route looks complete but the challenge is still unchecked, capture the platform/build, HUD or challenge panel state, exact sequence, and chapter-end result. Early Access Hotfix 1 confirms fixes for several challenge-tracking issues, but it does not identify them or prove that Chapter 4 tracking is fully fixed.
+
+Source evidence: [CovoCava's current Early Access gameplay](https://www.youtube.com/watch?v=ExWLmpcRfoQ) (`26:52–32:53`) and the official [Early Access Hotfix 1](https://halloweengame.com/news/early-access-hotfix-1/). Community reports are used only for the workaround and failure clues above.
+
 ## Chapter 5 — observed progression
 
 1. Continue through the police/search-pressure phase.
