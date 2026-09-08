@@ -819,6 +819,8 @@ pages:
     relations:
       - pageId: michael-myers-hub
         type: next-step
+      - pageId: perk-cards
+        type: next-step
       - pageId: michael-myers-abilities
         type: related
       - pageId: characters-hub
@@ -826,6 +828,40 @@ pages:
       - pageId: multiplayer-how-it-works
         type: related
     changeSummary: "INTENT EXPANSION — Progression and perks guide."
+  - id: perk-cards
+    title: "Halloween: The Game Perk Cards — 51-Card Live List, Decks, Rolls & Upgrades"
+    description: "A dated database of 51 currently documented live Perk Cards, plus Civilian deck choices, rolls, temporary upgrades, and the details that remain unconfirmed."
+    category: guides
+    slug: perk-cards
+    source: site-input/pages/perk-cards.md
+    status: verified
+    featured: false
+    sidebarOrder: 5
+    role: supporting
+    intents:
+      - halloween-perk-cards
+      - halloween-perk-list
+      - halloween-perk-deck
+      - how-perk-cards-work
+    quickAnswer: "Perk Cards are a Civilian customization system: matches supply Perk Points, points roll randomized cards, and owned cards make decks. A dated live list documents 51 cards, but IllFonic has not published an official canonical pool count."
+    eyebrow: "Perk Cards"
+    facts:
+      - label: "Current dated list"
+        value: "51 currently documented live cards (checked Sep. 8, 2026)"
+      - label: "Deck behavior"
+        value: "Up to 15 cards; in-match choices are launch-build corroborated"
+      - label: "Official pool count"
+        value: "Not published"
+    relations:
+      - pageId: progression-perks
+        type: next-step
+      - pageId: characters-hub
+        type: related
+      - pageId: civilian-tier-list
+        type: related
+      - pageId: multiplayer-hub
+        type: related
+    changeSummary: "P0.5 — dated Perk Cards database and deck-mechanics owner with explicit evidence boundaries."
   - id: trophies-achievements
     title: "Halloween: The Game Trophies & Achievements — 51 Trophy Platinum Preview"
     description: "PRE-EA PS5 trophy preview: 51 trophies (1 Platinum, 2 Gold, 10 Silver, 38 Bronze), 3 secret trophies, and theme coverage across story, Michael, Civilian, progression, and collectibles — not a live-verified roadmap."

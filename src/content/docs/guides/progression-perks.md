@@ -18,6 +18,9 @@ relations:
     slug: michael-myers
     type: next-step
   -
+    slug: perk-cards
+    type: next-step
+  -
     slug: michael-myers/abilities
     type: related
   -

@@ -822,6 +822,10 @@ export const siteConfig: GameConfig = {
 					type: "next-step",
 				},
 				{
+					pageId: "perk-cards",
+					type: "next-step",
+				},
+				{
 					pageId: "michael-myers-abilities",
 					type: "related",
 				},
@@ -831,6 +835,35 @@ export const siteConfig: GameConfig = {
 				},
 				{
 					pageId: "multiplayer-how-it-works",
+					type: "related",
+				},
+			],
+			sources: [
+			],
+			evidence: [
+			],
+		},
+		{
+			id: "perk-cards",
+			slug: "perk-cards",
+			role: "supporting",
+			assetType: "article",
+			intents: ["halloween-perk-cards", "halloween-perk-list", "halloween-perk-deck", "how-perk-cards-work"],
+			relations: [
+				{
+					pageId: "progression-perks",
+					type: "next-step",
+				},
+				{
+					pageId: "characters-hub",
+					type: "related",
+				},
+				{
+					pageId: "civilian-tier-list",
+					type: "related",
+				},
+				{
+					pageId: "multiplayer-hub",
 					type: "related",
 				},
 			],

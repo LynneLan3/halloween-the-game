@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "templateVersion": "2.0.0",
   "generatorVersion": "1.0.0",
-  "specHash": "4a487a0a8d62320c93c54d5742a42ec229d9d9936eb2511ec0d96e2cf6568e15",
+  "specHash": "9d337e940aca00e22bd73012dda93d28b7f74d18c0182f227bd98ebaea8feb19",
   "siteId": "halloween-the-game",
   "createdFromSpec": "site-spec.yaml",
   "managedFiles": [
@@ -248,7 +248,7 @@
     },
     {
       "path": "src/config/site.generated.ts",
-      "sha256": "fd5325de7d52b54bab5a8ce8cdcec74e88bb13d3fd1bd44fdd2e20dd872a1b38",
+      "sha256": "7d74fb2902d39780b34ebc3030c286d1829b07d320c3ae637f9f4065e5ae6b68",
       "kind": "config"
     },
     {
@@ -287,6 +287,11 @@
       "kind": "page"
     },
     {
+      "path": "src/content/docs/guides/perk-cards.md",
+      "sha256": "37a3af6d046615c539db8abc6da638f7c1a5609b998cf1b56da12d718b79b581",
+      "kind": "page"
+    },
+    {
       "path": "src/content/docs/guides/physical-collectors-edition.md",
       "sha256": "fdcbdf3cd7e39cb3db20d4135e4569dfa292a63871c009f3cf360f3cbf4c114e",
       "kind": "page"
@@ -298,7 +303,7 @@
     },
     {
       "path": "src/content/docs/guides/progression-perks.md",
-      "sha256": "54475ab4bd50fe29789da3efead1cdb60b69517a1cba83f8904c754ca5a20397",
+      "sha256": "74af4c862b3061343c8201bdb655a5593a0089cad693cd76130ef3febfce0804",
       "kind": "page"
     },
     {
