@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "hotword-publish-receipt-v1",
+  "common": {
+    "site": "Halloween: The Game",
+    "siteId": "halloween-the-game",
+    "game": "Halloween: The Game",
+    "batchId": "halloween-the-game|perk-cards-p05|20260908",
+    "lifecyclePhase": "launch",
+    "attributionMode": "OBSERVATIONAL_ONLY",
+    "sourceRefs": [
+      "content-jobs/perk-cards/research.md",
+      "content-jobs/perk-cards/intent-brief.json",
+      "site-input/pages/perk-cards.md",
+      "site-spec.yaml"
+    ]
+  },
+  "interventions": [
+    {
+      "interventionId": "halloween-the-game|perk-cards|p05-launch",
+      "action": "CONTENT_CREATE",
+      "primaryUrl": "/perk-cards/",
+      "affectedUrls": [
+        "/perk-cards/"
+      ],
+      "reason": "Publish the evidence-bounded Perk Cards reference database and guide, including the dated 51-card live list and explicit official versus live-build boundaries.",
+      "triggerType": "operator_request",
+      "triggerSummary": "P0.5 implementation and authorized production publication for the canonical Perk Cards owner.",
+      "sourceRefs": [
+        "content-jobs/perk-cards/research.md",
+        "site-input/pages/perk-cards.md"
+      ]
+    }
+  ]
+}
