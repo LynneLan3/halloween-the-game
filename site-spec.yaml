@@ -1064,6 +1064,102 @@ pages:
         type: next-step
     changeSummary: "V4 pass — trust block added; no official timer confirmed."
 
+  - id: loomis-logs
+    title: "Halloween: The Game Loomis Log Locations — All 14 Story Recordings"
+    description: "Find all 14 Story Mode recordings: 11 numbered Loomis Logs plus three other recordings, with Chapter 4 and Chapter 5 access and marker caveats kept explicit."
+    category: guides
+    slug: loomis-logs
+    source: site-input/pages/loomis-logs.md
+    status: confirmed
+    featured: true
+    sidebarOrder: 1
+    role: core
+    intents:
+      - loomis-log-locations
+      - story-recordings
+    quickAnswer: "Story Mode has 14 recording collectibles in total: 11 numbered Loomis Logs plus 3 other recordings. Use the chapter-by-chapter locations here, and watch for later-access and the Chapter 5 #11 marker caveats."
+    eyebrow: "Collectibles"
+    facts:
+      - label: "Total recordings"
+        value: "14 story recordings"
+      - label: "Numbered logs"
+        value: "11 numbered Loomis Logs"
+      - label: "Other recordings"
+        value: "3 other recordings"
+      - label: "Access caveat"
+        value: "Some Chapter 4/5 houses require later story access"
+    coverAssetId: michael-singleplayer-haddonfield
+    relations:
+      - pageId: single-player-hub
+        type: related
+      - pageId: maps-hub
+        type: related
+    changeSummary: "LAUNCH-DAY P0 — all 14 recordings owner; 11 numbered Loomis Logs plus 3 other recordings."
+
+  - id: story-challenges
+    title: "Halloween: The Game — All Story Challenges"
+    description: "See the six objective wordings for the Prologue and Chapters 1–5, with the Chapter 2 sixth-challenge and version-sensitive tracking caveat clearly separated."
+    category: guides
+    slug: challenges
+    source: site-input/pages/challenges.md
+    status: confirmed
+    featured: true
+    sidebarOrder: 2
+    role: core
+    intents:
+      - story-challenges
+      - chapter-challenges
+    quickAnswer: "The Prologue and each numbered story chapter list six challenge objectives in the current reference set. Chapter 2's sixth no-alert objective is supported by UI/live evidence, but challenge registration has version-sensitive caveats and no workaround is guaranteed."
+    eyebrow: "Story Challenges"
+    facts:
+      - label: "Coverage"
+        value: "Prologue plus Chapters 1–5"
+      - label: "Current reference set"
+        value: "Six objective wordings per chapter"
+      - label: "Tracking"
+        value: "Version-sensitive; verify registration in the in-game UI"
+    coverAssetId: michael-singleplayer-haddonfield
+    relations:
+      - pageId: single-player-hub
+        type: related
+      - pageId: loomis-logs
+        type: related
+      - pageId: michael-myers-abilities
+        type: next-step
+    changeSummary: "LAUNCH-DAY P0 — one all-chapters owner with explicit Chapter 2 tracking caveat."
+
+  - id: civilian-tier-list
+    title: "Halloween: The Game Civilian Tier List — Best Civilians by Role"
+    description: "Choose a Civilian by role and playstyle with a dated editorial ranking based on Athleticism, Personality, Resourcefulness, and Capability—not an objective tier claim."
+    category: guides
+    slug: civilian-tier-list
+    source: site-input/pages/civilian-tier-list.md
+    status: confirmed
+    featured: true
+    sidebarOrder: 3
+    role: core
+    intents:
+      - civilian-tier-list
+      - best-civilians
+    quickAnswer: "Use Laurie as the all-rounder candidate, Marcus for objectives and Resourcefulness, Jennifer for mobility, Tanya or Alexis for Personality/NPC support, and Rachel as an anti-Michael specialist. This is a dated editorial ranking, not objective game fact."
+    eyebrow: "Civilian Picks"
+    facts:
+      - label: "Editorial method"
+        value: "Role- and playstyle-based; dated 2026-09-08"
+      - label: "Official stat labels"
+        value: "Athleticism, Personality, Resourcefulness, Capability"
+      - label: "Best all-rounder candidate"
+        value: "Laurie"
+      - label: "Objective specialist candidate"
+        value: "Marcus"
+    coverAssetId: heroes-of-haddonfield
+    relations:
+      - pageId: characters-hub
+        type: related
+      - pageId: multiplayer-how-it-works
+        type: next-step
+    changeSummary: "LAUNCH-DAY P0 — role-based editorial Civilian ranking with dated methodology."
+
 routes:
   - id: maps
     eyebrow: "Maps"
@@ -1103,6 +1199,7 @@ routes:
         pageId: progression-perks
     pages:
       - characters-hub
+      - civilian-tier-list
       - progression-perks
   - id: michael-myers
     eyebrow: "Killer"
@@ -1159,6 +1256,8 @@ routes:
         pageId: single-player-hub
     pages:
       - single-player-hub
+      - loomis-logs
+      - story-challenges
       - single-player-chapter-5-challenges
   - id: pc
     eyebrow: "PC"
@@ -1178,10 +1277,10 @@ routes:
       - steam-deck
 
 homepage:
-  heroBadge: Sep 2026 launch guide
+  heroBadge: Players Need Right Now
   primaryCta:
-    label: Early Access timing
-    pageId: early-access-release-time
+    label: Find all 14 recordings
+    pageId: loomis-logs
   secondaryCta:
     label: Browse all guides
     anchor: browse-guides
@@ -1189,10 +1288,25 @@ homepage:
     - label: Advance Access
       value: "Sep 4, 2026 — 9 AM PT (Deluxe pre-order)"
     - label: Digital release
-      value: "Sep 8, 2026"
+      value: "Sep 8, 2026 — 9 AM PT Standard unlock scheduled; verify controller state"
     - label: Guide pillars
-      value: "Maps, Characters, Michael, Multiplayer, Story, PC"
+      value: "Loomis Logs, Story Challenges, Civilians, Michael builds, Maps"
   popularQuestions:
+    - label: "Where are all 14 Loomis Logs and Story recordings?"
+      context: "11 numbered Loomis Logs plus 3 other recordings, listed by chapter with access caveats."
+      pageId: loomis-logs
+    - label: "What are all the Story Challenges?"
+      context: "Six objective wordings for the Prologue and Chapters 1–5, with Chapter 2 tracking caveats."
+      pageId: story-challenges
+    - label: "Which Civilians are best by role?"
+      context: "Dated editorial recommendations for all-rounder, objectives, mobility, NPC support, and anti-Michael play."
+      pageId: civilian-tier-list
+    - label: "What are the best Michael abilities and starter build?"
+      context: "Killer Sense + Shape Jump with Blackout, Detection Pulse, and Reality Tear as a supported starter combination."
+      pageId: michael-myers-abilities
+    - label: "What is on East Haddonfield?"
+      context: "Rural map landmarks including the Rabbit in Red Lounge, Phelps Garage, and Midwest Feed Company."
+      pageId: maps-east-haddonfield
     - label: "What time does Halloween: The Game come out / early access start?"
       context: "Sep 4 9 AM PT Early Access (Digital Deluxe) and Sep 8 9 AM PT full launch."
       pageId: early-access-release-time
@@ -1224,17 +1338,15 @@ homepage:
       context: "Steam minimum and recommended specs."
       pageId: pc-system-requirements
   startHere:
-    - pageId: early-access-release-time
-      label: Release time
-      badge: Highest priority
-    - pageId: preload-download-status
-      label: Preload status
-    - pageId: standard-vs-deluxe-upgrade
-      label: Standard vs Deluxe
-    - pageId: bots-private-lobbies-offline
-      label: Bots & Private Lobbies
-    - pageId: steam-deck
-      label: Steam Deck
+    - pageId: loomis-logs
+      label: Loomis Logs
+      badge: Launch priority
+    - pageId: story-challenges
+      label: Story Challenges
+    - pageId: civilian-tier-list
+      label: Best Civilians
+    - pageId: michael-myers-abilities
+      label: Michael Abilities / Builds
 
 assets:
   - id: michael-mask-hero

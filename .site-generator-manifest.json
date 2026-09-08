@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "templateVersion": "2.0.0",
   "generatorVersion": "1.0.0",
-  "specHash": "63481252e32f30ea9b85f75c5048e274bd1d974540bc8638acb626ade68e2fed",
+  "specHash": "4a487a0a8d62320c93c54d5742a42ec229d9d9936eb2511ec0d96e2cf6568e15",
   "siteId": "halloween-the-game",
   "createdFromSpec": "site-spec.yaml",
   "managedFiles": [
@@ -248,7 +248,7 @@
     },
     {
       "path": "src/config/site.generated.ts",
-      "sha256": "d1cf6ae6b1fb20a6d574c7a2052f1242865daea2253cc5e21427dd3da5c25a78",
+      "sha256": "fd5325de7d52b54bab5a8ce8cdcec74e88bb13d3fd1bd44fdd2e20dd872a1b38",
       "kind": "config"
     },
     {
@@ -262,8 +262,23 @@
       "kind": "page"
     },
     {
+      "path": "src/content/docs/guides/challenges.md",
+      "sha256": "4699668e1d80687a438a140778b8f6f42faff63f992978f454c0d0538cc46911",
+      "kind": "page"
+    },
+    {
+      "path": "src/content/docs/guides/civilian-tier-list.md",
+      "sha256": "e795a31c4c9a4530484dbe3e4a2b791ed8adb17ffe266d1ef2a8fc19c68cfd3a",
+      "kind": "page"
+    },
+    {
       "path": "src/content/docs/guides/early-access-release-time.md",
       "sha256": "dedcf3f1edc313c60fdf0620159b9cdbed08434d60a486422e760ea95a9424aa",
+      "kind": "page"
+    },
+    {
+      "path": "src/content/docs/guides/loomis-logs.md",
+      "sha256": "f4d6ee617e3d401c6e7691f9a8e43cc00d13cc94f71f82f73f2a7ba5c422c28c",
       "kind": "page"
     },
     {
@@ -313,7 +328,7 @@
     },
     {
       "path": "src/content/docs/killer-guides/michael-myers/abilities.md",
-      "sha256": "be1ca7872999c95a65d263c038c6a28d983047a1bc30b5bce53b15eae0d40338",
+      "sha256": "24d855cf6598e43538ae63b3355c7cb0f2b4f8985be41668ffdbf01f5d25deb9",
       "kind": "page"
     },
     {
@@ -328,7 +343,7 @@
     },
     {
       "path": "src/content/docs/map-guides/maps/east-haddonfield.md",
-      "sha256": "dd342cdc646b171d8e4dddbc9b70b5d6998a419b30993279162de66a31fa1439",
+      "sha256": "70a252fa0c792425c2d9edc3a790f502d2fe3464705986a9fd481d5e22d5f4f5",
       "kind": "page"
     },
     {

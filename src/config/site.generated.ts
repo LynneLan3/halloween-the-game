@@ -28,10 +28,10 @@ export const siteConfig: GameConfig = {
 	heroPosition: "center",
 	disclaimer: "Unofficial fan guide. Verify version-sensitive facts against cited sources before production.",
 	portal: {
-		heroBadge: "Sep 2026 launch guide",
+		heroBadge: "Players Need Right Now",
 		primaryCta: {
-			label: "Early Access timing",
-			href: "/early-access-release-time/",
+			label: "Find all 14 recordings",
+			href: "/loomis-logs/",
 		},
 		secondaryCta: {
 			label: "Browse all guides",
@@ -44,14 +44,39 @@ export const siteConfig: GameConfig = {
 			},
 			{
 				label: "Digital release",
-				value: "Sep 8, 2026",
+				value: "Sep 8, 2026 — 9 AM PT Standard unlock scheduled; verify controller state",
 			},
 			{
 				label: "Guide pillars",
-				value: "Maps, Characters, Michael, Multiplayer, Story, PC",
+				value: "Loomis Logs, Story Challenges, Civilians, Michael builds, Maps",
 			},
 		],
 		popularQuestions: [
+			{
+				label: "Where are all 14 Loomis Logs and Story recordings?",
+				href: "/loomis-logs/",
+				context: "11 numbered Loomis Logs plus 3 other recordings, listed by chapter with access caveats.",
+			},
+			{
+				label: "What are all the Story Challenges?",
+				href: "/challenges/",
+				context: "Six objective wordings for the Prologue and Chapters 1–5, with Chapter 2 tracking caveats.",
+			},
+			{
+				label: "Which Civilians are best by role?",
+				href: "/civilian-tier-list/",
+				context: "Dated editorial recommendations for all-rounder, objectives, mobility, NPC support, and anti-Michael play.",
+			},
+			{
+				label: "What are the best Michael abilities and starter build?",
+				href: "/michael-myers/abilities/",
+				context: "Killer Sense + Shape Jump with Blackout, Detection Pulse, and Reality Tear as a supported starter combination.",
+			},
+			{
+				label: "What is on East Haddonfield?",
+				href: "/maps/east-haddonfield/",
+				context: "Rural map landmarks including the Rabbit in Red Lounge, Phelps Garage, and Midwest Feed Company.",
+			},
 			{
 				label: "What time does Halloween: The Game come out / early access start?",
 				href: "/early-access-release-time/",
@@ -105,40 +130,33 @@ export const siteConfig: GameConfig = {
 		],
 		startHere: [
 			{
-				title: "What time does Halloween the Game come out? Early Access & launch times (PT)",
-				description: "Early Access begins Friday, Sep 4, 2026 at 9:00 AM PT for Digital Deluxe (already live). Full launch is Tuesday, Sep 8, 2026 at 9:00 AM PT — Standard Edition waits for Sep 8. Preload schedules vary by storefront; see the preload guide.",
-				href: "/early-access-release-time/",
-				image: "covers/gameplay/extended-first-look.jpg",
-				label: "Release time",
-				badge: "Highest priority",
+				title: "Halloween: The Game Loomis Log Locations — All 14 Story Recordings",
+				description: "Find all 14 Story Mode recordings: 11 numbered Loomis Logs plus three other recordings, with Chapter 4 and Chapter 5 access and marker caveats kept explicit.",
+				href: "/loomis-logs/",
+				image: "covers/michael/singleplayer-haddonfield.jpg",
+				label: "Loomis Logs",
+				badge: "Launch priority",
 			},
 			{
-				title: "Halloween: The Game Preload — Can You Download Before Early Access?",
-				description: "What is confirmed about Halloween: The Game preload/download status vs Early Access unlock times — and how to check your storefront when IllFonic has not published a universal preload schedule.",
-				href: "/preload-download-status/",
-				image: "covers/gameplay/extended-first-look.jpg",
-				label: "Preload status",
+				title: "Halloween: The Game — All Story Challenges",
+				description: "See the six objective wordings for the Prologue and Chapters 1–5, with the Chapter 2 sixth-challenge and version-sensitive tracking caveat clearly separated.",
+				href: "/challenges/",
+				image: "covers/michael/singleplayer-haddonfield.jpg",
+				label: "Story Challenges",
 			},
 			{
-				title: "Halloween: The Game — Standard vs Digital Deluxe: Worth the $20? Upgrade & Missables",
-				description: "Standard $39.99 vs Digital Deluxe $59.99 — $20 difference. Compare price, Early Access (Sep 4), Deluxe contents (Inmate Michael + Richard & Alexis), launch-time Deluxe Upgrade (price unannounced), and the preorder-only Phantom skin that cannot be recovered after the preorder/Early Access cutoff. Buying Digital Deluxe during Early Access still grants Early Access and preorder bonuses through Sep 8, 2026 at 9:00 AM PT.",
-				href: "/standard-vs-deluxe-upgrade/",
-				image: "covers/characters/jennifer-aarons.jpg",
-				label: "Standard vs Deluxe",
+				title: "Halloween: The Game Civilian Tier List — Best Civilians by Role",
+				description: "Choose a Civilian by role and playstyle with a dated editorial ranking based on Athleticism, Personality, Resourcefulness, and Capability—not an objective tier claim.",
+				href: "/civilian-tier-list/",
+				image: "covers/characters/heroes-of-haddonfield.jpg",
+				label: "Best Civilians",
 			},
 			{
-				title: "Does Halloween: The Game Have Offline Bots? — Yes (Private AI Matches Confirmed)",
-				description: "Yes — IllFonic has officially announced private matches against AI. The developer’s Progression & Customization and reveal/storefront messaging described playing against bots offline; private matches with friends are supported in live-period coverage (TheGamer, Sep 4, 2026). Fully network‑offline/no‑internet play is not confirmed in live builds.",
-				href: "/bots-private-lobbies-offline/",
-				image: "covers/michael/police-lurking.jpg",
-				label: "Bots & Private Lobbies",
-			},
-			{
-				title: "Halloween: The Game Steam Deck — Compatibility & Launch Status",
-				description: "What is and isn't known about playing Halloween: The Game on Steam Deck: PC requirements, controller support, and what to check at launch.",
-				href: "/steam-deck/",
-				image: "covers/gameplay/rachel-gameplay.png",
-				label: "Steam Deck",
+				title: "Michael Myers Abilities — Evil Presence, Killer Sense, Stalk & Shape Jump",
+				description: "What Evil Presence does in Halloween: The Game, how Michael's abilities unlock, and which EA details remain unproven.",
+				href: "/michael-myers/abilities/",
+				image: "covers/michael/smiths-grove.jpg",
+				label: "Michael Abilities / Builds",
 			},
 		],
 		showRecentlyUpdated: true,
@@ -976,6 +994,73 @@ export const siteConfig: GameConfig = {
 			evidence: [
 			],
 		},
+		{
+			id: "loomis-logs",
+			slug: "loomis-logs",
+			role: "core",
+			assetType: "article",
+			intents: ["loomis-log-locations", "story-recordings"],
+			relations: [
+				{
+					pageId: "single-player-hub",
+					type: "related",
+				},
+				{
+					pageId: "maps-hub",
+					type: "related",
+				},
+			],
+			sources: [
+			],
+			evidence: [
+			],
+		},
+		{
+			id: "story-challenges",
+			slug: "challenges",
+			role: "core",
+			assetType: "article",
+			intents: ["story-challenges", "chapter-challenges"],
+			relations: [
+				{
+					pageId: "single-player-hub",
+					type: "related",
+				},
+				{
+					pageId: "loomis-logs",
+					type: "related",
+				},
+				{
+					pageId: "michael-myers-abilities",
+					type: "next-step",
+				},
+			],
+			sources: [
+			],
+			evidence: [
+			],
+		},
+		{
+			id: "civilian-tier-list",
+			slug: "civilian-tier-list",
+			role: "core",
+			assetType: "article",
+			intents: ["civilian-tier-list", "best-civilians"],
+			relations: [
+				{
+					pageId: "characters-hub",
+					type: "related",
+				},
+				{
+					pageId: "multiplayer-how-it-works",
+					type: "next-step",
+				},
+			],
+			sources: [
+			],
+			evidence: [
+			],
+		},
 	],
 	routes: [
 		{
@@ -1062,6 +1147,14 @@ export const siteConfig: GameConfig = {
 					title: "Halloween: The Game Characters — All Playable Civilians",
 					description: "Standard Edition's 10 Civilians (6 new + 4 legacy), Deluxe exclusives Richard and Alexis, and what IllFonic confirms about unique stats and traits.",
 					eyebrow: "Character Guide",
+					image: "covers/characters/heroes-of-haddonfield.jpg",
+				},
+				{
+					pageId: "civilian-tier-list",
+					href: "/civilian-tier-list/",
+					title: "Halloween: The Game Civilian Tier List — Best Civilians by Role",
+					description: "Choose a Civilian by role and playstyle with a dated editorial ranking based on Athleticism, Personality, Resourcefulness, and Capability—not an objective tier claim.",
+					eyebrow: "Civilian Picks",
 					image: "covers/characters/heroes-of-haddonfield.jpg",
 				},
 				{
@@ -1263,6 +1356,22 @@ export const siteConfig: GameConfig = {
 					title: "Halloween: The Game Single Player — Story Mode & Chapters",
 					description: "A six-chapter Michael Myers Story Mode walkthrough covering observed first-clear progression, current objectives, replay cleanup, and Early Access uncertainty.",
 					eyebrow: "Story Mode",
+					image: "covers/michael/singleplayer-haddonfield.jpg",
+				},
+				{
+					pageId: "loomis-logs",
+					href: "/loomis-logs/",
+					title: "Halloween: The Game Loomis Log Locations — All 14 Story Recordings",
+					description: "Find all 14 Story Mode recordings: 11 numbered Loomis Logs plus three other recordings, with Chapter 4 and Chapter 5 access and marker caveats kept explicit.",
+					eyebrow: "Collectibles",
+					image: "covers/michael/singleplayer-haddonfield.jpg",
+				},
+				{
+					pageId: "story-challenges",
+					href: "/challenges/",
+					title: "Halloween: The Game — All Story Challenges",
+					description: "See the six objective wordings for the Prologue and Chapters 1–5, with the Chapter 2 sixth-challenge and version-sensitive tracking caveat clearly separated.",
+					eyebrow: "Story Challenges",
 					image: "covers/michael/singleplayer-haddonfield.jpg",
 				},
 				{
