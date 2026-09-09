@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "templateVersion": "2.0.0",
   "generatorVersion": "1.0.0",
-  "specHash": "f42c51b6694133b3308e492789d590b94fc2703484d95931bccb2b50e2b6227d",
+  "specHash": "235a1bb0a4ec6eab93744df24f8dd3633e392a7559b55983716fec91dcb99b6a",
   "siteId": "halloween-the-game",
   "createdFromSpec": "site-spec.yaml",
   "managedFiles": [
@@ -248,7 +248,7 @@
     },
     {
       "path": "src/config/site.generated.ts",
-      "sha256": "5361efbbedb010bcd98de9a2c313643de72c6f9fc16dce55f6664e2c61e8825a",
+      "sha256": "0693cac99d41119f08bc9f9f95d6b2484b0692fcb6aa861085583a3d4c2d9062",
       "kind": "config"
     },
     {
@@ -323,7 +323,7 @@
     },
     {
       "path": "src/content/docs/killer-guides/how-to-arrest-michael-myers.md",
-      "sha256": "68393b1e6de1c67e59f296a49dee459de4f42fabdbfe420ba868092a8255591e",
+      "sha256": "9a7f18cf0886d6bfe4f5635e90eeabfbe046e005507d23572822bc35235dc6ce",
       "kind": "page"
     },
     {

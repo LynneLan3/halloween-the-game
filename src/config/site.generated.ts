@@ -473,16 +473,16 @@ export const siteConfig: GameConfig = {
 			intents: ["how-to-arrest-michael-myers"],
 			relations: [
 				{
+					pageId: "multiplayer-hub",
+					type: "related",
+				},
+				{
 					pageId: "michael-myers-hub",
 					type: "related",
 				},
 				{
 					pageId: "multiplayer-how-it-works",
 					type: "next-step",
-				},
-				{
-					pageId: "maps-hub",
-					type: "related",
 				},
 			],
 			sources: [
@@ -1247,8 +1247,8 @@ export const siteConfig: GameConfig = {
 				{
 					pageId: "michael-myers-how-to-arrest",
 					href: "/how-to-arrest-michael-myers/",
-					title: "How to Arrest Michael Myers in Halloween: The Game",
-					description: "Step-by-step multiplayer arrest/detain sequence: police reinforcements, handcuff readiness, [E] Detain Michael, MICHAEL DETAINED, and why knockdowns fail before readiness.",
+					title: "How to Arrest Michael Myers in Halloween: The Game — Detain Sequence",
+					description: "The verified multiplayer detain sequence: authority pressure, handcuff readiness, [E] Detain Michael, the minigame, MICHAEL DETAINED, and why knockdowns can fail.",
 					eyebrow: "Arrest Guide",
 				},
 				{

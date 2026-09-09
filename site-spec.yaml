@@ -369,8 +369,8 @@ pages:
         type: next-step
     changeSummary: "PRESENTATION — widen evidence layout, promote Evil Presence frame, compress secondary ability reference, compact bottom recommendations."
   - id: michael-myers-how-to-arrest
-    title: "How to Arrest Michael Myers in Halloween: The Game"
-    description: "Step-by-step multiplayer arrest/detain sequence: police reinforcements, handcuff readiness, [E] Detain Michael, MICHAEL DETAINED, and why knockdowns fail before readiness."
+    title: "How to Arrest Michael Myers in Halloween: The Game — Detain Sequence"
+    description: "The verified multiplayer detain sequence: authority pressure, handcuff readiness, [E] Detain Michael, the minigame, MICHAEL DETAINED, and why knockdowns can fail."
     category: killer-guides
     slug: how-to-arrest-michael-myers
     source: site-input/pages/michael-myers/how-to-arrest.md
@@ -396,13 +396,13 @@ pages:
       - label: "Michael Detained"
         value: "Match ends"
     relations:
+      - pageId: multiplayer-hub
+        type: related
       - pageId: michael-myers-hub
         type: related
       - pageId: multiplayer-how-it-works
         type: next-step
-      - pageId: maps-hub
-        type: related
-    changeSummary: "Arrest/detain walkthrough with dual gameplay video evidence and official kill/detain boundary."
+    changeSummary: "G042 P5 — one canonical arrest/detain owner refreshed through the Shared Article Writer with Pack-verified sequence and Bryce/D3AD functional frames."
   - id: multiplayer-hub
     title: "Halloween: The Game Multiplayer — 1v4 Format & Objectives"
     description: "Confirmed 1 Michael vs 4 Civilians multiplayer, Civilian and Michael objectives, deputy returns, and replayability notes from IllFonic."
