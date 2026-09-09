@@ -23,6 +23,9 @@ relations:
   -
     slug: michael-myers/abilities
     type: next-step
+  -
+    slug: challenges/chapter-4-challenge-6
+    type: next-step
 cover: ../../../assets/covers/michael/singleplayer-haddonfield.jpg
 coverMedia:
   alt: Michael Myers in Haddonfield single-player story
@@ -107,6 +110,9 @@ challenge tracking/version caveat
 - Patch 1.0.1 adds additional tracking fixes, but the official wording says some outliers may remain. Treat the objective wordings above as the reference text to attempt, then verify registration in your game UI after each run.
 - Do not assume a single workaround will force consistent registration across versions or sessions — no workaround is guaranteed to work 100% of the time.
 
+Chapter 4 Challenge 6 guide
+For the film-accurate Chapter 4 Challenge 6 route, use /challenges/chapter-4-challenge-6/. That child guide covers the Annie → Bob/Lynda → Sheet → Laurie sequence and the result-screen registration check; this page remains the objective/reference hub.
+
 How to use this list
 1. Use the exact objective wording above when checking your in-game challenge list to avoid misreading similar-sounding tasks.
 2. Attempt the objective, then immediately verify registration in the challenge UI; if it did not register, try again in a subsequent run rather than assuming the objective is impossible.
@@ -125,6 +131,6 @@ Verification tips
 - If you encounter persistent registration problems, capture in-game evidence (if possible) and check official patch notes for version-specific fixes.
 
 Notes and next steps
-- Potential later child pages are Prologue Challenge 5, Chapter 2 Challenge 6, and Chapter 4 Challenge 6 only after new demand/evidence; do not create them now.
+- Potential later child pages include Prologue Challenge 5 and Chapter 2 Challenge 6 only after new demand/evidence.
 - If tracking anomalies persist in your current game version, monitor official announcements and patch notes for further fixes.
 - This page is meant as a single reference list of objective wordings and the known tracking caveats; it intentionally does not offer step-by-step completion methods or guarantees of registration.

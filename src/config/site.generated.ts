@@ -1067,6 +1067,31 @@ export const siteConfig: GameConfig = {
 					pageId: "michael-myers-abilities",
 					type: "next-step",
 				},
+				{
+					pageId: "story-challenges-chapter-4-challenge-6",
+					type: "next-step",
+				},
+			],
+			sources: [
+			],
+			evidence: [
+			],
+		},
+		{
+			id: "story-challenges-chapter-4-challenge-6",
+			slug: "challenges/chapter-4-challenge-6",
+			role: "core",
+			assetType: "article",
+			intents: ["chapter-4-challenge-6", "chapter-4-movie-accurate", "challenge-6-not-completing", "complete-chapter-matching-film-plot"],
+			relations: [
+				{
+					pageId: "story-challenges",
+					type: "related",
+				},
+				{
+					pageId: "single-player-hub",
+					type: "related",
+				},
 			],
 			sources: [
 			],
@@ -1406,6 +1431,13 @@ export const siteConfig: GameConfig = {
 					description: "See the six objective wordings for the Prologue and Chapters 1–5, with the Chapter 2 sixth-challenge and version-sensitive tracking caveat clearly separated.",
 					eyebrow: "Story Challenges",
 					image: "covers/michael/singleplayer-haddonfield.jpg",
+				},
+				{
+					pageId: "story-challenges-chapter-4-challenge-6",
+					href: "/challenges/chapter-4-challenge-6/",
+					title: "Halloween: The Game Chapter 4 Challenge 6 — Movie-Accurate Guide",
+					description: "Complete Chapter 4 Challenge 6, 'Complete the chapter matching the film's plot,' with a verified Annie, Bob, Lynda, Sheet, staging, Laurie, and result-screen route.",
+					eyebrow: "Chapter 4 Challenge 6",
 				},
 				{
 					pageId: "single-player-chapter-5-challenges",

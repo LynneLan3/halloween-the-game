@@ -1162,7 +1162,42 @@ pages:
         type: related
       - pageId: michael-myers-abilities
         type: next-step
+      - pageId: story-challenges-chapter-4-challenge-6
+        type: next-step
     changeSummary: "LAUNCH-DAY P0 — one all-chapters owner with explicit Chapter 2 tracking caveat."
+
+  - id: story-challenges-chapter-4-challenge-6
+    title: "Halloween: The Game Chapter 4 Challenge 6 — Movie-Accurate Guide"
+    description: "Complete Chapter 4 Challenge 6, 'Complete the chapter matching the film's plot,' with a verified Annie, Bob, Lynda, Sheet, staging, Laurie, and result-screen route."
+    category: story-guides
+    slug: challenges/chapter-4-challenge-6
+    source: site-input/pages/challenges/chapter-4-challenge-6.md
+    status: confirmed
+    featured: true
+    sidebarOrder: 3
+    role: core
+    intents:
+      - chapter-4-challenge-6
+      - chapter-4-movie-accurate
+      - challenge-6-not-completing
+      - complete-chapter-matching-film-plot
+    quickAnswer: "Use a fresh Chapter 4 replay: preserve Annie's laundry setup, use the car execution, fully stalk Bob and Lynda, execute Bob at the kitchen wall, equip the Sheet for Lynda's Phone Cord Choke, follow the upstairs body-staging objective, complete Laurie's discovery/chase/closet retaliation, and verify Challenge 6 on the result screen."
+    eyebrow: "Chapter 4 Challenge 6"
+    facts:
+      - label: "Objective"
+        value: "Complete the chapter matching the film's plot"
+      - label: "Verified run"
+        value: "fXeuhvvNASE — result screen checked at 15:20"
+      - label: "Tombstone"
+        value: "Optional staging detail; not a universal required trigger"
+      - label: "Tracking"
+        value: "Verify registration on the result screen; Patch 1.0.1 outliers may remain"
+    relations:
+      - pageId: story-challenges
+        type: related
+      - pageId: single-player-hub
+        type: related
+    changeSummary: "G042 P7 — verified Chapter 4 Challenge 6 child guide with functional route evidence."
 
   - id: civilian-tier-list
     title: "Halloween: The Game Civilian Tier List — Best Civilians by Role"
@@ -1294,6 +1329,7 @@ routes:
       - single-player-hub
       - loomis-logs
       - story-challenges
+      - story-challenges-chapter-4-challenge-6
       - single-player-chapter-5-challenges
   - id: pc
     eyebrow: "PC"
@@ -1479,6 +1515,66 @@ assets:
     source: site-input/assets/evidence/arrest-michael/d3ad-detain-prompt.webp
     target: evidence/arrest-michael/d3ad-detain-prompt.webp
     alt: "Independent [E] Detain Michael prompt from live gameplay"
+    sourceType: user-provided
+    usageStatus: approved
+  - id: c4c6-annie-laundry-script
+    source: site-input/assets/evidence/chapter-4-challenge-6/c4-m02-annie-laundry-script-t0440.jpg
+    target: evidence/chapter-4-challenge-6/c4-m02-annie-laundry-script-t0440.jpg
+    alt: "Annie laundry-room setup dialogue in Chapter 4"
+    sourceType: user-provided
+    usageStatus: approved
+  - id: c4c6-annie-car-execution
+    source: site-input/assets/evidence/chapter-4-challenge-6/c4-m03-annie-car-execution-t0655.jpg
+    target: evidence/chapter-4-challenge-6/c4-m03-annie-car-execution-t0655.jpg
+    alt: "Carjacking Execution on Annie in Chapter 4"
+    sourceType: user-provided
+    usageStatus: approved
+  - id: c4c6-bob-lynda-stalk
+    source: site-input/assets/evidence/chapter-4-challenge-6/c4-m04-bob-lynda-shared-stalk-t1005.jpg
+    target: evidence/chapter-4-challenge-6/c4-m04-bob-lynda-shared-stalk-t1005.jpg
+    alt: "Bob and Lynda shared stalk state in Chapter 4"
+    sourceType: user-provided
+    usageStatus: approved
+  - id: c4c6-bob-wall-execution
+    source: site-input/assets/evidence/chapter-4-challenge-6/c4-m05-bob-kitchen-wall-execution-t1045.jpg
+    target: evidence/chapter-4-challenge-6/c4-m05-bob-kitchen-wall-execution-t1045.jpg
+    alt: "Bob kitchen-wall execution in Chapter 4"
+    sourceType: user-provided
+    usageStatus: approved
+  - id: c4c6-sheet-equipped
+    source: site-input/assets/evidence/chapter-4-challenge-6/c4-m06-sheet-equipped-t1130.jpg
+    target: evidence/chapter-4-challenge-6/c4-m06-sheet-equipped-t1130.jpg
+    alt: "Sheet disguise active before Lynda's phone execution"
+    sourceType: user-provided
+    usageStatus: approved
+  - id: c4c6-lynda-phone-choke
+    source: site-input/assets/evidence/chapter-4-challenge-6/c4-m07-lynda-phone-cord-choke-t1135.jpg
+    target: evidence/chapter-4-challenge-6/c4-m07-lynda-phone-cord-choke-t1135.jpg
+    alt: "Lynda Phone Cord Choke with the Sheet active"
+    sourceType: user-provided
+    usageStatus: approved
+  - id: c4c6-upstairs-staging
+    source: site-input/assets/evidence/chapter-4-challenge-6/c4-m08-upstairs-bodies-objective-t1205.jpg
+    target: evidence/chapter-4-challenge-6/c4-m08-upstairs-bodies-objective-t1205.jpg
+    alt: "Upstairs body-staging objective in Chapter 4"
+    sourceType: user-provided
+    usageStatus: approved
+  - id: c4c6-laurie-discovery
+    source: site-input/assets/evidence/chapter-4-challenge-6/c4-m09-laurie-discovery-chase-t1405.jpg
+    target: evidence/chapter-4-challenge-6/c4-m09-laurie-discovery-chase-t1405.jpg
+    alt: "Laurie discovery and chase in Chapter 4"
+    sourceType: user-provided
+    usageStatus: approved
+  - id: c4c6-laurie-closet
+    source: site-input/assets/evidence/chapter-4-challenge-6/c4-m09-closet-get-out-t1425.jpg
+    target: evidence/chapter-4-challenge-6/c4-m09-closet-get-out-t1425.jpg
+    alt: "Laurie closet retaliation beat in Chapter 4"
+    sourceType: user-provided
+    usageStatus: approved
+  - id: c4c6-result-screen
+    source: site-input/assets/evidence/chapter-4-challenge-6/c4-m10-chapter4-success-results-t1520.jpg
+    target: evidence/chapter-4-challenge-6/c4-m10-chapter4-success-results-t1520.jpg
+    alt: "Chapter 4 result screen with Challenge 6 checked"
     sourceType: user-provided
     usageStatus: approved
   - id: town-center-main-street

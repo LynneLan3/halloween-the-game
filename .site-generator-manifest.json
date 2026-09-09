@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "templateVersion": "2.0.0",
   "generatorVersion": "1.0.0",
-  "specHash": "235a1bb0a4ec6eab93744df24f8dd3633e392a7559b55983716fec91dcb99b6a",
+  "specHash": "648ed687f49815a0ee0a19f411ffad54cfb8d220af49516ebd8efd05cdaf8639",
   "siteId": "halloween-the-game",
   "createdFromSpec": "site-spec.yaml",
   "managedFiles": [
@@ -212,6 +212,56 @@
       "kind": "asset"
     },
     {
+      "path": "src/assets/evidence/chapter-4-challenge-6/c4-m02-annie-laundry-script-t0440.jpg",
+      "sha256": "d6cf0f066d0063b34d26985b208318b74769cb5c0b7a647e28c76f11c68f0231",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/evidence/chapter-4-challenge-6/c4-m03-annie-car-execution-t0655.jpg",
+      "sha256": "840a31dcaee48989c22522361a34a03496ae632a4e7ea8f55403590ef1d2023e",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/evidence/chapter-4-challenge-6/c4-m04-bob-lynda-shared-stalk-t1005.jpg",
+      "sha256": "52e71e4f786aa48ef0eb381f9a169a273640117f31d2d00e1c78763b95086bfc",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/evidence/chapter-4-challenge-6/c4-m05-bob-kitchen-wall-execution-t1045.jpg",
+      "sha256": "c03593347e5fd5b01ac1d129b5949a03973351137a45cd2484977ef166347bbc",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/evidence/chapter-4-challenge-6/c4-m06-sheet-equipped-t1130.jpg",
+      "sha256": "cd4ea3a28c29f291d60e8fe58e53046782e8d000def700913c0232efc2035985",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/evidence/chapter-4-challenge-6/c4-m07-lynda-phone-cord-choke-t1135.jpg",
+      "sha256": "32b870b614d9b2efcd827fd18299b584941f35559614e0103714802534340e46",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/evidence/chapter-4-challenge-6/c4-m08-upstairs-bodies-objective-t1205.jpg",
+      "sha256": "855ae5b807c900e64eb7f19529c08c17fe8fba17d8e074f9b3897238a20b6ddd",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/evidence/chapter-4-challenge-6/c4-m09-closet-get-out-t1425.jpg",
+      "sha256": "34b8a017bfeba48a669b87c5051a89198add6b958529bfb97213483b7654603b",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/evidence/chapter-4-challenge-6/c4-m09-laurie-discovery-chase-t1405.jpg",
+      "sha256": "a7177afae548ec2ce85251acef9f2bede2d63e5f113c7c7249aead1f9c383dca",
+      "kind": "asset"
+    },
+    {
+      "path": "src/assets/evidence/chapter-4-challenge-6/c4-m10-chapter4-success-results-t1520.jpg",
+      "sha256": "ebc90ac6a17e14ae7cdaa49354339a1e6d8b628a3010d63016cf6471cc9c34c7",
+      "kind": "asset"
+    },
+    {
       "path": "src/assets/evidence/maps/heights-flythrough-t12.webp",
       "sha256": "c538ecaab255d51c16f22f0b0bd5ee46d31354039146a88da4faeccdee25ea66",
       "kind": "asset"
@@ -248,7 +298,7 @@
     },
     {
       "path": "src/config/site.generated.ts",
-      "sha256": "0693cac99d41119f08bc9f9f95d6b2484b0692fcb6aa861085583a3d4c2d9062",
+      "sha256": "3f422c423cdc03236cb57d80be9b8ba2a686ab8de6982ea4417ddc1148b0f4d6",
       "kind": "config"
     },
     {
@@ -263,7 +313,7 @@
     },
     {
       "path": "src/content/docs/guides/challenges.md",
-      "sha256": "8609d5d8bffab37fe7e98aa51259503e2d4bee4478c0df51440890035b069094",
+      "sha256": "8423b24c0da371a02a1eed5ae60cad5d1e29e63ae778d5213dab401c409e276e",
       "kind": "page"
     },
     {
@@ -412,6 +462,11 @@
       "kind": "page"
     },
     {
+      "path": "src/content/docs/story-guides/challenges/chapter-4-challenge-6.md",
+      "sha256": "1f3cf3cfd193a96193784e711baf3f4909b4806c67c8820449c34059ff8ee6cf",
+      "kind": "page"
+    },
+    {
       "path": "src/content/docs/story-guides/single-player.md",
       "sha256": "7a4959253038f59a3488cedb5b4ec6902b5b263a6a21e250b1d89538b482e113",
       "kind": "page"
@@ -505,6 +560,86 @@
       "target": "evidence/arrest-michael/delirious-police-wagon-called.webp",
       "source": "site-input/assets/evidence/arrest-michael/delirious-police-wagon-called.webp",
       "sha256": "f157cfa82b15284f51040c3e8f5eaaa50dacd276839340d4a1694b4808925ae4",
+      "usageStatus": "approved",
+      "sourceType": "user-provided"
+    },
+    {
+      "id": "c4c6-annie-car-execution",
+      "target": "evidence/chapter-4-challenge-6/c4-m03-annie-car-execution-t0655.jpg",
+      "source": "site-input/assets/evidence/chapter-4-challenge-6/c4-m03-annie-car-execution-t0655.jpg",
+      "sha256": "840a31dcaee48989c22522361a34a03496ae632a4e7ea8f55403590ef1d2023e",
+      "usageStatus": "approved",
+      "sourceType": "user-provided"
+    },
+    {
+      "id": "c4c6-annie-laundry-script",
+      "target": "evidence/chapter-4-challenge-6/c4-m02-annie-laundry-script-t0440.jpg",
+      "source": "site-input/assets/evidence/chapter-4-challenge-6/c4-m02-annie-laundry-script-t0440.jpg",
+      "sha256": "d6cf0f066d0063b34d26985b208318b74769cb5c0b7a647e28c76f11c68f0231",
+      "usageStatus": "approved",
+      "sourceType": "user-provided"
+    },
+    {
+      "id": "c4c6-bob-lynda-stalk",
+      "target": "evidence/chapter-4-challenge-6/c4-m04-bob-lynda-shared-stalk-t1005.jpg",
+      "source": "site-input/assets/evidence/chapter-4-challenge-6/c4-m04-bob-lynda-shared-stalk-t1005.jpg",
+      "sha256": "52e71e4f786aa48ef0eb381f9a169a273640117f31d2d00e1c78763b95086bfc",
+      "usageStatus": "approved",
+      "sourceType": "user-provided"
+    },
+    {
+      "id": "c4c6-bob-wall-execution",
+      "target": "evidence/chapter-4-challenge-6/c4-m05-bob-kitchen-wall-execution-t1045.jpg",
+      "source": "site-input/assets/evidence/chapter-4-challenge-6/c4-m05-bob-kitchen-wall-execution-t1045.jpg",
+      "sha256": "c03593347e5fd5b01ac1d129b5949a03973351137a45cd2484977ef166347bbc",
+      "usageStatus": "approved",
+      "sourceType": "user-provided"
+    },
+    {
+      "id": "c4c6-laurie-closet",
+      "target": "evidence/chapter-4-challenge-6/c4-m09-closet-get-out-t1425.jpg",
+      "source": "site-input/assets/evidence/chapter-4-challenge-6/c4-m09-closet-get-out-t1425.jpg",
+      "sha256": "34b8a017bfeba48a669b87c5051a89198add6b958529bfb97213483b7654603b",
+      "usageStatus": "approved",
+      "sourceType": "user-provided"
+    },
+    {
+      "id": "c4c6-laurie-discovery",
+      "target": "evidence/chapter-4-challenge-6/c4-m09-laurie-discovery-chase-t1405.jpg",
+      "source": "site-input/assets/evidence/chapter-4-challenge-6/c4-m09-laurie-discovery-chase-t1405.jpg",
+      "sha256": "a7177afae548ec2ce85251acef9f2bede2d63e5f113c7c7249aead1f9c383dca",
+      "usageStatus": "approved",
+      "sourceType": "user-provided"
+    },
+    {
+      "id": "c4c6-lynda-phone-choke",
+      "target": "evidence/chapter-4-challenge-6/c4-m07-lynda-phone-cord-choke-t1135.jpg",
+      "source": "site-input/assets/evidence/chapter-4-challenge-6/c4-m07-lynda-phone-cord-choke-t1135.jpg",
+      "sha256": "32b870b614d9b2efcd827fd18299b584941f35559614e0103714802534340e46",
+      "usageStatus": "approved",
+      "sourceType": "user-provided"
+    },
+    {
+      "id": "c4c6-result-screen",
+      "target": "evidence/chapter-4-challenge-6/c4-m10-chapter4-success-results-t1520.jpg",
+      "source": "site-input/assets/evidence/chapter-4-challenge-6/c4-m10-chapter4-success-results-t1520.jpg",
+      "sha256": "ebc90ac6a17e14ae7cdaa49354339a1e6d8b628a3010d63016cf6471cc9c34c7",
+      "usageStatus": "approved",
+      "sourceType": "user-provided"
+    },
+    {
+      "id": "c4c6-sheet-equipped",
+      "target": "evidence/chapter-4-challenge-6/c4-m06-sheet-equipped-t1130.jpg",
+      "source": "site-input/assets/evidence/chapter-4-challenge-6/c4-m06-sheet-equipped-t1130.jpg",
+      "sha256": "cd4ea3a28c29f291d60e8fe58e53046782e8d000def700913c0232efc2035985",
+      "usageStatus": "approved",
+      "sourceType": "user-provided"
+    },
+    {
+      "id": "c4c6-upstairs-staging",
+      "target": "evidence/chapter-4-challenge-6/c4-m08-upstairs-bodies-objective-t1205.jpg",
+      "source": "site-input/assets/evidence/chapter-4-challenge-6/c4-m08-upstairs-bodies-objective-t1205.jpg",
+      "sha256": "855ae5b807c900e64eb7f19529c08c17fe8fba17d8e074f9b3897238a20b6ddd",
       "usageStatus": "approved",
       "sourceType": "user-provided"
     },
