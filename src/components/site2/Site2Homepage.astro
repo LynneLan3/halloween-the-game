@@ -110,6 +110,33 @@ if (model.featured?.cover) {
 	}
 
 	{
+		model.latestUpdate && (
+			<section class="section latest-update-section" id="updates" aria-labelledby="latest-update-heading">
+				<div class="section-heading latest-update-heading">
+					<div>
+						<p class="section-label"><span />Latest update</p>
+						<h2 id="latest-update-heading">Patch 1.0.1 —<br /><em>what changed.</em></h2>
+					</div>
+					<div class="latest-update-intro">
+						<p>{model.latestUpdate.title}</p>
+						<a class="arrow-button" href={model.latestUpdate.href} data-astro-prefetch>
+							View all updates<Site2Icon name="arrow-right" size={16} />
+						</a>
+					</div>
+				</div>
+				<ul class="latest-update-grid">
+					{model.latestUpdate.items.map((item, index) => (
+						<li class="latest-update-card">
+							<span>0{index + 1}</span>
+							<strong>{item}</strong>
+						</li>
+					))}
+				</ul>
+			</section>
+		)
+	}
+
+	{
 		model.maps.length > 0 && (
 			<section class="section map-section" id="maps">
 				<div class="section-heading map-heading">
@@ -267,5 +294,76 @@ if (model.featured?.cover) {
 	.featured h2 :global(em) {
 		color: #ad542e;
 		font-style: normal;
+	}
+	.latest-update-section {
+		background: #10191f;
+		border-block: 1px solid rgba(231, 223, 202, 0.12);
+	}
+	.latest-update-heading {
+		align-items: end;
+	}
+	.latest-update-intro {
+		display: flex;
+		align-items: end;
+		justify-content: space-between;
+		gap: 28px;
+	}
+	.latest-update-intro p {
+		max-width: 360px;
+		margin: 0;
+		color: #c8c6ba;
+		font-size: 14px;
+		line-height: 1.5;
+	}
+	.latest-update-grid {
+		max-width: 1320px;
+		margin: 0 auto;
+		padding: 0;
+		list-style: none;
+		display: grid;
+		grid-template-columns: repeat(4, minmax(0, 1fr));
+		gap: 10px;
+	}
+	.latest-update-card {
+		min-height: 108px;
+		box-sizing: border-box;
+		padding: 16px 18px;
+		border: 1px solid rgba(231, 223, 202, 0.14);
+		background: rgba(8, 13, 17, 0.38);
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		gap: 18px;
+	}
+	.latest-update-card span {
+		color: #dfb67a;
+		font-family: 'Barlow Condensed', sans-serif;
+		font-size: 12px;
+		letter-spacing: 0.12em;
+	}
+	.latest-update-card strong {
+		font-family: 'Barlow Condensed', sans-serif;
+		font-size: 20px;
+		font-weight: 500;
+		line-height: 1.05;
+		letter-spacing: 0.03em;
+		text-transform: uppercase;
+	}
+	@media (max-width: 900px) {
+		.latest-update-grid {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+		}
+	}
+	@media (max-width: 640px) {
+		.latest-update-intro {
+			display: block;
+			margin-top: 23px;
+		}
+		.latest-update-intro .arrow-button {
+			margin-top: 20px;
+		}
+		.latest-update-grid {
+			grid-template-columns: 1fr;
+		}
 	}
 </style>

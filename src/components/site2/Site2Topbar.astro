@@ -1,7 +1,6 @@
 ---
 import Site2Icon from './Site2Icon.astro';
 import { buildSite2NavItems, site2NavActivePath } from '../../lib/site2-nav';
-import { experienceNav } from '../../lib/experience-nav';
 
 interface Props {
 	homeHref: string;
@@ -9,8 +8,7 @@ interface Props {
 }
 
 const { homeHref, activePath = '' } = Astro.props;
-const { guidesHref } = await experienceNav();
-const navItems = buildSite2NavItems(guidesHref);
+const navItems = buildSite2NavItems();
 ---
 
 <header class="topbar" data-site2-topbar>

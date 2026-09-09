@@ -42,6 +42,12 @@ export interface Site2QuestionCard {
 	href: string;
 }
 
+export interface Site2LatestUpdate {
+	title: string;
+	href: string;
+	items: readonly string[];
+}
+
 export interface Site2CategoryTile {
 	title: string;
 	copy: string;
@@ -58,6 +64,7 @@ export interface Site2HomepageModel {
 	trending: Site2TrendCard[];
 	maps: Site2MapCard[];
 	mapsHubHref: string;
+	latestUpdate?: Site2LatestUpdate;
 	killer: { href: string; imageUrl?: string };
 	heroes: { href: string; imageUrl?: string };
 	questions: Site2QuestionCard[];
@@ -136,6 +143,19 @@ export async function buildSite2HomepageModel(): Promise<Site2HomepageModel> {
 		: undefined;
 
 	const popular = portal?.popularQuestions ?? [];
+	const updatesQuestion = popular.find((item) => item.href === '/updates/');
+	const latestUpdate: Site2LatestUpdate | undefined = updatesQuestion
+		? {
+				title: 'Patch 1.0.1 — What Changed & What Still Needs Attention',
+				href: updatesQuestion.href,
+				items: [
+					'Challenge and achievement tracking',
+					'Escape and Repair Kit changes',
+					'Cross-play and matchmaking fixes',
+					'Michael and Perk changes',
+				],
+			}
+		: undefined;
 	const questions: Site2QuestionCard[] = popular.slice(0, 6).map((item) => ({
 		question: item.label,
 		answer: item.context ?? '',
@@ -168,6 +188,7 @@ export async function buildSite2HomepageModel(): Promise<Site2HomepageModel> {
 		trending,
 		maps,
 		mapsHubHref: '/maps/',
+		latestUpdate,
 		killer: {
 			href: killerRoute ? site2RouteHubHref('michael-myers') : '/routes/michael-myers/',
 			imageUrl: await optimizeSite2Background('covers/michael/stairs.jpg', { width: 900, height: 620, quality: 78 }),

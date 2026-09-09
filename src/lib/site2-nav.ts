@@ -13,20 +13,14 @@ export interface Site2NavItem {
 	routeId?: string;
 }
 
-export function buildSite2NavItems(guidesHref: string): Site2NavItem[] {
-	const routeOrder = ['maps', 'characters', 'michael-myers', 'multiplayer'] as const;
-	const routes = game.routes ?? [];
-
+export function buildSite2NavItems(): Site2NavItem[] {
 	return [
-		{ label: 'Guides', href: guidesHref },
-		...routeOrder
-			.map((id) => routes.find((route) => route.id === id))
-			.filter((route): route is NonNullable<typeof route> => Boolean(route))
-			.map((route) => ({
-				label: route.title,
-				href: site2RouteHubHref(route.id),
-				routeId: route.id,
-			})),
+		{ label: 'ESCAPE', href: '/multiplayer/how-to-escape/' },
+		{ label: 'ARREST MICHAEL', href: '/how-to-arrest-michael-myers/' },
+		{ label: 'CHALLENGES', href: '/challenges/' },
+		{ label: 'PERKS & BUILDS', href: '/progression-perks/' },
+		{ label: 'MAPS', href: '/maps/' },
+		{ label: 'UPDATES', href: '/updates/' },
 	];
 }
 
