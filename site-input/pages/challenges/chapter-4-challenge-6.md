@@ -15,32 +15,32 @@ Do a fresh Chapter 4 replay and follow this movie-accurate sequence: preserve An
 ## Exact verified sequence (follow these steps in order)
 1. Start a fresh Chapter 4 dedicated run. Use a clean replay rather than relying on an uncertain checkpoint.
 2. Preserve Annie’s scripted laundry‑room setup; do not interrupt her scripted beats. (Annie's setup must play out to reach the car moment.)
-   ![Annie's scripted laundry-room setup at 04:40](/evidence/chapter-4-challenge-6/c4-m02-annie-laundry-script-t0440.jpg)
+   ![Annie's scripted laundry-room setup at 04:40](../../../../assets/evidence/chapter-4-challenge-6/c4-m02-annie-laundry-script-t0440.jpg)
    *The on-screen dialogue establishes the laundry-room setup in the recorded run (04:40).*
 3. Hide in the car and perform the movie‑accurate car execution on Annie (evidence: “Carjacking Execution”). Killing Annie outside the car breaks the intended movie sequence.
-   ![Carjacking Execution on Annie at 06:55](/evidence/chapter-4-challenge-6/c4-m03-annie-car-execution-t0655.jpg)
+   ![Carjacking Execution on Annie at 06:55](../../../../assets/evidence/chapter-4-challenge-6/c4-m03-annie-car-execution-t0655.jpg)
    *The recorded run visibly labels the car interaction “Carjacking Execution” (06:55).*
 4. Allow Bob and Lynda to reach their shared scene and reach a full stalk state before you act. Do not break their shared state too early.
-   ![Bob and Lynda shared stalk state at 10:05](/evidence/chapter-4-challenge-6/c4-m04-bob-lynda-shared-stalk-t1005.jpg)
+   ![Bob and Lynda shared stalk state at 10:05](../../../../assets/evidence/chapter-4-challenge-6/c4-m04-bob-lynda-shared-stalk-t1005.jpg)
    *Both targets and the Hold Stalk Tier 3 state are visible (10:05).*
 5. When Bob is available for the kitchen execution, perform the kitchen‑wall Priority Target Execution on him. If the current run requires Bob’s glasses for the Sheet setup, take them now.
-   ![Bob kitchen-wall execution at 10:45](/evidence/chapter-4-challenge-6/c4-m05-bob-kitchen-wall-execution-t1045.jpg)
+   ![Bob kitchen-wall execution at 10:45](../../../../assets/evidence/chapter-4-challenge-6/c4-m05-bob-kitchen-wall-execution-t1045.jpg)
    *Bob is pinned at the kitchen wall during Priority Target Execution (10:45).*
 6. Equip the Sheet disguise. The Sheet must be active for the next kill to match the movie beat.
-   ![Sheet disguise active before Lynda's phone execution at 11:30](/evidence/chapter-4-challenge-6/c4-m06-sheet-equipped-t1130.jpg)
+   ![Sheet disguise active before Lynda's phone execution at 11:30](../../../../assets/evidence/chapter-4-challenge-6/c4-m06-sheet-equipped-t1130.jpg)
    *The white Sheet visibly covers Michael while Lynda is targeted (11:30).*
 7. While the Sheet is active, kill Lynda using the Phone Cord Choke / Execute setup (telephone kill). Removing or not using the Sheet for this kill breaks the movie‑specific beat.
-   ![Lynda Phone Cord Choke with the Sheet active at 11:35](/evidence/chapter-4-challenge-6/c4-m07-lynda-phone-cord-choke-t1135.jpg)
+   ![Lynda Phone Cord Choke with the Sheet active at 11:35](../../../../assets/evidence/chapter-4-challenge-6/c4-m07-lynda-phone-cord-choke-t1135.jpg)
    *The Phone Cord Choke and Execute prompts are visible (11:35).*
 8. Follow the game’s upstairs body‑staging objective: move the prepared body upstairs as the objective directs and allow Laurie to reach the discovery state. Do not assume any other props are required.
-   ![Upstairs body-staging objective at 12:05](/evidence/chapter-4-challenge-6/c4-m08-upstairs-bodies-objective-t1205.jpg)
+   ![Upstairs body-staging objective at 12:05](../../../../assets/evidence/chapter-4-challenge-6/c4-m08-upstairs-bodies-objective-t1205.jpg)
    *The move-bodies objective and upstairs staging are visible. The selected frame does not show a tombstone.*
 9. Fully stalk Laurie, trigger the discovery → chase → closet → retaliation sequence shown in the recorded run, and complete the chase beats. Laurie sequence timing is a frequent failure point.
-   ![Laurie discovery and chase at 14:05](/evidence/chapter-4-challenge-6/c4-m09-laurie-discovery-chase-t1405.jpg)
-   ![Laurie closet retaliation beat at 14:25](/evidence/chapter-4-challenge-6/c4-m09-closet-get-out-t1425.jpg)
+   ![Laurie discovery and chase at 14:05](../../../../assets/evidence/chapter-4-challenge-6/c4-m09-laurie-discovery-chase-t1405.jpg)
+   ![Laurie closet retaliation beat at 14:25](../../../../assets/evidence/chapter-4-challenge-6/c4-m09-closet-get-out-t1425.jpg)
    *The recorded run shows the discovery, chase, closet “Get Out,” and retaliation sequence (14:05–14:30).*
 10. Finish the chapter and confirm the Chapter 4 result screen registers the challenge as complete (the recorded result is shown at 15:20 with the challenge checked).
-    ![Chapter 4 result screen with Challenge 6 checked at 15:20](/evidence/chapter-4-challenge-6/c4-m10-chapter4-success-results-t1520.jpg)
+    ![Chapter 4 result screen with Challenge 6 checked at 15:20](../../../../assets/evidence/chapter-4-challenge-6/c4-m10-chapter4-success-results-t1520.jpg)
     *The result screen is the completion proof (15:20).*
 
 ## Functional evidence from the recorded run
