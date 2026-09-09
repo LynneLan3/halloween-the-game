@@ -49,16 +49,16 @@ categories:
     label: Maps
     description: Confirmed Haddonfield maps, landmarks, and launch-window map guides.
     icon: puzzle
-    order: 1
+    order: 6
     imageAssetId: halloween-gameplay-2
   - id: character-guides
     label: Characters
     description: Playable Civilian roster, Deluxe exclusives, and trait overview.
     icon: information
-    order: 2
+    order: 9
     imageAssetId: halloween-gameplay-1
   - id: killer-guides
-    label: Michael Myers
+    label: Michael
     description: How the Killer plays — abilities, objectives, and combat rules.
     icon: rocket
     order: 3
@@ -67,26 +67,38 @@ categories:
     label: Multiplayer
     description: 1v4 format, crossplay, bots, and match questions.
     icon: rocket
-    order: 4
+    order: 2
     imageAssetId: halloween-gameplay-2
   - id: story-guides
-    label: Single Player
+    label: Story & Challenges
     description: Story mode chapters, replay structure, and unlocks.
     icon: puzzle
-    order: 5
+    order: 4
     imageAssetId: halloween-gameplay-1
+  - id: progression
+    label: Progression
+    description: Civilian perks, Michael builds, progression tracks, and role-based picks.
+    icon: rocket
+    order: 5
+    imageAssetId: progression-perk-cards
   - id: pc-guides
     label: PC
     description: System requirements, Steam Deck status, and PC launch checks.
     icon: information
-    order: 6
+    order: 10
     imageAssetId: halloween-gameplay-2
   - id: guides
-    label: Launch Guides
-    description: Task-focused launch-window guides.
+    label: Guides
+    description: Task-focused answers for players who need help right now.
     icon: rocket
-    order: 7
+    order: 1
     imageAssetId: halloween-gameplay-1
+  - id: live-updates
+    label: Updates
+    description: Latest patch status and verified known-issue boundaries.
+    icon: information
+    order: 7
+    imageAssetId: halloween-keyart
   - id: reference
     label: Reference
     description: Platform and regional status pages.
@@ -261,6 +273,44 @@ pages:
       - pageId: multiplayer-how-it-works
         type: next-step
     changeSummary: "INTENT EXPANSION — East Haddonfield launch map guide."
+  - id: updates-hub
+    title: "Halloween: The Game Updates — Latest Patch & Known Issues"
+    description: "Current Patch 1.0.1 status, verified launch changes, and bounded known-issue notes linked to the guides that own each player task."
+    category: live-updates
+    slug: updates
+    source: site-input/pages/updates.md
+    status: confirmed
+    featured: false
+    sidebarOrder: 1
+    role: core
+    intents:
+      - halloween-updates
+      - halloween-patch-1-0-1
+      - halloween-known-issues
+    quickAnswer: "Halloween: The Game is out now on Patch 1.0.1. Challenge and achievement tracking, cross-play parties, Civilian escape discovery, Michael abilities, Perk Decks, maps, and Repair Kits all received verified changes; remaining edge cases stay bounded rather than assumed fixed."
+    eyebrow: "Latest Patch"
+    facts:
+      - label: "Current patch"
+        value: "Patch 1.0.1 — September 8, 2026 release"
+      - label: "Tracking status"
+        value: "Additional challenge and achievement fixes; some outliers may remain"
+      - label: "Current-state scope"
+        value: "Verified launch changes linked to their canonical gameplay owners"
+      - label: "Unknowns"
+        value: "No invented crash workaround, exact counts, route proof, or universal resolution claim"
+    coverAssetId: halloween-keyart
+    relations:
+      - pageId: story-challenges
+        type: next-step
+      - pageId: multiplayer-crossplay
+        type: next-step
+      - pageId: michael-myers-abilities
+        type: next-step
+      - pageId: progression-perks
+        type: next-step
+      - pageId: maps-hub
+        type: related
+    changeSummary: "G043 P3 — current Patch 1.0.1 hub with bounded known-issue status and owner links."
   - id: characters-hub
     title: "Halloween: The Game Characters — All Playable Civilians"
     description: "Standard Edition's 10 Civilians (6 new + 4 legacy), Deluxe exclusives Richard and Alexis, and what IllFonic confirms about unique stats and traits."
@@ -698,7 +748,7 @@ pages:
     slug: early-access-release-time
     source: site-input/pages/early-access-release-time.md
     status: needs-verification
-    featured: true
+    featured: false
     sidebarOrder: 1
     role: core
     intents:
@@ -732,7 +782,7 @@ pages:
     slug: preload-download-status
     source: site-input/pages/preload-download-status.md
     status: needs-verification
-    featured: true
+    featured: false
     sidebarOrder: 2
     role: core
     intents:
@@ -762,7 +812,7 @@ pages:
     slug: standard-vs-deluxe-upgrade
     source: site-input/pages/standard-vs-deluxe-upgrade.md
     status: needs-verification
-    featured: true
+    featured: false
     sidebarOrder: 3
     role: core
     intents:
@@ -794,7 +844,7 @@ pages:
   - id: progression-perks
     title: "Halloween: The Game Progression & Perks — How Unlocks Work"
     description: "Four progression levels (Profile, Killer, Civilian, Weapon), Civilian Perk Cards and decks, Michael loadout unlocks, and what still needs live-build verification."
-    category: guides
+    category: progression
     slug: progression-perks
     source: site-input/pages/progression-perks.md
     status: needs-verification
@@ -831,7 +881,7 @@ pages:
   - id: perk-cards
     title: "Halloween: The Game Perk Cards — 51-Card Live List, Decks, Rolls & Upgrades"
     description: "A dated database of 51 currently documented live Perk Cards, plus Civilian deck choices, rolls, temporary upgrades, and the details that remain unconfirmed."
-    category: guides
+    category: progression
     slug: perk-cards
     source: site-input/pages/perk-cards.md
     status: verified
@@ -1202,7 +1252,7 @@ pages:
   - id: civilian-tier-list
     title: "Halloween: The Game Civilian Tier List — Best Civilians by Role"
     description: "Choose a Civilian by role and playstyle with a dated editorial ranking based on Athleticism, Personality, Resourcefulness, and Capability—not an objective tier claim."
-    category: guides
+    category: progression
     slug: civilian-tier-list
     source: site-input/pages/civilian-tier-list.md
     status: confirmed
@@ -1232,67 +1282,6 @@ pages:
     changeSummary: "LAUNCH-DAY P0 — role-based editorial Civilian ranking with dated methodology."
 
 routes:
-  - id: maps
-    eyebrow: "Maps"
-    title: "Maps"
-    description: "Confirmed Haddonfield maps, landmarks, and current UNKNOWNs."
-    visualAssetId: town-center-main-street
-    fastAnswers:
-      - question: "How many maps are in Halloween: The Game?"
-        answer: "4 launch multiplayer maps: Haddonfield Heights, Haddonfield Town Center, Orange Grove Estates, and East Haddonfield."
-        pageId: maps-hub
-      - question: "What landmarks are on Haddonfield Heights?"
-        answer: The Myers house, water tower, and Lampkin Lane are confirmed landmarks.
-        pageId: maps-haddonfield-heights
-      - question: "What is on East Haddonfield?"
-        answer: Rural outskirts map with The Rabbit in Red Lounge, Phelps Garage, and Midwest Feed Company.
-        pageId: maps-east-haddonfield
-    pages:
-      - maps-hub
-      - maps-haddonfield-heights
-      - maps-haddonfield-town-center
-      - maps-orange-grove-estates
-      - maps-east-haddonfield
-  - id: characters
-    eyebrow: "Characters"
-    title: "Characters"
-    description: "Playable Civilian roster, Deluxe exclusives, and trait overview."
-    visualAssetId: heroes-of-haddonfield
-    fastAnswers:
-      - question: "Who can you play as?"
-        answer: Standard Edition includes 10 Civilians; Deluxe adds Richard and Alexis.
-        pageId: characters-hub
-      - question: "Are Laurie and Annie playable?"
-        answer: Yes—Laurie Strode and Annie Brackett are confirmed legacy Civilians.
-        pageId: characters-hub
-      - question: "How do Civilian perks and progression work?"
-        answer: Perk Points roll Perk Cards into Perk Decks; four XP tracks unlock cosmetics and more.
-        pageId: progression-perks
-    pages:
-      - characters-hub
-      - civilian-tier-list
-      - progression-perks
-  - id: michael-myers
-    eyebrow: "Killer"
-    title: "Michael Myers"
-    description: "How Michael works in-game—objectives, abilities, and combat rules."
-    visualAssetId: michael-mask-hero
-    fastAnswers:
-      - question: "What abilities does Michael Myers have?"
-        answer: Killer Sense, Stalk, Shape Jump, Shape Dash, and blackout/light manipulation are confirmed.
-        pageId: michael-myers-abilities
-      - question: "Can Michael be killed?"
-        answer: Michael can be resisted and detained but not simply killed by Civilians.
-        pageId: michael-myers-hub
-      - question: "How do you arrest Michael Myers?"
-        answer: Build police pressure until the handcuff readiness indicator appears, knock him down, press Detain Michael, and finish the short progress interaction for MICHAEL DETAINED.
-        pageId: michael-myers-how-to-arrest
-    pages:
-      - michael-myers-hub
-      - michael-myers-abilities
-      - michael-myers-how-to-arrest
-      - michael-myers-skins
-      - progression-perks
   - id: multiplayer
     eyebrow: "Multiplayer"
     title: "Multiplayer"
@@ -1316,9 +1305,30 @@ routes:
       - multiplayer-crossplay
       - bots-private-lobbies-offline
       - match-length-timer
+  - id: michael-myers
+    eyebrow: "Killer"
+    title: "Michael Myers"
+    description: "How Michael works in-game—objectives, abilities, and combat rules."
+    visualAssetId: michael-mask-hero
+    fastAnswers:
+      - question: "What abilities does Michael Myers have?"
+        answer: Killer Sense, Stalk, Shape Jump, Shape Dash, and blackout/light manipulation are confirmed.
+        pageId: michael-myers-abilities
+      - question: "Can Michael be killed?"
+        answer: Michael can be resisted and detained but not simply killed by Civilians.
+        pageId: michael-myers-hub
+      - question: "How do you arrest Michael Myers?"
+        answer: Build police pressure until the handcuff readiness indicator appears, knock him down, press Detain Michael, and finish the short progress interaction for MICHAEL DETAINED.
+        pageId: michael-myers-how-to-arrest
+    pages:
+      - michael-myers-hub
+      - michael-myers-abilities
+      - michael-myers-how-to-arrest
+      - michael-myers-skins
+      - progression-perks
   - id: single-player
-    eyebrow: "Story Mode"
-    title: "Single Player"
+    eyebrow: "Story & Challenges"
+    title: "Story & Challenges"
     description: "Michael Myers story chapters, replay structure, and unlocks."
     visualAssetId: michael-singleplayer-haddonfield
     fastAnswers:
@@ -1331,6 +1341,90 @@ routes:
       - story-challenges
       - story-challenges-chapter-4-challenge-6
       - single-player-chapter-5-challenges
+  - id: progression
+    eyebrow: "Progression"
+    title: "Progression & Builds"
+    description: "Civilian perks, Michael builds, progression tracks, and role-based picks."
+    visualAssetId: progression-perk-cards
+    fastAnswers:
+      - question: "How do progression and perks work?"
+        answer: Four XP tracks feed Perk Cards, Perk Decks, Michael abilities, and other unlocks.
+        pageId: progression-perks
+      - question: "How do Perk Decks work?"
+        answer: Perk Points roll cards into decks; Patch 1.0.1 limits duplicate copies to two per deck.
+        pageId: perk-cards
+      - question: "Which Civilians are best by role?"
+        answer: Use the dated editorial Civilian picks as role guidance, not objective game fact.
+        pageId: civilian-tier-list
+    pages:
+      - progression-perks
+      - perk-cards
+      - civilian-tier-list
+  - id: maps
+    eyebrow: "Maps"
+    title: "Maps"
+    description: "Confirmed Haddonfield maps, landmarks, and current UNKNOWNs."
+    visualAssetId: town-center-main-street
+    fastAnswers:
+      - question: "How many maps are in Halloween: The Game?"
+        answer: "4 launch multiplayer maps: Haddonfield Heights, Haddonfield Town Center, Orange Grove Estates, and East Haddonfield."
+        pageId: maps-hub
+      - question: "What landmarks are on Haddonfield Heights?"
+        answer: The Myers house, water tower, and Lampkin Lane are confirmed landmarks.
+        pageId: maps-haddonfield-heights
+      - question: "What is on East Haddonfield?"
+        answer: Rural outskirts map with The Rabbit in Red Lounge, Phelps Garage, and Midwest Feed Company.
+        pageId: maps-east-haddonfield
+    pages:
+      - maps-hub
+      - maps-haddonfield-heights
+      - maps-haddonfield-town-center
+      - maps-orange-grove-estates
+      - maps-east-haddonfield
+  - id: reference
+    eyebrow: "Reference"
+    title: "Reference"
+    description: "Characters, PC requirements, platform status, editions, and other lookup pages."
+    visualAssetId: halloween-gameplay-2
+    fastAnswers:
+      - question: "Who can you play as?"
+        answer: Standard Edition includes 10 Civilians; Deluxe adds Richard and Alexis.
+        pageId: characters-hub
+      - question: "What are the PC system requirements?"
+        answer: Steam lists Windows 11, 16–32 GB RAM, DX12, and 45 GB SSD/NVMe storage.
+        pageId: pc-system-requirements
+      - question: "Does Halloween work on Steam Deck?"
+        answer: Not verified—see the Steam Deck status page for compatibility checks.
+        pageId: steam-deck
+    pages:
+      - characters-hub
+      - pc-hub
+      - pc-system-requirements
+      - steam-deck
+      - australia-release-status
+      - early-access-release-time
+      - preload-download-status
+      - standard-vs-deluxe-upgrade
+      - physical-collectors-edition
+  - id: characters
+    eyebrow: "Characters"
+    title: "Characters"
+    description: "Playable Civilian roster, Deluxe exclusives, and trait overview."
+    visualAssetId: heroes-of-haddonfield
+    fastAnswers:
+      - question: "Who can you play as?"
+        answer: Standard Edition includes 10 Civilians; Deluxe adds Richard and Alexis.
+        pageId: characters-hub
+      - question: "Are Laurie and Annie playable?"
+        answer: Yes—Laurie Strode and Annie Brackett are confirmed legacy Civilians.
+        pageId: characters-hub
+      - question: "How do Civilian perks and progression work?"
+        answer: Perk Points roll Perk Cards into Perk Decks; four XP tracks unlock cosmetics and more.
+        pageId: progression-perks
+    pages:
+      - characters-hub
+      - civilian-tier-list
+      - progression-perks
   - id: pc
     eyebrow: "PC"
     title: "PC"
@@ -1349,76 +1443,67 @@ routes:
       - steam-deck
 
 homepage:
-  heroBadge: Players Need Right Now
+  heroBadge: "OUT NOW · Current Patch 1.0.1"
   primaryCta:
-    label: Find all 14 recordings
-    pageId: loomis-logs
+    label: Get unstuck now
+    pageId: michael-myers-how-to-arrest
   secondaryCta:
     label: Browse all guides
     anchor: browse-guides
   statusItems:
-    - label: Early Access (historical)
-      value: "Sep 4, 2026 — 9 AM PT (Digital Deluxe window)"
+    - label: Current patch
+      value: "Patch 1.0.1 — September 8, 2026"
     - label: Release state
-      value: "Out now — full release completed Sep 8, 2026 at 9 AM PT"
-    - label: Guide pillars
-      value: "Loomis Logs, Story Challenges, Civilians, Michael builds, Maps"
+      value: "Out now — full release is live"
+    - label: Start with
+      value: "Arrest Michael, Chapter 4 Challenge 6, escapes, or queue help"
   popularQuestions:
-    - label: "Where are all 14 Loomis Logs and Story recordings?"
-      context: "11 numbered Loomis Logs plus 3 other recordings, listed by chapter with access caveats."
-      pageId: loomis-logs
-    - label: "What are all the Story Challenges?"
-      context: "Six objective wordings for the Prologue and Chapters 1–5, with Chapter 2 tracking caveats."
-      pageId: story-challenges
-    - label: "Which Civilians are best by role?"
-      context: "Dated editorial recommendations for all-rounder, objectives, mobility, NPC support, and anti-Michael play."
-      pageId: civilian-tier-list
-    - label: "What are the best Michael abilities and starter build?"
-      context: "Killer Sense + Shape Jump with Blackout, Detection Pulse, and Reality Tear as a supported starter combination."
-      pageId: michael-myers-abilities
-    - label: "What is on East Haddonfield?"
-      context: "Rural map landmarks including the Rabbit in Red Lounge, Phelps Garage, and Midwest Feed Company."
-      pageId: maps-east-haddonfield
-    - label: "When did Halloween: The Game release?"
-      context: "Digital Deluxe Early Access began Sep 4 at 9 AM PT; full release completed Sep 8 at 9 AM PT."
-      pageId: early-access-release-time
-    - label: "Was preload available before release?"
-      context: "Storefront download status and the historical Sep 4 Digital Deluxe unlock."
-      pageId: preload-download-status
-    - label: "Should I buy Standard or Digital Deluxe?"
-      context: "Standard $39.99 vs Deluxe $59.99, upgrade path, historical Early Access, and missable Phantom skin."
-      pageId: standard-vs-deluxe-upgrade
-    - label: "How many maps are in Halloween: The Game?"
-      context: "4 launch multiplayer maps: Haddonfield Heights, Haddonfield Town Center, Orange Grove Estates, and East Haddonfield."
-      pageId: maps-hub
+    - label: "How do you arrest or detain Michael?"
+      context: "Follow the verified police-pressure, handcuff, Detain Michael, and result-screen sequence."
+      pageId: michael-myers-how-to-arrest
+    - label: "How do you complete Chapter 4 Challenge 6?"
+      context: "Use the movie-accurate Chapter 4 route and verify the result screen; Patch 1.0.1 outliers may remain."
+      pageId: story-challenges-chapter-4-challenge-6
+    - label: "How do Civilian escape routes work?"
+      context: "Use the live match objective and keep exact capacity, spawns, and fixed routes bounded."
+      pageId: multiplayer-how-to-escape
     - label: "How does matchmaking / the queue work?"
       context: "Role queues, Killer Tokens reporting, and private matches."
       pageId: multiplayer-matchmaking-queue
     - label: "How do progression and perks work?"
       context: "Four XP tracks, Perk Cards, and Michael unlocks."
       pageId: progression-perks
+    - label: "What changed in Patch 1.0.1?"
+      context: "Current patch highlights and bounded known-issue status, linked to each gameplay owner."
+      pageId: updates-hub
+    - label: "What are the best Michael abilities and starter build?"
+      context: "Killer Sense + Shape Jump with Blackout, Detection Pulse, and Reality Tear as a supported starter combination."
+      pageId: michael-myers-abilities
     - label: "How does Halloween multiplayer work?"
       context: "1v4 format, objectives, and replay variety."
       pageId: multiplayer-how-it-works
-    - label: "How does Michael Myers work?"
-      context: "Killer role, detention rules, and loadout model."
-      pageId: michael-myers-hub
-    - label: "Does Halloween: The Game have offline bots?"
-      context: "Private matches against AI confirmed; network-offline still needs verification."
-      pageId: bots-private-lobbies-offline
+    - label: "What are all the Story Challenges?"
+      context: "Six objective wordings for the Prologue and Chapters 1–5, with Chapter 2 tracking caveats."
+      pageId: story-challenges
+    - label: "Which Civilians are best by role?"
+      context: "Dated editorial recommendations for all-rounder, objectives, mobility, NPC support, and anti-Michael play."
+      pageId: civilian-tier-list
+    - label: "How many maps are in Halloween: The Game?"
+      context: "4 launch multiplayer maps: Haddonfield Heights, Haddonfield Town Center, Orange Grove Estates, and East Haddonfield."
+      pageId: maps-hub
     - label: "What are the PC system requirements?"
       context: "Steam minimum and recommended specs."
       pageId: pc-system-requirements
   startHere:
-    - pageId: loomis-logs
-      label: Loomis Logs
-      badge: Launch priority
-    - pageId: story-challenges
-      label: Story Challenges
-    - pageId: civilian-tier-list
-      label: Best Civilians
-    - pageId: michael-myers-abilities
-      label: Michael Abilities / Builds
+    - pageId: michael-myers-how-to-arrest
+      label: Arrest Michael
+      badge: Need help now
+    - pageId: story-challenges-chapter-4-challenge-6
+      label: Chapter 4 Challenge 6
+    - pageId: multiplayer-how-to-escape
+      label: Escape overview
+    - pageId: multiplayer-matchmaking-queue
+      label: Matchmaking / queue
 
 assets:
   - id: michael-mask-hero

@@ -1,7 +1,7 @@
 ---
 title: "Halloween: The Game Civilian Tier List — Best Civilians by Role"
 description: "Choose a Civilian by role and playstyle with a dated editorial ranking based on Athleticism, Personality, Resourcefulness, and Capability—not an objective tier claim."
-category: guides
+category: progression
 slug: civilian-tier-list
 status: confirmed
 featured: true

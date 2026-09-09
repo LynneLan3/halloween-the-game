@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "templateVersion": "2.0.0",
   "generatorVersion": "1.0.0",
-  "specHash": "648ed687f49815a0ee0a19f411ffad54cfb8d220af49516ebd8efd05cdaf8639",
+  "specHash": "72915edcaa84af3bbe560db6bc57d3bae396e7561527fa6f78fd09fb626bd371",
   "siteId": "halloween-the-game",
   "createdFromSpec": "site-spec.yaml",
   "managedFiles": [
@@ -298,7 +298,7 @@
     },
     {
       "path": "src/config/site.generated.ts",
-      "sha256": "3f422c423cdc03236cb57d80be9b8ba2a686ab8de6982ea4417ddc1148b0f4d6",
+      "sha256": "627c771a2e9156efd6b70aa83bd00b87d58c037afb8bfc95b49f8499eec43ff0",
       "kind": "config"
     },
     {
@@ -317,13 +317,8 @@
       "kind": "page"
     },
     {
-      "path": "src/content/docs/guides/civilian-tier-list.md",
-      "sha256": "94ce293ffd57fc175dcdc32fe8ce7febf582a60e8158d4d43f087b2337016c1d",
-      "kind": "page"
-    },
-    {
       "path": "src/content/docs/guides/early-access-release-time.md",
-      "sha256": "1525ed41d9a793e8d62d72dec28fb6f6ef26a124c3e9b46e430c41c6cfc6cc5a",
+      "sha256": "83e39c28a263b3485fd1010b01b9bcd911222786634b6c11ec1da4beb14d91aa",
       "kind": "page"
     },
     {
@@ -337,28 +332,18 @@
       "kind": "page"
     },
     {
-      "path": "src/content/docs/guides/perk-cards.md",
-      "sha256": "cd55342e78dc8f56f6bc2a1725035643430e1844aa0c153b2ca095d081d2fbfd",
-      "kind": "page"
-    },
-    {
       "path": "src/content/docs/guides/physical-collectors-edition.md",
       "sha256": "fdcbdf3cd7e39cb3db20d4135e4569dfa292a63871c009f3cf360f3cbf4c114e",
       "kind": "page"
     },
     {
       "path": "src/content/docs/guides/preload-download-status.md",
-      "sha256": "9d4bcf738133178fbfadf2987829bb166e81c1ab8f61c6be19148b680e65c469",
-      "kind": "page"
-    },
-    {
-      "path": "src/content/docs/guides/progression-perks.md",
-      "sha256": "6aca72184cadf0bd5828d025ffff067b84fbac1b991b9f9425fc8f9f88d4a29d",
+      "sha256": "0508500895b46aca37c4399589467f980cb84c0bd227cad45889f5519af28d96",
       "kind": "page"
     },
     {
       "path": "src/content/docs/guides/standard-vs-deluxe-upgrade.md",
-      "sha256": "f14fc6766484d8d5df83eb7746d8aa0ad01221648d2601a683082394aab0b40e",
+      "sha256": "ed86e645a08bc1dcc24abe819fd2ae957e1c7133515edadd7d38b0f9f3e91e90",
       "kind": "page"
     },
     {
@@ -389,6 +374,11 @@
     {
       "path": "src/content/docs/killer-guides/michael-myers/skins.md",
       "sha256": "cc8b0e3f18cdee6f79f82729b163bcf75cf1cc137e6304160b64da3bf0b5274a",
+      "kind": "page"
+    },
+    {
+      "path": "src/content/docs/live-updates/updates.md",
+      "sha256": "745aa4cc8fff261e862cee9d3277bf788708cab98c7e50e244b83ba06fe2402f",
       "kind": "page"
     },
     {
@@ -449,6 +439,21 @@
     {
       "path": "src/content/docs/pc-guides/pc/system-requirements.md",
       "sha256": "12a4c3076caa0aef78063c4c32960e407a00b6358ddd925897b3ffe3088b07db",
+      "kind": "page"
+    },
+    {
+      "path": "src/content/docs/progression/civilian-tier-list.md",
+      "sha256": "e4957074a01a5d79827332c5db458c1e465f928e5461e94ec6fa4ae2c2209197",
+      "kind": "page"
+    },
+    {
+      "path": "src/content/docs/progression/perk-cards.md",
+      "sha256": "c0cee33eaa8e3ff2cbbf607a63f398315df6c71ba614a05a7c82d4738a4c9703",
+      "kind": "page"
+    },
+    {
+      "path": "src/content/docs/progression/progression-perks.md",
+      "sha256": "f27ebb6bc8efc2f52bed9abd8c903f9d8a4ba556d9d7ac177ad5c9ba3e4ad214",
       "kind": "page"
     },
     {

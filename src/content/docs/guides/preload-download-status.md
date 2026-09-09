@@ -4,7 +4,7 @@ description: "What is confirmed about Halloween: The Game preload/download statu
 category: guides
 slug: preload-download-status
 status: needs-verification
-featured: true
+featured: false
 role: core
 assetType: article
 sidebar:

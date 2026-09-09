@@ -4,7 +4,7 @@ description: "Standard $39.99 vs Digital Deluxe $59.99 — historical release-pe
 category: guides
 slug: standard-vs-deluxe-upgrade
 status: needs-verification
-featured: true
+featured: false
 role: core
 assetType: article
 sidebar:

@@ -4,7 +4,7 @@ description: "Halloween: The Game released Tuesday, September 8, 2026 at 9:00 AM
 category: guides
 slug: early-access-release-time
 status: needs-verification
-featured: true
+featured: false
 role: core
 assetType: article
 sidebar:

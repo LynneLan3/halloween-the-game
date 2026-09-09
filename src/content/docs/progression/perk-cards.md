@@ -1,7 +1,7 @@
 ---
 title: "Halloween: The Game Perk Cards — 51-Card Live List, Decks, Rolls & Upgrades"
 description: "A dated database of 51 currently documented live Perk Cards, plus Civilian deck choices, rolls, temporary upgrades, and the details that remain unconfirmed."
-category: guides
+category: progression
 slug: perk-cards
 status: verified
 featured: false

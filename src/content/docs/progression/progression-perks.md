@@ -1,7 +1,7 @@
 ---
 title: "Halloween: The Game Progression & Perks — How Unlocks Work"
 description: "Four progression levels (Profile, Killer, Civilian, Weapon), Civilian Perk Cards and decks, Michael loadout unlocks, and what still needs live-build verification."
-category: guides
+category: progression
 slug: progression-perks
 status: needs-verification
 featured: true
