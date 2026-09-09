@@ -48,6 +48,14 @@ Notes on the tier list
 Short notes on the official stat system
 - The formally defined Civilian stats are Athleticism, Personality, Resourcefulness, Capability. Use these labels to compare role fit (for example, Mobility-focused builds prioritize Athleticism).
 
+Patch 1.0.1 note (September 8, 2026)
+
+- Athleticism 1–4 has shorter Exhausted duration, lower Stamina Regen Delay, and higher Stamina Regen Rate.
+- Athleticism 6–10 has slightly reduced maximum Stamina and reduced Stamina Regen Rate.
+- Civilians now discover Escapes from farther away.
+
+The official notes provide no exact values. These deltas do not by themselves establish a new objective tier list; this page's ranking remains dated editorial guidance.
+
 How to choose for a given match
 1. Decide your primary job this match: objective, NPC bait/support, runner, or flexible survivor.
 2. Match job to role-recommendation above (e.g., objective → Marcus; runner → Jennifer).

@@ -71,7 +71,7 @@ Compared with [Haddonfield Heights](/maps/haddonfield-heights/), Town Center off
 
 See [all 4 Halloween: The Game launch maps](/maps/).
 
-## Launch verification pending
+## Still UNKNOWN
 
 IllFonic has not published:
 

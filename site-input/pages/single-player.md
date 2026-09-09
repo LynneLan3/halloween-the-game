@@ -2,7 +2,15 @@
 
 Quick answer
 
-Story Mode is a single-player narrative containing 6 total chapters: a Prologue plus five numbered chapters (Chapters 1–5). In the successful runs reviewed, the campaign proceeds with the Prologue first and then Chapters 1–5 in that named order. The chapter progressions below are observed sequences from those runs, not guaranteed requirements. Optional challenges and collectibles are replay content tied to the six playable chapters. Current Early Access community reports describe possible save/reset, challenge/log registration, relock/loop, and Chapter 4 AI/timing problems; those reports are not confirmed as universal and do not establish a guaranteed workaround.
+Story Mode is a single-player narrative containing 6 total chapters: a Prologue plus five numbered chapters (Chapters 1–5). In the successful runs reviewed, the campaign proceeds with the Prologue first and then Chapters 1–5 in that named order. The chapter progressions below are observed sequences from those runs, not guaranteed requirements. Optional challenges and collectibles are replay content tied to the six playable chapters. Early Access community reports described possible save/reset, challenge/log registration, relock/loop, and Chapter 4 AI/timing problems; those reports are not confirmed as universal and do not establish a guaranteed workaround.
+
+## Patch 1.0.1 (September 8, 2026)
+
+- The official launch-day notes list fixes for the Chapter 5 completion achievement and Story Mode NPC struggle scaling.
+- They also list general fixes for interaction-prompt disappearance and grab-execution awareness.
+- The notes say challenge/achievement tracking received additional fixes, while some outliers may remain.
+
+These are patch-note updates, not new route instructions or a guarantee that every reported issue is resolved.
 
 First-clear state map (observed)
 

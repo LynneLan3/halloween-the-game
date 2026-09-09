@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "templateVersion": "2.0.0",
   "generatorVersion": "1.0.0",
-  "specHash": "9d337e940aca00e22bd73012dda93d28b7f74d18c0182f227bd98ebaea8feb19",
+  "specHash": "f42c51b6694133b3308e492789d590b94fc2703484d95931bccb2b50e2b6227d",
   "siteId": "halloween-the-game",
   "createdFromSpec": "site-spec.yaml",
   "managedFiles": [
@@ -248,12 +248,12 @@
     },
     {
       "path": "src/config/site.generated.ts",
-      "sha256": "7d74fb2902d39780b34ebc3030c286d1829b07d320c3ae637f9f4065e5ae6b68",
+      "sha256": "5361efbbedb010bcd98de9a2c313643de72c6f9fc16dce55f6664e2c61e8825a",
       "kind": "config"
     },
     {
       "path": "src/content/docs/character-guides/characters.md",
-      "sha256": "63c08d4e69ccebfd56e3f53eab5aa2434b6cbc372722bbcc2c1252098e52e14b",
+      "sha256": "f8002a91f6fce566fd254ac2bcd95853388757d7bae3ed4379a81593e441b3f9",
       "kind": "page"
     },
     {
@@ -263,17 +263,17 @@
     },
     {
       "path": "src/content/docs/guides/challenges.md",
-      "sha256": "4699668e1d80687a438a140778b8f6f42faff63f992978f454c0d0538cc46911",
+      "sha256": "8609d5d8bffab37fe7e98aa51259503e2d4bee4478c0df51440890035b069094",
       "kind": "page"
     },
     {
       "path": "src/content/docs/guides/civilian-tier-list.md",
-      "sha256": "e795a31c4c9a4530484dbe3e4a2b791ed8adb17ffe266d1ef2a8fc19c68cfd3a",
+      "sha256": "94ce293ffd57fc175dcdc32fe8ce7febf582a60e8158d4d43f087b2337016c1d",
       "kind": "page"
     },
     {
       "path": "src/content/docs/guides/early-access-release-time.md",
-      "sha256": "dedcf3f1edc313c60fdf0620159b9cdbed08434d60a486422e760ea95a9424aa",
+      "sha256": "1525ed41d9a793e8d62d72dec28fb6f6ef26a124c3e9b46e430c41c6cfc6cc5a",
       "kind": "page"
     },
     {
@@ -283,12 +283,12 @@
     },
     {
       "path": "src/content/docs/guides/match-length-timer.md",
-      "sha256": "17f3be3eaa3dbd8f90f012bb61948dbc18bfb9cf7fd2d07b7264fbac695db1bf",
+      "sha256": "47ee61216e1f1b9785d84713456e4b09e5ac4835ed56ee217b7bc59f74d6f705",
       "kind": "page"
     },
     {
       "path": "src/content/docs/guides/perk-cards.md",
-      "sha256": "37a3af6d046615c539db8abc6da638f7c1a5609b998cf1b56da12d718b79b581",
+      "sha256": "cd55342e78dc8f56f6bc2a1725035643430e1844aa0c153b2ca095d081d2fbfd",
       "kind": "page"
     },
     {
@@ -303,22 +303,22 @@
     },
     {
       "path": "src/content/docs/guides/progression-perks.md",
-      "sha256": "74af4c862b3061343c8201bdb655a5593a0089cad693cd76130ef3febfce0804",
+      "sha256": "6aca72184cadf0bd5828d025ffff067b84fbac1b991b9f9425fc8f9f88d4a29d",
       "kind": "page"
     },
     {
       "path": "src/content/docs/guides/standard-vs-deluxe-upgrade.md",
-      "sha256": "1bdd90b5bac1f2e543bd1bec7955ff8dc5756a09511f6be13a149a7f40afee9f",
+      "sha256": "f14fc6766484d8d5df83eb7746d8aa0ad01221648d2601a683082394aab0b40e",
       "kind": "page"
     },
     {
       "path": "src/content/docs/guides/trophies-achievements.md",
-      "sha256": "3f85e7235dddcfb71dbb88ea54ef36cfb3c95da8251b45a06e1170361671eea2",
+      "sha256": "880bd19e11c9861d69885c5683f4e6004bf6392c0b81dd7e88b7dbcebb5db355",
       "kind": "page"
     },
     {
       "path": "src/content/docs/index.mdx",
-      "sha256": "eb0f1f7269d093861069f6a39c281cc80161a224c041ddcd6d986f5510ae8af9",
+      "sha256": "698202793a517916584b9d295802b1c3ddcbd36f00dd304e2bd29e77b4d291bc",
       "kind": "hub"
     },
     {
@@ -333,7 +333,7 @@
     },
     {
       "path": "src/content/docs/killer-guides/michael-myers/abilities.md",
-      "sha256": "24d855cf6598e43538ae63b3355c7cb0f2b4f8985be41668ffdbf01f5d25deb9",
+      "sha256": "4f06acae02338a38b5f2f04160cb2edad078689c62f962edf8dd08695ccb99f2",
       "kind": "page"
     },
     {
@@ -343,37 +343,37 @@
     },
     {
       "path": "src/content/docs/map-guides/maps.md",
-      "sha256": "dfef06f52e935b5e7a3e463e0d321704c32809750416a2007a6a5c857701a3b7",
+      "sha256": "3d683fd15e476730cc7954b2e149a6f6a8d3aafafdd1f4d2ee96ba58e0db862f",
       "kind": "page"
     },
     {
       "path": "src/content/docs/map-guides/maps/east-haddonfield.md",
-      "sha256": "70a252fa0c792425c2d9edc3a790f502d2fe3464705986a9fd481d5e22d5f4f5",
+      "sha256": "9f1b6e213f2046b411adb6ac941193693b6ac2d2701fdcfbd72be02ca4ff7fd3",
       "kind": "page"
     },
     {
       "path": "src/content/docs/map-guides/maps/haddonfield-heights.md",
-      "sha256": "ce2c26d16e5bde9a0ea3b45b5b84776595ad5d3159dc17d6cb141e3f59662bc6",
+      "sha256": "b19242a3d8ed075764af4a46ffde2a722af10136313c97b3518fc62e1a65c9b0",
       "kind": "page"
     },
     {
       "path": "src/content/docs/map-guides/maps/haddonfield-town-center.md",
-      "sha256": "438a309573691f1e06a852edd3b0f6debead39d903c22fe2ad4c7eb95728c576",
+      "sha256": "0d6c93ba62f0177a78bc910bb5c08d9a9b89d8cff14dc3641acb8a9cd0d2cd56",
       "kind": "page"
     },
     {
       "path": "src/content/docs/map-guides/maps/orange-grove-estates.md",
-      "sha256": "8b768663e1ae285b02ad3fa875789439c70a4ce314d035b6ad45b1853e5870a2",
+      "sha256": "56ee2e076cd3d800f7cf491c5af06193f4b5a2f1fee8f9337d7ab027bb4f9575",
       "kind": "page"
     },
     {
       "path": "src/content/docs/multiplayer-guides/multiplayer.md",
-      "sha256": "c1af928a562f580e8e45e01675f72f92355db70926776e2cdfe3c97c9504f425",
+      "sha256": "01fb7164f727f0d3dc63a7e581526451f151e7a74a5c8858a4720ad726998cb9",
       "kind": "page"
     },
     {
       "path": "src/content/docs/multiplayer-guides/multiplayer/crossplay.md",
-      "sha256": "d79df6de32be9f61b5a82d7391db8d556c589e49cc73129326e047577f96e28a",
+      "sha256": "a561b27188f88bba3958a04c3ac7e10f68259b15226de52d7a46ad411b0c91b1",
       "kind": "page"
     },
     {
@@ -383,7 +383,7 @@
     },
     {
       "path": "src/content/docs/multiplayer-guides/multiplayer/how-to-escape.md",
-      "sha256": "863b21aa457583ced7f65055c9efeae8a4c04b3e4df4738a5b7aaf14e3960f58",
+      "sha256": "ebc1d34c0b5cf0b9ebfc0f793ce538efb542b2811d99938699ad156b5247ce68",
       "kind": "page"
     },
     {
@@ -393,7 +393,7 @@
     },
     {
       "path": "src/content/docs/pc-guides/pc.md",
-      "sha256": "4486eb8f6eac765edf0127d1cfb2de3cf4c0463fa110f630098027c05e39f71f",
+      "sha256": "bef868fb4ddce0e48d70707a7c1ebc2e5a8057188a6a46bb4cad0ff81e335ad6",
       "kind": "page"
     },
     {
@@ -408,12 +408,12 @@
     },
     {
       "path": "src/content/docs/reference/steam-deck.md",
-      "sha256": "d378ac7e5f253009734fc625e34e9b9a8f863af1b1d201e35c3f184dc8446d8d",
+      "sha256": "2e64bae112d3c35b31d1d7597b243fc31e2a220c54243cf22ad3d300e10eb81b",
       "kind": "page"
     },
     {
       "path": "src/content/docs/story-guides/single-player.md",
-      "sha256": "e38775248d89f299238d311252f79791923f6c2b0eefbd98919e4989ba91cec3",
+      "sha256": "7a4959253038f59a3488cedb5b4ec6902b5b263a6a21e250b1d89538b482e113",
       "kind": "page"
     },
     {

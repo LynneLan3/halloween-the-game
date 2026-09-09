@@ -22,7 +22,7 @@ Compared with [Haddonfield Heights]({{page:maps-haddonfield-heights}}), Town Cen
 
 See [all 4 Halloween: The Game launch maps]({{page:maps-hub}}).
 
-## Launch verification pending
+## Still UNKNOWN
 
 IllFonic has not published:
 

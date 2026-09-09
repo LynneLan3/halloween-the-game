@@ -11,7 +11,7 @@ sidebar:
   order: 4
 intents:
   - orange-grove-estates-map
-quickAnswer: "Orange Grove Estates is a larger suburban map with multi-story houses, garages, balconies, a park with playground and basketball court, plus Wallace and Doyle houses. Item spawns and meta are launch verification pending."
+quickAnswer: "Orange Grove Estates is a larger suburban map with multi-story houses, garages, balconies, a park with playground and basketball court, plus Wallace and Doyle houses. Item spawns and meta remain UNKNOWN."
 relations:
   -
     slug: maps
@@ -73,7 +73,7 @@ Orange Grove Estates is positioned as a map where:
 
 See [all 4 Halloween: The Game launch maps](/maps/).
 
-## Launch verification pending
+## Still UNKNOWN
 
 Do not assume pre-launch:
 

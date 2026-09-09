@@ -1,6 +1,6 @@
 ---
 title: "Halloween: The Game — Standard vs Digital Deluxe: Is the $20 Deluxe Worth It?"
-description: "Standard $39.99 vs Digital Deluxe $59.99 — $20 difference. Compare price, Early Access (Sep 4), Deluxe contents (Inmate Michael + Richard & Alexis), launch-time Deluxe Upgrade (price unannounced), and the preorder-only Phantom skin that cannot be recovered after the preorder/Early Access cutoff. Buying Digital Deluxe during Early Access still grants Early Access and preorder bonuses through Sep 8, 2026 at 9:00 AM PT."
+description: "Standard $39.99 vs Digital Deluxe $59.99 — historical release-period comparison of Early Access, Deluxe contents, the unannounced Upgrade price, and the preorder-only Phantom skin."
 category: guides
 slug: standard-vs-deluxe-upgrade
 status: needs-verification
@@ -11,8 +11,8 @@ status: needs-verification
 Quick answer
 
 - Price and value: Standard is $39.99 USD; Digital Deluxe is $59.99 USD — a $20 difference. Digital Deluxe adds an Early Access path plus the Inmate Michael Myers skin, the civilians Richard and Alexis, a digital comic and other Deluxe extras.
-- Upgrade path: A Digital Deluxe Edition Upgrade SKU will be available at launch so Standard buyers can add Deluxe content later; the upgrade price is unannounced (UNKNOWN).
-- Early Access & preorder timing: Early Access (Advance Access) begins Sep 4, 2026 at 9:00 AM PT; full launch is Tuesday, Sep 8, 2026 at 9:00 AM PT. Purchasing Digital Deluxe during the Early Access window still grants Early Access and preorder bonuses through Sep 8, 2026 at 9:00 AM PT. See [Advance Access timing]({{page:early-access-release-time}}).
+- Upgrade path (historical): a Digital Deluxe Edition Upgrade SKU was announced for launch; the supplied evidence does not establish its current price or availability.
+- Early Access & preorder timing (historical): Early Access began Sep 4, 2026 at 9:00 AM PT; full launch occurred Sep 8, 2026 at 9:00 AM PT. Purchasing Digital Deluxe during that window granted its release-period Early Access and preorder bonuses. See [release timing]({{page:early-access-release-time}}).
 - Missable item: The Phantom Michael Myers skin is a Digital preorder-exclusive and is not restored by the Deluxe Upgrade. If you miss the preorder/Early Access cutoff you cannot recover Phantom via the Upgrade.
 
 Edition comparison (decision fields)
@@ -43,9 +43,9 @@ Buy Digital Deluxe ($59.99) if:
 Buy Standard ($39.99) if:
 - You only plan to play at or after full launch (Sep 8, 2026 at 9:00 AM PT).
 - You want to postpone spending and accept losing preorder-only items like Phantom.
-- You’re comfortable buying the Deluxe Upgrade SKU at launch if price and timing look acceptable.
+- You were comfortable buying the Deluxe Upgrade SKU at launch if price and timing looked acceptable.
 
-Unsure: buy Standard now and upgrade at launch if needed — the Upgrade will add Deluxe content, but the Upgrade price is unannounced (UNKNOWN) and preorder-only items remain lost if you missed the preorder window.
+Historical decision: Standard buyers could wait for the launch Upgrade, but its price was unannounced and preorder-only items remained lost if the preorder window was missed.
 
 Supporting detail — strategy decision and reference
 
@@ -55,7 +55,7 @@ Decision question
 Available options
 1. Buy Standard now ($39.99).
 2. Buy Digital Deluxe now ($59.99) — secures Early Access and Deluxe items immediately.
-3. Buy Standard now and purchase the Deluxe Edition Upgrade SKU at launch to add Deluxe content later (upgrade price unannounced).
+3. At release, Standard buyers could purchase the Deluxe Edition Upgrade SKU later; its price was unannounced.
 
 Key trade-offs
 - Money vs timing: $20 upfront for guaranteed Early Access and Deluxe items now, versus delaying payment and possibly paying an unknown upgrade price later.
@@ -72,13 +72,13 @@ When to avoid each option
 - Avoid buying Deluxe if you don’t value Early Access or the Deluxe extras and want to save $20.
 
 Prerequisites
-- To get Early Access on Sep 4, 2026 at 9:00 AM PT you must have purchased Digital Deluxe (or purchase Digital Deluxe during the Early Access window).
+- Early Access on Sep 4, 2026 at 9:00 AM PT required Digital Deluxe during the historical Early Access window.
 - To secure Phantom you must have preordered (Phantom is a preorder-only item).
 
 Observed outcomes (what the official sources confirm)
 - Digital Deluxe is $59.99 and includes Early Access path, Inmate Michael Myers, civilians Richard and Alexis, a digital comic and other Deluxe extras.
 - Standard is $39.99.
-- A Deluxe Edition Upgrade SKU will be available at launch to add Deluxe content; its price is unannounced.
+- A Deluxe Edition Upgrade SKU was announced for launch; its price was not published in the supplied evidence.
 - Phantom Michael Myers is a Digital preorder-exclusive and is not restored by the Deluxe Upgrade.
 - Purchasing Digital Deluxe during the Early Access window still grants Early Access and preorder bonuses through Sep 8, 2026 at 9:00 AM PT.
 - Full launch is Tuesday, Sep 8, 2026 at 9:00 AM PT.
@@ -111,7 +111,7 @@ Confirmed facts (from official sources)
 - Digital Deluxe adds Early Access path, Inmate Michael Myers skin, civilians Richard and Alexis, a digital comic and other Deluxe extras.
 - Digital Deluxe Edition Upgrade will be available at launch; upgrade price unannounced.
 - Phantom Michael Myers skin is a Digital preorder-exclusive and is not restored by the Deluxe Upgrade.
-- Buying Digital Deluxe during Early Access still grants Early Access and preorder bonuses through Sep 8, 2026 at 9:00 AM PT.
+- Buying Digital Deluxe during the Early Access window granted the release-period Early Access and preorder bonuses through Sep 8, 2026 at 9:00 AM PT.
 - Full launch: Tuesday, Sep 8, 2026 at 9:00 AM PT.
 Sources: Official Preorder / FAQ and Launch & Early Access pages (see Sources).
 
@@ -139,8 +139,8 @@ Common mistakes to avoid
 - Assuming any post–Sep 8 behavior (like restoring Early Access or preorder items) beyond official timings — do not infer post-launch policy.
 
 What happens next (practical next steps)
-- Want Sep 4 Early Access or Phantom? Preorder or purchase Digital Deluxe during the Early Access window to secure Early Access and preorder bonuses through Sep 8, 2026 at 9:00 AM PT.
-- Bought Standard and now want Deluxe? At launch, buy the Deluxe Edition Upgrade SKU to add Inmate Michael, Richard & Alexis, and other Deluxe extras; Phantom remains unavailable if you missed preorder.
+- Sep 4 Early Access and preorder bonuses were release-period offers; the window has closed.
+- Current Upgrade availability, price, and post-launch edition contents are UNKNOWN in the supplied Pack; check official storefront material before purchase.
 - Need more on skins or characters? See the [Michael Myers skins]({{page:michael-myers-skins}}) and the [characters guide]({{page:characters-hub}}).
 
 Related guides

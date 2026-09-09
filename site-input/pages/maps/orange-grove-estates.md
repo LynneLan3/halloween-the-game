@@ -24,7 +24,7 @@ Orange Grove Estates is positioned as a map where:
 
 See [all 4 Halloween: The Game launch maps]({{page:maps-hub}}).
 
-## Launch verification pending
+## Still UNKNOWN
 
 Do not assume pre-launch:
 

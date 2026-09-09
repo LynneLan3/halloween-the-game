@@ -39,10 +39,10 @@ Do **not** claim verified Steam Deck performance, Proton flags, or stable frame 
 ## Multiplayer on PC
 
 - **1v4 online multiplayer:** {{page:multiplayer-how-it-works}}
-- **Crossplay status:** {{page:multiplayer-crossplay}} — storefront indicates cross-platform play, but full PC ↔ console pairing is launch verification pending
+- **Crossplay status:** {{page:multiplayer-crossplay}} — storefront indicates cross-platform play, but full PC ↔ console pairing remains UNKNOWN
 - **Offline bots / story:** {{page:bots-private-lobbies-offline}} and {{page:single-player-hub}}
 
-## Launch verification pending
+## Still UNKNOWN
 
 Avoid pre-launch claims about:
 

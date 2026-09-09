@@ -8,9 +8,9 @@ site:
   locale: en
   siteUrl: "https://www.halloweengameguide.wiki/"
   hubPath: /
-  title: "Halloween: The Game Guide — Maps, Characters, Multiplayer & Launch Answers"
+  title: "Halloween: The Game Guide — Maps, Characters, Multiplayer & Live Answers"
   shortName: "Halloween: The Game"
-  description: "Official-facts guides for Halloween: The Game maps, characters, Michael Myers abilities, multiplayer, single-player story, PC requirements, and Sep 2026 Advance Access timing."
+  description: "Official-facts guides for Halloween: The Game maps, characters, Michael Myers abilities, multiplayer, single-player story, PC requirements, and live-release updates."
   disclaimer: "Unofficial fan guide. Verify version-sensitive facts against cited sources before production."
 
 deployment:
@@ -24,8 +24,8 @@ deployment:
 game:
   name: "Halloween: The Game"
   hubTitle: "Halloween: The Game Guide"
-  tagline: "Maps, characters, Michael Myers, multiplayer, story mode, and launch-window answers for the Sep 2026 release."
-  releaseStatus: pre-release
+  tagline: "Maps, characters, Michael Myers, multiplayer, story mode, and live-release answers."
+  releaseStatus: released
   releaseDate: 2026-09-08
   developer: IllFonic
   publisher: IllFonic Publishing
@@ -118,7 +118,7 @@ pages:
       - label: "What this hub covers"
         value: "Confirmed settings, landmarks, and links to each map guide"
       - label: "Spawns / meta"
-        value: "Exact item spawns, escapes, and map meta are launch verification pending"
+        value: "Exact item spawns, escapes, and map meta remain UNKNOWN"
     coverAssetId: haddonfield-heights-03
     relations:
       - pageId: maps-haddonfield-heights
@@ -209,7 +209,7 @@ pages:
     role: core
     intents:
       - orange-grove-estates-map
-    quickAnswer: "Orange Grove Estates is a larger suburban map with multi-story houses, garages, balconies, a park with playground and basketball court, plus Wallace and Doyle houses. Item spawns and meta are launch verification pending."
+    quickAnswer: "Orange Grove Estates is a larger suburban map with multi-story houses, garages, balconies, a park with playground and basketball court, plus Wallace and Doyle houses. Item spawns and meta remain UNKNOWN."
     eyebrow: "Map Location"
     facts:
       - label: "Homes"
@@ -229,7 +229,7 @@ pages:
     changeSummary: "CONTENT_EXPANSION — Orange Grove Estates map guide."
   - id: maps-east-haddonfield
     title: "East Haddonfield — Halloween: The Game Map Guide"
-    description: "Rural launch map with The Rabbit in Red Lounge, Phelps Garage, and Midwest Feed Company — landmarks and what still needs launch verification."
+    description: "Rural launch map with The Rabbit in Red Lounge, Phelps Garage, and Midwest Feed Company — confirmed landmarks and current UNKNOWNs."
     category: map-guides
     slug: maps/east-haddonfield
     source: site-input/pages/maps/east-haddonfield.md
@@ -239,7 +239,7 @@ pages:
     role: core
     intents:
       - east-haddonfield-map
-    quickAnswer: "East Haddonfield is one of four launch multiplayer maps — a rural outskirts / farmland setting with Midwest Feed Company, The Rabbit in Red Lounge, and Phelps Garage. Exact spawns and escape routes are launch verification pending."
+    quickAnswer: "East Haddonfield is one of four launch multiplayer maps — a rural outskirts / farmland setting with Midwest Feed Company, The Rabbit in Red Lounge, and Phelps Garage. Exact spawns and escape routes remain UNKNOWN."
     eyebrow: "Map Location"
     facts:
       - label: "Setting"
@@ -274,7 +274,7 @@ pages:
     intents:
       - halloween-characters
       - playable-characters
-    quickAnswer: "Standard Edition includes 10 playable Civilians—Jennifer, Tanya, Rachel, Eric, Marcus, Thomas, plus legacy Bob, Lynda, Annie, and Laurie. Digital Deluxe adds Richard and Alexis. Each has unique stats and traits; full numeric tables are launch verification pending."
+    quickAnswer: "Standard Edition includes 10 playable Civilians—Jennifer, Tanya, Rachel, Eric, Marcus, Thomas, plus legacy Bob, Lynda, Annie, and Laurie. Digital Deluxe adds Richard and Alexis. Each has unique stats and traits; full numeric tables remain UNKNOWN."
     eyebrow: "Character Guide"
     facts:
       - label: "Standard roster"
@@ -348,7 +348,7 @@ pages:
     role: core
     intents:
       - michael-myers-abilities
-    quickAnswer: "Evil Presence is an unlockable Michael ability observed in EA as a short-range aura that staggers nearby Civilians, creating an opening to close distance or interrupt escape. Exact unlock level, cooldown, range, Stalk Tier 3 requirement, and guaranteed execution remain launch verification pending. Official kit also includes Killer Sense, Stalk, Shape Jump, Shape Dash, and blackouts."
+    quickAnswer: "Evil Presence is an unlockable Michael ability observed in Early Access footage as a short-range aura that staggers nearby Civilians, creating an opening to close distance or interrupt escape. Exact unlock level, cooldown, range, Stalk Tier 3 requirement, and guaranteed execution remain UNKNOWN. Official kit also includes Killer Sense, Stalk, Shape Jump, Shape Dash, and blackouts."
     eyebrow: "Killer Abilities"
     facts:
       - label: "Evil Presence"
@@ -477,7 +477,7 @@ pages:
     changeSummary: "CONTENT_EXPANSION — Multiplayer how-it-works guide."
   - id: multiplayer-how-to-escape
     title: "Halloween The Game Escape Routes — Car, Cellar, Gate & Police Wagon"
-    description: "Fast-verified multiplayer escape decision guide: what to do after finding a Sedan, Storm Cellar, Outer Gate, or Police Wagon cue, with current Early Access unknowns preserved."
+    description: "Fast-verified multiplayer escape decision guide: what to do after finding a Sedan, Storm Cellar, Outer Gate, or Police Wagon cue, with current UNKNOWNs preserved."
     category: multiplayer-guides
     slug: multiplayer/how-to-escape
     source: site-input/pages/multiplayer/how-to-escape.md
@@ -508,7 +508,7 @@ pages:
         type: next-step
       - pageId: maps-hub
         type: related
-    changeSummary: "CONTENT_EXPANSION — FAST_VERIFIED item/exit decision guide with explicit Early Access evidence boundaries."
+    changeSummary: "CONTENT_EXPANSION — FAST_VERIFIED item/exit decision guide with explicit evidence boundaries."
   - id: multiplayer-matchmaking-queue
     title: "Halloween: The Game Matchmaking Queue — Roles, Tokens & Private Matches"
     description: "Role-based matchmaking queues, secondary-reported Killer Tokens, private matches with friends, and what remains unknown about AI backfill."
@@ -546,7 +546,7 @@ pages:
     changeSummary: "INTENT EXPANSION — Matchmaking queue guide."
   - id: multiplayer-crossplay
     title: "Halloween: The Game Crossplay — What Is Officially Confirmed"
-    description: "Xbox storefront cross-platform indicators, confirmed platforms, and what not to claim about the full crossplay matrix pre-launch."
+    description: "Xbox storefront cross-platform indicators, confirmed platforms, Patch 1.0.1 party/lobby status, and the remaining unknown matrix."
     category: multiplayer-guides
     slug: multiplayer/crossplay
     source: site-input/pages/multiplayer/crossplay.md
@@ -556,7 +556,7 @@ pages:
     role: core
     intents:
       - halloween-crossplay
-    quickAnswer: "Cross-platform multiplayer is officially indicated on Xbox store listings, and IllFonic confirms PC, PS5, and Xbox Series X|S. A complete PS5 ↔ Xbox ↔ Steam ↔ Epic pairing matrix is not published—treat full crossplay details as launch verification pending."
+    quickAnswer: "Cross-platform multiplayer is officially indicated on Xbox store listings, and IllFonic confirms PC, PS5, and Xbox Series X|S. Patch 1.0.1 addressed the cross-play party/lobby issue, but a complete PS5 ↔ Xbox ↔ Steam ↔ Epic pairing matrix remains UNKNOWN."
     eyebrow: "Crossplay"
     facts:
       - label: "Xbox listing"
@@ -564,7 +564,7 @@ pages:
       - label: "Platforms"
         value: "PC (Steam/Epic), PS5, Xbox Series X|S"
       - label: "Full matrix"
-        value: "Not confirmed in primary sources pre-launch"
+        value: "Not confirmed in supplied primary sources"
     coverAssetId: extended-first-look
     relations:
       - pageId: pc-system-requirements
@@ -574,7 +574,7 @@ pages:
     changeSummary: "CONTENT_EXPANSION — Crossplay status guide."
   - id: single-player-hub
     title: "Halloween: The Game Single Player — Story Mode & Chapters"
-    description: "A six-chapter Michael Myers Story Mode walkthrough covering observed first-clear progression, current objectives, replay cleanup, and Early Access uncertainty."
+    description: "A six-chapter Michael Myers Story Mode walkthrough covering observed first-clear progression, current objectives, replay cleanup, and evidence boundaries."
     category: story-guides
     slug: single-player
     source: site-input/pages/single-player.md
@@ -586,7 +586,7 @@ pages:
       - halloween-single-player
       - story-mode
       - how-many-chapters
-    quickAnswer: "Halloween: The Game has 6 total Story Mode chapters: a Prologue plus five numbered chapters (Chapters 1–5). This walkthrough follows observed first-clear progression, separates optional cleanup, and flags Early Access issues without treating them as universal."
+    quickAnswer: "Halloween: The Game has 6 total Story Mode chapters: a Prologue plus five numbered chapters (Chapters 1–5). This walkthrough follows observed first-clear progression, separates optional cleanup, and flags evidence boundaries without treating them as universal."
     eyebrow: "Story Mode"
     facts:
       - label: "Perspective"
@@ -630,7 +630,7 @@ pages:
     changeSummary: "Current-build Chapter 5 challenge list and one bounded Challenge 6 route."
   - id: pc-hub
     title: "Halloween: The Game on PC — Requirements & Launch Checks"
-    description: "PC storefronts, system requirements, Steam Deck status links, and what to verify after Advance Access."
+    description: "PC storefronts, system requirements, Steam Deck status links, and current compatibility UNKNOWNs."
     category: pc-guides
     slug: pc
     source: site-input/pages/pc.md
@@ -640,7 +640,7 @@ pages:
     role: core
     intents:
       - halloween-pc
-    quickAnswer: "PC releases on Steam (App ID 3219630) and Epic. Steam lists Windows 11, DX12, SSD/NVMe, and full controller support. Anti-cheat middleware and Steam Deck compatibility are launch verification pending."
+    quickAnswer: "PC releases on Steam (App ID 3219630) and Epic. Steam lists Windows 11, DX12, SSD/NVMe, and full controller support. Anti-cheat middleware and Steam Deck compatibility remain UNKNOWN."
     eyebrow: "PC Guide"
     facts:
       - label: "Steam App ID"
@@ -692,8 +692,8 @@ pages:
         type: next-step
     changeSummary: "CONTENT_EXPANSION — PC system requirements guide."
   - id: early-access-release-time
-    title: "What time does Halloween the Game come out? Early Access & launch times (PT)"
-    description: "Early Access begins Friday, Sep 4, 2026 at 9:00 AM PT for Digital Deluxe (already live). Full launch is Tuesday, Sep 8, 2026 at 9:00 AM PT — Standard Edition waits for Sep 8. Preload schedules vary by storefront; see the preload guide."
+    title: "What time did Halloween the Game come out? Early Access & launch times (PT)"
+    description: "Halloween: The Game released Tuesday, September 8, 2026 at 9:00 AM PT. Digital Deluxe Early Access began September 4, 2026 at 9:00 AM PT."
     category: guides
     slug: early-access-release-time
     source: site-input/pages/early-access-release-time.md
@@ -703,15 +703,15 @@ pages:
     role: core
     intents:
       - early-access-release-time
-    quickAnswer: "Early Access / Advance Access: Friday, September 4, 2026 at 9:00 AM PT — Digital Deluxe owners can already play. Full launch: Tuesday, September 8, 2026 at 9:00 AM PT. Purchasing Digital Deluxe during Early Access still grants Early Access and preorder bonuses through Sep 8, 2026 at 9:00 AM PT. Standard Edition does not include the four-day Early Access."
+    quickAnswer: "Halloween: The Game is out now. Full release was Tuesday, September 8, 2026 at 9:00 AM PT; Digital Deluxe Early Access began Friday, September 4, 2026 at 9:00 AM PT as historical reference."
     eyebrow: "Release Time"
     facts:
       - label: "Early Access start"
-        value: "Friday, September 4, 2026 — 9:00 AM PT (already live for Digital Deluxe)"
+        value: "Friday, September 4, 2026 — 9:00 AM PT (historical Digital Deluxe window)"
       - label: "Full launch"
         value: "Tuesday, September 8, 2026 — 9:00 AM PT"
-      - label: "Who can play now"
-        value: "Digital Deluxe path, including purchases during Early Access through Sep 8 9 AM PT; Standard waits for full launch"
+      - label: "Release state"
+        value: "Full release complete; Standard Edition unlocked Sep 8 at 9:00 AM PT"
       - label: "Preload"
         value: "No universal publisher preload schedule — check your storefront"
     coverAssetId: extended-first-look
@@ -757,7 +757,7 @@ pages:
     changeSummary: "INTENT EXPANSION — Preload / download status guide."
   - id: standard-vs-deluxe-upgrade
     title: "Halloween: The Game — Standard vs Digital Deluxe: Worth the $20? Upgrade & Missables"
-    description: "Standard $39.99 vs Digital Deluxe $59.99 — $20 difference. Compare price, Early Access (Sep 4), Deluxe contents (Inmate Michael + Richard & Alexis), launch-time Deluxe Upgrade (price unannounced), and the preorder-only Phantom skin that cannot be recovered after the preorder/Early Access cutoff. Buying Digital Deluxe during Early Access still grants Early Access and preorder bonuses through Sep 8, 2026 at 9:00 AM PT."
+    description: "Standard $39.99 vs Digital Deluxe $59.99 — historical release-period comparison of Early Access, Deluxe contents, the unannounced Upgrade price, and the preorder-only Phantom skin."
     category: guides
     slug: standard-vs-deluxe-upgrade
     source: site-input/pages/standard-vs-deluxe-upgrade.md
@@ -767,7 +767,7 @@ pages:
     role: core
     intents:
       - standard-vs-deluxe-upgrade
-    quickAnswer: "Standard is $39.99; Digital Deluxe is $59.99 ($20 more) and adds Early Access, Inmate Michael, and civilians Richard & Alexis. A Deluxe Upgrade is available at launch (price unannounced). Digital Deluxe purchased during Early Access still grants Early Access and preorder bonuses through Sep 8, 2026 at 9:00 AM PT. Phantom is preorder-only and is not restored by the upgrade."
+    quickAnswer: "Standard was $39.99; Digital Deluxe was $59.99 ($20 more) and included the historical Early Access path, Inmate Michael, and civilians Richard & Alexis. Current Upgrade price and availability are UNKNOWN in the supplied evidence."
     eyebrow: "Editions"
     facts:
       - label: "Edition pricing (USD)"
@@ -1000,7 +1000,7 @@ pages:
     changeSummary: "GSC INTENT — question-form yes/no Title; private AI yes; network-offline still unverified."
   - id: steam-deck
     title: "Halloween: The Game Steam Deck — Compatibility & Launch Status"
-    description: "What is and isn't known about playing Halloween: The Game on Steam Deck: PC requirements, controller support, and what to check at launch."
+    description: "What is and isn't known about playing Halloween: The Game on Steam Deck: PC requirements, controller support, and current compatibility UNKNOWNs."
     category: reference
     slug: steam-deck
     source: site-input/pages/steam-deck.md
@@ -1067,7 +1067,7 @@ pages:
     changeSummary: "Initial APIMart writer pass from launch research packet."
   - id: match-length-timer
     title: "How Long Are Halloween: The Game Matches? 12‑Minute Timer Explained"
-    description: "Short answer: there is no official published match timer as of Last Verified 2026-08-29. Pre-release footage often shows sessions around ~12 minutes, but that is observational — not confirmed rules. This page explains what is confirmed, what isn't, and what to check at launch."
+    description: "Short answer: there is no official published match timer in the supplied evidence. Earlier footage often shows sessions around ~12 minutes, but that is observational — not confirmed rules."
     category: guides
     slug: match-length-timer
     source: site-input/pages/match-length-timer.md
@@ -1082,7 +1082,7 @@ pages:
     facts:
       - label: "Official published match timer"
         value: "Not announced (no fixed timer published as of 2026-08-29)"
-      - label: "Pre-release footage/session recordings"
+      - label: "Earlier footage/session recordings"
         value: "Many previews/streams show matches roughly ~12 minutes long (observational)"
       - label: "Private lobbies / bot backfill"
         value: "Private lobbies are reported in press/third‑party coverage; AI/backfill in online private lobbies is not confirmed"
@@ -1200,7 +1200,7 @@ routes:
   - id: maps
     eyebrow: "Maps"
     title: "Maps"
-    description: "Confirmed Haddonfield maps, landmarks, and what still needs launch verification."
+    description: "Confirmed Haddonfield maps, landmarks, and current UNKNOWNs."
     visualAssetId: town-center-main-street
     fastAnswers:
       - question: "How many maps are in Halloween: The Game?"
@@ -1321,10 +1321,10 @@ homepage:
     label: Browse all guides
     anchor: browse-guides
   statusItems:
-    - label: Advance Access
-      value: "Sep 4, 2026 — 9 AM PT (Deluxe pre-order)"
-    - label: Digital release
-      value: "Sep 8, 2026 — 9 AM PT Standard unlock scheduled; verify controller state"
+    - label: Early Access (historical)
+      value: "Sep 4, 2026 — 9 AM PT (Digital Deluxe window)"
+    - label: Release state
+      value: "Out now — full release completed Sep 8, 2026 at 9 AM PT"
     - label: Guide pillars
       value: "Loomis Logs, Story Challenges, Civilians, Michael builds, Maps"
   popularQuestions:
@@ -1343,14 +1343,14 @@ homepage:
     - label: "What is on East Haddonfield?"
       context: "Rural map landmarks including the Rabbit in Red Lounge, Phelps Garage, and Midwest Feed Company."
       pageId: maps-east-haddonfield
-    - label: "What time does Halloween: The Game come out / early access start?"
-      context: "Sep 4 9 AM PT Early Access (Digital Deluxe) and Sep 8 9 AM PT full launch."
+    - label: "When did Halloween: The Game release?"
+      context: "Digital Deluxe Early Access began Sep 4 at 9 AM PT; full release completed Sep 8 at 9 AM PT."
       pageId: early-access-release-time
-    - label: "Can I preload Halloween: The Game before Early Access?"
-      context: "Storefront download status vs Sep 4 play unlock."
+    - label: "Was preload available before release?"
+      context: "Storefront download status and the historical Sep 4 Digital Deluxe unlock."
       pageId: preload-download-status
     - label: "Should I buy Standard or Digital Deluxe?"
-      context: "Standard $39.99 vs Deluxe $59.99, upgrade path, Early Access, and missable Phantom skin."
+      context: "Standard $39.99 vs Deluxe $59.99, upgrade path, historical Early Access, and missable Phantom skin."
       pageId: standard-vs-deluxe-upgrade
     - label: "How many maps are in Halloween: The Game?"
       context: "4 launch multiplayer maps: Haddonfield Heights, Haddonfield Town Center, Orange Grove Estates, and East Haddonfield."

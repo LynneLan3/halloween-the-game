@@ -1,6 +1,6 @@
 ---
 title: "Halloween: The Game Crossplay — What Is Officially Confirmed"
-description: "Xbox storefront cross-platform indicators, confirmed platforms, and what not to claim about the full crossplay matrix pre-launch."
+description: "Xbox storefront cross-platform indicators, confirmed platforms, Patch 1.0.1 party/lobby status, and the remaining unknown matrix."
 category: multiplayer-guides
 slug: multiplayer/crossplay
 status: needs-verification
@@ -11,7 +11,7 @@ sidebar:
   order: 4
 intents:
   - halloween-crossplay
-quickAnswer: "Cross-platform multiplayer is officially indicated on Xbox store listings, and IllFonic confirms PC, PS5, and Xbox Series X|S. A complete PS5 ↔ Xbox ↔ Steam ↔ Epic pairing matrix is not published—treat full crossplay details as launch verification pending."
+quickAnswer: "Cross-platform multiplayer is officially indicated on Xbox store listings, and IllFonic confirms PC, PS5, and Xbox Series X|S. Patch 1.0.1 addressed the cross-play party/lobby issue, but a complete PS5 ↔ Xbox ↔ Steam ↔ Epic pairing matrix remains UNKNOWN."
 relations:
   -
     slug: pc/system-requirements
@@ -36,7 +36,7 @@ facts:
     value: "PC (Steam/Epic), PS5, Xbox Series X|S"
   -
     label: Full matrix
-    value: Not confirmed in primary sources pre-launch
+    value: Not confirmed in supplied primary sources
 ---
 <!--
   This file is generated from site-spec.yaml.
@@ -46,7 +46,10 @@ facts:
 -->
 # Halloween: The Game Crossplay — What Is Officially Confirmed
 
-**Reported / storefront-specific:** Cross-platform multiplayer is **officially indicated** for Halloween: The Game, but IllFonic has not published a complete platform pairing matrix ahead of launch.
+Quick answer — What is officially confirmed right now:
+
+- IllFonic confirms online multiplayer for PC (Steam and Epic), PlayStation 5, and Xbox Series X|S, and cross-platform multiplayer is indicated in storefront/developer materials. IllFonic has not published a complete platform-pairing matrix.
+- Patch 1.0.1 addressed an Early Access cross-play matchmaking issue: cross-play party members now follow their leader into a matchmade lobby instead of being kicked to the main menu or dropped from the party. Do not assume every crossplay issue is permanently resolved.
 
 ## What Xbox officially lists
 
@@ -66,9 +69,9 @@ Developer materials confirm online multiplayer on:
 - **PlayStation 5**
 - **Xbox Series X|S**
 
-Crossplay is discussed in official channels, but **specific pairings** (for example, whether every PC store can match with every console lobby) are **not fully documented** in primary sources reviewed pre-launch.
+Crossplay is discussed in official channels, but **specific pairings** (for example, whether every PC store can match with every console lobby) are not fully documented in primary sources.
 
-## What not to claim pre-launch
+## What not to claim as fact
 
 Without a reliable first-party matrix, do **not** state as fact:
 
@@ -77,11 +80,11 @@ Without a reliable first-party matrix, do **not** state as fact:
 - Required account types (e.g., Epic vs Steam for PC)
 - Whether ranked and casual queues share crossplay pools
 
-Mark these as **launch verification pending**.
+Mark these as **UNKNOWN** until IllFonic publishes a clear matrix or instructions.
 
-## Launch-window checks
+## Post-release checks
 
-After Advance Access (September 4, 2026) and full release (September 8, 2026), verify on your platform:
+To confirm crossplay on your setup:
 
 1. In-game **crossplay toggle** or account prompt (if present)
 2. **Party invite flow** with friends on other platforms
@@ -99,3 +102,4 @@ After Advance Access (September 4, 2026) and full release (September 8, 2026), v
 
 - [Multiplayer gameplay overview — Halloween: The Game](https://halloweengame.com/news/multiplayer-gameplay-overview/)
 - [Halloween: The Game — Xbox Store](https://www.xbox.com/en-US/games/store/halloween-the-game/9NL5N20R06DV)
+- [Halloween: The Game — Out now (Patch 1.0.1)](https://halloweengame.com/news/halloween-the-game-out-now/)

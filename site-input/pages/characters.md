@@ -44,7 +44,7 @@ See {{page:standard-vs-deluxe-upgrade}} for edition and upgrade details.
 
 **Confirmed:** IllFonic states every Civilian has unique stats, special traits, and personality. The developer has not published complete stat sheets, perk trees, or balance patches ahead of launch.
 
-**Launch verification pending:**
+**Still UNKNOWN:**
 
 - Exact numeric stats and cooldown values
 - Best-character or tier-list rankings

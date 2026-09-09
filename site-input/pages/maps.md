@@ -2,8 +2,8 @@
 
 Quick Answer
 
-Halloween: The Game launches with 4 multiplayer maps: Haddonfield Heights, Haddonfield Town Center, Orange Grove Estates, and East Haddonfield.  
-This page compares the confirmed landmarks and settings for each launch map; exact item spawns, fixed escape routes, and final map meta are not published and require launch verification.
+Halloween: The Game launched with 4 multiplayer maps: Haddonfield Heights, Haddonfield Town Center, Orange Grove Estates, and East Haddonfield.
+This page compares confirmed landmarks and settings; exact item spawns, fixed escape routes, and map meta remain UNKNOWN.
 
 All 4 launch maps at a glance
 
@@ -61,7 +61,15 @@ How the four maps differ
 - Orange Grove Estates — larger multi-level homes and open suburban blocks with parks/playgrounds and more verticality.  
 - East Haddonfield — rural and industrial outskirts offering farmland, outbuildings, and standalone landmarks (different visual and tactical feel from the town maps).  
 
-These differences are descriptive of setting and confirmed landmarks; exact gameplay implications (spawn points, optimal routes, or meta) require hands-on verification.
+These differences are descriptive of setting and confirmed landmarks; exact gameplay implications (spawn points, optimal routes, or meta) remain UNKNOWN.
+
+## Patch 1.0.1 — map and match-rotation notes
+
+- Public Matches should not repeat a map until all available maps have cycled.
+- Repair Kit count per match increased; the official notes do not give an exact count.
+- Several inaccessible interaction locations, Hiding Spot collision cases, a hidden dead-body visibility case, and wooden-board escape blockers disappearing received fixes.
+
+These fixes do not establish fixed spawns, precise Repair Kit counts, routes, or map meta.
 
 What is confirmed vs still unknown
 
@@ -71,8 +79,8 @@ Confirmed
 - East Haddonfield is confirmed to appear in at least one single-player chapter (but this does not imply the other maps map 1:1 to chapters).
 - Official developer pages and map flythroughs for each map are published (links in Sources).
 
-Still unknown / launch verification pending
-- Exact item spawn locations, fixed escape routes, and final map meta are not published; these require hands-on verification after Advance Access and full release.
+Still UNKNOWN
+- Exact item spawn locations, fixed escape routes, and final map meta are not published.
 - Post-launch map roadmap is not confirmed (no official DLC map counts or release dates have been announced).
 
 Gameplay format note

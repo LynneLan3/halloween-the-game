@@ -51,7 +51,7 @@ facts:
 # Halloween The Game — All Story Challenges (Prologue + Chapters 1–5)
 
 Quick answer
-This page lists each story chapter’s full set of six objective wordings so you can see every challenge in one place and know the known tracking caveats. Public guides conflict on whether Chapter 2 has five or six challenges; UI/live evidence supports the sixth objective below (see the challenge tracking/version caveat). Official Early Access Hotfix 1 states that some challenge tracking issues were fixed, so objective wording and registration reliability must be separated — do not assume any workaround or registration method is flawless (no workaround is guaranteed to work 100% of the time). Completion/objective screenshots are incomplete; use text where local functional evidence is absent.
+This page lists each story chapter’s full set of six objective wordings so you can see every challenge in one place and know the tracking caveats. Patch 1.0.1 adds additional fixes for challenges and achievements not tracking properly, but IllFonic says some outliers may remain and further fixes are planned. Objective wording and registration reliability remain separate; no workaround is guaranteed to work every time. Completion/objective screenshots are incomplete; use text where local functional evidence is absent.
 
 All story challenges (exact objective wording)
 Prologue
@@ -104,7 +104,7 @@ Chapter 5 — Into the Shadows
 
 challenge tracking/version caveat
 - Public guides conflict on whether Chapter 2 has five or six challenges. UI/live evidence supports the sixth objective above.
-- Official Early Access Hotfix 1 states that some challenge tracking issues were fixed, so objective wording and registration reliability must be separated. In practice that means: treat the objective wordings above as the reference text to attempt, but verify registration in your game UI after each run.
+- Patch 1.0.1 adds additional tracking fixes, but the official wording says some outliers may remain. Treat the objective wordings above as the reference text to attempt, then verify registration in your game UI after each run.
 - Do not assume a single workaround will force consistent registration across versions or sessions — no workaround is guaranteed to work 100% of the time.
 
 How to use this list
@@ -115,7 +115,7 @@ How to use this list
 
 Common mistakes
 - Relying solely on memory of the objective instead of matching the exact in-game wording when checking the UI.
-- Assuming an objective failed because it didn’t register once — tracking issues have been reported historically and were partially addressed by Early Access Hotfix 1.
+- Assuming an objective failed because it did not register once — tracking issues have been reported historically and were partially addressed by Patch 1.0.1.
 - Attempting community “workarounds” as guaranteed fixes; remember no workaround is guaranteed to work 100% of the time.
 - Expecting complete visual evidence for every challenge: Completion/objective screenshots are incomplete; use text where local functional evidence is absent.
 

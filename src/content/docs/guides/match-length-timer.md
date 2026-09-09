@@ -1,6 +1,6 @@
 ---
 title: "How Long Are Halloween: The Game Matches? 12‑Minute Timer Explained"
-description: "Short answer: there is no official published match timer as of Last Verified 2026-08-29. Pre-release footage often shows sessions around ~12 minutes, but that is observational — not confirmed rules. This page explains what is confirmed, what isn't, and what to check at launch."
+description: "Short answer: there is no official published match timer in the supplied evidence. Earlier footage often shows sessions around ~12 minutes, but that is observational — not confirmed rules."
 category: guides
 slug: match-length-timer
 status: needs-verification
@@ -35,7 +35,7 @@ facts:
     label: Official published match timer
     value: "Not announced (no fixed timer published as of 2026-08-29)"
   -
-    label: Pre-release footage/session recordings
+    label: Earlier footage/session recordings
     value: "Many previews/streams show matches roughly ~12 minutes long (observational)"
   -
     label: Private lobbies / bot backfill

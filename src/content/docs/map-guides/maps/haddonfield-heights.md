@@ -91,7 +91,7 @@ Confirmed by official sources or supported cross-source:
 - The official guide’s supported approach relationship: heading down the block toward Lampkin Lane, the Myers house is a recognizable destination cue.
 - The IllFonic flythrough shows residential roads, curbs, streetlights, detached houses, hedges, and parked cars (supporting visual context).
 
-Not confirmed / launch verification pending:
+Still UNKNOWN:
 
 - Exact spawn points, top-down map geometry, fixed escape routes, landmark-to-landmark turn sequences, and static-versus-dynamic landmark behavior in live matches remain unknown and unestablished by the available evidence. Do not treat preview footage or the supporting visual as proof of any spawn table, fixed escape route, or precise route geometry.
 
@@ -101,7 +101,7 @@ Common mistakes to avoid
 - Assuming the Lampkin Lane → Myers house approach is a required or exclusive route; the guide presents it as a supported relationship from official material, not a fixed community route.
 - Expecting exact spawn locations, fixed escape routes, or guaranteed recovery paths before in-game verification.
 
-Launch verification pending / what to check in-game
+Current UNKNOWNs / what to check in-game
 
 When the map is playable, confirm in actual matches:
 

@@ -1,6 +1,8 @@
 # Halloween: The Game Trophies & Achievements — 51 Trophy Platinum Preview
 
 Quick Answer
+
+Patch 1.0.1 (September 8, 2026) includes additional fixes for challenges and achievements not tracking properly. IllFonic says outliers may remain and future fixes are planned; this does not mean all tracking issues are resolved.
 The PS5 trophy list has 51 trophies: 1 Platinum, 2 Gold, 10 Silver, 38 Bronze. There are 3 secret trophies. The published set’s trophies cover story, Michael, Civilian/multiplayer, progression, and collectibles. This page is a PRE-EA Trophy Preview — not a completed or live-verified Trophy Roadmap. The Platinum listed in the published PS5 set requires earning the other trophies in that published set (final, live verification pending).
 
 Trophy breakdown

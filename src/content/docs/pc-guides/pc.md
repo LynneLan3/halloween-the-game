@@ -1,6 +1,6 @@
 ---
 title: "Halloween: The Game on PC — Requirements & Launch Checks"
-description: "PC storefronts, system requirements, Steam Deck status links, and what to verify after Advance Access."
+description: "PC storefronts, system requirements, Steam Deck status links, and current compatibility UNKNOWNs."
 category: pc-guides
 slug: pc
 status: needs-verification
@@ -11,7 +11,7 @@ sidebar:
   order: 1
 intents:
   - halloween-pc
-quickAnswer: "PC releases on Steam (App ID 3219630) and Epic. Steam lists Windows 11, DX12, SSD/NVMe, and full controller support. Anti-cheat middleware and Steam Deck compatibility are launch verification pending."
+quickAnswer: "PC releases on Steam (App ID 3219630) and Epic. Steam lists Windows 11, DX12, SSD/NVMe, and full controller support. Anti-cheat middleware and Steam Deck compatibility remain UNKNOWN."
 relations:
   -
     slug: pc/system-requirements
@@ -91,10 +91,10 @@ Do **not** claim verified Steam Deck performance, Proton flags, or stable frame 
 ## Multiplayer on PC
 
 - **1v4 online multiplayer:** /multiplayer/how-multiplayer-works/
-- **Crossplay status:** /multiplayer/crossplay/ — storefront indicates cross-platform play, but full PC ↔ console pairing is launch verification pending
+- **Crossplay status:** /multiplayer/crossplay/ — storefront indicates cross-platform play, but full PC ↔ console pairing remains UNKNOWN
 - **Offline bots / story:** /bots-private-lobbies-offline/ and /single-player/
 
-## Launch verification pending
+## Still UNKNOWN
 
 Avoid pre-launch claims about:
 

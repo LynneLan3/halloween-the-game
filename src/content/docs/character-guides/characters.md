@@ -12,7 +12,7 @@ sidebar:
 intents:
   - halloween-characters
   - playable-characters
-quickAnswer: "Standard Edition includes 10 playable Civilians—Jennifer, Tanya, Rachel, Eric, Marcus, Thomas, plus legacy Bob, Lynda, Annie, and Laurie. Digital Deluxe adds Richard and Alexis. Each has unique stats and traits; full numeric tables are launch verification pending."
+quickAnswer: "Standard Edition includes 10 playable Civilians—Jennifer, Tanya, Rachel, Eric, Marcus, Thomas, plus legacy Bob, Lynda, Annie, and Laurie. Digital Deluxe adds Richard and Alexis. Each has unique stats and traits; full numeric tables remain UNKNOWN."
 relations:
   -
     slug: progression-perks
@@ -100,7 +100,7 @@ See /standard-vs-deluxe-upgrade/ for edition and upgrade details.
 
 **Confirmed:** IllFonic states every Civilian has unique stats, special traits, and personality. The developer has not published complete stat sheets, perk trees, or balance patches ahead of launch.
 
-**Launch verification pending:**
+**Still UNKNOWN:**
 
 - Exact numeric stats and cooldown values
 - Best-character or tier-list rankings

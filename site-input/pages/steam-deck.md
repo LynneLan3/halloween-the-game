@@ -1,6 +1,6 @@
 ---
 title: "Halloween: The Game Steam Deck — Compatibility & Launch Status"
-description: "What is and isn't known about playing Halloween: The Game on Steam Deck: PC requirements, controller support, provisional anti-cheat notes, and what to check at launch."
+description: "What is and isn't known about playing Halloween: The Game on Steam Deck: PC requirements, controller support, provisional anti-cheat notes, and current compatibility UNKNOWNs."
 category: reference
 slug: steam-deck
 status: needs-verification
@@ -39,7 +39,7 @@ trust:
 - Real-world Deck playability, performance, battery life, and control mappings.
 - Whether Windows-on-Deck is required vs native SteamOS/Proton.
 
-## What to check at launch
+## Current UNKNOWNs to check
 
 1. **Steam Deck badge** on the store page (Verified / Playable / Unsupported).
 2. **Live Steam anti-cheat field** — confirms whether middleware is listed.

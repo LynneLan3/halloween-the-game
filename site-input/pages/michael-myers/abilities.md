@@ -89,7 +89,14 @@ Other Michael abilities (reference)
 | Reality Tear | Expands traversal and chase options beyond ordinary Shape Jump constraints |
 | Combat / resistance | Melee options; Civilians can fight back and knock Michael down; he cannot simply be killed; enough resistance can detain him back to Smith’s Grove (see {{page:michael-myers-hub}} and {{page:multiplayer-how-it-works}}) |
 
-Exact combat numbers, detention triggers, Stalk meter values, and Shape Jump / Shape Dash cooldowns remain launch verification pending.
+Exact combat numbers, detention triggers, Stalk meter values, and Shape Jump / Shape Dash cooldowns remain UNKNOWN.
+
+Patch 1.0.1 (official changes)
+
+- **Balance changes:** Evil Presence increases stamina consumption; Stalked targets have reduced Stamina Regen Rate and increased Stamina Regen Delay; those stamina effects scale with Stalk level. Repeated blinds have greater diminishing returns, Detection Pulse is more effective at locating Residents in Hiding Spots, Stalk Markers persist longer after line of sight breaks, and Stalk level 1/2 targets struggle free more easily when grabbed.
+- **Fixes:** the Shape Dash VFX after Shape Jump, a Michael invisibility case, and Reality Tear use while getting up received fixes.
+
+The official notes do not give exact values or replace the UNKNOWN boundaries above.
 
 Common mistakes
 - Treating Detection Pulse as an instant kill tool rather than an information tool — it tells you where to go, not how to guarantee a catch.
@@ -103,7 +110,7 @@ What happens next / how to practice this build
 - Use Reality Tear sparingly at first to learn when it actually shortens routes or creates surprise angles.
 - Watch updated EA/launch footage and official patch notes for confirmation on numbers and unlocks. Check {{page:michael-myers-hub}} and {{page:characters-hub}} for centralized updates when available.
 
-Launch verification pending (what we still need)
+Still UNKNOWN (what we still need)
 - Exact Evil Presence numeric values (cooldown, range, duration, damage/cost).
 - Whether Evil Presence causes guaranteed trip/fall or requires specific Stalk Tiers.
 - Exact unlock levels and progression numbers from official developer publications.

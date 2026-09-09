@@ -57,6 +57,14 @@ Perk Cards are the Civilian customization system you roll into and collect with 
 - Perk Cards: rollable, collectible items that grant gameplay modifiers when equipped in civilian Perk Decks. (Official progression/customization overview.)
 - Perk Points: earned by completing matches; spending Points initiates randomized rolls that yield Perk Cards. Spending more Points raises the odds of rarer outcomes but does not guarantee high-rarity results. (Verified.)
 - Owned cards: added to your collection and can be placed into saved decks (multiple presets reported). Decks are then equipped to Civilian loadouts.
+
+## Patch 1.0.1 — Perk-related official updates
+
+- A Perk Deck can include no more than two copies of the same Perk. Decks that contained more than two copies of a single Perk were automatically unequipped to comply.
+- XP required for the initial in-game Perk Rolls increased; the developer did not publish the exact XP value.
+- A bug that could lock the Perk-rolling menu was fixed.
+
+These are the official Perk-related deltas only; exact numeric details and other stacking rules remain UNKNOWN.
 - Temporary upgrades: you can spend Perk Points to temporarily upgrade an owned card for a set number of matches; the temporary-upgrade duration is confirmed to exist, exact match count is unknown.
 - In-match randomness: in-match card selection is randomized so the same saved deck will not necessarily produce identical choices every match. (Verified.)
 - Corroborated launch-build behaviors (labeled below): at progression/XP thresholds inside matches players were shown three cards and chose one; dead or escaped players can add perks to living teammates via support minigames. These behaviors are corroborated by launch-build community reporting (see How the 15-Card Deck Works).
@@ -123,7 +131,7 @@ Note: this is a live-documented 51-name pool compiled from community and documen
 ## How the 15-Card Deck Works
 Follow these steps to assemble and use Perk Decks (launch-build corroborated mechanics):
 1. Collect owned Perk Cards via rolls; owned cards enter your collection.
-2. Open the deck editor and place up to 15 owned cards into a Perk Deck. Multiple saved deck presets are reported (one secondary UI source reports up to six presets).
+2. Open the deck editor and place up to 15 owned cards into a Perk Deck. Multiple saved deck presets are reported (one secondary UI source reports up to six presets). Patch 1.0.1 also limits a deck to no more than two copies of the same Perk.
 3. Equip a deck to a Civilian loadout to use it in matches.
 4. In-match, you are not granted all 15 effects simultaneously. Launch-build community reporting shows that at certain progression or XP thresholds you are shown three cards and choose one to activate (choice-based in-match selection).
 5. If your saved deck has fewer than 15 selected cards, community reports indicate random filler cards may appear — this is corroborated player reporting and not guaranteed across patches.
@@ -268,7 +276,7 @@ Unknown / Needs verification (do not present as fact):
 - Exact roll-cost ladder and numeric rarity odds.
 - Exact temporary-upgrade match duration.
 - Exact Scrap refund formula and rates.
-- Duplicate-card rules and stacking rules for same-name or same-effect cards.
+- Duplicate-card stacking rules beyond the Patch 1.0.1 two-copy deck cap.
 - Whether earlier names (Sharpshooter → Dead Shot, Delicate → Deaden) were formal renames in the official pool.
 
 ## Sources

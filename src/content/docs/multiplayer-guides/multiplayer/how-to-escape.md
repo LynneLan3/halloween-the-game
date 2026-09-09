@@ -1,6 +1,6 @@
 ---
 title: "Halloween The Game Escape Routes — Car, Cellar, Gate & Police Wagon"
-description: "Fast-verified multiplayer escape decision guide: what to do after finding a Sedan, Storm Cellar, Outer Gate, or Police Wagon cue, with current Early Access unknowns preserved."
+description: "Fast-verified multiplayer escape decision guide: what to do after finding a Sedan, Storm Cellar, Outer Gate, or Police Wagon cue, with current UNKNOWNs preserved."
 category: multiplayer-guides
 slug: multiplayer/how-to-escape
 status: needs-verification
@@ -31,7 +31,7 @@ coverMedia:
   kind: cover
   aspectRatio: 16:9
   sourceLabel: Official
-changeSummary: "CONTENT_EXPANSION — FAST_VERIFIED item/exit decision guide with explicit Early Access evidence boundaries."
+changeSummary: "CONTENT_EXPANSION — FAST_VERIFIED item/exit decision guide with explicit evidence boundaries."
 eyebrow: Escape Guide
 facts:
   -

@@ -1,7 +1,7 @@
 # East Haddonfield — Halloween: The Game Map Guide
 
 Quick answer
-East Haddonfield is one of four launch multiplayer maps in Halloween: The Game. It’s set on the rural outskirts — farmland and small-industry country roads — and includes the Midwest Feed Company as the area’s economic hub. Named landmarks confirmed by the developer include The Rabbit in Red Lounge (a rowdy, leather‑clad biker bar) and Phelps Garage. The area is associated with the Castle Hill Rooks biker gang. Exact item spawns, fixed escape routes, and map meta have not been published and remain launch verification pending.
+East Haddonfield is one of four launch multiplayer maps in Halloween: The Game. It’s set on the rural outskirts — farmland and small-industry country roads — and includes the Midwest Feed Company as the area’s economic hub. Named landmarks confirmed by the developer include The Rabbit in Red Lounge (a rowdy, leather‑clad biker bar) and Phelps Garage. The area is associated with the Castle Hill Rooks biker gang. Exact item spawns, fixed escape routes, and map meta remain UNKNOWN.
 
 Confirmed setting
 - Geography: rural outskirts and farmland — a rustic change of scenery compared with the town-centered maps.  
@@ -30,7 +30,7 @@ East Haddonfield is the rural, small‑industry counterpoint to the other launch
 - [Haddonfield Town Center]({{page:maps-haddonfield-town-center}})  
 - [Orange Grove Estates]({{page:maps-orange-grove-estates}})
 
-Launch verification pending
+Still UNKNOWN
 - The developer has confirmed locations and landmarks but has not published exact item/phone/key spawn points, fixed escape routes, resident spawn tables, or a top‑down map.  
 - Map meta, optimal routes, and exact spawn information are subject to launch and early‑access verification; do not treat any community claims about precise spawns or guaranteed escape paths as confirmed until developer data or broad verification is available. See the official launch notes for updates.
 

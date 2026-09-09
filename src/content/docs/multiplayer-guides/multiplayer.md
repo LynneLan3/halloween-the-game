@@ -90,7 +90,7 @@ Ability detail: /michael-myers/abilities/.
 
 **Confirmed:** Eliminated Civilian players can return as **Sheriff's Deputy** or **Dr. Loomis** and continue assisting the surviving team.
 
-Exact return timing and limits are **launch verification pending**.
+Exact return timing and limits remain **UNKNOWN**.
 
 ## Replayability (confirmed)
 
@@ -113,15 +113,20 @@ Do not assume fixed routes or spawns—see individual map pages for what remains
 - **Offline story (separate mode):** /single-player/
 - **PC / requirements:** /pc/
 
-## Launch verification pending
+## Current UNKNOWNs
 
-Not officially documented pre-launch:
+Not documented in the supplied official release evidence:
 
 - Exact match timer (see /match-length-timer/)
 - Party / invite flow and voice chat defaults
 - Ranked vs casual queue structure
 - Full private lobby feature set and public AI backfill rules (see /multiplayer/matchmaking-queue/)
 
+## Patch 1.0.1 — current status
+
+Patch 1.0.1 shipped with the September 8 release. It addressed the Early Access cross-play party/lobby issue: party members now follow their leader into a matchmade lobby instead of being kicked to the main menu or dropped from the party. It also improves Police NPC pathing, Residents pathing into Escapes, and Civilian Escape discovery distance; increases the pre-match countdown when a Public Match lobby is not full; and enables variable weather properly in Public Matches. These are official launch-day changes, not a guarantee that every related edge case is resolved.
+
 ## Sources
 
 - [Multiplayer gameplay overview — Halloween: The Game](https://halloweengame.com/news/multiplayer-gameplay-overview/)
+- [Halloween: The Game — Out now (Patch 1.0.1)](https://halloweengame.com/news/halloween-the-game-out-now/)

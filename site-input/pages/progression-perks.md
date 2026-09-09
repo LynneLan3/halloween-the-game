@@ -48,6 +48,14 @@ Civilian perks, decks, and customization
   5. Players place chosen Perk Cards into Perk Decks that are equipped to Civilian loadouts.
 - Civilian customization also includes outfits (with tints), hair/headwear, eyewear, and makeup/blemishes, plus unlockable starting items. Perk Decks are the primary gameplay customization for Civilians and are built from rolled Perk Cards; the developer has not published a complete public list of every Perk Card or their numeric values.
 
+Patch 1.0.1 — Perks & progression deltas
+
+- A Perk Deck can contain at most two copies of the same Perk. Existing Perk Decks over that limit were automatically unequipped to comply.
+- XP required for the initial in-game Perk Rolls increased; the official notes do not give the exact XP amounts.
+- A Perk-rolling menu lock issue was fixed.
+
+Do not infer roll costs, rarity odds, or duplicate stacking behavior beyond the official two-copy deck limit.
+
 Profile cards (brief)
 ![Official Halloween: The Game player customization screen](../../../assets/covers/progression/po-player-customization.jpg)  
 *Official screenshot showing player customization options tied to progression rewards.*
