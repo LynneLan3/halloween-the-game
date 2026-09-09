@@ -22,6 +22,11 @@ relations:
   -
     slug: multiplayer/how-multiplayer-works
     type: next-step
+cover: ../../../assets/evidence/arrest-michael/bryce-detain-prompt.webp
+coverMedia:
+  alt: "[E] Detain Michael prompt after knockdown"
+  kind: cover
+  aspectRatio: 16:9
 changeSummary: "G042 P5 — one canonical arrest/detain owner refreshed through the Shared Article Writer with Pack-verified sequence and Bryce/D3AD functional frames."
 eyebrow: Arrest Guide
 facts:

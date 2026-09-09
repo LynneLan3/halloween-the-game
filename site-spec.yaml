@@ -445,6 +445,7 @@ pages:
         value: "Finish the circle"
       - label: "Michael Detained"
         value: "Match ends"
+    coverAssetId: arrest-bryce-detain-prompt
     relations:
       - pageId: multiplayer-hub
         type: related
@@ -1242,6 +1243,7 @@ pages:
         value: "Optional staging detail; not a universal required trigger"
       - label: "Tracking"
         value: "Verify registration on the result screen; Patch 1.0.1 outliers may remain"
+    coverAssetId: c4c6-annie-car-execution
     relations:
       - pageId: story-challenges
         type: related

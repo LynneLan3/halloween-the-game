@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "templateVersion": "2.0.0",
   "generatorVersion": "1.0.0",
-  "specHash": "72915edcaa84af3bbe560db6bc57d3bae396e7561527fa6f78fd09fb626bd371",
+  "specHash": "43afe3c69344eb9ad9e3bf204a9b69918b74a8edabf3c1b1b487815369f3dd9f",
   "siteId": "halloween-the-game",
   "createdFromSpec": "site-spec.yaml",
   "managedFiles": [
@@ -298,7 +298,7 @@
     },
     {
       "path": "src/config/site.generated.ts",
-      "sha256": "627c771a2e9156efd6b70aa83bd00b87d58c037afb8bfc95b49f8499eec43ff0",
+      "sha256": "1c59f8c0a7d09e01f362019988828a80821e9337de87f342f7585f4f20efef70",
       "kind": "config"
     },
     {
@@ -358,7 +358,7 @@
     },
     {
       "path": "src/content/docs/killer-guides/how-to-arrest-michael-myers.md",
-      "sha256": "9a7f18cf0886d6bfe4f5635e90eeabfbe046e005507d23572822bc35235dc6ce",
+      "sha256": "054db4d66054c3a83c42495ea2c44c3c31c039b688d35f8873ea8da7035ec337",
       "kind": "page"
     },
     {
@@ -468,7 +468,7 @@
     },
     {
       "path": "src/content/docs/story-guides/challenges/chapter-4-challenge-6.md",
-      "sha256": "fefa8cdba2d7ef08e10e2b155cc9a2d2bd4653817c3426afa8ac42a4d5683a95",
+      "sha256": "04dbdd77e12daf6130ad362787872ed57ef420c48b6199648c460fc1768e1894",
       "kind": "page"
     },
     {

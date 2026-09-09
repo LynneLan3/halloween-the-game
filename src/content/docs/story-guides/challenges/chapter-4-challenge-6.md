@@ -22,6 +22,11 @@ relations:
   -
     slug: single-player
     type: related
+cover: ../../../../assets/evidence/chapter-4-challenge-6/c4-m03-annie-car-execution-t0655.jpg
+coverMedia:
+  alt: Carjacking Execution on Annie in Chapter 4
+  kind: cover
+  aspectRatio: 16:9
 changeSummary: "G042 P7 — verified Chapter 4 Challenge 6 child guide with functional route evidence."
 eyebrow: Chapter 4 Challenge 6
 facts:

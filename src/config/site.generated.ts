@@ -118,6 +118,7 @@ export const siteConfig: GameConfig = {
 				title: "How to Arrest Michael Myers in Halloween: The Game — Detain Sequence",
 				description: "The verified multiplayer detain sequence: authority pressure, handcuff readiness, [E] Detain Michael, the minigame, MICHAEL DETAINED, and why knockdowns can fail.",
 				href: "/how-to-arrest-michael-myers/",
+				image: "evidence/arrest-michael/bryce-detain-prompt.webp",
 				label: "Arrest Michael",
 				badge: "Need help now",
 			},
@@ -125,6 +126,7 @@ export const siteConfig: GameConfig = {
 				title: "Halloween: The Game Chapter 4 Challenge 6 — Movie-Accurate Guide",
 				description: "Complete Chapter 4 Challenge 6, 'Complete the chapter matching the film's plot,' with a verified Annie, Bob, Lynda, Sheet, staging, Laurie, and result-screen route.",
 				href: "/challenges/chapter-4-challenge-6/",
+				image: "evidence/chapter-4-challenge-6/c4-m03-annie-car-execution-t0655.jpg",
 				label: "Chapter 4 Challenge 6",
 			},
 			{
@@ -1269,6 +1271,7 @@ export const siteConfig: GameConfig = {
 					title: "How to Arrest Michael Myers in Halloween: The Game — Detain Sequence",
 					description: "The verified multiplayer detain sequence: authority pressure, handcuff readiness, [E] Detain Michael, the minigame, MICHAEL DETAINED, and why knockdowns can fail.",
 					eyebrow: "Arrest Guide",
+					image: "evidence/arrest-michael/bryce-detain-prompt.webp",
 				},
 				{
 					pageId: "michael-myers-skins",
@@ -1346,6 +1349,7 @@ export const siteConfig: GameConfig = {
 					title: "Halloween: The Game Chapter 4 Challenge 6 — Movie-Accurate Guide",
 					description: "Complete Chapter 4 Challenge 6, 'Complete the chapter matching the film's plot,' with a verified Annie, Bob, Lynda, Sheet, staging, Laurie, and result-screen route.",
 					eyebrow: "Chapter 4 Challenge 6",
+					image: "evidence/chapter-4-challenge-6/c4-m03-annie-car-execution-t0655.jpg",
 				},
 				{
 					pageId: "single-player-chapter-5-challenges",
