@@ -1,0 +1,121 @@
+{
+  "phase": "G042/P6",
+  "scope": "Chapter 4 Challenge 6 functional-media extraction only",
+  "source": {
+    "video_id": "fXeuhvvNASE",
+    "url": "https://www.youtube.com/watch?v=fXeuhvvNASE",
+    "title": "HALLOWEEN: THE GAME | Chapter 4 Challenge 6 Complete The Chapter Matching The Films Plot Walkthrough",
+    "duration_seconds": 982,
+    "capture_method": "yt-dlp MP4 720p direct stream with ffmpeg exact-second seeks",
+    "frame_resolution": "1280x720",
+    "researched_at": "2026-09-09"
+  },
+  "routing": {
+    "site_lifecycle": "PUBLISHED",
+    "content_stage": "LAUNCH",
+    "intent": "PUZZLE_STUCK",
+    "article_class": "PREMIUM_PROBLEM_SOLVING",
+    "writer": "BLOCKED_BY_SCOPE",
+    "page_created": false,
+    "publish_state": "HOLD_FOR_MEDIA"
+  },
+  "slots": [
+    {
+      "slot": "C4-M01",
+      "timestamp": "00:01:00",
+      "visibly_shown": "Chapter 4 is selected in the chapter selector; THE BABYSITTERS card, challenge cards, score, and Start Chapter control are visible.",
+      "evidence_verdict": "PASS",
+      "directly_proves": "Chapter 4 challenge-run context.",
+      "extracted_frame": "./c4-m01-chapter4-context-t0100.jpg"
+    },
+    {
+      "slot": "C4-M02",
+      "timestamp": "00:04:40",
+      "visibly_shown": "First-person car interaction view with the on-screen subtitle: Lindsey, wake up! I'm in the laundry room and the door won't open!",
+      "evidence_verdict": "PASS",
+      "directly_proves": "The visible scripted laundry-room setup dialogue in the Annie route; no unshown room action is inferred.",
+      "extracted_frame": "./c4-m02-annie-laundry-script-t0440.jpg"
+    },
+    {
+      "slot": "C4-M03",
+      "timestamp": "00:06:55",
+      "visibly_shown": "Annie is visible in the car with Michael; the HUD labels the active interaction Carjacking Execution.",
+      "evidence_verdict": "PASS",
+      "directly_proves": "Annie car execution interaction.",
+      "extracted_frame": "./c4-m03-annie-car-execution-t0655.jpg"
+    },
+    {
+      "slot": "C4-M04",
+      "timestamp": "00:10:05",
+      "visibly_shown": "Two targets are simultaneously red-outlined ahead while the HUD shows Hold Stalk Tier 3 and the Bob/Lynda kill objectives.",
+      "evidence_verdict": "PASS",
+      "directly_proves": "Bob and Lynda shared stalk state.",
+      "extracted_frame": "./c4-m04-bob-lynda-shared-stalk-t1005.jpg"
+    },
+    {
+      "slot": "C4-M05",
+      "timestamp": "00:10:45",
+      "visibly_shown": "Bob is pinned against the kitchen wall/doorway during Priority Target Execution (3/3).",
+      "evidence_verdict": "PASS",
+      "directly_proves": "Bob kitchen-wall execution.",
+      "extracted_frame": "./c4-m05-bob-kitchen-wall-execution-t1045.jpg"
+    },
+    {
+      "slot": "C4-M06",
+      "timestamp": "00:11:30",
+      "visibly_shown": "Michael is visibly covered by the white Sheet disguise while Lynda is highlighted and the HUD shows Super Stalk.",
+      "evidence_verdict": "PASS",
+      "directly_proves": "Sheet-equipped state before the Lynda phone execution; Bob glasses are not claimed.",
+      "extracted_frame": "./c4-m06-sheet-equipped-t1130.jpg"
+    },
+    {
+      "slot": "C4-M07",
+      "timestamp": "00:11:35",
+      "visibly_shown": "Sheet-covered Michael stands behind Lynda; Phone Cord Choke and Execute prompts are visible.",
+      "evidence_verdict": "PASS",
+      "directly_proves": "Lynda telephone/phone-cord execution with Sheet state.",
+      "extracted_frame": "./c4-m07-lynda-phone-cord-choke-t1135.jpg"
+    },
+    {
+      "slot": "C4-M08",
+      "timestamp": "00:12:00 / 00:12:05",
+      "visibly_shown": "Two bodies are visible in the upstairs bedroom; the next frame shows MOVE THE LOVERS' BODIES TO THE UPSTAIRS BEDROOM with Bob's Body and Lynda's Body objective entries.",
+      "evidence_verdict": "PARTIAL",
+      "directly_proves": "Upstairs body staging and its objective state; a tombstone is not visibly shown in the selected frames.",
+      "extracted_frames": [
+        "./c4-m08-upstairs-bodies-t1200.jpg",
+        "./c4-m08-upstairs-bodies-objective-t1205.jpg"
+      ]
+    },
+    {
+      "slot": "C4-M09",
+      "timestamp": "00:14:05 / 00:14:15 / 00:14:25 / 00:14:30",
+      "visibly_shown": "Laurie is encountered under the KILL LAURIE BEFORE SHE CALLS FOR HELP objective; the run shows the chase, doorway/closet Get Out state, and Laurie cornered with the Stalk interaction.",
+      "evidence_verdict": "PASS",
+      "directly_proves": "Laurie discovery/chase/closet/retaliation sequence as visibly shown in this run.",
+      "extracted_frames": [
+        "./c4-m09-laurie-discovery-chase-t1405.jpg",
+        "./c4-m09-laurie-chase-t1415.jpg",
+        "./c4-m09-closet-get-out-t1425.jpg",
+        "./c4-m09-laurie-retaliation-t1430.jpg"
+      ]
+    },
+    {
+      "slot": "C4-M10",
+      "timestamp": "00:15:20",
+      "visibly_shown": "Chapter 4 THE BABYSITTERS results screen shows score 5,700, kill rating, and checked challenge cards including the matching-the-film-plot card.",
+      "evidence_verdict": "PASS",
+      "directly_proves": "Challenge result/registration state for the shown run.",
+      "extracted_frame": "./c4-m10-chapter4-success-results-t1520.jpg"
+    }
+  ],
+  "boundary": {
+    "overall_media_state": "PARTIAL",
+    "remaining_gap": "C4-M08 tombstone/discovery prop is not visibly shown in the selected frames.",
+    "next_action": "Keep Chapter 4 HOLD_FOR_MEDIA; controller may supply a bounded frame/source for the missing M08 prop or decide whether the existing objective/body/result evidence is sufficient for promotion.",
+    "escape": "UNCHANGED_HOLD_FOR_MEDIA; no re-scan",
+    "detain": "UNCHANGED_IMPLEMENTED",
+    "writer_called": false,
+    "external_research": false
+  }
+}
