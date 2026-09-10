@@ -1,6 +1,10 @@
 ---
 import Site2Icon from './Site2Icon.astro';
-import { buildSite2NavItems, site2NavActivePath } from '../../lib/site2-nav';
+import {
+	buildSite2NavGroups,
+	site2NavActivePath,
+	site2NavGroupActivePath,
+} from '../../lib/site2-nav';
 
 interface Props {
 	homeHref: string;
@@ -8,7 +12,7 @@ interface Props {
 }
 
 const { homeHref, activePath = '' } = Astro.props;
-const navItems = buildSite2NavItems();
+const navGroups = buildSite2NavGroups();
 ---
 
 <header class="topbar" data-site2-topbar>
@@ -16,17 +20,71 @@ const navItems = buildSite2NavItems();
 		<span class="brand-mark"><Site2Icon name="skull" size={19} /></span>
 		<span><strong>HALLOWEEN</strong><small>The Game Guide</small></span>
 	</a>
-	<nav class="main-nav" data-site2-nav>
+	<nav class="main-nav" data-site2-nav aria-label="Guide areas">
 		{
-			navItems.map((item) => (
-				<a
-					href={item.href}
-					data-astro-prefetch
-					aria-current={site2NavActivePath(activePath, item) ? 'page' : undefined}
-				>
-					{item.label}
-				</a>
-			))
+			navGroups.map((group) => {
+				const active = site2NavGroupActivePath(activePath, group);
+				return group.items ? (
+					<div
+						class:list={['site2-nav-group', active && 'is-active']}
+						data-site2-nav-group
+						data-open="false"
+					>
+						{group.href ? (
+							<a
+								class="site2-nav-group__link"
+								href={group.href}
+								data-astro-prefetch
+								aria-current={active ? 'page' : undefined}
+							>
+								{group.label}
+							</a>
+						) : (
+							<button
+								class="site2-nav-group__link site2-nav-group__trigger"
+								type="button"
+								aria-haspopup="true"
+								aria-expanded="false"
+								data-site2-nav-toggle
+								aria-current={active ? 'location' : undefined}
+							>
+								{group.label}
+							</button>
+						)}
+						<button
+							class="site2-nav-group__toggle"
+							type="button"
+							aria-label={`Open ${group.label} menu`}
+							aria-haspopup="true"
+							aria-expanded="false"
+							data-site2-nav-toggle
+						>
+							<span aria-hidden="true">⌄</span>
+						</button>
+						<div class="site2-nav-group__menu" data-site2-nav-menu>
+							{group.items.map((item) => (
+								<a
+									class:list={['site2-nav-group__item', site2NavActivePath(activePath, item) && 'is-active']}
+									href={item.href}
+									data-astro-prefetch
+									aria-current={site2NavActivePath(activePath, item) ? 'page' : undefined}
+								>
+									{item.label}
+								</a>
+							))}
+						</div>
+					</div>
+				) : (
+					<a
+						class:list={['main-nav__direct', active && 'is-active']}
+						href={group.href}
+						data-astro-prefetch
+						aria-current={active ? 'page' : undefined}
+					>
+						{group.label}
+					</a>
+				);
+			})
 		}
 	</nav>
 	<div class="nav-actions">
@@ -42,18 +100,67 @@ const navItems = buildSite2NavItems();
 
 <script is:inline>
 	document.querySelectorAll('[data-site2-topbar]').forEach((topbar) => {
+		if (topbar.dataset.site2Bound === 'true') return;
+		topbar.dataset.site2Bound = 'true';
 		const nav = topbar.querySelector('[data-site2-nav]');
-		const trigger = topbar.querySelector('[data-site2-menu-trigger]');
+		const menuTrigger = topbar.querySelector('[data-site2-menu-trigger]');
+		const groups = [...topbar.querySelectorAll('[data-site2-nav-group]')];
+		const closeGroup = (group) => {
+			group.dataset.open = 'false';
+			group.dataset.openByClick = 'false';
+			group.querySelectorAll('[data-site2-nav-toggle]').forEach((button) => button.setAttribute('aria-expanded', 'false'));
+		};
+		const openGroup = (group) => {
+			groups.filter((candidate) => candidate !== group).forEach(closeGroup);
+			group.dataset.open = 'true';
+			group.querySelectorAll('[data-site2-nav-toggle]').forEach((button) => button.setAttribute('aria-expanded', 'true'));
+		};
+		const closeGroups = () => groups.forEach(closeGroup);
 		const onScroll = () => {
 			topbar.classList.toggle('is-stuck', window.scrollY > 16);
 		};
 		onScroll();
 		window.addEventListener('scroll', onScroll, { passive: true });
-		if (!nav || !trigger) return;
-		trigger.addEventListener('click', () => {
+		if (!nav || !menuTrigger) return;
+		menuTrigger.addEventListener('click', () => {
 			const open = nav.classList.toggle('open');
-			trigger.setAttribute('aria-expanded', open ? 'true' : 'false');
+			menuTrigger.setAttribute('aria-expanded', open ? 'true' : 'false');
+			if (!open) closeGroups();
 		});
+		groups.forEach((group) => {
+			group.addEventListener('mouseenter', () => openGroup(group));
+			group.addEventListener('mouseleave', () => closeGroup(group));
+			group.addEventListener('focusin', () => openGroup(group));
+			group.addEventListener('focusout', (event) => {
+				if (!group.contains(event.relatedTarget)) closeGroup(group);
+			});
+			group.querySelectorAll('[data-site2-nav-toggle]').forEach((button) => {
+				button.addEventListener('click', () => {
+					if (group.dataset.openByClick === 'true') closeGroup(group);
+					else {
+						openGroup(group);
+						group.dataset.openByClick = 'true';
+					}
+				});
+			});
+		});
+		nav.addEventListener('click', (event) => {
+			if (event.target.closest('a')) {
+				nav.classList.remove('open');
+				menuTrigger.setAttribute('aria-expanded', 'false');
+				closeGroups();
+			}
+		});
+		document.addEventListener('pointerdown', (event) => {
+			if (!topbar.contains(event.target)) closeGroups();
+		});
+			topbar.addEventListener('keydown', (event) => {
+				if (event.key !== 'Escape') return;
+				const openGroup = groups.find((group) => group.dataset.open === 'true');
+				if (!openGroup) return;
+				openGroup.querySelector('[data-site2-nav-toggle]')?.focus();
+				closeGroup(openGroup);
+			});
 	});
 </script>
 

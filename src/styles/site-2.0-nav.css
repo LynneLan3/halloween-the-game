@@ -43,10 +43,104 @@
 
 .main-nav {
 	min-width: 0;
+	display: flex;
+	align-items: center;
+	gap: clamp(10px, 1.7vw, 24px);
+	flex: 1;
 }
 
-.main-nav a {
+.main-nav a,
+.main-nav button {
 	white-space: nowrap;
+}
+
+.main-nav__direct,
+.site2-nav-group__link,
+.site2-nav-group__toggle {
+	border: 0;
+	background: none;
+	font: inherit;
+	font-size: 10px;
+	line-height: 1;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	color: #cbc9bb;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.main-nav__direct:hover,
+.main-nav__direct:focus-visible,
+.site2-nav-group__link:hover,
+.site2-nav-group__link:focus-visible,
+.site2-nav-group__toggle:hover,
+.site2-nav-group__toggle:focus-visible,
+.main-nav__direct.is-active,
+.site2-nav-group.is-active > .site2-nav-group__link {
+	color: var(--yellow, #f2c35a);
+}
+
+.site2-nav-group {
+	position: relative;
+	display: flex;
+	align-items: center;
+	min-width: 0;
+}
+
+.site2-nav-group__link {
+	padding: 0;
+}
+
+.site2-nav-group__trigger {
+	padding: 0;
+}
+
+.site2-nav-group__toggle {
+	padding: 8px 0 8px 5px;
+	color: #9ba09a;
+}
+
+.site2-nav-group__toggle span {
+	display: block;
+	font-size: 13px;
+	line-height: 0.6;
+	transform: translateY(-1px);
+}
+
+.site2-nav-group__menu {
+	display: none;
+	position: absolute;
+	top: calc(100% + 12px);
+	left: -10px;
+	z-index: 60;
+	width: max-content;
+	max-width: min(22rem, calc(100vw - 2rem));
+	padding: 8px;
+	border: 1px solid #ffffff22;
+	background: #101b25;
+	box-shadow: 0 16px 32px #0009;
+}
+
+.site2-nav-group[data-open='true'] .site2-nav-group__menu {
+	display: grid;
+	gap: 2px;
+}
+
+.site2-nav-group__item {
+	display: block;
+	padding: 10px 12px;
+	white-space: normal !important;
+	font-size: 11px !important;
+	line-height: 1.25;
+	letter-spacing: 0.04em !important;
+	color: #d7d1c4 !important;
+}
+
+.site2-nav-group__item:hover,
+.site2-nav-group__item:focus-visible,
+.site2-nav-group__item.is-active {
+	background: #ffffff12;
+	color: var(--yellow, #f2c35a) !important;
 }
 
 /* Keep the six player-intent labels readable before the mobile menu takes over. */
@@ -61,6 +155,7 @@
 	}
 
 	.main-nav a,
+	.main-nav button,
 	.search-trigger {
 		font-size: 10px;
 		letter-spacing: 0.08em;
@@ -78,5 +173,49 @@
 
 	.main-nav {
 		top: var(--site2-topbar-height);
+		left: 0;
+		right: 0;
+		display: none;
+		max-height: calc(100vh - var(--site2-topbar-height));
+		overflow-x: hidden;
+		overflow-y: auto;
+	}
+
+	.main-nav.open {
+		display: flex;
+	}
+
+	.site2-nav-group {
+		width: 100%;
+		flex-wrap: wrap;
+	}
+
+	.site2-nav-group__link {
+		padding: 0;
+	}
+
+	.site2-nav-group__toggle {
+		margin-left: auto;
+		padding: 8px 4px 8px 12px;
+	}
+
+	.site2-nav-group__menu {
+		position: static;
+		display: none;
+		width: 100%;
+		max-width: none;
+		padding: 6px 0 0 14px;
+		border: 0;
+		box-shadow: none;
+		background: transparent;
+	}
+
+	.site2-nav-group[data-open='true'] .site2-nav-group__menu {
+		display: grid;
+		gap: 2px;
+	}
+
+	.site2-nav-group__item {
+		padding: 9px 10px;
 	}
 }

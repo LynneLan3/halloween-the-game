@@ -7,6 +7,7 @@ import { formatUiDate, ui } from '../../lib/ui';
 import AdcashBanner from '../AdcashBanner.astro';
 import ContentTrust from '../ContentTrust.astro';
 import GuideStatus from '../GuideStatus.astro';
+import Site2SectionNav from './Site2SectionNav.astro';
 
 const { entry } = Astro.locals.starlightRoute;
 const t = ui();
@@ -16,6 +17,7 @@ const data = entry.data;
 const route = content.primaryRoute;
 const routeLink = route ? site2RouteHubHref(route.id) : undefined;
 const guideSlug = String(data.slug ?? entry.id ?? '').replace(/^\/+|\/+$/g, '');
+const guideCategory = String(data.category ?? '');
 const evidenceWideSlugs = new Set([
 	'how-to-arrest-michael-myers',
 	'michael-myers/abilities',
@@ -100,6 +102,8 @@ const progressionLayout =
 			</dl>
 		)
 	)}
+
+	<Site2SectionNav activePath={Astro.url.pathname} category={guideCategory} />
 
 	{/* Adcash Display 300x250 — after Quick Answer / facts, before body prose */}
 	<AdcashBanner />

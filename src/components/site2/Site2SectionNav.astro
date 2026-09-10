@@ -1,0 +1,35 @@
+---
+import {
+	site2NavActivePath,
+	site2NavGroupForPath,
+} from '../../lib/site2-nav';
+
+interface Props {
+	activePath: string;
+	category?: string;
+}
+
+const { activePath, category } = Astro.props;
+const group = site2NavGroupForPath(activePath, category);
+---
+
+{group?.items && group.items.length > 1 && (
+	<nav class="site2-section-nav" aria-label={group.sectionLabel ?? `${group.label} guides`}>
+		<p class="section-label"><span />{group.sectionLabel ?? `More in ${group.label}`}</p>
+		<div class="site2-section-nav__links">
+			{group.items.map((item) => {
+				const active = site2NavActivePath(activePath, item);
+				return (
+					<a
+						class:list={['site2-section-nav__link', active && 'is-active']}
+						href={item.href}
+						data-astro-prefetch
+						aria-current={active ? 'page' : undefined}
+					>
+						{item.label}
+					</a>
+				);
+			})}
+		</div>
+	</nav>
+)}
