@@ -16,7 +16,7 @@
   "interventions": [
     {
       "interventionId": "halloween-the-game|single-player|20260910-refresh",
-      "action": "CONTENT_UPDATE",
+      "action": "UPDATE_PAGE",
       "primaryUrl": "/single-player/",
       "affectedUrls": [
         "/single-player/"
