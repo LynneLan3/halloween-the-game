@@ -1,0 +1,31 @@
+{
+  "intent_id": "intent-halloween-chapter-2-challenge-6-001",
+  "primaryQuery": "Halloween The Game Chapter 2 Challenge 6",
+  "queryCluster": [
+    "Halloween The Game Chapter 2 Challenge 6",
+    "Chapter 2 Challenge 6 not working",
+    "complete the chapter without alerting anyone",
+    "Patch 1.0.1 challenge tracking"
+  ],
+  "userJob": "Attempt Chapter 2 Challenge 6 (Complete the chapter without alerting anyone) with the best-supported clean attempt, understand Patch 1.0.1 tracking limits, and know what to do when a clean completed run still fails to register.",
+  "serpPromise": "Bounded troubleshooting and best-supported attempt guide for Chapter 2 Challenge 6 that separates objective, attempt conditions, Patch 1.0.1 status, unproven anecdotes, and tracking-outlier guidance — not a guaranteed solution.",
+  "intentOwnerStatus": "KEEP",
+  "requiredAnswers": [
+    "What is the exact Chapter 2 Challenge 6 objective?",
+    "What is the strongest current clean attempt pattern?",
+    "What did Patch 1.0.1 change about challenge tracking, and what remains?",
+    "Which conditions are unproven anecdotes rather than requirements?",
+    "What troubleshooting steps apply when the challenge does not register?"
+  ],
+  "outOfScope": [
+    "Any guaranteed, 100% fix, or deterministic hidden trigger",
+    "Claiming Tier 3 Stalk is required",
+    "Claiming Normal or Hard mode is required",
+    "Claiming Slab/Rachel kill order is required",
+    "Claiming Patch 1.0.1 fully fixed Chapter 2 Challenge 6",
+    "Endings content",
+    "Graphics/FPS content",
+    "Chapter 4 or Chapter 5 challenge owners",
+    "Fabricated screenshots or end-to-end media proof language"
+  ]
+}

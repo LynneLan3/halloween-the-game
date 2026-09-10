@@ -1213,9 +1213,47 @@ pages:
         type: related
       - pageId: michael-myers-abilities
         type: next-step
+      - pageId: story-challenges-chapter-2-challenge-6
+        type: next-step
       - pageId: story-challenges-chapter-4-challenge-6
         type: next-step
-    changeSummary: "LAUNCH-DAY P0 — one all-chapters owner with explicit Chapter 2 tracking caveat."
+    changeSummary: "Chapter 2 Challenge 6 child owner linked; hub remains objective/reference list."
+
+  - id: story-challenges-chapter-2-challenge-6
+    title: "Halloween: The Game Chapter 2 Challenge 6 — No-Alert Attempt Guide"
+    description: "Bounded troubleshooting and the best-supported attempt for Chapter 2 Challenge 6. Includes the exact objective, the strongest current attempt pattern (Surprise on Eric, Tanya, Rachel + no red alert + finish chapter), Patch 1.0.1 tracking status, and what to do when a clean run doesn't register."
+    category: story-guides
+    slug: challenges/chapter-2-challenge-6
+    source: site-input/pages/challenges/chapter-2-challenge-6.md
+    status: confirmed
+    featured: true
+    sidebarOrder: 2
+    role: core
+    intents:
+      - chapter-2-challenge-6
+      - chapter-2-challenge-6-not-working
+      - complete-chapter-without-alerting-anyone
+      - patch-1-0-1-challenge-tracking
+    quickAnswer: "Complete the chapter without alerting anyone. Strongest current attempt: Surprise on Eric, Tanya, and Rachel, no red alert, finish the chapter, then check registration. Patch 1.0.1 improved tracking but did not eliminate all outliers; some clean post-patch runs still fail to register."
+    eyebrow: "Chapter 2 Challenge 6"
+    facts:
+      - label: "Objective"
+        value: "Complete the chapter without alerting anyone"
+      - label: "Best-supported attempt"
+        value: "Surprise on Eric/Tanya/Rachel + no red alert + finish chapter"
+      - label: "Patch 1.0.1"
+        value: "Tracking improved; outliers may remain"
+      - label: "Unproven"
+        value: "Tier 3 Stalk, Normal/Hard, Slab/Rachel order are anecdotal only"
+    coverAssetId: michael-singleplayer-haddonfield
+    relations:
+      - pageId: story-challenges
+        type: related
+      - pageId: single-player-hub
+        type: related
+      - pageId: story-challenges-chapter-4-challenge-6
+        type: related
+    changeSummary: "Chapter 2 Challenge 6 owner — bounded no-alert attempt + Patch 1.0.1 tracking status via Shared Article Writer."
 
   - id: story-challenges-chapter-4-challenge-6
     title: "Halloween: The Game Chapter 4 Challenge 6 — Movie-Accurate Guide"
@@ -1341,6 +1379,7 @@ routes:
       - single-player-hub
       - loomis-logs
       - story-challenges
+      - story-challenges-chapter-2-challenge-6
       - story-challenges-chapter-4-challenge-6
       - single-player-chapter-5-challenges
   - id: progression

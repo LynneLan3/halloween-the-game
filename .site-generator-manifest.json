@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "templateVersion": "2.0.0",
   "generatorVersion": "1.0.0",
-  "specHash": "d3a2d30824d8e99db22f99777f355df25d2a4cfe1ae7e3334d7bded9d5feca0b",
+  "specHash": "8fb57b948f276ae239be7c80214bf6383a92388ef3b1d2b0dff07979256a104f",
   "siteId": "halloween-the-game",
   "createdFromSpec": "site-spec.yaml",
   "managedFiles": [
@@ -298,7 +298,7 @@
     },
     {
       "path": "src/config/site.generated.ts",
-      "sha256": "b9d224e4559c11b5d87e8093ffa09e963f2dc8078c01804ad23f3227bfe4f824",
+      "sha256": "3879bee711b96ee3c15ee258e252da8e07d62508926e50eb469fb638fbefbcf8",
       "kind": "config"
     },
     {
@@ -313,7 +313,7 @@
     },
     {
       "path": "src/content/docs/guides/challenges.md",
-      "sha256": "8423b24c0da371a02a1eed5ae60cad5d1e29e63ae778d5213dab401c409e276e",
+      "sha256": "8a9f2a85ab6e70ffde70c6afb113787817457888001eb0e0b5ce599d3e369b46",
       "kind": "page"
     },
     {
@@ -464,6 +464,11 @@
     {
       "path": "src/content/docs/reference/steam-deck.md",
       "sha256": "2e64bae112d3c35b31d1d7597b243fc31e2a220c54243cf22ad3d300e10eb81b",
+      "kind": "page"
+    },
+    {
+      "path": "src/content/docs/story-guides/challenges/chapter-2-challenge-6.md",
+      "sha256": "8e55a0e6ca4ba96284d98c854b63eaa70ec58e282071c6167cd0dfb541ce4be9",
       "kind": "page"
     },
     {

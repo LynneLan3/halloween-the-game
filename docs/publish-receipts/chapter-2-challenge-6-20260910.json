@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "hotword-publish-receipt-v1",
+  "common": {
+    "site": "Halloween: The Game",
+    "siteId": "halloween-the-game",
+    "game": "Halloween: The Game",
+    "batchId": "halloween-the-game|chapter-2-challenge-6|20260910",
+    "lifecyclePhase": "released",
+    "attributionMode": "OBSERVATIONAL_ONLY",
+    "sourceRefs": [
+      "content-jobs/chapter-2-challenge-6/research-pack.md",
+      "content-jobs/chapter-2-challenge-6/research.md",
+      "content-jobs/chapter-2-challenge-6/writer-output.md",
+      "site-spec.yaml"
+    ]
+  },
+  "interventions": [
+    {
+      "interventionId": "halloween-the-game|chapter-2-challenge-6|create-owner",
+      "action": "CREATE_PAGE",
+      "primaryUrl": "/challenges/chapter-2-challenge-6/",
+      "affectedUrls": [
+        "/challenges/chapter-2-challenge-6/",
+        "/challenges/"
+      ],
+      "reason": "Ship the Chapter 2 Challenge 6 child owner as a bounded no-alert attempt and Patch 1.0.1 tracking troubleshooting guide, not a guaranteed solution.",
+      "triggerType": "operator_request",
+      "triggerSummary": "Publish Chapter 2 Challenge 6 from the 2026-09-10 Evidence Pack via Shared Article Writer.",
+      "changeSummary": "Create /challenges/chapter-2-challenge-6/ and route /challenges/ plus Story distribution to the new child owner."
+    },
+    {
+      "interventionId": "halloween-the-game|chapter-2-challenge-6|hub-route",
+      "action": "UPDATE_PAGE",
+      "primaryUrl": "/challenges/",
+      "affectedUrls": [
+        "/challenges/"
+      ],
+      "reason": "Link Chapter 2 Challenge 6 to the child owner and remove the old potential-later-child wording.",
+      "triggerType": "operator_request",
+      "triggerSummary": "Hub routing update required by the Chapter 2 Challenge 6 owner ship.",
+      "changeSummary": "Point Chapter 2 Challenge 6 to /challenges/chapter-2-challenge-6/ and keep the hub as the objective/reference list."
+    }
+  ]
+}
