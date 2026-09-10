@@ -1,6 +1,6 @@
 ---
-title: "Halloween The Game Escape Routes — Car, Cellar, Gate & Police Wagon"
-description: "Fast-verified multiplayer escape decision guide: what to do after finding a Sedan, Storm Cellar, Outer Gate, or Police Wagon cue, with current UNKNOWNs preserved."
+title: "Halloween: The Game Escape Routes — Car, Cellar, Gate & Police"
+description: "Launch-state escape decision guide for Sedan, Cellar, Gate, and Police Wagon or Car variants, with Patch 1.0.1 changes and unknown capacities preserved."
 category: multiplayer-guides
 slug: multiplayer/how-to-escape
 status: needs-verification
@@ -11,7 +11,7 @@ sidebar:
   order: 3
 intents:
   - how-to-escape-haddonfield
-quickAnswer: "Find an exit or item, then follow that route's current HUD/objective: Sedan guides report engine, gas-tank, and key requirements; Cellar and Gate blockers vary; Police Wagon shows POLICE WAGON CALLED and an arrival countdown. Escape locations and key items change between matches, and exact capacity remains unknown."
+quickAnswer: "Follow the current match HUD: Sedan, Cellar, Gate, and Police are observed launch route families. Police includes Wagon and launch-guide-correlated Car variants; locations, items, capacity, and several interaction details remain match-dependent or UNKNOWN."
 relations:
   -
     slug: multiplayer
@@ -31,12 +31,12 @@ coverMedia:
   kind: cover
   aspectRatio: 16:9
   sourceLabel: Official
-changeSummary: "CONTENT_EXPANSION — FAST_VERIFIED item/exit decision guide with explicit evidence boundaries."
+changeSummary: "LAUNCH_UPDATE — Patch 1.0.1 escape changes and bounded Police Car/Wagon coverage."
 eyebrow: Escape Guide
 facts:
   -
     label: Route families
-    value: "Sedan, Storm Cellar, Outer Gate, Police Wagon progression"
+    value: "Sedan, Storm Cellar, Outer Gate, Police variants"
   -
     label: Sedan reports
     value: "Engine repair, gas-tank fill, Sedan Keys"
@@ -57,97 +57,95 @@ facts:
 
 Quick Answer
 
-If you find an exit or item, follow the current match HUD/objective rather than memorizing one fixed route. The main observed escape families are Sedan/Car, Storm Cellar, Outer Gate, and Police Wagon progression. Early Access guides consistently report three separate Sedan requirements — repair the engine, fill the gas tank, and use the Sedan Keys — while Cellar and Gate blockers vary by the exit you discover. Escape locations and key items change between matches, and starting an escape creates major noise. The exact capacity, map-marker behavior, and several interaction details remain unknown.
+If you find an exit or key item, follow the current match HUD/objective rather than memorizing one fixed route. The main observed escape families at launch are Sedan/broken-down car, Storm Cellar, Outer Gate, and Police response (Police Wagon and Police Car variants). Launch guides corroborate separate Sedan requirements for engine repair, refueling, and a Sedan Key, but they do not establish a universal order. Official multiplayer material says escape locations and required item locations change match to match, lootable containers can provide key items, and starting an escape creates major noise. Patch 1.0.1 improved Resident pathing into Escapes and increased the range at which Civilians discover Escapes. Several interaction details (capacity, marker behavior, specific recipes) remain unknown; use the match HUD as the primary authority.
 
 ## I found this item or exit — what should I do next?
 
-- **Repair Kit, Fuel/Gasoline, or Sedan Keys:** inspect a discovered Sedan's HUD/objective. Current Early Access guides consistently report separate engine-repair, tank-fill, and key-use requirements, but do not establish a universal order, exact spawn, or guaranteed waypoint.
-- **Fuse:** inspect a discovered Outer Gate. Current guides consistently identify Fuse as the key Gate item; some observed Gates also report an additional Key or Bolt Cutter blocker. Follow the Gate objective you actually see.
-- **Bolt Cutters or Padlock Key:** check the current Storm Cellar or Gate objective instead of assuming one fixed use. Cellar blocker variants are not universal in the available evidence.
-- **POLICE WAGON CALLED:** watch the arrival countdown and prepare to follow the match-specific Wagon opportunity. The exact unlock threshold, entry behavior, and capacity remain unknown.
+- Repair Kit, Fuel/Gasoline, or Sedan Keys: open the discovered Sedan's HUD/objective. Launch guides report independent engine-repair, tank-fill, and key-use requirements, but they do not establish a fixed order or guaranteed spawn. Complete the specific requirement shown by the Sedan objective.
+- Fuse: open the discovered Outer Gate's HUD/objective. Launch guides most often show Fuse as the key Gate item; sometimes an additional Key or Bolt Cutter is named. Follow the Gate objective shown in your match.
+- Bolt Cutters or Padlock Key: check the specific Storm Cellar or Gate objective rather than assuming one fixed use. Cellar blocker variants are reported; do not apply a single recipe to every cellar entrance.
+- POLICE WAGON CALLED: if you see that cue, watch the arrival countdown and follow the match HUD if the Wagon becomes an available escape. The evidence shows the cue and countdown, but does not establish any fixed unlock threshold, capacity, or guaranteed final entry prompt.
 
 ## Current route families
 
-The route families observed across the supplied Early Access material are **Sedan/Car**, **Storm Cellar**, **Outer Gate/Escape Gate**, and **Police Wagon** progression. This is a practical route-family list, not a promise that every match contains every family or that the list is a complete fixed spawn table.
+The launch-supported route families observed in official and launch-correlated material are Sedan/Car, Storm Cellar, Outer Gate/Escape Gate, and Police response progression. This is a practical list of observed families, not a promise that every match contains every family or that the list is a fixed spawn table.
 
-Official multiplayer material says escape options and required item locations change from match to match. Lootable containers and key items can unlock access to possible escapes, and initiating an escape sequence creates major noise that can expose the attempt to Michael.
+Official multiplayer material: escape locations and required item locations change from match to match; lootable containers and key items can unlock access to possible escapes; and initiating an escape sequence creates major noise that can expose the attempt to Michael.
 
 ## Sedan / Car
 
-Current Early Access guides consistently report three separate Sedan requirements:
+Launch guides consistently report three separate Sedan requirements:
 
-1. Repair the car's engine.
-2. Fill the car's gas tank.
+1. Repair the car's engine (Repair Kit).
+2. Fill the car's gas tank (Fuel/Gasoline).
 3. Use the Sedan Keys to start or activate it.
 
-Treat these as independent requirements, not a proven fixed order. When you find the Sedan, open its HUD/objective and check which requirement remains. A Repair Kit is consistently associated with car repair in the current guide reports; Fuel/Gasoline is associated with the tank, and Sedan Keys are associated with starting or using the vehicle.
-
-The available evidence does not prove exact Sedan spawns, a guaranteed waypoint distance, universal interaction timing, or what happens after every successful repair/fuel/key interaction. If the destination marker does not appear, keep this as current-build troubleshooting rather than a universal mechanic: re-check the Sedan objective, confirm the remaining item, and consider another discovered escape family.
+Treat these as independent requirements, not a proven fixed order. When you find a Sedan, open its HUD/objective and follow the exact requirement listed there. The available evidence does not prove exact Sedan spawns, a guaranteed waypoint, universal interaction timing, or what happens after every successful repair/fuel/key interaction. If the Sedan destination marker does not appear, re-check the Sedan objective and consider switching to another discovered escape family rather than assuming a universal mechanic.
 
 ## Storm Cellar variants
 
-Storm Cellar is an observed escape family, but the entrance state can differ. Current guide reports include variants involving tools such as **Bolt Cutters** or a **Padlock Key**. Do not apply one recipe to every Cellar.
+Storm Cellar is an observed escape family with entrance variants. Launch reports include cellar blockers that require tools such as Bolt Cutters or a Padlock Key. Do not assume a single recipe for all cellars.
 
 When you find a Cellar:
 
-1. Read the actual HUD/objective at that entrance.
-2. Identify the blocker named there, if one is shown.
-3. Find the named tool or key and return to that Cellar.
-4. Follow the opening interaction shown by the game.
-5. Re-check the opened escape state before committing residents.
+1. Read the Cellar HUD/objective at the entrance.
+2. Identify the named blocker (if any).
+3. Locate the named tool or key and return to that Cellar.
+4. Use the in-game opening interaction shown by the HUD.
+5. Confirm the opened escape state before committing residents.
 
-Boards, vines, chains, exact blocker wording, opening minigames, and resident entry behavior remain variant- or build-dependent in the available evidence. A reported Cellar boards/Fire Axe failure is current-build troubleshooting only, not proof of a universal rule.
+Details such as boards, vines, chain wording, opening minigames, and exact resident entry behavior vary across reports and builds.
 
 ## Outer Gate
 
-Outer Gate/Escape Gate is another observed route family. Current Early Access guides consistently identify **Fuse** as the key Gate item. Some guide reports also describe an additional **Key** or **Bolt Cutter** blocker, but the available direct Gate evidence does not establish that every Gate uses the same combination.
+Outer Gate/Escape Gate is another observed route family. Launch guides most frequently identify Fuse as the key Gate item, but some reports also show an additional Key or Bolt Cutter blocker. Follow the Gate objective shown in your match rather than assuming a universal recipe.
 
 When you discover a Gate:
 
 1. Read the Gate HUD/objective.
-2. If it names **Fuse**, find and use that Fuse.
-3. If the same objective names an additional Key, Bolt Cutter, or other blocker, follow that specific requirement.
+2. If it names Fuse, find and use that Fuse.
+3. If it names an additional Key, Bolt Cutter, or other blocker, follow that specific requirement.
 4. Confirm the opened-gate state before directing residents toward it.
 
-Picking up a Fuse or Bolt Cutters somewhere on the map is not, by itself, proof that the Gate you found requires that item. The Gate's own objective is the authority for this match.
+Picking up a Fuse or Bolt Cutters elsewhere on the map is not, by itself, proof that the Gate you found requires that exact item.
 
-## Police Wagon
+## Police Wagon (and Police Car variant)
 
-The existing Police Wagon evidence directly shows **POLICE WAGON CALLED** with an arrival countdown. Police response progression can create a Wagon escape opportunity, but the exact unlock threshold is not established.
+Observed evidence directly shows the in-match cue **POLICE WAGON CALLED** with an arrival countdown. When that cue appears, watch the countdown and follow the match HUD if the Wagon becomes an available escape option. The evidence does not establish a reliable unlock threshold, final rear-entry interaction, resident entry behavior, or fixed capacity.
 
-When that cue appears, watch the countdown and follow the match HUD if the Wagon becomes an available escape option. The current evidence does not prove the final rear-entry interaction, whether residents use it identically to players, or any fixed capacity.
+Separate launch-guides document a Police Car variant that requires a Police Car Key to start the vehicle. Treat that report as launch-guide corroboration only — it is not an official universal rule and the available evidence does not prove a guaranteed Police Car key drop or a fixed route count. Keep the existing Police Wagon cue as observed evidence without inventing thresholds or capacity numbers.
 
 For the separate Michael Detain objective, see [How to Arrest Michael Myers](/how-to-arrest-michael-myers/). That page owns the arrest sequence; this page covers physical resident evacuation and escape-route decisions.
 
 ## Why is the escape missing from my map?
 
-Escape locations and required items vary between matches. A missing marker therefore does not prove that the route is absent or that one fixed spawn table applies.
+Escape locations and required items vary between matches. A missing marker does not prove the route is absent or that one fixed spawn table applies.
 
-Use this recovery loop:
+Recovery loop:
 
 1. Re-check the current HUD/objective at the discovered route.
-2. Search for the named item: Fuse for a reported Gate requirement; Bolt Cutters or Padlock Key for a reported Cellar variant; Repair Kit, Fuel/Gasoline, or Sedan Keys for the Sedan requirements reported by current guides.
+2. Search for the named item: Fuse for a reported Gate requirement; Bolt Cutters or Padlock Key for a reported Cellar variant; Repair Kit, Fuel/Gasoline, or Sedan Keys for a reported Sedan requirement.
 3. Check the route again after obtaining the named item.
-4. If the route still does not become usable, switch to another discovered family rather than assuming the missing marker is universal.
+4. If the route still does not become usable, switch to another discovered family rather than assuming the missing marker is a universal mechanic.
 
 Whether map markers are shared across the team, whether they appear only after a required item is found, and why the Sedan destination marker sometimes fails to appear remain unknown.
 
 ## Residents and route commitment
 
-Official multiplayer material makes resident safety part of the Civilian objective: finding, warning, and guiding residents toward randomized escapes is not the same as escaping alone. Personal escape can end your own movement while leaving the resident objective unfinished.
+Official multiplayer material makes resident safety part of the Civilian objective: finding, warning, and guiding residents toward randomized escapes differs from escaping alone. Personal escape can finish your own movement while leaving the resident objective unfinished.
 
-The practical decision is:
+Practical decision rules:
 
-- If you have a discovered route and its HUD shows a usable state, protect the residents and move them toward that route when the match permits.
+- If a discovered route's HUD shows a usable state, protect residents and move them toward that route when the match permits.
 - If the route names a missing item, retrieve that item before committing the full group.
-- If the Sedan, Cellar, or Gate is blocked and another family is already discovered, compare the next item search against the risk of starting a loud escape attempt.
-- If police response is already progressing, keep the Police Wagon as a possible late-match option without assuming its threshold or capacity.
+- If one family is blocked and another family is already discovered, weigh the item-search risk against the noise and exposure caused by starting a loud escape attempt.
+- If police response is progressing, keep the Police Wagon/Car as a possible late-match option without assuming its threshold or capacity.
 
-Exact resident commands, completion confirmation, whether every exit supports residents identically, and route capacity remain unknown.
+Exact resident command mechanics, completion confirmation, whether every exit supports residents identically, and route capacities remain unknown.
 
 ## Capacity and use limits
 
-Do not assume a fixed capacity of 3, 4, or 5. Current sources conflict, and the available direct evidence does not show a reliable exhausted/full state or a repeated sequence proving an exact number of users. Follow the match HUD and retain this as an open current-build question.
+Do not assume a fixed capacity (3, 4, 5, etc.). Current sources conflict and direct evidence does not show a reliable exhausted/full state or a repeated sequence proving an exact number of users. Follow the match HUD and treat capacity as an open question at launch.
 
 ## Common mistakes
 
@@ -156,8 +154,8 @@ Do not assume a fixed capacity of 3, 4, or 5. Current sources conflict, and the 
 - Assuming every Outer Gate uses Fuse plus the same second item.
 - Treating a picked-up item as proof that a nearby exit requires it without reading that exit's HUD.
 - Leaving immediately and forgetting that resident evacuation is part of the Civilian objective.
-- Treating a missing Sedan marker or a Cellar boards/Fire Axe failure as a universal mechanic.
-- Treating **POLICE WAGON CALLED** as proof of a guaranteed entry prompt or capacity.
+- Treating a missing Sedan marker or a single observed Cellar boards/Fire Axe failure as a universal mechanic.
+- Treating **POLICE WAGON CALLED** as proof of a guaranteed entry prompt, capacity, or unlock threshold.
 
 ## Known unknowns
 
@@ -165,14 +163,14 @@ Do not assume a fixed capacity of 3, 4, or 5. Current sources conflict, and the 
 - Exact Sedan interaction order, waypoint behavior, and marker failure prevalence.
 - All Storm Cellar blocker variants and opening interactions.
 - Universal Outer Gate Key/Bolt Cutter behavior.
-- Police Wagon unlock threshold, final entry interaction, resident behavior, and capacity.
+- Police Wagon/Car unlock thresholds, final entry interactions, resident behavior, and capacity.
 - Map-marker sharing and discovery rules.
 - Exact resident command mechanics and completion confirmation.
 - Exact capacity/use limits for every route family.
 
 ## Sources
 
-- Official multiplayer overview: randomized escapes, changing item/escape locations, resident guidance, and escape noise.
-- Current Early Access guide corroboration: Sedan engine/tank/keys requirements, Storm Cellar blocker variants, Fuse for Outer Gate, and Police Wagon route context.
+- Official multiplayer overview: randomized escapes, changing item/escape locations, lootable containers providing key items, and escape noise.
+- Launch guide corroboration: Sedan engine/tank/keys requirements, Storm Cellar blocker variants, Fuse for Outer Gate, and Police Wagon route context.
 - Existing Police Wagon evidence: [POLICE WAGON CALLED footage](https://www.youtube.com/watch?v=Qny8MsFE670) around 11:31–11:33.
 - Related owner: [How to Arrest Michael Myers](/how-to-arrest-michael-myers/).

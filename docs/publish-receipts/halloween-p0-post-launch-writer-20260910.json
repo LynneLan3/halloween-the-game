@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "hotword-publish-receipt-v1",
+  "common": {
+    "site": "Halloween: The Game",
+    "siteId": "halloween-the-game",
+    "game": "Halloween: The Game",
+    "batchId": "halloween-the-game|post-launch-p0-writer|20260910",
+    "lifecyclePhase": "released",
+    "attributionMode": "OBSERVATIONAL_ONLY",
+    "sourceRefs": [
+      "content-jobs/how-to-escape/research.md",
+      "content-jobs/matchmaking-queue/research.md",
+      "content-jobs/michael-myers-abilities/research.md",
+      "content-jobs/single-player/research.md",
+      "site-spec.yaml"
+    ]
+  },
+  "interventions": [
+    {
+      "interventionId": "halloween-the-game|post-launch-p0|multiplayer-how-to-escape",
+      "action": "UPDATE_PAGE",
+      "primaryUrl": "/multiplayer/how-to-escape/",
+      "affectedUrls": ["/multiplayer/how-to-escape/"],
+      "reason": "Update the existing escape owner with launch-state route guidance and retained unknown boundaries.",
+      "triggerType": "operator_request",
+      "triggerSummary": "P0 Writer allowlist implementation from the supplied post-launch evidence pack."
+    },
+    {
+      "interventionId": "halloween-the-game|post-launch-p0|multiplayer-matchmaking-queue",
+      "action": "UPDATE_PAGE",
+      "primaryUrl": "/multiplayer/matchmaking-queue/",
+      "affectedUrls": ["/multiplayer/matchmaking-queue/"],
+      "reason": "Update the existing matchmaking owner with launch-state queue wording and explicit economy and AI boundaries.",
+      "triggerType": "operator_request",
+      "triggerSummary": "P0 Writer allowlist implementation from the supplied post-launch evidence pack."
+    },
+    {
+      "interventionId": "halloween-the-game|post-launch-p0|michael-myers-abilities",
+      "action": "UPDATE_PAGE",
+      "primaryUrl": "/michael-myers/abilities/",
+      "affectedUrls": ["/michael-myers/abilities/"],
+      "reason": "Keep starter-build guidance on the existing Michael abilities owner and preserve unverified unlock boundaries.",
+      "triggerType": "operator_request",
+      "triggerSummary": "P0 Writer allowlist implementation from the supplied post-launch evidence pack."
+    },
+    {
+      "interventionId": "halloween-the-game|post-launch-p0|single-player",
+      "action": "UPDATE_PAGE",
+      "primaryUrl": "/single-player/",
+      "affectedUrls": ["/single-player/"],
+      "reason": "Keep first-clear launch guidance on the existing Story Mode hub and route detailed challenge intent to its existing owners.",
+      "triggerType": "operator_request",
+      "triggerSummary": "P0 Writer allowlist implementation from the supplied post-launch evidence pack."
+    }
+  ]
+}

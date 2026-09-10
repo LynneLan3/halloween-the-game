@@ -387,8 +387,8 @@ pages:
         type: next-step
     changeSummary: "CONTENT_EXPANSION — Michael Myers pillar hub; links to progression and matchmaking."
   - id: michael-myers-abilities
-    title: "Michael Myers Abilities — Evil Presence, Killer Sense, Stalk & Shape Jump"
-    description: "What Evil Presence does in Halloween: The Game, how Michael's abilities unlock, and which EA details remain unproven."
+    title: "Best Michael Myers Build & Abilities — Starter Loadout"
+    description: "Supported Reality Tear, Detection Pulse, and Blackout starter build for Michael at launch, with Patch 1.0.1 changes and bounded unlock details."
     category: killer-guides
     slug: michael-myers/abilities
     source: site-input/pages/michael-myers/abilities.md
@@ -398,11 +398,11 @@ pages:
     role: core
     intents:
       - michael-myers-abilities
-    quickAnswer: "Evil Presence is an unlockable Michael ability observed in Early Access footage as a short-range aura that staggers nearby Civilians, creating an opening to close distance or interrupt escape. Exact unlock level, cooldown, range, Stalk Tier 3 requirement, and guaranteed execution remain UNKNOWN. Official kit also includes Killer Sense, Stalk, Shape Jump, Shape Dash, and blackouts."
+    quickAnswer: "Supported launch starter build: Reality Tear, Detection Pulse, and Blackout, used with Killer Sense and Shape Jump. It is practical launch guidance rather than a permanent meta; exact unlock values and full ability details remain UNKNOWN."
     eyebrow: "Killer Abilities"
     facts:
-      - label: "Evil Presence"
-        value: "Short-range aura; observed Civilian stagger in EA"
+      - label: "Starter build"
+        value: "Reality Tear, Detection Pulse, Blackout"
       - label: "Loadout"
         value: "2 starting traits + 3 selectable abilities"
       - label: "Killer Sense"
@@ -417,7 +417,7 @@ pages:
         type: related
       - pageId: multiplayer-how-it-works
         type: next-step
-    changeSummary: "PRESENTATION — widen evidence layout, promote Evil Presence frame, compress secondary ability reference, compact bottom recommendations."
+    changeSummary: "LAUNCH_UPDATE — supported starter build intent, Patch 1.0.1 deltas, and retained Evil Presence evidence boundaries."
   - id: michael-myers-how-to-arrest
     title: "How to Arrest Michael Myers in Halloween: The Game — Detain Sequence"
     description: "The verified multiplayer detain sequence: authority pressure, handcuff readiness, [E] Detain Michael, the minigame, MICHAEL DETAINED, and why knockdowns can fail."
@@ -527,8 +527,8 @@ pages:
         type: related
     changeSummary: "CONTENT_EXPANSION — Multiplayer how-it-works guide."
   - id: multiplayer-how-to-escape
-    title: "Halloween The Game Escape Routes — Car, Cellar, Gate & Police Wagon"
-    description: "Fast-verified multiplayer escape decision guide: what to do after finding a Sedan, Storm Cellar, Outer Gate, or Police Wagon cue, with current UNKNOWNs preserved."
+    title: "Halloween: The Game Escape Routes — Car, Cellar, Gate & Police"
+    description: "Launch-state escape decision guide for Sedan, Cellar, Gate, and Police Wagon or Car variants, with Patch 1.0.1 changes and unknown capacities preserved."
     category: multiplayer-guides
     slug: multiplayer/how-to-escape
     source: site-input/pages/multiplayer/how-to-escape.md
@@ -538,11 +538,11 @@ pages:
     role: core
     intents:
       - how-to-escape-haddonfield
-    quickAnswer: "Find an exit or item, then follow that route's current HUD/objective: Sedan guides report engine, gas-tank, and key requirements; Cellar and Gate blockers vary; Police Wagon shows POLICE WAGON CALLED and an arrival countdown. Escape locations and key items change between matches, and exact capacity remains unknown."
+    quickAnswer: "Follow the current match HUD: Sedan, Cellar, Gate, and Police are observed launch route families. Police includes Wagon and launch-guide-correlated Car variants; locations, items, capacity, and several interaction details remain match-dependent or UNKNOWN."
     eyebrow: "Escape Guide"
     facts:
       - label: "Route families"
-        value: "Sedan, Storm Cellar, Outer Gate, Police Wagon progression"
+        value: "Sedan, Storm Cellar, Outer Gate, Police variants"
       - label: "Sedan reports"
         value: "Engine repair, gas-tank fill, Sedan Keys"
       - label: "Gate report"
@@ -559,10 +559,10 @@ pages:
         type: next-step
       - pageId: maps-hub
         type: related
-    changeSummary: "CONTENT_EXPANSION — FAST_VERIFIED item/exit decision guide with explicit evidence boundaries."
+    changeSummary: "LAUNCH_UPDATE — Patch 1.0.1 escape changes and bounded Police Car/Wagon coverage."
   - id: multiplayer-matchmaking-queue
     title: "Halloween: The Game Matchmaking Queue — Roles, Tokens & Private Matches"
-    description: "Role-based matchmaking queues, secondary-reported Killer Tokens, private matches with friends, and what remains unknown about AI backfill."
+    description: "Launch-state role queues, Killer Token reporting, private matches, Patch 1.0.1 party behavior, and explicit AI-backfill boundaries."
     category: multiplayer-guides
     slug: multiplayer/matchmaking-queue
     source: site-input/pages/multiplayer/matchmaking-queue.md
@@ -573,7 +573,7 @@ pages:
     intents:
       - matchmaking-queue
       - killer-tokens
-    quickAnswer: "Online matches are 1 Michael vs 4 Civilians. Private matches with friends are announced (roles can be set or randomized), and private matches against AI are officially listed. Killer Tokens / priority Michael queue access are secondary-reported. Public AI backfill remains unknown."
+    quickAnswer: "Choose Killer, Civilian, or No Preference as reported by the developer overview; private matches and private AI are supported. Killer Tokens are reported as earned priority access for Michael and are not spent until entering a Michael match; AI backfill remains unknown."
     eyebrow: "Matchmaking"
     facts:
       - label: "Online format"
@@ -583,7 +583,7 @@ pages:
       - label: "Private AI"
         value: "Officially listed as a play option"
       - label: "Killer Tokens"
-        value: "Secondary press reporting of priority Killer queue access"
+        value: "Press-reported Michael priority; no exact economy numbers"
     coverAssetId: rachel-gameplay
     relations:
       - pageId: multiplayer-hub
@@ -594,7 +594,7 @@ pages:
         type: related
       - pageId: progression-perks
         type: related
-    changeSummary: "INTENT EXPANSION — Matchmaking queue guide."
+    changeSummary: "LAUNCH_UPDATE — current queue wording and Patch 1.0.1 party and countdown changes."
   - id: multiplayer-crossplay
     title: "Halloween: The Game Crossplay — What Is Officially Confirmed"
     description: "Xbox storefront cross-platform indicators, confirmed platforms, Patch 1.0.1 party/lobby status, and the remaining unknown matrix."
@@ -624,8 +624,8 @@ pages:
         type: related
     changeSummary: "CONTENT_EXPANSION — Crossplay status guide."
   - id: single-player-hub
-    title: "Halloween: The Game Single Player — Story Mode & Chapters"
-    description: "A six-chapter Michael Myers Story Mode walkthrough covering observed first-clear progression, current objectives, replay cleanup, and evidence boundaries."
+    title: "Halloween: The Game Single Player — Story Mode First-Clear Guide"
+    description: "Launch-state six-chapter Story Mode orientation with observed first-clear progression, Patch 1.0.1 status, and links to existing challenge owners."
     category: story-guides
     slug: single-player
     source: site-input/pages/single-player.md
@@ -637,7 +637,7 @@ pages:
       - halloween-single-player
       - story-mode
       - how-many-chapters
-    quickAnswer: "Halloween: The Game has 6 total Story Mode chapters: a Prologue plus five numbered chapters (Chapters 1–5). This walkthrough follows observed first-clear progression, separates optional cleanup, and flags evidence boundaries without treating them as universal."
+    quickAnswer: "Story Mode has six chapters: a Prologue plus Chapters 1–5. This launch-state hub keeps observed first-clear orientation and routes detailed Chapter 4 and Chapter 5 challenges to their existing owners."
     eyebrow: "Story Mode"
     facts:
       - label: "Perspective"
@@ -656,7 +656,7 @@ pages:
         type: related
       - pageId: bots-private-lobbies-offline
         type: related
-    changeSummary: "CONTENT_EXPANSION — Single Player pillar hub."
+    changeSummary: "LAUNCH_UPDATE — first-clear focus, Patch 1.0.1 status, and challenge ownership de-duplication."
   - id: single-player-chapter-5-challenges
     title: "Halloween: The Game — All Chapter 5 Challenges and Challenge 6 Troubleshooting"
     description: "Complete all six Chapter 5 challenges with exact current-build wording, then troubleshoot Challenge 6 with one verified parked-police-car route: melee attack, sewer escape, and results-screen confirmation."
