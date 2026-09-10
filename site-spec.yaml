@@ -625,7 +625,7 @@ pages:
     changeSummary: "CONTENT_EXPANSION — Crossplay status guide."
   - id: single-player-hub
     title: "Halloween: The Game Single Player — Story Mode First-Clear Guide"
-    description: "Launch-state six-chapter Story Mode orientation with observed first-clear progression, Patch 1.0.1 status, and links to existing challenge owners."
+    description: "Current six-stage Story Mode orientation with observed first-clear progression, Patch 1.0.1 status, and links to existing challenge owners."
     category: story-guides
     slug: single-player
     source: site-input/pages/single-player.md
@@ -637,7 +637,7 @@ pages:
       - halloween-single-player
       - story-mode
       - how-many-chapters
-    quickAnswer: "Story Mode has six chapters: a Prologue plus Chapters 1–5. This launch-state hub keeps observed first-clear orientation and routes detailed Chapter 4 and Chapter 5 challenges to their existing owners."
+    quickAnswer: "Story Mode has six stages: a Prologue plus Chapters 1–5. This page owns the observed first-clear walkthrough and routes detailed challenges and collectibles to their existing owners."
     eyebrow: "Story Mode"
     facts:
       - label: "Perspective"

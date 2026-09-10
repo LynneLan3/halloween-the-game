@@ -1360,7 +1360,7 @@ export const siteConfig: GameConfig = {
 					pageId: "single-player-hub",
 					href: "/single-player/",
 					title: "Halloween: The Game Single Player — Story Mode First-Clear Guide",
-					description: "Launch-state six-chapter Story Mode orientation with observed first-clear progression, Patch 1.0.1 status, and links to existing challenge owners.",
+					description: "Current six-stage Story Mode orientation with observed first-clear progression, Patch 1.0.1 status, and links to existing challenge owners.",
 					eyebrow: "Story Mode",
 					image: "covers/michael/singleplayer-haddonfield.jpg",
 				},

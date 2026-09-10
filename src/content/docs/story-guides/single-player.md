@@ -1,6 +1,6 @@
 ---
 title: "Halloween: The Game Single Player — Story Mode First-Clear Guide"
-description: "Launch-state six-chapter Story Mode orientation with observed first-clear progression, Patch 1.0.1 status, and links to existing challenge owners."
+description: "Current six-stage Story Mode orientation with observed first-clear progression, Patch 1.0.1 status, and links to existing challenge owners."
 category: story-guides
 slug: single-player
 status: verified
@@ -13,7 +13,7 @@ intents:
   - halloween-single-player
   - story-mode
   - how-many-chapters
-quickAnswer: "Story Mode has six chapters: a Prologue plus Chapters 1–5. This launch-state hub keeps observed first-clear orientation and routes detailed Chapter 4 and Chapter 5 challenges to their existing owners."
+quickAnswer: "Story Mode has six stages: a Prologue plus Chapters 1–5. This page owns the observed first-clear walkthrough and routes detailed challenges and collectibles to their existing owners."
 relations:
   -
     slug: michael-myers
@@ -52,12 +52,6 @@ facts:
   Run npm run site:generate instead.
   Source: site-input/pages/single-player.md
 -->
-# Halloween: The Game Single Player — Story Mode & Chapters
-
-Quick answer
-
-Story Mode is a single-player narrative containing six total chapters: a Prologue plus five numbered chapters (Chapters 1–5). In the successful runs reviewed, the campaign proceeds with the Prologue first and then Chapters 1–5 in that named order. The chapter progressions below are observed sequences from those runs, not guaranteed requirements. Optional challenges and collectibles are replay content tied to the six playable chapters. Community reports described possible save/reset, challenge/log registration, relock/loop, and Chapter 4 AI/timing problems; those reports are not confirmed as universal and do not establish a guaranteed workaround.
-
 ## Patch 1.0.1 (September 8, 2026)
 
 - Patch 1.0.1 fixed the Chapter 5 completion achievement.
@@ -68,6 +62,8 @@ Story Mode is a single-player narrative containing six total chapters: a Prologu
 These are patch-note updates, not new route instructions or a guarantee that every reported issue is resolved.
 
 First-clear state map (observed)
+
+First-clear walkthrough owner: /single-player/
 
 - Prologue → Chapter 1 → Chapter 2 → Chapter 3 → Chapter 4 → Chapter 5.
 
@@ -120,7 +116,7 @@ In the successful runs reviewed:
 
 *Wallace House objective in Chapter 4.*
 
-For detailed Chapter 4 challenge documentation and ownership, see /challenges/ and /challenges/chapter-4-challenge-6/. For Chapter 5 challenge intent, see /single-player/chapter-5-challenges/.
+For detailed Chapter 4 challenge documentation and ownership, see [Story Challenges](/challenges/) and [Chapter 4 Challenge 6](/challenges/chapter-4-challenge-6/). For Chapter 5 challenge intent, see [Chapter 5 Challenges](/single-player/chapter-5-challenges/).
 
 ## Chapter 5 — observed progression
 
@@ -137,7 +133,7 @@ For detailed Chapter 4 challenge documentation and ownership, see /challenges/ a
 
 ## First clear vs challenge cleanup
 
-The chapter route above is for first-clear progression. Optional challenges and collectibles are replay content tied to the six chapters. Return to the relevant chapter for cleanup instead of letting an optional challenge derail the first clear.
+The chapter route above is for first-clear progression. Optional challenges and collectibles are replay content tied to the six chapters. Return to the relevant chapter for cleanup instead of letting an optional challenge derail the first clear. Collectibles (Loomis Logs) are documented in [the Loomis Log locations guide](/loomis-logs/).
 
 ## Stuck or bug? Community reports
 

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "hotword-publish-receipt-v1",
+  "common": {
+    "site": "Halloween: The Game",
+    "siteId": "halloween-the-game",
+    "game": "Halloween: The Game",
+    "batchId": "halloween-the-game|single-player-refresh|20260910",
+    "lifecyclePhase": "launch",
+    "attributionMode": "OBSERVATIONAL_ONLY",
+    "sourceRefs": [
+      "content-jobs/single-player/research.md",
+      "site-input/pages/single-player.md",
+      "site-spec.yaml"
+    ]
+  },
+  "interventions": [
+    {
+      "interventionId": "halloween-the-game|single-player|20260910-refresh",
+      "action": "CONTENT_UPDATE",
+      "primaryUrl": "/single-player/",
+      "affectedUrls": [
+        "/single-player/"
+      ],
+      "reason": "Refresh the existing six-stage first-clear owner, remove verified semantic duplication, and route challenge and collectible detail to existing owners while preserving Patch 1.0.1 boundaries and evidence media.",
+      "triggerType": "operator_request",
+      "triggerSummary": "Production publish authorized after local generation, validation, build, and desktop/mobile rendered acceptance."
+    }
+  ]
+}
