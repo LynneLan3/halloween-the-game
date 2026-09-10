@@ -83,7 +83,7 @@ categories:
     imageAssetId: progression-perk-cards
   - id: pc-guides
     label: PC
-    description: System requirements, Steam Deck status, and PC launch checks.
+    description: System requirements, best settings / FPS tuning, Steam Deck status, and PC launch checks.
     icon: information
     order: 10
     imageAssetId: halloween-gameplay-2
@@ -681,7 +681,7 @@ pages:
     changeSummary: "Current-build Chapter 5 challenge list and one bounded Challenge 6 route."
   - id: pc-hub
     title: "Halloween: The Game on PC — Requirements & Launch Checks"
-    description: "PC storefronts, system requirements, Steam Deck status links, and current compatibility UNKNOWNs."
+    description: "PC storefronts, system requirements, current-build best settings / FPS tuning, Steam Deck status links, and remaining compatibility UNKNOWNs."
     category: pc-guides
     slug: pc
     source: site-input/pages/pc.md
@@ -691,7 +691,7 @@ pages:
     role: core
     intents:
       - halloween-pc
-    quickAnswer: "PC releases on Steam (App ID 3219630) and Epic. Steam lists Windows 11, DX12, SSD/NVMe, and full controller support. Anti-cheat middleware and Steam Deck compatibility remain UNKNOWN."
+    quickAnswer: "PC releases on Steam (App ID 3219630) and Epic. Steam lists Windows 11, DX12, SSD/NVMe, and full controller support. Use system requirements plus the best settings / FPS guide for current-build tuning; Steam Deck compatibility remains unverified."
     eyebrow: "PC Guide"
     facts:
       - label: "Steam App ID"
@@ -706,14 +706,16 @@ pages:
     relations:
       - pageId: pc-system-requirements
         type: next-step
+      - pageId: pc-best-settings-fps
+        type: next-step
       - pageId: steam-deck
         type: next-step
       - pageId: multiplayer-crossplay
         type: related
-    changeSummary: "V4 pass — removed unverified EAC from facts; controller support confirmed."
+    changeSummary: "Post-launch graphics consistency — link best settings / FPS owner; remove stale DLSS/FSR/best-settings UNKNOWN boundary."
   - id: pc-system-requirements
     title: "Halloween: The Game System Requirements — Minimum & Recommended PC Specs"
-    description: "Minimum and Recommended PC specs for Halloween: The Game: Windows 11, SSD/NVMe, Easy Anti-Cheat, 1080p30 / 4K30 store targets, and what is still not confirmed."
+    description: "Minimum and Recommended PC specs for Halloween: The Game: Windows 11, SSD/NVMe, Easy Anti-Cheat, 1080p30 / 4K30 store targets, and current-build graphics-control routing."
     category: pc-guides
     slug: pc/system-requirements
     source: site-input/pages/pc/system-requirements.md
@@ -724,7 +726,7 @@ pages:
     intents:
       - system-requirements
       - pc-requirements
-    quickAnswer: "Minimum: Windows 11 64-bit, 16 GB RAM, GTX 1660+ / RX 590+ / Arc A770+, 1080p @ 30 fps, DirectX 12, 45 GB SSD/NVMe. Recommended: 32 GB RAM, RTX 3000 / RX 7000 series, 4K @ 30 fps. Steam confirms Kernel Level Easy Anti-Cheat. No official 60 FPS config is published."
+    quickAnswer: "Minimum: Windows 11 64-bit, 16 GB RAM, GTX 1660+ / RX 590+ / Arc A770+, 1080p @ 30 fps, DirectX 12, 45 GB SSD/NVMe. Recommended: 32 GB RAM, RTX 3000 / RX 7000 series, 4K @ 30 fps. Steam confirms Kernel Level Easy Anti-Cheat. No official 60 FPS config is published. For Ray Tracing / upscaling / FPS tuning, see the best settings guide."
     eyebrow: "System Requirements"
     facts:
       - label: "Minimum"
@@ -739,9 +741,45 @@ pages:
     relations:
       - pageId: pc-hub
         type: related
+      - pageId: pc-best-settings-fps
+        type: next-step
       - pageId: steam-deck
         type: next-step
-    changeSummary: "CONTENT_EXPANSION — PC system requirements guide."
+    changeSummary: "Post-launch UPDATE — separate official store facts from current-build observed graphics controls; route FPS tuning to best-settings-fps."
+  - id: pc-best-settings-fps
+    title: "Halloween: The Game — Best PC Settings for Stable FPS"
+    description: "A current-build PC settings baseline and step-by-step diagnostic order to stabilize Halloween: The Game performance — Ray Tracing and Motion Blur first cuts, a tested 60 FPS stability baseline, upscaling vs Frame Generation guidance, Patch 1.0.1 notes, and Story vs multiplayer testing tips."
+    category: pc-guides
+    slug: pc/best-settings-fps
+    source: site-input/pages/pc/best-settings-fps.md
+    status: needs-verification
+    featured: true
+    sidebarOrder: 3
+    role: core
+    intents:
+      - best-settings-fps
+      - pc-optimization
+      - graphics-settings
+    quickAnswer: "Start with Ray Tracing Off and Motion Blur Off, then use a 60 FPS cap as a tested stability baseline—not an official guarantee. Lower Shadows, GI, Reflections, Effects, Foliage, and Shading before Textures/View Distance. Test upscaling deliberately; do not assume Frame Generation will fix low FPS. Patch 1.0.1 is not a documented broad PC FPS fix. Test Story and multiplayer separately."
+    eyebrow: "Best Settings / FPS"
+    facts:
+      - label: "First cuts"
+        value: "Ray Tracing Off; Motion Blur Off"
+      - label: "Stability baseline"
+        value: "60 FPS cap as a tested diagnostic baseline — not an official target"
+      - label: "Patch 1.0.1"
+        value: "Crash fixes included; no documented broad PC FPS optimization pass"
+      - label: "Frame Generation"
+        value: "Current reports show inconsistent / no-gain behavior on some systems"
+    coverAssetId: halloween-gameplay-2
+    relations:
+      - pageId: pc-system-requirements
+        type: related
+      - pageId: pc-hub
+        type: related
+      - pageId: steam-deck
+        type: related
+    changeSummary: "CREATE — current-build PC best settings / FPS troubleshooting owner from Graphics/FPS Evidence Pack."
   - id: early-access-release-time
     title: "What time did Halloween the Game come out? Early Access & launch times (PT)"
     description: "Halloween: The Game released Tuesday, September 8, 2026 at 9:00 AM PT. Digital Deluxe Early Access began September 4, 2026 at 9:00 AM PT."
@@ -1084,7 +1122,9 @@ pages:
         type: next-step
       - pageId: pc-system-requirements
         type: next-step
-    changeSummary: "V4 pass — EAC marked provisional; trust block added."
+      - pageId: pc-best-settings-fps
+        type: related
+    changeSummary: "V4 pass — EAC marked provisional; trust block added. Related link to current-build PC best settings / FPS owner."
   - id: australia-release-status
     title: "Is Halloween: The Game Banned in Australia? Current Release Status"
     description: "Summary of the Australian Classification Board decision, why the game was Refused Classification, what that means for digital/physical sales and how SKU differences (Standard vs Digital Deluxe) affect classification as of the last verification."
@@ -1402,6 +1442,7 @@ routes:
       - characters-hub
       - pc-hub
       - pc-system-requirements
+      - pc-best-settings-fps
       - steam-deck
       - australia-release-status
       - early-access-release-time
@@ -1430,18 +1471,22 @@ routes:
   - id: pc
     eyebrow: "PC"
     title: "PC"
-    description: "System requirements, Steam Deck checks, and PC launch notes."
+    description: "System requirements, best settings / FPS tuning, Steam Deck checks, and PC launch notes."
     visualAssetId: orange-grove-park
     fastAnswers:
       - question: "What are the PC system requirements?"
         answer: Steam lists Windows 11, 16–32 GB RAM, DX12, and 45 GB SSD/NVMe storage.
         pageId: pc-system-requirements
+      - question: "What are the best PC settings for stable FPS?"
+        answer: Start with Ray Tracing and Motion Blur off, then follow the current-build settings diagnostic guide.
+        pageId: pc-best-settings-fps
       - question: "Does Halloween work on Steam Deck?"
         answer: Not verified—see the Steam Deck status page for compatibility checks.
         pageId: steam-deck
     pages:
       - pc-hub
       - pc-system-requirements
+      - pc-best-settings-fps
       - steam-deck
 
 homepage:

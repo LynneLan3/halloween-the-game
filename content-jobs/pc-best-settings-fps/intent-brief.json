@@ -1,0 +1,35 @@
+{
+  "intent_id": "intent-halloween-pc-best-settings-fps-20260910",
+  "primaryQuery": "Halloween The Game best settings",
+  "queryCluster": [
+    "Halloween The Game best settings",
+    "Halloween The Game best graphics settings",
+    "Halloween The Game FPS fix",
+    "Halloween The Game low FPS",
+    "Halloween The Game stuttering",
+    "Halloween The Game DLSS not working",
+    "Halloween The Game frame generation not working",
+    "Halloween The Game PC optimization"
+  ],
+  "userJob": "Stabilize Halloween: The Game PC performance with a current-build settings baseline, a diagnostic troubleshooting order, and clear Frame Generation / Story Mode boundaries.",
+  "serpPromise": "One current-build PC performance owner: tested starting preset, Ray Tracing and Motion Blur first cuts, 60 FPS stability baseline, upscaling vs Frame Generation guidance, Patch 1.0.1 status, and Story vs multiplayer test notes.",
+  "intentOwnerStatus": "KEEP",
+  "requiredAnswers": [
+    "What should I change first for better FPS?",
+    "What is a safe tested starting preset?",
+    "Does Patch 1.0.1 fix PC FPS?",
+    "What if DLSS / Frame Generation is not working?",
+    "Why might Story Mode feel worse than multiplayer?"
+  ],
+  "outOfScope": [
+    "Per-GPU FPS benchmark tables",
+    "Invented percentage FPS gains",
+    "Best driver version claims",
+    "Universal 60 FPS guarantee",
+    "Universal Frame Generation support matrix",
+    "Shader-compilation stutter claims",
+    "Confirmed rain causation",
+    "Official PC optimization ETA",
+    "Separate thin pages for /fps-fix/, /best-graphics-settings/, /dlss/, or /frame-generation/"
+  ]
+}

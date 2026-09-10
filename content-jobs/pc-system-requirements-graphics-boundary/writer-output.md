@@ -3,7 +3,7 @@
 Quick answer
 - Minimum (headline): Windows 11 64-bit, Intel LGA 1200+ / AMD AM4+ CPU sockets, 16 GB RAM, NVIDIA GTX 1660+ / AMD RX 590+ / Intel Arc A770+ GPU, DirectX 12, 45 GB — SSD/NVMe required. Official performance target: 1080p @ 30 fps.
 - Recommended (headline): Windows 11 64-bit, Intel LGA 1700+ / AMD AM5+ CPU sockets, 32 GB RAM, NVIDIA RTX 3000 series / AMD RX 7000 series GPU, DirectX 12, 45 GB — SSD/NVMe required. Official performance target: 4K @ 30 fps.
-- Important note on renderer features and controls: Official store pages do not publish a renderer-feature support matrix or measured FPS benchmarks. However, launch-build testing and player reports show in-game graphics controls for Ray Tracing, upscaling, and frame-generation–related options; exact availability and performance depend on hardware, driver, and build. For tuning and troubleshooting (settings, FPS, and performance guidance) see [Best PC Settings / FPS]({{page:pc-best-settings-fps}}).
+- Important note on renderer features and controls: Official store pages do not publish a renderer-feature support matrix or measured FPS benchmarks. However, launch-build testing and player reports show in-game graphics controls for Ray Tracing, upscaling, and frame-generation–related options; exact availability and performance depend on hardware, driver, and build. For tuning and troubleshooting (settings, FPS, and performance guidance) see {{page:pc-best-settings-fps}}.
 
 Minimum vs Recommended (official store specs)
 
@@ -45,7 +45,7 @@ Official store facts vs current-build observations
   - Exact availability, naming, and performance of those options depend on your hardware, GPU driver, and the current game build.
   - Do not treat the observed in-game controls as an official store-side support matrix or definitive compatibility statement.
 
-If you want to tune graphics or troubleshoot FPS, go to [Best PC Settings / FPS]({{page:pc-best-settings-fps}}) for the dedicated performance and settings guide — this page does not duplicate that troubleshooting guidance.
+If you want to tune graphics or troubleshoot FPS, go to {{page:pc-best-settings-fps}} for the dedicated performance and settings guide — this page does not duplicate that troubleshooting guidance.
 
 Engine and controller support (confirmed on store)
 - Built on Unreal Engine 5.
@@ -60,8 +60,8 @@ Common mistakes
 
 What happens next / verification
 - The official store pages (Steam and Epic) are the authoritative baseline for requirements; check them for updates. The stores currently match on system requirements, but measured performance, option availability, and configuration changes can appear in later patches or developer notes.
-- For performance tuning, driver notes, and step-by-step troubleshooting, follow the dedicated performance guide at [Best PC Settings / FPS]({{page:pc-best-settings-fps}}).
-- Related pages: [PC hub]({{page:pc-hub}}), [Steam Deck checklist]({{page:steam-deck}}), [crossplay guide]({{page:multiplayer-crossplay}}), [Advance Access timing]({{page:early-access-release-time}}), and the performance tuning guide [Best PC Settings / FPS]({{page:pc-best-settings-fps}}).
+- For performance tuning, driver notes, and step-by-step troubleshooting, follow the dedicated performance guide at {{page:pc-best-settings-fps}}.
+- Related pages: [PC hub]({{page:pc-hub}}), [Steam Deck checklist]({{page:steam-deck}}), [crossplay guide]({{page:multiplayer-crossplay}}), [Advance Access timing]({{page:early-access-release-time}}), and the performance tuning guide {{page:pc-best-settings-fps}}.
 
 Sources
 - [Halloween: The Game on Steam](https://store.steampowered.com/app/3219630/Halloween_The_Game/)

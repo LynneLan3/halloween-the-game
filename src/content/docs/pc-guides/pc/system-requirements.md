@@ -1,6 +1,6 @@
 ---
 title: "Halloween: The Game System Requirements — Minimum & Recommended PC Specs"
-description: "Minimum and Recommended PC specs for Halloween: The Game: Windows 11, SSD/NVMe, Easy Anti-Cheat, 1080p30 / 4K30 store targets, and what is still not confirmed."
+description: "Minimum and Recommended PC specs for Halloween: The Game: Windows 11, SSD/NVMe, Easy Anti-Cheat, 1080p30 / 4K30 store targets, and current-build graphics-control routing."
 category: pc-guides
 slug: pc/system-requirements
 status: needs-verification
@@ -12,11 +12,14 @@ sidebar:
 intents:
   - system-requirements
   - pc-requirements
-quickAnswer: "Minimum: Windows 11 64-bit, 16 GB RAM, GTX 1660+ / RX 590+ / Arc A770+, 1080p @ 30 fps, DirectX 12, 45 GB SSD/NVMe. Recommended: 32 GB RAM, RTX 3000 / RX 7000 series, 4K @ 30 fps. Steam confirms Kernel Level Easy Anti-Cheat. No official 60 FPS config is published."
+quickAnswer: "Minimum: Windows 11 64-bit, 16 GB RAM, GTX 1660+ / RX 590+ / Arc A770+, 1080p @ 30 fps, DirectX 12, 45 GB SSD/NVMe. Recommended: 32 GB RAM, RTX 3000 / RX 7000 series, 4K @ 30 fps. Steam confirms Kernel Level Easy Anti-Cheat. No official 60 FPS config is published. For Ray Tracing / upscaling / FPS tuning, see the best settings guide."
 relations:
   -
     slug: pc
     type: related
+  -
+    slug: pc/best-settings-fps
+    type: next-step
   -
     slug: steam-deck
     type: next-step
@@ -26,7 +29,7 @@ coverMedia:
   kind: cover
   aspectRatio: 16:9
   sourceLabel: Official
-changeSummary: "CONTENT_EXPANSION — PC system requirements guide."
+changeSummary: "Post-launch UPDATE — separate official store facts from current-build observed graphics controls; route FPS tuning to best-settings-fps."
 eyebrow: System Requirements
 facts:
   -
@@ -53,7 +56,7 @@ facts:
 Quick answer
 - Minimum (headline): Windows 11 64-bit, Intel LGA 1200+ / AMD AM4+ CPU sockets, 16 GB RAM, NVIDIA GTX 1660+ / AMD RX 590+ / Intel Arc A770+ GPU, DirectX 12, 45 GB — SSD/NVMe required. Official performance target: 1080p @ 30 fps.
 - Recommended (headline): Windows 11 64-bit, Intel LGA 1700+ / AMD AM5+ CPU sockets, 32 GB RAM, NVIDIA RTX 3000 series / AMD RX 7000 series GPU, DirectX 12, 45 GB — SSD/NVMe required. Official performance target: 4K @ 30 fps.
-- Important system notes: Steam and Epic currently publish matching system requirements. Steam lists Broadband Internet on minimum requirements. Steam confirms Kernel Level Easy Anti-Cheat and that Easy Anti-Cheat requires manual removal after uninstall. Official materials do not publish any 60 FPS configuration.
+- Important note on renderer features and controls: Official store pages do not publish a renderer-feature support matrix or measured FPS benchmarks. However, launch-build testing and player reports show in-game graphics controls for Ray Tracing, upscaling, and frame-generation–related options; exact availability and performance depend on hardware, driver, and build. For tuning and troubleshooting (settings, FPS, and performance guidance) see [Best PC Settings / FPS](/pc/best-settings-fps/).
 
 Minimum vs Recommended (official store specs)
 
@@ -85,10 +88,17 @@ Windows 11, SSD/NVMe, 45 GB, and Easy Anti-Cheat (EAC)
 - Anti-cheat: Steam’s store page confirms Easy Anti-Cheat at kernel level for the PC build and notes that Easy Anti-Cheat requires manual removal after uninstall. Treat EAC as an active, confirmed part of the PC build per Steam’s listing.
 - Network: Steam lists Broadband Internet as part of the minimum requirements.
 
-What is NOT confirmed (store/official gaps)
-- No official 60 FPS configuration is published. Do not expect an official 1080p@60 or 4K@60 setting from store requirements.
-- The stores do not publish measured FPS benchmarks, optimized presets, upscaling or renderer feature support (do not infer DLSS/FSR/ray tracing support).
-- Real-world performance differences between Steam and Epic builds are not provided by the stores; while requirements match, measured performance across storefront builds is not confirmed by the stores.
+Official store facts vs current-build observations
+- Official store facts
+  - Steam and Epic store pages do not publish a formal renderer-feature support matrix.
+  - The stores do not publish measured FPS benchmark results.
+  - The stores do not publish any official 60 FPS hardware configuration (no official 1080p@60 or 4K@60 configuration is listed).
+- Current-build observed (launch / player testing)
+  - Launch-build testing and community reports show in-game graphics controls for Ray Tracing, upscaling, and frame-generation–related options are present in the current build.
+  - Exact availability, naming, and performance of those options depend on your hardware, GPU driver, and the current game build.
+  - Do not treat the observed in-game controls as an official store-side support matrix or definitive compatibility statement.
+
+If you want to tune graphics or troubleshoot FPS, go to [Best PC Settings / FPS](/pc/best-settings-fps/) for the dedicated performance and settings guide — this page does not duplicate that troubleshooting guidance.
 
 Engine and controller support (confirmed on store)
 - Built on Unreal Engine 5.
@@ -99,16 +109,12 @@ Common mistakes
 - Installing to or relying on a mechanical HDD — the stores require SSD/NVMe for the 45 GB install.
 - Expecting an official 60 FPS or higher-refresh configuration — none is published.
 - Treating Easy Anti-Cheat as optional or provisional — Steam lists EAC at kernel level and notes manual removal after uninstall.
+- Assuming the presence of in-game options equals an official, store-published compatibility matrix — observed controls vary by build and hardware.
 
 What happens next / verification
-- The official store pages (Steam and Epic) are the authoritative baseline for requirements; check them for updates. The stores currently match on system requirements, but measured performance and configuration changes can appear in later patches or developer notes.
-- Re-test performance and check developer patch notes or store updates after launch / Advance Access for any changes to requirements or anti-cheat behavior.
-
-Related links
-- [PC hub](/pc/)
-- [Steam Deck checklist](/steam-deck/)
-- [crossplay guide](/multiplayer/crossplay/)
-- [Advance Access timing](/early-access-release-time/)
+- The official store pages (Steam and Epic) are the authoritative baseline for requirements; check them for updates. The stores currently match on system requirements, but measured performance, option availability, and configuration changes can appear in later patches or developer notes.
+- For performance tuning, driver notes, and step-by-step troubleshooting, follow the dedicated performance guide at [Best PC Settings / FPS](/pc/best-settings-fps/).
+- Related pages: [PC hub](/pc/), [Steam Deck checklist](/steam-deck/), [crossplay guide](/multiplayer/crossplay/), [Advance Access timing](/early-access-release-time/), and the performance tuning guide [Best PC Settings / FPS](/pc/best-settings-fps/).
 
 Sources
 - [Halloween: The Game on Steam](https://store.steampowered.com/app/3219630/Halloween_The_Game/)

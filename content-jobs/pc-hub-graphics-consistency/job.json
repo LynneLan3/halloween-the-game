@@ -1,0 +1,15 @@
+{
+  "job_id": "halloween-pc-hub-graphics-consistency-20260910",
+  "source_type": "RESEARCH_PACKET",
+  "research_packet": "Halloween-Graphics-FPS-Evidence-Pack-2026-09-10.md",
+  "lifecycle": "LAUNCH",
+  "intent": "MECHANIC + HUB",
+  "article_class": "UPDATE",
+  "mode": "UPDATE",
+  "target": "/pc/",
+  "writer_status": "COMPLETED_GPT-5-MINI_UPDATE",
+  "model": "gpt-5-mini",
+  "no_commit": true,
+  "no_push": true,
+  "no_deploy": true
+}

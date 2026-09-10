@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "templateVersion": "2.0.0",
   "generatorVersion": "1.0.0",
-  "specHash": "d3a2d30824d8e99db22f99777f355df25d2a4cfe1ae7e3334d7bded9d5feca0b",
+  "specHash": "58d5783866c8c307a6d1835cfc5ae4a10193f992bebe124edfaea088dec66196",
   "siteId": "halloween-the-game",
   "createdFromSpec": "site-spec.yaml",
   "managedFiles": [
@@ -298,7 +298,7 @@
     },
     {
       "path": "src/config/site.generated.ts",
-      "sha256": "b9d224e4559c11b5d87e8093ffa09e963f2dc8078c01804ad23f3227bfe4f824",
+      "sha256": "664b65f09fb4805d1150353ddf3ebe0368f45305e0c6b9fb2b48b0a6f9550601",
       "kind": "config"
     },
     {
@@ -433,12 +433,17 @@
     },
     {
       "path": "src/content/docs/pc-guides/pc.md",
-      "sha256": "bef868fb4ddce0e48d70707a7c1ebc2e5a8057188a6a46bb4cad0ff81e335ad6",
+      "sha256": "9fb90d09eb20715de76c251c0eb16e1b3b53499e36daa69b73d23267e4cc75fa",
+      "kind": "page"
+    },
+    {
+      "path": "src/content/docs/pc-guides/pc/best-settings-fps.md",
+      "sha256": "1e87551785ac6ad8eade73823aa6e5f3913a16b997947281a6bba07d8abd232d",
       "kind": "page"
     },
     {
       "path": "src/content/docs/pc-guides/pc/system-requirements.md",
-      "sha256": "12a4c3076caa0aef78063c4c32960e407a00b6358ddd925897b3ffe3088b07db",
+      "sha256": "6dda06f5a9dded68c5b8d7108d22b00b69782c32fa37e8513e33e9ac7893f02a",
       "kind": "page"
     },
     {
@@ -463,7 +468,7 @@
     },
     {
       "path": "src/content/docs/reference/steam-deck.md",
-      "sha256": "2e64bae112d3c35b31d1d7597b243fc31e2a220c54243cf22ad3d300e10eb81b",
+      "sha256": "9a8530c42109d9e773112f09be3aa303a897f6a5ca9159e5f72761a5b4e5b667",
       "kind": "page"
     },
     {

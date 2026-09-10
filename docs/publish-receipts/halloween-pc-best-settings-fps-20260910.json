@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "hotword-publish-receipt-v1",
+  "common": {
+    "site": "Halloween: The Game",
+    "siteId": "halloween-the-game",
+    "game": "Halloween: The Game",
+    "batchId": "halloween-the-game|pc-best-settings-fps|20260910",
+    "lifecyclePhase": "released",
+    "attributionMode": "OBSERVATIONAL_ONLY",
+    "sourceRefs": [
+      "Halloween-Graphics-FPS-Evidence-Pack-2026-09-10.md",
+      "Halloween-Graphics-FPS-Content-Routing-Receipt-2026-09-10.md",
+      "content-jobs/pc-best-settings-fps/research.md",
+      "content-jobs/pc-system-requirements-graphics-boundary/research.md",
+      "content-jobs/pc-hub-graphics-consistency/research.md",
+      "site-spec.yaml"
+    ]
+  },
+  "interventions": [
+    {
+      "interventionId": "halloween-the-game|pc-best-settings-fps|create",
+      "action": "CREATE_PAGE",
+      "primaryUrl": "/pc/best-settings-fps/",
+      "affectedUrls": [
+        "/pc/best-settings-fps/",
+        "/pc/",
+        "/pc/system-requirements/",
+        "/routes/pc/"
+      ],
+      "reason": "Create the current-build PC best settings / FPS owner for the graphics and performance intent cluster.",
+      "triggerType": "operator_request",
+      "triggerSummary": "Post-launch Graphics/FPS Evidence Pack implementation with Shared Article Writer create mode."
+    },
+    {
+      "interventionId": "halloween-the-game|pc-system-requirements|graphics-boundary",
+      "action": "UPDATE_PAGE",
+      "primaryUrl": "/pc/system-requirements/",
+      "affectedUrls": [
+        "/pc/system-requirements/",
+        "/pc/best-settings-fps/"
+      ],
+      "reason": "Replace the stale pre-launch renderer-feature UNKNOWN boundary with official-store vs current-build observed controls and route tuning to the new performance owner.",
+      "triggerType": "operator_request",
+      "triggerSummary": "Bounded system-requirements update from the Graphics/FPS Evidence Pack."
+    },
+    {
+      "interventionId": "halloween-the-game|pc-hub|graphics-consistency",
+      "action": "UPDATE_PAGE",
+      "primaryUrl": "/pc/",
+      "affectedUrls": [
+        "/pc/",
+        "/pc/best-settings-fps/"
+      ],
+      "reason": "Remove contradictory pre-launch graphics/FPS UNKNOWN language and link the new performance owner from the PC hub.",
+      "triggerType": "operator_request",
+      "triggerSummary": "Minimal PC hub consistency update required by the new owner."
+    }
+  ]
+}

@@ -25,13 +25,16 @@ relations:
   -
     slug: pc/system-requirements
     type: next-step
+  -
+    slug: pc/best-settings-fps
+    type: related
 cover: ../../../assets/covers/gameplay/rachel-gameplay.png
 coverMedia:
   alt: "Civilians in Halloween: The Game multiplayer"
   kind: cover
   aspectRatio: 16:9
   sourceLabel: Official
-changeSummary: "V4 pass — EAC marked provisional; trust block added."
+changeSummary: "V4 pass — EAC marked provisional; trust block added. Related link to current-build PC best settings / FPS owner."
 eyebrow: Steam Deck Status
 facts:
   -

@@ -1,6 +1,6 @@
 ---
 title: "Halloween: The Game on PC — Requirements & Launch Checks"
-description: "PC storefronts, system requirements, Steam Deck status links, and current compatibility UNKNOWNs."
+description: "PC storefronts, system requirements, current-build best settings / FPS tuning, Steam Deck status links, and remaining compatibility UNKNOWNs."
 category: pc-guides
 slug: pc
 status: needs-verification
@@ -11,10 +11,13 @@ sidebar:
   order: 1
 intents:
   - halloween-pc
-quickAnswer: "PC releases on Steam (App ID 3219630) and Epic. Steam lists Windows 11, DX12, SSD/NVMe, and full controller support. Anti-cheat middleware and Steam Deck compatibility remain UNKNOWN."
+quickAnswer: "PC releases on Steam (App ID 3219630) and Epic. Steam lists Windows 11, DX12, SSD/NVMe, and full controller support. Use system requirements plus the best settings / FPS guide for current-build tuning; Steam Deck compatibility remains unverified."
 relations:
   -
     slug: pc/system-requirements
+    type: next-step
+  -
+    slug: pc/best-settings-fps
     type: next-step
   -
     slug: steam-deck
@@ -28,7 +31,7 @@ coverMedia:
   kind: cover
   aspectRatio: 16:9
   sourceLabel: Official
-changeSummary: "V4 pass — removed unverified EAC from facts; controller support confirmed."
+changeSummary: "Post-launch graphics consistency — link best settings / FPS owner; remove stale DLSS/FSR/best-settings UNKNOWN boundary."
 eyebrow: PC Guide
 facts:
   -
@@ -74,6 +77,8 @@ Steam lists formal minimum and recommended specs. Full breakdown: /pc/system-req
 - **Unreal Engine 5**
 - **Full controller support** on Steam
 
+For current-build graphics and FPS tuning guidance (settings advice, troubleshooting notes, and testing observations), see [Best PC Settings / FPS](/pc/best-settings-fps/). This hub does not assert universal "best" settings or guaranteed FPS numbers.
+
 ## Anti-cheat — provisional
 
 Secondary sources (e.g. PCGamingWiki) cite **Easy Anti-Cheat** middleware for the PC build. The live Steam store **anti-cheat field was not verified** in our pre-launch API snapshot. Do **not** treat anti-cheat as a confirmed fact until the live Steam store page shows it at launch.
@@ -96,15 +101,13 @@ Do **not** claim verified Steam Deck performance, Proton flags, or stable frame 
 
 ## Still UNKNOWN
 
-Avoid pre-launch claims about:
+Pre-launch items remaining unverified:
 
-- Exact FPS at each settings preset
-- Shader compile stutter or UE5 optimization state
-- DLSS / FSR / frame generation support
-- Best graphics settings per GPU tier
-- Anti-cheat middleware until live Steam store confirms it
+- Exact FPS at each graphics/settings preset.
+- Shader compile stutter or broader Unreal Engine 5 optimization behavior on varied hardware.
+- Whether the live Steam store will list anti-cheat middleware (see Anti-cheat above) as a confirmed field.
 
-Update this hub after Advance Access gameplay on real hardware.
+Specific feature support and per-build tuning details are covered by the current-build performance guide: [Best PC Settings / FPS](/pc/best-settings-fps/). This hub will not claim universal best settings or FPS guarantees — check the performance guide and real-hardware testing after Advance Access/full release.
 
 ## Sources
 

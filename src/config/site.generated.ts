@@ -199,7 +199,7 @@ export const siteConfig: GameConfig = {
 		{
 			id: "pc-guides",
 			label: "PC",
-			description: "System requirements, Steam Deck status, and PC launch checks.",
+			description: "System requirements, best settings / FPS tuning, Steam Deck status, and PC launch checks.",
 			icon: "information",
 			order: 10,
 			image: "covers/halloween-gameplay-2.jpg",
@@ -727,6 +727,10 @@ export const siteConfig: GameConfig = {
 					type: "next-step",
 				},
 				{
+					pageId: "pc-best-settings-fps",
+					type: "next-step",
+				},
+				{
 					pageId: "steam-deck",
 					type: "next-step",
 				},
@@ -752,8 +756,37 @@ export const siteConfig: GameConfig = {
 					type: "related",
 				},
 				{
+					pageId: "pc-best-settings-fps",
+					type: "next-step",
+				},
+				{
 					pageId: "steam-deck",
 					type: "next-step",
+				},
+			],
+			sources: [
+			],
+			evidence: [
+			],
+		},
+		{
+			id: "pc-best-settings-fps",
+			slug: "pc/best-settings-fps",
+			role: "core",
+			assetType: "article",
+			intents: ["best-settings-fps", "pc-optimization", "graphics-settings"],
+			relations: [
+				{
+					pageId: "pc-system-requirements",
+					type: "related",
+				},
+				{
+					pageId: "pc-hub",
+					type: "related",
+				},
+				{
+					pageId: "steam-deck",
+					type: "related",
 				},
 			],
 			sources: [
@@ -1024,6 +1057,10 @@ export const siteConfig: GameConfig = {
 				{
 					pageId: "pc-system-requirements",
 					type: "next-step",
+				},
+				{
+					pageId: "pc-best-settings-fps",
+					type: "related",
 				},
 			],
 			sources: [
@@ -1511,7 +1548,7 @@ export const siteConfig: GameConfig = {
 					pageId: "pc-hub",
 					href: "/pc/",
 					title: "Halloween: The Game on PC — Requirements & Launch Checks",
-					description: "PC storefronts, system requirements, Steam Deck status links, and current compatibility UNKNOWNs.",
+					description: "PC storefronts, system requirements, current-build best settings / FPS tuning, Steam Deck status links, and remaining compatibility UNKNOWNs.",
 					eyebrow: "PC Guide",
 					image: "hero/halloween-keyart.jpg",
 				},
@@ -1519,9 +1556,17 @@ export const siteConfig: GameConfig = {
 					pageId: "pc-system-requirements",
 					href: "/pc/system-requirements/",
 					title: "Halloween: The Game System Requirements — Minimum & Recommended PC Specs",
-					description: "Minimum and Recommended PC specs for Halloween: The Game: Windows 11, SSD/NVMe, Easy Anti-Cheat, 1080p30 / 4K30 store targets, and what is still not confirmed.",
+					description: "Minimum and Recommended PC specs for Halloween: The Game: Windows 11, SSD/NVMe, Easy Anti-Cheat, 1080p30 / 4K30 store targets, and current-build graphics-control routing.",
 					eyebrow: "System Requirements",
 					image: "covers/gameplay/extended-first-look.jpg",
+				},
+				{
+					pageId: "pc-best-settings-fps",
+					href: "/pc/best-settings-fps/",
+					title: "Halloween: The Game — Best PC Settings for Stable FPS",
+					description: "A current-build PC settings baseline and step-by-step diagnostic order to stabilize Halloween: The Game performance — Ray Tracing and Motion Blur first cuts, a tested 60 FPS stability baseline, upscaling vs Frame Generation guidance, Patch 1.0.1 notes, and Story vs multiplayer testing tips.",
+					eyebrow: "Best Settings / FPS",
+					image: "covers/halloween-gameplay-2.jpg",
 				},
 				{
 					pageId: "steam-deck",
@@ -1651,7 +1696,7 @@ export const siteConfig: GameConfig = {
 			id: "pc",
 			eyebrow: "PC",
 			title: "PC",
-			description: "System requirements, Steam Deck checks, and PC launch notes.",
+			description: "System requirements, best settings / FPS tuning, Steam Deck checks, and PC launch notes.",
 			href: "/pc/",
 			visual: "covers/maps/orange-grove-park.jpg",
 			pages: [
@@ -1659,7 +1704,7 @@ export const siteConfig: GameConfig = {
 					pageId: "pc-hub",
 					href: "/pc/",
 					title: "Halloween: The Game on PC — Requirements & Launch Checks",
-					description: "PC storefronts, system requirements, Steam Deck status links, and current compatibility UNKNOWNs.",
+					description: "PC storefronts, system requirements, current-build best settings / FPS tuning, Steam Deck status links, and remaining compatibility UNKNOWNs.",
 					eyebrow: "PC Guide",
 					image: "hero/halloween-keyart.jpg",
 				},
@@ -1667,9 +1712,17 @@ export const siteConfig: GameConfig = {
 					pageId: "pc-system-requirements",
 					href: "/pc/system-requirements/",
 					title: "Halloween: The Game System Requirements — Minimum & Recommended PC Specs",
-					description: "Minimum and Recommended PC specs for Halloween: The Game: Windows 11, SSD/NVMe, Easy Anti-Cheat, 1080p30 / 4K30 store targets, and what is still not confirmed.",
+					description: "Minimum and Recommended PC specs for Halloween: The Game: Windows 11, SSD/NVMe, Easy Anti-Cheat, 1080p30 / 4K30 store targets, and current-build graphics-control routing.",
 					eyebrow: "System Requirements",
 					image: "covers/gameplay/extended-first-look.jpg",
+				},
+				{
+					pageId: "pc-best-settings-fps",
+					href: "/pc/best-settings-fps/",
+					title: "Halloween: The Game — Best PC Settings for Stable FPS",
+					description: "A current-build PC settings baseline and step-by-step diagnostic order to stabilize Halloween: The Game performance — Ray Tracing and Motion Blur first cuts, a tested 60 FPS stability baseline, upscaling vs Frame Generation guidance, Patch 1.0.1 notes, and Story vs multiplayer testing tips.",
+					eyebrow: "Best Settings / FPS",
+					image: "covers/halloween-gameplay-2.jpg",
 				},
 				{
 					pageId: "steam-deck",
@@ -1686,6 +1739,12 @@ export const siteConfig: GameConfig = {
 					answer: "Steam lists Windows 11, 16–32 GB RAM, DX12, and 45 GB SSD/NVMe storage.",
 					pageId: "pc-system-requirements",
 					href: "/pc/system-requirements/",
+				},
+				{
+					question: "What are the best PC settings for stable FPS?",
+					answer: "Start with Ray Tracing and Motion Blur off, then follow the current-build settings diagnostic guide.",
+					pageId: "pc-best-settings-fps",
+					href: "/pc/best-settings-fps/",
 				},
 				{
 					question: "Does Halloween work on Steam Deck?",

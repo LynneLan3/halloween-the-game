@@ -101,6 +101,7 @@ const GROUP_DEFINITIONS: readonly GroupDefinition[] = [
 			{ id: 'characters-hub', label: 'Characters' },
 			{ id: 'pc-hub', label: 'PC' },
 			{ id: 'pc-system-requirements', label: 'System Requirements' },
+			{ id: 'pc-best-settings-fps', label: 'Best Settings / FPS' },
 			{ id: 'steam-deck', label: 'Steam Deck' },
 		],
 	},

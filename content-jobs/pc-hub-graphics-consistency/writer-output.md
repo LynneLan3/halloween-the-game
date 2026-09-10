@@ -22,7 +22,7 @@ Steam lists formal minimum and recommended specs. Full breakdown: {{page:pc-syst
 - **Unreal Engine 5**
 - **Full controller support** on Steam
 
-For current-build graphics and FPS tuning guidance (settings advice, troubleshooting notes, and testing observations), see [Best PC Settings / FPS]({{page:pc-best-settings-fps}}). This hub does not assert universal "best" settings or guaranteed FPS numbers.
+For current-build graphics and FPS tuning guidance (settings advice, troubleshooting notes, and testing observations), see {{page:pc-best-settings-fps}}. This hub does not assert universal "best" settings or guaranteed FPS numbers.
 
 ## Anti-cheat — provisional
 
@@ -52,7 +52,7 @@ Pre-launch items remaining unverified:
 - Shader compile stutter or broader Unreal Engine 5 optimization behavior on varied hardware.
 - Whether the live Steam store will list anti-cheat middleware (see Anti-cheat above) as a confirmed field.
 
-Specific feature support and per-build tuning details are covered by the current-build performance guide: [Best PC Settings / FPS]({{page:pc-best-settings-fps}}). This hub will not claim universal best settings or FPS guarantees — check the performance guide and real-hardware testing after Advance Access/full release.
+Specific feature support and per-build tuning details are covered by the current-build performance guide: {{page:pc-best-settings-fps}}. This hub will not claim universal best settings or FPS guarantees — check the performance guide and real-hardware testing after Advance Access/full release.
 
 ## Sources
 
