@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "hotword-publish-receipt-v1",
+  "common": {
+    "site": "Halloween: The Game",
+    "siteId": "halloween-the-game",
+    "game": "Halloween: The Game",
+    "batchId": "halloween-the-game|umami-analytics|20260910",
+    "lifecyclePhase": "launch",
+    "attributionMode": "OBSERVATIONAL_ONLY",
+    "sourceRefs": ["Umami Cloud tracking code"]
+  },
+  "interventions": [
+    {
+      "interventionId": "halloween-the-game|umami-analytics|global",
+      "action": "ANALYTICS_UPDATE",
+      "primaryUrl": "/",
+      "affectedUrls": ["/", "/michael-myers/", "/guides/", "/routes/"],
+      "reason": "Add Umami Cloud tracker site-wide via existing Head and Site2Shell head injection points, with data-domains limited to apex and www production hostnames.",
+      "triggerType": "operator_request",
+      "triggerSummary": "Minimal Umami analytics MVP for Halloween: The Game production measurement.",
+      "sourceRefs": [
+        "src/components/overrides/Head.astro",
+        "src/components/site2/Site2Shell.astro"
+      ]
+    }
+  ]
+}
