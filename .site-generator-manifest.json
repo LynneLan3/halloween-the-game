@@ -313,7 +313,7 @@
     },
     {
       "path": "src/content/docs/guides/challenges.md",
-      "sha256": "8a9f2a85ab6e70ffde70c6afb113787817457888001eb0e0b5ce599d3e369b46",
+      "sha256": "cde6f66fc3cc5ce463c285e2f1e6c90eb1f574b83f4680ac056090a82cc7fd99",
       "kind": "page"
     },
     {
@@ -348,7 +348,7 @@
     },
     {
       "path": "src/content/docs/guides/trophies-achievements.md",
-      "sha256": "880bd19e11c9861d69885c5683f4e6004bf6392c0b81dd7e88b7dbcebb5db355",
+      "sha256": "44f83018581940c61b4ecc03abff8f2098cbd9cb17e02850c29dcfe11f7cbfaa",
       "kind": "page"
     },
     {
@@ -368,7 +368,7 @@
     },
     {
       "path": "src/content/docs/killer-guides/michael-myers/abilities.md",
-      "sha256": "3f36abc0c5909cfd9cbacf2cf88fb234bdfb7a0eb88aa5f079072ed230ee12aa",
+      "sha256": "d1b577dec2f30d64d9afe6a03dfb4085dd2022c2b34554574f11b06ee8a9c72a",
       "kind": "page"
     },
     {
@@ -423,7 +423,7 @@
     },
     {
       "path": "src/content/docs/multiplayer-guides/multiplayer/how-to-escape.md",
-      "sha256": "9c1e484d54fd73e22873440b7ae0ee92a6c4801299161b2f02c1b461f0435459",
+      "sha256": "84f36942a492e9492d347cdabac5cf8094fd320c3b3861bf4c53be25bc9cdceb",
       "kind": "page"
     },
     {

@@ -58,7 +58,7 @@ facts:
 
 Quick Answer
 
-Patch 1.0.1 (September 8, 2026) includes additional fixes for challenges and achievements not tracking properly. IllFonic says outliers may remain and future fixes are planned; this does not mean all tracking issues are resolved.
+Patch 1.0.1 (September 8, 2026) includes additional fixes for challenges and achievements not tracking properly — the official notes explicitly list a Chapter 5 completion achievement fix. IllFonic says outliers may remain and future fixes are planned; this does not mean all tracking issues are resolved.
 The PS5 trophy list has 51 trophies: 1 Platinum, 2 Gold, 10 Silver, 38 Bronze. There are 3 secret trophies. The published set’s trophies cover story, Michael, Civilian/multiplayer, progression, and collectibles. This page is a PRE-EA Trophy Preview — not a completed or live-verified Trophy Roadmap. The Platinum listed in the published PS5 set requires earning the other trophies in that published set (final, live verification pending).
 
 Trophy breakdown
@@ -90,6 +90,10 @@ Civilian / multiplayer trophy themes
 Progression / Prestige / collectible themes
 - Trophies in the published set include progression- and customization-related goals (leveling, unlocks, prestige-type progress) and collectible recovery. See the game’s progression overview for related systems: [Progression & Perks](/progression-perks/).  
 - Some trophies appear tied to collecting in-game items or reaching progression milestones; precise collectible counts or locations are not published as verified trophy triggers in this preview.
+
+Patch 1.0.1 — challenge & achievement tracking
+- Official Patch 1.0.1 notes list additional challenge/achievement tracking fixes and explicitly call out a Chapter 5 completion achievement fix.
+- The developer statement accompanying the patch warns that future outliers may remain; do not assume every tracking issue is fully resolved until live verification confirms specific trophies.
 
 What cannot be verified yet (pre-EA limitations)
 - Exact trophy descriptions and in-game trigger text for all 51 trophies (only the structural counts and themes are confirmed).  

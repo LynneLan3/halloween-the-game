@@ -61,6 +61,7 @@ Patch 1.0.1 (official changes relevant to abilities)
 - Stalk Markers persist longer after line-of-sight breaks.
 - Evil Presence now increases stamina consumption on affected targets (observed/official note).
 - Stalked targets have stamina-regen penalties and increased stamina-regen delay; those stamina effects scale with Stalk level (official note).
+- Stalk level 1–2 targets have an easier struggle when grabbed (official note).
 - Repeated blinds have stronger diminishing returns.
 - The Reality Tear / Shape Jump recovery interaction received a fix (addresses an interaction/usage bug).
 - The official notes do not provide exact numeric values, ranges, cooldowns, or unlock levels — those remain UNKNOWN.

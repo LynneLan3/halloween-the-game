@@ -57,7 +57,7 @@ facts:
 # Halloween The Game — All Story Challenges (Prologue + Chapters 1–5)
 
 Quick answer
-This page lists each story chapter’s full set of six objective wordings so you can see every challenge in one place and know the tracking caveats. Patch 1.0.1 adds additional fixes for challenges and achievements not tracking properly, but IllFonic says some outliers may remain and further fixes are planned. Objective wording and registration reliability remain separate; no workaround is guaranteed to work every time. Completion/objective screenshots are incomplete; use text where local functional evidence is absent.
+This page lists each story chapter’s full set of six objective wordings so you can see every challenge in one place and know the tracking caveats. Patch 1.0.1 adds additional fixes for challenges and achievements not tracking properly, including a Chapter 5 completion achievement fix; IllFonic says some outliers may remain and further fixes are planned. Objective wording and registration reliability remain separate; no workaround is guaranteed to work every time. Completion/objective screenshots are incomplete; use text where local functional evidence is absent.
 
 All story challenges (exact objective wording)
 Prologue
@@ -110,7 +110,7 @@ Chapter 5 — Into the Shadows
 
 challenge tracking/version caveat
 - Public guides conflict on whether Chapter 2 has five or six challenges. UI/live evidence supports the sixth objective above.
-- Patch 1.0.1 adds additional tracking fixes, but the official wording says some outliers may remain. Treat the objective wordings above as the reference text to attempt, then verify registration in your game UI after each run.
+- Patch 1.0.1 adds additional tracking/achievement fixes and specifically fixes the Chapter 5 completion achievement; the official wording, however, warns that some outliers may remain. Treat the objective wordings above as the reference text to attempt, then verify registration in your game UI after each run.
 - Do not assume a single workaround will force consistent registration across versions or sessions — no workaround is guaranteed to work 100% of the time.
 
 Chapter 2 Challenge 6 guide

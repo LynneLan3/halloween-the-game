@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "hotword-publish-receipt-v1",
+  "common": {
+    "site": "Halloween: The Game",
+    "siteId": "halloween-the-game",
+    "game": "Halloween: The Game",
+    "batchId": "halloween-the-game|patch-1-0-1-freshness|20260911",
+    "lifecyclePhase": "released",
+    "attributionMode": "OBSERVATIONAL_ONLY",
+    "sourceRefs": [
+      "halloween_patch_1.0.1_freshness_research_pack_2026-09-11.md",
+      "site-input/pages/multiplayer/how-to-escape.md",
+      "site-input/pages/michael-myers/abilities.md",
+      "site-input/pages/challenges.md",
+      "site-input/pages/trophies-achievements.md",
+      "site-spec.yaml"
+    ]
+  },
+  "interventions": [
+    {
+      "interventionId": "halloween-the-game|multiplayer-how-to-escape|patch-1-0-1-refresh-20260911",
+      "action": "UPDATE_PAGE",
+      "primaryUrl": "/multiplayer/how-to-escape/",
+      "affectedUrls": [
+        "/multiplayer/how-to-escape/"
+      ],
+      "reason": "Add the supplied Patch 1.0.1 Broken Down Car max-health and Repair Kit spawn freshness while preserving exact-value and spawn-count unknowns.",
+      "triggerType": "operator_request",
+      "triggerSummary": "Bounded Research Pack update via Shared Article Writer update mode; no new Escape or Patch page."
+    },
+    {
+      "interventionId": "halloween-the-game|michael-myers-abilities|patch-1-0-1-refresh-20260911",
+      "action": "UPDATE_PAGE",
+      "primaryUrl": "/michael-myers/abilities/",
+      "affectedUrls": [
+        "/michael-myers/abilities/"
+      ],
+      "reason": "Add the supplied Stalk level 1–2 grabbed-target struggle freshness without introducing numeric stamina or hidden values.",
+      "triggerType": "operator_request",
+      "triggerSummary": "Bounded Research Pack update via Shared Article Writer update mode; Michael hub remains overview-only."
+    },
+    {
+      "interventionId": "halloween-the-game|challenges|patch-1-0-1-refresh-20260911",
+      "action": "UPDATE_PAGE",
+      "primaryUrl": "/challenges/",
+      "affectedUrls": [
+        "/challenges/"
+      ],
+      "reason": "Name the supplied Chapter 5 completion achievement fix while retaining the official outlier and future-fix boundary.",
+      "triggerType": "operator_request",
+      "triggerSummary": "Bounded Research Pack update via Shared Article Writer update mode; no new Challenges page."
+    },
+    {
+      "interventionId": "halloween-the-game|trophies-achievements|patch-1-0-1-refresh-20260911",
+      "action": "UPDATE_PAGE",
+      "primaryUrl": "/trophies-achievements/",
+      "affectedUrls": [
+        "/trophies-achievements/"
+      ],
+      "reason": "Name the supplied Chapter 5 completion achievement fix while retaining the official outlier boundary on this achievement owner.",
+      "triggerType": "operator_request",
+      "triggerSummary": "Bounded Research Pack update via Shared Article Writer update mode; no new challenges or achievement page."
+    }
+  ]
+}

@@ -27,6 +27,8 @@ Launch guides consistently report three separate Sedan requirements:
 
 Treat these as independent requirements, not a proven fixed order. When you find a Sedan, open its HUD/objective and follow the exact requirement listed there. The available evidence does not prove exact Sedan spawns, a guaranteed waypoint, universal interaction timing, or what happens after every successful repair/fuel/key interaction. If the Sedan destination marker does not appear, re-check the Sedan objective and consider switching to another discovered escape family rather than assuming a universal mechanic.
 
+Patch 1.0.1 increased the Broken Down Car's max health and increased Repair Kit spawns per match; exact max-health values and spawn counts remain unknown.
+
 ## Storm Cellar variants
 
 Storm Cellar is an observed escape family with entrance variants. Launch reports include cellar blockers that require tools such as Bolt Cutters or a Padlock Key. Do not assume a single recipe for all cellars.
