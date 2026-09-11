@@ -120,6 +120,7 @@ Common mistakes
 
 What happens next
 - If you want deeper mechanics or perk-level comparisons, check the linked pages for broader context: /characters/ for character overviews, /multiplayer/how-multiplayer-works/ for match roles and objectives, and /michael-myers/abilities/ for threat specifics that affect civilian choice.
+- For role-based Civilian perk combinations, use [Best Perks & Builds](/best-perks-builds/). This page remains the owner for Civilian picks, not perk-build recommendations.
 - Re-evaluate picks after balance patches or new community findings — this ranking is dated and may change as more data appears.
 
 Sources and further reading

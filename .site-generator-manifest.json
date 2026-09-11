@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "templateVersion": "2.0.0",
   "generatorVersion": "1.0.0",
-  "specHash": "f7c52c9f4c40dba5b1fa16c6caf2ac7d0592aaf60bbb6cfa35f658d2fae70ee4",
+  "specHash": "94ecc39d693281d3c711ff2250d70925d308fcd730d7c41e0485e34577fecee4",
   "siteId": "halloween-the-game",
   "createdFromSpec": "site-spec.yaml",
   "managedFiles": [
@@ -298,7 +298,7 @@
     },
     {
       "path": "src/config/site.generated.ts",
-      "sha256": "85036f85405e5017a21543eca90ba37adfb1a0cf81c9c9ec368a48b547b57241",
+      "sha256": "b54b7974af778c9902cf9f5521800edcdbf7ef56d6a7a7975d3ee24850c4f0c2",
       "kind": "config"
     },
     {
@@ -447,8 +447,13 @@
       "kind": "page"
     },
     {
+      "path": "src/content/docs/progression/best-perks-builds.md",
+      "sha256": "68740861155d19268aab4d8576790192b643aa1d81d3fe2bad323a56e52ecdd2",
+      "kind": "page"
+    },
+    {
       "path": "src/content/docs/progression/civilian-tier-list.md",
-      "sha256": "e4957074a01a5d79827332c5db458c1e465f928e5461e94ec6fa4ae2c2209197",
+      "sha256": "82d8fd2d1a2c51c7f0c9a69aebf7532e8f12d6ff428eb8a7486bdba59934f045",
       "kind": "page"
     },
     {
@@ -458,7 +463,7 @@
     },
     {
       "path": "src/content/docs/progression/progression-perks.md",
-      "sha256": "f27ebb6bc8efc2f52bed9abd8c903f9d8a4ba556d9d7ac177ad5c9ba3e4ad214",
+      "sha256": "903b171b1827c23adbd22b0058ee6a39f34f4c4649c5ce53bfa7db862687c5e3",
       "kind": "page"
     },
     {

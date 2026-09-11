@@ -108,6 +108,8 @@ Civilian perks, decks, and customization
   5. Players place chosen Perk Cards into Perk Decks that are equipped to Civilian loadouts.
 - Civilian customization also includes outfits (with tints), hair/headwear, eyewear, and makeup/blemishes, plus unlockable starting items. Perk Decks are the primary gameplay customization for Civilians and are built from rolled Perk Cards; the developer has not published a complete public list of every Perk Card or their numeric values.
 
+For practical role-based recommendations, see [Best Perks & Builds](/best-perks-builds/). This decision guide is separate from this page's progression and Perk system reference.
+
 Patch 1.0.1 — Perks & progression deltas
 
 - A Perk Deck can contain at most two copies of the same Perk. Existing Perk Decks over that limit were automatically unequipped to comply.

@@ -951,6 +951,54 @@ pages:
       - pageId: multiplayer-hub
         type: related
     changeSummary: "P0.5 — dated Perk Cards database and deck-mechanics owner with explicit evidence boundaries."
+  - id: best-perks-builds
+    title: "Halloween: The Game — Best Perks & Builds (Patch 1.0.1)"
+    description: "Choose practical Civilian perk builds for starting, escaping, countering Michael, repairing objectives, and supporting Residents or Police without treating recommendations as an official tier list."
+    category: progression
+    slug: best-perks-builds
+    source: site-input/pages/best-perks-builds.md
+    status: confirmed
+    featured: false
+    sidebarOrder: 6
+    role: supporting
+    intents:
+      - best-perks
+      - best-perk-build
+      - escape-build
+      - survivor-build
+      - anti-michael-perks
+    quickAnswer: "For Patch 1.0.1, start with Unwinded + Adrenaline + Sixth Sense; use Survival Intuition + Exit Strategy for escape discovery, Ghost + Elusory + Sixth Sense against Stalk pressure, Repair Expert + Trespasser + Scavenger for objectives, and Pied Piper + Shared Desperation + Shield Of Law for Resident or Police support. These are editorial recommendations, not an official tier list."
+    eyebrow: "Perk Builds"
+    facts:
+      - label: "Starter build"
+        value: "Unwinded + Adrenaline + Sixth Sense"
+      - label: "Escape build"
+        value: "Survival Intuition + Exit Strategy + stamina support"
+      - label: "Anti-Michael build"
+        value: "Ghost + Elusory + Sixth Sense"
+      - label: "Editorial status"
+        value: "Role-based recommendations; not an official tier list"
+    coverAssetId: progression-perk-cards
+    relations:
+      - pageId: progression-perks
+        type: related
+      - pageId: perk-cards
+        type: related
+      - pageId: civilian-tier-list
+        type: related
+      - pageId: multiplayer-how-to-escape
+        type: related
+    sources:
+      - type: official
+        title: "Halloween: The Game — Progression and Customization Overview"
+        url: "https://halloweengame.com/news/progression-customization-overview/"
+      - type: official
+        title: "Halloween: The Game — Out now (Patch 1.0.1)"
+        url: "https://halloweengame.com/news/halloween-the-game-out-now/"
+      - type: other
+        title: "Halloween: The Game All Perk Cards Overview"
+        url: "https://mobalytics.gg/gamebase/guides/halloween-the-game-all-perk-cards-overview"
+    changeSummary: "Best Perks / Builds scope — role-based editorial recommendations bounded by Patch 1.0.1 and verified card effects."
   - id: trophies-achievements
     title: "Halloween: The Game Trophies & Achievements — 51 Trophy Platinum Preview"
     description: "PRE-EA PS5 trophy preview: 51 trophies (1 Platinum, 2 Gold, 10 Silver, 38 Bronze), 3 secret trophies, and theme coverage across story, Michael, Civilian, progression, and collectibles — not a live-verified roadmap."
@@ -1431,9 +1479,9 @@ routes:
       - question: "How do progression and perks work?"
         answer: Four XP tracks feed Perk Cards, Perk Decks, Michael abilities, and other unlocks.
         pageId: progression-perks
-      - question: "How do Perk Decks work?"
-        answer: Perk Points roll cards into decks; Patch 1.0.1 limits duplicate copies to two per deck.
-        pageId: perk-cards
+      - question: "What are the best Civilian perk builds?"
+        answer: Use role-based starter, escape, anti-Michael, objective, and support recommendations; they are editorial, not an official tier list.
+        pageId: best-perks-builds
       - question: "Which Civilians are best by role?"
         answer: Use the dated editorial Civilian picks as role guidance, not objective game fact.
         pageId: civilian-tier-list
@@ -1441,6 +1489,7 @@ routes:
       - progression-perks
       - perk-cards
       - civilian-tier-list
+      - best-perks-builds
   - id: maps
     eyebrow: "Maps"
     title: "Maps"
@@ -1574,6 +1623,9 @@ homepage:
     - label: "Which Civilians are best by role?"
       context: "Dated editorial recommendations for all-rounder, objectives, mobility, NPC support, and anti-Michael play."
       pageId: civilian-tier-list
+    - label: "What are the best Civilian perk builds?"
+      context: "Patch 1.0.1 role-based starter, escape, anti-Michael, objective, and support builds with explicit recommendation boundaries."
+      pageId: best-perks-builds
     - label: "How many maps are in Halloween: The Game?"
       context: "4 launch multiplayer maps: Haddonfield Heights, Haddonfield Town Center, Orange Grove Estates, and East Haddonfield."
       pageId: maps-hub

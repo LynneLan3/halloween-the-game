@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "hotword-publish-receipt-v1",
+  "common": {
+    "site": "Halloween: The Game",
+    "siteId": "halloween-the-game",
+    "game": "Halloween: The Game",
+    "batchId": "halloween-the-game|best-perks-builds|20260911",
+    "lifecyclePhase": "released",
+    "attributionMode": "OBSERVATIONAL_ONLY",
+    "sourceRefs": [
+      "content-jobs/best-perks-builds/research.md",
+      "content-jobs/best-perks-builds/intent-brief.json",
+      "site-input/pages/best-perks-builds.md",
+      "site-spec.yaml"
+    ]
+  },
+  "interventions": [
+    {
+      "interventionId": "halloween-the-game|best-perks-builds|create",
+      "action": "CREATE_PAGE",
+      "primaryUrl": "/best-perks-builds/",
+      "affectedUrls": [
+        "/best-perks-builds/",
+        "/progression-perks/",
+        "/civilian-tier-list/",
+        "/routes/progression/",
+        "/"
+      ],
+      "reason": "Create the canonical Patch 1.0.1 Best Perks / Builds decision guide while preserving progression, perk-card, and Civilian route ownership.",
+      "triggerType": "operator_request",
+      "triggerSummary": "Completed Best Perks / Builds Research scope implemented through Shared Article Writer with role-based editorial boundaries."
+    }
+  ]
+}

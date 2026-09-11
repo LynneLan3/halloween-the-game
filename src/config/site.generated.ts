@@ -103,6 +103,11 @@ export const siteConfig: GameConfig = {
 				context: "Dated editorial recommendations for all-rounder, objectives, mobility, NPC support, and anti-Michael play.",
 			},
 			{
+				label: "What are the best Civilian perk builds?",
+				href: "/best-perks-builds/",
+				context: "Patch 1.0.1 role-based starter, escape, anti-Michael, objective, and support builds with explicit recommendation boundaries.",
+			},
+			{
 				label: "How many maps are in Halloween: The Game?",
 				href: "/maps/",
 				context: "4 launch multiplayer maps: Haddonfield Heights, Haddonfield Town Center, Orange Grove Estates, and East Haddonfield.",
@@ -940,6 +945,50 @@ export const siteConfig: GameConfig = {
 			],
 		},
 		{
+			id: "best-perks-builds",
+			slug: "best-perks-builds",
+			role: "supporting",
+			assetType: "article",
+			intents: ["best-perks", "best-perk-build", "escape-build", "survivor-build", "anti-michael-perks"],
+			relations: [
+				{
+					pageId: "progression-perks",
+					type: "related",
+				},
+				{
+					pageId: "perk-cards",
+					type: "related",
+				},
+				{
+					pageId: "civilian-tier-list",
+					type: "related",
+				},
+				{
+					pageId: "multiplayer-how-to-escape",
+					type: "related",
+				},
+			],
+			sources: [
+				{
+					type: "official",
+					title: "Halloween: The Game — Progression and Customization Overview",
+					url: "https://halloweengame.com/news/progression-customization-overview/",
+				},
+				{
+					type: "official",
+					title: "Halloween: The Game — Out now (Patch 1.0.1)",
+					url: "https://halloweengame.com/news/halloween-the-game-out-now/",
+				},
+				{
+					type: "other",
+					title: "Halloween: The Game All Perk Cards Overview",
+					url: "https://mobalytics.gg/gamebase/guides/halloween-the-game-all-perk-cards-overview",
+				},
+			],
+			evidence: [
+			],
+		},
+		{
 			id: "trophies-achievements",
 			slug: "trophies-achievements",
 			role: "core",
@@ -1473,6 +1522,14 @@ export const siteConfig: GameConfig = {
 					eyebrow: "Civilian Picks",
 					image: "covers/characters/heroes-of-haddonfield.jpg",
 				},
+				{
+					pageId: "best-perks-builds",
+					href: "/best-perks-builds/",
+					title: "Halloween: The Game — Best Perks & Builds (Patch 1.0.1)",
+					description: "Choose practical Civilian perk builds for starting, escaping, countering Michael, repairing objectives, and supporting Residents or Police without treating recommendations as an official tier list.",
+					eyebrow: "Perk Builds",
+					image: "covers/progression/po-perk-cards.jpg",
+				},
 			],
 			fastAnswers: [
 				{
@@ -1482,10 +1539,10 @@ export const siteConfig: GameConfig = {
 					href: "/progression-perks/",
 				},
 				{
-					question: "How do Perk Decks work?",
-					answer: "Perk Points roll cards into decks; Patch 1.0.1 limits duplicate copies to two per deck.",
-					pageId: "perk-cards",
-					href: "/perk-cards/",
+					question: "What are the best Civilian perk builds?",
+					answer: "Use role-based starter, escape, anti-Michael, objective, and support recommendations; they are editorial, not an official tier list.",
+					pageId: "best-perks-builds",
+					href: "/best-perks-builds/",
 				},
 				{
 					question: "Which Civilians are best by role?",
