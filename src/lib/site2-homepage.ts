@@ -174,7 +174,6 @@ export async function buildSite2HomepageModel(): Promise<Site2HomepageModel> {
 	const killerRoute = findRoute('michael-myers');
 	const charactersRoute = findRoute('characters');
 	const statusItems = portal?.statusItems ?? [];
-	const advance = statusItems.find((item) => /advance/i.test(item.label));
 	const release = statusItems.find((item) => /digital release|full release/i.test(item.label));
 
 	return {
@@ -205,7 +204,7 @@ export async function buildSite2HomepageModel(): Promise<Site2HomepageModel> {
 		categories: routeTiles,
 		featured,
 		releaseDate: release?.value ?? game.releaseDate ?? 'September 8, 2026',
-		releaseNote: advance?.value ?? 'Advance Access begins September 4',
+		releaseNote: release?.value ?? 'Full release is live',
 		platforms: game.platforms.join(' · '),
 	};
 }

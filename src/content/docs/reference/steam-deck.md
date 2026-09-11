@@ -17,7 +17,7 @@ trust:
     - Anti-cheat middleware
 intents:
   - steam-deck
-quickAnswer: "Steam Deck compatibility has not been verified — no Valve Verified badge and no IllFonic statement pre-launch. Steam lists full controller support and Windows 11 requirements; anti-cheat middleware is unverified on the live store page. Do not assume Deck works until hands-on testing."
+quickAnswer: "Steam Deck compatibility has not been verified in this site's evidence — no Valve Verified badge or IllFonic statement is recorded. Steam lists full controller support and Windows 11 requirements; Proton/SteamOS behavior remains unknown. Do not assume Deck works until hands-on testing."
 relations:
   -
     slug: pc
@@ -39,7 +39,7 @@ eyebrow: Steam Deck Status
 facts:
   -
     label: Steam Deck status
-    value: "Not verified — no Valve Verified/Playable badge pre-launch"
+    value: "Not verified — no Valve Verified/Playable badge recorded"
   -
     label: Steam App ID
     value: App ID 3219630
@@ -56,19 +56,17 @@ facts:
   Run npm run site:generate instead.
   Source: site-input/pages/steam-deck.md
 -->
-# Halloween: The Game Steam Deck — Compatibility & Launch Status
-
 ## Confirmed
 
 - **Steam store requirements:** Windows 11 64-bit, 16 GB RAM minimum (32 GB recommended), GTX 1660-class minimum GPU, SSD/NVMe, ~45 GB storage (Steam store page).
 
 - **Full controller support** on Steam (verified API field).
 
-- **Steam Deck status:** No Valve **Verified** or **Playable** badge and no IllFonic statement as of Last Verified **2026-09-02**. Do **not** treat Deck compatibility as confirmed.
+- **Steam Deck status:** No Valve **Verified** or **Playable** badge and no IllFonic statement are recorded in this site's evidence as of Last Verified **2026-09-02**. Do **not** treat Deck compatibility as confirmed.
 
 ## Provisional (secondary sources only)
 
-- **Anti-cheat middleware:** PCGamingWiki cites **Easy Anti-Cheat** for the PC build. The live Steam store **anti-cheat field was not verified** in our pre-launch snapshot. If EAC is present at launch, it may affect Proton/SteamOS play — verify on the live store page before assuming.
+- **Anti-cheat middleware:** The dedicated PC requirements page records **Easy Anti-Cheat** as confirmed in the Steam listing. Whether it supports Proton/SteamOS play remains unconfirmed here.
 
 ## Not Announced
 
@@ -78,7 +76,7 @@ facts:
 
 - **Private online lobby AI backfill:** Not Announced — see /bots-private-lobbies-offline/.
 
-## Unknown (needs launch or hands-on verification)
+## Unknown (needs current-build or hands-on verification)
 
 - Real-world Deck playability, performance, battery life, and control mappings.
 - Whether Windows-on-Deck is required vs native SteamOS/Proton.
@@ -98,7 +96,7 @@ facts:
 - Australia classification: /australia-release-status/
 - PC requirements: /pc/system-requirements/
 
-Last Verified: **2026-09-02**. Do not rely on compatibility claims until Valve, IllFonic, or multiple hands-on reports confirm behavior.
+Last Verified: **2026-09-02**. Do not rely on compatibility claims until Valve, IllFonic, or multiple hands-on reports confirm current behavior.
 
 ## Sources
 

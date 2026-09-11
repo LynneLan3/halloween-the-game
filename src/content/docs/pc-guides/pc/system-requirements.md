@@ -51,8 +51,6 @@ facts:
   Run npm run site:generate instead.
   Source: site-input/pages/pc/system-requirements.md
 -->
-# Halloween: The Game System Requirements — Minimum & Recommended PC Specs
-
 Quick answer
 - Minimum (headline): Windows 11 64-bit, Intel LGA 1200+ / AMD AM4+ CPU sockets, 16 GB RAM, NVIDIA GTX 1660+ / AMD RX 590+ / Intel Arc A770+ GPU, DirectX 12, 45 GB — SSD/NVMe required. Official performance target: 1080p @ 30 fps.
 - Recommended (headline): Windows 11 64-bit, Intel LGA 1700+ / AMD AM5+ CPU sockets, 32 GB RAM, NVIDIA RTX 3000 series / AMD RX 7000 series GPU, DirectX 12, 45 GB — SSD/NVMe required. Official performance target: 4K @ 30 fps.

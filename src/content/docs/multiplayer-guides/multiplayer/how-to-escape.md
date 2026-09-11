@@ -53,8 +53,6 @@ facts:
   Run npm run site:generate instead.
   Source: site-input/pages/multiplayer/how-to-escape.md
 -->
-# Halloween: The Game Escape Routes — Car, Cellar, Gate & Police Wagon
-
 Quick Answer
 
 If you find an exit or key item, follow the current match HUD/objective rather than memorizing one fixed route. The main observed escape families at launch are Sedan/broken-down car, Storm Cellar, Outer Gate, and Police response (Police Wagon and Police Car variants). Launch guides corroborate separate Sedan requirements for engine repair, refueling, and a Sedan Key, but they do not establish a universal order. Official multiplayer material says escape locations and required item locations change match to match, lootable containers can provide key items, and starting an escape creates major noise. Patch 1.0.1 improved Resident pathing into Escapes and increased the range at which Civilians discover Escapes. Several interaction details (capacity, marker behavior, specific recipes) remain unknown; use the match HUD as the primary authority.

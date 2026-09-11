@@ -53,8 +53,6 @@ facts:
   Run npm run site:generate instead.
   Source: site-input/pages/challenges/chapter-2-challenge-6.md
 -->
-# Chapter 2 Challenge 6 — Complete the chapter without alerting anyone
-
 ## Quick Answer
 
 Complete the chapter without alerting anyone. The strongest currently supported attempt is to get Surprise on Eric, Tanya, and Rachel, avoid any red alert/detection icon during the run, finish the chapter completely, then check challenge registration. Patch 1.0.1 added challenge/achievement tracking fixes but did not eliminate all outliers. Some clean post-patch runs still fail to register. Tier 3 Stalk, Hard mode, Normal mode, and any Slab/Rachel kill order are mentioned by players as possible aids but are unproven/anecdotal — not requirements.

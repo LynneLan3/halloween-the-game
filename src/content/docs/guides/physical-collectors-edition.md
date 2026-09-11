@@ -52,8 +52,6 @@ facts:
   Run npm run site:generate instead.
   Source: site-input/pages/physical-collectors-edition.md
 -->
-# Halloween: The Game Physical & Collector’s Editions — Price, Contents & Release Date
-
 Quick answer
 - Physical release date: October 6, 2026 — available on PS5 and Xbox Series X.  
 - Prices: Standard Edition $39.99; Limited Collector’s Edition $149.99.  

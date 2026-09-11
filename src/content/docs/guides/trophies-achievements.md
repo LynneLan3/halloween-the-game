@@ -1,6 +1,6 @@
 ---
-title: "Halloween: The Game Trophies & Achievements — 51 Trophy Platinum Preview"
-description: "PRE-EA PS5 trophy preview: 51 trophies (1 Platinum, 2 Gold, 10 Silver, 38 Bronze), 3 secret trophies, and theme coverage across story, Michael, Civilian, progression, and collectibles — not a live-verified roadmap."
+title: "Halloween: The Game Trophies & Achievements — 51-Trophy Structural Preview"
+description: "Historical PS5 trophy list preview: 51 trophies (1 Platinum, 2 Gold, 10 Silver, 38 Bronze), 3 secret trophies, and theme coverage across story, Michael, Civilian, progression, and collectibles — not a live-verified roadmap."
 category: guides
 slug: trophies-achievements
 status: needs-verification
@@ -12,7 +12,7 @@ sidebar:
 intents:
   - trophies-achievements
   - platinum
-quickAnswer: "The published PS5 list has 51 trophies: 1 Platinum, 2 Gold, 10 Silver, 38 Bronze, including 3 secret trophies. Themes span story, Michael, Civilian/multiplayer, progression, and collectibles. This is a PRE-EA Trophy Preview, not a completed or live-verified Trophy Roadmap."
+quickAnswer: "The published PS5 list has 51 trophies: 1 Platinum, 2 Gold, 10 Silver, 38 Bronze, including 3 secret trophies. Themes span story, Michael, Civilian/multiplayer, progression, and collectibles. This is a historical structural preview, not a completed or live-verified Trophy Roadmap."
 relations:
   -
     slug: progression-perks
@@ -32,7 +32,7 @@ coverMedia:
   kind: cover
   aspectRatio: 16:9
   sourceLabel: Official
-changeSummary: "INTENT EXPANSION — PRE-EA trophies & platinum preview."
+changeSummary: "STALE-COPY CLEANUP — Historical trophy-list framing retained with explicit live-verification boundary."
 eyebrow: Trophies
 facts:
   -
@@ -46,7 +46,7 @@ facts:
     value: 3 secret trophies
   -
     label: Page status
-    value: "PRE-EA Trophy Preview — not a live-verified roadmap"
+    value: "Structural preview — not a live-verified roadmap"
 ---
 <!--
   This file is generated from site-spec.yaml.
@@ -54,12 +54,10 @@ facts:
   Run npm run site:generate instead.
   Source: site-input/pages/trophies-achievements.md
 -->
-# Halloween: The Game Trophies & Achievements — 51 Trophy Platinum Preview
-
 Quick Answer
 
 Patch 1.0.1 (September 8, 2026) includes additional fixes for challenges and achievements not tracking properly — the official notes explicitly list a Chapter 5 completion achievement fix. IllFonic says outliers may remain and future fixes are planned; this does not mean all tracking issues are resolved.
-The PS5 trophy list has 51 trophies: 1 Platinum, 2 Gold, 10 Silver, 38 Bronze. There are 3 secret trophies. The published set’s trophies cover story, Michael, Civilian/multiplayer, progression, and collectibles. This page is a PRE-EA Trophy Preview — not a completed or live-verified Trophy Roadmap. The Platinum listed in the published PS5 set requires earning the other trophies in that published set (final, live verification pending).
+The PS5 trophy list has 51 trophies: 1 Platinum, 2 Gold, 10 Silver, 38 Bronze. There are 3 secret trophies. The published set’s trophies cover story, Michael, Civilian/multiplayer, progression, and collectibles. This page is a structural preview from a historical pre-launch list, not a completed or live-verified Trophy Roadmap. The Platinum listed in the published PS5 set requires earning the other trophies in that published set; live verification remains unavailable in this site's evidence.
 
 Trophy breakdown
 | Rarity | Count |
@@ -73,19 +71,19 @@ Total: 51 trophies
 
 What the Platinum requires (high level)
 1. The published PS5 trophy set lists a single Platinum trophy. According to the published set, the Platinum requires earning the other trophies in that PS5 list.  
-2. This page treats that requirement as a structural fact from the pre-launch published list; full live verification of the Platinum’s exact unlock conditions is not yet available.
+2. This page treats that requirement as a structural fact from the historical published list; full live verification of the Platinum’s exact unlock conditions is not available in this site's evidence.
 
 Story-related trophy themes
 - Several trophies in the published PS5 list are tied to story and single-player chapter progression. See the single-player coverage for context: [Single-player](/single-player/).  
-- Expect chapter or story-milestone trophies, but the pre-EA list is a structural preview only — individual chapter trophy texts and any potential missable flags are not confirmed.
+- Expect chapter or story-milestone trophies, but the historical list is a structural preview only — individual chapter trophy texts and any potential missable flags are not confirmed.
 
 Michael trophy themes
 - The published list includes trophies that relate to Michael Myers gameplay (trophies tied to playing as Michael or performing Michael-specific actions). For more on Michael’s abilities and how he plays, see [Michael Myers hub](/michael-myers/).  
-- Exact triggers and counts for Michael trophies in live play remain unverified in this PRE-EA preview.
+- Exact triggers and counts for Michael trophies in live play remain unverified in this structural preview.
 
 Civilian / multiplayer trophy themes
 - The published PS5 set contains trophies tied to civilian roles and multiplayer outcomes (wins, escapes, objectives). See the broader characters and multiplayer coverage: [Characters](/characters/).  
-- Whether specific multiplayer trophies require online matches, private matches, or other match types cannot be confirmed from the pre-launch list alone.
+- Whether specific multiplayer trophies require online matches, private matches, or other match types cannot be confirmed from the published list alone.
 
 Progression / Prestige / collectible themes
 - Trophies in the published set include progression- and customization-related goals (leveling, unlocks, prestige-type progress) and collectible recovery. See the game’s progression overview for related systems: [Progression & Perks](/progression-perks/).  
@@ -95,17 +93,17 @@ Patch 1.0.1 — challenge & achievement tracking
 - Official Patch 1.0.1 notes list additional challenge/achievement tracking fixes and explicitly call out a Chapter 5 completion achievement fix.
 - The developer statement accompanying the patch warns that future outliers may remain; do not assume every tracking issue is fully resolved until live verification confirms specific trophies.
 
-What cannot be verified yet (pre-EA limitations)
+What this evidence does not verify
 - Exact trophy descriptions and in-game trigger text for all 51 trophies (only the structural counts and themes are confirmed).  
 - Whether any trophies are missable, whether they can be re-earned, or how they interact with New Game+ / multiple saves.  
 - If multiplayer trophies require online matchmaking, private lobbies, or if bots count toward those trophies.  
 - Live-verified Platinum behavior (whether it unobtrusively requires 100% of every category, or if workarounds exist).  
 - Any time / difficulty / optimization details (no hours or difficulty ratings are claimed here).
 
-Common mistakes to avoid when reading a PRE‑EA trophy list
-1. Treating the published list as fully verified — this page is a PRE-EA Trophy Preview and not a live-verified roadmap.  
+Common mistakes to avoid when reading a historical trophy list
+1. Treating the published list as fully verified — this page is a structural preview and not a live-verified roadmap.
 2. Assuming multiplayer trophy conditions (online vs private vs bots) without later confirmation.  
-3. Expecting full collectible counts or exact trophy trigger text from the pre-launch structural list.
+3. Expecting full collectible counts or exact trophy trigger text from the historical structural list.
 
 FAQ
 Q: How many trophies are there on PS5?  
@@ -115,7 +113,7 @@ Q: Are there secret trophies?
 A: Yes — the published PS5 set includes 3 secret trophies.
 
 Q: Is this a verified trophy roadmap or a platinum guide?  
-A: No. This is a PRE-EA Trophy Preview of the published PS5 list, not a completed or live-verified Trophy Roadmap or platinum walkthrough.
+A: No. This is a structural preview of the published PS5 list, not a completed or live-verified Trophy Roadmap or platinum walkthrough.
 
 Q: Where can I read more about progression, single-player, or Michael-related systems?  
 A: See the official overviews linked in Sources and the site hubs: [Progression & Perks](/progression-perks/), [Single-player](/single-player/), [Michael Myers hub](/michael-myers/), [Characters](/characters/), and the main [Hub](/).

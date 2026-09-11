@@ -58,8 +58,6 @@ facts:
   Run npm run site:generate instead.
   Source: site-input/pages/updates.md
 -->
-# Latest Patch & Known Issues
-
 Halloween: The Game is out now on **Patch 1.0.1** (September 8, 2026). This page is a current-state hub: it summarizes the verified launch changes and sends each player task to the guide that owns the details. It is not a second copy of the full patch notes.
 
 ## Patch 1.0.1 at a glance

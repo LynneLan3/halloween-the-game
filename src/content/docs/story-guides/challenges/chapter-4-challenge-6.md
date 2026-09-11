@@ -49,8 +49,6 @@ facts:
   Run npm run site:generate instead.
   Source: site-input/pages/challenges/chapter-4-challenge-6.md
 -->
-# Chapter 4 — Challenge 6 (Movie-Accurate)
-
 ## Quick answer
 
 Do a fresh Chapter 4 replay and follow this movie-accurate sequence: preserve Annie's laundry setup → kill Annie from inside the car with the car execution → let Bob and Lynda reach their shared scene and fully stalk them → perform the kitchen-wall execution on Bob → equip the Sheet and kill Lynda with the Phone Cord Choke → follow the upstairs body-staging objective so Laurie discovers the scene → complete the discovery, chase, closet, and retaliation beats → verify the result screen registers Challenge 6. The recorded run shows the challenge checked at 15:20 with a 5,700 score. A clean chapter replay is the safer retry path if it does not register.

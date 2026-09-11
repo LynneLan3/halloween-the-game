@@ -55,8 +55,6 @@ facts:
   Run npm run site:generate instead.
   Source: site-input/pages/michael-myers/skins.md
 -->
-# Halloween: The Game Michael Myers Skins — Phantom, Inmate, Clown & Samhain
-
 Quick answer
 - Confirmed Michael Myers skins: Base, Phantom, Inmate, Clown, Samhain.
 - Phantom is a Digital pre-order exclusive. If you skip the digital pre-order, Phantom is unavailable for purchase after launch and can be missed permanently.

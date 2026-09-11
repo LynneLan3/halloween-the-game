@@ -1,5 +1,5 @@
-# Affiliate disclosure (starter copy)
+# Affiliate disclosure
 
-This site may use affiliate links. If you make a purchase through certain links, we may earn a commission at no additional cost to you.
+This site does not currently use affiliate links or participate in an affiliate program.
 
-This page is **starter template text**, not a claim that this demo site currently belongs to any affiliate program. Replace it before enabling affiliate links on a real site.
+If that changes, this page will be updated before affiliate links appear.

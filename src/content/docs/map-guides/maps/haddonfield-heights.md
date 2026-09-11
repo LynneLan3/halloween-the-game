@@ -55,8 +55,6 @@ facts:
   Run npm run site:generate instead.
   Source: site-input/pages/maps/haddonfield-heights.md
 -->
-# Haddonfield Heights Map Guide
-
 Quick answer
 
 Haddonfield Heights is a residential neighborhood of modest single-family homes with a large water tower visible over the streets. Confirmed named landmarks you can use to orient yourself are the abandoned Myers house, Lampkin Lane, the Haddonfield water tower, and the Strode house. The official location guide explicitly places Lampkin Lane and the abandoned Myers house in a supported approach relationship: heading down the block toward Lampkin Lane, the Myers house is a recognizable destination cue. Preview footage (the IllFonic flythrough) also shows residential roads, curbs, streetlights, detached houses, hedges, and parked cars — use those ambient cues as supporting orientation marks, but treat preview visuals as illustrative rather than definitive for routes or spawn behavior. If you become unsure of your position, a reasonable recovery (inference) is to return to the nearest visible residential road cue and re-check the named-landmark relationship; this recovery advice is an inference from the available material, not an official guaranteed route.
@@ -103,7 +101,7 @@ Common mistakes to avoid
 
 Current UNKNOWNs / what to check in-game
 
-When the map is playable, confirm in actual matches:
+Post-launch verification boundary — use actual matches to confirm:
 
 - Whether named landmarks appear in the same readable relationships shown in the guide.
 - Exact spawn locations, top-down geometry, and whether any community routes become reliable in practice.

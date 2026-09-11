@@ -47,8 +47,6 @@ facts:
   Run npm run site:generate instead.
   Source: site-input/pages/preload-download-status.md
 -->
-# Halloween: The Game Preload — Can You Download Before Early Access?
-
 Quick answer
 - IllFonic’s official Launch and Preorder materials do not publish a universal preload start time or file/install size. Do not assume a preload schedule or size from third‑party posts.
 - Check your storefront product/library page (Steam, Epic, PlayStation, Xbox) for a Preload/Download button or download status — that is the only reliable way to know if the game is available to download for your account.

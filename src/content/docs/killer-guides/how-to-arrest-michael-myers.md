@@ -55,8 +55,6 @@ facts:
   Run npm run site:generate instead.
   Source: site-input/pages/michael-myers/how-to-arrest.md
 -->
-# How to Arrest Michael Myers in Halloween: The Game — Detain Sequence
-
 Quick Answer
 
 You cannot kill Michael Myers in multiplayer. The team win is detainment: use normal police/reinforcement systems until Michael shows a visible handcuff readiness marker, keep him where authority characters can apply pressure, then knock him down while that marker is active. When the prompt appears, press [E] Detain Michael, finish the short circular detain minigame before he recovers, and the match ends with MICHAEL DETAINED! — Michael is returned to Smith's Grove Sanitarium. Spectators can call Dr. Loomis by CB radio, and Spectator Reinforcements can return a player as a police officer when that option appears.

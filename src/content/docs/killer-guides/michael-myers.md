@@ -62,8 +62,6 @@ facts:
   Run npm run site:generate instead.
   Source: site-input/pages/michael-myers.md
 -->
-# Michael Myers Abilities in Halloween: The Game — Evil Presence, Stalk & Unlocks
-
 ## Quick answer
 
 - What Evil Presence does: Early EA gameplay shows Evil Presence as a short-range aura around Michael that can stagger nearby Civilians, creating an opening for Michael to close distance or interrupt an escape. This description is based on recorded play and is labeled as observed, not fully documented.

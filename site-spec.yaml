@@ -11,7 +11,7 @@ site:
   title: "Halloween: The Game Guide — Maps, Characters, Multiplayer & Live Answers"
   shortName: "Halloween: The Game"
   description: "Official-facts guides for Halloween: The Game maps, characters, Michael Myers abilities, multiplayer, single-player story, PC requirements, and live-release updates."
-  disclaimer: "Unofficial fan guide. Verify version-sensitive facts against cited sources before production."
+  disclaimer: "Unofficial fan guide. Verify version-sensitive facts against cited sources and current patch notes."
 
 deployment:
   provider: vercel
@@ -1000,8 +1000,8 @@ pages:
         url: "https://mobalytics.gg/gamebase/guides/halloween-the-game-all-perk-cards-overview"
     changeSummary: "Best Perks / Builds scope — role-based editorial recommendations bounded by Patch 1.0.1 and verified card effects."
   - id: trophies-achievements
-    title: "Halloween: The Game Trophies & Achievements — 51 Trophy Platinum Preview"
-    description: "PRE-EA PS5 trophy preview: 51 trophies (1 Platinum, 2 Gold, 10 Silver, 38 Bronze), 3 secret trophies, and theme coverage across story, Michael, Civilian, progression, and collectibles — not a live-verified roadmap."
+    title: "Halloween: The Game Trophies & Achievements — 51-Trophy Structural Preview"
+    description: "Historical PS5 trophy list preview: 51 trophies (1 Platinum, 2 Gold, 10 Silver, 38 Bronze), 3 secret trophies, and theme coverage across story, Michael, Civilian, progression, and collectibles — not a live-verified roadmap."
     category: guides
     slug: trophies-achievements
     source: site-input/pages/trophies-achievements.md
@@ -1012,7 +1012,7 @@ pages:
     intents:
       - trophies-achievements
       - platinum
-    quickAnswer: "The published PS5 list has 51 trophies: 1 Platinum, 2 Gold, 10 Silver, 38 Bronze, including 3 secret trophies. Themes span story, Michael, Civilian/multiplayer, progression, and collectibles. This is a PRE-EA Trophy Preview, not a completed or live-verified Trophy Roadmap."
+    quickAnswer: "The published PS5 list has 51 trophies: 1 Platinum, 2 Gold, 10 Silver, 38 Bronze, including 3 secret trophies. Themes span story, Michael, Civilian/multiplayer, progression, and collectibles. This is a historical structural preview, not a completed or live-verified Trophy Roadmap."
     eyebrow: "Trophies"
     facts:
       - label: "PS5 trophy count"
@@ -1022,7 +1022,7 @@ pages:
       - label: "Secret trophies"
         value: "3 secret trophies"
       - label: "Page status"
-        value: "PRE-EA Trophy Preview — not a live-verified roadmap"
+        value: "Structural preview — not a live-verified roadmap"
     coverAssetId: extended-first-look
     relations:
       - pageId: progression-perks
@@ -1033,7 +1033,7 @@ pages:
         type: related
       - pageId: characters-hub
         type: related
-    changeSummary: "INTENT EXPANSION — PRE-EA trophies & platinum preview."
+    changeSummary: "STALE-COPY CLEANUP — Historical trophy-list framing retained with explicit live-verification boundary."
 
   - id: physical-collectors-edition
     title: "Halloween: The Game Physical & Collector’s Editions — Price, Contents & Release Date"
@@ -1147,11 +1147,11 @@ pages:
     role: core
     intents:
       - steam-deck
-    quickAnswer: "Steam Deck compatibility has not been verified — no Valve Verified badge and no IllFonic statement pre-launch. Steam lists full controller support and Windows 11 requirements; anti-cheat middleware is unverified on the live store page. Do not assume Deck works until hands-on testing."
+    quickAnswer: "Steam Deck compatibility has not been verified in this site's evidence — no Valve Verified badge or IllFonic statement is recorded. Steam lists full controller support and Windows 11 requirements; Proton/SteamOS behavior remains unknown. Do not assume Deck works until hands-on testing."
     eyebrow: "Steam Deck Status"
     facts:
       - label: "Steam Deck status"
-        value: "Not verified — no Valve Verified/Playable badge pre-launch"
+        value: "Not verified — no Valve Verified/Playable badge recorded"
       - label: "Steam App ID"
         value: "App ID 3219630"
       - label: "Controller support"
@@ -1999,9 +1999,18 @@ social:
 
 trust:
   enabled: true
+  about:
+    enabled: true
+    source: site-input/trust/about.md
+  editorialMethod:
+    enabled: true
+    source: site-input/trust/editorial-method.md
   privacy:
     enabled: true
     source: site-input/trust/privacy.md
+  contact:
+    enabled: true
+    source: site-input/trust/contact.md
 
 analytics:
   enabled: true

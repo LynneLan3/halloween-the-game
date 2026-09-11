@@ -54,8 +54,6 @@ facts:
   Run npm run site:generate instead.
   Source: site-input/pages/challenges.md
 -->
-# Halloween The Game — All Story Challenges (Prologue + Chapters 1–5)
-
 Quick answer
 This page lists each story chapter’s full set of six objective wordings so you can see every challenge in one place and know the tracking caveats. Patch 1.0.1 adds additional fixes for challenges and achievements not tracking properly, including a Chapter 5 completion achievement fix; IllFonic says some outliers may remain and further fixes are planned. Objective wording and registration reliability remain separate; no workaround is guaranteed to work every time. Completion/objective screenshots are incomplete; use text where local functional evidence is absent.
 

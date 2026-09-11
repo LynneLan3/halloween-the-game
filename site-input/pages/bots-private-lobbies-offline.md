@@ -14,7 +14,7 @@ Quick answer
 - The developer’s Progression & Customization overview lists private matches against AI alongside Story Mode and online 1v4 matchmaking.
 - Early reveal/storefront wording also described “playing against bots offline,” but that wording alone does not prove fully network‑disconnected play in live builds.
 - Private matches with friends (hosted private lobbies and crossplay friend invites) are covered in live‑period reliable media.
-- Fully network‑offline / zero‑internet bot play in the shipping / Advance Access build remains not confirmed by live‑build evidence.
+- Fully network‑offline / zero‑internet bot play remains not confirmed by live‑build evidence.
 - Story Mode is a separate single‑player campaign and is distinct from private AI matches.
 
 What IllFonic has confirmed about bots / AI

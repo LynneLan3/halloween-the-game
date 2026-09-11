@@ -20,11 +20,11 @@ trust:
 
 - **Full controller support** on Steam (verified API field).
 
-- **Steam Deck status:** No Valve **Verified** or **Playable** badge and no IllFonic statement as of Last Verified **2026-09-02**. Do **not** treat Deck compatibility as confirmed.
+- **Steam Deck status:** No Valve **Verified** or **Playable** badge and no IllFonic statement are recorded in this site's evidence as of Last Verified **2026-09-02**. Do **not** treat Deck compatibility as confirmed.
 
 ## Provisional (secondary sources only)
 
-- **Anti-cheat middleware:** PCGamingWiki cites **Easy Anti-Cheat** for the PC build. The live Steam store **anti-cheat field was not verified** in our pre-launch snapshot. If EAC is present at launch, it may affect Proton/SteamOS play — verify on the live store page before assuming.
+- **Anti-cheat middleware:** The dedicated PC requirements page records **Easy Anti-Cheat** as confirmed in the Steam listing. Whether it supports Proton/SteamOS play remains unconfirmed here.
 
 ## Not Announced
 
@@ -34,7 +34,7 @@ trust:
 
 - **Private online lobby AI backfill:** Not Announced — see {{page:bots-private-lobbies-offline}}.
 
-## Unknown (needs launch or hands-on verification)
+## Unknown (needs current-build or hands-on verification)
 
 - Real-world Deck playability, performance, battery life, and control mappings.
 - Whether Windows-on-Deck is required vs native SteamOS/Proton.
@@ -54,7 +54,7 @@ trust:
 - Australia classification: {{page:australia-release-status}}
 - PC requirements: {{page:pc-system-requirements}}
 
-Last Verified: **2026-09-02**. Do not rely on compatibility claims until Valve, IllFonic, or multiple hands-on reports confirm behavior.
+Last Verified: **2026-09-02**. Do not rely on compatibility claims until Valve, IllFonic, or multiple hands-on reports confirm current behavior.
 
 ## Sources
 

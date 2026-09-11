@@ -47,8 +47,6 @@ RC decision."
   Run npm run site:generate instead.
   Source: site-input/pages/australia-release-status.md
 -->
-# Is Halloween: The Game Banned in Australia? Current Release Status
-
 Confirmed
 
 - The Australian Classification Board issued a Refused Classification (RC) determination for the base listing of Halloween: The Game in August 2026. The Board’s stated reason: the game links illicit drug use to a gameplay advantage or reward (Classification Board statement reported by Press Start). [Last Verified: 2026-08-29]

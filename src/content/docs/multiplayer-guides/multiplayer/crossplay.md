@@ -44,8 +44,6 @@ facts:
   Run npm run site:generate instead.
   Source: site-input/pages/multiplayer/crossplay.md
 -->
-# Halloween: The Game Crossplay — What Is Officially Confirmed
-
 Quick answer — What is officially confirmed right now:
 
 - IllFonic confirms online multiplayer for PC (Steam and Epic), PlayStation 5, and Xbox Series X|S, and cross-platform multiplayer is indicated in storefront/developer materials. IllFonic has not published a complete platform-pairing matrix.

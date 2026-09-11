@@ -59,8 +59,6 @@ facts:
   Run npm run site:generate instead.
   Source: site-input/pages/multiplayer/how-multiplayer-works.md
 -->
-# How Halloween: The Game Multiplayer Works
-
 Quick Answer
 
 - Multiplayer is 1 Michael Myers vs 4 Civilians (up to 5 players total).

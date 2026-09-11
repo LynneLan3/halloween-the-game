@@ -53,8 +53,6 @@ facts:
   Run npm run site:generate instead.
   Source: site-input/pages/early-access-release-time.md
 -->
-# What time did Halloween the Game come out? Early Access & launch times (PT)
-
 Quick answer
 
 - Halloween: The Game is out now — official full release was Tuesday, September 8, 2026 at 9:00 AM Pacific Time (PT).

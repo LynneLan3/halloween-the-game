@@ -48,8 +48,6 @@ facts:
   Run npm run site:generate instead.
   Source: site-input/pages/civilian-tier-list.md
 -->
-# Halloween The Game — Civilian recommendations and editorial tier list
-
 Quick answer
 - Pick by role: All-rounder — Laurie; Resourcefulness/objective specialist — Marcus; Mobility — Jennifer; Personality / NPC-support — Tanya or Alexis; Anti-Michael specialist — Rachel.
 - This page uses a dated editorial methodology (rank dated 2026-09-08). The ranking is editorial, not objective game fact and reflects observed stats, traits, and gameplay coverage rather than definitive balance numbers.

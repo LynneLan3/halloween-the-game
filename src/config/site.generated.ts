@@ -26,7 +26,7 @@ export const siteConfig: GameConfig = {
 	heroImage: "hero/michael-mask-hero.jpg",
 	heroAlt: "Michael Myers mask close-up from Halloween: The Game",
 	heroPosition: "center",
-	disclaimer: "Unofficial fan guide. Verify version-sensitive facts against cited sources before production.",
+	disclaimer: "Unofficial fan guide. Verify version-sensitive facts against cited sources and current patch notes.",
 	portal: {
 		heroBadge: "OUT NOW · Current Patch 1.0.1",
 		primaryCta: {
@@ -1852,12 +1852,33 @@ export const siteConfig: GameConfig = {
 	trust: {
 		enabled: true,
 		pages: {
+			about: {
+				enabled: true,
+				slug: "about",
+				path: "/about/",
+				title: "About",
+				robots: "index,follow",
+			},
+			editorialMethod: {
+				enabled: true,
+				slug: "editorial-method",
+				path: "/editorial-method/",
+				title: "Editorial Method",
+				robots: "index,follow",
+			},
 			privacy: {
 				enabled: true,
 				slug: "privacy",
 				path: "/privacy/",
 				title: "Privacy",
 				robots: "noindex,follow",
+			},
+			contact: {
+				enabled: true,
+				slug: "contact",
+				path: "/contact/",
+				title: "Contact",
+				robots: "index,follow",
 			},
 		},
 	},

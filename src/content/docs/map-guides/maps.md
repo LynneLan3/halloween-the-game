@@ -54,8 +54,6 @@ facts:
   Run npm run site:generate instead.
   Source: site-input/pages/maps.md
 -->
-# Halloween: The Game Maps: All 4 Launch Locations
-
 Quick Answer
 
 Halloween: The Game launched with 4 multiplayer maps: Haddonfield Heights, Haddonfield Town Center, Orange Grove Estates, and East Haddonfield.

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "templateVersion": "2.0.0",
   "generatorVersion": "1.0.0",
-  "specHash": "683d14aeddbc200361adb4b05c552062c436b4a2131ba0ead492394957e5050b",
+  "specHash": "9c98e156b7a97b16f75443e11afa6b16fb6b7ae24ca605b7800872daf156b282",
   "siteId": "halloween-the-game",
   "createdFromSpec": "site-spec.yaml",
   "managedFiles": [
@@ -298,57 +298,57 @@
     },
     {
       "path": "src/config/site.generated.ts",
-      "sha256": "b54b7974af778c9902cf9f5521800edcdbf7ef56d6a7a7975d3ee24850c4f0c2",
+      "sha256": "5f584103d138b5d0d6506e36df0176a60c31d0d834a008d66f8fa8b84fd1ff11",
       "kind": "config"
     },
     {
       "path": "src/content/docs/character-guides/characters.md",
-      "sha256": "f8002a91f6fce566fd254ac2bcd95853388757d7bae3ed4379a81593e441b3f9",
+      "sha256": "faa79c54a18c2d6af99fec4146505485e7de4de82e621fe9d396139827c62ce8",
       "kind": "page"
     },
     {
       "path": "src/content/docs/guides/bots-private-lobbies-offline.md",
-      "sha256": "63a693c9737bf58867a295e652aadd0697eae0c06bd478ff8c8e09e56d1b173c",
+      "sha256": "ce20370cacc172092288e08b8e73198ca7efee74f4423ba96703d8984179b207",
       "kind": "page"
     },
     {
       "path": "src/content/docs/guides/challenges.md",
-      "sha256": "cde6f66fc3cc5ce463c285e2f1e6c90eb1f574b83f4680ac056090a82cc7fd99",
+      "sha256": "277c0666f37a7abb819533dbd7a658d1351a40d400feb88941d1aa4f4cf9b931",
       "kind": "page"
     },
     {
       "path": "src/content/docs/guides/early-access-release-time.md",
-      "sha256": "83e39c28a263b3485fd1010b01b9bcd911222786634b6c11ec1da4beb14d91aa",
+      "sha256": "34b43e6326714ca65d0b091cc9e76b490927a68a75d8c945e7a8d5da1dd88520",
       "kind": "page"
     },
     {
       "path": "src/content/docs/guides/loomis-logs.md",
-      "sha256": "f4d6ee617e3d401c6e7691f9a8e43cc00d13cc94f71f82f73f2a7ba5c422c28c",
+      "sha256": "229ef90e7201ceb8eab619e5a03c40de580ae21a18affbdd2c83fdd437a63742",
       "kind": "page"
     },
     {
       "path": "src/content/docs/guides/match-length-timer.md",
-      "sha256": "47ee61216e1f1b9785d84713456e4b09e5ac4835ed56ee217b7bc59f74d6f705",
+      "sha256": "eb2c0039676937fe38a36f168dcd0080f460e9b20e05a89f76d3e56f66b5adef",
       "kind": "page"
     },
     {
       "path": "src/content/docs/guides/physical-collectors-edition.md",
-      "sha256": "fdcbdf3cd7e39cb3db20d4135e4569dfa292a63871c009f3cf360f3cbf4c114e",
+      "sha256": "e9c6c11303649ea006b83637713bd591cd881d599c479d75fa0932053f82c2ba",
       "kind": "page"
     },
     {
       "path": "src/content/docs/guides/preload-download-status.md",
-      "sha256": "0508500895b46aca37c4399589467f980cb84c0bd227cad45889f5519af28d96",
+      "sha256": "87391c65fa3914115c8ad5cbc632718cd0e96b8f5b1472b9bd1bd6b4f6010e49",
       "kind": "page"
     },
     {
       "path": "src/content/docs/guides/standard-vs-deluxe-upgrade.md",
-      "sha256": "ed86e645a08bc1dcc24abe819fd2ae957e1c7133515edadd7d38b0f9f3e91e90",
+      "sha256": "5b501ffe76bc0d32bce6e8158020c144f9901455903ab23a1df3f3f739b70089",
       "kind": "page"
     },
     {
       "path": "src/content/docs/guides/trophies-achievements.md",
-      "sha256": "44f83018581940c61b4ecc03abff8f2098cbd9cb17e02850c29dcfe11f7cbfaa",
+      "sha256": "367cf51a2e63a34085617fe50504b13d149763c6167150b027f8fecfc3287d83",
       "kind": "page"
     },
     {
@@ -358,12 +358,12 @@
     },
     {
       "path": "src/content/docs/killer-guides/how-to-arrest-michael-myers.md",
-      "sha256": "054db4d66054c3a83c42495ea2c44c3c31c039b688d35f8873ea8da7035ec337",
+      "sha256": "74bd5bc8b858032c3458068234896a8d2c9514a22be53bee527248513eea6eb4",
       "kind": "page"
     },
     {
       "path": "src/content/docs/killer-guides/michael-myers.md",
-      "sha256": "13831dd65ffb260bf05dc46f16f3af793adea3b7906b7d4251de547fc2a22e0e",
+      "sha256": "dcc87b136062fd89768a410e07ed290e5b14e08b604d9bcb124c1961008865bd",
       "kind": "page"
     },
     {
@@ -373,117 +373,117 @@
     },
     {
       "path": "src/content/docs/killer-guides/michael-myers/skins.md",
-      "sha256": "cc8b0e3f18cdee6f79f82729b163bcf75cf1cc137e6304160b64da3bf0b5274a",
+      "sha256": "9dd712f53f8bed0f7da318a273b7d5ebb0c20dff1c15b7fa468051759affa518",
       "kind": "page"
     },
     {
       "path": "src/content/docs/live-updates/updates.md",
-      "sha256": "f5401038804507c8e17a66dfe22ba9526a51c6260de9acb8ff30b50973f62c4f",
+      "sha256": "42a1eba308959f722855eec25e9cbbc0768e7ad0b4dcadb40d6744962c41119d",
       "kind": "page"
     },
     {
       "path": "src/content/docs/map-guides/maps.md",
-      "sha256": "3d683fd15e476730cc7954b2e149a6f6a8d3aafafdd1f4d2ee96ba58e0db862f",
+      "sha256": "ebf1ec14a645d115bd455a23cb43ead0b3b5c90831181d73985aed9415694910",
       "kind": "page"
     },
     {
       "path": "src/content/docs/map-guides/maps/east-haddonfield.md",
-      "sha256": "9f1b6e213f2046b411adb6ac941193693b6ac2d2701fdcfbd72be02ca4ff7fd3",
+      "sha256": "40d93d1b898406eb1e86752eed44fd5c195d7fade135776c9f9a3f01e31c7ba6",
       "kind": "page"
     },
     {
       "path": "src/content/docs/map-guides/maps/haddonfield-heights.md",
-      "sha256": "b19242a3d8ed075764af4a46ffde2a722af10136313c97b3518fc62e1a65c9b0",
+      "sha256": "00d9746408c76f6c71f1a8d69f7e51acb392363555c57e4b072cea290ef433bd",
       "kind": "page"
     },
     {
       "path": "src/content/docs/map-guides/maps/haddonfield-town-center.md",
-      "sha256": "0d6c93ba62f0177a78bc910bb5c08d9a9b89d8cff14dc3641acb8a9cd0d2cd56",
+      "sha256": "75fae1d0d4249abff5d54f59c4c3ab59b4bb427bc76f75e3206d93988eecee62",
       "kind": "page"
     },
     {
       "path": "src/content/docs/map-guides/maps/orange-grove-estates.md",
-      "sha256": "56ee2e076cd3d800f7cf491c5af06193f4b5a2f1fee8f9337d7ab027bb4f9575",
+      "sha256": "32416e06a57ef202fc0d2b6675e432e00aa8905a7992aa3cbf6e6b394c59f84a",
       "kind": "page"
     },
     {
       "path": "src/content/docs/multiplayer-guides/multiplayer.md",
-      "sha256": "01fb7164f727f0d3dc63a7e581526451f151e7a74a5c8858a4720ad726998cb9",
+      "sha256": "cea535969b351882c37a2e3a62c102d0c3df9b38ee1ad6dd9ed580de10e41750",
       "kind": "page"
     },
     {
       "path": "src/content/docs/multiplayer-guides/multiplayer/crossplay.md",
-      "sha256": "a561b27188f88bba3958a04c3ac7e10f68259b15226de52d7a46ad411b0c91b1",
+      "sha256": "be2ef031b14a59437a92d36ee08d99d8bfa9dc9f5ee6c005d110ab71e666c22c",
       "kind": "page"
     },
     {
       "path": "src/content/docs/multiplayer-guides/multiplayer/how-multiplayer-works.md",
-      "sha256": "cb99dd83a2046eac044305c0009c949c9cb8d06a2a98cfb2d235793023a14826",
+      "sha256": "bc39f8c071774dae562825e5bbda8a7b5d12c80be8780572967e948675ae5885",
       "kind": "page"
     },
     {
       "path": "src/content/docs/multiplayer-guides/multiplayer/how-to-escape.md",
-      "sha256": "84f36942a492e9492d347cdabac5cf8094fd320c3b3861bf4c53be25bc9cdceb",
+      "sha256": "5410f4ba6617f7989977960cc8e22d21ab11ce467d2eaf7c0623533434825768",
       "kind": "page"
     },
     {
       "path": "src/content/docs/multiplayer-guides/multiplayer/matchmaking-queue.md",
-      "sha256": "e7a774cf2e2ff6c502590d9675ebc5cab62a24b446436968b3e23131adfb63a2",
+      "sha256": "4224f89ca86795962efbdb23a7dd791d202bfbdb818f4445fd2734cb084eae2b",
       "kind": "page"
     },
     {
       "path": "src/content/docs/pc-guides/pc.md",
-      "sha256": "9fb90d09eb20715de76c251c0eb16e1b3b53499e36daa69b73d23267e4cc75fa",
+      "sha256": "e5c492f3854421b41ed6584f088d2f6b0ec556fffbf07e107db30fa8099f5740",
       "kind": "page"
     },
     {
       "path": "src/content/docs/pc-guides/pc/best-settings-fps.md",
-      "sha256": "16277d56ba0150e51b2cf445f8c37e0cb1d9ffce431e9fffaac4effb71a4b8be",
+      "sha256": "7c352e6203d1dc21249dd1c7e88cdf0d0bcde8c2c6301f0b8124a78169f5e76a",
       "kind": "page"
     },
     {
       "path": "src/content/docs/pc-guides/pc/system-requirements.md",
-      "sha256": "6dda06f5a9dded68c5b8d7108d22b00b69782c32fa37e8513e33e9ac7893f02a",
+      "sha256": "d6d488c7a5a40f8b7c8c1be985f6e4ade2a8abc11233893dd05b1809a3d16386",
       "kind": "page"
     },
     {
       "path": "src/content/docs/progression/best-perks-builds.md",
-      "sha256": "68740861155d19268aab4d8576790192b643aa1d81d3fe2bad323a56e52ecdd2",
+      "sha256": "0c8d0ffa725bf1d52590adcbe950612edb04b9e69082338d5718d4bee67d5e9d",
       "kind": "page"
     },
     {
       "path": "src/content/docs/progression/civilian-tier-list.md",
-      "sha256": "82d8fd2d1a2c51c7f0c9a69aebf7532e8f12d6ff428eb8a7486bdba59934f045",
+      "sha256": "6d6ec53cb9e0660aa652603c5eed4aa6f428f9a728122f86b38e8f932350b5d2",
       "kind": "page"
     },
     {
       "path": "src/content/docs/progression/perk-cards.md",
-      "sha256": "c0cee33eaa8e3ff2cbbf607a63f398315df6c71ba614a05a7c82d4738a4c9703",
+      "sha256": "7c47f27f84d2d0684b4fce3e588fcc4e69f60ecd96e01e9ef0245e54ecdb5cf4",
       "kind": "page"
     },
     {
       "path": "src/content/docs/progression/progression-perks.md",
-      "sha256": "903b171b1827c23adbd22b0058ee6a39f34f4c4649c5ce53bfa7db862687c5e3",
+      "sha256": "b106cc04e33d876fe689aab6fd61e903179cc23931512b266e6c3bde09ec7cdc",
       "kind": "page"
     },
     {
       "path": "src/content/docs/reference/australia-release-status.md",
-      "sha256": "8150e362a8dc99d8e1262075c79d946f75fa27bda2e409968a978766a5fe2f2f",
+      "sha256": "69ece5aa718f8a41a30dc3bd142fc8bba95fe44bc1d2c09ac348997cfd875698",
       "kind": "page"
     },
     {
       "path": "src/content/docs/reference/steam-deck.md",
-      "sha256": "9a8530c42109d9e773112f09be3aa303a897f6a5ca9159e5f72761a5b4e5b667",
+      "sha256": "148228cc5023bd808d872a30ada396fb4ef61a9b3aa96dd91ae96d975a77ba34",
       "kind": "page"
     },
     {
       "path": "src/content/docs/story-guides/challenges/chapter-2-challenge-6.md",
-      "sha256": "8e55a0e6ca4ba96284d98c854b63eaa70ec58e282071c6167cd0dfb541ce4be9",
+      "sha256": "560326269ba89809549a376716cfac552e67945ae9a07a7ec75205ce70ec8b97",
       "kind": "page"
     },
     {
       "path": "src/content/docs/story-guides/challenges/chapter-4-challenge-6.md",
-      "sha256": "04dbdd77e12daf6130ad362787872ed57ef420c48b6199648c460fc1768e1894",
+      "sha256": "7228078228d93d52fbb26f65f67b9ca29bca451ef9704fbb89068b2c2c57e5a6",
       "kind": "page"
     },
     {
@@ -497,8 +497,23 @@
       "kind": "page"
     },
     {
+      "path": "src/content/trust/about.md",
+      "sha256": "dac3b23902b19c57556a266b3ca0c3a5b132aad6714ac53b6cb2fc43169def86",
+      "kind": "trust"
+    },
+    {
+      "path": "src/content/trust/contact.md",
+      "sha256": "d2b5f36996bad9bd84ce946ab2fff0f738308bdee4ae19bfeeb29b6c273d4509",
+      "kind": "trust"
+    },
+    {
+      "path": "src/content/trust/editorial-method.md",
+      "sha256": "d18017c343b9c40cd73452d1fec09601f7864eb356908f7afc8b0c2fe07b2b94",
+      "kind": "trust"
+    },
+    {
       "path": "src/content/trust/privacy.md",
-      "sha256": "3e7432334470fae21d5c639ef6e6bd681f944514e15cb685ce3b411be5de4681",
+      "sha256": "83abea336527f2831d7c11f38b83063c3e2ea3f7a401796c2dfe4537405291bb",
       "kind": "trust"
     }
   ],

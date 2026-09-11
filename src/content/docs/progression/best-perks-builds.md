@@ -71,8 +71,6 @@ facts:
   Run npm run site:generate instead.
   Source: site-input/pages/best-perks-builds.md
 -->
-# Halloween: The Game — Best Perks & Builds (Patch 1.0.1)
-
 Quick answer
 - Recommended Civilian perk builds for Patch 1.0.1 (editorial recommendations, not an official tier list):
   - Starter / General: Unwinded + Adrenaline + Sixth Sense (swap Slippery for Unwinded when grabs are the main failure point).

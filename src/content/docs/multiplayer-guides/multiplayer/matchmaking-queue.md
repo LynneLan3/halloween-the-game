@@ -54,8 +54,6 @@ facts:
   Run npm run site:generate instead.
   Source: site-input/pages/multiplayer/matchmaking-queue.md
 -->
-# Halloween: The Game matchmaking queue — Roles, Tokens & Private Matches
-
 Quick answer
 - Online matches are 1 Michael vs 4 Civilians (up to 5 players total).
 - Press coverage of IllFonic’s matchmaking overview reports role-based queues: separate Killer and Civilian queues plus a flexible “No Preference” option.

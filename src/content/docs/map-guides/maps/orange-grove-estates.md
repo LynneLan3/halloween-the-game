@@ -47,8 +47,6 @@ facts:
   Run npm run site:generate instead.
   Source: site-input/pages/maps/orange-grove-estates.md
 -->
-# Orange Grove Estates — Map Guide
-
 **Confirmed:** Orange Grove Estates is IllFonic's third revealed multiplayer map—a larger upscale suburban neighborhood with multi-story houses and more open sightlines than Haddonfield Heights.
 
 ## Known landmarks and layout
@@ -75,14 +73,14 @@ See [all 4 Halloween: The Game launch maps](/maps/).
 
 ## Still UNKNOWN
 
-Do not assume pre-launch:
+Do not assume from this guide alone:
 
 - Which house spawns which items or keys
 - Best balcony or garage escape lines
 - Fixed resident or Special Target locations
 - Final balance of interior vs exterior power cuts
 
-These need in-game confirmation after launch.
+These need in-game confirmation in the current release.
 
 ## Sources
 

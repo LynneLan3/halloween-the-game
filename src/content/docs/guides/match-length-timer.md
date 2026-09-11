@@ -50,8 +50,6 @@ facts:
   Run npm run site:generate instead.
   Source: site-input/pages/match-length-timer.md
 -->
-# How Long Are Halloween: The Game Matches? 12‑Minute Timer Explained
-
 Confirmed
 
 - No official, published match timer/rules: IllFonic and storefront pages have not published a fixed multiplayer match timer as of Last Verified: 2026-09-02.

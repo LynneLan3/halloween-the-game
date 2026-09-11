@@ -1,6 +1,6 @@
 # Halloween: The Game Characters — Playable Civilian Roster
 
-**Confirmed:** Halloween: The Game's Standard Edition includes **10 playable Civilians** at launch. Each Civilian has **unique stats, special traits, and personality** according to IllFonic—but full numeric tables and tier lists have not been published pre-launch.
+**Confirmed:** Halloween: The Game's Standard Edition includes **10 playable Civilians** at launch. Each Civilian has **unique stats, special traits, and personality** according to IllFonic—but full numeric tables and tier lists are not published in the evidence used here.
 
 ## How many playable Civilians are there?
 
@@ -42,7 +42,7 @@ See {{page:standard-vs-deluxe-upgrade}} for edition and upgrade details.
 
 ## Do characters have different stats or traits?
 
-**Confirmed:** IllFonic states every Civilian has unique stats, special traits, and personality. The developer has not published complete stat sheets, perk trees, or balance patches ahead of launch.
+**Confirmed:** IllFonic states every Civilian has unique stats, special traits, and personality. The developer has not published complete stat sheets or perk trees in the evidence used here.
 
 **Still UNKNOWN:**
 

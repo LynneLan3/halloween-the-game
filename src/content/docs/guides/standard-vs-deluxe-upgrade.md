@@ -56,8 +56,6 @@ facts:
   Run npm run site:generate instead.
   Source: site-input/pages/standard-vs-deluxe-upgrade.md
 -->
-# Halloween: The Game — Standard vs Digital Deluxe: Is the $20 Deluxe Worth It?
-
 Quick answer
 
 - Price and value: Standard is $39.99 USD; Digital Deluxe is $59.99 USD — a $20 difference. Digital Deluxe adds an Early Access path plus the Inmate Michael Myers skin, the civilians Richard and Alexis, a digital comic and other Deluxe extras.

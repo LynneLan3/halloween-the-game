@@ -48,8 +48,6 @@ facts:
   Run npm run site:generate instead.
   Source: site-input/pages/loomis-logs.md
 -->
-# Halloween The Game Loomis Log locations
-
 Quick answer
 Story Mode contains 14 recording collectibles in total: 11 numbered Loomis Logs and 3 other recordings. This page lists each of the 14 story recordings by chapter and gives the exact in‑scene location where the collectible appears. Note the Chapter 4/5 access caveats and the Chapter 5 marker bug (details below) before hunting.
 

@@ -46,7 +46,7 @@ Common mistakes to avoid
 
 Current UNKNOWNs / what to check in-game
 
-When the map is playable, confirm in actual matches:
+Post-launch verification boundary — use actual matches to confirm:
 
 - Whether named landmarks appear in the same readable relationships shown in the guide.
 - Exact spawn locations, top-down geometry, and whether any community routes become reliable in practice.

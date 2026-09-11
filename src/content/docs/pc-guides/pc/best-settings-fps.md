@@ -52,8 +52,6 @@ facts:
   Run npm run site:generate instead.
   Source: site-input/pages/pc/best-settings-fps.md
 -->
-# Halloween: The Game — Best PC Settings for Stable FPS
-
 Quick answer
 - Start at native resolution / 100% Resolution Scale, turn Motion Blur Off, and turn Ray Tracing Off (or lower it as a separate test) before changing several other settings.
 - Use a 60 FPS cap as a tested stability baseline (this is a diagnostic test, not an official or guaranteed target).

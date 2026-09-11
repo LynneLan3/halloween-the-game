@@ -541,7 +541,7 @@ function buildTrustMarkdown(
 	const source = trustSourceFor(spec, kind);
 	const sourceAbs = resolveInputPath(rootDir, specDir, source);
 	const rawBody = readFileSync(sourceAbs, 'utf8');
-	const body = rawBody.replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n*/, '');
+	const body = rawBody.replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n*/, '').replace(/^# [^\r\n]+\r?\n(?:\r?\n)?/, '');
 	const locale = spec.site.locale;
 	const fields: Array<[string, unknown]> = [
 		['title', trustTitleForLocale(kind, locale)],
@@ -781,7 +781,7 @@ function buildPageMarkdown(spec: SiteSpec, pageId: string, rootDir: string, spec
 	const rawBody = readFileSync(sourceAbs, 'utf8');
 	// Strip accidental frontmatter from source inputs; generator owns frontmatter.
 	const body = rawBody.replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n*/, '');
-	const resolved = resolvePlaceholders(body, spec, page.id);
+	const resolved = resolvePlaceholders(body, spec, page.id).replace(/^# [^\r\n]+\r?\n(?:\r?\n)?/, '');
 	const publicSlug = publicSlugForPage(spec.site.hubPath, page.slug);
 	const relatedSlugs = page.related.map((relatedId) => {
 		const related = spec.pages.find((entry) => entry.id === relatedId)!;

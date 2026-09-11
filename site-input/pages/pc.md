@@ -1,6 +1,6 @@
 # Halloween: The Game on PC — Platforms & Launch Checks
 
-**Confirmed:** Halloween: The Game releases on **PC via Steam and Epic Games Store**, alongside PS5 and Xbox Series X|S. This hub covers what PC players should verify before Advance Access and full release.
+**Confirmed:** Halloween: The Game is released on **PC via Steam and Epic Games Store**, alongside PS5 and Xbox Series X|S. This hub covers what PC players should verify during the live release.
 
 ## PC storefronts
 
@@ -26,13 +26,13 @@ For current-build graphics and FPS tuning guidance (settings advice, troubleshoo
 
 ## Anti-cheat — provisional
 
-Secondary sources (e.g. PCGamingWiki) cite **Easy Anti-Cheat** middleware for the PC build. The live Steam store **anti-cheat field was not verified** in our pre-launch API snapshot. Do **not** treat anti-cheat as a confirmed fact until the live Steam store page shows it at launch.
+The dedicated system-requirements page records **Easy Anti-Cheat** as confirmed in the Steam listing. Older secondary-source and API snapshots are historical context; use the current store listing and cited page for version-sensitive details.
 
 If anti-cheat is present, it may affect restricted environments and handheld PCs — see {{page:steam-deck}}.
 
 ## Steam Deck and handheld PC
 
-Steam Deck compatibility is **not verified** as of pre-launch research. No Valve Verified badge and no IllFonic statement.
+Steam Deck compatibility is **not verified** in the evidence recorded here. No Valve Verified badge or IllFonic statement is recorded in the available snapshot.
 
 Follow the dedicated checklist: {{page:steam-deck}}.
 
@@ -46,13 +46,11 @@ Do **not** claim verified Steam Deck performance, Proton flags, or stable frame 
 
 ## Still UNKNOWN
 
-Pre-launch items remaining unverified:
+Items remaining unverified in this site's evidence:
 
 - Exact FPS at each graphics/settings preset.
 - Shader compile stutter or broader Unreal Engine 5 optimization behavior on varied hardware.
-- Whether the live Steam store will list anti-cheat middleware (see Anti-cheat above) as a confirmed field.
-
-Specific feature support and per-build tuning details are covered by the current-build performance guide: [Best PC Settings / FPS]({{page:pc-best-settings-fps}}). This hub will not claim universal best settings or FPS guarantees — check the performance guide and real-hardware testing after Advance Access/full release.
+Specific feature support and per-build tuning details are covered by the current-build performance guide: [Best PC Settings / FPS]({{page:pc-best-settings-fps}}). This hub will not claim universal best settings or FPS guarantees — check the performance guide and real-hardware testing.
 
 ## Sources
 

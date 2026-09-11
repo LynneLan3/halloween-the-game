@@ -58,8 +58,6 @@ facts:
   Run npm run site:generate instead.
   Source: site-input/pages/progression-perks.md
 -->
-# Halloween: The Game Progression & Perks — How Unlocks Work
-
 Quick answer
 - Progression is split into four independent XP tracks: Profile, Killer, Civilian, and Weapon.  
 - XP is earned from singleplayer story chapters, private matches against AI, and online 1v4 matchmaking.  

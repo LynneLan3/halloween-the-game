@@ -31,7 +31,7 @@ IllFonic has not published:
 - Final NPC patrol or police response timing per block
 - Map-specific meta or tier lists
 
-Verify these after Advance Access begins.
+Keep these details bounded until live-match evidence confirms them.
 
 ## Sources
 

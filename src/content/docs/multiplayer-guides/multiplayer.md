@@ -53,8 +53,6 @@ facts:
   Run npm run site:generate instead.
   Source: site-input/pages/multiplayer.md
 -->
-# Halloween: The Game Multiplayer — 1v4 Format & Objectives
-
 **Confirmed:** Halloween: The Game's core online mode is **1 Michael Myers vs 4 Civilians**, supporting **up to 5 online players** per match.
 
 ## Match format

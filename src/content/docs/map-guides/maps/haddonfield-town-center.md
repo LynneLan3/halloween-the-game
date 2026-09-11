@@ -47,8 +47,6 @@ facts:
   Run npm run site:generate instead.
   Source: site-input/pages/maps/haddonfield-town-center.md
 -->
-# Haddonfield Town Center — Map Guide
-
 **Confirmed:** Haddonfield Town Center is an officially revealed multiplayer map set in downtown Haddonfield. IllFonic explicitly states the named businesses and cemetery below are part of the **actual playspace**, not background lore.
 
 ## Playable locations
@@ -80,7 +78,7 @@ IllFonic has not published:
 - Final NPC patrol or police response timing per block
 - Map-specific meta or tier lists
 
-Verify these after Advance Access begins.
+Keep these details bounded until live-match evidence confirms them.
 
 ## Sources
 

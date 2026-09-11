@@ -47,7 +47,6 @@ facts:
   Run npm run site:generate instead.
   Source: site-input/pages/perk-cards.md
 -->
-# Halloween: The Game Perk Cards — 51-Card Live List, Decks, Rolls & Upgrades
 Checked Sep. 8, 2026
 
 ## Quick Answer
