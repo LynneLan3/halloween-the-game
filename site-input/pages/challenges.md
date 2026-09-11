@@ -26,7 +26,7 @@ Chapter 2 — Main Street
 3. Grab and Execute Slab while he's peeing
 4. Execute Eric using the Shelf kill in the hardware stock room
 5. Kill all 3 of Rachel's friends
-6. Chapter 2 Challenge 6: Complete the chapter without alerting anyone
+6. Chapter 2 Challenge 6: Complete the chapter without alerting anyone — see {{page:story-challenges-chapter-2-challenge-6}}
 
 Chapter 3 — Returning Home
 1. Execute Jennifer with the Campfire
@@ -57,6 +57,9 @@ challenge tracking/version caveat
 - Patch 1.0.1 adds additional tracking fixes, but the official wording says some outliers may remain. Treat the objective wordings above as the reference text to attempt, then verify registration in your game UI after each run.
 - Do not assume a single workaround will force consistent registration across versions or sessions — no workaround is guaranteed to work 100% of the time.
 
+Chapter 2 Challenge 6 guide
+For the no-alert Chapter 2 Challenge 6 attempt and Patch 1.0.1 tracking status, use {{page:story-challenges-chapter-2-challenge-6}}. That child guide covers the best-supported Surprise/no-alert attempt, unproven anecdotes, and what to do when a clean run still fails to register; this page remains the objective/reference hub.
+
 Chapter 4 Challenge 6 guide
 For the film-accurate Chapter 4 Challenge 6 route, use {{page:story-challenges-chapter-4-challenge-6}}. That child guide covers the Annie → Bob/Lynda → Sheet → Laurie sequence and the result-screen registration check; this page remains the objective/reference hub.
 
@@ -78,6 +81,6 @@ Verification tips
 - If you encounter persistent registration problems, capture in-game evidence (if possible) and check official patch notes for version-specific fixes.
 
 Notes and next steps
-- Potential later child pages include Prologue Challenge 5 and Chapter 2 Challenge 6 only after new demand/evidence.
+- Potential later child pages include Prologue Challenge 5 only after new demand/evidence.
 - If tracking anomalies persist in your current game version, monitor official announcements and patch notes for further fixes.
-- This page is meant as a single reference list of objective wordings and the known tracking caveats; it intentionally does not offer step-by-step completion methods or guarantees of registration.
+- This page is meant as a single reference list of objective wordings and the known tracking caveats; bounded attempt guidance for Chapter 2 Challenge 6 and Chapter 4 Challenge 6 lives on their child pages, without registration guarantees.

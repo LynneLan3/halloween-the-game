@@ -62,6 +62,7 @@ const GROUP_DEFINITIONS: readonly GroupDefinition[] = [
 		pageIds: [
 			{ id: 'single-player-hub', label: 'Single Player / First Clear' },
 			{ id: 'story-challenges', label: 'All Challenges' },
+			{ id: 'story-challenges-chapter-2-challenge-6', label: 'Chapter 2 Challenge 6' },
 			{ id: 'story-challenges-chapter-4-challenge-6', label: 'Chapter 4 Challenge 6' },
 			{ id: 'single-player-chapter-5-challenges', label: 'Chapter 5 Challenges' },
 			{ id: 'loomis-logs', label: 'Loomis Logs' },

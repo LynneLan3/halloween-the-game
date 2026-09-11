@@ -1139,8 +1139,37 @@ export const siteConfig: GameConfig = {
 					type: "next-step",
 				},
 				{
+					pageId: "story-challenges-chapter-2-challenge-6",
+					type: "next-step",
+				},
+				{
 					pageId: "story-challenges-chapter-4-challenge-6",
 					type: "next-step",
+				},
+			],
+			sources: [
+			],
+			evidence: [
+			],
+		},
+		{
+			id: "story-challenges-chapter-2-challenge-6",
+			slug: "challenges/chapter-2-challenge-6",
+			role: "core",
+			assetType: "article",
+			intents: ["chapter-2-challenge-6", "chapter-2-challenge-6-not-working", "complete-chapter-without-alerting-anyone", "patch-1-0-1-challenge-tracking"],
+			relations: [
+				{
+					pageId: "story-challenges",
+					type: "related",
+				},
+				{
+					pageId: "single-player-hub",
+					type: "related",
+				},
+				{
+					pageId: "story-challenges-chapter-4-challenge-6",
+					type: "related",
 				},
 			],
 			sources: [
@@ -1378,6 +1407,14 @@ export const siteConfig: GameConfig = {
 					title: "Halloween: The Game — All Story Challenges",
 					description: "See the six objective wordings for the Prologue and Chapters 1–5, with the Chapter 2 sixth-challenge and version-sensitive tracking caveat clearly separated.",
 					eyebrow: "Story Challenges",
+					image: "covers/michael/singleplayer-haddonfield.jpg",
+				},
+				{
+					pageId: "story-challenges-chapter-2-challenge-6",
+					href: "/challenges/chapter-2-challenge-6/",
+					title: "Halloween: The Game Chapter 2 Challenge 6 — No-Alert Attempt Guide",
+					description: "Bounded troubleshooting and the best-supported attempt for Chapter 2 Challenge 6. Includes the exact objective, the strongest current attempt pattern (Surprise on Eric, Tanya, Rachel + no red alert + finish chapter), Patch 1.0.1 tracking status, and what to do when a clean run doesn't register.",
+					eyebrow: "Chapter 2 Challenge 6",
 					image: "covers/michael/singleplayer-haddonfield.jpg",
 				},
 				{
