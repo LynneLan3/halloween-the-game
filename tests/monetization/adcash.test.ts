@@ -4,6 +4,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import test from 'node:test';
 import {
+	ADCASH_ENABLED,
 	ADCASH_BANNER_ZONE_ID,
 	ADCASH_LIB_SRC,
 	isAdcashEnabled,
@@ -14,9 +15,10 @@ import { isAdsEnabled } from '../../src/lib/monetization';
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 
 test('Adcash Display zone and lib URL are fixed for this test', () => {
+	assert.equal(ADCASH_ENABLED, false);
 	assert.equal(ADCASH_BANNER_ZONE_ID, '12101514');
 	assert.equal(ADCASH_LIB_SRC, 'https://acscdn.com/script/aclib.js');
-	assert.equal(isAdcashEnabled(), isAdsEnabled());
+	assert.equal(isAdcashEnabled(), false);
 });
 
 test('Adcash lib loads only on Article pages that render the banner', () => {
@@ -37,7 +39,7 @@ test('Adcash lib loads only on Article pages that render the banner', () => {
 test('shouldLoadAdcashOnPage matches Article yes / hub-category-route no', () => {
 	assert.equal(
 		shouldLoadAdcashOnPage({ id: 'michael-myers', data: {} }, '/michael-myers/'),
-		isAdsEnabled(),
+		false,
 	);
 	assert.equal(shouldLoadAdcashOnPage({ id: 'index', data: { template: 'splash' } }, '/'), false);
 	assert.equal(shouldLoadAdcashOnPage({ id: '404', data: {} }, '/404/'), false);
@@ -86,10 +88,10 @@ test('guide-after-answer is not wired to Adsterra AdSlot (no dual banner at test
 	assert.match(footer, /guide-before-related/);
 });
 
-test('Adcash stays enabled while Adsterra soft-offline is off', () => {
+test('Adcash stays off while Adsterra is enabled', () => {
 	const monetization = readFileSync(path.join(ROOT, 'src/lib/monetization.ts'), 'utf8');
-	assert.match(monetization, /ADSTERRA_ENABLED\s*=\s*false/);
-	assert.equal(isAdcashEnabled(), true);
+	assert.match(monetization, /ADSTERRA_ENABLED\s*=\s*true/);
+	assert.equal(isAdcashEnabled(), false);
 	assert.equal(isAdsEnabled(), true);
 	assert.match(
 		readFileSync(path.join(ROOT, 'src/components/AdcashBanner.astro'), 'utf8'),

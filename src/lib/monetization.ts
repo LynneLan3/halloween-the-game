@@ -26,11 +26,10 @@ export function isAdsEnabled(): boolean {
 }
 
 /**
- * Soft runtime switch for Adsterra / Profitablerate (Native Banner via AdLoader).
- * Keep false to soft-offline; flip true to restore without rewriting Zone/script IDs.
+ * Runtime switch for Adsterra / Profitablerate (Native Banner via AdLoader).
  * No separate Social Bar entry exists in this tree; Native Banner is the only Adsterra path.
  */
-export const ADSTERRA_ENABLED = false;
+export const ADSTERRA_ENABLED = true;
 
 /** Preserved Adsterra invoke.js URL (Zone pl31121382 / unit 48fe22f7…). */
 export const ADSTERRA_INVOKE_SRC =

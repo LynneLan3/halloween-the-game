@@ -8,6 +8,9 @@ export const ADCASH_BANNER_ZONE_ID = '12101514';
 
 export const ADCASH_LIB_SRC = 'https://acscdn.com/script/aclib.js';
 
+/** Adcash provider switch; the site-wide ads switch remains enabled for Adsterra. */
+export const ADCASH_ENABLED = false;
+
 interface GuideEntryLike {
 	id: string;
 	data: { template?: string };
@@ -15,7 +18,7 @@ interface GuideEntryLike {
 
 /** Ads switch must be on for any Adcash output. */
 export function isAdcashEnabled(): boolean {
-	return isAdsEnabled();
+	return ADCASH_ENABLED && isAdsEnabled();
 }
 
 /**

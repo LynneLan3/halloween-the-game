@@ -40,12 +40,19 @@ test('unknown placement produces no slot', () => {
 	assert.equal(adSlotDatasetFor(true, 'not-a-slot' as AdPlacement), null);
 });
 
-test('Adsterra soft-offline: switch off, config preserved, slots and loader render nothing', () => {
-	assert.equal(ADSTERRA_ENABLED, false);
-	assert.equal(isAdsterraEnabled(), false);
-	assert.equal(adLoaderConfig(), null);
-	assert.equal(adSlotDataset('guide-before-related'), null);
-	assert.equal(adSlotDataset('hub-after-start-here'), null);
+test('Adsterra is enabled with the preserved config and slots', () => {
+	assert.equal(ADSTERRA_ENABLED, true);
+	assert.equal(isAdsterraEnabled(), true);
+	assert.deepEqual(adLoaderConfig(), {
+		scriptSrc: ADSTERRA_INVOKE_SRC,
+		containerId: ADSTERRA_CONTAINER_ID,
+	});
+	assert.deepEqual(adSlotDataset('guide-before-related'), {
+		'data-ad-slot': 'guide-before-related',
+	});
+	assert.deepEqual(adSlotDataset('hub-after-start-here'), {
+		'data-ad-slot': 'hub-after-start-here',
+	});
 	assert.equal(
 		ADSTERRA_INVOKE_SRC,
 		'https://pl31121382.profitableratecpmnetwork.com/48fe22f744a00606ab2616e732ff6e3a/invoke.js',
@@ -57,7 +64,7 @@ test('Adsterra Zone/script IDs remain in site-spec and monetization constants', 
 	const monetization = readFileSync(path.join(ROOT, 'src/lib/monetization.ts'), 'utf8');
 	const siteSpec = readFileSync(path.join(ROOT, 'site-spec.yaml'), 'utf8');
 	const generated = readFileSync(path.join(ROOT, 'src/config/site.generated.ts'), 'utf8');
-	assert.match(monetization, /ADSTERRA_ENABLED\s*=\s*false/);
+	assert.match(monetization, /ADSTERRA_ENABLED\s*=\s*true/);
 	assert.match(
 		monetization,
 		/https:\/\/pl31121382\.profitableratecpmnetwork\.com\/48fe22f744a00606ab2616e732ff6e3a\/invoke\.js/,
