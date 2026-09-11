@@ -1,16 +1,16 @@
 {
-  "job_id": "halloween-pc-best-settings-fps-20260910",
+  "job_id": "halloween-pc-best-settings-fps-20260911",
   "source_type": "RESEARCH_PACKET",
-  "research_packet": "Halloween-Graphics-FPS-Evidence-Pack-2026-09-10.md",
+  "research_packet": "/Users/lanling/Downloads/halloween-best-settings-fps-research-pack-20260911.md",
   "lifecycle": "LAUNCH",
   "intent": "MECHANIC + NEWS_UPDATE",
   "article_class": "DEEP_GUIDE",
-  "mode": "CREATE",
+  "mode": "UPDATE",
   "target": "/pc/best-settings-fps/",
-  "writer_status": "COMPLETED_GPT-5-MINI_CREATE",
+  "writer_status": "COMPLETED_GPT-5-MINI_UPDATE",
   "model": "gpt-5-mini",
   "media_gate": "MISSING",
-  "no_commit": true,
+  "no_commit": false,
   "no_push": true,
-  "no_deploy": true
+  "no_deploy": false
 }

@@ -13,7 +13,7 @@ intents:
   - best-settings-fps
   - pc-optimization
   - graphics-settings
-quickAnswer: "Start with Ray Tracing Off and Motion Blur Off, then use a 60 FPS cap as a tested stability baseline—not an official guarantee. Lower Shadows, GI, Reflections, Effects, Foliage, and Shading before Textures/View Distance. Test upscaling deliberately; do not assume Frame Generation will fix low FPS. Patch 1.0.1 is not a documented broad PC FPS fix. Test Story and multiplayer separately."
+quickAnswer: "Start at native resolution with Motion Blur and Ray Tracing Off, then use a 60 FPS cap as a tested stability baseline—not an official guarantee. Lower Shadows, GI, Reflections, Effects, Foliage, and Shading before Textures/View Distance. If the GPU is the bottleneck, test one upscaler at a time; do not assume Frame Generation will fix low FPS. Patch 1.0.1 does not list a PC performance optimization fix. Test Story and multiplayer separately."
 relations:
   -
     slug: pc/system-requirements
@@ -30,7 +30,7 @@ coverMedia:
   kind: cover
   aspectRatio: 16:9
   sourceUrl: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219630/b6788a76e909167f1e599e62f52ea0a9734aa133/ss_b6788a76e909167f1e599e62f52ea0a9734aa133.1920x1080.jpg?t=1787962852"
-changeSummary: "CREATE — current-build PC best settings / FPS troubleshooting owner from Graphics/FPS Evidence Pack."
+changeSummary: "UPDATE — freshness pass for the existing PC best settings / FPS owner: symptom split, evidence-aware settings table, high-end low-FPS boundary, and Patch 1.0.1 status."
 eyebrow: Best Settings / FPS
 facts:
   -
@@ -55,10 +55,10 @@ facts:
 # Halloween: The Game — Best PC Settings for Stable FPS
 
 Quick answer
-- Turn Ray Tracing Off and Motion Blur Off as your first performance cuts.
+- Start at native resolution / 100% Resolution Scale, turn Motion Blur Off, and turn Ray Tracing Off (or lower it as a separate test) before changing several other settings.
 - Use a 60 FPS cap as a tested stability baseline (this is a diagnostic test, not an official or guaranteed target).
 - Reduce expensive visuals first: Shadows, Global Illumination, Reflections, Effects, Foliage, and Shading. Keep Anti‑Aliasing Medium, Post‑Process Medium, Textures Medium, and View Distance Medium as the tested starting baseline.
-- Test native resolution / 100% Resolution Scale first if practical; if you still need performance, try one supported upscaler mode at a time.
+- If the GPU is the limiting component, test one supported upscaler mode at a time; do not assume it will help a CPU-bound or game-side performance problem.
 - Test Frame Generation/DLSS separately — current reports show inconsistent or no-gain behavior on some systems; generated frames can add latency or artifacts and may need to be turned off if they don’t help.
 - Patch 1.0.1 (Sept 8) includes crash fixes and multiple gameplay/bug fixes but does not document a broad PC FPS/optimization pass; do not assume it guarantees stable 60 FPS.
 - Test one Story Mode scene and one multiplayer match separately before judging whether a change helped — some players report Story Mode can behave worse than multiplayer.
@@ -94,6 +94,28 @@ This is a tested starting preset — a good first baseline if stability matters;
   - Reflections: Low
 - Labeling reminder: this is one launch-build test configuration, not an official recommended set, not guaranteed to produce 60 FPS on all PCs.
 
+Evidence-aware settings table
+
+| Setting | Recommended starting value | Why to test it | Evidence strength |
+|---|---|---|---|
+| Resolution / Resolution Scale | Native / 100% | Establishes a reproducible baseline before changing upscaling. | Safer baseline |
+| Motion Blur | Off | Removes a motion-related visual effect and keeps the baseline easier to compare. | Player-correlated |
+| Ray Tracing | Off; test Lower only if available | Reduces a potentially expensive GPU feature before broader cuts. | Safer baseline |
+| Shadows | Low | A high-cost visual setting worth testing early for GPU load and frame-time stability. | Player-correlated |
+| Global Illumination | Low | Tests scene-lighting cost without claiming a fixed FPS gain. | Player-correlated |
+| Reflections | Low | Tests reflection cost, which can vary by scene. | Player-correlated |
+| Effects | Low | Tests particle and effect density in a controlled pass. | Player-correlated |
+| Foliage | Low | Tests outdoor rendering load and scene-specific spikes. | Player-correlated |
+| Shading | Low | Tests material and shading complexity. | Player-correlated |
+| Anti-Aliasing | Medium | Preserves a readable image while matching the named single-system baseline. | Single-system test |
+| Post-Process | Medium | Keeps a middle-quality comparison point from the single-system test. | Single-system test |
+| Textures | Medium | Avoids assuming textures are the main FPS limiter; VRAM behavior varies by system. | Single-system test |
+| View Distance | Medium | Preserves visibility while providing a consistent comparison point. | Single-system test |
+| Upscaling Method | Off initially; test one supported mode if GPU-bound | Tests render resolution separately from other changes and may help when the GPU is the bottleneck. | Player-correlated |
+| Frame Generation | Off initially; test separately | Reports show inconsistent or no-gain behavior on some systems, with possible artifacts or latency. | Player-correlated / unverified behavior |
+| Frame Rate Limit | 60 FPS as a stability diagnostic | Provides one A/B stability point; it is not an official universal target. | Safer baseline |
+| Vsync | Off initially; test On for tearing or multiplayer instability | Compares frame pacing and latency trade-offs without promising one universal result. | Single-system test |
+
 Diagnostic troubleshooting order (follow this sequence; treat each step as a diagnostic test)
 1. Confirm minimum build: verify Windows 11 64-bit, sufficient CPU socket generation (Intel LGA 1200+/AMD AM4+ Zen 2+ minimum), at least 16 GB RAM, and SSD/NVMe storage per the store baseline. If the PC misses the baseline, address that before deeper tuning.
 2. Ray Tracing Off — turn it Off first. Ray Tracing is one of the most costly GPU features; disabling it is the safest initial cut.
@@ -106,6 +128,29 @@ Diagnostic troubleshooting order (follow this sequence; treat each step as a dia
 9. Compare modes: run the same short Scene in Story Mode and the same-length multiplayer match to compare performance. Do not extrapolate results from only one mode; some players report Story Mode (especially early scenes/executions) can run worse than multiplayer.
 10. If performance changed after a driver update, re-test with upscaling and Frame Generation disabled and verify driver state before attributing the change to Patch 1.0.1 or the game build.
 
+Low but steady FPS
+
+- Symptom: FPS is consistently below the player’s target, but frame delivery is otherwise steady and there are no obvious hitches.
+- Follow the diagnostic order above, prioritizing GPU-costly settings and native-resolution testing. If the GPU is the limiting component, test one supported upscaler at a time.
+- Some players report meaningful improvement after lowering settings to Medium or Low, while others report low FPS even at the lowest settings. There is no universal preset that guarantees a target FPS across hardware.
+
+Stutter / hitching
+
+- Symptom: short stalls, spikes, or uneven frame delivery even when the average FPS looks acceptable.
+- Keep this separate from consistently low FPS. Test the 60 FPS cap as a frame-pacing A/B check, disable Frame Generation while isolating the problem, and compare one Story Mode scene with one multiplayer match.
+- If stutter persists while Low and High perform similarly, do not promise that further slider reductions will fix it. The current evidence does not verify a single graphics-setting cause.
+
+Crashes
+
+- A crash-to-desktop or app close is a different problem from low FPS or stutter. This page does not claim a crash workaround; use [System requirements](/pc/system-requirements/) to confirm the official baseline and keep crash reporting separate from graphics tuning.
+- Patch 1.0.1 included multiple crash fixes, but that does not establish a universal crash fix or a PC performance fix.
+
+Lowering settings doesn't help?
+
+- Multiple player reports, including reports from high-end GPU owners such as RTX 5080 and RTX 5090 users, still describe low FPS or stuttering at Low settings.
+- If Low and High perform similarly, do not keep promising that another small settings reduction will solve the problem. This pattern may reflect a game-side optimization issue, driver interaction, or another bottleneck, but the current evidence does not verify which one.
+- Reproduce the issue with the same short scene or match, test native resolution and one upscaler at a time, record the hardware/driver/build, and use that evidence for a targeted support report.
+
 Frame Generation / DLSS current reliability boundary
 - Current Steam/Reddit reports show DLSS/Frame Generation can fail to increase FPS or behave inconsistently on some systems. Treat Frame Generation as an experimental, per-system test.
 - Community workarounds such as NVIDIA Smooth Motion / NVIDIA App overrides exist for some hardware, but these are experimental community approaches, not IllFonic fixes — do not make them your default recommendation.
@@ -117,7 +162,7 @@ Story Mode vs multiplayer testing note
 
 Patch 1.0.1 performance status (Sept 8)
 - IllFonic’s Patch 1.0.1 lists crossplay fixes, NPC pathing, challenge/achievement tracking fixes, stamina/balance changes, escape discovery changes, various crash fixes, and multiple gameplay/bug fixes.
-- Patch 1.0.1 does not document a broad PC FPS optimization pass, DLSS/frame-generation fix, shader-stutter overhaul, or a general graphics setting rework. It includes crash fixes, but players should not assume the Day One Patch guarantees stable 60 FPS.
+- Patch 1.0.1 does not list a PC performance optimization fix. It does not document a broad PC FPS optimization pass, DLSS/frame-generation fix, shader-stutter overhaul, or a general graphics setting rework. It includes crash fixes, but players should not assume the Day One Patch guarantees stable 60 FPS.
 
 What is still unknown / not proven
 - Exact FPS for any specific GPU/CPU combination.

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "hotword-publish-receipt-v1",
+  "common": {
+    "site": "Halloween: The Game",
+    "siteId": "halloween-the-game",
+    "game": "Halloween: The Game",
+    "batchId": "halloween-the-game|pc-best-settings-fps|20260911",
+    "lifecyclePhase": "released",
+    "attributionMode": "OBSERVATIONAL_ONLY",
+    "sourceRefs": [
+      "halloween-best-settings-fps-research-pack-20260911.md",
+      "content-jobs/pc-best-settings-fps/intent-brief.json",
+      "content-jobs/pc-best-settings-fps/job.json",
+      "site-input/pages/pc/best-settings-fps.md",
+      "site-spec.yaml"
+    ]
+  },
+  "interventions": [
+    {
+      "interventionId": "halloween-the-game|pc-best-settings-fps|refresh-20260911",
+      "action": "UPDATE_PAGE",
+      "primaryUrl": "/pc/best-settings-fps/",
+      "affectedUrls": [
+        "/pc/best-settings-fps/"
+      ],
+      "reason": "Refresh the existing PC best settings / FPS owner with the supplied launch-performance evidence, symptom separation, evidence-aware settings table, high-end low-FPS boundary, and Patch 1.0.1 freshness status.",
+      "triggerType": "operator_request",
+      "triggerSummary": "Bounded Research Pack update via Shared Article Writer update mode; no new low-FPS, stutter, or performance page."
+    }
+  ]
+}

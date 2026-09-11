@@ -760,7 +760,7 @@ pages:
       - best-settings-fps
       - pc-optimization
       - graphics-settings
-    quickAnswer: "Start with Ray Tracing Off and Motion Blur Off, then use a 60 FPS cap as a tested stability baseline—not an official guarantee. Lower Shadows, GI, Reflections, Effects, Foliage, and Shading before Textures/View Distance. Test upscaling deliberately; do not assume Frame Generation will fix low FPS. Patch 1.0.1 is not a documented broad PC FPS fix. Test Story and multiplayer separately."
+    quickAnswer: "Start at native resolution with Motion Blur and Ray Tracing Off, then use a 60 FPS cap as a tested stability baseline—not an official guarantee. Lower Shadows, GI, Reflections, Effects, Foliage, and Shading before Textures/View Distance. If the GPU is the bottleneck, test one upscaler at a time; do not assume Frame Generation will fix low FPS. Patch 1.0.1 does not list a PC performance optimization fix. Test Story and multiplayer separately."
     eyebrow: "Best Settings / FPS"
     facts:
       - label: "First cuts"
@@ -779,7 +779,7 @@ pages:
         type: related
       - pageId: steam-deck
         type: related
-    changeSummary: "CREATE — current-build PC best settings / FPS troubleshooting owner from Graphics/FPS Evidence Pack."
+    changeSummary: "UPDATE — freshness pass for the existing PC best settings / FPS owner: symptom split, evidence-aware settings table, high-end low-FPS boundary, and Patch 1.0.1 status."
   - id: early-access-release-time
     title: "What time did Halloween the Game come out? Early Access & launch times (PT)"
     description: "Halloween: The Game released Tuesday, September 8, 2026 at 9:00 AM PT. Digital Deluxe Early Access began September 4, 2026 at 9:00 AM PT."

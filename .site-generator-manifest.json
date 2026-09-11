@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "templateVersion": "2.0.0",
   "generatorVersion": "1.0.0",
-  "specHash": "94ecc39d693281d3c711ff2250d70925d308fcd730d7c41e0485e34577fecee4",
+  "specHash": "683d14aeddbc200361adb4b05c552062c436b4a2131ba0ead492394957e5050b",
   "siteId": "halloween-the-game",
   "createdFromSpec": "site-spec.yaml",
   "managedFiles": [
@@ -438,7 +438,7 @@
     },
     {
       "path": "src/content/docs/pc-guides/pc/best-settings-fps.md",
-      "sha256": "1e87551785ac6ad8eade73823aa6e5f3913a16b997947281a6bba07d8abd232d",
+      "sha256": "16277d56ba0150e51b2cf445f8c37e0cb1d9ffce431e9fffaac4effb71a4b8be",
       "kind": "page"
     },
     {
