@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "hotword-publish-receipt-v1",
+  "common": {
+    "site": "Halloween: The Game",
+    "siteId": "halloween-the-game",
+    "game": "Halloween: The Game",
+    "releaseDate": "2026-09-08",
+    "lifecyclePhase": "released",
+    "batchId": "halloween-the-game|adsense-ads-txt|20260911",
+    "attributionMode": "OBSERVATIONAL_ONLY",
+    "sourceRefs": [
+      "public/ads.txt",
+      "site-spec.yaml"
+    ]
+  },
+  "interventions": [
+    {
+      "action": "OTHER",
+      "primaryUrl": "/ads.txt",
+      "affectedUrls": [
+        "/ads.txt"
+      ],
+      "triggerType": "operator_request",
+      "triggerSummary": "Publish the supplied Google AdSense authorized-seller record.",
+      "reason": "Make the supplied AdSense publisher authorization available at the production site root."
+    }
+  ]
+}
