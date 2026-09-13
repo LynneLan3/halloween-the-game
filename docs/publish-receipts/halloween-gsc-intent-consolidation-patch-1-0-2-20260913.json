@@ -23,9 +23,9 @@
     {
       "interventionId": "halloween-the-game|arrest-canonical-redirect|20260913",
       "action": "REDIRECT",
-      "primaryUrl": "/michael-myers/how-to-arrest/",
+      "primaryUrl": "/how-to-arrest-michael-myers/",
+      "redirectFrom": "/michael-myers/how-to-arrest/",
       "affectedUrls": [
-        "/michael-myers/how-to-arrest/",
         "/how-to-arrest-michael-myers/"
       ],
       "reason": "Consolidate the historical Arrest URL into the existing canonical owner with a permanent exact 301.",
