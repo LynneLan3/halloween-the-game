@@ -1,8 +1,8 @@
 # Halloween: The Game Perk Cards — 51-Card Live List, Decks, Rolls & Upgrades
-Checked Sep. 8, 2026
+Checked Sep. 13, 2026
 
 ## Quick Answer
-Perk Cards are the Civilian customization system you roll into and collect with Perk Points: completing matches awards Perk Points, spending Points rolls randomized Perk Cards, owned cards make a Perk Deck, and Perk Points can temporarily upgrade owned cards for a set number of matches. Decks hold up to 15 cards but those 15 are not all active at once — in-match selection is randomized. Launch-build community reporting shows players are offered three-card choices at progression/XP thresholds (see Launch-build Corroborated Mechanics). There are 51 perk-card names currently documented in live sources (dated below); IllFonic has not published a canonical full-pool count. (See Version and Evidence Boundary for source labeling and unknowns.)
+Perk Cards are the Civilian customization system you roll into and collect with Perk Points: completing matches awards Perk Points, spending Points rolls randomized Perk Cards, owned cards make a Perk Deck, and Perk Points can temporarily upgrade owned cards for a set number of matches. Decks hold up to 15 cards but those 15 are not all active at once — in-match selection is randomized. Launch-build community reporting shows players are offered three-card choices at progression/XP thresholds (see Launch-build Corroborated Mechanics). There are 51 perk-card names currently documented in live sources (dated below); IllFonic has not published a canonical full-pool count. Patch 1.0.2 lowered Lethal Pitch effectiveness in Tiers 2, 3, 4, and 5; no numeric values or scaling details were published.
 
 ## How Perk Cards Work
 - Perk Cards: rollable, collectible items that grant gameplay modifiers when equipped in civilian Perk Decks. (Official progression/customization overview.)
@@ -19,6 +19,11 @@ These are the official Perk-related deltas only; exact numeric details and other
 - Temporary upgrades: you can spend Perk Points to temporarily upgrade an owned card for a set number of matches; the temporary-upgrade duration is confirmed to exist, exact match count is unknown.
 - In-match randomness: in-match card selection is randomized so the same saved deck will not necessarily produce identical choices every match. (Verified.)
 - Corroborated launch-build behaviors (labeled below): at progression/XP thresholds inside matches players were shown three cards and chose one; dead or escaped players can add perks to living teammates via support minigames. These behaviors are corroborated by launch-build community reporting (see How the 15-Card Deck Works).
+
+## Patch 1.0.2 — Lethal Pitch adjustment (Sep. 11, 2026)
+
+- Official Patch 1.0.2 notes confirm that Lethal Pitch effectiveness was lowered at Tiers 2, 3, 4, and 5.
+- The notes do not publish percentages, numeric values, or scaling details. Treat those details as UNKNOWN and verify only in your own current-build sessions.
 
 ## 51-Card Live List
 Note: this is a live-documented 51-name pool compiled from community and documentation sources as of Sep. 8, 2026. It is not an official statement from the developer about a canonical total.
@@ -181,6 +186,7 @@ What Happens Next (practical next actions)
 1. If you’re collecting: prioritize rolling for cards that match a chosen loadout role (see Perks by Role) and use temporary upgrades on a card you want active short-term.
 2. If you’re building decks: assemble up to 15 cards that cover your common match tasks (escape, repair, combat) and save multiple presets for different roles.
 3. If you’re experimenting: use Scrap to recycle unwanted cards; community and secondary reports indicate Scrap returns Perk Points, but the exact refund amount and formula are unknown — track refunds yourself to learn current behavior in your session.
+4. If you use Lethal Pitch, account for the Patch 1.0.2 reduction in Tiers 2–5 and confirm current behavior in your own matches before prioritizing it.
 
 ## FAQ
 Q: How many perk cards are there?
@@ -198,13 +204,16 @@ A: Temporary upgrades last a set number of matches; exact match duration is unkn
 Q: What happens if my deck has fewer than 15 cards?
 A: Community reporting shows random filler cards may appear if a deck has fewer than 15, but that behavior is corroborated and not guaranteed across patches.
 
+Q: What changed for Lethal Pitch in Patch 1.0.2?
+A: Official notes confirm that Lethal Pitch effectiveness was lowered at Tiers 2, 3, 4, and 5. The developer did not publish percentages, numeric values, or scaling details.
+
 See also
 - [Progression & Perks]({{page:progression-perks}})
 - [Playable Characters]({{page:characters-hub}})
 - [Civilian Tier List]({{page:civilian-tier-list}})
 - [Multiplayer]({{page:multiplayer-hub}})
 
-## Version and Evidence Boundary (checked Sep. 8, 2026)
+## Version and Evidence Boundary (checked Sep. 13, 2026)
 What is verified (developer or clearly documented):
 - Perk Cards are a civilian customization system.
 - Completing matches supplies Perk Points.
@@ -212,6 +221,7 @@ What is verified (developer or clearly documented):
 - Temporary upgrades exist and last a set number of matches.
 - Owned cards can be assembled into Perk Decks and equipped to loadouts.
 - In-match selection is randomized, so the same loadout does not produce an identical match every time.
+- Patch 1.0.2 (Sep. 11, 2026) lowered Lethal Pitch effectiveness at Tiers 2, 3, 4, and 5; numeric values and scaling details were not published.
 Sources: Official Progression and Customization Overview (developer), plus current live-documented card lists and community guides.
 
 What is corroborated by launch-build community reporting (labeled as such above):
@@ -235,5 +245,6 @@ Unknown / Needs verification (do not present as fact):
 - Community-documented card list (example) — https://mobalytics.gg/gamebase/guides/halloween-the-game-all-perk-cards-overview
 - Launch-build deck mechanics corroboration — https://allthings.how/how-perk-decks-and-challenges-work-in-halloween-the-game/
 - Civilian trait corroboration — https://allthings.how/every-civilian-s-stats-and-traits-in-halloween-the-game/
+- Patch 1.0.2 notes — https://steamdb.info/patchnotes/25243932/
 
-Checked Sep. 8, 2026 — use this page as a living reference and cross-check with official updates for future patch changes.
+Checked Sep. 8–13, 2026 — use this page as a living reference and cross-check with official updates for future patch changes.

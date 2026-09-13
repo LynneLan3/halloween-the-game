@@ -54,6 +54,11 @@
       "source": "/routes/maps/",
       "destination": "/maps/",
       "permanent": true
+    },
+    {
+      "source": "/michael-myers/how-to-arrest/",
+      "destination": "/how-to-arrest-michael-myers/",
+      "statusCode": 301
     }
   ]
 }

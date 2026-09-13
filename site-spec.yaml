@@ -892,7 +892,6 @@ pages:
     role: core
     intents:
       - progression-perks
-      - perk-cards
     quickAnswer: "Progression uses four XP tracks — Profile, Killer, Civilian, and Weapon — earned from story, private AI matches, and online 1v4. Civilians roll Perk Cards into Perk Decks; Michael uses 2 starting traits plus 3 selectable abilities, with progression unlocking abilities, weapons, executions, and cosmetics."
     eyebrow: "Progression"
     facts:
@@ -916,10 +915,10 @@ pages:
         type: related
       - pageId: multiplayer-how-it-works
         type: related
-    changeSummary: "INTENT EXPANSION — Progression and perks guide."
+    changeSummary: "Intent consolidation — progression/unlock owner; detailed card, deck, named-perk, and balance ownership routes to /perk-cards/."
   - id: perk-cards
     title: "Halloween: The Game Perk Cards — 51-Card Live List, Decks, Rolls & Upgrades"
-    description: "A dated database of 51 currently documented live Perk Cards, plus Civilian deck choices, rolls, temporary upgrades, and the details that remain unconfirmed."
+    description: "A dated database of 51 currently documented live Perk Cards, Civilian deck choices, rolls, temporary upgrades, and Patch 1.0.2 Lethal Pitch notes without unpublished numbers."
     category: progression
     slug: perk-cards
     source: site-input/pages/perk-cards.md
@@ -932,7 +931,7 @@ pages:
       - halloween-perk-list
       - halloween-perk-deck
       - how-perk-cards-work
-    quickAnswer: "Perk Cards are a Civilian customization system: matches supply Perk Points, points roll randomized cards, and owned cards make decks. A dated live list documents 51 cards, but IllFonic has not published an official canonical pool count."
+    quickAnswer: "Perk Cards are a Civilian customization system: matches supply Perk Points, points roll randomized cards, and owned cards make decks. A dated live list documents 51 cards, but IllFonic has not published an official canonical pool count. Patch 1.0.2 lowered Lethal Pitch effectiveness at Tiers 2–5; numeric details are not published."
     eyebrow: "Perk Cards"
     facts:
       - label: "Current dated list"
@@ -950,7 +949,7 @@ pages:
         type: related
       - pageId: multiplayer-hub
         type: related
-    changeSummary: "P0.5 — dated Perk Cards database and deck-mechanics owner with explicit evidence boundaries."
+    changeSummary: "Intent consolidation — Perk Cards/decks/named perks owner; Patch 1.0.2 Lethal Pitch effectiveness update with numeric details left UNKNOWN."
   - id: best-perks-builds
     title: "Halloween: The Game — Best Perks & Builds (Patch 1.0.1)"
     description: "Choose practical Civilian perk builds for starting, escaping, countering Michael, repairing objectives, and supporting Residents or Police without treating recommendations as an official tier list."
@@ -1309,7 +1308,7 @@ pages:
 
   - id: story-challenges-chapter-2-challenge-6
     title: "Halloween: The Game Chapter 2 Challenge 6 — No-Alert Attempt Guide"
-    description: "Bounded troubleshooting and the best-supported attempt for Chapter 2 Challenge 6. Includes the exact objective, the strongest current attempt pattern (Surprise on Eric, Tanya, Rachel + no red alert + finish chapter), Patch 1.0.1 tracking status, and what to do when a clean run doesn't register."
+    description: "Bounded troubleshooting and the best-supported attempt for Chapter 2 Challenge 6. Includes the exact objective, the strongest current attempt pattern (Surprise on Eric, Tanya, Rachel + no red alert + finish chapter), Patch 1.0.2 tracking status, and what to do when a clean run doesn't register."
     category: story-guides
     slug: challenges/chapter-2-challenge-6
     source: site-input/pages/challenges/chapter-2-challenge-6.md
@@ -1321,16 +1320,16 @@ pages:
       - chapter-2-challenge-6
       - chapter-2-challenge-6-not-working
       - complete-chapter-without-alerting-anyone
-      - patch-1-0-1-challenge-tracking
-    quickAnswer: "Complete the chapter without alerting anyone. Strongest current attempt: Surprise on Eric, Tanya, and Rachel, no red alert, finish the chapter, then check registration. Patch 1.0.1 improved tracking but did not eliminate all outliers; some clean post-patch runs still fail to register."
+      - patch-1-0-2-challenge-tracking
+    quickAnswer: "Patch 1.0.2 fixed an issue where certain executions counted as alerting someone. Strongest current attempt: Surprise on Eric, Tanya, and Rachel, no red alert, finish the chapter, then check registration. This specific fix does not prove every failure mode is eliminated."
     eyebrow: "Chapter 2 Challenge 6"
     facts:
       - label: "Objective"
         value: "Complete the chapter without alerting anyone"
       - label: "Best-supported attempt"
         value: "Surprise on Eric/Tanya/Rachel + no red alert + finish chapter"
-      - label: "Patch 1.0.1"
-        value: "Tracking improved; outliers may remain"
+      - label: "Patch 1.0.2"
+        value: "Certain execution-alert miscounts fixed; other outliers remain UNKNOWN"
       - label: "Unproven"
         value: "Tier 3 Stalk, Normal/Hard, Slab/Rachel order are anecdotal only"
     coverAssetId: michael-singleplayer-haddonfield
@@ -1341,7 +1340,7 @@ pages:
         type: related
       - pageId: story-challenges-chapter-4-challenge-6
         type: related
-    changeSummary: "Chapter 2 Challenge 6 owner — bounded no-alert attempt + Patch 1.0.1 tracking status via Shared Article Writer."
+    changeSummary: "Chapter 2 Challenge 6 owner — bounded no-alert attempt + Patch 1.0.2 execution-alert fix via Shared Article Writer."
 
   - id: story-challenges-chapter-4-challenge-6
     title: "Halloween: The Game Chapter 4 Challenge 6 — Movie-Accurate Guide"

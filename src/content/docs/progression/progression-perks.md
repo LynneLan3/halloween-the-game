@@ -11,7 +11,6 @@ sidebar:
   order: 4
 intents:
   - progression-perks
-  - perk-cards
 quickAnswer: "Progression uses four XP tracks — Profile, Killer, Civilian, and Weapon — earned from story, private AI matches, and online 1v4. Civilians roll Perk Cards into Perk Decks; Michael uses 2 starting traits plus 3 selectable abilities, with progression unlocking abilities, weapons, executions, and cosmetics."
 relations:
   -
@@ -36,7 +35,7 @@ coverMedia:
   aspectRatio: 16:9
   sourceLabel: Official
   sourceUrl: https://a.storyblok.com/f/286129504682394/3840x2160/f0e80a2ba0/po-perk-cards.jpg
-changeSummary: "INTENT EXPANSION — Progression and perks guide."
+changeSummary: "Intent consolidation — progression/unlock owner; detailed card, deck, named-perk, and balance ownership routes to /perk-cards/."
 eyebrow: Progression
 facts:
   -
@@ -93,28 +92,14 @@ Michael unlocks and loadout
 - Progression unlocks tied to Michael: new abilities, additional starting weapons (and earnable tints), executions, and Killer skins/tints.  
 - Cosmetic and progression systems are accessed through the character/loadout UI shown above; exact ability lists, unlock order, and numerical ability values are not fully published.
 
-Civilian perks, decks, and customization
+Civilian perks and decks (brief)
 ![Official Halloween: The Game Perk Cards menu showing deck slots and Barricade perk details](../../../assets/covers/progression/po-perk-cards.jpg)  
 *Official Progression & Customization screenshot of the Civilian Perk Cards UI and deck builder.*
 
-- Civilian stats (names only): Athleticism, Personality, Resourcefulness, Capability. (No public numeric values are published.)  
-- Perk Points and Perk Cards:
-  1. Completing matches grants Perk Points.  
-  2. Perk Points are spent to roll for Perk Cards; rolls are randomized so matches vary.  
-  3. Spending more Perk Points increases the odds of rolling higher‑rarity cards.  
-  4. Perk Points can temporarily upgrade owned cards for a limited number of matches.  
-  5. Players place chosen Perk Cards into Perk Decks that are equipped to Civilian loadouts.
-- Civilian customization also includes outfits (with tints), hair/headwear, eyewear, and makeup/blemishes, plus unlockable starting items. Perk Decks are the primary gameplay customization for Civilians and are built from rolled Perk Cards; the developer has not published a complete public list of every Perk Card or their numeric values.
+- Completing matches grants Perk Points, which players spend on randomized Perk Card rolls; owned cards can be placed into Perk Decks equipped to Civilian loadouts.
+- Exact card effects, deck construction, named perks, and balance changes belong to /perk-cards/. The full roster and numeric values remain unconfirmed.
 
 For practical role-based recommendations, see [Best Perks & Builds](/best-perks-builds/). This decision guide is separate from this page's progression and Perk system reference.
-
-Patch 1.0.1 — Perks & progression deltas
-
-- A Perk Deck can contain at most two copies of the same Perk. Existing Perk Decks over that limit were automatically unequipped to comply.
-- XP required for the initial in-game Perk Rolls increased; the official notes do not give the exact XP amounts.
-- A Perk-rolling menu lock issue was fixed.
-
-Do not infer roll costs, rarity odds, or duplicate stacking behavior beyond the official two-copy deck limit.
 
 Profile cards (brief)
 ![Official Halloween: The Game player customization screen](../../../assets/covers/progression/po-player-customization.jpg)  
@@ -135,6 +120,10 @@ Related guides
 - [Playable Characters — Hub](/characters/)  
 - [Multiplayer: How It Works](/multiplayer/how-multiplayer-works/)  
 - [Guide Hub](/)
+
+Perk ownership
+- This page owns progression tracks, unlocks, prestige, and the brief Perk Points → Perk Cards → Perk Decks flow.
+- For the card list, deck rules, named perks, and Patch 1.0.2 balance changes, use /perk-cards/.
 
 Sources
 - [Progression & Customization overview — Halloween: The Game](https://halloweengame.com/news/progression-customization-overview/)  

@@ -887,7 +887,7 @@ export const siteConfig: GameConfig = {
 			slug: "progression-perks",
 			role: "core",
 			assetType: "article",
-			intents: ["progression-perks", "perk-cards"],
+			intents: ["progression-perks"],
 			relations: [
 				{
 					pageId: "michael-myers-hub",
@@ -1206,7 +1206,7 @@ export const siteConfig: GameConfig = {
 			slug: "challenges/chapter-2-challenge-6",
 			role: "core",
 			assetType: "article",
-			intents: ["chapter-2-challenge-6", "chapter-2-challenge-6-not-working", "complete-chapter-without-alerting-anyone", "patch-1-0-1-challenge-tracking"],
+			intents: ["chapter-2-challenge-6", "chapter-2-challenge-6-not-working", "complete-chapter-without-alerting-anyone", "patch-1-0-2-challenge-tracking"],
 			relations: [
 				{
 					pageId: "story-challenges",
@@ -1462,7 +1462,7 @@ export const siteConfig: GameConfig = {
 					pageId: "story-challenges-chapter-2-challenge-6",
 					href: "/challenges/chapter-2-challenge-6/",
 					title: "Halloween: The Game Chapter 2 Challenge 6 — No-Alert Attempt Guide",
-					description: "Bounded troubleshooting and the best-supported attempt for Chapter 2 Challenge 6. Includes the exact objective, the strongest current attempt pattern (Surprise on Eric, Tanya, Rachel + no red alert + finish chapter), Patch 1.0.1 tracking status, and what to do when a clean run doesn't register.",
+					description: "Bounded troubleshooting and the best-supported attempt for Chapter 2 Challenge 6. Includes the exact objective, the strongest current attempt pattern (Surprise on Eric, Tanya, Rachel + no red alert + finish chapter), Patch 1.0.2 tracking status, and what to do when a clean run doesn't register.",
 					eyebrow: "Chapter 2 Challenge 6",
 					image: "covers/michael/singleplayer-haddonfield.jpg",
 				},
@@ -1511,7 +1511,7 @@ export const siteConfig: GameConfig = {
 					pageId: "perk-cards",
 					href: "/perk-cards/",
 					title: "Halloween: The Game Perk Cards — 51-Card Live List, Decks, Rolls & Upgrades",
-					description: "A dated database of 51 currently documented live Perk Cards, plus Civilian deck choices, rolls, temporary upgrades, and the details that remain unconfirmed.",
+					description: "A dated database of 51 currently documented live Perk Cards, Civilian deck choices, rolls, temporary upgrades, and Patch 1.0.2 Lethal Pitch notes without unpublished numbers.",
 					eyebrow: "Perk Cards",
 				},
 				{

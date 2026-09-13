@@ -1,0 +1,82 @@
+{
+  "schemaVersion": "hotword-publish-receipt-v1",
+  "common": {
+    "site": "Halloween: The Game",
+    "siteId": "halloween-the-game",
+    "game": "Halloween: The Game",
+    "batchId": "halloween-the-game|gsc-intent-consolidation-patch-1-0-2|20260913",
+    "lifecyclePhase": "released",
+    "attributionMode": "OBSERVATIONAL_ONLY",
+    "sourceRefs": [
+      "Halloween_GSC_Cannibalization_Live_Problem_Research_Pack_2026-09-13.md",
+      "site-spec.yaml",
+      "vercel.json",
+      "site-input/pages/multiplayer.md",
+      "site-input/pages/progression-perks.md",
+      "site-input/pages/perk-cards.md",
+      "site-input/pages/challenges/chapter-2-challenge-6.md"
+    ],
+    "writerModel": "gpt-5-mini",
+    "writerPipeline": "shared-dev-skills/article-writer/scripts/shared-article-writer.mjs"
+  },
+  "interventions": [
+    {
+      "interventionId": "halloween-the-game|arrest-canonical-redirect|20260913",
+      "action": "REDIRECT",
+      "primaryUrl": "/michael-myers/how-to-arrest/",
+      "affectedUrls": [
+        "/michael-myers/how-to-arrest/",
+        "/how-to-arrest-michael-myers/"
+      ],
+      "reason": "Consolidate the historical Arrest URL into the existing canonical owner with a permanent exact 301.",
+      "triggerType": "operator_request",
+      "triggerSummary": "GSC intent consolidation from the supplied Research Pack; no duplicate Arrest page retained."
+    },
+    {
+      "interventionId": "halloween-the-game|multiplayer-intent-consolidation|20260913",
+      "action": "UPDATE_PAGE",
+      "primaryUrl": "/multiplayer/",
+      "affectedUrls": [
+        "/multiplayer/",
+        "/multiplayer/how-multiplayer-works/"
+      ],
+      "reason": "Keep the Multiplayer Hub lean and route the complete 1v4 loop answer to its existing owner.",
+      "triggerType": "operator_request",
+      "triggerSummary": "Bounded Shared Writer update; no new multiplayer URL."
+    },
+    {
+      "interventionId": "halloween-the-game|progression-perk-ownership|20260913",
+      "action": "UPDATE_PAGE",
+      "primaryUrl": "/progression-perks/",
+      "affectedUrls": [
+        "/progression-perks/",
+        "/perk-cards/"
+      ],
+      "reason": "Keep progression, unlocks, and how perks work on the progression owner while routing detailed card and balance intent to Perk Cards.",
+      "triggerType": "operator_request",
+      "triggerSummary": "Bounded Shared Writer update; no new Lethal Pitch page."
+    },
+    {
+      "interventionId": "halloween-the-game|perk-cards|patch-1-0-2-lethal-pitch|20260913",
+      "action": "UPDATE_PAGE",
+      "primaryUrl": "/perk-cards/",
+      "affectedUrls": [
+        "/perk-cards/"
+      ],
+      "reason": "Add the official Patch 1.0.2 Lethal Pitch Tier 2/3/4/5 effectiveness change without inventing unpublished values or scaling.",
+      "triggerType": "operator_request",
+      "triggerSummary": "Research Pack-bounded Shared Writer update with explicit UNKNOWN numeric and scaling boundary."
+    },
+    {
+      "interventionId": "halloween-the-game|chapter-2-challenge-6|patch-1-0-2|20260913",
+      "action": "UPDATE_PAGE",
+      "primaryUrl": "/challenges/chapter-2-challenge-6/",
+      "affectedUrls": [
+        "/challenges/chapter-2-challenge-6/"
+      ],
+      "reason": "Update the challenge owner to Patch 1.0.2 and lead with the official fix for certain execution alert miscounts while preserving remaining uncertainty.",
+      "triggerType": "operator_request",
+      "triggerSummary": "Bounded Shared Writer update; no fully-fixed claim and no sitewide mechanical rewrite."
+    }
+  ]
+}

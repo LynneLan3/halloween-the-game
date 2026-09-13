@@ -55,74 +55,20 @@ facts:
 -->
 **Confirmed:** Halloween: The Game's core online mode is **1 Michael Myers vs 4 Civilians**, supporting **up to 5 online players** per match.
 
-## Match format
+This is the navigation hub. For the complete 1v4 match loop, objectives, detention, player returns, and remaining live-build questions, see /multiplayer/how-multiplayer-works/.
 
-| Role | Players | Goal (high level) |
-| --- | --- | --- |
-| Michael Myers | 1 | Kill residents and priority targets; deny Civilian progress |
-| Civilians | 4 | Save residents, prove Michael is real, escape or detain Michael |
+## Multiplayer guides
 
-Maps include Haddonfield Heights, Town Center, Orange Grove Estates, and East Haddonfield—see /maps/.
-
-## Civilian objectives (confirmed)
-
-IllFonic's multiplayer overview lists Civilians as responsible for:
-
-- **Locating residents** and convincing them Michael is real
-- **Escorting / saving residents**
-- Pursuing **randomized escape options**
-- **Searching items** and contacting **police**
-- Managing **increasing police patrol response**
-- **Commanding / equipping NPCs** where applicable
-- Ultimately **escaping** or helping **overpower / detain Michael**
-
-## Michael objectives (confirmed)
-
-- **Kill residents**
-- **Special Targets** spawn around the map
-- Kill **priority targets** before timers or conditions expire for **rewards**
-
-Ability detail: /michael-myers/abilities/.
-
-## Death is not necessarily the end
-
-**Confirmed:** Eliminated Civilian players can return as **Sheriff's Deputy** or **Dr. Loomis** and continue assisting the surviving team.
-
-Exact return timing and limits remain **UNKNOWN**.
-
-## Replayability (confirmed)
-
-IllFonic emphasizes that:
-
-- **Escape locations vary**
-- **Item locations vary**
-- Strategies therefore **change between matches**
-
-Do not assume fixed routes or spawns—see individual map pages for what remains unverified.
-
-## Related modes & questions
-
+- **How multiplayer works:** /multiplayer/how-multiplayer-works/
 - **Matchmaking / queues:** /multiplayer/matchmaking-queue/
-- **How matches work step by step:** /multiplayer/how-multiplayer-works/
 - **Bots & private lobbies:** /bots-private-lobbies-offline/
+- **Maps and locations:** /maps/
+- **Progression & perks:** /progression-perks/
+- **Perk cards and balance changes:** /perk-cards/
 - **Cross-platform play:** /multiplayer/crossplay/
 - **Match length / timer:** /match-length-timer/
-- **Progression & perks:** /progression-perks/
-- **Offline story (separate mode):** /single-player/
+- **Offline story:** /single-player/
 - **PC / requirements:** /pc/
-
-## Current UNKNOWNs
-
-Not documented in the supplied official release evidence:
-
-- Exact match timer (see /match-length-timer/)
-- Party / invite flow and voice chat defaults
-- Ranked vs casual queue structure
-- Full private lobby feature set and public AI backfill rules (see /multiplayer/matchmaking-queue/)
-
-## Patch 1.0.1 — current status
-
-Patch 1.0.1 shipped with the September 8 release. It addressed the Early Access cross-play party/lobby issue: party members now follow their leader into a matchmade lobby instead of being kicked to the main menu or dropped from the party. It also improves Police NPC pathing, Residents pathing into Escapes, and Civilian Escape discovery distance; increases the pre-match countdown when a Public Match lobby is not full; and enables variable weather properly in Public Matches. These are official launch-day changes, not a guarantee that every related edge case is resolved.
 
 ## Sources
 
