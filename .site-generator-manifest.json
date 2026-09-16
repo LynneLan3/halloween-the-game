@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "templateVersion": "2.0.0",
   "generatorVersion": "1.0.0",
-  "specHash": "1d2c6e006d7a79b60a73b10b9c4de43f31cc589dc1cb8591470ec7c47ef7b375",
+  "specHash": "ffa28f075e56885113bad809b946208530eb7ccdf6670ec458131c82e7d4c91d",
   "siteId": "halloween-the-game",
   "createdFromSpec": "site-spec.yaml",
   "managedFiles": [
@@ -38,7 +38,7 @@
     },
     {
       "path": "src/config/site.generated.ts",
-      "sha256": "e59d54a6e0f24e95e89c129fb2e797e6a94ddaac9dc01cb3fe467364e1cfa005",
+      "sha256": "94b3f045fd17e7b6509b4871960a459b1b8171c866f157ff9db594b8b23066f5",
       "kind": "config"
     },
     {
@@ -68,7 +68,7 @@
     },
     {
       "path": "src/content/docs/index.mdx",
-      "sha256": "eb0f1f7269d093861069f6a39c281cc80161a224c041ddcd6d986f5510ae8af9",
+      "sha256": "aef3f2fb55ab8d5405b0466d71f62b50621648317856576429b3c95a7556355e",
       "kind": "hub"
     },
     {

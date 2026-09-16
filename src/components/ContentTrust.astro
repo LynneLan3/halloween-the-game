@@ -11,7 +11,7 @@ const sources = trust.sources?.filter((source, index, all) => all.findIndex((ite
 {(trust.status || hasDetails) && (
 	<section class="gw-content-trust" aria-labelledby="gw-content-trust-heading">
 		<div class="gw-content-trust__summary">
-			<span id="gw-content-trust-heading" class="gw-content-trust__label">Content trust</span>
+			<span id="gw-content-trust-heading" class="gw-content-trust__label">Guide verification</span>
 			{trust.status && <span class:list={['gw-trust-status', `gw-trust-status--${trust.status}`]}>{trustStatusLabel(trust.status)}</span>}
 			{trust.lastVerified && <span class="gw-content-trust__verified">Verified {formatUiDate(new Date(`${trust.lastVerified}T00:00:00Z`))}</span>}
 		</div>
