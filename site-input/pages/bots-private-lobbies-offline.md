@@ -1,53 +1,72 @@
 ---
-title: "Does Halloween: The Game Have Bots? Private Lobbies & Offline Mode Explained"
-description: "What you can and can't do offline in Halloween: The Game. Confirmed single‑player story, offline bots, and what we know about private lobbies, crossplay, Steam Deck, and Australia status at launch."
+title: "Can you play Halloween: The Game against bots?"
+description: "Private matches against AI are confirmed and an 'Offline Play' feature shipped. Story mode is separate; some bot/menu details remain undocumented."
 category: guides
 slug: bots-private-lobbies-offline
 status: needs-verification
 ---
 
-# Does Halloween: The Game Have Bots? Private Lobbies & Offline Mode Explained
+# Can you play Halloween: The Game against bots?
 
-Confirmed
+Quick answer
 
-- Single‑player Story Mode: Official store copy and developer/press materials list a dedicated single‑player story mode. This is intended for solo play and is explicitly called out in IllFonic/press descriptions. (Source: Steam store / IGN materials.)
+- Yes. IllFonic officially confirms private matches against AI (Progression & Customization overview, 2026-09-02), and an officially named feature called "Offline Play" shipped with a hotfix (Early Access Hotfix 1, 2026-09-05). The game has launched (2026-09-08).  
+- Single‑player story mode is a separate offering from private AI / Offline Play.  
+- What is not officially documented in the sources above: exact menu steps, number of bots, AI difficulty options, whether bots grant XP/progression, whether Offline Play means fully disconnected-from-internet play, or whether online private lobbies automatically use AI backfill.
 
-- Offline Bot Play: IllFonic and show materials around Gamescom confirm that you can play against bots offline. These offline/bot options are described separately from the single‑player story mode — meaning there will be at least one non‑online way to play without other human players. (Source: Official statements summarized in the dev/press materials.)
+Confirmed (first‑party evidence)
 
-Not Announced
+1. Private matches against AI are officially confirmed by IllFonic — see the Progression & Customization overview (2026-09-02).  
+2. A shipped feature named Offline Play is confirmed in the Early Access Hotfix 1 notes (2026-09-05). The hotfix specifically references fixes related to Offline Play and the login queue.  
+3. The game is released: Halloween: The Game launched on 2026-09-08.  
+4. Single‑player story mode exists and is separate from private AI / Offline Play matches (store and developer framing).
 
-- AI Backfill in Private Online Lobbies: Third‑party reporting (Playfront) has described private lobbies with manual or random role assignment, but there is no official IllFonic page explicitly confirming whether private online lobbies can be automatically filled with AI/bots when humans disconnect or to round out teams. Do not assume AI backfill exists until IllFonic or an official storefront page confirms it.
+What remains undocumented / unknown (do not assume)
 
-- Match Timer Rules: No official, published match timer for multiplayer was available at the research cutoff. Community footage has led to speculation about average match lengths, but pre‑release footage should not be treated as final rules. See {{page:match-length-timer}} for ongoing coverage.
+- The exact in‑game menu path or UI labels to start a private AI or Offline Play match.  
+- How many bots appear in a private match or whether you can select bot count.  
+- Available AI difficulty settings or whether role types (Michael, Civilians) can be chosen for AI control.  
+- Whether matches against bots award XP, complete progression challenges, or otherwise count toward regular progression.  
+- Whether Offline Play is equivalent to fully disconnected play (no internet required) — this is not confirmed.  
+- Whether online private lobbies will automatically fill empty human slots with AI (AI backfill) — not confirmed.
 
-- Steam Deck / EAC Compatibility: Valve or IllFonic have not published a Steam Deck Verified/Playable result or a hands‑on EAC compatibility statement. PCGamingWiki lists Easy Anti‑Cheat as middleware, but that alone does not confirm Deck functionality. Do not claim Steam Deck support without hands‑on verification. See {{page:steam-deck}} for the verification checklist.
+Where to look for updates
 
-Secondary / Reported (treat as tentative)
+IllFonic has not published the exact in-game menu path or UI labels for starting a private AI / Offline Play match. For the confirmed availability answer, rely on the Progression & Customization overview (2026-09-02) and Hotfix 1 (2026-09-05). Watch official IllFonic news and patch notes for any later documentation of menu flow, bot settings, or progression rules.
 
-- Private Lobbies (role assignment): Playfront’s reporting describes private lobbies where roles can be manually or randomly assigned by players. This was not yet duplicated on IllFonic’s official pages at the time of research, so treat it as a plausible feature that still needs official confirmation. If private lobbies are important to your group, watch the official storefront or IllFonic channels for confirmation before assuming exact lobby features.
+Single‑player story mode vs private AI / Offline Play
 
-Australia status — Last Verified: 2026‑08‑29
+- The single‑player story mode is a distinct mode intended for solo narrative play. It is separate from private matches that use AI opponents/teammates. Do not conflate the two: the story mode is not the same feature as "Offline Play" or private AI matches.
 
-- Refused Classification (RC): The Australian Classification Board issued a Refused Classification notice for the base game due to in‑game illicit drug use tied to gameplay advantage/reward. IllFonic stated AU/NZ digital and physical sales are blocked while the classification issue stands. There is also secondary reporting that an R18+ IARC listing exists for a Digital Deluxe SKU while the base SKU remains RC — this split is not the same as an official reclassification or a confirmed re‑release. Do not treat the game as "unbanned" in Australia without a final, official reclassification or distribution statement from IllFonic or the Classification Board. (Last Verified: 2026‑08‑29.) See {{page:australia-release-status}} for more.
+Common mistakes to avoid
 
-Helpful links & next steps
+1. Treating "Offline Play" as proof you can run the game fully without an internet connection — that specific behavior is not confirmed.  
+2. Assuming private lobbies will automatically fill empty slots with AI during online sessions — AI backfill is undocumented.  
+3. Presuming bot counts, difficulty settings, or XP/progression behavior for bot matches without testing in‑game or waiting for an official specification.
 
-- If you want Advance Access eligibility details for Deluxe preorders and timing, check {{page:early-access-release-time}} and {{page:standard-vs-deluxe-upgrade}}.
-- For Steam Deck and EAC verification status, follow {{page:steam-deck}} and official Valve/IllFonic updates.
-- For match length and community concerns about session pacing, follow {{page:match-length-timer}}.
-- Official homepage: {{hub}}
+FAQ
 
-Bottom line
+Q: Can I play Halloween: The Game against bots?  
+A: Yes. IllFonic officially confirms private matches against AI and the game ships a named "Offline Play" feature. Exact in‑game controls and settings for those bot matches are not listed in the official posts.
 
-You can expect a solo story mode and offline bot play at launch — those are confirmed. Private lobbies are reported but some online behaviors (AI backfill, specific lobby options) remain unconfirmed by the developer. Keep an eye on official IllFonic posts and storefront updates for definitive notes on private lobby features and any Australia reclassification or Steam Deck verification.
+Q: Is Offline Play the same as single‑player story mode?  
+A: No. Single‑player story mode is separate from private AI / Offline Play matches.
 
-## Sources
+Q: Can I play fully offline (no internet) using Offline Play?  
+A: Unknown. Official sources confirm a feature named Offline Play was shipped, but they do not explicitly state whether the feature allows fully disconnected play. Do not assume fully offline operation until IllFonic confirms.
 
-- [Halloween: The Game — Steam store page](https://store.steampowered.com/app/3219630/Halloween_The_Game/)
-- [Preorder / Official FAQ — Halloween: The Game](https://halloweengame.com/news/preorder/)
-- [IGN interview / single‑player story mode coverage](https://www.ign.com/articles/halloween-revealed-by-friday-the-13th-the-game-developer-ign-interviews-illfonic-on-the-single-player-story-mode-working-with-john-carpenter-and-more)
-- [Playfront report on matchmaking / private lobbies](https://playfront.de/en/halloween-the-game-setzt-auf-rollenbasiertes-matchmaking-mit-token-system-fuer-killer/)
-- [PCGamingWiki — Easy Anti‑Cheat listing (secondary)](https://www.pcgamingwiki.com/wiki/Halloween:_The_Game)
-- [PlayStation store Digital Deluxe listing](https://store.playstation.com/en-us/product/UP3095-PPSA29340_00-HALLOWEENDELUXED)
-- [Xbox Digital Deluxe upgrade store page](https://www.xbox.com/en-US/games/store/halloween-digital-deluxe-upgrade/9mt8jbqs8lnr)
-- [Australian Classification Board reporting via press coverage](https://press-start.com.au/news/playstation/2026/08/14/halloween-the-game-classification-board-statement/)
+Q: Will online private lobbies use AI to fill empty human slots?  
+A: Unknown. The developer has confirmed private matches against AI but has not documented whether online private lobbies automatically receive AI backfill when players are missing.
+
+Related links
+
+- Story mode: [single-player story mode]({{page:single-player-hub}})  
+- Multiplayer overview: [multiplayer]({{page:multiplayer-hub}})  
+- Other reference checks (light pointers): [Steam Deck]({{page:steam-deck}}), [Australia release status]({{page:australia-release-status}}), [match length]({{page:match-length-timer}})  
+- Official homepage: [homepage]({{hub}})
+
+Sources
+
+- [Halloween: The Game — Progression & Customization overview (IllFonic)](https://halloweengame.com/news/progression-customization-overview/) — confirms private matches against AI (2026-09-02).  
+- [Halloween: The Game — Early Access Hotfix 1 (IllFonic)](https://halloweengame.com/news/early-access-hotfix-1/) — confirms an officially named "Offline Play" feature in the shipped hotfix (2026-09-05).  
+- [Halloween: The Game — Launch announcement (IllFonic)](https://halloweengame.com/news/halloween-the-game-out-now/) — confirms release date (2026-09-08).

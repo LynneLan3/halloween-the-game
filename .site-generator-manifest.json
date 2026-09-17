@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "templateVersion": "2.0.0",
   "generatorVersion": "1.0.0",
-  "specHash": "ffa28f075e56885113bad809b946208530eb7ccdf6670ec458131c82e7d4c91d",
+  "specHash": "14ecf18d44d8c4f686cf758b866ddf7690abaf933fae3a29119c14d25353d598",
   "siteId": "halloween-the-game",
   "createdFromSpec": "site-spec.yaml",
   "managedFiles": [
@@ -38,7 +38,7 @@
     },
     {
       "path": "src/config/site.generated.ts",
-      "sha256": "94b3f045fd17e7b6509b4871960a459b1b8171c866f157ff9db594b8b23066f5",
+      "sha256": "5702aa972544b0ccd11e66febefe464b636d17f8f485dd7d17c64fe5a983c07a",
       "kind": "config"
     },
     {
@@ -48,7 +48,7 @@
     },
     {
       "path": "src/content/docs/guides/bots-private-lobbies-offline.md",
-      "sha256": "5ed8b1f77cb7d3f0378f55954e822155ffc47cbed4333119a206c157ed485355",
+      "sha256": "8c8113cf805ad1bafdbdeedae6c800ab4e1285f98d25bad60a63289a708fb71f",
       "kind": "page"
     },
     {

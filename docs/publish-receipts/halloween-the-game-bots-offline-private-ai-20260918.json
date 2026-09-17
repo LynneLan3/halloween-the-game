@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "hotword-publish-receipt-v1",
+  "common": {
+    "site": "Halloween: The Game",
+    "siteId": "halloween-the-game",
+    "game": "Halloween: The Game",
+    "batchId": "halloween-the-game|bots-offline-private-ai|20260918",
+    "lifecyclePhase": "released",
+    "attributionMode": "OBSERVATIONAL_ONLY",
+    "sourceRefs": [
+      "Halloween_Bots_CTR_Research_Pack_2026-09-18.md",
+      "content-jobs/bots-private-lobbies-offline/research.md",
+      "content-jobs/bots-private-lobbies-offline/title-meta-repair.md",
+      "site-input/pages/bots-private-lobbies-offline.md",
+      "site-spec.yaml"
+    ],
+    "writerModel": "gpt-5-mini",
+    "writerPipeline": "shared-dev-skills/article-writer/scripts/shared-article-writer.mjs"
+  },
+  "interventions": [
+    {
+      "interventionId": "halloween-the-game|bots-offline-private-ai|20260918",
+      "action": "UPDATE_PAGE",
+      "primaryUrl": "/bots-private-lobbies-offline/",
+      "affectedUrls": [
+        "/bots-private-lobbies-offline/"
+      ],
+      "reason": "Realign the ranking bots/offline page from pre-launch broad FAQ framing to current Offline Bots / Private AI / Offline Play intent using first-party post-launch evidence, then repair a keyword-stacked Title/Meta into one natural primary search task.",
+      "triggerType": "operator_request",
+      "triggerSummary": "Research Pack OPTIMIZE via Shared Article Writer update + Title/Meta field-level repair; URL unchanged; page moves to COOLDOWN after production.",
+      "baselineDataDate": "2026-09-14"
+    }
+  ]
+}
