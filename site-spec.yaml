@@ -554,8 +554,8 @@ pages:
         type: related
     changeSummary: "Initial APIMart writer pass from launch research packet."
   - id: bots-private-lobbies-offline
-    title: "Does Halloween: The Game Have Bots? Private Lobbies & Offline Mode Explained"
-    description: "What you can and can't do offline in Halloween: The Game. Confirmed single‑player story, offline bots, and what we know about private lobbies, crossplay, Steam Deck, and Australia status at launch."
+    title: "Can you play Halloween: The Game against bots?"
+    description: "Private matches against AI are confirmed and an 'Offline Play' feature shipped. Story mode is separate; some bot/menu details remain undocumented."
     category: guides
     slug: bots-private-lobbies-offline
     source: site-input/pages/bots-private-lobbies-offline.md
@@ -565,24 +565,24 @@ pages:
     role: core
     intents:
       - bots-private-lobbies-offline
-    quickAnswer: "Yes — a single‑player story mode and offline play against bots are confirmed. Private lobbies are reported by third‑party outlets but official details (including whether online private lobbies get AI/bot fill) have not been announced. See the sections below for what is confirmed and what remains unverified."
-    eyebrow: "Multiplayer Modes"
+    quickAnswer: "Yes — IllFonic officially confirms private matches against AI (2026-09-02), and a shipped feature named Offline Play is confirmed in Hotfix 1 (2026-09-05). Single-player story mode is separate. Exact menu path, bot settings, XP rules, fully disconnected play, and online AI backfill remain undocumented."
+    eyebrow: "Offline Bots & Private AI"
     facts:
-      - label: "Single‑player story mode"
-        value: "Confirmed by official Steam description and developer/press materials"
-      - label: "Offline bots"
-        value: "Confirmed — IllFonic/Gamescom materials describe playing against bots offline, separate from story mode"
-      - label: "Private lobbies"
-        value: "Reported by third‑party outlet (Playfront) with manual/random role assignment; treated as secondary until duplicated by an official source"
-      - label: "AI/bot backfill in private online lobbies"
-        value: "Not Announced — no official confirmation available"
+      - label: "Private matches against AI"
+        value: "Confirmed — IllFonic progression overview (2026-09-02)"
+      - label: "Offline Play"
+        value: "Confirmed shipped feature name — Early Access Hotfix 1 (2026-09-05)"
+      - label: "Single-player story mode"
+        value: "Confirmed and separate from private AI / Offline Play"
+      - label: "Menu path / bot settings / no-internet / online AI backfill"
+        value: "Undocumented — not confirmed in the cited first-party posts"
     coverAssetId: halloween-gameplay-1
     relations:
       - pageId: multiplayer-hub
         type: next-step
       - pageId: single-player-hub
         type: related
-    changeSummary: "CONTENT_EXPANSION — linked to multiplayer and single-player pillars."
+    changeSummary: "OPTIMIZE — post-launch Offline Bots / Private AI intent realignment from Research Pack 2026-09-18."
   - id: steam-deck
     title: "Halloween: The Game Steam Deck — Compatibility, Easy Anti-Cheat & Launch Status"
     description: "What is and isn’t known about playing Halloween: The Game on Steam Deck: Easy Anti-Cheat presence, PC requirements, controller support and what to check at launch."
